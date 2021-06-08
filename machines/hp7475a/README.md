@@ -45,7 +45,7 @@ This document outlines a workflow for offline (non-interactive) plotting with th
 
 ## 1. Generate an SVG with Processing
 
-**Summary:** Generate an SVG file using [Processing](https://processing.org/) and its [SVG Library](https://processing.org/reference/libraries/svg/index.html).
+**Summary:** [Processing](https://processing.org/) "is a flexible software sketchbook and a language for learning how to code within the context of the visual arts." In this section, we will generate an SVG file using Processing and its built-in [SVG Library](https://processing.org/reference/libraries/svg/index.html).
 
 1. Download Processing from [here](https://processing.org/download/) and install it in your Applications folder. This tutorial was tested with [Processing v.3.5.4 on Mac OSX 10.15](https://download.processing.org/processing-3.5.4-macosx.zip). 
 2. Create a new sketch (⌘N) and paste in the code below, or download the code from [here](processing/svg_lissajous/svg_lissajous.pde). Save your sketch (⌘S).  
@@ -111,17 +111,21 @@ This SVG file depicts a vector graphic resembling the following:
 
 ## 2. Convert SVG to HPGL with vpype
 
-**Summary:** Convert the SVG to HPGL with [vpype](https://github.com/abey79/vpype), using its export settings for the HP7475A as described [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl). For more information on the HPGL language, here's the complete [HPGL specification](hpgl/HPGL.pdf) (PDF).
+**Summary:** *[vpype](https://github.com/abey79/vpype)* "is an extensible CLI pipeline utility which aims to be the Swiss Army knife for creating, modifying and/or optimizing plotter-ready vector graphics." In this section, we will use vpype to convert the SVG to HPGL—in particular, using its export settings for the HP7475A as described [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl). For more information on the HPGL language, here's the complete [HPGL specification](hpgl/HPGL.pdf) (PDF).
 
 ![Example vpype command](vpype/vpype_command_line.svg)
 
-1. *vpype* requires at least Python 3.6, and Python version 3.9.1 or later is strongly recommended. See [here](https://www.python.org/downloads/mac-osx/) for downloads.
-2. In your Mac's Terminal app, per the instructions [here](https://github.com/abey79/vpype#installation), install the command-line interface for *vpype* using ```pip install vpype```.
-	* (*Actually*, I used ```pip install --user vpype```; the ```--user``` flag ensures that pip installs packages in your home directory instead of to a system directory).
-	* Note that if you are using Python 3.6, you'll also need to install ```pip install dataclasses```. 
-3. Locate the *vpype* binary, e.g. ```cd /Users/golan/Library/Python/3.6/bin/```
-4. Execute the *vpype* command to read the SVG and write HPGL for the HP7475a. You can find a cookbook of recipes [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl), but I used: ```./vpype read /Users/golan/Desktop/60428/DrawingWithMachines/machines/hp7475a/vpype/lissajous.svg write --device hp7475a --page-size letter --landscape /Users/golan/Desktop/60428/DrawingWithMachines/machines/hp7475a/vpype/lissajous.hpgl```
-5. This will produce an HPGL file ([lissajous.hpgl](vpype/lissajous.hpgl)), which, when examined with a text editor, begins something like: 
+1. The preferred way to install vpype is in a dedicated virtual environment running Python 3.9+. We will follow the *vpype* installation instructions for end-users, [here](https://vpype.readthedocs.io/en/latest/install.html). Make sure your computer has at least 1GB of available hard drive space for this virtual environment.
+2. Using your Mac's Terminal app, install Python 3.9: ```brew install python@3.9```
+3. Change directory to the folder in which you'd like to create your virtual environment, e.g. ```cd /Users/golan/Desktop/my-vpype```
+4. Create a new virtual environment in that directory: ```python3.9 -m venv vpype_venv``` . This will create a subdirectory (*vpype_venv*) containing various files. 
+5. Activate the newly created virtual environment: ```source vpype_venv/bin/activate```
+6. Within the virtual environment, install *pip*: ```pip install --upgrade pip```
+7. Within the virtual environment, install *vype*: ```pip install vpype[all]```
+8. You should now be able to run *vpype*: ```vpype --help```
+9. You can also verify that vpype can load (and display!) your SVG: ```vpype read lissajous.svg show```
+10. Execute the *vpype* command to read the SVG and write HPGL formatted for the HP7475a. I used this command: ```vpype read lissajous.svg write --device hp7475a --page-size letter --landscape lissajous.hpgl``` but you can find a cookbook of recipes [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl).
+11. This will produce an HPGL file ([lissajous.hpgl](vpype/lissajous.hpgl)), which, when examined with a text editor, begins something like: 
 
 ```
 IN;DF;PS4;SP1;PU3809,3121;PD4073,3158,4333,3269,4584, [...]
@@ -129,9 +133,9 @@ IN;DF;PS4;SP1;PU3809,3121;PD4073,3158,4333,3269,4584, [...]
 
 **Helpful *vpype* tips** ([explained here](https://github.com/abey79/vpype)): 
 
-* *vpype* can also layout existing vector files with precise control on position, scale and page format
-* *vpype* can also optimize existing SVG files for faster and cleaner plots
-* *vpype* cam alsp be used to create generative artwork directly, generating HPGL from your own Python code.
+* *vpype* can also layout existing vector files with precise control on position, scale and page format.
+* *vpype* can also optimize existing SVG files for faster and cleaner plots.
+* *vpype* can also be used to create generative artwork directly, generating HPGL from your own Python code.
 
 
 ---
