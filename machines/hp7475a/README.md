@@ -47,7 +47,9 @@ This document outlines a workflow for offline (non-interactive) plotting with th
 
 **Summary:** Generate an SVG file using [Processing](https://processing.org/) and its [SVG Library](https://processing.org/reference/libraries/svg/index.html).
 
-The following [Processing sketch](processing/svg_lissajous/svg_lissajous.pde) generates an SVG file of a Lissajous curve. This was created with [Processing v3.5.4](https://processing.org/). 
+1. Download Processing from [here](https://processing.org/download/) and install it in your Applications folder. This tutorial was tested with [Processing v.3.5.4 on Mac OSX 10.15](https://download.processing.org/processing-3.5.4-macosx.zip). 
+2. Create a new sketch (⌘N) and paste in the code below, or download the code from [here](processing/svg_lissajous/svg_lissajous.pde). Save your sketch (⌘S).  
+3. Run the sketch (⌘R). This will generate and export an SVG file of a [Lissajous curve](https://en.wikipedia.org/wiki/Lissajous_curve). You can locate this SVG file by opening the folder containing your sketch (⌘K). 
 
 ```
 // Generate a Lissajous curve, and export it as an SVG file.
@@ -84,9 +86,15 @@ void draw() {
 }
 ```
 
-This produces [an SVG file](processing/svg_lissajous/lissajous.svg) that resembles the following: 
+The resulting [SVG file](processing/svg_lissajous/lissajous.svg) resembles the following: 
 
 ![Screenshot of Processing program generating an SVG of a Lissajous curve](processing/svg_lissajous/svg_lissajous_screenshot.png)
+
+Some additional tips ([explained here](https://processing.org/reference/libraries/svg/index.html)): 
+
+* You can also export a single frame from an animation as an SVG. 
+* Using Processing's 3D renderer, ```beginRaw()``` and ```endRaw()```, you can export SVG Files from 3D geometry.
+* You'll probably want to use ```noLoop()``` or ```exit()``` to terminate the program after you export the SVG.
 
 
 ---
@@ -119,9 +127,6 @@ This produces [an SVG file](processing/svg_lissajous/lissajous.svg) that resembl
 
 
 ## Graveyard
-
-* Download [Inkscape](https://inkscape.org/release/1.1/platforms/). I am using Inkscape v.1.0.2 for OSX (5/24/2021).
-* Download the Inkcut extension for Inkscape. Go to the [Inkcut extension for Inkscape page](https://inkscape.org/~frmdstryr/%E2%98%85inkcut), then click on the Download button (looks like an arrow) to get [this file](https://inkscape.org/gallery/item/12796/inkcut-for-inkscape-2.1.1.tar.gz). A backup is stashed [here](tools/inkcut-for-inkscape-2.1.1.tar.gz). 
 
 Inkcut is an open source application for controlling 2D plotters. It can load SVG files, generate HPGL commands, and transmit these directly to the HP7475A. We follow installation instructions from [here](https://www.codelv.com/projects/inkcut/download/):
 
