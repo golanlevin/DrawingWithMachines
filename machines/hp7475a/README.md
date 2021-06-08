@@ -4,18 +4,18 @@ This document outlines a workflow for offline (non-interactive) plotting with th
 
 #### Contents
 
-* Standalone Testing the HP7475A
-* Testing Connectivity of a Mac to the HP7475A
+* [Standalone Testing the HP7475A](#standalone-testing-the-hp7475a)
+* [Testing Connectivity of a Mac to the HP7475A](h#testing-connectivity-of-a-mac-to-the-hp7475a)
+* [Some Alternate Workflows](#some-alternate-workflows)
 
-1. Generate an SVG with Processing
-2. Convert SVG to HPGL with vpype
-3. Transmit HPGL to HP7475A with Chiplotle
+1. [Generate an SVG with Processing](#1-generate-an-svg-with-processing)
+2. [Convert SVG to HPGL with vpype](#2-convert-svg-to-hpgl-with-vpype)
+3. [Transmit HPGL to HP7475A with Chiplotle](#3-transmit-hpgl-to-hp7475a-with-chiplotle)
+
 
 ---
 
-## Workflow Summary
-
-#### Standalone Testing the HP7475A:
+## Standalone Testing the HP7475A:
 
 1. **Plug in** the HP7475A plotter to 120VAC wall power.
 2. **Load** the plotter carousel with 6 pens. You'll need to depress the carousel's spring-loaded black rubber pen-caps in order to insert the pens.
@@ -25,7 +25,9 @@ This document outlines a workflow for offline (non-interactive) plotting with th
 ![HP7475A demonstration plot](manuals/7475a_demonstration_plot.png)
 
 
-#### Testing Connectivity of a Mac to the HP7475A:
+---
+
+## Testing Connectivity of a Mac to the HP7475A:
 
 1. **Connect** the USB to Serial Cable Adapter (USB-A to DB9 male) to your Mac. The STUDIO has a Sabrent cable which is known to work. (If your Mac uses USB-C, you may need to pre-pend a USB-C to USB-A adapter.)
 2. **Verify** that the serial adapter is visible to your Mac's operating system, by opening the Terminal app and typing ```ls /dev/tty.*```. You should see something similar to ```/dev/tty.usbserial-A101768Y``` among the listed results.
@@ -39,17 +41,11 @@ This document outlines a workflow for offline (non-interactive) plotting with th
 9. In response to the command, the HP7475A plotter should Initialize Set Instruction (```IN;```) and Select Pen #1 (```SP1;```). 
 
 
-#### Summary of Preparing and Plotting Files on the HP7475A:
-
-These steps are summarized here and explained in greater detail in the next sections.
-
-1. **Generate** an SVG file using [Processing](https://processing.org/) and its [SVG Library](https://processing.org/reference/libraries/svg/index.html).
-2. **Convert** the SVG to HPGL with [vpype](https://github.com/abey79/vpype), using its export settings for the HP7475A as described [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl).
-3.  **Transmit** the HPGL to the HP7475A plotter using the "HPGL Pipeline" in [Chiplotle](http://sites.music.columbia.edu/cmc/chiplotle/manual/index.html), as described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline).
-
 ---
 
 ## 1. Generate an SVG with Processing
+
+**Summary:** Generate an SVG file using [Processing](https://processing.org/) and its [SVG Library](https://processing.org/reference/libraries/svg/index.html).
 
 The following [Processing sketch](processing/svg_lissajous/svg_lissajous.pde) generates an SVG file of a Lissajous curve. This was created with [Processing v3.5.4](https://processing.org/). 
 
@@ -97,7 +93,17 @@ This produces [an SVG file](processing/svg_lissajous/lissajous.svg) that resembl
 
 ## 2. Convert SVG to HPGL with vpype
 
+**Summary:** Convert the SVG to HPGL with [vpype](https://github.com/abey79/vpype), using its export settings for the HP7475A as described [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl).
 
+
+---
+
+## 3. Transmit HPGL to HP7475A with Chiplotle
+
+**Summary:** Transmit the HPGL to the HP7475A plotter using the "HPGL Pipeline" in [Chiplotle](http://sites.music.columbia.edu/cmc/chiplotle/manual/index.html), as described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline).
+
+
+---
 
 ## Some Alternate Workflows
 
