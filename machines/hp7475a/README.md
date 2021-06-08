@@ -1,6 +1,15 @@
 # Plotting with the HP7475A
 
-This document outlines a workflow for plotting with the STUDIO for Creative Inquiry's HP7475A, using Processing and from a Mac.
+This document outlines a workflow for offline (non-interactive) plotting with the STUDIO for Creative Inquiry's HP7475A, using Processing and from a Mac.
+
+#### Contents
+
+* Standalone Testing the HP7475A
+* Testing Connectivity of a Mac to the HP7475A
+
+1. Generate an SVG with Processing
+2. Convert SVG to HPGL with vpype
+3. Transmit HPGL to HP7475A with Chiplotle
 
 ---
 
@@ -32,12 +41,15 @@ This document outlines a workflow for plotting with the STUDIO for Creative Inqu
 
 #### Summary of Preparing and Plotting Files on the HP7475A:
 
+These steps are summarized here and explained in greater detail in the next sections.
+
 1. **Generate** an SVG file using [Processing](https://processing.org/) and its [SVG Library](https://processing.org/reference/libraries/svg/index.html).
 2. **Convert** the SVG to HPGL with [vpype](https://github.com/abey79/vpype), using its export settings for the HP7475A as described [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl).
 3.  **Transmit** the HPGL to the HP7475A plotter using the "HPGL Pipeline" in [Chiplotle](http://sites.music.columbia.edu/cmc/chiplotle/manual/index.html), as described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline).
 
+---
 
-### Generate an SVG with Processing
+## 1. Generate an SVG with Processing
 
 The following [Processing sketch](processing/svg_lissajous/svg_lissajous.pde) generates an SVG file of a Lissajous curve. This was created with [Processing v3.5.4](https://processing.org/). 
 
@@ -80,9 +92,10 @@ This produces [an SVG file](processing/svg_lissajous/lissajous.svg) that resembl
 
 ![Screenshot of Processing program generating an SVG of a Lissajous curve](processing/svg_lissajous/svg_lissajous_screenshot.png)
 
-#### Execute: 
 
+---
 
+## 2. Convert SVG to HPGL with vpype
 
 
 
