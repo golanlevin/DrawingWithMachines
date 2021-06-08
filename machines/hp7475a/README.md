@@ -5,7 +5,7 @@ This document outlines a workflow for offline (non-interactive) plotting with th
 #### Contents
 
 * [Standalone Testing the HP7475A](#standalone-testing-the-hp7475a)
-* [Testing Connectivity of a Mac to the HP7475A](h#testing-connectivity-of-a-mac-to-the-hp7475a)
+* [Testing Connectivity of a Mac to the HP7475A](#testing-connectivity-of-a-mac-to-the-hp7475a)
 * [Some Alternate Workflows](#some-alternate-workflows)
 
 1. [Generate an SVG with Processing](#1-generate-an-svg-with-processing)
