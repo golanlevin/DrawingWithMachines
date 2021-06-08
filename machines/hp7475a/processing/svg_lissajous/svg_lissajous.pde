@@ -10,10 +10,10 @@ void setup() {
 
 void draw() {
   background(255); 
-  stroke(0);
-  noFill();
-
   beginRecord(SVG, "lissajous.svg");
+  
+  stroke(0); 
+  noFill();
 
   int nPoints = 100;
   float cx = width/2; 
