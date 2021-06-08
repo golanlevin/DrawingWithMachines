@@ -106,9 +106,10 @@ This SVG file depicts a vector graphic resembling the following:
 
 **Helpful tips** ([explained here](https://processing.org/reference/libraries/svg/index.html)): 
 
+* When exporting shapes (like ellipses and rectangles, etc.) to an SVG file, you'll probably want to issue the command ```noFill()```. Otherwise, Processing will export the shape data *twice* (once for the stroke, once for the fill).
+* You'll probably want to use ```noLoop()``` or ```exit()``` to terminate the program after you export the SVG.
 * You can also export a single frame from an animation as an SVG. 
 * Using Processing's 3D renderer, ```beginRaw()``` and ```endRaw()```, you can export SVG Files from 3D geometry.
-* You'll probably want to use ```noLoop()``` or ```exit()``` to terminate the program after you export the SVG.
 
 
 ---
@@ -146,13 +147,43 @@ IN;DF;PS4;SP1;PU3809,3121;PD4073,3158,4333,3269,4584, [...]
 
 ## 3. Transmit HPGL to HP7475A with Chiplotle
 
-***Summary:*** *[Chiplotle](http://sites.music.columbia.edu/cmc/chiplotle/), by Víctor Adán and Douglas Repetto, "is an HPGL plotter driver that implements and extends the HPGL (Hewlett-Packard Graphics Language) plotter control language. It provides direct control of your hardware via a standard usb-to-serial port interface." In this section, we will transmit our HPGL data to the HP7475A plotter using Chiplotle's "HPGL Pipeline", as described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline).*
+***Summary:*** *[Chiplotle](http://sites.music.columbia.edu/cmc/chiplotle/), "is an HPGL plotter driver that implements and extends the HPGL (Hewlett-Packard Graphics Language) plotter control language. It provides direct control of your hardware via a standard usb-to-serial port interface." In this section, we will transmit our HPGL data to the HP7475A plotter using Chiplotle's "HPGL Pipeline", as described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline). Chiplotle was developed by  by Víctor Adán and Douglas Repetto, but we are using a version updates for Python3 by [Will Price](https://github.com/willprice).*
 
+
+1. We will need a version of Python of 3.7 or greater. Using your Mac's Terminal app, install Python 3.9 if you haven't already: ```brew install python@3.9```
+2. Change directory to the folder in which you'd like to create your virtual environment, e.g. ```cd /Users/golan/Desktop/my-chiplotle```
+3. Create a new virtual environment in that directory: ```python3.9 -m venv chip_venv``` . This will create a subdirectory (*chip_venv*) containing various files.
+4. Activate the newly created virtual environment: ```source chip_venv/bin/activate``` (you can exit the virtual environment later with ```deactivate```).
+5. From the virtual environment, install *pip*: ```pip install --upgrade pip```
+6. From [this GitHub repository](https://github.com/willprice/chiplotle), click on the green "CODE" button in the upper right, and download the ZIP file, chiplotle-master.zip. (A backup copy is stashed [here](chiplotle/chiplotle-master.zip).) 
+7. Place the chiplotle-master.zip file in your my-chiplotle directory, and unzip it.
+8. Change into the directory that was just created, e.g. ```cd chiplotle-master```
+9. Install the bundle using: ```sudo python setup.py install```
+10. As per the instructions at [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#), enter the command: ```chiplotle```. You should see a report that looks like this, followed by the ```chiplotle>``` prompt:<br />![Chiplotle welcome report](images/chiplotle-welcome.png)
+11. Let's test our installation of Chiplotle by picking up a pen. At the Chiplotle prompt, enter the following: ```plotter.write(hpgl.SP(1))```
+12. We will now use the Chiplotle HPGL Pipeline, described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline). Issuing the following command at the Chiplotle prompt should cause your HPGL file to be plotted by the HP7475A: ```plotter.write_file('lissajous.hpgl')```
+
+
+#### Corrections:
+
+10. ```pip install six```
+11. replaced gcd with math.gcd in py files lcm.py, star_crisscross.py, per https://github.com/smicallef/spiderfoot/issues/1124
+12. modified ser.readline with decode() in what_plotter_in_port.py , per https://stackoverflow.com/questions/33003498/typeerror-a-bytes-like-object-is-required-not-str
+13. Modified line 77 in of plotters/baseplotter.py to 
+```result.append(c.encode())```
 
 
 **Helpful *Chiplotle* tips**: 
 
 * The complete Chiplotle manual is [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/index.html). 
+* You can write Python code to make generative designs, and call Chiplotle from your Python code to execute them; this is described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#running-chiplotle-from-a-python-script).
+* Some other helpful diagnostic Chiplotle [commands](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/api/plotters.html):
+	* ```plotter.goto_bottom_left()```
+	* ```plotter.goto_top_right()```
+	* ```print(plotter.actual_position)```
+	* ```print(plotter.output_p1p2)```
+	* ```plotter.select_pen(1)``` (grabs pen #1)
+	* ```plotter.select_pen(0)``` (puts pen back)
 
 
 ---
