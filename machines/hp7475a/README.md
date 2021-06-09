@@ -4,6 +4,7 @@
 
 #### Contents
 
+* [HP7475A Tips](#hp7475a-tips)
 * [Standalone Testing the HP7475A](#standalone-testing-the-hp7475a)
 * [Testing Connectivity of a Mac to the HP7475A](#testing-connectivity-of-a-mac-to-the-hp7475a)
 
@@ -15,6 +16,14 @@
 * [Miscellaneous](#miscellaneous)
 
 *(TO DO: Workflows for Inkcut and ofxHPGL.)*
+
+---
+
+## HP7475A Tips
+
+* Don't leave pens in the plotter carousel, and especially don't leave pens in the plotter head. They dry out quickly.
+* When the plotter is not in use, raise the paper clamp lever. 
+
 
 ---
 
