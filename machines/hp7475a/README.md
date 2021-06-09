@@ -159,6 +159,7 @@ IN;DF;PS4;SP1;PU5213,1334;PD5565,1384,5911,1532,6247,1771,6566,2095,6863,2492,71
 * *vpype* can also be used to create generative artwork directly, generating HPGL from your own Python code.
 * The *speed* of the HP7475A plotter can be adjusted from 
 0.38 to 38.1 centimeters/second, using the HPGL ```VS``` command. Pen force can be adjusted with the ```FS``` command. This is documented [here](https://support.hp.com/us-en/document/bpp01673) and in the HP7475A [programming manual](manuals/7475A-InterfacingAndProgrammingManual-07475-90001-274pages-Oct84.pdf) on page 3-3. Vpype allows for an (overall) speed command to be emitted with a file, as documented [here](https://vpype.readthedocs.io/en/stable/reference.html#cmdoption-write-vs), use ```-vs``` to emit a velocity value in mm/sec for the HPGL file.
+* Note that the HP7475A always aligns the internal X axis with the paper's long edge, *even though A4 is loaded landscape and A3 is loaded portrait*. So both are defined with their long edge as the first dimension.
 * As usual, Paul Bourke has some excellent [HPGL documentation](http://paulbourke.net/dataformats/hpgl/).
 
 
