@@ -123,7 +123,7 @@ This SVG file depicts a vector graphic resembling the following:
 
 1. The preferred way to install vpype is in a dedicated virtual environment running Python 3.9+. We will follow the *vpype* installation instructions for end-users, [here](https://vpype.readthedocs.io/en/latest/install.html). Make sure your computer has at least 1GB of available hard drive space for this virtual environment.
 2. Using your Mac's Terminal app, install Python 3.9: ```brew install python@3.9```
-3. Change directory to the folder in which you'd like to create your virtual environment, e.g. ```cd /Users/golan/Desktop/my-vpype```
+3. Change directory to the folder in which you'd like to create your virtual environment, e.g. ```cd /Users/golan/Desktop/myVpype```
 4. Create a new virtual environment in that directory: ```python3.9 -m venv vpype_venv``` . This will create a subdirectory (*vpype_venv*) containing various files. 
 5. Activate the newly created virtual environment: ```source vpype_venv/bin/activate```
 6. Within the virtual environment, install *pip*: ```pip install --upgrade pip```
