@@ -6,12 +6,13 @@
 
 * [Standalone Testing the HP7475A](#standalone-testing-the-hp7475a)
 * [Testing Connectivity of a Mac to the HP7475A](#testing-connectivity-of-a-mac-to-the-hp7475a)
+
+1. [**Generate an SVG with Processing**](#1-generate-an-svg-with-processing)
+2. [**Convert SVG to HPGL with vpype**](#2-convert-svg-to-hpgl-with-vpype)
+3. [**Transmit HPGL to HP7475A with Chiplotle**](#3-transmit-hpgl-to-hp7475a-with-chiplotle)
+
 * [Some Alternate Workflows](#some-alternate-workflows)
-
-1. [Generate an SVG with Processing](#1-generate-an-svg-with-processing)
-2. [Convert SVG to HPGL with vpype](#2-convert-svg-to-hpgl-with-vpype)
-3. [Transmit HPGL to HP7475A with Chiplotle](#3-transmit-hpgl-to-hp7475a-with-chiplotle)
-
+* [Miscellaneous](#miscellaneous)
 
 ---
 
@@ -42,7 +43,7 @@
 7. **Configure** the serial port terminal program so that it matches the communication settings of the plotter, 9600/8-N-1:<br />![CoolTerm configured for 9600/8-N-1](images/coolterm_7475a_serial_configuration.png)
 8. **Configure** (optionally) the serial port terminal program so that it is in "line mode", meaning that commands are transmitted when you press return:<br />![CoolTerm configured for line mode](images/coolterm_7475a_terminal_configuration.png)
 8. **Transmit** HPGL to the plotter. Type the command ```IN;SP1;``` into CoolTerm and press return:<br />![](images/coolterm_7475a_testcommand.png)
-9. In response to the command, the HP7475A plotter should initialize itself and Select Pen #1. 
+9. In response to the command, the HP7475A plotter should initialize itself and Select Pen #1.
 
 
 ---
@@ -147,64 +148,62 @@ IN;DF;PS4;SP1;PU3809,3121;PD4073,3158,4333,3269,4584, [...]
 
 ## 3. Transmit HPGL to HP7475A with Chiplotle
 
-***Summary:*** *[Chiplotle](http://sites.music.columbia.edu/cmc/chiplotle/), "is an HPGL plotter driver that implements and extends the HPGL (Hewlett-Packard Graphics Language) plotter control language. It provides direct control of your hardware via a standard usb-to-serial port interface." In this section, we will transmit our HPGL data to the HP7475A plotter using Chiplotle's "HPGL Pipeline", as described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline). Chiplotle was developed by  by Víctor Adán and Douglas Repetto, but we are using a version updates for Python3 by [Will Price](https://github.com/willprice).*
-
+***Summary:*** *[Chiplotle](http://sites.music.columbia.edu/cmc/chiplotle/) "is an HPGL plotter driver that implements and extends the HPGL (Hewlett-Packard Graphics Language) plotter control language. It provides direct control of your hardware via a standard usb-to-serial port interface." In this section, we will transmit our HPGL data to the HP7475A plotter using Chiplotle's "HPGL Pipeline", as described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline). Chiplotle was developed by  by Víctor Adán and Douglas Repetto, but we are using a version updated for Python3 by [Will Price](https://github.com/willprice). This section should take about 10-15m.*
 
 1. We will need a version of Python of 3.7 or greater. Using your Mac's Terminal app, install Python 3.9 if you haven't already: ```brew install python@3.9```
-2. Change directory to the folder in which you'd like to create your virtual environment, e.g. ```cd /Users/golan/Desktop/my-chiplotle```
+2. Change directory to the folder in which you'd like to create your virtual environment, e.g. ```cd /Users/golan/Desktop/myChiplotle```
 3. Create a new virtual environment in that directory: ```python3.9 -m venv chip_venv``` . This will create a subdirectory (*chip_venv*) containing various files.
 4. Activate the newly created virtual environment: ```source chip_venv/bin/activate``` (you can exit the virtual environment later with ```deactivate```).
-5. From the virtual environment, install *pip*: ```pip install --upgrade pip```
-6. From [this GitHub repository](https://github.com/willprice/chiplotle), click on the green "CODE" button in the upper right, and download the ZIP file, chiplotle-master.zip. (A backup copy is stashed [here](chiplotle/chiplotle-master.zip).) 
-7. Place the chiplotle-master.zip file in your my-chiplotle directory, and unzip it.
+5. From the virtual environment, install *pip*: ```pip install --upgrade pip```. My machine reports that it "Successfully installed pip-21.1.2". 
+6. To fix a small bug, do: ```pip install six```. My machine reports that it "Successfully installed six-1.16.0".
+6. From [this GitHub repository](https://github.com/golanlevin/chiplotle), click on the green "CODE" button in the upper right, and download the ZIP file, chiplotle-master.zip. (A backup copy is stashed [here](chiplotle/chiplotle-master.zip).) 
+7. Place the chiplotle-master.zip file in your *myChiplotle* directory, and unzip it.   
 8. Change into the directory that was just created, e.g. ```cd chiplotle-master```
-9. Install the bundle using: ```sudo python setup.py install```
-10. As per the instructions at [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#), enter the command: ```chiplotle```. You should see a report that looks like this, followed by the ```chiplotle>``` prompt:<br />![Chiplotle welcome report](images/chiplotle-welcome.png)
-11. Let's test our installation of Chiplotle by picking up a pen. At the Chiplotle prompt, enter the following: ```plotter.write(hpgl.SP(1))```
-12. We will now use the Chiplotle HPGL Pipeline, described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline). Issuing the following command at the Chiplotle prompt should cause your HPGL file to be plotted by the HP7475A: ```plotter.write_file('lissajous.hpgl')```
-
-
-#### Corrections:
-
-10. ```pip install six```
-11. replaced gcd with math.gcd in py files lcm.py, star_crisscross.py, per https://github.com/smicallef/spiderfoot/issues/1124
-12. modified ser.readline with decode() in what_plotter_in_port.py , per https://stackoverflow.com/questions/33003498/typeerror-a-bytes-like-object-is-required-not-str
-13. Modified line 77 in of plotters/baseplotter.py to 
-```result.append(c.encode())```
+9. Install the Chiplotle bundle using: ```sudo python setup.py install```. You'll need to type your machine's admin password. At the end, it should report "Finished processing dependencies for chiplotle==0.4.2".
+10. Connect the HP7475A to your computer and power it on, making sure that it has pens in the carousel. In your Terminal, change directory back up one level (```cd ..```) to the *myChiplotle* directory. As per the instructions at [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#), enter the command: ```chiplotle```. You should see a report that looks like this, followed by the ```chiplotle>``` prompt:<br />![Chiplotle welcome report](images/chiplotle-welcome.png)
+11. Let's test our installation of Chiplotle by picking up a pen. At the Chiplotle prompt, enter the following: ```plotter.write(hpgl.SP(1))```. You can also use the equivalent command ```plotter.select_pen(1)```. Now put the pen back in the carousel with the command ```plotter.select_pen(0)```.
+12. Move a copy of the *lissajous.hpgl* HPGL file into your *myChiplotle* directory. We will now use the Chiplotle HPGL Pipeline, described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#hpgl-pipeline), to execute the drawing. Issuing the following command at the Chiplotle prompt should cause your HPGL file to be plotted by the HP7475A: ```plotter.write_file('lissajous.hpgl')```
 
 
 **Helpful *Chiplotle* tips**: 
 
 * The complete Chiplotle manual is [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/index.html). 
-* You can write Python code to make generative designs, and call Chiplotle from your Python code to execute them; this is described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#running-chiplotle-from-a-python-script).
 * Some other helpful diagnostic Chiplotle [commands](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/api/plotters.html):
 	* ```plotter.goto_bottom_left()```
 	* ```plotter.goto_top_right()```
 	* ```print(plotter.actual_position)```
 	* ```print(plotter.output_p1p2)```
-	* ```plotter.select_pen(1)``` (grabs pen #1)
-	* ```plotter.select_pen(0)``` (puts pen back)
+* You can write Python code to make generative designs, and call Chiplotle from your Python code to execute them; this is described [here](http://sites.music.columbia.edu/cmc/chiplotle/manual/chapters/tutorial/intro.html#running-chiplotle-from-a-python-script), and there's an example [here](https://gist.github.com/ednisley/0df674e7ece624250dcb).
 
 
 ---
 
 ## Some Alternate Workflows
 
-#### Tools for Generating SVG files:
- 
-* [Processing](https://processing.org/) (Java), with its [SVG Library](https://processing.org/reference/libraries/svg/index.html)
-* @mattdesl's [canvas-sketch](https://github.com/mattdesl/canvas-sketch/) (JavaScript) with the [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) function in the [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md) penplot utilities
-
-#### Tools for Converting SVG to HPGL:
-
-* [Inkcut](https://www.codelv.com/projects/inkcut/) standalone application
-* InkScape, using the [InkCut](https://inkscape.org/~frmdstryr/%E2%98%85inkcut) extension
+* Processing can be used to directly control the HP7475A by sending HPGL commands over the serial port, effectively unifying steps 1,2,3 above. This also allows for the possibility of interactive (real-time) control. An example of this is [here](https://github.com/tobiastoft/SymbolicDisarray/blob/master/SymbolicDisarray.pde) and discussed at length [here](https://medium.com/quarterstudio/an-intro-to-pen-plotters-29b6bd4327ba).
+* Nick Hardeman's [ofxHPGL](https://github.com/NickHardeman/ofxHPGL) is an openFrameworks (C++) addon which can generate and/or load SVGs, and control the HP7475a directly (unifying steps 1,2,3 above). It can even allow for interactive real-time control of the HP7475A plotter. 
+* [Inkcut](https://www.codelv.com/projects/inkcut/) is a standalone application, also available as an [InkScape extension](https://inkscape.org/~frmdstryr/%E2%98%85inkcut) extension, which can load SVG files and control plotters directly (unifying Steps 2 and 3 above). However, it may be challenging to install.
 
 
-## Graveyard
+--- 
 
-Inkcut is an open source application for controlling 2D plotters. It can load SVG files, generate HPGL commands, and transmit these directly to the HP7475A. We follow installation instructions from [here](https://www.codelv.com/projects/inkcut/download/):
+## Miscellaneous
 
-To install a new extension, download and unpack the archive file. Copy the files into the directory listed at Edit > Preferences > System: User extensions. After a restart of Inkscape, the new extension will be available.
+* The drawingbots [Discord](https://drawingbots.net/) is a community with many HP7475A enthusiasts.
+* @Beardicus maintains [Awesome-Plotters](https://github.com/beardicus/awesome-plotters), an excellent repository of helpful resources.
+* Documents about the HP7475A can be found [at the HP Computer Museum website](http://www.hpmuseum.net/exhibit.php?hwdoc=74).
+* Here is a [Raspberry Pi printserver for the HP7475A](https://github.com/hughpyle/penplot1.local), which also does SVG to HPGL conversion.
 
+#### HP7475A Plotter Pens
 
+* The HP7475A plotter uses HP "S Style" Fiber Tip Plotter Pens, and can accommodate pens made for the: 7090, 7220A, 7221 A, 7225A, 7440 HP Colorpro, 7470A, 7475A, 7550A, 7550B, 7570 HP Draftpro, 7580A, 7585A, 7586A, 7595A, 7595B, 7596A, 7596B, 7599A, 9872A, HP Draftmaster I, II, MX, RX, SX, HP Draftpro DXL (7575A); and the  Roland DPX, DXY, and GRX Series.
+* This [YouTube video](https://www.youtube.com/watch?v=h-oj4HrTH14) shows a method for refilling the ink in a vintage pen.
+* Some experts, such as Paul Rickards, have [cut the case of their HP7475A](https://twitter.com/paulrickards/status/696067774469271552) in order to allow taller pens. 
+* Various persons have developed 3D-printed adapters to allow modern pens in the HP7475A: 
+	* [thing:227985](https://www.thingiverse.com/thing:227985) 
+	* [thing:2955469](https://www.thingiverse.com/thing:2955469) 
+	* [thing:4720715](https://www.thingiverse.com/thing:4720715)
+	* [thing:4813060](https://www.thingiverse.com/thing:4813060)
+	* [plotter-oem-pen-body-mode](https://softsolder.com/2015/04/21/hp-7475a-plotter-oem-pen-body-model/)
+	* [plotter-sakura-micron-pen-adapter](https://softsolder.com/2015/04/22/hp-7475a-plotter-sakura-micron-pen-adapter/)
+	* [plotter-full-up-sakura-micron-pen-tests](https://softsolder.com/2015/04/23/hp-7475a-plotter-full-up-sakura-micron-pen-tests/)
