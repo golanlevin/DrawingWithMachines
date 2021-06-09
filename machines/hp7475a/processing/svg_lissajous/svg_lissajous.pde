@@ -1,11 +1,12 @@
 // Generate a Lissajous curve, and export it as an SVG file.
 // For more information on the Processing SVG library, see:
 // https://processing.org/reference/libraries/svg/index.html
+
 import processing.svg.*;
 
 void setup() {
-  size(792, 612); // Letter 11"x8.5" @72dpi
-  noLoop(); // just execute once.
+  size(1056, 816); // Letter: 11"x8.5" at 96 DPI.
+  noLoop(); // Just execute once!
 }
 
 void draw() {
@@ -13,7 +14,7 @@ void draw() {
   beginRecord(SVG, "lissajous.svg");
   
   stroke(0); 
-  noFill();
+  noFill(); // Don't create duplicate shapes!
 
   int nPoints = 100;
   float cx = width/2; 
