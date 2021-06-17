@@ -9,7 +9,7 @@ Example projects in various creative-coding toolkits for computationally generat
 
 ### JavaScript
 
-* [p5.js](https://p5js.org/), with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg): [**Lissajous**](p5js/svg_lissajous/sketch.js)
+* [p5.js](https://p5js.org/), with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg): [**Lissajous**](p5js/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/Eu6b4gm_i))
 
 
 ---
