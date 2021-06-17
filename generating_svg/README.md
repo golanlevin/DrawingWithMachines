@@ -10,7 +10,7 @@ Example projects in various creative-coding toolkits for computationally generat
 ### JavaScript
 
 * [p5.js](https://p5js.org/), with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg): [**Lissajous**](p5js/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/Eu6b4gm_i))
-
+* [svg5.js](https://www.npmjs.com/package/svg5) by @MAKIO135: [**Lissajous**](svg5/svg_lissajous/sketch.js) (and at [Editor](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
 
 ---
 
@@ -21,7 +21,6 @@ Templates not yet created for these environments
 * [canvas-sketch](https://github.com/mattdesl/canvas-sketch/) by @mattdesl, with the [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) function in the [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md) penplot utilities. (Also see [these examples](https://codesandbox.io/examples/package/canvas-sketch) and [p5.js integration](https://github.com/mattdesl/canvas-sketch/blob/master/examples/animated-p5-instance.js))
 * [Rune.js](http://runemadsen.github.io/rune.js/) by @runemadsen
 * [Paper.js](http://paperjs.org/) by @lehni & @puckey, using its [```exportSVG()```](http://paperjs.org/reference/project/#exportsvg) function as demonstrated [here](http://paperjs.org/features/#svg-import-and-export) 
-* [svg5.js](https://www.npmjs.com/package/svg5) by @MAKIO135
 * [two.js](https://github.com/jonobr1/two.js) by @jonobr1, as described [here](https://github.com/jonobr1/two.js/issues/80)
 
 ### Python
