@@ -26,7 +26,6 @@ Templates not yet created for these environments
 
 ### Python
 * [vsketch](https://github.com/abey79/vsketch) by @abey79,  with e.g. shapely https://shapely.readthedocs.io/en/latest/ in Colab notebooks https://vsketch.readthedocs.io/en/latest/install.html#using-notebooks 
-* [svgwrite](https://pypi.org/project/svgwrite/)
 * [Drawbot](https://www.drawbot.com/) by Just van Rossum is "a powerful, free application for macOS that invites you to write Python scripts to generate two-dimensional graphics". 
 
 
@@ -52,5 +51,6 @@ Templates not yet created for these environments
 * [cozyvec](https://brubsby.itch.io/cozyvec) by @brubsby is "a tiny terminal program for creating plotter art" with JavaScript.
 * [D3.js](https://d3js.org/), "A JavaScript library for manipulating documents based on data", widely used in data visualization. Can export SVG as described [here](https://observablehq.com/@mbostock/saving-svg).
 * [SnapSVG](http://snapsvg.io/) by Adobe Systems. "A JavaScript SVG library for the modern web", possibly no longer maintained.
+* [svgwrite](https://pypi.org/project/svgwrite/) by @mozman is "a Python library to create SVG drawings." Currently in maintenance mode.
 * [drawSvg](https://pypi.org/project/drawSvg/), a Python 3 library for programmatically generating SVG images (vector drawings) and rendering them or displaying them in a Jupyter notebook. 
 * [NodeBox](https://www.nodebox.net/code/index.php/Home.html), by Frederik De Bleser, is "an interactive Python environment where you can create two-dimensional graphics", and a fork of Drawbot. Possibly no longer maintained.
