@@ -11,7 +11,7 @@ void setup() {
 
 void draw() {
   background(255); 
-  beginRecord(SVG, "lissajous-from-processing.svg");
+  beginRecord(SVG, "lissajous-from-processing-java.svg");
   
   stroke(0); 
   noFill(); // Don't create duplicate shapes!

@@ -1,16 +1,24 @@
 # Generating SVG Files
 
-Example projects in various creative-coding toolkits for computationally generating SVG files suitable for pen plotters. 
+Example/demo projects in various creative-coding toolkits for computationally generating SVG files suitable for pen plotters. 
 
 
 ### Java
 
-* [Processing](https://processing.org/), with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): [**Lissajous**](processing/svg_lissajous/svg_lissajous.pde)
+* [Processing](https://processing.org/) v3.5.4 and v.4.0a4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
+  * [**Lissajous demo**](processing_java/svg_lissajous/svg_lissajous.pde)
 
 ### JavaScript
 
-* [p5.js](https://p5js.org/), with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg): [**Lissajous**](p5js/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/Eu6b4gm_i))
-* [svg5.js](https://www.npmjs.com/package/svg5) by @MAKIO135: [**Lissajous**](svg5/svg_lissajous/sketch.js) (and at [Editor](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
+* [p5.js](https://p5js.org/) v1.3.1, with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.0.7: 
+  * [**Lissajous demo**](p5js/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/Eu6b4gm_i))
+* [svg5.js](https://www.npmjs.com/package/svg5) by @MAKIO135: 
+  * [**Lissajous demo**](svg5/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
+
+### Python
+
+* [Processing.py](https://py.processing.org/) v3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
+  * [**Lissajous demo**](processing_py/svg_lissajous/svg_lissajous.pyde)
 
 ---
 
