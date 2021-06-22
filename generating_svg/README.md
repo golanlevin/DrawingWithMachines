@@ -5,32 +5,34 @@ Example/demo projects in various creative-coding toolkits for computationally ge
 
 ### Java
 
-* [Processing](https://processing.org/) v3.5.4 and v.4.0a4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
-  * [**Lissajous demo**](processing_java/svg_lissajous/svg_lissajous.pde)
+* [**Processing**](https://processing.org/) v3.5.4 and v.4.0a4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
+  * [*Lissajous demo*](processing_java/svg_lissajous/svg_lissajous.pde)
 
 
 ### JavaScript
 
-* [p5.js](https://p5js.org/) v.1.3.1, with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.0.7: 
-  * [**Lissajous demo**](p5js/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/Eu6b4gm_i))
-* [svg5.js](https://www.npmjs.com/package/svg5) v.0.1.4 by @MAKIO135: 
-  * [**Lissajous demo**](svg5/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
-* [Rune.js](http://runemadsen.github.io/rune.js/) v.1.1.8 by @runemadsen, with [rune.save.js](https://www.npmjs.com/package/rune.save.js) v.0.4.1 by Jorge Moreno:
-  * [**Lissajous demo**](runejs/svg_lissajous/sketch.js)
+* [**p5.js**](https://p5js.org/) v.1.3.1, with [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.0.7 by @zenozeng: 
+  * [*Lissajous demo*](p5js/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/Eu6b4gm_i))
+* [**svg5.js**](https://www.npmjs.com/package/svg5) v.0.1.4 by @MAKIO135: 
+  * [*Lissajous demo*](svg5/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
+* [**Rune.js**](http://runemadsen.github.io/rune.js/) v.1.1.8 by @runemadsen, with [rune.save.js](https://www.npmjs.com/package/rune.save.js) v.0.4.1 by @alterebro:
+  * [*Lissajous demo*](runejs/svg_lissajous/sketch.js)
+* [**canvas-sketch**](https://github.com/mattdesl/canvas-sketch/) v.0.7.4 by @mattdesl, with [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) in the [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md) v.1.10.0 utilities.
+  * [*Lissajous demo*](canvas-sketch-js/svg_lissajous.js)
+
 
 
 ### Python
 
-* [Processing.py](https://py.processing.org/) for Processing v.3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
-  * [**Lissajous demo**](processing_py/svg_lissajous/svg_lissajous.pyde)
+* [**Processing.py**](https://py.processing.org/) for Processing v.3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
+  * [*Lissajous demo*](processing_py/svg_lissajous/svg_lissajous.pyde)
 
 ---
 
 ### Work in Progress 
 
-Templates not yet created for these environments
+Templates not yet created for these environments:
 
-* [canvas-sketch](https://github.com/mattdesl/canvas-sketch/) by @mattdesl, with the [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) function in the [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md) penplot utilities. (Also see [these examples](https://codesandbox.io/examples/package/canvas-sketch) and [p5.js integration](https://github.com/mattdesl/canvas-sketch/blob/master/examples/animated-p5-instance.js))
 * [Paper.js](http://paperjs.org/) by @lehni & @puckey, using its [```exportSVG()```](http://paperjs.org/reference/project/#exportsvg) function as demonstrated [here](http://paperjs.org/features/#svg-import-and-export) 
 * [two.js](https://github.com/jonobr1/two.js) by @jonobr1, as described [here](https://github.com/jonobr1/two.js/issues/80)
 
