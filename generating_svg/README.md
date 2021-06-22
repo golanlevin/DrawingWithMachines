@@ -35,9 +35,8 @@ Templates not yet created for these environments
 * [two.js](https://github.com/jonobr1/two.js) by @jonobr1, as described [here](https://github.com/jonobr1/two.js/issues/80)
 
 ### Python
-* [vsketch](https://github.com/abey79/vsketch) by @abey79,  with e.g. shapely https://shapely.readthedocs.io/en/latest/ in Colab notebooks https://vsketch.readthedocs.io/en/latest/install.html#using-notebooks 
+* [vsketch](https://github.com/abey79/vsketch) by @abey79, with e.g. shapely https://shapely.readthedocs.io/en/latest/ in Colab notebooks https://vsketch.readthedocs.io/en/latest/install.html#using-notebooks 
 * [Drawbot](https://www.drawbot.com/) by Just van Rossum is "a powerful, free application for macOS that invites you to write Python scripts to generate two-dimensional graphics". 
-* Processing.py? 
 
 
 ### C++
