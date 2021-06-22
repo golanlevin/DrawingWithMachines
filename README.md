@@ -1,2 +1,30 @@
 # DrawingWithMachines
-Resources for the CMU Drawing with Machines Course
+Resources for the CMU *Drawing with Machines* Course
+
+#### Plotters
+
+* [Hewlett-Packard 7475A](hp7475a/README.md)
+* AxiDraw
+* Line-Us
+* [USCutter MH Series](http://www.uscutter.com/USCutter-MH-Series-Vinyl-Cutter-w-VinylMaster-Cut-Design-Cut-Software)
+* Scribit
+* Eggbot
+
+#### Robot Arms
+
+* Universal Robots UR5
+* Rotrics DexArm & Rail
+
+#### Other 
+
+* RGB Laser & EtherDream controller
+* Viking Jade 35A CNC embroidery machine
+* Sphero RVR
+
+---
+
+#### Notes
+
+
+
+
