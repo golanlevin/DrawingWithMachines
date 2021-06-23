@@ -49,7 +49,7 @@
 
 ### Line-Us + p5.js
 
-* *Note: Line-Us cannot run at https://Editor.p5js.org because browsers require secure websocket connections from secure sites, and Line-Us does not support secure web sockets, as discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586).*
-* In Terminal, ```cd lineus_test1``` (or whatever directory your sketch is in).
+* *Note: Line-Us cannot run from sketches at https://editor.p5js.org, because Line-Us does not support secure web sockets, and browsers require secure websocket connections from secure sites like the p5 Editor. This is discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586).*
+* In Terminal, ```cd lineus_p5js_lissajous``` (or whatever directory your sketch is in).
 * Launch a local server, as described [here](https://github.com/processing/p5.js/wiki/Local-server): ```python -m http.server```
 * Visit ```http://localhost:8000``` in your browser
