@@ -24,7 +24,7 @@
 
 #### Other Line-Us Software
 
-* This is a [readymade SVG plotter for Line-Us](https://github.com/ixd-hof/LineUs_SVG), made in Processing 2.2.1 wigh Geomerative. There are pre-built releases for Mac and Windows [here](https://github.com/ixd-hof/LineUs_SVG/releases/tag/v0.01).
+* This is a [readymade SVG plotter for Line-Us](https://github.com/tbertz/LineUs_SVG/tree/release/v0.2), updated for Processing v.3.
 
 
 ---
