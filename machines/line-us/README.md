@@ -1,33 +1,24 @@
-# Plotting with the Line-Us
+# Plotting with Line-Us
 
-"Line-us is an internet connected robot drawing arm. It's small, portable and draws with a nice wobbly line using a real pen on paper."
+"[Line-us](https://www.line-us.com) is an internet connected robot drawing arm. It's small, portable and draws with a nice wobbly line using a real pen on paper."
 
-#### Important Links
+#### Contents
 
-* [**First time Line-us set up**](https://www.line-us.com/help.html)
-* [**Getting Started with Line-us Programming**](https://github.com/Line-us/Line-us-Programming): The central source for programming Line-Us.
-
-#### Line-Us with Python
-
-* [The Official Line-us Python Module](https://github.com/Line-us/Line-us-Programming#official-python-module-for-line-us). It includes machine discovery via DNS-sd and access to all of the Line-us GCodes. There is a [quickstart guide](https://lineuspythonmodule.readthedocs.io/en/latest/#quickstart), full [documentation](https://lineuspythonmodule.readthedocs.io/en/latest/#module-lineus), and its [GitHub repository](https://github.com/Line-us/LineUsPythonModule).
-* ["Hello World" Python example](https://github.com/Line-us/Line-us-Programming/blob/master/Python/HelloWorld.py)
-* [WebSockets Python example](https://github.com/Line-us/Line-us-Programming/blob/master/Python/HelloWorldWebsockets.py)
-
-#### Line-Us with JavaScript
-
-* [@beardicus/line-us](https://github.com/beardicus/line-us): A JavaScript library for controlling the Line-us drawing robot via its websocket interface. Works in both Node.js and the browser.
-* [basic example using node/js](https://github.com/pandrr/line-us): sends an array of commands to the line-us drawing machine via a net.Socket connection; a port of the HelloWorld.py example.
-
-#### Line-Us with Processing
-
-* [Processing code for a very simple example](https://github.com/Line-us/Line-us-Programming/blob/master/Processing/HelloWorld/HelloWorld.pde)
-
-#### Other Line-Us Software
-
-* This is a [readymade SVG plotter for Line-Us](https://github.com/tbertz/LineUs_SVG/tree/release/v0.2), updated for Processing v.3.
-
+* Important Links
+* Line-Us Setup
+* Programming Line-Us with p5.js
+* Programming Line-Us with Processing (Java)
+* Programming Line-Us with Python
+* Other Helpful Information 
 
 ---
+
+## Important Links
+
+* [**First time Line-us set up**](https://www.line-us.com/help.html): Instructional information and video from the manufacturer.
+* [**Getting Started with Line-us Programming**](https://github.com/Line-us/Line-us-Programming): The central source for programming Line-Us.
+* [Readymade SVG plotter for Line-Us](https://github.com/tbertz/LineUs_SVG/tree/release/v0.2), built in Processing v.3.
+
 
 ## Line-Us Setup
 
@@ -45,24 +36,20 @@
 
 ![lineus info screenshot](images/lineus-server.png)
 
-## Helpful Information
-
-Here's a view of the Line-Us Drawing Area:
-
-![Line-Us Drawing area](images/drawing-area.png)
 
 ---
 
-## Line-Us + p5.js
+## Programming Line-Us with p5.js
 
-This section describes workflows for controlling Line-Us from p5.js. These workflows all use the JavaScript [Line-Us library by @beardicus](https://github.com/beardicus/line-us), which establishes a work area of 1125 (w) x 2000 (h) units, with approximately 20 units per millimeter. 
+This section describes workflows for controlling Line-Us from p5.js. These workflows all use the JavaScript [Line-Us library by @beardicus](https://github.com/beardicus/line-us), which controls the Line-us robot via its websocket interface, and works in both Node.js and the browser. The examples below establish a work area of 1125 (w) x 2000 (h) units, with approximately 20 units per millimeter. 
 
-*Note: p5.js cannot run Line-Us from sketches served online at https://editor.p5js.org, because Line-Us does not support secure web sockets, and browsers require secure websocket connections for https: sites like the p5 Editor. This issue is discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586).*
+*Note: p5.js cannot run Line-Us from sketches served online at https://editor.p5js.org, because Line-Us does not support secure web sockets, and browsers require secure websocket connections for secure (https) sites like the p5 Editor. This issue is discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586).*
 
 #### Example projects 
 
-* [lineus_p5js_calibration](p5js/lineus_p5js_calibration): a calibration grid (see image below). *Expect some nonlinearities*. * [lineus_p5js_lissajous](p5js/lineus_p5js_lissajous): a simple Lissajous figure.* [lineus_p5js_mouserecording](p5js/lineus_p5js_mouserecording): a mouse gesture is recorded into an array of points, and then rendered by the robot when the user presses a key.
-* [lineus_p5js_realtime](p5js/lineus_p5js_realtime): control Line-Us in real-time with the cursor.
+* [**Calibration Grid**](p5js/lineus_p5js_calibration): a calibration grid (see image below). *Expect some nonlinearities*. * [**Lissajous Figure**](p5js/lineus_p5js_lissajous): a simple Lissajous figure.* [**Mouse Playback**](p5js/lineus_p5js_mouserecording): a mouse gesture is recorded into an array of points, and then rendered by the robot when the user presses a key.
+* [**Realtime Control**](p5js/lineus_p5js_realtime): control Line-Us in real-time with the cursor.
+* [**Line-Us via Node.js example**](https://github.com/pandrr/line-us): sends an array of commands to the line-us drawing machine via a net.Socket connection.
 
 ![Wiggly calibration grid](images/calibration-test.jpg)
 
@@ -84,9 +71,21 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 5. Click the Run button in the upper left of the IDE. Your preferred browser should open up the sketch, hosted in a local server. The Line-Us robot should be controlled by the sketch. 
 
 
+## Programming Line-Us with Processing (Java)
+
+* [Processing code for a very simple example](https://github.com/Line-us/Line-us-Programming/blob/master/Processing/HelloWorld/HelloWorld.pde)
 
 
+## Programming Line-Us with Python
+
+* [The Official Line-us Python Module](https://github.com/Line-us/Line-us-Programming#official-python-module-for-line-us). It includes machine discovery via DNS-sd and access to all of the Line-us GCodes. There is a [quickstart guide](https://lineuspythonmodule.readthedocs.io/en/latest/#quickstart), full [documentation](https://lineuspythonmodule.readthedocs.io/en/latest/#module-lineus), and its [GitHub repository](https://github.com/Line-us/LineUsPythonModule).
+* ["Hello World" Python example](https://github.com/Line-us/Line-us-Programming/blob/master/Python/HelloWorld.py)
+* [WebSockets Python example](https://github.com/Line-us/Line-us-Programming/blob/master/Python/HelloWorldWebsockets.py)
 
 
+## Other Helpful Information
 
+* Line-Us may throw errors when receiving high-precision floating-point coordinates. It's recommended to transmit integer coordinates instead. 
+* Here's a view of the Line-Us Drawing Area:
 
+![Line-Us Drawing area](images/drawing-area.png)
