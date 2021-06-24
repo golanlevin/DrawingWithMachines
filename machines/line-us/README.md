@@ -49,7 +49,23 @@
 
 ### Line-Us + p5.js
 
-* *Note: Line-Us cannot run from sketches at https://editor.p5js.org, because Line-Us does not support secure web sockets, and browsers require secure websocket connections from secure sites like the p5 Editor. This is discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586).*
-* In Terminal, ```cd lineus_p5js_lissajous``` (or whatever directory your sketch is in).
-* Launch a local server, as described [here](https://github.com/processing/p5.js/wiki/Local-server): ```python -m http.server```
-* Visit ```http://localhost:8000``` in your browser
+This section describes workflows for controlling Line-Us from p5.js. These all use the JavaScript [Line-Us library by @beardicus](https://github.com/beardicus/line-us), which establishes a work area of 1125 (w) x 2000 (h) units, with approximately 20 units per millimeter.
+
+*Note: p5.js cannot run Line-Us from sketches served online at https://editor.p5js.org, because Line-Us does not support secure web sockets, and browsers require secure websocket connections for https: sites like the p5 Editor. This issue is discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586).*
+
+Example projects: 
+
+* [lineus_p5js_calibration](p5js/lineus_p5js_calibration): a calibration grid (see below). Expect nonlinearities. * [lineus_p5js_lissajous](p5js/lineus_p5js_lissajous): a simple Lissajous figure* [lineus_p5js_mouserecording](p5js/lineus_p5js_mouserecording): a mouse gesture is recorded into an array of points, and then rendered by the robot when the user presses a key.
+
+#### Instructions
+
+1. Download the complete directories for the examples you want to run (for example, in [this .zip](https://github.com/golanlevin/DrawingWithMachines/archive/refs/heads/main.zip)). 
+2. In MacOS Terminal, ```cd lineus_p5js_lissajous``` (or whichever directory your sketch is in).
+3. In Terminal, launch a local server, as described [here](https://github.com/processing/p5.js/wiki/Local-server): ```python -m http.server```
+4. In your browser, visit ```http://localhost:8000```.
+
+
+
+
+
+
