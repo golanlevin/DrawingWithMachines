@@ -32,7 +32,7 @@
 * **Launch** the Line-Us app, and **instruct** Line-us how to join your local WiFi. You can now reconnect your computer to the local WiFi, too. See [here](https://www.line-us.com/help.html) for more detailed instructions on connecting to the WiFi. (The next time you turn Line-Us on it will automatically connect to the last WiFi it was on.) The light on Line-Us should be solid blue. 
 * **Verify** that Line-Us is able to communicate and draw by making a scribble in the app (with the "Draw"/pencil mode), and then execute the drawing with the "Play" button in the upper right. 
 * You can access more settings by horizontally dragging/sliding the buttons at the top of the Line-Us app. There you can access controls for **setting the pen height**. More information on setting the pen height is [here](https://www.line-us.com/help.html#3).
-* You can also check to see if Line-Us is connectable on your local network, by typing its name correctly in the address bar of your browser. For example, one of our robots is named *sfci-lineus-1*, and you can see its vital information at: [http://sfci-lineus-1.local/](http://sfci-lineus-1.local/), which should look something like the following: 
+* You can also check to see if Line-Us is reachable on your local network, by typing its name correctly in the address bar of your browser. For example, one of our robots is named *sfci-lineus-1*, and you can see its vital information at: [http://sfci-lineus-1.local/](http://sfci-lineus-1.local/), which should look something like the following: 
 
 ![lineus info screenshot](images/lineus-server.png)
 
@@ -47,7 +47,7 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 #### Example projects 
 
-* [**Calibration Grid**](p5js/lineus_p5js_calibration): a calibration grid (see image below). *Expect some nonlinearities*. * [**Lissajous Figure**](p5js/lineus_p5js_lissajous): a simple Lissajous figure.* [**Mouse Playback**](p5js/lineus_p5js_mouserecording): a mouse gesture is recorded into an array of points, and then rendered by the robot when the user presses a key.
+* [**Calibration Grid**](p5js/lineus_p5js_calibration): a calibration grid (see image below). *Expect some nonlinearities*. * [**Lissajous Figure**](p5js/lineus_p5js_lissajous): a simple Lissajous figure.* [**Mouse Playback**](p5js/lineus_p5js_mouserecording): a single mouse gesture is recorded into an array of points, and then rendered by the robot when the user presses a key.
 * [**Realtime Control**](p5js/lineus_p5js_realtime): control Line-Us in real-time with the cursor.
 * [**Line-Us via Node.js example**](https://github.com/pandrr/line-us): sends an array of commands to the line-us drawing machine via a net.Socket connection.
 
@@ -67,8 +67,8 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 1. Download the complete directories for the examples you want to run (for example, in [this .zip](https://github.com/golanlevin/DrawingWithMachines/archive/refs/heads/main.zip)). 
 2. In MacOS Terminal, ```cd lineus_p5js_lissajous``` (or whichever directory your sketch is in).
-3. In Terminal, launch a local server, as described [here](https://github.com/processing/p5.js/wiki/Local-server): ```python -m http.server```
-4. In your browser, visit ```http://localhost:8000```. The sketch should run, and the Line-Us robot should be controlled by the sketch. 
+3. In Terminal, launch a local server, as described [here](https://github.com/processing/p5.js/wiki/Local-server), with the command: ```python -m http.server```
+4. In your browser, visit [```http://localhost:8000```](http://localhost:8000). The sketch should run, and the Line-Us robot should be controlled by the sketch. 
 
 ---
 
