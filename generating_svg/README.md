@@ -56,6 +56,8 @@ Templates not yet created for these environments:
 * [City Map Generator](https://maps.probabletrain.com/#/), a readymade tool by @probabletrain for creating procedural city maps in the browser
 * [flow-lines](https://msurguy.github.io/flow-lines/) by @msurguy, a readymade tool for generating SVGs of flow fields
 * [rad-lines](https://msurguy.github.io/rad-lines/) by @msurguy, a readymade tool for generating SVGs of rotating patterns
+* [Great96](https://isohedral.ca/great-96/), a tool for generating Islamic tiling geometric patterns
+* [AudioPlotter](https://audioplotter.ars.is/), a tool for generating SVGs of audio waveforms from sound files
 
 
 ### Other Programming Toolkits
