@@ -10,6 +10,12 @@ Resources for the CMU *Drawing with Machines* Course
 * Scribit
 * Eggbot
 
+#### AxiDraw Management
+
+* AxiDraw CLI
+* AxiDraw Inkscape extension
+* RPi plotter station configs
+
 #### Robot Arms
 
 * Universal Robots UR5
