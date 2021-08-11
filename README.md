@@ -14,7 +14,7 @@ Resources for the CMU *Drawing with Machines* Course
 
 * AxiDraw CLI
 * AxiDraw Inkscape extension
-* RPi plotter station configs
+* [RPi plotter station configs](rpi/README.md)
 
 #### Robot Arms
 
