@@ -27,6 +27,13 @@ The minions perform these functions:
 
 ## Usage
 
+TBD
+
+## Setup Instructions
+
+1. If using a Raspberry Pi, install Raspbian Lite to get started. Also remember to change the `pi` user password. If using an x86 machine, install Debian stable with the CLI installer (do not install any additional packages, services, or GUIs).
+2. TBD
+
 Grain example:
 ```yaml
 roles:
@@ -41,13 +48,6 @@ axidraws:
     kernel_port: '1-1.4:1.0'
     kernel_type: 'ttyACM*'
 ```
-
-TBD
-
-## Setup Instructions
-
-1. If using a Raspberry Pi, install Raspbian Lite to get started. Also remember to change the `pi` user password. If using an x86 machine, install Debian stable with the CLI installer (do not install any additional packages, services, or GUIs).
-2. TBD
 
 ## Notes
 
