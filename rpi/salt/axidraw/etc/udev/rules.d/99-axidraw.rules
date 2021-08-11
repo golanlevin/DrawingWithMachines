@@ -1,0 +1,2 @@
+{% for axidraw_user in grains['axidraws'] %}KERNEL=="{{ axidraw_user.kernel_type }}", KERNELS=="{{ axidraw_user.kernel_port }}", GROUP="{{ axidraw_user.name }}", SYMLINK+="{{ axidraw_user.name }}"
+{% endfor %}
