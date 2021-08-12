@@ -17,7 +17,7 @@ The minions perform these functions:
 
 ## TODO
  - License
- - Run saxi
+ - Run taxi
  - Central NFS file server and web interface for uploading with Filestash
  - Remote desktop connections to each machine through the master with guac
  - Control screen timeout via SaltStack variable
