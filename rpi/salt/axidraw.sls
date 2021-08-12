@@ -217,14 +217,28 @@ pip_axidraw_requirements:
     - pkgs:
         - libxslt1.1
 
+python3_virtualenv:
+  pkg.installed:
+    - pkgs:
+        - python3-venv
+
+pip_axidraw_venv:
+  cmd.run:
+    - name: python3 -m venv /opt/venv-axidraw
+    - unless: test -d /opt/venv-axidraw
+    - require:
+      - python3_virtualenv
+
 pip_axidraw:
   pip.installed:
    - require:
       - pip
       - pip_axidraw_requirements
-   - name: salt://axidraw_python/AxiDraw_API_v2.7.4.zip
+      - pip_axidraw_venv
+   - bin_env: /opt/venv-axidraw
+   - name: https://cdn.evilmadscientist.com/dl/ad/public/AxiDraw_API.zip
    - upgrade: True
-   - unless: test `/usr/bin/pip3 freeze | grep axidrawinternal` = 'axidrawinternal==2.7.4'
+   - unless: test `/opt/venv-axidraw/bin/pip3 freeze | grep axidrawinternal` = 'axidrawinternal==2.7.4'
 
 pip_axidraw_profile_alias:
   file.managed:
@@ -242,6 +256,8 @@ pip_axidraw_bash_alias:
   file.append:
     - require:
         - pip_axidraw
-    - names:
-      - /etc/bash.bashrc:
-        - source: salt://axidraw/etc/profile.d/99-axidraw-aliases.sh
+    - name: /etc/bash.bashrc
+    - text:
+      - ""
+      - "# 99-axidraw-aliases"
+      - ". /etc/profile.d/99-axidraw-aliases.sh"
