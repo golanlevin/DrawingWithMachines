@@ -14,6 +14,7 @@
         <value type="int" value="6"/>
         <value type="int" value="3"/>
         <value type="int" value="12"/>
+        <value type="int" value="7"/>
         <value type="int" value="5"/>
         <value type="int" value="2"/>
         <value type="int" value="4"/>
@@ -63,6 +64,13 @@
     <property name="plugin-6" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="xfce4-terminal.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+      <property name="disable-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="onboard.desktop"/>
       </property>
       <property name="show-label" type="bool" value="false"/>
       <property name="disable-tooltips" type="bool" value="true"/>

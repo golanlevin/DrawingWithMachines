@@ -12,6 +12,7 @@ The minions perform these functions:
  - One user account per each axidraw so that multiple machines may be used simultaneously
  - Stripped-down and locked-in desktop and window manager that is consistent and touchscreen-friendly
  - Management of multiple axidraw machines per machine (i.e. an exact USB port is always used per each machine for consistency)
+ - On-screen keyboard button for touchscreen accessibility with Onboard
 
 ## TODO
  - License
@@ -19,7 +20,6 @@ The minions perform these functions:
  - Verify Inkscape and Axidraw CLI work fine
  - Central NFS file server and web interface for uploading with Filestash
  - Remote desktop connections to each machine through the master with guac
- - Add on-screen keyboard button
  - Control screen timeout via SaltStack variable
  - Dynamically configure grains instead of via grain file
  - Lock down XFCE a bit more
