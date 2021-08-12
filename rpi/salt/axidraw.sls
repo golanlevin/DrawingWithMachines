@@ -182,6 +182,7 @@ flatpak_app_inkscape:
         - flatpak
         - flatpak_repo
     - name: flatpak install --system --noninteractive flathub org.inkscape.Inkscape
+    - unless: "test \"`flatpak info --system org.inkscape.Inkscape | grep Version`\" = '     Version: 1.0.1'"
 
 flatpak_app_inkscape_permission:
   cmd.run:
