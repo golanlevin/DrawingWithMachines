@@ -172,7 +172,7 @@ flatpak_repo:
     - require:
        - flatpak
     - name: flatpak remote-add --system --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-#    - unless: test `flatpak remote-list` = 'graphical.target'
+    - unless: test `flatpak remotes --system | grep 'flathub'` = 'flathub'
     - onchanges:
        - flatpak
 
@@ -190,7 +190,9 @@ flatpak_app_inkscape_permission:
         - flatpak_repo
         - flatpak_app_inkscape
     - name: flatpak override org.inkscape.Inkscape --device=all --system
+    - unless: test `flatpak override --show --system org.inkscape.Inkscape | grep devices` = 'devices=all;'
 
+{% if not salt['file.directory_exists' ]('/var/lib/flatpak/app/org.inkscape.Inkscape/current/active/files/share/inkscape/extensions/ad-ink_274_r1') %}
 flatpak_app_inkscape_ext_axidraw:
   archive.extracted:
     - name: /var/lib/flatpak/app/org.inkscape.Inkscape/current/active/files/share/inkscape/extensions
@@ -202,6 +204,7 @@ flatpak_app_inkscape_ext_axidraw:
     - group: root
     - require:
        - flatpak_app_inkscape
+{% endif %}
 
 pip:
   pkg.installed:
