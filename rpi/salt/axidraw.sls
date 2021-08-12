@@ -189,7 +189,7 @@ flatpak_app_inkscape_permission:
         - flatpak
         - flatpak_repo
         - flatpak_app_inkscape
-    - name:flatpak override org.inkscape.Inkscape --device=all --system
+    - name: flatpak override org.inkscape.Inkscape --device=all --system
 
 flatpak_app_inkscape_ext_axidraw:
   archive.extracted:
