@@ -212,7 +212,7 @@ pip:
     - pkgs:
       - python3-pip  
 
-pip_axidraw_requiremens:
+pip_axidraw_requirements:
   pkg.installed:
     - pkgs:
         - libxslt1.1
@@ -221,15 +221,27 @@ pip_axidraw:
   pip.installed:
    - require:
       - pip
-      - pip_axidraw_requiremens
+      - pip_axidraw_requirements
    - name: salt://axidraw_python/AxiDraw_API_v2.7.4.zip
    - upgrade: True
    - unless: test `/usr/bin/pip3 freeze | grep axidrawinternal` = 'axidrawinternal==2.7.4'
+
+pip_axidraw_profile_alias:
   file.managed:
+    - require:
+        - pip_axidraw
     - user: root
     - group: root
     - mode: '0644'
     - makedirs: True
     - names:
       - /etc/profile.d/99-axidraw-aliases.sh:
+        - source: salt://axidraw/etc/profile.d/99-axidraw-aliases.sh
+
+pip_axidraw_bash_alias:
+  file.append:
+    - require:
+        - pip_axidraw
+    - names:
+      - /etc/bash.bashrc:
         - source: salt://axidraw/etc/profile.d/99-axidraw-aliases.sh
