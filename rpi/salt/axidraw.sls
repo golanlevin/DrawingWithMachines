@@ -219,4 +219,13 @@ pip_axidraw:
       - pip
       - pip_axidraw_requiremens
    - name: salt://axidraw_python/AxiDraw_API_v2.7.4.zip
-#   - upgrade: True
+   - upgrade: True
+   - unless: test `/usr/bin/pip3 freeze | grep axidrawinternal` = 'axidrawinternal==2.7.4'
+  file.managed:
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+    - names:
+      - /etc/profile.d/99-axidraw-aliases.sh:
+        - source: salt://axidraw/etc/profile.d/99-axidraw-aliases.sh

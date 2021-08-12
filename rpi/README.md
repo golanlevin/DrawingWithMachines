@@ -9,6 +9,7 @@ The master performs these functions:
 
 The minions perform these functions:
  - Run Inkscape w/ Axidraw plugin and Axidraw CLI
+ - Axidraw CLI automatically selects device based on user/machine
  - One user account per each axidraw so that multiple machines may be used simultaneously
  - Stripped-down and locked-in desktop and window manager that is consistent and touchscreen-friendly
  - Management of multiple axidraw machines per machine (i.e. an exact USB port is always used per each machine for consistency)
@@ -17,7 +18,6 @@ The minions perform these functions:
 ## TODO
  - License
  - Run saxi
- - Verify Inkscape and Axidraw CLI work fine
  - Central NFS file server and web interface for uploading with Filestash
  - Remote desktop connections to each machine through the master with guac
  - Control screen timeout via SaltStack variable
