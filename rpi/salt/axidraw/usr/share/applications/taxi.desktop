@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Taxi
+GenericName=Plotting Software
+Comment=Opinionated Axidraw interface
+Exec=/opt/venv-taxi/bin/python3 -m taxi
+Terminal=false
+Type=Application
+Keywords=Plotting;Graphics;Pen;
+Icon=document-edit-symbolic
+Categories=Graphics;Education;Science;Utility;

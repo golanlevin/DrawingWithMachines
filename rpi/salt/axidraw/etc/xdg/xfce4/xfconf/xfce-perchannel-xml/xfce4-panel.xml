@@ -12,6 +12,7 @@
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
         <value type="int" value="6"/>
+        <value type="int" value="8"/>
         <value type="int" value="3"/>
         <value type="int" value="12"/>
         <value type="int" value="7"/>
@@ -64,6 +65,13 @@
     <property name="plugin-6" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="xfce4-terminal.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+      <property name="disable-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="taxi.desktop"/>
       </property>
       <property name="show-label" type="bool" value="false"/>
       <property name="disable-tooltips" type="bool" value="true"/>

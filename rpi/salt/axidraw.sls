@@ -45,8 +45,11 @@ udev:
     - require:
         - axidraw_group
     - template: jinja
-    - name: /etc/udev/rules.d/99-axidraw.rules
-    - source: salt://axidraw/etc/udev/rules.d/99-axidraw.rules
+    - names:
+      - /etc/udev/rules.d/99-axidraw-com.rules:
+        - source: salt://axidraw/etc/udev/rules.d/99-axidraw-com.rules
+      - /etc/udev/rules.d/70-axidraw-uaccess-hid.rules:
+        - source: salt://axidraw/etc/udev/rules.d/70-axidraw-uaccess-hid.rules
     - user: root
     - group: root
     - mode: '0644'
@@ -54,7 +57,8 @@ udev:
   cmd.run:
     - name: /usr/bin/udevadm control --reload-rules
     - onchanges:
-      - file: /etc/udev/rules.d/99-axidraw.rules
+      - file: /etc/udev/rules.d/99-axidraw-com.rules
+      - file: /etc/udev/rules.d/70-axidraw-uaccess-hid.rules
 
 sudo:
   pkg.installed:
@@ -210,7 +214,7 @@ flatpak_app_inkscape_ext_axidraw:
 pip:
   pkg.installed:
     - pkgs:
-      - python3-pip  
+      - python3-pip
 
 pip_axidraw_requirements:
   pkg.installed:
@@ -265,3 +269,47 @@ pip_axidraw_bash_alias:
         if [[ -z ${AXIDRAW_CONSOLE+x} ]]; then    # otherwise /etc/profile.d/* will run too
             . /etc/profile.d/99-axidraw.sh
         fi
+
+pip_taxi_requirements:
+  pkg.installed:
+    - pkgs:
+        - libatlas-base-dev    # For numpy
+        - libsdl2-dev          # For kivy
+        - libsdl2-ttf-2.0-0    # For kivy
+        - libsdl2-image-2.0-0  # For kivy
+        - libsdl2-mixer-2.0-0  # For kivy
+
+pip_taxi_venv:
+  cmd.run:
+    - name: python3 -m venv /opt/venv-taxi
+    - unless: test -d /opt/venv-taxi
+    - require:
+      - python3_virtualenv
+
+pip_taxi:
+  pip.installed:
+   - require:
+      - pip
+      - pip_taxi_requirements
+      - pip_taxi_venv
+      - udev
+   - bin_env: /opt/venv-taxi
+   - name: "https://github.com/DaAwesomeP/taxi/archive/refs/heads/main.zip#egg=taxi"
+   - upgrade: True
+   - unless: test `/opt/venv-taxi/bin/pip3 freeze | grep 'taxi'` = 'taxi==0.1.0a0'
+
+pip_taxi_desktop:
+  file.managed:
+    - require:
+        - pip_taxi
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+    - names:
+      - /usr/share/applications/taxi.desktop:
+        - source: salt://axidraw/usr/share/applications/taxi.desktop
+  cmd.run:
+    - name: /usr/bin/update-desktop-database
+    - onchanges:
+      - file: /usr/share/applications/taxi.desktop

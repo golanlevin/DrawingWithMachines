@@ -1,0 +1,10 @@
+# uaccess rules for current user only
+ACTION=="remove", GOTO="uaccess_end"
+ENV{MAJOR}=="", GOTO="uaccess_end"
+
+SUBSYSTEM=="input", ENV{ID_INPUT_KEYBOARD}=="1", TAG+="uaccess"
+SUBSYSTEM=="input", ENV{ID_INPUT_MOUSE}=="1", TAG+="uaccess"
+SUBSYSTEM=="input", ENV{ID_INPUT_TOUCHSCREEN}=="1", TAG+="uaccess"
+#SUBSYSTEM=="input", ENV{ID_PATH}=="platform-soc:firmware:touchscreen", TAG+="uaccess"  # above rule more generic
+
+LABEL="uaccess_end"
