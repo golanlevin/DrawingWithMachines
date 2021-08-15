@@ -249,15 +249,19 @@ pip_axidraw_profile_alias:
     - mode: '0644'
     - makedirs: True
     - names:
-      - /etc/profile.d/99-axidraw-aliases.sh:
-        - source: salt://axidraw/etc/profile.d/99-axidraw-aliases.sh
+      - /etc/profile.d/99-axidraw.sh:
+        - source: salt://axidraw/etc/profile.d/99-axidraw.sh
 
 pip_axidraw_bash_alias:
-  file.append:
+  file.blockreplace:
     - require:
         - pip_axidraw
     - name: /etc/bash.bashrc
-    - text:
-      - ""
-      - "# 99-axidraw-aliases"
-      - ". /etc/profile.d/99-axidraw-aliases.sh"
+    - marker_start: "# BEGIN SALTSTACK MANAGED BLOCK 99-axidraw -DO-NOT-EDIT-"
+    - marker_end: "# END SALTSTACK BLOCK MANAGED 99-axidraw"
+    - append_if_not_found: True
+    - show_changes: True
+    - content: |
+        if [[ -z ${AXIDRAW_CONSOLE+x} ]]; then    # otherwise /etc/profile.d/* will run too
+            . /etc/profile.d/99-axidraw.sh
+        fi
