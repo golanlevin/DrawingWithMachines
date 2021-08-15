@@ -1,21 +1,3 @@
-us_locale:
-  locale.present:
-    - name: en_US.UTF-8
-
-system:
-  pkg.installed:
-    - pkgs:
-      - htop
-      - curl
-      - wget
-      - usbutils
-  locale.system:
-    - name: en_US.UTF-8
-    - require:
-      - locale: us_locale
-  timezone.system:
-    - name: America/New_York
-
 axidraw_group:
   group.present:
     - gid: 2000
@@ -47,9 +29,9 @@ udev:
     - template: jinja
     - names:
       - /etc/udev/rules.d/99-axidraw-com.rules:
-        - source: salt://axidraw/etc/udev/rules.d/99-axidraw-com.rules
+        - source: salt://axidraw-kiosk/etc/udev/rules.d/99-axidraw-com.rules
       - /etc/udev/rules.d/70-axidraw-uaccess-hid.rules:
-        - source: salt://axidraw/etc/udev/rules.d/70-axidraw-uaccess-hid.rules
+        - source: salt://axidraw-kiosk/etc/udev/rules.d/70-axidraw-uaccess-hid.rules
     - user: root
     - group: root
     - mode: '0644'
@@ -59,27 +41,6 @@ udev:
     - onchanges:
       - file: /etc/udev/rules.d/99-axidraw-com.rules
       - file: /etc/udev/rules.d/70-axidraw-uaccess-hid.rules
-
-sudo:
-  pkg.installed:
-    - pkgs:
-      - sudo
-
-sudo_config:
-  file.managed:
-    - require:
-        - sudo
-    - user: root
-    - group: root
-    - mode: '0440'
-    - makedirs: True
-    - names:
-      - /etc/sudoers.d/099_insults:
-        - source: salt://axidraw/etc/sudoers.d/099_insults
-      {%- if salt['file.file_exists' ]('/etc/sudoers.d/010_pi-nopasswd') %}
-      - /etc/sudoers.d/011_pi-nopasswd-override:
-        - source: salt://axidraw/etc/sudoers.d/011_pi-nopasswd-override
-      {%- endif %}
 
 #ssh:
 #  pkg.installed:
@@ -107,11 +68,11 @@ touchscreen_xss:
     - names:
       - /usr/local/bin/xssstart:
         {% if grains['cpuarch'] == 'armv7l' %}
-        - source: salt://axidraw/usr/local/bin/xssstart-armv7l
+        - source: salt://axidraw-kiosk/usr/local/bin/xssstart-armv7l
         {% endif %}
       - /usr/local/bin/clicklock:
         {% if grains['cpuarch'] == 'armv7l' %}
-        - source: salt://axidraw/usr/local/bin/clicklock-armv7l
+        - source: salt://axidraw-kiosk/usr/local/bin/clicklock-armv7l
         {% endif %}
 
 login:
@@ -132,13 +93,13 @@ login:
         - touchscreen_xss
     - names:
       - /etc/X11/default-display-manager:
-        - source: salt://axidraw/etc/X11/default-display-manager
+        - source: salt://axidraw-kiosk/etc/X11/default-display-manager
       - /etc/lightdm/lightdm.conf.d/99_axidraw.conf:
-        - source: salt://axidraw/etc/lightdm/lightdm.conf.d/99_axidraw.conf
+        - source: salt://axidraw-kiosk/etc/lightdm/lightdm.conf.d/99_axidraw.conf
       - /etc/lightdm/slick-greeter.conf:
-        - source: salt://axidraw/etc/lightdm/slick-greeter.conf
+        - source: salt://axidraw-kiosk/etc/lightdm/slick-greeter.conf
       - /etc/X11/xorg.conf.d/99_axidraw.conf:
-        - source: salt://axidraw/etc/X11/xorg.conf.d/99_axidraw.conf
+        - source: salt://axidraw-kiosk/etc/X11/xorg.conf.d/99_axidraw.conf
 
 desktop:
   pkg.installed: 
@@ -158,13 +119,13 @@ desktop:
     - makedirs: True
     - names:
       - /etc/xdg/xfce4/kiosk/kioskrc:
-        - source: salt://axidraw/etc/xdg/xfce4/kiosk/kioskrc
+        - source: salt://axidraw-kiosk/etc/xdg/xfce4/kiosk/kioskrc
       - /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
-        - source: salt://axidraw/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+        - source: salt://axidraw-kiosk/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
       - /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml:
-        - source: salt://axidraw/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+        - source: salt://axidraw-kiosk/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
       - /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml:
-        - source: salt://axidraw/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+        - source: salt://axidraw-kiosk/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 
 flatpak:
   pkg.installed: 
@@ -254,7 +215,7 @@ pip_axidraw_profile_alias:
     - makedirs: True
     - names:
       - /etc/profile.d/99-axidraw.sh:
-        - source: salt://axidraw/etc/profile.d/99-axidraw.sh
+        - source: salt://axidraw-kiosk/etc/profile.d/99-axidraw.sh
 
 pip_axidraw_bash_alias:
   file.blockreplace:
@@ -278,6 +239,7 @@ pip_taxi_requirements:
         - libsdl2-ttf-2.0-0    # For kivy
         - libsdl2-image-2.0-0  # For kivy
         - libsdl2-mixer-2.0-0  # For kivy
+        - libgeos-c1v5         # For Shapely until piwheel is fixed
 
 pip_taxi_venv:
   cmd.run:
@@ -308,7 +270,7 @@ pip_taxi_desktop:
     - makedirs: True
     - names:
       - /usr/share/applications/taxi.desktop:
-        - source: salt://axidraw/usr/share/applications/taxi.desktop
+        - source: salt://axidraw-kiosk/usr/share/applications/taxi.desktop
   cmd.run:
     - name: /usr/bin/update-desktop-database
     - onchanges:

@@ -1,5 +1,13 @@
 base:
-  'roles:axidraw':
+  'roles:axidraw-kiosk':
     - match: grain
-    - axidraw
-
+    - minion
+    - sudo-rules
+    - system-util
+    - axidraw-kiosk
+  'roles:axidraw-master':
+    - match: grain
+    - minion-master
+    - sudo-rules
+    - system-util
+#    - axidraw-master
