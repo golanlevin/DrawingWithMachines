@@ -3,11 +3,11 @@ axidraw_group:
     - gid: 2000
     - name: axidraw
 
-{% for axidraw_user in grains['axidraws'] %}
+{% for axidraw_user in pillar['axidraws'] %}
 {{ axidraw_user.name }}:
+{% if axidraw_user.minion == grains['id'] %}
   user.present:
     - uid: {{ 2000 + axidraw_user.id }}
-#    - gid: {{ 2000 + axidraw_user.id }}
     - usergroup: True
     - createhome: True
     - empty_password: True
@@ -18,8 +18,12 @@ axidraw_group:
       - axidraw_group
     - groups:
         - axidraw
-#        - dialout
         - users
+{% else %}
+  user.absent:
+    - purge: True
+    - force: False
+{% endif %}
 {% endfor %}
 
 udev:
@@ -41,6 +45,28 @@ udev:
     - onchanges:
       - file: /etc/udev/rules.d/99-axidraw-com.rules
       - file: /etc/udev/rules.d/70-axidraw-uaccess-hid.rules
+
+nfs_client:
+  pkg.installed:
+    - pkgs:
+        - nfs-common
+        - acl
+        - nfs4-acl-tools
+
+nfs_axidraw_client:
+  mount.mounted:
+    - require:
+        - axidraw_group
+        - nfs_client
+    - name: /mnt/axidraw
+    - device: sfci-pi1.cfa.cmu.edu:/srv/axidraw
+    - fstype: nfs
+    - opts: rw,user
+    - dump: 0
+    - pass_num: 0
+    - persist: True
+    - mount: True
+    - mkmnt: True
 
 #ssh:
 #  pkg.installed:

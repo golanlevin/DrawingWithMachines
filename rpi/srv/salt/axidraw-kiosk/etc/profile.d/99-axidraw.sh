@@ -11,6 +11,7 @@ if [[ -z ${AXIDRAW_CONSOLE+x} ]]; then
     echo -e "Use the ${AXIDRAW_CLI_COLOR_CYAN}axicli${AXIDRAW_CLI_COLOR_NONE} command to control ${USER}. ${AXIDRAW_CLI_COLOR_RED}Do not use the -p, -P, --port, or --port_config options; this terminal will select the correct machine for you.${AXIDRAW_CLI_COLOR_NONE}
 "
     alias axicli='/opt/venv-axidraw/bin/axicli --port `/usr/bin/readlink -f /dev/$USER` --port_config 0'
+    cd /mnt/axidraw
     AXIDRAW_CONSOLE=true
   else
     AXIDRAW_CONSOLE=false

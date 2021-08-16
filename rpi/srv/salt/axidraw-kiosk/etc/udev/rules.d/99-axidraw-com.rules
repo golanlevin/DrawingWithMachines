@@ -1,0 +1,2 @@
+{% for axidraw_user in pillar['axidraws'] %}{% if axidraw_user.minion == grains['id'] %}KERNEL=="{{ axidraw_user.kernel_type }}", KERNELS=="{{ axidraw_user.kernel_port }}", GROUP="{{ axidraw_user.name }}", SYMLINK+="{{ axidraw_user.name }}"
+{% endif %}{% endfor %}

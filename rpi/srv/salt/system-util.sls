@@ -16,4 +16,4 @@ system:
   timezone.system:
     - name: America/New_York
   keyboard.system:
-    name: us
+    - name: us
