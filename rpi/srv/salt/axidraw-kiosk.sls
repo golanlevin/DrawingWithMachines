@@ -93,12 +93,12 @@ touchscreen_xss:
     - makedirs: False
     - names:
       - /usr/local/bin/xssstart:
-        {% if grains['cpuarch'] == 'armv7l' %}
-        - source: salt://axidraw-kiosk/usr/local/bin/xssstart-armv7l
+        {% if grains['osarch'] == 'armhf' %}
+        - source: salt://axidraw-kiosk/usr/local/bin/xssstart-armhf
         {% endif %}
       - /usr/local/bin/clicklock:
-        {% if grains['cpuarch'] == 'armv7l' %}
-        - source: salt://axidraw-kiosk/usr/local/bin/clicklock-armv7l
+        {% if grains['osarch'] == 'armhf' %}
+        - source: salt://axidraw-kiosk/usr/local/bin/clicklock-armhf
         {% endif %}
 
 login:
@@ -218,6 +218,7 @@ pip_axidraw_venv:
     - name: python3 -m venv /opt/venv-axidraw
     - unless: test -d /opt/venv-axidraw
     - require:
+      - pip
       - python3_virtualenv
 
 pip_axidraw:
@@ -272,6 +273,7 @@ pip_taxi_venv:
     - name: python3 -m venv /opt/venv-taxi
     - unless: test -d /opt/venv-taxi
     - require:
+      - pip
       - python3_virtualenv
 
 pip_taxi:
