@@ -4,6 +4,13 @@ nfs_server:
       - nfs-kernel-server
       - acl
       - nfs4-acl-tools
+  service.running:
+    - name: nfs-server
+    - enable: true
+    - require: 
+      - pkg: nfs_server
+    - watch: 
+      - pkg: nfs_server
 
 axidraw_group:
   group.present:
@@ -108,7 +115,8 @@ docker_repo:
     - humanname: docker
     - name: deb [arch=armhf signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian buster stable
     - file: /etc/apt/sources.list.d/docker.list
-    - refresh_db: true
+    - refresh_db: True
+    - clean_file: True
     - require:
       - docker_repo_key
       - apt_https_gpg_transport
@@ -122,14 +130,84 @@ docker:
     - pkgs:
        - docker-ce
        - docker-ce-cli
+       - containerd.io
+  service.running:
+    - name: docker
+    - enable: true
+    - require: 
+      - pkg: docker
+    - watch: 
+      - pkg: docker
 
-#docker_compose:
-#  file.managed:
-#    - require:
-#       - docker
-#    - name: /usr/local/bin/docker-compose
-#    - source: "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)"
-#    - user: root
-#    - group: root
-#    - mode: '0755'
-#    - source_hash: https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64.sha256
+pip:
+  pkg.installed:
+    - pkgs:
+        - python3-pip
+
+pip_urllib3:
+  pip.installed:
+    - name: urllib3
+    - reload_modules: True
+
+pip_requests:
+  pip.installed:
+    - name: requests
+    - reload_modules: True
+
+pip_docker:
+  pip.installed:
+   - require:
+      - pip
+      - pip_urllib3
+      - pip_requests
+   - name: docker==4.4.4
+   - reload_modules: True
+   - upgrade: True
+
+filebrowser_docker_config:
+  file.managed:
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+    - names:
+      - /srv/axidraw-docker/filebrowser/filebrowser.json:
+        - source: salt://axidraw-master/srv/axidraw-docker/filebrowser/filebrowser.json
+
+filebrowser_docker_db:
+  file.managed:
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+    - replace: False
+    - names:
+      - /srv/axidraw-docker/filebrowser/filebrowser.db:
+        - source: salt://axidraw-master/srv/axidraw-docker/filebrowser/filebrowser.db
+
+filebrowser_docker_compose:
+  docker_container.running:
+    - require:
+      - filebrowser_docker_config
+      - filebrowser_docker_db
+      - docker
+      - pip_docker
+      - axidraw_group
+    - name: filebrowser
+    - image: filebrowser/filebrowser:v2.16.1
+    - watch_action: force
+    - watch:
+      - file: /srv/axidraw-docker/filebrowser/filebrowser.json
+    - start: True
+    - binds:
+      - /srv/axidraw:/srv:rw
+      - /srv/axidraw-docker/filebrowser/filebrowser.db:/database.db:rw
+      - /srv/axidraw-docker/filebrowser/filebrowser.json:/.filebrowser.json:ro
+    - environment:
+      - TZ: {{ salt['timezone.get_zone']() }}
+    - group_add:
+      - 2000
+    - port_bindings:
+      - 80:80/tcp
+    - read_only: False
+    - restart_policy: always
