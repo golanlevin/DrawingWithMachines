@@ -3,7 +3,7 @@ Resources for the CMU *Drawing with Machines* Course
 
 #### Plotters
 
-* [Hewlett-Packard 7475A](hp7475a/README.md)
+* [Hewlett-Packard 7475A](machines/hp7475a/README.md)
 * AxiDraw
 * Line-Us
 * [US Cutter MH871-MK2](http://www.uscutter.com/USCutter-MH-Series-Vinyl-Cutter-w-VinylMaster-Cut-Design-Cut-Software)
