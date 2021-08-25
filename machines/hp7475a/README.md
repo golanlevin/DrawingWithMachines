@@ -1,6 +1,6 @@
 # Plotting with the HP7475A
 
-***Summary:*** *This document outlines a workflow for offline (non-interactive) plotting with the STUDIO for Creative Inquiry's HP7475A, using Processing and from a Mac computer. This has been tested in OSX 10.15.*
+***Summary:*** *This document outlines a workflow for offline (non-interactive) plotting with the STUDIO for Creative Inquiry's HP7475A, using Processing and from a Mac computer. This has been tested in OSX 10.15.7 and 11.5.2.*
 
 #### Contents
 
