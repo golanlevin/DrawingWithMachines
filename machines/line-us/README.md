@@ -89,6 +89,7 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 ## Other Helpful Information
 
+* Line-Us support for other programming languages can be found [here](https://github.com/Line-us/Line-us-Programming)
 * Line-Us may throw errors when receiving high-precision floating-point coordinates. It's recommended to transmit integer coordinates instead. 
 * Here's a view of the Line-Us Drawing Area:
 
