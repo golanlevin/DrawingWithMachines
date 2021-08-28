@@ -17,7 +17,7 @@
 
 * [**First time Line-us set up**](https://www.line-us.com/help.html): Instructional information and video from the manufacturer.
 * [**Getting Started with Line-us Programming**](https://github.com/Line-us/Line-us-Programming): The central source for programming Line-Us.
-* [Readymade SVG plotter for Line-Us](https://github.com/tbertz/LineUs_SVG/tree/release/v0.2), built in Processing v.3.
+* [**Readymade SVG plotter for Line-Us**](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/line-us/processing/line_us_svg_converter_plotter), built in Processing v3/v4.
 
 
 ## Line-Us Setup
