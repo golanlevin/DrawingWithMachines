@@ -75,6 +75,7 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 ## Programming Line-Us with Processing (Java)
 
 * [Processing code for a very simple example](https://github.com/Line-us/Line-us-Programming/blob/master/Processing/HelloWorld/HelloWorld.pde)
+* [SVG loader/plotter for Line-Us, built in Processing](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/line-us/processing/line_us_svg_converter_plotter)
 
 ---
 
