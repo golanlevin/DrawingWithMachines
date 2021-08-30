@@ -33,7 +33,7 @@
 	* Health-Related Absences
 * **Civics and Attendance**
 	* Attendance and Presence
-	* A Word About Unexcuses Absences in Critiques
+	* A Word About Unexcused Absences in Critiques
 * **Rubrics and Grading**
 	* General Expectations
 	* Grading Breakdown Summary 
@@ -225,14 +225,14 @@ I distinguish between *excused* absences, *unexcused* absences, and *inexcusable
 
 * **An *excused* absence** is one in which you have notified me in a professional and timely way: generally, at least 24 hours in advance, except for illness/emergency. **If you know you're going to be absent or tardy, please contact me in a timely way regarding your situation.** Email is best, but I am also amenable to receiving mesages via Discord, via text messages (a number given to you in email), and via messages on Twitter (@golan). If you’re ill, or if you know you will have a planned absence, please let me know before the beginning of that class session: I can be extremely understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. Excused absences are fine and will have no impact on your final grade. If you encounter extenuating circumstances and must miss a significant number of sessions, please come and discuss the issue with me; I would like to find a way to support you.
 * **An *unexcused* absence** is one in which you're unexpectedly not present. Owing to the COVID-19 crisis, you are permitted one *unexcused* absence. Two additional *unexcused* absences (beyond the one allowed) will lower your final grade by one letter (e.g. A⟶B, B⟶C). An unexcused tardiness beyond 20 minutes is equal to one unexcused absence.
-* **An *inexcusable* absence** is an unallowable form of *unexcused* absence, in which I catch you after class in the hallway, chatting with your friends. This is very disappointing.
+* **An *inexcusable* absence** is an unallowable form of *unexcused* absence. One example of an inexcusable absence is when you don't show up to class, and then I catch you afterwards in the hallway, chatting with your friends. This is very disappointing.
 
 You are responsible for what happens in class whether you’re here or not. Organize with your classmates to get class information and material that you have missed.
 
 ### Mental presence and social media. 
 Focus is precious. Physical presence means nothing if you’re “checked out”; your mental presence is extremely important. During the professor’s lectures or guest presentations, distracted participation is prohibited. You are expected to be able to function for a few hours without tweeting, facebooking, chatting, texting, emailing, or doing work for other courses.
 
-### A Word About Unexcuses Absences in Critiques
+### A Word About Unexcused Absences in Critiques
 Sometimes, students who haven’t completed their projects skip class during critiques, because they are too embarrassed to come to class empty-handed. This type of absence is stupendously self-destructive, and is one of the most objectionable things you can do in this class. Please have courage. Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. If you are empty-handed, just say so; it happens. Even if you are without a project, you are still expected to contribute productively to the class discussion. 
 
 
