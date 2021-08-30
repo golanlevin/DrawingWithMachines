@@ -1,8 +1,13 @@
-# Syllabus for 60-468
+# Syllabus for *Drawing with Machines*
 
-* *Drawing with Machines* (60-468), Fall 2021
-* Carnegie Mellon University School of Art + IDeATe Program
+* *Drawing with Machines* (60-468, Fall 2021)
+* Times: Mon/Wed, 1:25-4:15pm, August 30 – December 1, 2021
+* Location: Frank-Ratchye STUDIO for Creative Inquiry, CFA-111
+* Carnegie Mellon University School of Art & IDeATe Program
+* 12 Units; IPO (In-Person Only)
 * Professor Golan Levin
+
+---
 
 ### Contents
 
@@ -45,8 +50,6 @@
 	* Code of Conduct
 	* Inclusivity Statement
 * **Zoom & Remote Education**
-	* Tools
-	* Zoom Fatigue
 	* Zoom Policies
 	* Zoom Requests
 * **Freedom of Speech Committment**
@@ -60,16 +63,16 @@
 # Overview
 
 ### Course Description
-Electronic Media Studio: Interactivity and Computation (60-212) is a practical introduction to programming and computational media production within the context of the arts. In this “intromediate” level course, students develop the skills and confidence to produce interactive artworks, discuss their work in relation to current and historic praxes of digital art, and engage new technologies critically.
+This is an advanced studio course in experimental drawing, generative art, computational design, and mechatronic mishegas. Working at the boundaries of code, automation, physical materials, and gestural mark-making, we will explore personal and peculiar new approaches to digital fabrication; the development of ultra-niche workflows as a mode of creative practice; and the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, and paper. 
 
-This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for students who have already had one semester of elementary programming (in any language), this class develops craft skills in text-based, imperative programming using a variety of creative coding toolkits, including p5.js (JavaScript) and Unity3D (JavaScript/C#). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
+Units in this course include: rule-based art and conditional design; chance and stochastic composition; real-time interaction and contingency; asemic cartography; synthetic automatism and ersatz perception; and more. Through rigorous exercises in freestyle computing, participants will develop skills in the control of machines by (e.g.) AxiDraw, Line-Us, Scribit, Rotrics, and Universal Robots to govern line, texture, tone, shape and mass in a variety of wet and dry drawing media. Interested students should have a portfolio of creative visual work, and programming experience equivalent to an introductory course such as 15-104, 110 or 112. Enrollment by permission of instructor.
 
 ### Learning Objectives
 At the conclusion of this course, students will be able to:
 
-* Be proficient in creating computer programs capable of responding to user interaction, in a variety of different creative coding tools, such as p5.js, Processing, and Unity3D.
-* Gain familiarity with the repertoire of artists, designers, works and activities around interactive art, generative form, and computational design.
-* Understand the role of computation in artworks that explore concepts of transmediality, connectivity, generativity, and immersivity.
+* Be proficient in creating computer programs to execute drawings with machines, using a variety of different tools, such as p5.js, Processing, and X-Y plotters.
+* Gain familiarity with the repertoire of artists, designers, works and activities around algorithmic art with robots and mechatronic plotters.
+* Understand the role of computation in making drawings that explore concepts of procedurality and generativity.
 * Understand how to document and present creative work online, and in person.
 
 
@@ -79,24 +82,24 @@ At the conclusion of this course, students will be able to:
 ### Key Topics
 *What are the key subject topics that this course will cover?*
 
-This course covers the practical application of computer programming techniques to the creation of expressive software art and computational design. Topics include generative art, networked interactivity, gestural interaction systems, and immersive world-making.
+This course considers the creation of generative art and algorithmic form-making using computer programming techniques and robotic drawing tools.
 
 ### Prerequisite Knowledge
 *What prior knowledge must students have in order to be successful in this course?*
 
-* This course is intended as a second course for students who have already had one semester of elementary programming (in any language). Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures, and object-oriented programming, as taught in a course like 15-104, 15-110, or 15-112.
+* This is an advanced studio course, intended for students who have already had at least one semester of elementary programming (in any language). Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures, and object-oriented programming, as taught in a course like 15-104, 15-110, or 15-112.
+* Students are expected to have had some prior experience with a creative coding toolkit for the arts, such as Processing or p5.js. 
 * A strong foundation in mathematics, especially including geometry, algebra, and trigonometry, will also be very helpful.
-* This course is taught primarily with JavaScript. Students fluent only in Python may need to do some additional preparation.
+* This is a polyglot course, taught using a combination of Java, JavaScript, and Python. Students fluent in only one language may need to do some additional preparation.
 
 ### Course Relevance
 *How is this course relevant to the targeted student populations?*
 
 This course is relevant to students who are interested in:
 
+* Experimentation with new forms of drawing and markmaking
 * Exploring the use of computation in expanding our expressive vocabulary
-* Designing procedural form for games, virtual environments, and other modes of creative expression
-* Developing expertise in the aesthetic nuances and conceptual landscape of interactivity
-* Understanding the practical and social assumptions that underpin code in culture
+* Developing expertise in the practical skills, aesthetic evaluation, and conceptual underpinning of generative and procedural form-making
 
 ### Course Goals
 *What are the overall goals of this course that students will achieve after completing it?*
@@ -111,17 +114,17 @@ At the conclusion of this course, students will be able to:
 ### Assessment Structure
 *How will students be assessed in this course: assignments, exams, final, presentation, project, etc.?*
 
-There are approximately 6-8 main assignments (software art coding projects). Participation also plays an important role in the final grade. 
+There are approximately 10 main assignments (software art coding projects). The student's grade is determined from their attendance, classroom conduct, and civic participation. 
 
 ### Learning Resources
 *What resources will be available for students: web pages, learning applications, texts, case studies, etc.?*
 
-Available resources include a specialized hardware, GitHub repositories, YouTube lectures, and a course web site.
+Available resources include specialized hardware, GitHub repositories, a Discord server, a course web site, and a small classroom library, as well as links to online resources.
 
 ### Extra Time Commitments
 *Are there extra time commitments required outside of the regularly scheduled course meeting times?*
 
-No. However, students may wish to take advantage of the Professor’s posted office hours.
+There are no *specific* extra time committments outside of regularly posted meeting times. However, students will need to use plotting equipment outside of class time, and may also wish to take advantage of the Professor’s posted office hours.
 
 ### Course Tags
 *Keywords referencing general topics and/or course structure.* 
@@ -136,113 +139,137 @@ No. However, students may wish to take advantage of the Professor’s posted off
 * Maker
 
 
-
 ---
 # Administrata
 
-### Prerequisites
-There are no specific course prerequisites for this course, but students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures, and object-oriented programming, as taught in a course like 15-104, 15-110, or 15-112. A strong foundation in mathematics, especially including geometry, algebra, and trigonometry, will also be very helpful. This course is taught primarily with JavaScript; students fluent only in Python may need to do some additional preparation.
+### Access to Plotting Equipment
 
-### Credits Allocated
-60-212 provides 12 units of academic credit, and satisfies the software skills portal requirement for CFA (arts), Dietrich (humanities), and other students pursuing IDeATe minors and concentrations. 60-212 additionally satisfies the same Electronic Media Studio requirement as 60-210 (sometimes called EMS2) for students pursuing BFA and BXA majors in the School of Art.
+It is anticipated that you will execute your assignments using the plotter equipment at the STUDIO for Creative Inquiry. Exceptions to this are as follows: 
+
+* If you happen to possess your own plotter equipent, you are welcome/encouraged to use it.
+* If you happen to have access to hardware elsewhere on campus which can be used for mark-making (such as the robot arms in the School of Architecture dFab, or the School of Art CNC router), you are welcome/encouraged to do do so, but you are on your own to seek assistance with that equipment if you need it.
+* We have 4 tiny [Line-Us](https://www.line-us.com/) plotters which may be signed out with the professor's permission. If you are traveling or quarantined, you may request to borrow one. 
+
+To ensure access to STUDIO plotters, we will have STUDIO Monitors (staff) who will be on-site to make sure that you have access. Studio Monitors are currently scheduled for work Mondays through Thursdays, 5-11pm; this schedule may be expanded and/or is subject to change. 
 
 ### Required Course Materials
 
-* **Sketchbook**. It is extremely wise to plan your projects on paper before writing any code. In support of this, you are required to maintain a paper sketchbook for this course.
-* **Laptop**. Students should have access to a personal laptop with a webcam. A reliable internet connection will be very important.
-* **Software**. Recent, well-updated installations of Mac OSX, Windows and Linux are all acceptable operating systems. However, although all of the programming toolkits with which we work are free and cross-platform, it is possible that example projects may only be provided for Mac OSX. This is a polyglot course; the programming environments used for example projects and sample code will be a mixture of p5.js (JavaScript), Unity3D (JavaScript or C#), Processing (Java), and Python.
-* **Camera**. Students should have access to some sort of camera to document their sketches. A smartphone with a camera is acceptable.
+* **Personal Sketchbook**. It is extremely wise to plan your projects on paper before writing any code. In support of this, you are required to maintain a personal sketchbook for this course.
+* **Laptop**. Students should have access to a personal laptop. 
+* **Software**. Recent, well-updated installations of Mac OSX, Windows and Linux are all acceptable operating systems. However, although all of the programming toolkits with which we work are free and cross-platform, it is possible that example projects may only be provided for Mac OSX. This is a polyglot course; the programming environments used for example projects and sample code will be a mixture of p5.js (JavaScript), Processing (Java), and Python.
+* **Camera**. Students should have access to some sort of camera to document their work. A smartphone with a camera is acceptable.
+* **Art Supplies**. Although some limited supplies exist in our classroom, you will be expected to obtain your own art supplies, such as pens, pencils, markers and paper, according to your individual interests. 
+* **Specific Art Supplies**. Students are expected to have a baseline of a few common supplies. Please be sure to put your name on your belongings.
+	* Strathmore 300 Series Bristol pad (270 g/m), 9"W x 12"H, smooth surface (not vellum), 20 sheets (Product #342-9)
+	* Itoya Original Art Profolio - 9"W x 12"H, Black, Portrait, 24 Pages portfolio book
+	* Art Alternatives 4"x6" spiral-bound, hard cover, micro-perforated sketchbook
+	* PILOT G2 Rolling Ball Gel Pens, Fine Point, Black 
+	* PILOT Precise V7 Premium Rolling Ball pens, Black
+	* A pencil-case
 
 ### Communication Tools
 This course uses the following software systems to share information:
 
-* **Zoom**, for remote meetings. A link and password will be sent to you. (Note: we might switch to Discord.)
 * **Email**. The Professor will send emails once or twice a week. Please read them.
-* **This WordPress website**, through which you will publish your projects.
-* A Google Calendar, [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
+* **A WordPress website**, through which you will publish your projects, located at [https://courses.ideate.cmu.edu/60-428/f2021/](https://courses.ideate.cmu.edu/60-428/f2021/).
+* **A Google Calendar**, [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar), with key dates.
+* **A Discord Server**, for informal communication and asynchronoous chat. 
+* **Zoom**. Although this course is expected to be IPO (In-Person Only), it is possible that some sessions (or portions of sessions) may be conducted remotely, as necessary and appropriate. A link and password will be sent to you.
+
+### The STUDIO Space 
+
+* Masks are mandatory in the STUDIO space. 
+* Your keycards will get you in 8am-11pm. 
+* We have Monitors working most evenings. 
+* Please go home before the Monitors close up shop. No overnighting is permitted. Sleep in your own bed, please.
+* No food or drink. Partially because of COVID, partially because this is a drawing course. 
+* Please clean up after yourself. 
+* If you don't feel well, stay home.
+* The STUDIO's pandemic capacity is 18 persons. We are interested in restarting the STUDIO's student culture but we're taking it slowly. You may bring a friend if you think they might like to become a part of this place, but we're not ready for you to bring your posse.
 
 
 ---
 # COVID-19 Accommodations
 
-### Accommodations and Flexibility
-The effects of the ongoing COVID-19 pandemic and associated civil unrest in the United States make the fall 2020 semester extraordinarily stressful for everyone. I’m utterly uninterested in this class being an additional source of stress. We are gathered to make creative work because doing so is a source of meaning, solace, hope, and self-betterment. Do the projects because your heart is in the work, not because you are concerned about grades.
+### Mask-Wearing Expectations
+Everyone in the STUDIO is expected to wear a mask this semester. A large supply of facial coverings as well as sanitizing wipes can be found near the STUDIO entrance. 
 
-We will have approximately 8 large projects this semester. I would love it if you did all of them. But you may need a release valve if something goes sideways. With two exceptions*, **you are permitted to miss two projects without any penalty or special accommodation**. *The exceptions are the first week’s *Tooling* assignment, and the *Sensor Experiment* in late September.
-
-Typically I do not allow unexcused absences, i.e., an absence in which you neglected to contacted me before class (“I’m feeling ill today”, “I have a religious holiday”, etc.). However, owing to the kinds of unusual circumstances that may arise this fall, **you are permitted one unexcused absence**.
+If you do not wear a facial covering to class, I will ask you to put one on. If you do not comply, you will be referred to the Office of Community Standards and Integrity for follow up, which could include disciplinary action.
+ 
 
 ### Health-Related Absences
-Please evaluate your own health status regularly and refrain from attending class and other on-campus events if you are ill. You are strongly encouraged to seek appropriate medical attention for treatment of illness. In the event of contagious illness, please do not come to class or to campus to turn in work. Instead notify me by email about your absence as soon as practical, so that accommodations can be made. Please note that documentation (a Doctor’s note) for medical excuses is not required.
+Please evaluate your own health status regularly and *refrain from attending class and other on-campus events if you feel even slightly unwell*. You are emphatically encouraged to seek appropriate medical attention for treatment of illness. In the event of any contagious illness, please do not come to class or to campus to turn in work. Instead notify me by email about your absence as soon as practical, so that accommodations can be made. Please note that documentation (a Doctor’s note) for medical excuses is not required.
+
+### Classroom Streams/Recordings
+Students who are unable to attend class in person may request that a session be recorded and/or streamed over Zoom. I will make a good-faith effort to accommodate such requests, particularly for *lectures*. However, I can offer no guarantees about the quality of the transmission or recording. For non-lecture events (demonstrations, discussions, critiques, workshops, work days), it may be impossible to document the session satisfactorily. 
+
+Recordings of class sessions, if they are made, are covered under the Family Educational Rights and Privacy Act (FERPA) and must not be shared with anyone outside the course. The purpose of these recordings is so students in this course (and only students in this course) can watch or re-watch past class sessions. Feel free to use the recordings if you would like to review something we discussed in class or if you are temporarily unable to attend class.
+
+
+### Grades in a Time of Stress
+The effects of the ongoing COVID-19 pandemic make life extraordinarily stressful for everyone. I’m utterly uninterested in this class being an additional source of stress. We are gathered to make creative work because doing so is a source of meaning, hope, and self-betterment. Do the projects because your heart is in the work, not because you are concerned about grades.
+
+We will have 10 projects this semester. Whether you do them or not, or whether you do them well or not, has no bearing on your grade.
+
+Typically I do not allow *unexcused* absences, i.e., an absence in which you neglected to contacted me before class (“I’m feeling ill today”, “I have a religious holiday”, etc.). However, owing to the kinds of unusual circumstances that may arise this fall, **you are permitted one unexcused absence**.
 
 
 ---
 # Civics and Attendance
 
 ### Attendance and Presence
-It’s challenging to evaluate your work. But it is very *easy* to see if you are absent.
 
-* Owing to the COVID-19 crisis, you are permitted one unexcused absence. Two additional unexcused absences (beyond the one allowed) will lower your final grade by one letter (e.g. A⟶B).
-* Over 20 minutes tardy = one absence. **1st incident will be noted but excused.*
+In this course, your presence, collegial conduct, and civic participation are of paramount importance, and your final grade is based on your regular attendance and active engagement. That said, I also recognize that students may need to miss class for a variety of reasons (e.g. religious observance, job interview, university-sanctioned event, family emergency, or illness). 
 
-It has been said: 80% of success is just showing up. Your presence and civic participation in the class are of paramount importance. You are responsible for what happens in class whether you’re here or not. Organize with your classmates to get class information and material that you have missed.
+I distinguish between *excused* absences, *unexcused* absences, and *inexcusable* absences.  
 
-**If you’re going to be absent or tardy, please contact the professor in a timely way regarding your situation.** Email is best, but I am also amenable to receiving text messages (a number given to you in email) and messages on Twitter (@golan). If you’re ill, or if you know you will have a planned absence, please let me know before the beginning of that class session: I can be very understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner.
+* **An *excused* absence** is one in which you have notified me in a professional and timely way: generally, at least 24 hours in advance, except for illness/emergency. **If you know you're going to be absent or tardy, please contact me in a timely way regarding your situation.** Email is best, but I am also amenable to receiving mesages via Discord, via text messages (a number given to you in email), and via messages on Twitter (@golan). If you’re ill, or if you know you will have a planned absence, please let me know before the beginning of that class session: I can be extremely understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. Excused absences are fine and will have no impact on your final grade. If you encounter extenuating circumstances and must miss a significant number of sessions, please come and discuss the issue with me; I would like to find a way to support you.
+* **An *unexcused* absence** is one in which you're unexpectedly not present. Owing to the COVID-19 crisis, you are permitted one *unexcused* absence. Two additional *unexcused* absences (beyond the one allowed) will lower your final grade by one letter (e.g. A⟶B, B⟶C). An unexcused tardiness beyond 20 minutes is equal to one unexcused absence.
+* **An *inexcusable* absence** is an unallowable form of *unexcused* absence, in which I catch you after class in the hallway, chatting with your friends. This is very disappointing.
 
-Mental presence and social media. Focus is precious. Physical presence means nothing if you’re “checked out”; your mental presence is extremely important. During the professor’s lectures or guest presentations, distracted participation is prohibited. You can exist for few hours without tweeting, facebooking, chatting, texting, emailing, or doing work for other courses.
+You are responsible for what happens in class whether you’re here or not. Organize with your classmates to get class information and material that you have missed.
+
+### Mental presence and social media. 
+Focus is precious. Physical presence means nothing if you’re “checked out”; your mental presence is extremely important. During the professor’s lectures or guest presentations, distracted participation is prohibited. You are expected to be able to function for a few hours without tweeting, facebooking, chatting, texting, emailing, or doing work for other courses.
 
 ### A Word About Unexcuses Absences in Critiques
-Sometimes, students who haven’t completed their projects skip class during critiques, because they are too embarrassed to come to class empty-handed. This type of absence is particularly self-destructive, and is one of the most objectionable things you can do in this class. Please have courage. Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. Even if your own project is unfinished, you are still expected to contribute productively to the class discussion.
-
+Sometimes, students who haven’t completed their projects skip class during critiques, because they are too embarrassed to come to class empty-handed. This type of absence is stupendously self-destructive, and is one of the most objectionable things you can do in this class. Please have courage. Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. If you are empty-handed, just say so; it happens. Even if you are without a project, you are still expected to contribute productively to the class discussion. 
 
 
 ---
 # Rubrics and Grading
 
 ### General Expectations
-There are a few elementary things you can do to ensure that you receive a totally respectable grade in this course. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get this right:
+There are a few elementary things you can do to ensure that you receive an excellent grade in this course. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get this right:
 
 * **Be good**. Have a positive attitude.
 * **Be present**. Show up to all of the course sessions, on time.
-* **Be responsible**. Communicate with your professor beforehand if you must miss a session.
-* **Be diligent**. Submit all of the Deliverables, on time. And document them clearly and thoroughly.
-Follow instructions: do all parts of the Deliverables, paying careful attention to seemingly trivial requirements (such as categorizing your blog posts correctly, formatting your code properly, giving your blog post a title in the requested format etc.).
-
-There are also some things you can do to earn a really ***great*** grade in this course:
-
-* **Be fearless**. Work outside your comfort zone. Give yourself permission to weird.
-* **Be conscientious**. Pay attention to details of craft and execution.  Put your heart in the work.
-* **Be persevering**. Become resourceful about getting the assistance you need.
+* **Be responsible**. Communicate with the professor beforehand if you must miss a session.
 * **Be helpful**. Help your classmates when they’re stuck.
 * **Be generous**. Make helpful contributions to discussions.
 
-### Grading Breakdown Summary 
-Your final grade is the *product* of your Projects and your Participation, i.e.:
+Following the recommendations below will not affect your grade, but will bring much greater value to you in our class, at school, and in life: 
 
-> (Projects and other Deliverables) × (Participation and Engagement).
+* **Be diligent**. Submit all of the Deliverables, on time. And document them clearly and thoroughly. Follow the instructions: do all parts of the Deliverables, paying careful attention to seemingly trivial requirements (such as categorizing your blog posts correctly, formatting your code properly, giving your blog post a title in the requested format etc.).
+* **Be fearless**. Work outside your comfort zone. Give yourself permission to weird.
+* **Be conscientious**. Pay attention to details of craft and execution.  Put your heart in the work.
+* **Be persevering**. Become resourceful about getting the assistance you need.
 
-* Projects and Deliverables are graded A-F as discussed in “Rubrics for Creative Projects”, below.
-* Participation and Engagement are straightforwardly calculable from your attendance record, less any demerits you may have incurred. (For more information, see “Participation and Engagement”, below, and the section on Civics & Attendance.)
 
 ### Follow Your Passion
 *This is art school.* With very rare exceptions (I’ll be clear), I will always prefer that you make the assignment interesting to you — if necessary, by creatively bending the rules or re-interpreting the assignment. Our assignments are starting-points, prompts and propositions. Think beyond them.
 
-Notwithstanding the above, you will always be expected to conform to certain basic expectations in regards to deliverables and documentation. Did you include an image of your project? Did you write the requested narrative? *These expectations are non-negotiable.*
+Notwithstanding the above, you will always be expected to meet basic expectations in regards to deliverables and documentation. Did you include an image of your project? Did you write the requested narrative?
 
 ### Policies for Late Work
-Our class is fast-paced. When you submit work late, you lose big-time: not (necessarily) because of some point-deduction scheme, but primarily because you miss the chance to share, show off, discuss and get feedback on your work.
+Our class is fast-paced. When you submit work late, you lose big-time: not because of some point-deduction scheme, but because you miss the chance to share, show off, discuss and get feedback on your work.
 
-At times this semester, your creative projects may be evaluated by outside experts who review your work in class or online. If your assignment is not uploaded and documented online by the time those persons do their reviews, then your work is officially considered “too late” and will not be able to earn meaningful credit.
-
-For minor projects, such as *Looking Outwards* blog posts: These should be uploaded and completed by the time that I get around to grading them, which is usually a few days after their stated due date. If not, I reserve the right to assign partial or zero credit to them.
-
-* Generally I grade work a few days after the due date. I offer no precise details about this.
-* Projects submitted after critiques (or, after external critics have performed their evaluations) may get a one-letter grade deduction, depending on circumstances, and will probably not receive written feedback, or may only receive significantly attenuated written feedback.
+At times this semester, your creative projects may be evaluated by outside experts who review your work in class or online. If your assignment is not visible by the time those persons do their reviews, then your work is officially considered “too late” and may not be able to obtain meaningful feedback.
 
 ### Rubrics for Creative Projects 
-The purpose of our open-ended Projects is to provide well-circumscribed opportunities for you to make creative work with code. Generally the Project prompts will invite you to explore a specific conceptual theme or set of programming techniques, but, unless stated otherwise, there is no correct solution, and no specific requirement for how to implement your idea. A Project also asks not just for a creative solution, but also for some creativity in defining and approaching the problem. It is expected that your Projects will be documented and published on this WordPress website.
+The purpose of our open-ended Projects is to provide well-circumscribed opportunities for you to make creative work with code. Generally the Project prompts will invite you to explore a specific conceptual theme or set of programming techniques, but, unless stated otherwise, there is no correct solution, and no specific requirement for how to implement your idea. A Project also asks not just for a creative solution, but also for some creativity in defining and approaching the problem. It is expected that your Projects will be documented and published on our WordPress website.
 
-The open-ended Projects will be evaluated according to the following considerations:
+The open-ended Projects will be considered according to the following criteria:
 
 * **Curiosity**: Are you asking questions as you work?
 * **Tenacity**: Are you forging through difficult problems without giving up?
@@ -252,7 +279,7 @@ The open-ended Projects will be evaluated according to the following considerati
 
 With Projects, it may not matter how much time a student spent making it. You may sometimes observe a very quickly-executed solution which succeeds because of its strong concept. Usually, however, the quality of a project is rewarded by extra attention to its craft.
 
-Projects always have a list of *supporting requirements*. These are straightforward to fulfill, but if you fail to meet these, you will have points deducted. Nearly every Project assignment will ask you to:
+Projects always have a list of straightforward *supporting requirements*. If you fail to meet these, you will cause disappointment. Nearly every Project assignment will ask you to:
 
 * Create a unique blog post for your project, on our course website.
 * Make sure your blog post is titled and categorized as requested.
@@ -263,21 +290,21 @@ In the case of dynamic work, include dynamic documentation too: embed a YouTube,
 * Write 100-200 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: In what ways did you succeed, and in what ways could it be better?
 * Embed or link to your code, if appropriate.
 
-Related to our course policies on Academic Integrity, you must also:
+**Related to our course policies on Academic Integrity, you must also:**
 
-* Name any other students from whom you received advice or help.
+* *Name any other students* from whom you received advice or help.
 If you had collaborators, explain how the work was distributed among the collaborators.
-* Cite and link to the sources for any code, external libraries, or other media (e.g.
-photographs, soundtracks, source images) which you used in your Project. Citing your sources is super important, folks. Err on the side of generosity.
+* *Cite and link* to the sources for any code, external libraries, or other media (e.g. photographs, soundtracks, source images) which you used in your Project. Citing your sources is super important, folks. Err on the side of generosity.
 
-Projects will be graded with scores of A,B,C,D, or F, as follows, and will be evaluated using the “Evaluation Guidelines” rubric at the bottom of this page:
+In addition to spoken and/or written feedback, the professor may also provide feedback to you on your projects, in the form of letter scores of A,B,C,D, or F, as follows:
 
 * **A** (Excellent): You made something notable
 * **B** (Good): You made something that fulfills all requirements
 * **C** (Needs Improvement): You tried to make something
 * **D** (Unacceptable): You didn’t even try
-* **F** (Zero credit): You didn’t even show up
+* **F** (Nothing submitted): You didn’t even show up
 
+(*These scores do not figure into your official grade.*)
 
 ---
 # Academic Integrity
@@ -298,7 +325,7 @@ As studio art students, you are expected or invited to make extensive use of ope
 
 **Use Libraries**. In your Projects, the use of general, reusable libraries is strongly encouraged. The people who developed and contributed these components to the community worked hard, often for no pay; acknowledge them by citing their name and linking to their repository.
 
-**Be Careful**. It sometimes happens that an artist places the entire source code for their sketch or artwork online, as a resource from which others can learn. The assignments professors give in new-media arts courses are often similar; you may discover the work of a student in some other class or school, who has posted code for a project which responds to a similar assignment. *You should probably avoid this code*. At the very least, you should be very, very careful about approaching such code for possible re-use. If it is necessary to do so, it is best to extract components that solve a specific technical problem, rather than those parts which operate to create a unique experience. Your challenge, if and/or when you work with others’ code, is to *make it your own*. It should be clear that forking an artwork from someone’s page on GitHub, Glitch, OpenProcessing, etc., and simply changing the colors would be disgracefully lazy. Doing so without proper citation would be plagiarism.
+**Be Careful**. Using others' code from general libraries is different than using others' code from their specific projects. It sometimes happens that an artist places the entire source code for their sketch or artwork online, as a resource from which others can learn. You may even discover the work of a student in some other class or school, who has posted code for a project which responds to a similar assignment. ***You should probably avoid this code***. At the very least, you should be very, very careful about approaching such code for possible re-use. If it is necessary to do so, it is best to extract components that solve a specific technical problem, rather than those parts which operate to create a unique experience. Your challenge, if and/or when you work with others’ code, is to *make it your own*. It should be clear that forking an artwork from someone’s page on GitHub, Glitch.com, OpenProcessing, etc., and simply changing the colors would be disgracefully lazy. Doing so without proper citation would be actionable plagiarism.
 
 ### Policies Regarding Informal Collaboration
 Our course places a very high value on civic responsibility that includes, but is not limited to, helping others learn. In this course, we strongly encourage you to give help (or ask others for help) in using various toolkits, algorithms, libraries, or other facilities. Please note the following expectations:
@@ -310,12 +337,12 @@ Our course places a very high value on civic responsibility that includes, but i
 ### Policies Regarding Formal Collaboration
 The assignments in this course are primarily intended to be executed by individuals. That said, I am in favor of students collaborating if such collaborations arise organically and can be conducted safely. Please note the following expectations:
 
-* *Use proper social distancing*. In light of the ongoing the COVID-19 pandemic, please respect University and other health guidelines regarding personal distance. Do not share computer keyboards, sit at least 6 feet apart, etcetera.
+* *Use proper social distancing*. In light of the ongoing the COVID-19 pandemic, please respect University and other health guidelines regarding personal distance. Do not share computer keyboards; sit at least 6 feet apart; etcetera.
 * *Notify the Professor*. It’s helpful for me to know who is working with whom. Students who wish to collaborate should jointly inform the professor as early as possible.
 * *Only pairs*. Unless permission is explicitly granted by the Professor, collaborations in this course are restricted to pairs of students.
 * *Describe who did what*. Written reports for collaborative projects should describe how your effort was distributed.
-* *Only 60-212 collaborators*. Your project collaborator, if you have one, must be in this class. You may not collaborate with people from outside the course (e.g. your housemate).
-* *Avoid co-dependency*. You may not collaborate with the same person (i.e. submit an assignment jointly) on more than two projects.
+* *Only collaborators from this class*. Your project collaborator, if you have one, must be in this class. You may not collaborate with people from outside the course (e.g. your housemate).
+* *Avoid co-dependency*. You may not collaborate with the same person (i.e. submit assignments jointly) for more than two projects.
 
 
 ---
@@ -331,31 +358,25 @@ Debate and free exchange of ideas is encouraged, but I will not tolerate harassm
 *Carnegie Mellon University is firmly committed to intellectual honesty, freedom of inquiry and expression, and respect for the dignity of each individual. Acts of discriminatory harassment or intimidation by a student directed toward any member of the community are inconsistent with this commitment and will not be tolerated. Consistent with the University’s Statement of Assurance, prohibited acts include harassment and intimidation motivated by discriminatory intent based on race, color, national origin, sex, handicap or disability, age, sexual orientation, gender identity, religion, creed, ancestry, belief, veteran status, or genetic information. Any such harassment or intimidation of or by a student should be referred to the Dean of Student Affairs for resolution.*
 
 ### Inclusivity Statement
-It is our intent that students from all diverse backgrounds and perspectives be well served by this course, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. It is our intent to present activities that accommodate and value a diversity of gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. I will gladly honor your request to address you by the pronouns and name you specify.
+It is my intent that students from all diverse backgrounds and perspectives be well served by this course, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. It is my intent to present activities that accommodate and value a diversity of gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. I will gladly honor your request to address you by the pronouns and name you specify.
 
-I commit to make individual arrangements to address disabilities or religious needs (e.g. religious events in conflict with class meetings). Please advise us of these preferences and needs early in the semester so that I may make appropriate changes to our plans and records.
-
+I commit to make individual arrangements to address disabilities or religious needs (e.g. religious events in conflict with class meetings). Please advise me of these requirements early in the semester so that I may make appropriate accommodations.
 
 
 ---
 # Zoom & Remote Education
 
-### Tools
-We will begin the semester using Zoom for synchronous session, at a link I have emailed to you. We may also try Discord (which combines video chatting with a persistent Slack-like chat record) to see whether it meets our needs better. Please make sure that your Internet connection and equipment are set up to use Zoom, and able to share audio and video during class meetings.
-
-### Zoom Fatigue
-Zoom fatigue is a real and serious problem. To avoid it, we will not meet for the full 3-hour duration of our class in Zoom! (Whew!) Instead, we will likely meet for 20-45 minutes, generally at 2:40pm. During the rest of class, we may (a) work individually on projects, with Zoom available (“quiet co-working”), (b) have one-on-one meetings with the professor, or (c) occasionally convene in small groups.
+This course is planned for an in-person modality, but it's possible that we may use Zoom if appropriate or necessary. For example, if there is a guest artist who visits the class by Zoom, or if we transition to another quarantine, etc. 
 
 ### Zoom Policies
-* In general, please **keep your mic muted** (unless you unless you are actively sharing with the class), in order to reduce stray noise. If you want/need to briefly speak up, you can press the space bar to momentarily unmute.
+* In general, please **keep your mic muted**, in order to reduce stray noise.
 * You may use the “raise hand feature” to get attention, but I recommend **actually raising your hand** in the video if possible 🙂
-* You are also very welcome to **ask or respond to questions in the chat**; the TA and I will do our best to notice and respond to your remarks. Please note that Zoom chats do not persist and are deleted when the session closes.
+* You are also very welcome to **ask or respond to questions in the chat**; I will do my best to notice and respond to your remarks. Please note that Zoom chats do not persist and are deleted when the session closes.
 * You are welcome to **use reactions** (clapping and thumbs up), if it feels like the right thing to do.
 * You are welcome to **use a background image** in your video if you wish.
 
-### Zoom Requests
-**Sharing video**: In this course, being able to see one another helps to facilitate a better learning environment and promote more engaging discussions. Therefore, our default will be to expect students to have their cameras on during lectures and discussions. However, I also completely understand there may be technical or personal reasons students would not want to have their cameras on. If you have any concerns about sharing your video, please email me as soon as possible and we can discuss possible adjustments.
-
+### Zoom Suggestions
+* Having *some* cameras *occasionally* turned off is understandable, reasonable, and quite manageable; having *a majority* of cameras *persistently* turned off makes it very difficult for me to teach. **Please consider sharing your camera** when/if you're comfortable doing so. If you have any concerns about sharing your video, please email me and we can discuss possible adjustments.
 
 ---
 # Freedom of Speech
@@ -378,8 +399,9 @@ Materials are considered innocent until proven guilty. Allegedly offensive mater
 
 
 ---
-# Dealing with Stress
-**Take care of yourself**. Please do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.
+# Taking Care of Yourself
+
+**Take care of yourself**. Your well-being is more important than your performance in this course. Please do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.
 
 All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
 
