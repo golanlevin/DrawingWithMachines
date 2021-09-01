@@ -1,0 +1,14 @@
+<svg version="1.1"
+	width="400" height="400"
+	xmlns="http://www.w3.org/2000/svg">
+
+	<rect width="100%" height="100%" fill="lightgray" />
+
+	<circle cx="100" cy="100" r="80" fill="white" />
+
+	<path fill="none" stroke="black" stroke-width="1.0px" d="
+		M100 100 
+		L300 100 
+		L250 300 
+		Z" />
+</svg>

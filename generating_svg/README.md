@@ -1,11 +1,37 @@
 # Generating SVG Files
 
-Example/demo projects in various creative-coding toolkits for computationally generating SVG files suitable for pen plotters. 
+## Introduction
+
+SVG ("Scalable Vector Graphic") files are text files that contain descriptions of geometry. Paths in SVG files are defined as sequences of points (though elliptical arcs and Bezier curves are also possible), which makes them very suitable for controlling pen plotters. Here is an SVG file, and its code: 
+
+<img src="simple_svg.svg">
+
+```
+<svg version="1.1"
+	width="400" height="400"
+	xmlns="http://www.w3.org/2000/svg">
+
+	<rect width="100%" height="100%" fill="lightgray" />
+
+	<circle cx="100" cy="100" r="80" fill="white" />
+
+	<path fill="none" stroke="black" stroke-width="1.0px" d="
+		M100 100 
+		L300 100 
+		L250 300 
+		Z" />
+</svg>
+```
+
+
+## Toolchains
+
+You could write code to directly generate SVG text files, but if you wish to preview your work, you would likely use a creative-coding toolkit. Here are some links and example projects for various toolkits for computationally generating SVG files. 
 
 
 ### Java
 
-* [**Processing**](https://processing.org/) v3.5.4 and v.4.0a4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
+* [**Processing**](https://processing.org/) v3.5.4 and v.4.0, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
   * [*Lissajous demo*](processing_java/svg_lissajous/svg_lissajous.pde)
 
 
@@ -19,13 +45,20 @@ Example/demo projects in various creative-coding toolkits for computationally ge
   * [*Lissajous demo*](runejs/svg_lissajous/sketch.js)
 * [**canvas-sketch**](https://github.com/mattdesl/canvas-sketch/) v.0.7.4 by @mattdesl, with [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) in the [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md) v.1.10.0 utilities.
   * [*Lissajous demo*](canvas-sketch-js/svg_lissajous.js)
-
+* [**Paper.js**](http://paperjs.org/) by @lehni & @puckey, using its [```exportSVG()```](http://paperjs.org/reference/project/#exportsvg) function as demonstrated [here](http://paperjs.org/features/#svg-import-and-export) 
+* [**two.js**](https://github.com/jonobr1/two.js) by @jonobr1, as described [here](https://github.com/jonobr1/two.js/issues/80)
 
 
 ### Python
 
 * [**Processing.py**](https://py.processing.org/) for Processing v.3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
   * [*Lissajous demo*](processing_py/svg_lissajous/svg_lissajous.pyde)
+* [**Drawbot**](https://www.drawbot.com/) by Just van Rossum, "a powerful, free application for macOS that invites you to write Python scripts to generate two-dimensional graphics". 
+* [**vsketch**](https://github.com/abey79/vsketch) by @abey79, with e.g. [Shapely](https://shapely.readthedocs.io/en/latest/), which can be used [in Google Colab notebooks](https://vsketch.readthedocs.io/en/latest/install.html#using-notebooks)
+
+### C++
+
+* [**openFrameworks**](https://openframeworks.cc/), with the [ofxSVG addon](https://openframeworks.cc/documentation/ofxSVG/ofxSVG/)
 
 ---
 
@@ -33,17 +66,13 @@ Example/demo projects in various creative-coding toolkits for computationally ge
 
 Templates not yet created for these environments:
 
-* [Paper.js](http://paperjs.org/) by @lehni & @puckey, using its [```exportSVG()```](http://paperjs.org/reference/project/#exportsvg) function as demonstrated [here](http://paperjs.org/features/#svg-import-and-export) 
-* [two.js](https://github.com/jonobr1/two.js) by @jonobr1, as described [here](https://github.com/jonobr1/two.js/issues/80)
+
 
 ### Python
-* [vsketch](https://github.com/abey79/vsketch) by @abey79, with e.g. shapely https://shapely.readthedocs.io/en/latest/ in Colab notebooks https://vsketch.readthedocs.io/en/latest/install.html#using-notebooks 
-* [Drawbot](https://www.drawbot.com/) by Just van Rossum is "a powerful, free application for macOS that invites you to write Python scripts to generate two-dimensional graphics". 
 
 
-### C++
 
-* [openFrameworks](https://openframeworks.cc/), with the [ofxSVG addon](https://openframeworks.cc/documentation/ofxSVG/ofxSVG/)
+
 
 
 ---
