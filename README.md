@@ -24,12 +24,12 @@ Resources for Golan Levin's *Drawing with Machines* Course
 * AxiDraw
 * [Hewlett-Packard 7475A](machines/hp7475a/README.md)
 * [Line-Us](machines/line-us/README.md)
-* [US Cutter MH871-MK2](http://www.uscutter.com/USCutter-MH-Series-Vinyl-Cutter-w-VinylMaster-Cut-Design-Cut-Software)
+* US Cutter MH871-MK2
 * Scribit
 
 #### AxiDraw Management
 
-* AxiDraw CLI
+* [AxiDraw CLI](https://axidraw.com/doc/cli_api/#introduction)
 * AxiDraw Inkscape extension
 * [RPi plotter station configs](rpi/README.md)
 
@@ -43,6 +43,7 @@ Resources for Golan Levin's *Drawing with Machines* Course
 * RGB Laser & EtherDream controller
 * Viking Jade 35A CNC embroidery machine
 * Sphero RVR
+* Doodlebot
 
 
 
