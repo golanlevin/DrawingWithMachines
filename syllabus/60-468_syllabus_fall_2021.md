@@ -1,6 +1,6 @@
 # Syllabus for *Drawing with Machines*
 
-* *Drawing with Machines* (60-468, Fall 2021)
+* *Drawing with Machines* (60-428, Fall 2021)
 * Times: Mon/Wed, 1:25-4:15pm, August 30 – December 1, 2021
 * Location: Frank-Ratchye STUDIO for Creative Inquiry, CFA-111
 * Carnegie Mellon University School of Art & IDeATe Program
@@ -180,12 +180,12 @@ This course uses the following software systems to share information:
 
 * Masks are mandatory in the STUDIO space. 
 * Your keycards will get you in 8am-11pm. 
-* We have Monitors working most evenings. 
+* We have Monitors (staff) working most evenings until 11. 
 * Please go home before the Monitors close up shop. No overnighting is permitted. Sleep in your own bed, please.
-* No food or drink. Partially because of COVID, partially because this is a drawing course. 
+* No food or drink. Partially because of COVID; partially because this is a drawing course. 
 * Please clean up after yourself. 
-* If you don't feel well, stay home.
-* The STUDIO's pandemic capacity is 18 persons. We are interested in restarting the STUDIO's student culture but we're taking it slowly. You may bring a friend if you think they might like to become a part of this place, but we're not ready for you to bring your posse.
+* If you don't feel well, please stay home.
+* The STUDIO's pandemic capacity is 18 persons. We are interested in restarting the STUDIO's student culture, but we're taking it slowly. You may bring a friend if you think they might like to become a part of this community, but we're not ready for you to bring your posse.
 
 
 ---

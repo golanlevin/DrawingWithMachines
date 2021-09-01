@@ -60,24 +60,27 @@ You could write code to directly generate SVG text files, but if you wish to pre
 
 * [**openFrameworks**](https://openframeworks.cc/), with the [ofxSVG addon](https://openframeworks.cc/documentation/ofxSVG/ofxSVG/)
 
----
-
-### Work in Progress 
-
-Templates not yet created for these environments:
-
-
-
-### Python
-
-
-
-
-
 
 ---
 
-### Other SVG Tools and Readymades
+### Other SVG Tools
+
+* [**Huge list of SVG tools**](https://drawingbots.net/resources#5) at Drawingbots.net
+* [vpype](https://github.com/abey79/vpype), which can 
+  * layout vector files with precise control of position & scale
+  * optimize existing SVG files for faster and cleaner plots;
+  * create HPGL output for vintage plotters;
+  * create generative artwork from scratch;
+  * create, modify and process multi-layer vector files for multi-colour plots; etc.
+* [Occult](https://github.com/LoicGoulefert/occult), vpype plug-in to remove lines occulted by polygons from SVG files.
+* [Deduplicate](https://github.com/LoicGoulefert/deduplicate), vpype plug-in to remove overlapping lines in SVG files.
+* [Shapely](https://shapely.readthedocs.io/en/latest/project.html), a Python package for manipulation and analysis of planar geometric objects.
+
+---
+
+### SVG Readymades
+
+*We will generally not be using others' "readymade" SVG generators, but it's good to be aware of the kinds of free tools that people make.*
 
 * [SVG Crowbar](https://nytimes.github.io/svg-crowbar/), a Chrome-specific bookmarklet that extracts SVG nodes and accompanying styles from an HTML document and downloads them as an SVG file.
 * [Potrace](https://www.npmjs.com/package/potrace), a NodeJS-compatible JavaScript tool for tracing bitmaps.
@@ -87,9 +90,13 @@ Templates not yet created for these environments:
 * [rad-lines](https://msurguy.github.io/rad-lines/) by @msurguy, a readymade tool for generating SVGs of rotating patterns
 * [Great96](https://isohedral.ca/great-96/), a tool for generating Islamic tiling geometric patterns
 * [AudioPlotter](https://audioplotter.ars.is/), a tool for generating SVGs of audio waveforms from sound files
+* [DrawingBotV3](https://github.com/SonarSonic/DrawingBotV3) a tool to create stylised line drawings from images
 
+---
 
 ### Other Programming Toolkits
+
+*These are mostly obsolete or experimental.*
 
 * [cozyvec](https://brubsby.itch.io/cozyvec) by @brubsby is "a tiny terminal program for creating plotter art" with JavaScript.
 * [D3.js](https://d3js.org/), "A JavaScript library for manipulating documents based on data", widely used in data visualization. Can export SVG as described [here](https://observablehq.com/@mbostock/saving-svg).
