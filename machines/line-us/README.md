@@ -17,7 +17,7 @@
 
 * [**First time Line-us set up**](https://www.line-us.com/help.html): Instructional information and video from the manufacturer.
 * [**Getting Started with Line-us Programming**](https://github.com/Line-us/Line-us-Programming): The central source for programming Line-Us.
-* [Readymade SVG plotter for Line-Us](https://github.com/tbertz/LineUs_SVG/tree/release/v0.2), built in Processing v.3.
+* [**Readymade SVG plotter for Line-Us**](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/line-us/processing/line_us_svg_converter_plotter), built in Processing v3/v4.
 
 
 ## Line-Us Setup
@@ -75,6 +75,7 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 ## Programming Line-Us with Processing (Java)
 
 * [Processing code for a very simple example](https://github.com/Line-us/Line-us-Programming/blob/master/Processing/HelloWorld/HelloWorld.pde)
+* [SVG loader/plotter for Line-Us, built in Processing](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/line-us/processing/line_us_svg_converter_plotter)
 
 ---
 
@@ -88,6 +89,7 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 ## Other Helpful Information
 
+* Line-Us support for other programming languages can be found [here](https://github.com/Line-us/Line-us-Programming)
 * Line-Us may throw errors when receiving high-precision floating-point coordinates. It's recommended to transmit integer coordinates instead. 
 * Here's a view of the Line-Us Drawing Area:
 
