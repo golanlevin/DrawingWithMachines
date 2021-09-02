@@ -3,6 +3,12 @@ axidraw_group:
     - gid: 2000
     - name: axidraw
 
+{% for axidraw_user in pillar['axidraws_old'] %}
+{{ axidraw_user }}:
+  user.absent:
+    - purge: True
+    - force: False
+{% endfor %}
 {% for axidraw_user in pillar['axidraws'] %}
 {{ axidraw_user.name }}:
 {% if axidraw_user.minion == grains['id'] %}
@@ -303,3 +309,8 @@ pip_taxi_desktop:
     - name: /usr/bin/update-desktop-database
     - onchanges:
       - file: /usr/share/applications/taxi.desktop
+
+# x11vnc:
+#   pkg.installed:
+#     - pkgs:
+#         - x11vnc

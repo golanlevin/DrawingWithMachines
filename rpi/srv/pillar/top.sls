@@ -14,3 +14,6 @@ base:
   'sfci-pi5.cfa.cmu.edu':
     - axidraw-kiosk
     - axidraws
+  'sfci-pi6.cfa.cmu.edu':
+    - axidraw-kiosk
+    - axidraws

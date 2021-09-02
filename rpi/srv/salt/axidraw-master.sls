@@ -17,7 +17,12 @@ axidraw_group:
     - gid: 2000
     - name: axidraw
 
-{% for axidraw_user in pillar['axidraws'] %}
+{% for axidraw_user in pillar['axidraws_old'] %}
+{{ axidraw_user }}:
+  user.absent:
+    - purge: True
+    - force: False
+{% endfor %}{% for axidraw_user in pillar['axidraws'] %}
 {{ axidraw_user.name }}:
   user.present:
     - uid: {{ 2000 + axidraw_user.id }}
@@ -146,21 +151,24 @@ pip:
 
 pip_urllib3:
   pip.installed:
-    - name: urllib3
+    - name: urllib3==1.26.6
     - reload_modules: True
 
 pip_requests:
   pip.installed:
-    - name: requests
+    - name: requests==2.26.0
     - reload_modules: True
 
 pip_docker:
   pip.installed:
+   - name: docker==4.4.4
+  # pkg.installed:
+  #  - pkgs:
+  #     - python3-docker
    - require:
       - pip
       - pip_urllib3
       - pip_requests
-   - name: docker==4.4.4
    - reload_modules: True
    - upgrade: True
 
@@ -185,29 +193,132 @@ filebrowser_docker_db:
       - /srv/axidraw-docker/filebrowser/filebrowser.db:
         - source: salt://axidraw-master/srv/axidraw-docker/filebrowser/filebrowser.db
 
-filebrowser_docker_compose:
-  docker_container.running:
+# filebrowser_docker_compose:
+#   docker_container.running:
+#     - require:
+#       - filebrowser_docker_config
+#       - filebrowser_docker_db
+#       - docker
+#       - pip_docker
+#       - axidraw_group
+#     - name: filebrowser
+#     - image: filebrowser/filebrowser:v2.16.1
+#     - watch_action: force
+#     - watch:
+#       - file: /srv/axidraw-docker/filebrowser/filebrowser.json
+#     - start: True
+#     - binds:
+#       - /srv/axidraw:/srv:rw
+#       - /srv/axidraw-docker/filebrowser/filebrowser.db:/database.db:rw
+#       - /srv/axidraw-docker/filebrowser/filebrowser.json:/.filebrowser.json:ro
+#     - environment:
+#       - TZ: {{ salt['timezone.get_zone']() }}
+#     - user: 0:2000
+#     - port_bindings:
+#       - 127.0.0.1:8081:80/tcp
+#     - read_only: False
+#     - restart_policy: always
+#     - /bin/sh -c \"/filebrowser & (sleep 2 && /filebrowser config set --auth.method=proxy --auth.header=X-Remote-User)\"
+# 
+# #guac_docker_network:
+# #  docker_network.present:
+# #    - name: net_guac
+# #    - internal: True
+# #    - check_duplicate: True
+# #
+# # guacd_docker:
+# #   docker_container.running:
+# #     - require:
+# #       - docker
+# #       - pip_docker
+# #       - guac_docker_network
+# #     - name: guacd
+# #     - image: linuxserver/guacd:1.3.0-ls101    # Can't use official because need Pi support
+# #     - networks:
+# #       - net_guac:
+# #         - aliases:
+# #           - guacd
+# #     - start: True
+# #     - environment:
+# #       - TZ: {{ salt['timezone.get_zone']() }}
+# #     - read_only: False
+# #     - restart_policy: always
+# 
+# guacamole_docker:
+#   docker_container.running:
+#     - require:
+#       - docker
+#       - pip_docker
+# #      - guac_docker_network
+#     - name: guacamole
+#     - image: oznu/guacamole:1.3.0-{{ grains['osarch'] }}    # Can't use official because need Pi support
+# #    - networks:
+# #      - net_guac:
+# #        - aliases:
+# #          - guacamole
+# #      - bridge
+#     - start: True
+#     - binds:
+#       - /srv/axidraw-docker/guacamole/config:/config:rw
+#     - environment:
+#       - TZ: {{ salt['timezone.get_zone']() }}
+#     - port_bindings:
+#       - 127.0.0.1:8080:8080/tcp
+#     - read_only: False
+#     - restart_policy: always
+
+nginx_repo:
+  pkgrepo.managed:
+    - humanname: nginx
+    - name: deb https://nginx.org/packages/mainline/debian/ buster nginx
+    - file: /etc/apt/sources.list.d/nginx.list
+    - refresh_db: True
+    - clean_file: True
     - require:
-      - filebrowser_docker_config
-      - filebrowser_docker_db
-      - docker
-      - pip_docker
-      - axidraw_group
-    - name: filebrowser
-    - image: filebrowser/filebrowser:v2.16.1
-    - watch_action: force
-    - watch:
-      - file: /srv/axidraw-docker/filebrowser/filebrowser.json
-    - start: True
-    - binds:
-      - /srv/axidraw:/srv:rw
-      - /srv/axidraw-docker/filebrowser/filebrowser.db:/database.db:rw
-      - /srv/axidraw-docker/filebrowser/filebrowser.json:/.filebrowser.json:ro
-    - environment:
-      - TZ: {{ salt['timezone.get_zone']() }}
-    - group_add:
-      - 2000
-    - port_bindings:
-      - 80:80/tcp
-    - read_only: False
-    - restart_policy: always
+      - apt_https_gpg_transport
+    - require_in:
+      - nginx
+    - gpgcheck: 1
+    - key_url: https://nginx.org/keys/nginx_signing.key
+
+nginx_auth:
+  file.managed:
+    - name: /etc/nginx/auth/axidrawpasswd
+    - user: root
+    - group: www-data
+    - mode: '0640'
+    - makedirs: True
+    - replace: False
+    - contents: ''
+
+nginx:
+  pkg.installed:
+    - require:
+      - nginx_repo
+      - nginx_auth
+    - pkgs:
+      - nginx
+      - apache2-utils
+  file.managed:
+    - names:
+      - /etc/nginx/conf.d/99-axidraw.conf:
+        - source: salt://axidraw-master/etc/nginx/conf.d/99-axidraw.conf
+      - /etc/nginx/include/axidraw_strong_headers.conf:
+        - source: salt://axidraw-master/etc/nginx/include/axidraw_strong_headers.conf
+      - /etc/nginx/include/axidraw_strong_headers_proxy_hide.conf:
+        - source: salt://axidraw-master/etc/nginx/include/axidraw_strong_headers_proxy_hide.conf
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+  service.running:
+    - name: nginx
+    - enable: true
+    - require: 
+      - pkg: nginx
+    - watch: 
+      - pkg: nginx
+      - file: /etc/nginx/conf.d/99-axidraw.conf
+      - file: /etc/nginx/include/axidraw_strong_headers.conf
+      - file: /etc/nginx/include/axidraw_strong_headers_proxy_hide.conf
+      - file: /etc/nginx/auth/axidrawpasswd
