@@ -286,12 +286,31 @@ nginx_auth:
     - replace: False
     - contents: ''
 
+static_assets:
+  file.managed:
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+    - names:
+      - /srv/axidraw-www/index.html:
+        - source: salt://axidraw-master/srv/axidraw-www/index.html
+      - /srv/axidraw-www/assets/css/bootstrap.min.css:
+        - source: https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css
+        - skip_verify: True
+#        - source_hash: sha256=KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We
+      - /srv/axidraw-www/assets/js/bootstrap.bundle.min.js:
+        - source: https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js
+        - skip_verify: True
+#        - source_hash: sha256=U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj
+
 nginx:
   pkg.installed:
     - require:
       - nginx_repo
       - nginx_auth
       - nginx_letsencrypt_folders
+      - static_assets
     - pkgs:
       - nginx
       - apache2-utils
