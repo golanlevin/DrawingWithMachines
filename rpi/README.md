@@ -6,27 +6,34 @@ The system consists of a master and minions running Debian stable and Saltstack.
 
 The master performs these functions:
  - SaltStack master
+ - Guacamole VNC server
+ - NFS file server and web file upload
+ - Central web server with authentication
+ - HTTPS via certbot and Let's Encrypt
 
 The minions perform these functions:
- - Run Inkscape w/ Axidraw plugin Axidraw CLI, and Taxi
+ - Run Inkscape w/ Axidraw plugin, Axidraw CLI, and Taxi
  - Axidraw CLI automatically selects device based on user/machine
  - One user account per each axidraw so that multiple machines may be used simultaneously
  - Stripped-down and locked-in desktop and window manager that is consistent and touchscreen-friendly
  - Management of multiple axidraw machines per machine (i.e. an exact USB port is always used per each machine for consistency)
  - On-screen keyboard button for touchscreen accessibility with Onboard
  - Central NFS file server and web interface for uploading with Filebrowser
+ - Remote desktop connections to each machine through the master with x11vnc and Guacamole
 
 ## TODO
  - License
- - Remote desktop connections to each machine through the master with guac
  - Control screen timeout via SaltStack variable
- - Dynamically configure grains instead of via grain file
  - Lock down XFCE a bit more
  - Some sort of interface (maybe) on the master machine
 
 ## Usage
 
-TBD
+### Managing Files
+
+### Using the CLI
+
+### Controlling Remotely
 
 ## Setup Instructions
 
