@@ -193,79 +193,74 @@ filebrowser_docker_db:
       - /srv/axidraw-docker/filebrowser/filebrowser.db:
         - source: salt://axidraw-master/srv/axidraw-docker/filebrowser/filebrowser.db
 
-# filebrowser_docker_compose:
-#   docker_container.running:
-#     - require:
-#       - filebrowser_docker_config
-#       - filebrowser_docker_db
-#       - docker
-#       - pip_docker
-#       - axidraw_group
-#     - name: filebrowser
-#     - image: filebrowser/filebrowser:v2.16.1
-#     - watch_action: force
-#     - watch:
-#       - file: /srv/axidraw-docker/filebrowser/filebrowser.json
-#     - start: True
-#     - binds:
-#       - /srv/axidraw:/srv:rw
-#       - /srv/axidraw-docker/filebrowser/filebrowser.db:/database.db:rw
-#       - /srv/axidraw-docker/filebrowser/filebrowser.json:/.filebrowser.json:ro
-#     - environment:
-#       - TZ: {{ salt['timezone.get_zone']() }}
-#     - user: 0:2000
-#     - port_bindings:
-#       - 127.0.0.1:8081:80/tcp
-#     - read_only: False
-#     - restart_policy: always
-#     - /bin/sh -c \"/filebrowser & (sleep 2 && /filebrowser config set --auth.method=proxy --auth.header=X-Remote-User)\"
-# 
-# #guac_docker_network:
-# #  docker_network.present:
-# #    - name: net_guac
-# #    - internal: True
-# #    - check_duplicate: True
-# #
-# # guacd_docker:
-# #   docker_container.running:
-# #     - require:
-# #       - docker
-# #       - pip_docker
-# #       - guac_docker_network
-# #     - name: guacd
-# #     - image: linuxserver/guacd:1.3.0-ls101    # Can't use official because need Pi support
-# #     - networks:
-# #       - net_guac:
-# #         - aliases:
-# #           - guacd
-# #     - start: True
-# #     - environment:
-# #       - TZ: {{ salt['timezone.get_zone']() }}
-# #     - read_only: False
-# #     - restart_policy: always
-# 
-# guacamole_docker:
+filebrowser_docker_compose:
+  docker_container.running:
+    - require:
+      - filebrowser_docker_config
+      - filebrowser_docker_db
+      - docker
+      - pip_docker
+      - axidraw_group
+    - name: filebrowser
+    - image: filebrowser/filebrowser:v2.16.1
+    - watch_action: force
+    - watch:
+      - file: /srv/axidraw-docker/filebrowser/filebrowser.json
+    - start: True
+    - binds:
+      - /srv/axidraw:/srv:rw
+      - /srv/axidraw-docker/filebrowser/filebrowser.db:/database.db:rw
+      - /srv/axidraw-docker/filebrowser/filebrowser.json:/.filebrowser.json:ro
+    - environment:
+      - TZ: {{ salt['timezone.get_zone']() }}
+    - user: 0:2000
+    - port_bindings:
+      - 127.0.0.1:8081:80/tcp
+    - read_only: False
+    - restart_policy: always
+#    - /bin/sh -c \"/filebrowser & (sleep 2 && /filebrowser config set --auth.method=proxy --auth.header=X-Remote-User)\"
+
+#guac_docker_network:
+#  docker_network.present:
+#    - name: net_guac
+#    - internal: True
+#    - check_duplicate: True
+#
+# guacd_docker:
 #   docker_container.running:
 #     - require:
 #       - docker
 #       - pip_docker
-# #      - guac_docker_network
-#     - name: guacamole
-#     - image: oznu/guacamole:1.3.0-{{ grains['osarch'] }}    # Can't use official because need Pi support
-# #    - networks:
-# #      - net_guac:
-# #        - aliases:
-# #          - guacamole
-# #      - bridge
+#       - guac_docker_network
+#     - name: guacd
+#     - image: linuxserver/guacd:1.3.0-ls101    # Can't use official because need Pi support
+#     - networks:
+#       - net_guac:
+#         - aliases:
+#           - guacd
 #     - start: True
-#     - binds:
-#       - /srv/axidraw-docker/guacamole/config:/config:rw
 #     - environment:
 #       - TZ: {{ salt['timezone.get_zone']() }}
-#     - port_bindings:
-#       - 127.0.0.1:8080:8080/tcp
 #     - read_only: False
 #     - restart_policy: always
+
+guacamole_docker:
+  docker_container.running:
+    - require:
+      - docker
+      - pip_docker
+    - name: guacamole
+    - image: oznu/guacamole:1.3.0-{{ grains['osarch'] }}    # Can't use official because need Pi support
+    - start: True
+    - binds:
+      - /srv/axidraw-docker/guacamole/config:/config:rw
+    - environment:
+      - TZ: {{ salt['timezone.get_zone']() }}
+      - EXTENSIONS: auth-header
+    - port_bindings:
+      - 127.0.0.1:8080:8080/tcp
+    - read_only: False
+    - restart_policy: always
 
 nginx_repo:
   pkgrepo.managed:
@@ -296,6 +291,7 @@ nginx:
     - require:
       - nginx_repo
       - nginx_auth
+      - nginx_letsencrypt_folders
     - pkgs:
       - nginx
       - apache2-utils
@@ -307,18 +303,89 @@ nginx:
         - source: salt://axidraw-master/etc/nginx/include/axidraw_strong_headers.conf
       - /etc/nginx/include/axidraw_strong_headers_proxy_hide.conf:
         - source: salt://axidraw-master/etc/nginx/include/axidraw_strong_headers_proxy_hide.conf
+      - /etc/nginx/include/axidraw_ssl_hsts.conf:
+        - source: salt://axidraw-master/etc/nginx/include/axidraw_ssl_hsts.conf
+      - /etc/nginx/include/axidraw_ssl_intermediate.conf:
+        - source: salt://axidraw-master/etc/nginx/include/axidraw_ssl_intermediate.conf
     - user: root
     - group: root
     - mode: '0644'
     - makedirs: True
+
+nginx_running:
   service.running:
+    - require:
+      - nginx
+      - nginx_letsencrypt_folders
+      - nginx_dhparam
     - name: nginx
-    - enable: true
+    - enable: True
+    - reload: True
     - require: 
       - pkg: nginx
     - watch: 
       - pkg: nginx
+      - module: nginx_config_test
+      - acme: nginx_letsencrypt
+
+nginx_reload:
+  cmd.run:
+    - name: systemctl reload nginx
+
+nginx_config_test:
+  module.wait:
+    - name: nginx.configtest
+    - require:
+        - nginx_dhparam
+        - file: nginx
+        - nginx_auth
+    - watch:
       - file: /etc/nginx/conf.d/99-axidraw.conf
       - file: /etc/nginx/include/axidraw_strong_headers.conf
       - file: /etc/nginx/include/axidraw_strong_headers_proxy_hide.conf
+      - file: /etc/nginx/include/axidraw_ssl_hsts.conf
+      - file: /etc/nginx/include/axidraw_ssl_intermediate.conf
       - file: /etc/nginx/auth/axidrawpasswd
+      - cmd: nginx_dhparam
+
+nginx_letsencrypt_folders:
+  file.directory:
+    - names:
+      - '/srv/axidraw-letsencrypt/.well-known/acme-challenge'
+    - user: root
+    - group: www-data
+    - dir_mode: 750
+    - file_mode: 640
+    - makedirs: True
+    - recurse:
+      - user
+      - group
+      - mode
+
+certbot:
+  pkg.installed:
+    - pkgs:
+      - certbot
+      - openssl
+
+nginx_dhparam:
+  cmd.run:
+    - name:  openssl dhparam -out /srv/axidraw_dhparam 4096
+    - unless: test -f /srv/axidraw_dhparam
+
+nginx_letsencrypt:
+  acme.cert:
+    - name: sfci-pi1.cfa.cmu.edu
+    - email: pnaseck@andrew.cmu.edu
+    - webroot: /srv/axidraw-letsencrypt
+    - renew: 14
+    - keysize: 4096
+    - owner: root
+    - group: www-data
+    - mode: '0640'
+    - test_cert: False
+    - onchanges_in:
+      - nginx_reload
+    - require:
+      - certbot
+      - nginx_letsencrypt_folders
