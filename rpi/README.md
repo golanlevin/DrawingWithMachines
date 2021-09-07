@@ -53,17 +53,37 @@ You may wish to use the onscreen keyboard. This allows you to tap to type. To br
 
 ![Onscreen Keyboard](docs_assets/README_desktop_onscreenkeyboard.png)
 
-### Managing Files
+### Web Interface
 
 The web interface may be accessed at [https://sfci-pi1.cfa.cmu.edu/](https://sfci-pi1.cfa.cmu.edu/). You should login with your AndrewID (the text before the @ in your andrew.cmu.edu email address) and the password provided to you by the machine administrator.
 
 ### Managing Files
 
-Once logged in to the web interface, click on "Manage" in the "Files" box.
+Once logged in to the web interface, click on "Manage" in the "Files" box. This will open an online file manager. You can drag files in to upload or click on the upload icon in the top right corner.
 
-### Controlling Remotely
+Files uploaded to this interface will appear on the machines in the following path:
 
-Once logged in to the web interface, click on "Manage" in the "Files" box.
+```
+/mnt/axidraw/users/<andrewid>
+```
+
+So, if user `acarnegie` uploads `mydrawing.svg`, it will exist on the axidraw machines as `/mnt/axidraw/users/acarnegie/mydrawing.svg`.
+
+### Controlling Remotely (VNC)
+
+Rather than using the touch screen and on-screen keyboard, it is much easier to control the machine from your own computer. With this method, you can see the screen, move the mouse, and type on the keyboard from your own computer.
+
+Once logged in to the web interface, click on "Control" in the "Machines" box. This will bring you to the machine selection page. Expand the "sfci-axidraw" group by clicking on the text and then click on the text of the plotter you wish to control.
+
+**NOTE:** Important cautions and caveats:
+
+ - You must physically approach the machine and login to the account you wish to access remotely prior to controlling it. The account must be logged in and viewed on the physical screen for the remote access to work.
+ - You can copy and paste to and from your computer and the axidraw machine. Do not copy and paste sensitive information on your computer while connected to the plotter machine, as this will copy to its clipboard as well.
+ - The screen streamed to your computer may have a slight delay or lag. Be patient. Mouse and keyboard movements may not be lagged/delayed by the same amount the screen is delayed.
+
+If you see a blank/black screen or the remote access page fails to connect, try locking the screen and unlocking the machine (tap the monitor button on the top right corner of the touchscreen) and then try again.
+
+![Controlling Remotely (VNC)](docs_assets/README_vnc_connections.png)
 
 ### Using the CLI
 
