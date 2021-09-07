@@ -45,15 +45,15 @@ Locking the screen allows for your programs to continue running while another pl
 
 ### Managing Files
 
-The web interface may be accessed at [https://sfci-pi1.cfa.cmu.edu/](https://sfci-pi1.cfa.cmu.edu/). You should login with your AndrewID (the text before the @ in your CMU email address) and the password provided to you by the machine administator.
+The web interface may be accessed at [https://sfci-pi1.cfa.cmu.edu/](https://sfci-pi1.cfa.cmu.edu/). You should login with your AndrewID (the text before the @ in your andrew.cmu.edu email address) and the password provided to you by the machine administrator.
 
-Once logged in, click on "Manage" in the "Files" box.
+### Managing Files
+
+Once logged in to the web interface, click on "Manage" in the "Files" box.
 
 ### Controlling Remotely
 
-The web interface may be accessed at [https://sfci-pi1.cfa.cmu.edu/](https://sfci-pi1.cfa.cmu.edu/). You should login with your AndrewID (the text before the @ in your CMU email address) and the password provided to you by the machine administator.
-
-Once logged in, click on "Control" in the "Machines" box.
+Once logged in to the web interface, click on "Manage" in the "Files" box.
 
 ### Using the CLI
 
