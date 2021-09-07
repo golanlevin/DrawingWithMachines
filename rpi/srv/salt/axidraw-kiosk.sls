@@ -159,6 +159,8 @@ desktop:
         - source: salt://axidraw-kiosk/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
       - /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml:
         - source: salt://axidraw-kiosk/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+      - /etc/axidraw-background.orig.png:
+        - source: salt://axidraw-kiosk/etc/axidraw-background.orig.png
 
 flatpak:
   pkg.installed: 
