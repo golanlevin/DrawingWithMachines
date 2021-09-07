@@ -105,9 +105,9 @@ When you use the axidraw plotter, there are a few steps that must be performed i
 1. Create and upload your plot file.
 2. Run `cd users/<andrewid>` to go to your user directory.
 3. Run `axicli -m align` to raise the drawing implement and unlock the plotter motors.
-4. Manually move the axidraw to the intended start position. Unlike a CNC machine or 3D printer, the axidraw does not have a concept of a predefined home location. When you start your plot, (0,0) will start from the point the plotter is currently positioned.
+4. Manually move the axidraw to the intended start position (with your hands). Unlike a CNC machine or 3D printer, the axidraw does not have a concept of a predefined home location. When you start your plot, (0,0) will start from the point the plotter is currently positioned.
 5. Run `axicli -m toggle` to lower the drawing implement.
-6. Attach your pen or drawing implement to the axidraw, which the pen touching the drawing surface.
+6. Attach your pen or drawing implement to the axidraw, whith the pen touching the drawing surface.
 7. Run `axicli -m align` to raise the drawing implement again.
 8. Run `axicli <svgfilename>` to begin plotting.
 
