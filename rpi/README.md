@@ -29,11 +29,33 @@ The minions perform these functions:
 
 ## Usage
 
+### Accessing
+
+To login to an axidraw machine, approach the machine and tap on the name of the machine that you wish to control (i.e. "axidraw1" or "axidraw3-se"). Then tap "Login."
+
+If someone else is currently using a plotter, an arrow will appear next to the plotter name until they log out. Do not us a plotter in use by someone else.
+
+![Login Screen](docs_assets/README_loginscreen.svg)
+
+Once you have logged in or approach a machine not in use, always double-check the name in the top right corner to ensure you know which physical plotter you are controlling.
+
+#### Locking the Screen
+
+Locking the screen allows for your programs to continue running while another plotter on the machine may be used. To lock the screen, tap on the button in the top right corner.
+
 ### Managing Files
 
-### Using the CLI
+The web interface may be accessed at [https://sfci-pi1.cfa.cmu.edu/](https://sfci-pi1.cfa.cmu.edu/). You should login with your AndrewID (the text before the @ in your CMU email address) and the password provided to you by the machine administator.
+
+Once logged in, click on "Manage" in the "Files" box.
 
 ### Controlling Remotely
+
+The web interface may be accessed at [https://sfci-pi1.cfa.cmu.edu/](https://sfci-pi1.cfa.cmu.edu/). You should login with your AndrewID (the text before the @ in your CMU email address) and the password provided to you by the machine administator.
+
+Once logged in, click on "Control" in the "Machines" box.
+
+### Using the CLI
 
 ## Setup Instructions
 
