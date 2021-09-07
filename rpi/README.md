@@ -35,7 +35,7 @@ To login to an axidraw machine, approach the machine and tap on the name of the 
 
 If someone else is currently using a plotter, an arrow will appear next to the plotter name until they log out. Do not us a plotter in use by someone else.
 
-![Login Screen](docs_assets/README_loginscreen.svg)
+![Login Screen](docs_assets/README_loginscreen.png)
 
 Once you have logged in or approach a machine not in use, always double-check the name in the top right corner to ensure you know which physical plotter you are controlling.
 
