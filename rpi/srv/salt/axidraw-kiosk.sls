@@ -123,6 +123,7 @@ login:
     - makedirs: True
     - require:
         - touchscreen_xss
+        - vnc_service
     - names:
       - /etc/X11/default-display-manager:
         - source: salt://axidraw-kiosk/etc/X11/default-display-manager
@@ -310,7 +311,23 @@ pip_taxi_desktop:
     - onchanges:
       - file: /usr/share/applications/taxi.desktop
 
-# x11vnc:
-#   pkg.installed:
-#     - pkgs:
-#         - x11vnc
+x11vnc:
+  pkg.installed:
+    - pkgs:
+      - x11vnc
+
+vnc_service:
+  file.managed:
+    - require:
+        - x11vnc
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+    - names:
+      - /etc/systemd/system/axidraw-user-vnc@.service:
+        - source: salt://axidraw-kiosk/etc/systemd/system/axidraw-user-vnc@.service
+  cmd.run:
+    - name: systemctl daemon-reload
+    - onchanges:
+      - file: /etc/systemd/system/axidraw-user-vnc@.service

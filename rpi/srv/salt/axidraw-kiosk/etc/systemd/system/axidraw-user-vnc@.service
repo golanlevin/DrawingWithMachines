@@ -1,0 +1,9 @@
+[Unit]
+Description=Axidraw User VNC
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c "echo %I && export %I && echo $(expr 5900 + $U_UID) && printenv && /usr/bin/x11vnc -rfbport $(expr 5900 + $U_UID) -display $U_DISPLAY -auth \"$U_XAUTHORITY\" -forever -allow sfci-pi1.cfa.cmu.edu -nopw -noxdamage"
+
+[Install]
+WantedBy=default.target
