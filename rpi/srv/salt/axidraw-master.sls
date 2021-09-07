@@ -297,12 +297,10 @@ static_assets:
         - source: salt://axidraw-master/srv/axidraw-www/index.html
       - /srv/axidraw-www/assets/css/bootstrap.min.css:
         - source: https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css
-        - skip_verify: True
-#        - source_hash: sha256=KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We
+        - source_hash: sha384=2b2657100837421a8b3291bcafef1f8405cb464dafbe80b67f7074f735579fc080e502157d9389dc10acc363f4a7f59e
       - /srv/axidraw-www/assets/js/bootstrap.bundle.min.js:
         - source: https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js
-        - skip_verify: True
-#        - source_hash: sha256=U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj
+        - source_hash: sha384=5350c0580ce70477aa108955482833abe73d82a180267e5cfedf7d27278a6bdc71698a52bc75396b0b2e655545221be3
 
 nginx:
   pkg.installed:
