@@ -37,11 +37,21 @@ If someone else is currently using a plotter, an arrow will appear next to the p
 
 ![Login Screen](docs_assets/README_loginscreen.png)
 
-Once you have logged in or approach a machine not in use, always double-check the name in the top right corner to ensure you know which physical plotter you are controlling.
+Once you have logged in or approach a machine not in use, **always double-check the name in the top right corner to ensure you know which physical plotter you are controlling.**
 
-#### Locking the Screen
+### Switching Plotters & Logging Off
 
 Locking the screen allows for your programs to continue running while another plotter on the machine may be used. To lock the screen, tap on the button in the top right corner.
+
+When you are finished with your plotting session, you should log off of the machine. This will remove the little triangle next to the plotter's name and indicate that someone else may use it. To do so, click on the plotter name in the top right corner and then tap "Log Off."
+
+![Switching Plotters & Logging Off](docs_assets/README_desktop_lock_logout.png)
+
+### Onscreen Keyboard
+
+You may wish to use the onscreen keyboard. This allows you to tap to type. To bring up the onscreen keyboard, tap the tiled icon in the top bar. You can then click the X in the top right corner of the keyboard to close it, or drag on the 4-way arrow icon to move the keyboard.
+
+![Onscreen Keyboard](docs_assets/README_desktop_onscreenkeyboard.png)
 
 ### Managing Files
 
