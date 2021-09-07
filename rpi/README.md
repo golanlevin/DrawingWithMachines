@@ -87,25 +87,31 @@ If you see a blank/black screen or the remote access page fails to connect, try 
 
 ### Using the CLI
 
-## Setup Instructions
+To plot with an axidraw machine, it is recommended to use the axidraw CLI tool, `axicli`.
 
-1. If using a Raspberry Pi, install Raspbian Lite to get started. Also remember to change the `pi` user password. If using an x86 machine, install Debian stable with the CLI installer (do not install any additional packages, services, or GUIs).
-2. TBD
+To open the terminal, tap on the terminal icon in the top left of the screen. A terminal will open that starts in the `/mnt/axidraw` directory.
 
-Grain example:
-```yaml
-roles:
-  - axidraw
-axidraws:
-  - name: axidraw7           # Should be accross all machines
-    id: 7                    # Should be accross all machines
-    kernel_port: '1-1.3:1.0' # Linux USB port address. Can also address USB hubs if needed
-    kernel_type: 'ttyACM*'   # How it shows up normal in /dev/tty...
-  - name: axidraw8
-    id: 8
-    kernel_port: '1-1.4:1.0'
-    kernel_type: 'ttyACM*'
+![Opening the terminal](docs_assets/README_desktop_openterminal.png)
+
+Recall from the [Managing Files section](#managing-files) that your user directory is `/mnt/axidraw/users/<andrewid>`. To change to this directory, type:
+
 ```
+cd users/<andrewid>
+```
+and then press enter. You can now access the files that you uploaded online. You can type `ls` and press enter to list the files and folder in your user directory.
+
+When you use the axidraw plotter, there are a few steps that must be performed in order:
+
+1. Create and upload your plot file.
+2. Run `cd users/<andrewid>` to go to your user directory.
+3. Run `axicli -m align` to raise the drawing implement and unlock the plotter motors.
+4. Manually move the axidraw to the intended start position. Unlike a CNC machine or 3D printer, the axidraw does not have a concept of a predefined home location. When you start your plot, (0,0) will start from the point the plotter is currently positioned.
+5. Run `axicli -m toggle` to lower the drawing implement.
+6. Attach your pen or drawing implement to the axidraw, which the pen touching the drawing surface.
+7. Run `axicli -m align` to raise the drawing implement again.
+8. Run `axicli <svgfilename>` to begin plotting.
+
+If you need to stop your plot, press `control` + `c` from the terminal.
 
 ## Notes
 
