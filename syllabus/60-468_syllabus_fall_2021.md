@@ -14,6 +14,7 @@
 * **Overview**
 	* Course Description
 	* Learning Objectives
+	* Unit Topics
 * **Course Profile**
 	* Key Topics
 	* Prerequisite Knowledge
@@ -74,6 +75,18 @@ At the conclusion of this course, students will be able to:
 * Gain familiarity with the repertoire of artists, designers, works and activities around algorithmic art with robots and mechatronic plotters.
 * Understand the role of computation in making drawings that explore concepts of procedurality and generativity.
 * Understand how to document and present creative work online, and in person.
+
+### Unit Topics
+
+1. Drawing Machines
+2. Introductory Tooling
+3. Exercises with Lines
+4. Hatching and Fills
+5. Shapes and Clipping
+6. Pattern (Tiling, symmetries, Truchet logics)
+7. Texture (Distribution, flows, biomorphic algorithms)
+8. Student Choice: Asemic / Real-Time / Multiples
+9. Material Conditions
 
 
 ---
