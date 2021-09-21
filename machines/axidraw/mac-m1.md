@@ -15,7 +15,7 @@ We need a particular version of Python3 to get this to work on the M1.
    ```zsh
    arch --x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    ```
-4. Ensure that Homebrew installed to a directory beginning with `/usr` and not `/opt`. In the next steps section at the end of the install, following any commands it says to do (it will say in your terminal window).
+4. Ensure that Homebrew installed to a directory beginning with `/usr` and not `/opt`. In the next steps section at the end of the install, follow any commands it says to (it will say in your terminal window).
 5. Install the x86_64 Python 3
    ```zsh
    arch --x86_64 brew install python@3.9
