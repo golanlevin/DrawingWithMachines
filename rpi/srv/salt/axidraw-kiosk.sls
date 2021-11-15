@@ -25,6 +25,13 @@ axidraw_group:
     - groups:
         - axidraw
         - users
+  file.managed:
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+    - name: /opt/axidraw-args/{{ axidraw_user.name }}
+    - contents: {{ axidraw_user.args }}
 {% else %}
   user.absent:
     - purge: True
@@ -230,16 +237,29 @@ pip_axidraw_venv:
       - pip
       - python3_virtualenv
 
+pip_axidraw_sea1:
+  file.managed:
+    - user: root
+    - group: root
+    - mode: '0644'
+    - makedirs: True
+    - names:
+      - /opt/config_sea1_302b/axidraw_conf.py:
+        - source: salt://axidraw-kiosk/opt/config_sea1_302b/axidraw_conf.py
+      - /opt/config_sea1_302b/axidraw.inx:
+        - source: salt://axidraw-kiosk/opt/config_sea1_302b/axidraw.inx
+
 pip_axidraw:
   pip.installed:
    - require:
       - pip
       - pip_axidraw_requirements
       - pip_axidraw_venv
+      - pip_axidraw_sea1
    - bin_env: /opt/venv-axidraw
-   - name: https://cdn.evilmadscientist.com/dl/ad/public/AxiDraw_API.zip
+   - name: https://cdn.evilmadscientist.com/dl/ad/public/ad_api/AxiDraw_API_302r1.zip
    - upgrade: True
-   - unless: test `/opt/venv-axidraw/bin/pip3 freeze | grep axidrawinternal` = 'axidrawinternal==2.7.4'
+   - unless: test `/opt/venv-axidraw/bin/pip3 freeze | grep axidrawinternal` = 'axidrawinternal==3.0.2'
 
 pip_axidraw_profile_alias:
   file.managed:
@@ -333,3 +353,37 @@ vnc_service:
     - name: systemctl daemon-reload
     - onchanges:
       - file: /etc/systemd/system/axidraw-user-vnc@.service
+
+# firewall_vnc_ports:
+#   firewalld.service:
+#     - name: firewall_vnc_ports
+#     - ports:
+# {% for axidraw_user in pillar['axidraws'] %}
+# {% if axidraw_user.minion == grains['id'] %}
+#       - {{ 5900 + 2000 + axidraw_user.id }}/tcp
+# {% endif %}
+# {% endfor %}
+#
+# firewall_ssh:
+#   firewalld.service:
+#     - name: firewall_vnc_ports
+#     - ports:
+#       - 22/tcp
+#
+# firewall_public:
+#   firewalld.present:
+#     - name: firewall_public
+#     - interfaces:
+#       - eth0
+#     - services:
+#       - firewall_vnc_ports
+#       - firewall_ssh
+#     - default: True
+#     - rich_rules:
+#       - rule family="ipv4" source address="192.168.1.100" port protocol="tcp" port="3306" accept
+#     - prune_services: True
+#     - prune_interfaces: True
+#     - prune_sources: True
+#     - prune_port_fwd: True
+#     - prune_ports: True
+#     - prune_block_icmp: True
