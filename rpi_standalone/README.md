@@ -30,4 +30,5 @@ Click OK when done
 Restart
 
 Open a terminal
-Set the hostname (change the number for the correct Pi): `sudo hostnamectl set-hostname sfci-pi1.cfa.cmu.edu`
+Set the hostname (change the number for the correct Pi), part 1: `sudo nano /etc/hosts` and replace `raspberry` with `sfci-pi1.cfa.cmu.edu`.
+Then run `sudo raspi-config nonint do_hostname sfci-pi1.cfa.cmu.edu`.
