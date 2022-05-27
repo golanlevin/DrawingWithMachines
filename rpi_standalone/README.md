@@ -22,7 +22,6 @@ Axidraw Standalone
    - Click "Next" (do not click "Skip")
 7. Click OK when done
 8. Restart
-9. Open a terminal
-   1. Set the hostname (change the number for the correct Pi), part 1: `sudo nano /etc/hosts` and replace `raspberry` with `sfci-pi1.cfa.cmu.edu`.
-   2. Then run `sudo raspi-config nonint do_hostname sfci-pi1.cfa.cmu.edu`.
-   3. Then run `curl -s -L https://github.com/golanlevin/DrawingWithMachines/raw/main/rpi_standalone/sfci-pi_axidraw_installer.sh | sudo bash -s`
+9. Open a terminal and run `sudo raspi-config nonint do_hostname sfci-pi1.cfa.cmu.edu`.
+10. Close this terminal
+11. Open another terminal and run `curl -s -L "https://github.com/golanlevin/DrawingWithMachines/raw/main/rpi_standalone/sfci-pi_axidraw_installer.sh?$RANDOM" | sudo bash -s`

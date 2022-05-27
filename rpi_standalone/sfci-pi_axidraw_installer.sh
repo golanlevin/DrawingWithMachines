@@ -194,7 +194,7 @@ For the Axidraw V3/A3 or SE/A3, use ${AXIDRAW_CLI_COLOR_CYAN}axicli --model 2${A
 For the Axidraw V3 XLX, use ${AXIDRAW_CLI_COLOR_CYAN}axicli --model 3${AXIDRAW_CLI_COLOR_NONE}.
 For the Axidraw MiniKit, use ${AXIDRAW_CLI_COLOR_CYAN}axicli --model 4${AXIDRAW_CLI_COLOR_NONE}.
 For the Axidraw SE/A1, use ${AXIDRAW_CLI_COLOR_CYAN}axicli --model 5${AXIDRAW_CLI_COLOR_NONE}.
-For the Axidraw SE/A2, use ${AXIDRAW_CLI_COLOR_CYAN}axicli --model 6.
+For the Axidraw SE/A2, use ${AXIDRAW_CLI_COLOR_CYAN}axicli --model 6${AXIDRAW_CLI_COLOR_NONE}.
 
 Run ${AXIDRAW_CLI_COLOR_CYAN}axicli --help${AXIDRAW_CLI_COLOR_NONE} for complete usage information.${AXIDRAW_CLI_COLOR_NONE}"
 cd ~/Desktop
