@@ -12,5 +12,5 @@ Axidraw Standalone Kiosk
   ![plot on other models](./README_assets/rpi_standalone_plot_other_model.png)
 5. For more information about the `axicli` command, run `axicli --help` or see the [online documentation](https://axidraw.com/doc/cli_api/#introduction).
 
-This documenation may be accessed at [https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone](https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone) or the QR code below:
+This documentation may be accessed at [https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone](https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone) or the QR code below:
 <img src="./README_assets/rpi_standalone_qr_code.svg" alt="QR code" width="100px">
