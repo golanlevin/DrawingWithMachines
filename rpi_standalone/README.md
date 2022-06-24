@@ -10,3 +10,7 @@ Axidraw Standalone Kiosk
   ![plot on V2 or V3](./README_assets/rpi_standalone_plot_normal.png)
 4. To plot on another model of Axidraw device, append `--model NUMBER` in between `axicli` and `filename.svg` where `NUMBER` is the correct number for your device. See the terminal for a reference of which number goes to which device.
   ![plot on other models](./README_assets/rpi_standalone_plot_other_model.png)
+5. For more information about the `axicli` command, run `axicli --help` or see the [online documentation](https://axidraw.com/doc/cli_api/#introduction).
+
+This documenation may be accessed at [https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone](https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone) or the QR code below:
+![QR code](./README_assets/rpi_standalone_qr_code.svg)
