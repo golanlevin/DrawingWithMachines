@@ -56,7 +56,8 @@ After using one of the toolkits below to generate an SVG, [**follow these instru
 
 ### Python
 
-* [**vpype**](https://vpype.readthedocs.io/en/latest/index.html) is a Python framework for generating SVGs, as well as prepping them for plotting.
+* [**vsketch**](https://github.com/abey79/vsketch) is a Processing-like Python toolkit for generating SVGs.
+* [**vpype**](https://vpype.readthedocs.io/en/latest/index.html) is a Python framework for generating SVGs, as well as prepping them for plotting. It can interoperate with vsketch.
 * [**Processing.py**](https://py.processing.org/) for Processing v.3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
   * [*Lissajous demo*](processing_py/svg_lissajous/svg_lissajous.pyde)
 * [**Drawbot**](https://www.drawbot.com/) by Just van Rossum, "a powerful, free application for macOS that invites you to write Python scripts to generate two-dimensional graphics". 
