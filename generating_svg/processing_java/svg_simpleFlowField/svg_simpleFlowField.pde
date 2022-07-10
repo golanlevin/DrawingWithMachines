@@ -4,7 +4,7 @@
 //-----------------------
 import processing.svg.*;
 void setup() {
-  size(600,600); 
+  size(1056, 816); // Letter: 11"x8.5" at 96 DPI.
 }
 
 //-----------------------

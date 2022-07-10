@@ -28,6 +28,10 @@ SVG ("Scalable Vector Graphic") files are text files that contain descriptions o
 
 You could write code to directly generate SVG text files, but if you wish to preview your work, you would likely use a creative-coding toolkit. Here are some links and example projects for various toolkits for computationally generating SVG files. 
 
+### Prepping SVGs for Plotting with *vpype*
+
+After using one of the toolkits below to generate an SVG, [**follow these instructions**](vpype_svg_prep/README.md) to use *vpype* to optimize your SVG file for plotting. 
+
 
 ### Java
 
@@ -52,6 +56,7 @@ You could write code to directly generate SVG text files, but if you wish to pre
 
 ### Python
 
+* [**vpype**](https://vpype.readthedocs.io/en/latest/index.html) is a Python framework for generating SVGs, as well as prepping them for plotting.
 * [**Processing.py**](https://py.processing.org/) for Processing v.3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
   * [*Lissajous demo*](processing_py/svg_lissajous/svg_lissajous.pyde)
 * [**Drawbot**](https://www.drawbot.com/) by Just van Rossum, "a powerful, free application for macOS that invites you to write Python scripts to generate two-dimensional graphics". 
