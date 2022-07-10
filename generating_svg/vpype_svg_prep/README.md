@@ -41,11 +41,13 @@
 
 Suppose you have generated an SVG (in, say, Processing). It is possible that your lines may go outside the bounds of the plottable region. It is also likely that your plot is not "optimized", so that strokes are badly ordered, and connecting line segments are not understood to be continuous. *vpype* can help. 
 
-Here is an 11x8.5" SVG of a flow field, `inputfile.svg`, generated in Processing, stored in a subdirectory of the virtual environment, and viewed in InkScape. As you can see, the strokes go outside of the document bounds. Many plotters cannot handle such points, and (for example) grind the motors trying to reach them.
+The workflow below assumes that the virtual environment has been activated at the command line. 
+
+Here is an 11x8.5" SVG of a flow field, called [`inputfile.svg`](inputfile.svg), generated in Processing, and viewed in InkScape. As you can see, the strokes go outside of the document bounds. Many plotters cannot handle such points, and (for example) grind the motors trying to reach them.
 
 ![inputfile.png](inputfile.png)
 
-Using this command, we can verify and view the file with the *vpype* file viewer: `vpype read inputfile.svg show`. A command in its menu allows us to see the "pen-up trajectories", which clearly shows that the file is not optimized. 
+Using this Terminal command, we can verify and view the file with the *vpype* file viewer: `vpype read inputfile.svg show`. A command in its menu allows us to see the "pen-up trajectories", which clearly shows that the file is not optimized. 
 
 ![vpype-viewer.png](vpype-viewer.png)
 
