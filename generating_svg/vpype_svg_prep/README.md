@@ -25,15 +25,15 @@
 
 1. [MacPorts](https://www.macports.org/) is the recommended way to install the Python interpreter on macOS. Following the instructions from [here](https://guide.macports.org/chunked/installing.macports.html), download the latest package installer for MacPorts. For example, I have installed *MacPorts-2.7.2-12-Monterey.pkg*.
 2. To confirm the MacPorts installation is working as expected, now try using port in a ***new*** terminal window: `port version`.
-2. Activate the newly created virtual environment: `source myVypeEnvironment/bin/activate`. (You can exit the virtual environment later by typing `deactivate`.)
-3. If you have a **non-M1 Mac**, or if you have an M1 Mac but *don't* expect to use vpype plugins, then you can install vpype using `sudo port install vpype`, or by using pip, with `pip install --upgrade pip` followed by `pip install vpype[all]`. However, according to the [vpype installation instructions](https://vpype.readthedocs.io/en/latest/install.html#installing-using-pipx-apple-silicon-m1), as of July 2022, M1 Macs require special care; see the next step below.
-4. If you have an **M1 Mac**, using [pipx](https://pypa.github.io/pipx) is the recommended method when using plug-ins. Follow these instructions from [here](https://vpype.readthedocs.io/en/latest/install.html#installing-using-pipx-apple-silicon-m1), *from within the virtual environment:*
+3. Activate the newly created virtual environment: `source myVypeEnvironment/bin/activate`. (You can exit the virtual environment later by typing `deactivate`.)
+4. If you have a **non-M1 Mac**, or if you have an M1 Mac but *don't* expect to use vpype plugins, then you can install vpype using `sudo port install vpype`, or by using pip, with `pip install --upgrade pip` followed by `pip install vpype[all]`. However, according to the [vpype installation instructions](https://vpype.readthedocs.io/en/latest/install.html#installing-using-pipx-apple-silicon-m1), as of July 2022, M1 Macs require special care; see the next step below.
+5. If you have an **M1 Mac**, using [pipx](https://pypa.github.io/pipx) is the recommended method when using plug-ins. Follow these instructions from [here](https://vpype.readthedocs.io/en/latest/install.html#installing-using-pipx-apple-silicon-m1), *from within the virtual environment:*
 	* First, install the required ports (from within the virtual environment!) using MacPorts: `sudo port install python39 py39-shapely py39-scipy py39-numpy py39-pyside2`. This could take some time. 
 	* Then, install pipx: `sudo port install pipx +python39`
 	* Then, type `pipx ensurepath`. This ensures that both pipx and the software it will install are available at the terminal. (You may need to close and re-open the terminal window and the virtual environment for this to take effect.)
    * Finally, install *vpype*: `pipx install "vpype[all]" --system-site-packages`. (Note the use of the --system-site-packages option. This is important because because vpype relies the version of PySide2 that was installed earlier with MacPort.)
-* 5. *vpype* should now be installed and ready to use. You may check that it is fully functional by checking its version: `vpype --version`
-* 6. You can also check *vpype* by displaying some random lines: `vpype random show`
+6. *vpype* should now be installed and ready to use. You may check that it is fully functional by checking its version: `vpype --version`
+7. You can also check *vpype* by displaying some random lines: `vpype random show`
 
 ---
 
