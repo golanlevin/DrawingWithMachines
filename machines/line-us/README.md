@@ -67,7 +67,7 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 1. Download the complete directories for the examples you want to run (for example, in [this .zip](https://github.com/golanlevin/DrawingWithMachines/archive/refs/heads/main.zip)). 
 2. In MacOS Terminal, ```cd lineus_p5js_lissajous``` (or whichever directory your sketch is in).
-3. In Terminal, launch a local server, as described [here](https://github.com/processing/p5.js/wiki/Local-server), with the command: ```python -m http.server```
+3. In Terminal, launch a local server, as described [here](https://github.com/processing/p5.js/wiki/Local-server), with the command: ```python -m http.server``` (or ```python3 -m http.server``` if you're using Python3). 
 4. In your browser, visit [```http://localhost:8000```](http://localhost:8000). The sketch should run, and the Line-Us robot should be controlled by the sketch. 
 
 ---
