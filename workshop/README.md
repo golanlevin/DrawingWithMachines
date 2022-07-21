@@ -5,23 +5,18 @@ Resources for Golan Levin's one-week *Drawing with Machines* [Workshop at Anders
 
 ### Quickstart
 
-1. [Generate an SVG with Processing](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/processing_java/svg_simpleFlowField/svg_simpleFlowField.pde)
+1. [Generate an SVG with Processing](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/processing_java/svg_testgrid/svg_testgrid.pde)
 2. [Optimize SVG with vpype](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/vpype_svg_prep)
 3. [Plot the SVG on an AxiDraw using our Raspberry Pi kiosk](https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone)
 
 ---
 
-### Tools for Generating SVG Files
+### Tools for Generating SVG Files and Controlling Plotters
 
 * [**Simple template for p5.js**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/p5js/svg_lissajous) (JavaScript). Requires zenozeng's [p5.js-svg](https://github.com/zenozeng/p5.js-svg).
 * [**Simple template for Processing**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/processing_java/svg_lissajous) (Java). Uses Processing's built-in [SVG Library](https://processing.org/reference/libraries/svg/index.html). 
 * [Drawingbot's massive list of SVG-generating tools](https://drawingbots.net/resources#5)
-
-##### Real-time control
-
-* AxiDraw + Processing: [Golan](https://github.com/golanlevin/axidraw/tree/master/AxiDraw_Mouse); [Madeline](https://github.com/madelinegannon/axidraw/tree/master/AxiDraw_Mouse)
-* [AxiDraw + Python](https://axidraw.com/doc/py_api/#quick-start-interactive-xy)
-* HP7475A + openFrameworks: [Nick](https://github.com/NickHardeman/ofxHPGL)
+* [Code samples for real-time plotter control](../realtime/README.md)
 
 ---
 
