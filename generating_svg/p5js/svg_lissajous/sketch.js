@@ -1,6 +1,6 @@
 // Generate a Lissajous curve, and export it as an SVG file.
 // Uses https://github.com/zenozeng/p5.js-svg to export SVG.
-// See index.html for the inclusion of p5.js-svg@1.0.7.js
+// See index.html for the inclusion of p5.js-svg@1.3.1.js
 
 function setup() {
   createCanvas(1056, 816, SVG); // Letter: 11"x8.5" at 96 DPI.

@@ -38,15 +38,17 @@ Resources for Golan Levin's one-week *Drawing with Machines* [Workshop at Anders
 
 ### Prompts & Suggestions
 
-* [Take a line for a walk](https://courses.ideate.cmu.edu/60-428/f2021/offerings/2-generating-svgs/)
-* [Devise your own methods of hatching](https://courses.ideate.cmu.edu/60-428/f2021/offerings/4-hatching/)
+* One Line. [Take a dot for a walk](https://courses.ideate.cmu.edu/60-428/f2021/offerings/2-generating-svgs/)
+* [Devise your own methods of hatching](https://courses.ideate.cmu.edu/60-428/f2021/offerings/4-hatching/). Massing. Moire Interference.
 * [Generate a family of blobs](https://courses.ideate.cmu.edu/60-428/f2021/offerings/5-shape/)
 * [Generate a pattern from modular elements](https://courses.ideate.cmu.edu/60-428/f2021/offerings/6-pattern/)
 * [Generate a field or distribution](https://courses.ideate.cmu.edu/60-428/f2021/offerings/7-field/)
 * Translate a pixel-based image
-* Focus on material conditions
+* Focus on material conditions. The interfered plot. 
 * Make an asemic writing system
-* Create a visual feedback system
+* Use a database of drawings (e.g. QuickDraw)
+* [Minimum Inventory, Maximum Diversity](http://www.courses.art.cmu.edu/2021s/60210a/deliverables/deliverables-01/absolute-drawings/) system
+* Create a visual feedback system (Drawing in which subsequent marks related to previous ones)
 
 ---
 

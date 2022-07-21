@@ -43,7 +43,7 @@ After using one of the toolkits below to generate an SVG, [**follow these instru
 
 ### JavaScript
 
-* [**p5.js**](https://p5js.org/) v.1.3.1, with [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.0.7 by @zenozeng: 
+* [**p5.js**](https://p5js.org/) v.1.4.1, with [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.3.1 by @zenozeng: 
   * [*Lissajous demo*](p5js/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/Eu6b4gm_i))
 * [**svg5.js**](https://www.npmjs.com/package/svg5) v.0.1.4 by @MAKIO135: 
   * [*Lissajous demo*](svg5/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
