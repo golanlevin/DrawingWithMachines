@@ -86,9 +86,3 @@ Examining the result in the *vpype* viewer, and displaying the pen trajectories,
 
 
 
-
-
-
-
-
-

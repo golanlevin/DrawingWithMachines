@@ -14,7 +14,8 @@ Resources for Golan Levin's one-week *Drawing with Machines* [Workshop at Anders
 ### Tools for Generating SVG Files and Controlling Plotters
 
 * [**Simple template for p5.js**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/p5js/svg_lissajous) (JavaScript). Requires zenozeng's [p5.js-svg](https://github.com/zenozeng/p5.js-svg).
-* [**Simple template for Processing**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/processing_java/svg_lissajous) (Java). Uses Processing's built-in [SVG Library](https://processing.org/reference/libraries/svg/index.html). 
+* [**Simple template for Processing**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/processing_java/svg_lissajous) (Java). Uses Processing's built-in [SVG Library](https://processing.org/reference/libraries/svg/index.html).
+* [**Simple template for Python**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/python/README.md). Uses abey79's [vsketch](https://github.com/abey79/vsketch) and [vpype](https://vpype.readthedocs.io/en/latest/index.html).
 * [Drawingbot's massive list of SVG-generating tools](https://drawingbots.net/resources#5)
 * [Code samples for real-time plotter control](../realtime/README.md)
 

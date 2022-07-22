@@ -57,9 +57,9 @@ After using one of the toolkits below to generate an SVG, [**follow these instru
 
 ### Python
 
-* [**vsketch**](https://github.com/abey79/vsketch) is a Processing-like Python toolkit for generating SVGs.
-* [**vpype**](https://vpype.readthedocs.io/en/latest/index.html) is a Python framework for generating SVGs, as well as prepping them for plotting. It can interoperate with vsketch.
-* [**Processing.py**](https://py.processing.org/) for Processing v.3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
+* [**Here's a Python v.3 workflow**](python/README.md) for generating SVG files. The recommended toolchain includes [**vsketch**](https://github.com/abey79/vsketch) (a Processing-like Python toolkit for generating SVGs), and [**vpype**](https://vpype.readthedocs.io/en/latest/index.html) (a Python framework for generating SVGs, as well as prepping them for plotting), which interoperates with vsketch.
+  * [*Lissajous demo*](python/svg_lissajous/sketch_svg_lissajous.py)
+* [**Processing.py**](https://py.processing.org/) for Processing v.3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html). (*Note, this does not currently work with Processing v4.*): 
   * [*Lissajous demo*](processing_py/svg_lissajous/svg_lissajous.pyde)
 * [**Drawbot**](https://www.drawbot.com/) by Just van Rossum, "a powerful, free application for macOS that invites you to write Python scripts to generate two-dimensional graphics". 
 * [**vsketch**](https://github.com/abey79/vsketch) by @abey79, with e.g. [Shapely](https://shapely.readthedocs.io/en/latest/), which can be used [in Google Colab notebooks](https://vsketch.readthedocs.io/en/latest/install.html#using-notebooks)

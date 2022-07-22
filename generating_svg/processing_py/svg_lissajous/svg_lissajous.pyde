@@ -1,6 +1,12 @@
+# For Processing v.3.
+#
 # Generate a Lissajous curve, and export it as an SVG file.
 # For more information on the Processing SVG library, see:
 # https://processing.org/reference/libraries/svg/index.html
+#
+# Known to work with Python Mode for Processing 3.5.4. 
+# Does NOT work with Python Mode (v4001) for Processing 4.0b7, 
+# owing to problems loading the SVG library. 
 
 add_library('svg')
 
