@@ -24,6 +24,7 @@ We will use EMSL's [pyaxidraw](https://axidraw.com/doc/py_api/#quick-start-inter
 * Install [pynput](https://pypi.org/project/pynput/), which can access real-time mouse coordinates: `pip3 install pynput`
 * Run the program [mouse_to_axidraw.py](axidraw_python_esml/mouse_to_axidraw.py), or other demos that come in the [AxiDraw API](axidraw_python_esml/AxiDraw_API.zip).
 
+An alternative option for realtime AxiDraw control via Python is [Fogleman's Axi library](https://github.com/fogleman/axi). 
 
 ---
 
