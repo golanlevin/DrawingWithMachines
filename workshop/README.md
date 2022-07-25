@@ -6,7 +6,7 @@ Resources for Golan Levin's one-week *Drawing with Machines* [Workshop at Anders
 ### Quickstart
 
 1. [Generate an SVG with Processing](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/processing_java/svg_random_lines/svg_random_lines.pde)
-2. [Optimize SVG with vpype](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/vpype_svg_prep). (For an alternative that doesn't require Python installations, use the [Inkscape AxiDraw plugin](https://wiki.evilmadscientist.com/Axidraw_Software_Installation))
+2. [Optimize the SVG with vpype](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg/vpype_svg_prep). (*For an alternative that doesn't require Python installations, use the [Inkscape AxiDraw plugin](https://wiki.evilmadscientist.com/Axidraw_Software_Installation)*)
 3. [Plot the SVG on an AxiDraw using our Raspberry Pi kiosk](https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone)
 
 ---
