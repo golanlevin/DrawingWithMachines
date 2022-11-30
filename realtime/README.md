@@ -12,6 +12,7 @@ We will use @techninja's [CNCserver](https://github.com/techninja/cncserver) as 
 * Install the CNCServer package. Following the instructions from [here](https://github.com/techninja/cncserver#installing-npm-dependencies),  navigate to the cncserver folder at the command line, and execute `npm install`
 * In the terminal, enter `node cncserver --botType=axidraw`
 * In Processing, run the program [axidraw_processing_realtime.pde](axidraw_processing_realtime/axidraw_processing_realtime.pde).
+* Note that the file jna-4.1.0.jar is incompatible with Processing v4's video capture library. 
 
 ---
 
