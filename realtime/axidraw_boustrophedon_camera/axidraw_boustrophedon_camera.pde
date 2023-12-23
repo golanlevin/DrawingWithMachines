@@ -186,6 +186,21 @@ void keyPressed() {
 //---------------------------------------------
 void calculateAndStorePath() {
   int count = 0;
+  for (int xStep=0; xStep<nStepsX; xStep++) {
+    for (int yStep=0; yStep < nStepsY; yStep++) {
+      float x1 = movementOffsetX + map(xStep, 0, nStepsX-1, 0, movementWidthX);
+      float y1 = movementOffsetY + map(yStep, 0, nStepsY-1, 0, movementHeightY);
+      path[count++] = new PVector(x1, y1);
+    }
+  }
+}
+
+
+/*
+//---------------------------------------------
+void calculateAndStorePath() {
+  // evidently, boustrophedon is incompatible with some panorama stitchers! :(
+  int count = 0;
   int dir = 1;
   for (int xStep=0; xStep<nStepsX; xStep++) {
     int yInit = (dir > 0) ? 0 : nStepsY-1;
@@ -198,6 +213,8 @@ void calculateAndStorePath() {
     dir = 0-dir;
   }
 }
+*/
+
 
 //---------------------------------------------
 void displayPath() {
