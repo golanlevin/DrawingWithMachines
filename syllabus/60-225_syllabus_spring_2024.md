@@ -13,25 +13,25 @@
 
 Your grade will be based on your professionalism in (**1**) completing work, and in (**2**) communicating responsibly about your attendance, as follows:
 
-1. **Do The Assignment Checklists.** There is zero mystery how your work will be graded in this course. Every assignment has a clearly defined list of very simple tasks. Do all the tasks and you will receive full credit on the assignment. Your semester grade will be based on completing a certain number of assignments, according to a [Labor-Based Grading Contract](https://en.wikipedia.org/wiki/Contract_grading).
-2. **No Ghosting.** If you need to miss class, inform the professor at the earliest possible opportunity. You are welcome to communicate by email, Discord, Twitter, or text message. Your first "*[no call, no-show](https://en.wikipedia.org/wiki/No_call,_no_show)*" event will reduce your semester grade by one letter (A→B). **Your second "*no-call, no-show*" event will cause you to fail the class.**
+1. **Do The Assignment Checklists.** There is zero mystery about how your work will be graded in this course. Every assignment has a clearly defined list of very simple tasks. Tasks are either done, or they are not. Do all the tasks and you will receive full credit on the assignment. Your semester grade will be determined by counting how many assignments earned full (or near-full) credit, according to a [Labor-Based Grading Contract](https://en.wikipedia.org/wiki/Contract_grading).
+2. **No Ghosting.** If you need to miss class, inform the professor at the earliest possible opportunity. You are welcome to communicate with me by email, Discord, Twitter, or text message. Absences, while regrettable, are permissible; "[**no call, no-show**](https://en.wikipedia.org/wiki/No_call,_no_show)" events, however, are not: 
+	* <span style="color:red">Your first "no call, no-show" event will reduce your semester grade by one letter (A→B).</span>
+	* <span style="color:red">**Your second "no-call, no-show" event will cause you to fail the class.**</span>
 
 *Full details about these requirements are below.*
 
----
+#### CONTENTS
 
-### CONTENTS
-
-* **Overview**
-* **Administrata**
-* **Attendance**
-* **COVID-19 Accommodations**
-* **Rubrics and Grading**
-* **Academic Integrity**
-* **Code of Conduct**
-* **Freedom of Speech Commitment**
-* **Dealing with Stress**
-* **Land Notice**
+* [**Overview**]()
+* [**Tools and Materials**]()
+* [**Attendance**]()
+* [**Grading**]()
+* [**COVID-19 Accommodations**]()
+* [**Academic Integrity**]()
+* [**Code of Conduct**]()
+* [**Freedom of Speech Commitment**]()
+* [**Dealing with Stress**]()
+* [**Land Notice**]()
 
 ---
 
@@ -77,7 +77,7 @@ At the conclusion of this course, students will be able to:
 
 
 ---
-# ADMINISTRATA
+# TOOLS AND MATERIALS
 
 ### Communication Tools
 This course uses the following software tools to share information:
@@ -138,28 +138,28 @@ students to get funds for art supplies using the [*Special Circumstance Request 
 
 ### Excused Absences
 
-Your presence, collegial conduct, civic participation, and responsible communication are of paramount importance. That said, I also recognize that students may occasionally need to miss class for a variety of reasons (e.g. illness, religious observance, job interview, family emergency, etc.). The attendance policy for this course is simple: 
+Your presence, collegial conduct, and civic participation are of paramount importance. That said, I also recognize that students may occasionally need to miss class for a variety of reasons (e.g. illness, religious observance, job interview, family emergency, etc.). The attendance policy for this course is simple: 
 
-**If you are unable to attend a class session, send a message prior to Roll Call.** You may message me by email, Discord, Twitter, or text message. Informing me of your absence can help me help you; for example, I may be able to record or stream a presentation.
+<span style="color:red">**If you are unable to attend a class session, send a message prior to Roll Call.**</span> You may message me by email, Discord, Twitter, or text message. Informing me of your absence can help me help you; for example, I may be able to record my presentation, or share it over Zoom.
 
 I can be extremely understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. Such absences will have no impact on your final grade. If you must miss a significant number of sessions, please come and discuss the issue with me; I would like to find a way to support you.
 
-When you send me a message informing me of an upcoming absence, I don't need to know the detailed reason. It's sufficient and courteous to offer a general category, such as "I'm not feeling well". (Please do not tell me "I need to do homework for another course"; this insult will not affect your grade, but it will anger and disappoint me.)
+When you send me a message informing me of an upcoming absence, I don't need to know the detailed reason. It is courteous and sufficient to offer a general explanation, such as "I'm not feeling well". However, I recommend that you not tell me "I need to do homework for another course". Clarifying your priorities in this way will not affect your grade, but it may earn my contempt.
 
-You are responsible for what happens in class whether you’re here or not. Organize with your classmates to get class information and material that you have missed.
+You are responsible for what happens in class whether you’re here or not. Organize with me and/or your classmates to get class information and material that you have missed.
 
 ### *No-Call, No-Show* Absences
 
-If I (the Professor) were unable to come to class, I would send a message so that students could plan accordingly. I expect the same courtesy from you. Failing to communicate responsibly about your absences — in other words, *ghosting*, or "[No-Call, No-Show](https://myhours.com/articles/no-call-no-show-policy-template-what-is-it-and-how-to-create-one)" events — is not acceptable in this course, and subject to the following policy:
+If I (the Professor) am unable to come to class, I will send a message so that students can plan accordingly. I expect the exact same courtesy from you. Failing to communicate responsibly about your absences — in other words, *ghosting*, or "[**No-Call, No-Show**](https://myhours.com/articles/no-call-no-show-policy-template-what-is-it-and-how-to-create-one)" events — is not acceptable in this course, and subject to the following policy:
 
-* Your first *No-Call, No-Show* event will reduce your semester grade by one letter (A→B). 
-* Your second *No-Call, No-Show* event will cause you to fail the class.
+* <span style="color:red">Your first *No-Call, No-Show* event will reduce your semester grade by one letter (A→B).</span>
+* <span style="color:red">**Your second *No-Call, No-Show* event will cause you to fail the class (B→R).**</span>
 
-It is expected that there are very few situations in which you would be literally unable to send a brief text message. However, the following incapacitating emergencies are acceptable situations for a *No-Call, No-Show* absence: 
+There are very few situations in which you would be *literally unable* to send a brief text message. That said, the following list of incapacitating emergencies (of you or a loved one) are, of course, acceptable excuses for a *No-Call, No-Show* absence:
 
 * Death of a family member or loved one
 * Serious injuries or accidents that pose a high risk to wellbeing
-* Hospitalization
+* Hospitalization 
 * Physical assault
 * Police arrest
 * Housefire
@@ -172,29 +172,9 @@ Sometimes, students who haven’t completed their projects skip class during cri
 ### Keeping Mental Presence 
 Focus is precious—both yours and others'. Physical presence means nothing if you’re “checked out”; your *mental* presence is extremely important. During the professor’s lectures or guest presentations, distracted participation is prohibited. You are expected to be able to function for a few hours without texting, emailing, chatting, or doing work for other courses. Additionally, your own distraction is demoralizing to those around you. If I observe you doing these things, depending on the circumstance, I may have no choice to correct you publicly. 
 
----
-# COVID-19 in Spring 2024
-
-### Mask-Wearing Expectations
-COVID-19 is still with us; the new JN.1 variant is estimated to be highly transmissible, and is circulating widely. You are encouraged to wear a mask if possible, especially as we come back from the holiday travel. A large supply of facial coverings as well as sanitizing wipes can be found near our room's entrance. 
-
-### Health-Related Absences
-Please evaluate your own health status regularly and *refrain from attending class and other on-campus events if you feel unwell*. You are emphatically encouraged to seek appropriate medical attention for treatment of illness. In the event of any contagious illness, please do not come to class or to campus to turn in work. Instead, notify me by email about your absence before class, so that accommodations can be made.
-
-### Classroom Streams/Recordings
-If you are absent, you are responsible to obtain any information you missed. That said, students who are unable to attend class in person may request that a session be recorded and/or streamed over Zoom. I will make a good-faith effort to accommodate such requests, particularly for *lectures*. However, I can offer no guarantees about the quality of the transmission or recording. For non-lecture events (demonstrations, discussions, critiques, workshops, work days), it may be impossible to document the session satisfactorily.
-
-Recordings of class sessions, if they are made, are covered under the Family Educational Rights and Privacy Act (FERPA) and must not be shared with anyone outside the course. The purpose of these recordings is so students in this course (and only students in this course) can watch or re-watch past class sessions. Feel free to use the recordings if you would like to review something we discussed in class or if you are temporarily unable to attend class.
-
-### Grades in a Time of Stress
-The effects of the ongoing COVID-19 pandemic make life extraordinarily stressful for everyone. I’m utterly uninterested in this class being an additional source of stress. We are gathered to make creative work because doing so is a source of meaning, hope, and self-betterment. Do the projects because your heart is in the work, not because you are concerned about grades.
-
-We will have 10 projects this semester. Whether you do them or not, or whether you do them well or not, has no bearing on your grade.
-
-
 
 ---
-# Rubrics and Grading
+# GRADING
 
 ### General Expectations
 There are a few elementary things you can do to ensure that you receive an excellent grade in this course. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get this right:
@@ -260,6 +240,27 @@ In addition to spoken and/or written feedback, the professor may also provide fe
 * **C** (Needs Improvement): You tried to make something
 * **D** (Unacceptable): You didn’t really try
 * **F** (Nothing submitted): You didn’t show up
+
+
+
+---
+# COVID-19, SPRING 2024
+
+### Mask-Wearing Expectations
+COVID-19 is still with us; the new JN.1 variant is estimated to be highly transmissible, and is circulating widely. You are encouraged to wear a mask if possible, especially as we come back from the holiday travel. A large supply of facial coverings as well as sanitizing wipes can be found near our room's entrance. 
+
+### Health-Related Absences
+Please evaluate your own health status regularly and *refrain from attending class and other on-campus events if you feel unwell*. You are emphatically encouraged to seek appropriate medical attention for treatment of illness. In the event of any contagious illness, please do not come to class or to campus to turn in work. Instead, notify me by email about your absence before class, so that accommodations can be made.
+
+### Classroom Streams/Recordings
+If you are absent, you are responsible to obtain any information you missed. That said, students who are unable to attend class in person may request that a session be recorded and/or streamed over Zoom. I will make a good-faith effort to accommodate such requests, particularly for *lectures*. However, I can offer no guarantees about the quality of the transmission or recording. For non-lecture events (demonstrations, discussions, critiques, workshops, work days), it may be impossible to document the session satisfactorily.
+
+Recordings of class sessions, if they are made, are covered under the Family Educational Rights and Privacy Act (FERPA) and must not be shared with anyone outside the course. The purpose of these recordings is so students in this course (and only students in this course) can watch or re-watch past class sessions. Feel free to use the recordings if you would like to review something we discussed in class or if you are temporarily unable to attend class.
+
+### Grades in a Time of Stress
+The effects of the ongoing COVID-19 pandemic make life extraordinarily stressful for everyone. I’m utterly uninterested in this class being an additional source of stress. We are gathered to make creative work because doing so is a source of meaning, hope, and self-betterment. Do the projects because your heart is in the work, not because you are concerned about grades.
+
+We will have 10 projects this semester. Whether you do them or not, or whether you do them well or not, has no bearing on your grade.
 
 
 ---
