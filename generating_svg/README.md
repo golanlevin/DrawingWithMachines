@@ -55,14 +55,14 @@ In this course, you will generally:
 
 ## Generating SVGs with Java (Processing)
 
-[**Processing**](https://processing.org/), with its built-in [**SVG Export Library**](https://processing.org/reference/libraries/svg/index.html), provides several different ways of generating SVG files (with [code samples provided here](https://processing.org/reference/libraries/svg/index.html)), including: 
+[**Processing**](https://processing.org/) is a mature toolkit for creative coding, with an extensive set of 3rd-party libraries. With its built-in [**SVG Export Library**](https://processing.org/reference/libraries/svg/index.html), Processing provides several different ways of using Java to generate SVG files (with [code samples provided here](https://processing.org/reference/libraries/svg/index.html)), including: 
 
 * SVG Export (No Screen Display)
 * SVG Export (With Screen Display)
 * Single Frame from an Interaction/Animation (With Screen Display)
 * SVG Files from 3D Geometry (With Screen Display)
 
-The following example sketches should help you get started. These work with both Processing 4.x and Processing 3.5.4:
+The Processing toolkit is documented [here](https://processing.org/reference) and [here](https://processing.org/environment). The following example sketches should help you get started. These work with both Processing 4.x and Processing 3.5.4:
 
 * [*Test Grid demo*](processing_java/svg_testgrid/svg_testgrid.pde)
 * [*Lissajous demo*](processing_java/svg_lissajous/svg_lissajous.pde)
@@ -72,14 +72,14 @@ The following example sketches should help you get started. These work with both
 
 ## Generating SVGs with JavaScript (p5.js)
 
-In JavaScript, I recommend generating SVGs using [**p5.js**](https://p5js.org/) v.1.6.0, with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.5.1. This library creates an alternative (SVG) renderer for p5.js. **Note**: *As of January 2024, the current version of the p5.js-svg renderer (v.1.5.1) is only compatible with p5.js v.1.6.0.*
+[**p5.js**](https://p5js.org/) is Processing's JavaScript sibling. Version 1.6.0 of p5.js, along with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.5.1, can be used to generate SVGs. **Note**: *As of January 2024, the current version of p5.js (v.1.9.0) is not compatible with the p5.js-svg renderer (v.1.5.1). Instead, be sure to use p5.js v.1.6.0, which is set in the index.html file of your sketch.* The documentation for p5.js is [here](https://p5js.org/reference/).
 
 * *Lissajous demo* - [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/JBWOKOQYH) - [on GitHub](p5js/svg_lissajous/sketch.js)
 * *100 Random Lines* - [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/afWmQU4yg) - [on GitHub](p5js/svg_lissajous/sketch.js)
 
 For alternative JavaScript-based toolkits and approaches, consider: 
 
-* [*SVG From Scratch*](https://editor.p5js.org/golan/sketches/cR3C_JI1-) - [on GitHub](p5js/svg_from_scratch/sketch.js), assembling SVG code directly
+* [*SVG From Scratch*](https://editor.p5js.org/golan/sketches/cR3C_JI1-) - [on GitHub](p5js/svg_from_scratch/sketch.js), assembling SVG code directly in p5.js
 * [*svg5.js*](https://www.npmjs.com/package/svg5) by @MAKIO135:  (demo at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
 * [*Rune.js*](http://runemadsen.github.io/rune.js/) by @runemadsen, with [rune.save.js](https://www.npmjs.com/package/rune.save.js) by @alterebro
 * [*canvas-sketch*](https://github.com/mattdesl/canvas-sketch/) by @mattdesl, with [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) from [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md)
@@ -87,17 +87,16 @@ For alternative JavaScript-based toolkits and approaches, consider:
 
 ## Generating SVGs with Python (Processing.py v.3.5.4)
 
-Processing has a "Python Mode" that allows you to use the same [SVG Export Library](https://processing.org/reference/libraries/svg/index.html) as the Java version. There are two small snags: 
+Processing has a "Python Mode" that allows you to use the same [SVG Export Library](https://processing.org/reference/libraries/svg/index.html) as the Java version. It is documented [here](https://py.processing.org/tutorials/gettingstarted/). There are two small snags: 
 
-* In Python Mode, the SVG Export Library is **only compatible with Processing v.3.5.4**, from 2020, [which you can download here](https://processing.org/releases). As of spring 2024, the SVG Export Library is not working in Processing 4.x. 
-* Processing's Python Mode is not compatible with other Python libraries, such as NumPy or SciPy.
+* In Python Mode, the SVG Export Library is **only compatible with Processing v.3.5.4**, from 2020, [which you can download here](https://processing.org/releases). As of January 2024, the SVG Export Library is not working in the Python Mode of Processing 4.x. 
+* Processing's Python Mode is not compatible with other Python libraries, such as NumPy or SciPy. 
 
 Assuming you're working in Processing 3.5.4, you can install the Python Mode using the instructions [here](https://py.processing.org/tutorials/gettingstarted/). Here are example projects:
 
 * [*Test Grid demo*](processing_py_3.5.4/svg_testgrid/svg_testgrid.pyde)
 * [*Lissajous demo*](processing_py_3.5.4/svg_lissajous/svg_lissajous.pyde)
 * [*100 Random Lines*](processing_py_3.5.4/svg_random_lines/svg_random_lines.pyde)
-
 
 
 ## Generating SVGs with Python (*vsketch*)
