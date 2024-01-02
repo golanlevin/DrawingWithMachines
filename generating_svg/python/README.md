@@ -1,4 +1,4 @@
-# SVG Generation in Python
+# Generating SVGs in Python with *vsketch*
 
 ---
 

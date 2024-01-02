@@ -12,7 +12,7 @@ void setup() {
 //-----------------------
 void draw() {
   background(255); 
-  beginRecord(SVG, "testgrid_11x8.5.svg");
+  beginRecord(SVG, "testgrid_from_processing.svg");
  
   float dpi = 96; 
   float margin = dpi * 0.5;

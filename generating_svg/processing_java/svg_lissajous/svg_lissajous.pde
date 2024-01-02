@@ -11,10 +11,10 @@ void setup() {
 
 void draw() {
   background(255); 
-  beginRecord(SVG, "lissajous-from-processing-java.svg");
+  beginRecord(SVG, "lissajous_from_processing_java.svg");
   
   stroke(0); 
-  noFill(); // Don't create duplicate shapes!
+  noFill(); // Turn off fill() so you don't create duplicate shapes!
 
   int nPoints = 100;
   float cx = width/2; 

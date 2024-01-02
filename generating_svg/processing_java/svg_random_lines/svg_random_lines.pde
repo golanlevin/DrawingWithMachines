@@ -7,7 +7,7 @@ void setup() {
 
 void draw() {
   background(255);
-  beginRecord(SVG, "random.svg");
+  beginRecord(SVG, "random_lines_from_processing.svg");
 
   stroke(0, 0, 0); // black line
   strokeWeight(1.0); // one pixel thick

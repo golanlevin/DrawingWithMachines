@@ -1,6 +1,19 @@
-# Generating SVG Files
+# Generating SVG Files for Plotters (2024)
 
-## Introduction
+**Contents:** 
+
+* Introduction: What are SVG Files?
+* Recommended Toolchains
+	* Finalizing Your SVGs with *vpype*
+	* Generating SVGs with Java (Processing)
+	* Generating SVGs with JavaScript (p5.js)
+	* Generating SVGs with Python (Processing.py v.3.5.4)
+	* Generating SVGs with Python (*vsketch*)
+	* Other SVG Tools and Generators
+
+---
+
+# Introduction: What are SVG Files?
 
 SVG ("Scalable Vector Graphic") files are text files that contain descriptions of geometry. Paths in SVG files are defined as sequences of points (though elliptical arcs and Bezier curves are also possible), which makes them very suitable for controlling pen plotters. Here is an SVG file, and its code: 
 
@@ -12,9 +25,7 @@ SVG ("Scalable Vector Graphic") files are text files that contain descriptions o
 	xmlns="http://www.w3.org/2000/svg">
 
 	<rect width="100%" height="100%" fill="lightgray" />
-
 	<circle cx="100" cy="100" r="80" fill="white" />
-
 	<path fill="none" stroke="black" stroke-width="1.0px" d="
 		M100 100 
 		L300 100 
@@ -23,56 +34,82 @@ SVG ("Scalable Vector Graphic") files are text files that contain descriptions o
 </svg>
 ```
 
+In this course, you will generally: 
 
-## Toolchains
+1. Generate SVG files using Processing, Python, or p5.js.
+2. Use *vpype* to prepare and optimize your SVG files for plotting. 
 
-You could write code to directly generate SVG text files, but if you wish to preview your work, you would likely use a creative-coding toolkit. Here are some links and example projects for various toolkits for computationally generating SVG files. 
+---
 
-### Prepping SVGs for Plotting with *vpype*
+# Recommended Toolchains
 
-After using one of the toolkits below to generate an SVG, [**follow these instructions**](vpype_svg_prep/README.md) to use *vpype* to optimize your SVG file for plotting. 
+**Note**: *After generating an SVG with one of the toolkits below, use vpype to prepare your SVG for plotting.* 
+
+## Finalizing Your SVGs with *vpype*
+
+**Heads up!** No matter which programming toolkit you use to create your SVG files, you will need to prepare and optimize them for plotting using [*vpype*](https://github.com/abey79/vpype), a powerful command-line tool. Doing so will help avoid damage to our machines, and will make your plots execute much faster, too. 
+
+1. [*Follow these instructions*](vpype_svg_prep/README.md) for installing *vpype*.
+2. *vpype* allows commands to be "stacked" into a filtering pipeline. The following *vpype* command loads your inputfile.svg; ensures that any line segments with coincident endpoints are merged into polylines; optimally sorts the results; and crops the image for an 11x8.5 page with a half-inch margin: `vpype read inputfile.svg linemerge --tolerance 0.1mm linesort crop 0.5in 0.5in 10.0in 7.5in write outputfile.svg`
+3. Some other common ready-to-use formulas for *vpype* can be found [here](https://github.com/abey79/vpype?tab=readme-ov-file#examples). The main *vpype* documentation is [here](https://vpype.readthedocs.io/en/latest/index.html). 
+
+## Generating SVGs with Java (Processing)
+
+[**Processing**](https://processing.org/), with its built-in [**SVG Export Library**](https://processing.org/reference/libraries/svg/index.html), provides several different ways of generating SVG files (with [code samples provided here](https://processing.org/reference/libraries/svg/index.html)), including: 
+
+* SVG Export (No Screen Display)
+* SVG Export (With Screen Display)
+* Single Frame from an Interaction/Animation (With Screen Display)
+* SVG Files from 3D Geometry (With Screen Display)
+
+The following example sketches should help you get started. These work with both Processing 4.x and Processing 3.5.4:
+
+* [*Test Grid demo*](processing_java/svg_testgrid/svg_testgrid.pde)
+* [*Lissajous demo*](processing_java/svg_lissajous/svg_lissajous.pde)
+* [*Simple Flow Field*](processing_java/svg_simpleFlowField/svg_simpleFlowField.pde)
+* [*100 Random Lines*](processing_java/svg_random_lines/svg_random_lines.pde)
 
 
-### Java
+## Generating SVGs with JavaScript (p5.js)
 
-* [**Processing**](https://processing.org/) v3.5.4 and v.4.0, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html): 
-  * [*Test Grid demo*](processing_java/svg_lissajous/svg_testgrid.pde)
-  * [*Lissajous demo*](processing_java/svg_lissajous/svg_lissajous.pde)
-  * [*Simple Flow Field*](processing_java/svg_simpleFlowField/svg_simpleFlowField.pde)
-  * [*100 Random Lines*](processing_java/svg_random_lines/svg_random_lines.pde)
+In JavaScript, I recommend generating SVGs using [**p5.js**](https://p5js.org/) v.1.6.0, with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.5.1. This library creates an alternative (SVG) renderer for p5.js. **Note**: *As of January 2024, the current version of the p5.js-svg renderer (v.1.5.1) is only compatible with p5.js v.1.6.0.*
+
+* *Lissajous demo* - [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/JBWOKOQYH) - [on GitHub](p5js/svg_lissajous/sketch.js)
+* *100 Random Lines* - [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/afWmQU4yg) - [on GitHub](p5js/svg_lissajous/sketch.js)
+
+For alternative JavaScript-based toolkits and approaches, consider: 
+
+* [*SVG From Scratch*](https://editor.p5js.org/golan/sketches/cR3C_JI1-) - [on GitHub](p5js/svg_from_scratch/sketch.js), assembling SVG code directly
+* [*svg5.js*](https://www.npmjs.com/package/svg5) by @MAKIO135:  (demo at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
+* [*Rune.js*](http://runemadsen.github.io/rune.js/) by @runemadsen, with [rune.save.js](https://www.npmjs.com/package/rune.save.js) by @alterebro
+* [*canvas-sketch*](https://github.com/mattdesl/canvas-sketch/) by @mattdesl, with [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) from [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md)
+* [*Paper.js*](http://paperjs.org/) by @lehni, using [```exportSVG()```](http://paperjs.org/reference/project/#exportsvg) as shown [here](http://paperjs.org/features/#svg-import-and-export) 
+
+## Generating SVGs with Python (Processing.py v.3.5.4)
+
+Processing has a "Python Mode" that allows you to use the same [SVG Export Library](https://processing.org/reference/libraries/svg/index.html) as the Java version. There are two small snags: 
+
+* In Python Mode, the SVG Export Library is **only compatible with Processing v.3.5.4**, from 2020, [which you can download here](https://processing.org/releases). As of spring 2024, the SVG Export Library is not working in Processing 4.x. 
+* Processing's Python Mode is not compatible with other Python libraries, such as NumPy or SciPy.
+
+Assuming you're working in Processing 3.5.4, you can install the Python Mode using the instructions [here](https://py.processing.org/tutorials/gettingstarted/). Here are example projects:
+
+* [*Test Grid demo*](processing_py_3.5.4/svg_testgrid/svg_testgrid.pyde)
+* [*Lissajous demo*](processing_py_3.5.4/svg_lissajous/svg_lissajous.pyde)
+* [*100 Random Lines*](processing_py_3.5.4/svg_random_lines/svg_random_lines.pyde)
 
 
-### JavaScript
 
-* [**p5.js**](https://p5js.org/) v.1.4.1, with [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.3.1 by @zenozeng: 
-  * [*Lissajous demo*](p5js/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/Eu6b4gm_i))
-* [**svg5.js**](https://www.npmjs.com/package/svg5) v.0.1.4 by @MAKIO135: 
-  * [*Lissajous demo*](svg5/svg_lissajous/sketch.js) (and at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
-* [**Rune.js**](http://runemadsen.github.io/rune.js/) v.1.1.8 by @runemadsen, with [rune.save.js](https://www.npmjs.com/package/rune.save.js) v.0.4.1 by @alterebro:
-  * [*Lissajous demo*](runejs/svg_lissajous/sketch.js)
-* [**canvas-sketch**](https://github.com/mattdesl/canvas-sketch/) v.0.7.4 by @mattdesl, with [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) in the [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md) v.1.10.0 utilities.
-  * [*Lissajous demo*](canvas-sketch-js/svg_lissajous.js)
-* [**Paper.js**](http://paperjs.org/) by @lehni & @puckey, using its [```exportSVG()```](http://paperjs.org/reference/project/#exportsvg) function as demonstrated [here](http://paperjs.org/features/#svg-import-and-export) 
-* [**two.js**](https://github.com/jonobr1/two.js) by @jonobr1, as described [here](https://github.com/jonobr1/two.js/issues/80)
-
-
-### Python
+## Generating SVGs with Python (*vsketch*)
 
 * [**Here's a Python v.3 workflow**](python/README.md) for generating SVG files. The recommended toolchain includes [**vsketch**](https://github.com/abey79/vsketch) (a Processing-like Python toolkit for generating SVGs), and [**vpype**](https://vpype.readthedocs.io/en/latest/index.html) (a Python framework for generating SVGs, as well as prepping them for plotting), which interoperates with vsketch.
   * [*Lissajous demo*](python/svg_lissajous/sketch_svg_lissajous.py)
-* [**Processing.py**](https://py.processing.org/) for Processing v.3.5.4, with its [SVG Library](https://processing.org/reference/libraries/svg/index.html). (*Note, this does not currently work with Processing v4.*): 
-  * [*Lissajous demo*](processing_py/svg_lissajous/svg_lissajous.pyde)
-* [**Drawbot**](https://www.drawbot.com/) by Just van Rossum, "a powerful, free application for macOS that invites you to write Python scripts to generate two-dimensional graphics". 
 * [**vsketch**](https://github.com/abey79/vsketch) by @abey79, with e.g. [Shapely](https://shapely.readthedocs.io/en/latest/), which can be used [in Google Colab notebooks](https://vsketch.readthedocs.io/en/latest/install.html#using-notebooks)
-
-### C++
-
-* [**openFrameworks**](https://openframeworks.cc/), with the [ofxSVG addon](https://openframeworks.cc/documentation/ofxSVG/ofxSVG/)
 
 
 ---
 
-### Other SVG Tools
+## Other SVG Tools and Generators
 
 * [**Huge list of SVG tools**](https://drawingbots.net/resources#5) at Drawingbots.net
 * [vpype](https://github.com/abey79/vpype), which can 
@@ -85,32 +122,20 @@ After using one of the toolkits below to generate an SVG, [**follow these instru
 * [Deduplicate](https://github.com/LoicGoulefert/deduplicate), vpype plug-in to remove overlapping lines in SVG files.
 * [Shapely](https://shapely.readthedocs.io/en/latest/project.html), a Python package for manipulation and analysis of planar geometric objects.
 
----
 
-### SVG Readymades
+### "Readymade" SVG Generators
 
-*We will generally not be using others' "readymade" SVG generators, but it's good to be aware of the kinds of free tools that people make.*
+*We will generally not be using other peoples' "readymade" SVG generators, but it's good to be aware of the kinds of free tools that people make.*
 
-* [SVG Crowbar](https://nytimes.github.io/svg-crowbar/), a Chrome-specific bookmarklet that extracts SVG nodes and accompanying styles from an HTML document and downloads them as an SVG file.
+* [rad-lines](https://msurguy.github.io/rad-lines/) by @msurguy, a readymade tool for generating SVGs of rotating patterns
+* [flow-lines](https://msurguy.github.io/flow-lines/) by @msurguy, a readymade tool for generating SVGs of flow fields
 * [Potrace](https://www.npmjs.com/package/potrace), a NodeJS-compatible JavaScript tool for tracing bitmaps.
 * [Flowchart.fun](https://flowchart.fun/), a tool that generates SVGs of flowcharts from structured text
 * [City Map Generator](https://maps.probabletrain.com/#/), a readymade tool by @probabletrain for creating procedural city maps in the browser
-* [flow-lines](https://msurguy.github.io/flow-lines/) by @msurguy, a readymade tool for generating SVGs of flow fields
-* [rad-lines](https://msurguy.github.io/rad-lines/) by @msurguy, a readymade tool for generating SVGs of rotating patterns
 * [Great96](https://isohedral.ca/great-96/), a tool for generating Islamic tiling geometric patterns
 * [AudioPlotter](https://audioplotter.ars.is/), a tool for generating SVGs of audio waveforms from sound files
 * [DrawingBotV3](https://github.com/SonarSonic/DrawingBotV3) a tool to create stylised line drawings from images
 
 ---
 
-### Other Programming Toolkits
-
-*These are mostly obsolete or experimental.*
-
-* [cozyvec](https://brubsby.itch.io/cozyvec) by @brubsby is "a tiny terminal program for creating plotter art" with JavaScript.
-* [D3.js](https://d3js.org/), "A JavaScript library for manipulating documents based on data", widely used in data visualization. Can export SVG as described [here](https://observablehq.com/@mbostock/saving-svg).
-* [three.js](https://threejs.org/) with its [SVGRenderer](https://threejs.org/docs/#examples/en/renderers/SVGRenderer)
-* [SnapSVG](http://snapsvg.io/) by Adobe Systems. "A JavaScript SVG library for the modern web", possibly no longer maintained.
-* [svgwrite](https://pypi.org/project/svgwrite/) by @mozman is "a Python library to create SVG drawings." Currently in maintenance mode.
-* [drawSvg](https://pypi.org/project/drawSvg/), a Python 3 library for programmatically generating SVG images (vector drawings) and rendering them or displaying them in a Jupyter notebook. 
-* [NodeBox](https://www.nodebox.net/code/index.php/Home.html), by Frederik De Bleser, is "an interactive Python environment where you can create two-dimensional graphics", and a fork of Drawbot. Possibly no longer maintained.
+*Note: the [2021 version of this document](2021/README_2021.md) includes additional resources which may or may not be obsolete.*
