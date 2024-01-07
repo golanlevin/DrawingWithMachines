@@ -198,7 +198,7 @@ Here are instructions for executing the plot, by sending the HPGL file over the 
 
 Vpype is an extremely powerful tool for SVG manipulation, but there are several alternative workflows, especially if you need real-time control of the HP74785a or if you prefer to work in Java or C++.
 
-* **Real-time control of the HP7475A in Processing.** [Processing](https://processing.org/) can be used to directly control the HP7475A by sending HPGL commands over the serial port, effectively unifying steps 1,2,3 above. Critically, this also allows for the possibility of interactive (*real-time*) control of the plotter. An [**example of this is here**](processing/realtime_7475a/realtime_7475a.pde), in which the plotter copies the user's mouse drawings. 
+* **Real-time control of the HP7475A in Processing.** [Processing](https://processing.org/) can be used to directly control the HP7475A by sending HPGL commands over the serial port, effectively unifying steps 3-6 above. Critically, this also allows for the possibility of interactive (*real-time*) control of the plotter. An [**example of this is here**](processing/realtime_7475a/realtime_7475a.pde), in which the plotter copies the user's mouse drawings. 
 
 **Less commonly:**
 
