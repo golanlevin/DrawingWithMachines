@@ -15,7 +15,7 @@
 * [Some Alternate Workflows](#some-alternate-workflows)
 * [Miscellaneous](#miscellaneous)
 
-*(TO DO: Workflows for Inkcut, ofxHPGL, and real-time Processing.)*
+*(TODO: Workflows for Inkcut, ofxHPGL.)*
 
 ---
 
@@ -34,7 +34,7 @@
 1. **Plug in** the HP7475A plotter to 120VAC wall power.
 2. **Load** the plotter carousel with 6 pens. You'll need to depress the carousel's spring-loaded black rubber pen-caps in order to insert the pens.
 3. **Load** the plotter with letter (8.5x11) paper. Push the paper load lever up; align the paper against the left edge; and push the paper just past the short white line in the upper left of the paper bed. Lower the lever.
-4. **Execute** the plotter's "Demonstration Plot (Confidence Test)" as described on page 2-31 of the HP7475A [*Operation and Interconnection Manual*](manuals/7475A-OperationAndInterconnectionManual-07475-90002-102pages-Sep90.pdf). This is achieved by holding down the plotter's P1 and P2 buttons while powering it on, and continuing to hold them down "until the tapping noise begins". This should produce a multicolor plot which looks something like the following: 
+4. **Execute** the plotter's "Demonstration Plot (Confidence Test)" as described on page 2-31 of the HP7475A [*Operation and Interconnection Manual*](manuals/7475A-OperationAndInterconnectionManual-07475-90002-102pages-Sep90.pdf). This is achieved by holding down the plotter's **P1** and **P2** buttons while powering it on, and continuing to hold them down "until the tapping noise begins". This should produce a multicolor plot which looks something like the following: 
 
 ![HP7475A demonstration plot](images/7475a_demonstration_plot.png)
 
@@ -45,7 +45,7 @@
 
 ***Summary:*** *In this section we will make sure that we are able to send signals from our computer to the HP7475A plotter.*
 
-***NOTE:*** *These instructions assume you are connecting to an* **RS-232** *version of the plotter, using a DB25 male cable. To connect with an HP-IB version HP7475A plotter, see [this document](manuals/GPIB/README.md) from the current repository.*
+***NOTE:*** *These instructions assume you are connecting to an* **RS-232** *version of the plotter, using a DB25 male cable. To connect with an* **HP-IB** *version of the HP7475A plotter, see* [**this document**](manuals/GPIB/README.md) *from the current repository.*
 
 ![7475a_interfaces.jpg](images/7475a_interfaces.jpg)
 
@@ -171,7 +171,7 @@ IN;DF;PS4;SP1;PU5213,1334;PD5565,1384,5911,1532,6247,1771,6566,2095,6863,2492,71
 
 ## 5. Preview Your HPGL File
 
-If desired, it is possible to test-preview your HPGL file using [ShareCad.org](https://sharecad.org/). Just drag the HPGL file into the ShareCad browser window.
+If desired, it is possible to test-preview your HPGL file using [ShareCad.org](https://sharecad.org/). Just drag the HPGL file into the ShareCad browser window. The purpose of this might be to check that the conversion from SVG to HPGL was successful. 
 
 ![sharecad_hpgl_preview.png](images/sharecad_hpgl_preview.png)
 
@@ -198,10 +198,13 @@ Here are instructions for executing the plot, by sending the HPGL file over the 
 
 Vpype is an extremely powerful tool for SVG manipulation, but there are several alternative workflows, especially if you need real-time control of the HP74785a or if you prefer to work in Java or C++.
 
-* Processing can be used to directly control the HP7475A by sending HPGL commands over the serial port, effectively unifying steps 1,2,3 above. This also allows for the possibility of interactive (real-time) control. An example of this is [here](https://github.com/tobiastoft/SymbolicDisarray/blob/master/SymbolicDisarray.pde) and discussed at length [here (paywalled)](https://medium.com/quarterstudio/an-intro-to-pen-plotters-29b6bd4327ba).
-* Nick Hardeman's [ofxHPGL](https://github.com/NickHardeman/ofxHPGL) is an openFrameworks (C++) addon which can generate and/or load SVGs, and control the HP7475a directly (unifying steps 1,2,3 above). It can even allow for interactive real-time control of the HP7475A plotter. 
+* **Real-time control of the HP7475A in Processing.** [Processing](https://processing.org/) can be used to directly control the HP7475A by sending HPGL commands over the serial port, effectively unifying steps 1,2,3 above. Critically, this also allows for the possibility of interactive (*real-time*) control of the plotter. An [**example of this is here**](processing/realtime_7475a/realtime_7475a.pde), in which the plotter copies the user's mouse drawings. 
+
+**Less commonly:**
+
+* Nick Hardeman's [ofxHPGL](https://github.com/NickHardeman/ofxHPGL) is an openFrameworks (C++) addon which can generate and/or load SVGs, and control the HP7475a directly (unifying steps 1,2,3 above). It can also allow for interactive real-time control of the HP7475A plotter. 
 * [Inkcut](https://www.codelv.com/projects/inkcut/) is a standalone application, also available as an [InkScape extension](https://inkscape.org/~frmdstryr/%E2%98%85inkcut) extension, which can load SVG files and control plotters directly (unifying Steps 2 and 3 above). However, it may be challenging to install.
-* [Chiplotle](https://pypi.org/project/Chiplotle/) is a mostly obsolete Python toolkit for controlling the HP7475A, last developed [around 2012](http://sites.music.columbia.edu/cmc/chiplotle/). A guide to controlling the HP7475A with Chiplotle can be found in this repository, [here](chiplotle/README.md). 
+* [Chiplotle](https://pypi.org/project/Chiplotle/) is a mostly obsolete Python toolkit for controlling the HP7475A, last actively developed [around 2012](http://sites.music.columbia.edu/cmc/chiplotle/). A guide to controlling the HP7475A with Chiplotle can be found in this repository, [here](chiplotle/README.md). 
 
 --- 
 
