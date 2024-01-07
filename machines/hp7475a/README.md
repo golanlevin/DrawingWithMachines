@@ -202,7 +202,7 @@ Vpype is an extremely powerful tool for SVG manipulation, but there are several 
 
 **Less commonly:**
 
-* Nick Hardeman's [ofxHPGL](https://github.com/NickHardeman/ofxHPGL) is an openFrameworks (C++) addon which can generate and/or load SVGs, and control the HP7475a directly (unifying steps 1,2,3 above). It can also allow for interactive real-time control of the HP7475A plotter. 
+* Nick Hardeman's [ofxHPGL](https://github.com/NickHardeman/ofxHPGL) is an openFrameworks (C++) addon which can generate and/or load SVGs, and control the HP7475a directly. It can also allow for interactive real-time control of the HP7475A plotter. 
 * [Inkcut](https://www.codelv.com/projects/inkcut/) is a standalone application, also available as an [InkScape extension](https://inkscape.org/~frmdstryr/%E2%98%85inkcut) extension, which can load SVG files and control plotters directly (unifying Steps 2 and 3 above). However, it may be challenging to install.
 * [Chiplotle](https://pypi.org/project/Chiplotle/) is a mostly obsolete Python toolkit for controlling the HP7475A, last actively developed [around 2012](http://sites.music.columbia.edu/cmc/chiplotle/). A guide to controlling the HP7475A with Chiplotle can be found in this repository, [here](chiplotle/README.md). 
 
