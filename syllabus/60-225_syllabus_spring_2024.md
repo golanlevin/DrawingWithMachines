@@ -20,10 +20,12 @@ Your grade will be based on your professionalism in (**1**) completing work, and
 
 *Full details about these requirements are below.*
 
+---
+
 #### CONTENTS
 
-* [**Overview**]()
-* [**Tools and Materials**]()
+* [**Overview**](#overview)
+* [**Tools and Materials**](#tools-and-materials)
 * [**Attendance**]()
 * [**Grading**]()
 * [**COVID-19 Accommodations**]()
@@ -41,13 +43,13 @@ Your grade will be based on your professionalism in (**1**) completing work, and
 
 This is an intermediate/advanced studio course in experimental drawing, generative art, computational design, and mechatronic mishegoss. Working at the boundaries of creative code, automation, physical materials, and gestural mark-making, we will explore personal and peculiar new approaches to digital imaging; the development of ultra-niche workflows as a mode of creative practice; and the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, and paper. Drawings will be created using AxiDraw plotters and a variety of other specialized machinery. Interested students should have JavaScript and/or Python programming experience equivalent to an introductory course such as 15-104, 15-110 or 15-112.
 
-Units in this course include: rule-based art and conditional design; computational and generative form; synthetic automatism, chance and stochastic composition; and real-time interaction and contingency. Through rigorous exercises in freestyle computing, participants will develop skills in the control of machines such as (e.g.) AxiDraw, Line-Us, Scribit, Rotrics, and Universal Robots to govern line, texture, tone, shape and mass in a variety of wet and dry drawing media. Interested students should have a portfolio of creative visual work, and programming experience equivalent to an introductory course such as 15-104, 110 or 112. Enrollment by permission of instructor.
+Units in this course include: rule-based art and conditional design; computational and generative form; synthetic automatism, chance and stochastic composition; and real-time interaction and contingency. Through rigorous exercises in freestyle computing, participants will develop skills in the control of machines such as (e.g.) AxiDraw, Line-Us, Scribit, Rotrics, and Universal Robots to govern line, texture, tone, shape and mass in a variety of wet and dry drawing media. 
 
 ### Learning Objectives
 At the conclusion of this course, students will be able to:
 
-* Be proficient in creating computer programs to execute drawings with machines, using a variety of different programming toolkits.
-* Gain familiarity with the repertoire of artists, designers, works and activities around algorithmic art with robots and mechatronic plotters.
+* Be proficient in creating computer programs to execute drawings with plotting machines, using a variety of different programming toolkits.
+* Demonstrate familiarity with the repertoire of artists, designers, works and activities around algorithmic art with robots and mechatronic plotters.
 * Understand the role of computation in making drawings that explore concepts of procedurality and generativity.
 * Understand how to document and present creative work online and in person.
 
@@ -58,7 +60,7 @@ At the conclusion of this course, students will be able to:
 3. Exercises with Lines 
 4. Hatching and Fills
 5. Shapes and Clipping
-6. Texture (Flows and Feedback)
+6. Texture Field (Flows and Feedback)
 7. Personal Project (Material Conditions, Animation, Color, Type, Data, Real-Time Control)
 8. Card Exchange
 
@@ -73,7 +75,7 @@ At the conclusion of this course, students will be able to:
 
 ### Extra Time Commitments
 
-* There are no *specific* extra time committments outside of regularly posted meeting times. However, students will need to use plotting equipment outside of class time.
+* There are no *specific* extra time committments outside of regularly posted meeting times. However, students should plan to use specialized plotting equipment outside of class time.
 
 
 ---
@@ -85,20 +87,20 @@ This course uses the following software tools to share information:
 * **A Discord Server**, for posting your work, as well as for course announcements, and informal communication. 
 * **Email**. Important announcements may appear by both Discord and email. Ignore emails at your peril. 
 * **A Google Calendar**, [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar), with key dates.
-* **Zoom**. Although this course is expected to be IPO (In-Person Only), it is possible that some sessions may be conducted remotely, as necessary or appropriate. 
+* **Zoom**. Although this course is expected to be IPO (In-Person Only), it is possible that some sessions may be conducted remotely, if/as necessary or appropriate. 
 
 ### Access to Plotting Equipment
 You will likely execute your assignments using the plotter equipment at in CFA-303. However: 
 
 * If you happen to possess your own plotter equipent, you are welcome/encouraged to use it.
-* If you happen to have access to hardware elsewhere on campus which can be used for mark-making (such as the robot arms in the School of Architecture dFab, or the School of Art CNC router), you are welcome/encouraged to do so, but you're on your own to seek assistance with that equipment if you need it.
+* If you happen to have access to hardware elsewhere on campus which can be used for mark-making (such as the robot arms in the School of Architecture dFab, or the School of Art CNC router), you are welcome/encouraged to do so — but you're on your own to seek assistance with that equipment if you need it.
 * We have several tiny [Line-Us](https://www.line-us.com/) plotters which may be signed out with the professor's permission. If you are traveling or quarantined, you may request to borrow one.
 
 During spring 2024, CFA-303 is available for plotting during the following times: 
 
 * Tuesday/Thursdays, after 5pm (i.e. during class)
 * All day Fridays (the professor and/or TA may be present)
-* All day Saturdays and Sundays (if you have a room key)
+* All day Saturdays and Sundays (assuming you have a room key)
 * Monday/Wednesdays, 11am-7pm 
 * Tuesday/Thursdays, 8am-Noon
 
@@ -106,47 +108,61 @@ The room is busy MW 8-11am; MW 7-10pm; TR 12:30-5.
 
 ### Required Tools
 
-* **Personal Sketchbook**. It is extremely wise to plan your projects on paper before writing any code. In support of this, you are required to maintain a personal sketchbook for this course.
+* **Personal Sketchbook**. It is extremely wise to plan your projects on paper before writing any code. Above all, *this is a drawing course*. In support of this, you are required to maintain a personal sketchbook for this course. The professor may conduct a spot check to ensure that you have your sketchbook. 
 * **Laptop**. Students should have access to a personal laptop. 
 * **Software**. Recent, well-updated installations of Mac OSX, Windows or Linux are all acceptable operating systems. However, although all of the programming toolkits with which we work are free and cross-platform, it is possible that example projects may only be provided for Mac OSX. This is a polyglot course; the programming environments used for example projects and sample code will be a mixture of p5.js (JavaScript), Processing (Java), and Python.
 * **Camera**. Students should have access to some sort of camera to document their work. A smartphone with a camera is acceptable.
 
-### Art Supplies to Purchase
+### Provided Standard Kit and Other Art Supplies
 
-Although some limited supplies exist in our classroom, you will be expected to obtain your own art supplies, such as pens, pencils, markers, and paper, according to your individual interests. The following list of supplies is a *minimum baseline* of a few common supplies you should expect to need. 
+All students will be given a standard kit containing the following materials, *gratis*: 
 
-* Strathmore 300 Series Bristol pad (270 g/m), 9"W x 12"H, smooth surface (*not vellum*), 20 sheets (Product #342-9): [$9.86 at Artist & Craftsman PGH](https://artistcraftsman.com/strathmore-300-series-bristol-pads/); [$8.49 at Amazon](https://www.amazon.com/Strathmore-Bristol-Smooth-Bound-Sheets/dp/B00254AU8Q/); [$8.39 at Dick Blick](https://www.dickblick.com/items/strathmore-300-series-bristol-pad-9-x-12-smooth-20-sheets/)
-* Itoya Original Art Profolio - 9"W x 12"H, Black, Portrait, 24 Pages portfolio book: [$16.74 at Amazon](https://www.amazon.com/Itoya-Profolio-Original-Presentation-Inches/dp/B0000AE68P/?th=1), [$13.89 at Dick Blick](https://www.dickblick.com/items/itoya-original-art-profolio-12-x-9-black-portrait-24-pages/)
-* PILOT G2 Rolling Ball Gel Pens, Fine Point (0.7mm), Black: [$5.77 at Amazon](https://www.amazon.com/Pilot-Retractable-Premium-Roller-31078/dp/B0058NN4C0/), [$6.79 at Target](https://www.target.com/p/pilot-5ct-g2-gel-pens-fine-point-0-7mm-black-ink/-/A-16722573) **OR** PILOT Precise V7 Premium Rolling Ball pens, 0.7mm, Black: [$5.77 at Amazon](https://www.amazon.com/gp/product/B00WMDNI02/)
-* A pencil-case.
+* **PROVIDED**: One [Strathmore 300 Series Bristol pad (270 g/m), 9"W x 12"H, smooth surface (*not vellum*), 20 sheets (Product #342-9)](https://www.amazon.com/Strathmore-Bristol-Smooth-Bound-Sheets/dp/B00254AU8Q/)
+* **PROVIDED**: One [Itoya Original Art Profolio - 9"W x 12"H, Black, Portrait, 24 Pages portfolio book](https://www.amazon.com/Itoya-Profolio-Original-Presentation-Inches/dp/B0000AE68P/?th=1)
+* **PROVIDED**: One [PILOT G-2 Rolling Ball Gel Pen, Fine Point (0.7mm), Black](https://www.amazon.com/Pilot-Retractable-Premium-Roller-31078/dp/B0058NN4C0/)
+* **PROVIDED**: One [Sharpie Permanent Marker, Ultra Fine Tip, Black Ink](https://www.amazon.com/gp/product/B083H35VBT/)
+* **PROVIDED**: One [Gelly Roll White Pen (1.0mm)](https://www.amazon.com/gp/product/B07BXTNNPR/), or [Uni-Ball Signo Gel Impact White Pen (1.0)](https://www.amazon.com/gp/product/B00U6UU8YW/)
+* **PROVIDED**: One [Mesh Bag by Artist's Loft pencil case](https://www.michaels.com/product/mesh-bag-by-artists-loft-10537770)
+* **PROVIDED**: One room key for CFA-303. You will need this if you plan to use the plotters on a weekend. You are expected to return this to the School of Art "Key Return Box" (near the South elevator) at the end of the semester. *There is a fee if you lose this key.* 
 
-The total cost of these supplies is around $30-40, but you will likely want to experiment with other media. If you are looking for other recommended supplies for pen-plotting, please see [the list at Drawingbots.net](https://drawingbots.net/knowledge/supplies). Please be sure to put your name on your belongings. 
+**Please be sure to put your name on your belongings.** The above kit is an absolute *minimum baseline* of a few common supplies you will need. Apart from these, although some limited supplies exist in our classroom, you will be expected to obtain your own art supplies, such as pens, pencils, markers, and paper, according to your individual interests.
 
-Obtaining art supplies that are required for a course should not present a financial hardship. Last year, the CMU Student Senate, led by undergraduates from the School of Art, made it possible for 
+You will likely want to experiment with other media. If you are looking for other recommended supplies for pen-plotting, please see [the excellent list at Drawingbots.net](https://drawingbots.net/knowledge/supplies). Obtaining art supplies should not present a financial hardship. Last year, the CMU Student Senate, led by undergraduates from the School of Art, made it possible for 
 students to get funds for art supplies using the [*Special Circumstance Request Form*](https://www.cmu.edu/sfs/financial-aid/special-circumstance-request/index.html).
 
 
-### Our Studio Space 
+### Our Studio Space, CFA-303
 
 * Please clean up after yourself. 
 * If you don't feel well, please stay home.
-* **No food or drink**. This is both a drawing course and a creative coding course. Greasy food and spilled liquids are incompatible with fancy paper and laptops. 
+* We have valuable equipment in CFA-303. If you are the only person in the room and you need to step out, don't leave the door unlocked. 
+* **No food or drink**. This is both a drawing course and a creative coding course. Greasy food and spilled liquids are incompatible with both fancy paper and laptop computers. 
 
 
 ---
 # ATTENDANCE
 
+### My Class, My Policy
+
+Please note the following. According to [official CMU policy](https://www.cmu.edu/disability-resources/assets/attendance-flexibility-11-6-2019.pdf): 
+
+* "Faculty have the right to establish attendance policies."
+* "Faculty are not obligated to re-teach material due to a student missing class."
+
 ### Excused Absences
 
 Your presence, collegial conduct, and civic participation are of paramount importance. That said, I also recognize that students may occasionally need to miss class for a variety of reasons (e.g. illness, religious observance, job interview, family emergency, etc.). The attendance policy for this course is simple: 
 
-<span style="color:red">**If you are unable to attend a class session, send a message prior to Roll Call.**</span> You may message me by email, Discord, Twitter, or text message. Informing me of your absence can help me help you; for example, I may be able to record my presentation, or share it over Zoom.
+<span style="color:red">**If you are unable to attend a class session, send a message to me prior to Roll Call.**</span> You may message me by email, Discord, Twitter, or text message. Generally Roll Call is 5-10 minutes into class. 
 
-I can be extremely understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. Such absences will have no impact on your final grade. If you must miss a significant number of sessions, please come and discuss the issue with me; I would like to find a way to support you.
+I can be extremely understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. Such absences will have no impact on your final grade. 
 
-When you send me a message informing me of an upcoming absence, I don't need to know the detailed reason. It is courteous and sufficient to offer a general explanation, such as "I'm not feeling well". However, I recommend that you not tell me "I need to do homework for another course". Clarifying your priorities in this way will not affect your grade, but it may earn my contempt.
+When you send me a message informing me of an upcoming absence, I don't need to know the detailed reason. It is courteous and sufficient to offer a general explanation, such as "I'm not feeling well". However, I recommend that you *do not* tell me "...because I need to do homework for another course". Making your priorities plain in this way will not affect your grade, but it may earn my contempt.
 
-You are responsible for what happens in class whether you’re here or not. Organize with me and/or your classmates to get class information and material that you have missed.
+If you must miss a significant number of sessions, please come and discuss the issue with me; I would like to try to find a way to support you. There is no specific limit on the number of allowable excused absences, but if you miss too many sessions, your ability to satisfactorily complete required classwork (and thus, your grade) will suffer. 
+
+You are responsible for what happens in class whether you’re here or not. Organize with the me and/or your classmates to get class information and material that you have missed. If I am informed of your absence with more than one hour's notice, I *may* be able to help you by recording/streaming my presentation; however, please note that I offer no guarantees about this.
+
 
 ### *No-Call, No-Show* Absences
 
@@ -167,10 +183,10 @@ There are very few situations in which you would be *literally unable* to send a
 Students are responsible for notifying the professor as soon as possible, even in a justified *No-Call, No-Show* situation — i.e. a delayed notice of absence. Depending on the severity of the situation, the notice period should not exceed three days from the day of absence.
 
 ### A Word About Absences On Critique Days
-Sometimes, students who haven’t completed their projects skip class during critiques, because they are too embarrassed to come to class empty-handed. This type of absence is stupendously self-destructive. Please have courage. Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. If you are empty-handed, just say so; it happens. Even if you are without a project, you are still expected to contribute productively to the class discussion. 
+Sometimes, students who haven’t completed their projects choose to skip class during critiques, because they are too embarrassed to come to class empty-handed. This type of absence is stupendously self-destructive. Please have courage. Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. If you are empty-handed, just say so; it happens. Even if you are without a project, you are still expected to contribute productively to the class discussion. 
 
 ### Keeping Mental Presence 
-Focus is precious—both yours and others'. Physical presence means nothing if you’re “checked out”; your *mental* presence is extremely important. During the professor’s lectures or guest presentations, distracted participation is prohibited. You are expected to be able to function for a few hours without texting, emailing, chatting, or doing work for other courses. Additionally, your own distraction is demoralizing to those around you. If I observe you doing these things, depending on the circumstance, I may have no choice to correct you publicly. 
+Focus is precious—both yours and others'. Physical presence means nothing if you’re “checked out”; your *mental* presence is extremely important. During the professor’s lectures or guest presentations, distracted participation is prohibited. You are expected to be able to function for a few hours without texting, emailing, chatting, or doing work for other courses. Additionally, your own distraction is demoralizing to those around you. If I observe you doing these things, or distracting others, depending on the circumstance, I may have no choice to correct you publicly. 
 
 
 ---
