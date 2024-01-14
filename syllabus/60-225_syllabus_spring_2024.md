@@ -15,8 +15,8 @@ Your grade will be based on your professionalism in (**1**) completing work, and
 
 1. **Do The Assignment Checklists.** There is zero mystery about how your work will be graded in this course. Every assignment has a clearly defined list of very simple tasks. Tasks are either done, or they are not. Do all the tasks and you will receive full credit on the assignment. Your semester grade will be determined by counting how many assignments earned full (or near-full) credit, according to a [Labor-Based Grading Contract](https://en.wikipedia.org/wiki/Contract_grading).
 2. **No Ghosting.** If you need to miss class, inform the professor at the earliest possible opportunity. You are welcome to communicate with me by email, Discord, Twitter, or text message. Absences, while regrettable, are permissible; "[**no call, no-show**](https://en.wikipedia.org/wiki/No_call,_no_show)" events, however, are not: 
-	* <span style="color:red">Your first "no call, no-show" event will reduce your semester grade by one letter (A→B).</span>
-	* <span style="color:red">**Your second "no-call, no-show" event will cause you to fail the class.**</span>
+	* **Your first "no call, no-show" event will reduce your semester grade by one letter (A→B).**
+	* **Your second "no-call, no-show" event will cause you to fail the class.**
 
 *Full details about these requirements are below.*
 
@@ -26,14 +26,14 @@ Your grade will be based on your professionalism in (**1**) completing work, and
 
 * [**Overview**](#overview)
 * [**Tools and Materials**](#tools-and-materials)
-* [**Attendance**]()
-* [**Grading**]()
-* [**COVID-19 Accommodations**]()
-* [**Academic Integrity**]()
-* [**Code of Conduct**]()
-* [**Freedom of Speech Commitment**]()
-* [**Dealing with Stress**]()
-* [**Land Notice**]()
+* [**Attendance**](#attendance)
+* [**Grading**](#grading)
+* [**COVID-19 Policies**](#covid-19-policies)
+* [**Academic Integrity**](#academic-integrity)
+* [**Code of Conduct**](#code-of-conduct)
+* [**Freedom of Speech**](#freedom-of-speech)
+* [**Take Care of Yourself**](#take-care-of-yourself)
+* [**Land Notice**](#land-notice)
 
 ---
 
@@ -62,7 +62,7 @@ At the conclusion of this course, students will be able to:
 5. Shapes and Clipping
 6. Texture Field (Flows and Feedback)
 7. Personal Project (Material Conditions, Animation, Color, Type, Data, Real-Time Control)
-8. Card Exchange
+8. Card Exchange (*ungraded*)
 
 ### Prerequisite Knowledge
 *What prior knowledge must students have in order to be successful in this course?*
@@ -75,7 +75,7 @@ At the conclusion of this course, students will be able to:
 
 ### Extra Time Commitments
 
-* There are no *specific* extra time committments outside of regularly posted meeting times. However, students should plan to use specialized plotting equipment outside of class time.
+* There are no *specific* extra time committments outside of regularly posted meeting times. However, students should plan to use specialized plotting equipment outside of class time — most likely, on Fridays, Saturdays, and/or Sundays. Note that, just as with a hand-drawing, some plots can take a very long time (e.g. 10 hours) to execute. 
 
 
 ---
@@ -85,7 +85,7 @@ At the conclusion of this course, students will be able to:
 This course uses the following software tools to share information:
 
 * **A Discord Server**, for posting your work, as well as for course announcements, and informal communication. 
-* **Email**. Important announcements may appear by both Discord and email. Ignore emails at your peril. 
+* **Email**. Important announcements may appear by email; ignore them at your peril. 
 * **A Google Calendar**, [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar), with key dates.
 * **Zoom**. Although this course is expected to be IPO (In-Person Only), it is possible that some sessions may be conducted remotely, if/as necessary or appropriate. 
 
@@ -98,9 +98,9 @@ You will likely execute your assignments using the plotter equipment at in CFA-3
 
 During spring 2024, CFA-303 is available for plotting during the following times: 
 
-* Tuesday/Thursdays, after 5pm (i.e. during class)
+* Tuesday and Thursdays, after 5pm (i.e. during class)
 * All day Fridays (the professor and/or TA may be present)
-* All day Saturdays and Sundays (assuming you have a room key)
+* All day Saturdays and Sundays (you'll need your room key)
 * Monday/Wednesdays, 11am-7pm 
 * Tuesday/Thursdays, 8am-Noon
 
@@ -123,7 +123,7 @@ All students will be given a standard kit containing the following materials, *g
 * **PROVIDED**: One [Sharpie Permanent Marker, Ultra Fine Tip, Black Ink](https://www.amazon.com/gp/product/B083H35VBT/)
 * **PROVIDED**: One [Gelly Roll White Pen (1.0mm)](https://www.amazon.com/gp/product/B07BXTNNPR/), or [Uni-Ball Signo Gel Impact White Pen (1.0)](https://www.amazon.com/gp/product/B00U6UU8YW/)
 * **PROVIDED**: One [Mesh Bag by Artist's Loft pencil case](https://www.michaels.com/product/mesh-bag-by-artists-loft-10537770)
-* **PROVIDED**: One room key for CFA-303. You will need this if you plan to use the plotters on a weekend. You are expected to return this to the School of Art "Key Return Box" (near the South elevator) at the end of the semester. *There is a fee if you lose this key.* 
+* **PROVIDED**: One room key for CFA-303. You will need this if you plan to use the plotters on a weekend. You are expected to return this to the School of Art "Key Return Box" (near the South elevator) at the end of the semester. *There is a hefty fee if you lose this key.* 
 
 **Please be sure to put your name on your belongings.** The above kit is an absolute *minimum baseline* of a few common supplies you will need. Apart from these, although some limited supplies exist in our classroom, you will be expected to obtain your own art supplies, such as pens, pencils, markers, and paper, according to your individual interests.
 
@@ -142,8 +142,6 @@ students to get funds for art supplies using the [*Special Circumstance Request 
 ---
 # ATTENDANCE
 
-### My Class, My Policy
-
 Please note the following. According to [official CMU policy](https://www.cmu.edu/disability-resources/assets/attendance-flexibility-11-6-2019.pdf): 
 
 * "Faculty have the right to establish attendance policies."
@@ -153,7 +151,7 @@ Please note the following. According to [official CMU policy](https://www.cmu.ed
 
 Your presence, collegial conduct, and civic participation are of paramount importance. That said, I also recognize that students may occasionally need to miss class for a variety of reasons (e.g. illness, religious observance, job interview, family emergency, etc.). The attendance policy for this course is simple: 
 
-<span style="color:red">**If you are unable to attend a class session, send a message to me prior to Roll Call.**</span> You may message me by email, Discord, Twitter, or text message. Generally Roll Call is 5-10 minutes into class. 
+**If you are unable to attend a class session, send a message to me prior to Roll Call.** You may message me by email, Discord, Twitter, or text message. Generally Roll Call is 5-10 minutes into class. 
 
 I can be extremely understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. Such absences will have no impact on your final grade. 
 
@@ -168,14 +166,14 @@ You are responsible for what happens in class whether you’re here or not. Orga
 
 If I (the Professor) am unable to come to class, I will send a message so that students can plan accordingly. I expect the exact same courtesy from you. Failing to communicate responsibly about your absences — in other words, *ghosting*, or "[**No-Call, No-Show**](https://myhours.com/articles/no-call-no-show-policy-template-what-is-it-and-how-to-create-one)" events — is not acceptable in this course, and subject to the following policy:
 
-* <span style="color:red">Your first *No-Call, No-Show* event will reduce your semester grade by one letter (A→B).</span>
-* <span style="color:red">**Your second *No-Call, No-Show* event will cause you to fail the class (B→R).**</span>
+* **Your first *No-Call, No-Show* event will reduce your semester grade by one letter (A→B).**
+* **Your second *No-Call, No-Show* event will cause you to fail the class (B→R).**
 
-There are very few situations in which you would be *literally unable* to send a brief text message. That said, the following list of incapacitating emergencies (of you or a loved one) are, of course, acceptable excuses for a *No-Call, No-Show* absence:
+There are very few situations in which you would be *literally unable* to send a brief message. That said, the following list of incapacitating emergencies (of you or a loved one) are—of course—acceptable excuses for a *No-Call, No-Show* absence:
 
-* Death of a family member or loved one
+* Death of a family member, loved one, or friend
 * Serious injuries or accidents that pose a high risk to wellbeing
-* Hospitalization 
+* Hospitalization
 * Physical assault
 * Police arrest
 * Housefire
@@ -185,109 +183,101 @@ Students are responsible for notifying the professor as soon as possible, even i
 ### A Word About Absences On Critique Days
 Sometimes, students who haven’t completed their projects choose to skip class during critiques, because they are too embarrassed to come to class empty-handed. This type of absence is stupendously self-destructive. Please have courage. Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. If you are empty-handed, just say so; it happens. Even if you are without a project, you are still expected to contribute productively to the class discussion. 
 
-### Keeping Mental Presence 
-Focus is precious—both yours and others'. Physical presence means nothing if you’re “checked out”; your *mental* presence is extremely important. During the professor’s lectures or guest presentations, distracted participation is prohibited. You are expected to be able to function for a few hours without texting, emailing, chatting, or doing work for other courses. Additionally, your own distraction is demoralizing to those around you. If I observe you doing these things, or distracting others, depending on the circumstance, I may have no choice to correct you publicly. 
+### Maintaining Mental Presence 
+Focus is precious—both yours and others'. Physical presence means nothing if you’re “checked out”; your *mental* presence is extremely important. During the professor’s lectures or guest presentations, distracted participation is prohibited. You are expected to be able to function for a few hours without texting, emailing, chatting, or doing work for other courses. Additionally, your own distraction is demoralizing to those around you. If I observe you doing these things, or distracting others, depending on the circumstance, I may have no choice but to correct you publicly. 
 
 
 ---
 # GRADING
 
-### General Expectations
-There are a few elementary things you can do to ensure that you receive an excellent grade in this course. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get this right:
+### Grades
+
+Grades
+Grades will be calculated with a [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading), which will be negotiated with students at the beginning of the semester. This contract will be based on objective factors, such as the number of projects you complete, and how thoroughly you complete them. This contract will form an addendum to this Syllabus.
+
+In this course, your grades boil down to *fulfillment*. Projects always have a list of supporting requirements. These are very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Nearly every project assignment will ask you to do some combination of the following:
+
+* **Create** a unique post for your project, in our course Discord.
+* **Upload** a static image of your project, such as a screenshot or photograph.
+* **Upload** a photo of your notebook sketches for the project, if applicable.
+* **Upload** dynamic documentation of your project (such as an animated GIF or video recording), if applicable.
+* **Write** 100-200 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: In what ways did you succeed, and in what ways could it be better?
+
+Related to our course policies on [Academic Integrity](#academic-integrity), you must also:
+
+* **Name any other students** from whom you received advice or help.
+If you had collaborators, explain how the work was distributed among the collaborators.
+* **Cite and link** to the sources for any code, external libraries, or other media (e.g. photographs, soundtracks, source images) which you used in your Project. Citing your sources is super important, folks. Err on the side of generosity.
+
+
+### My Opinion of Your Work is Not Your Grade
+
+I may or may not "like" your work. But I am just one person, and despite my 30 years of experience in this field, my taste is ultimately irrelevant. I have been known to dismiss student projects that later proved to be highly influential and significant. I have sometimes brought in outside critics I deeply admire, who prove to have radically different (but equally valid) opinions about the quality of certain student projects. And I have even been known to change my own mind about projects a day or two after a critique.
+
+That said, there are a few aspects of your work and conduct that I care about very deeply. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get these right:
 
 * **Be good**. Have a positive attitude.
 * **Be present**. Show up to all of the course sessions, on time.
-* **Be responsible**. Communicate with the professor beforehand if you must miss a session.
+* **Be responsible**. Communicate with me if you have a problem.
 * **Be helpful**. Help your classmates when they’re stuck.
 * **Be generous**. Make helpful contributions to discussions.
-
-Following the recommendations below will not affect your grade, but will bring much greater value to you in our class, at school, and in life: 
-
-* **Be diligent**. Submit all of the Deliverables, on time. And document them clearly and thoroughly. Follow the instructions: do all parts of the Deliverables, paying careful attention to seemingly trivial requirements (such as categorizing your blog posts correctly, formatting your code properly, giving your blog post a title in the requested format etc.).
 * **Be fearless**. Work outside your comfort zone. Give yourself permission to weird.
-* **Be conscientious**. Pay attention to details of craft and execution.  Put your heart in the work.
+* **Be conscientious**. Pay attention to details of craft and execution. Put your heart in the work.
 * **Be persevering**. Become resourceful about getting the assistance you need.
+* **Be diligent**. Submit your work punctually, and with clear documentation.
 
-
-### Follow Your Passion
-*This is art school.* With very rare exceptions (I’ll be clear), I will always prefer that you make the assignment interesting to you — if necessary, by creatively bending the rules or re-interpreting the assignment. Our assignments are starting-points, prompts and propositions. Think beyond them.
-
-Notwithstanding the above, you will always be expected to meet basic expectations in regards to deliverables and documentation. Did you include an image of your project? Did you write the requested narrative?
-
-### Policies for Late Work
-Our class is fast-paced. When you submit work late, you lose big-time: not because of some point-deduction scheme, but because you miss the chance to share, show off, discuss and get feedback on your work.
-
-At times this semester, your creative projects may be evaluated by outside experts who review your work in class or online. If your assignment is not visible by the time those persons do their reviews, then your work is officially considered “too late” and may not be able to obtain meaningful feedback.
-
-### Rubrics for Creative Projects 
-The purpose of our open-ended Projects is to provide well-circumscribed opportunities for you to make creative work with code. Generally the Project prompts will invite you to explore a specific conceptual theme or set of programming techniques, but, unless stated otherwise, there is no correct solution, and no specific requirement for how to implement your idea. A Project also asks not just for a creative solution, but also for some creativity in defining and approaching the problem. It is expected that your Projects will be documented and published on our WordPress website.
-
-The open-ended Projects will be considered according to the following criteria:
+I also care deeply about the extent to which you demonstrate the following: 
 
 * **Curiosity**: Are you asking questions as you work?
 * **Tenacity**: Are you forging through difficult problems without giving up?
 * **Execution**: Are you crafting with purpose, precision, and attention?
 * **Inventiveness**: Are you discovering/exploring methods outside the obvious and predictable?
-* **Fulfillment**: Did you meet all of the requested supporting criteria (such as providing scans of sketches, categorizing your blog post correctly, documenting your process, etc.)?
 
-With Projects, it may not matter how much time a student spent making it. You may sometimes observe a very quickly-executed solution which succeeds because of its strong concept. Usually, however, the quality of a project is rewarded by extra attention to its craft.
+Whether or not you adhere to these recommendations will not affect your grade. So, why bother? Well, when students do follow these recommendations, I am more likely to do things like:
 
-Projects always have a list of straightforward *supporting requirements*. If you fail to meet these, you will cause disappointment. Nearly every Project assignment will ask you to:
+* ...admit them into a future course from my waitlist. 
+* ...arrange an Independent Study course with them.
+* ...recommend them to another professor whose waitlist they're on.
+* ...introduce them to outside professionals (e.g. for internships).
+* ...write letters of recommendation for them.
 
-* Create a unique blog post for your project, on our course website.
-* Make sure your blog post is titled and categorized as requested.
-* Embed your interactive project into the post, if this is technologically possible.
-* Include a static documentation image of your project, such as a screenshot or photograph.
-* Include scans or photos of any notebook sketches, if you have them.
-In the case of dynamic work, include dynamic documentation too: embed a YouTube, Vimeo demonstrating your project. Often, an animated GIF will be required.
-* Write 100-200 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: In what ways did you succeed, and in what ways could it be better?
-* Embed or link to your code, if appropriate.
 
-**Related to our course policies on Academic Integrity, you must also:**
+### Policies for Late Work
 
-* *Name any other students* from whom you received advice or help.
-If you had collaborators, explain how the work was distributed among the collaborators.
-* *Cite and link* to the sources for any code, external libraries, or other media (e.g. photographs, soundtracks, source images) which you used in your Project. Citing your sources is super important, folks. Err on the side of generosity.
+Our class is fast-paced. When you submit work late, you miss the chance to share, show off, discuss and get feedback on your work.
 
-In addition to spoken and/or written feedback, the professor may also provide feedback to you on your projects, in the form of letter scores of A,B,C,D, or F, as follows:
+At times this semester, your creative projects may be evaluated by outside experts who review your work in class or online. If your assignment is not visible by the time those persons do their reviews, then your work is officially considered “too late” and may not be able to obtain meaningful feedback.
 
-* **A** (Excellent): You made something notable
-* **B** (Good): You made something that fulfills all requirements
-* **C** (Needs Improvement): You tried to make something
-* **D** (Unacceptable): You didn’t really try
-* **F** (Nothing submitted): You didn’t show up
+**In general, I do not accept late work.** I would much prefer that you move on to the next unit, without being additionally burdened by a distracting backlog of overdue projects. The flexibility built into our labor-based grading contract should allow you to miss a project or two without penalty to your grade. 
 
+That said, my **grading policies for late work can depend on the specific project**. For example: I may accept late work when there's no critique scheduled for that assignment, or if it is very important that you accomplish an assignment to master certain skills. 
 
 
 ---
-# COVID-19, SPRING 2024
+# COVID-19 POLICIES
 
 ### Mask-Wearing Expectations
-COVID-19 is still with us; the new JN.1 variant is estimated to be highly transmissible, and is circulating widely. You are encouraged to wear a mask if possible, especially as we come back from the holiday travel. A large supply of facial coverings as well as sanitizing wipes can be found near our room's entrance. 
+COVID-19 is still with us. As of January 2024, the new JN.1 variant is estimated to be highly transmissible, and is circulating widely. You are encouraged to wear a mask if possible, especially as we come back from holiday travel. A supply of facial coverings as well as sanitizing wipes can be found near our room's entrance. 
 
 ### Health-Related Absences
 Please evaluate your own health status regularly and *refrain from attending class and other on-campus events if you feel unwell*. You are emphatically encouraged to seek appropriate medical attention for treatment of illness. In the event of any contagious illness, please do not come to class or to campus to turn in work. Instead, notify me by email about your absence before class, so that accommodations can be made.
 
 ### Classroom Streams/Recordings
-If you are absent, you are responsible to obtain any information you missed. That said, students who are unable to attend class in person may request that a session be recorded and/or streamed over Zoom. I will make a good-faith effort to accommodate such requests, particularly for *lectures*. However, I can offer no guarantees about the quality of the transmission or recording. For non-lecture events (demonstrations, discussions, critiques, workshops, work days), it may be impossible to document the session satisfactorily.
+If you are absent, you are responsible to obtain any information you missed. That said, students who are unable to attend class in person *may request* that a session be recorded and/or streamed over Zoom. I offer *no guarantees* that I will be able to accommodate such requests, nor any guarantees about the quality of any recordings. For non-lecture events (demonstrations, discussions, critiques, workshops, work days), it may be impossible to document the session satisfactorily.
 
-Recordings of class sessions, if they are made, are covered under the Family Educational Rights and Privacy Act (FERPA) and must not be shared with anyone outside the course. The purpose of these recordings is so students in this course (and only students in this course) can watch or re-watch past class sessions. Feel free to use the recordings if you would like to review something we discussed in class or if you are temporarily unable to attend class.
-
-### Grades in a Time of Stress
-The effects of the ongoing COVID-19 pandemic make life extraordinarily stressful for everyone. I’m utterly uninterested in this class being an additional source of stress. We are gathered to make creative work because doing so is a source of meaning, hope, and self-betterment. Do the projects because your heart is in the work, not because you are concerned about grades.
-
-We will have 10 projects this semester. Whether you do them or not, or whether you do them well or not, has no bearing on your grade.
+Recordings of class sessions, if they are made, are covered under the Family Educational Rights and Privacy Act (FERPA) and must not be shared with anyone outside the course. The purpose of these recordings is so students in this course (and only students in this course) can watch or re-watch past class sessions.
 
 
 ---
-# Academic Integrity
-Your behavior as a responsible member of the new-media arts community is very important — as demonstrated, for example, by properly citing your sources and borrowed code, and crediting those who have helped you. These expectations and obligations are addressed here, in our course Academic Integrity Policy.
+# ACADEMIC INTEGRITY
+
+Your behavior as a responsible member of the new media arts community is very important — as demonstrated, for example, by properly citing your sources and borrowed code, and crediting those who have helped you. These expectations and obligations are addressed here, in our course Academic Integrity Policy.
 
 ### Use of Free and Open-Source Code in Projects
-**Credit is perhaps the most important form of currency** in the economies of commons-based peer production and open-source media arts. You are expected to cite the source of any code you use. Please note the following expectations and guidelines:
+**Credit is the most important form of currency** in the economies of commons-based peer production and open-source arts. You are expected to cite the source of any code you use. Please note the following expectations and guidelines:
 
 * **Use Libraries**. In your Projects, the use of general, reusable libraries is strongly encouraged. The people who developed and contributed these components to the community worked hard, often for no pay; acknowledge them by citing their name and linking to their repository.
-* **Be Careful**. It sometimes happens that an artist places the entire source code for their artwork online. You should probably avoid this code. But at the very least, you should be very, very careful about approaching such code for possible re-use. If it is necessary to do so, it is best to extract components that solve a specific technical problem, rather than those parts which operate to create a unique experience. Your challenge, if and/or when you work with others’ code, is to *make it your own*. Doing so without proper citation would be actionable plagiarism.
+* **Be Careful**. It sometimes happens that an artist places the entire source code for their artwork online. *You should probably avoid this code*. But at the very least, you should be very, very careful about approaching such code for possible re-use. If it is necessary to do so, it is best to extract components that solve a specific technical problem, rather than those parts which operate to create a unique experience. Your challenge, if and/or when you work with others’ code, is to *make it your own*. Doing so without proper citation would be actionable plagiarism.
 
 ### Policies Regarding Informal Collaboration
 Our course places a very high value on civic responsibility that includes, but is not limited to, helping others learn. In this course, I strongly encourage you to give help (or ask others for help) in using various toolkits, algorithms, libraries, or other facilities. Please note the following expectations:
@@ -306,7 +296,7 @@ The assignments in this course are primarily intended to be executed by individu
 
 
 ---
-# Code of Conduct
+# CODE OF CONDUCT
 
 ### Code of Conduct
 I am committed to providing an educational experience that is free of harassment and intimidation for everyone in this course—regardless of aspects like gender identity and expression, age, sexual orientation, handicap or disability, physical appearance, body size, race, color, ethnicity, nationality, ancestry, religion, creed, or technology choices. I will not tolerate any form of harassment and/or discriminatory, oppressive, suppressive, or violent behavior. I expect all of the participants in our course community to adhere to this code of conduct—including me, the Professor.
@@ -319,16 +309,16 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 I commit to make individual arrangements to address disabilities or religious needs (e.g. religious events in conflict with class meetings). Please advise me of these requirements early in the semester so that I may make appropriate accommodations.
 
 ---
-# Freedom of Speech Commitment
+# FREEDOM OF SPEECH
 
-This course may present content that includes nudity and imagery, language, or dialogue that may offend some students. In viewing and discussing works of art, we encourage the broadest possible tolerance consistent with United States law.
+It's possible that this course may present content that includes nudity and imagery, language, or dialogue that may offend some students. In viewing and discussing works of art, we encourage the broadest possible tolerance consistent with United States law.
 
 Being in an art school, you should expect to be exposed to content that challenges your moral, ethical, and aesthetic values. In the unlikely case of extremely graphic content, I will warn the class in advance, but please let me know privately if there are types of content that you find upsetting.
 
 ---
-# Taking Care of Yourself
+# TAKE CARE OF YOURSELF
 
-**Take care of yourself**. Your well-being is more important than your performance in this course. Please do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.
+Your well-being is more important than your performance in this course. Please do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.
 
 An important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful. If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. The following resources are available:
 
@@ -337,6 +327,7 @@ An important part of the college experience is learning how to ask for help. Ask
 * **[On campus CMU Police](https://www.cmu.edu/police/): +1-412-268-2323**
 
 ---
-# Land Notice
+# LAND NOTICE
+
 Carnegie Mellon University is situated on land that has been continuously inhabited for over 16,000 years, serving as a home to members of the Adena, Hopewell, Monongahela, Lenape, Shawnee, Wyandot, Tisagechroami, Delaware, and Mohican communities before becoming a territory of the Iroquois Confederacy. The Iroquois Confederacy included the Mohawk, Onondaga, Oneida, Cayuga, Seneca, and Tuscarora people, whose relationships with the land continue to this day. The Seneca name for Pittsburgh is [Dionde:gâ](https://en.wikipedia.org/wiki/History_of_Pittsburgh).
 
