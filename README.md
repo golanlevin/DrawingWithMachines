@@ -1,49 +1,28 @@
-# DrawingWithMachines
-Resources for Golan Levin's *Drawing with Machines* Course
+# Drawing with Machines
+
+**Resources for Golan Levin's *Drawing with Machines* Course**
 
 ---
 
 ### Admin
 
-* [Syllabus](syllabus/60-468_syllabus_fall_2021.md)
-* [Course Website](https://courses.ideate.cmu.edu/60-428/f2021/) (*under construction*)
+* [Syllabus](60-225_syllabus_spring_2024.md) (Spring 2024)
 * [Course Calendar](http://bit.ly/golancoursecalendar)
 
 ---
 
-### Software
+### Main
 
-* [Generating SVG Files](generating_svg/README.md)
+* [Lectures](lectures/README.md)
+* [Assignments](assignments/README.md)
+* [Readings](readings/README.md)
+* [Machinery Instructions](machines/README.md)
+* Software Instructions
+  * [Generating SVG Files](generating_svg/README.md)
+
 
 ---
 
-### Machines
+### Additional Resources
 
-#### Plotters
-
-* AxiDraw
-* [Hewlett-Packard 7475A](machines/hp7475a/README.md)
-* [Line-Us](machines/line-us/README.md)
-* US Cutter MH871-MK2
-* Scribit
-
-#### AxiDraw Management
-
-* [AxiDraw CLI](https://axidraw.com/doc/cli_api/#introduction)
-* AxiDraw Inkscape extension
-* [RPi plotter station configs](rpi/README.md)
-
-#### Robot Arms
-
-* Universal Robots UR5
-* Rotrics DexArm & Rail
-
-#### Other 
-
-* RGB Laser & EtherDream controller
-* Viking Jade 35A CNC embroidery machine
-* Sphero RVR
-* Doodlebot
-
-
-
+* Old (2021) [Course Website](https://courses.ideate.cmu.edu/60-428/f2021/)

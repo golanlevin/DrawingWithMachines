@@ -1,4 +1,4 @@
-# Axidraw Standalone Kiosk
+# AxiDraw Standalone RPi Kiosk Instructions
 
 ===
 

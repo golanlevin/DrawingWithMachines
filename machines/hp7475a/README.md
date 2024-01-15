@@ -15,7 +15,7 @@
 * [Some Alternate Workflows](#some-alternate-workflows)
 * [Miscellaneous](#miscellaneous)
 
-*(TODO: Workflows for Inkcut, ofxHPGL.)*
+*(TODO: Workflow for ofxHPGL.)*
 
 ---
 

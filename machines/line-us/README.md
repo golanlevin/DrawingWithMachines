@@ -1,4 +1,4 @@
-# Plotting with Line-Us
+# Instructions for Plotting with Line-Us
 
 "[Line-us](https://www.line-us.com) is an internet connected robot drawing arm. It's small, portable and draws with a nice wobbly line using a real pen on paper."
 
