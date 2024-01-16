@@ -6,7 +6,7 @@
 
 * [Syllabus Review](../../syllabus/60-225_syllabus_spring_2024.md)
 * Introductions and Roll Call
-* Digital work: Signing contracts
+* Admin work: signing the [Course Agreements Form](https://forms.gle/aJ3QvYeEK2PkCnYU6); getting into Discord
 * Distribution of kits and keys
 * *Break*
 * Presentation: *Loosening Up with DIY Drawing Machines*
@@ -30,6 +30,8 @@ What is a *machine*? List your assumptions.
 
 * A machine is electric.
 * A machine is not a living thing...
+
+**Show**: Ruler, stencil, spirograph, pantograph, doodletop...
 
 ---
 
