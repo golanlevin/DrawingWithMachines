@@ -218,9 +218,9 @@ If you had collaborators, explain how the work was distributed among the collabo
 There are **10 graded assignments** this semester, listed above ("Unit Topics and Assignments"). This includes the seven weekly assignments (1-7), followed by the three components of the **Personal Project** (proposal, prototype, final). Each of these ten Assignments contributes 100 points each, determined by whether its sub-tasks are complete or not. **Your final grade will be calculated as follows:** 
 
 * A: 750-1000 Points
-* B: 650-750 Points
-* C: 550-650 Points
-* D: 400-550 Points
+* B: 600-750 Points
+* C: 500-600 Points
+* D: 400-500 Points
 * R: <400 Points
 
 **As you can see, it is possible to miss 2 entire projects, and still earn an A in this course.**
