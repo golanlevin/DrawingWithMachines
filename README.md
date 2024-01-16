@@ -6,7 +6,7 @@
 
 ### Admin
 
-* [Syllabus](60-225_syllabus_spring_2024.md) (Spring 2024)
+* [Syllabus](syllabus/60-225_syllabus_spring_2024.md) (Spring 2024)
 * [Course Calendar](http://bit.ly/golancoursecalendar)
 
 ---
