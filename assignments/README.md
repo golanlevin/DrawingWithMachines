@@ -10,7 +10,7 @@
 6. **Shape** (Due Tuesday **2/20**)
 7. **Field** (Due Thursday **2/29**)
 8. **Personal Project**
-  * **Proposal** (Due Tuesday **3/19**)
+  * **Proposal** (Due Thursday **3/21**)
   * **Prototype** (Due Tuesday **4/9**)
-  * **Final Project** (Due **4/23-4/25**)
+  * **Final Project** (Due Thursday **4/25**)
 9. **Card Exchange** (Due **4/30** at Noon; *ungraded*)
