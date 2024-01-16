@@ -6,6 +6,7 @@
 * Location: CMU College of Fine Arts, Room CFA-303
 * Carnegie Mellon University School of Art & IDeATe Program
 * Professor Golan Levin, golan@andrew
+* Github Repository: [https://github.com/golanlevin/DrawingWithMachines](https://github.com/golanlevin/DrawingWithMachines)
 
 ---
 
@@ -27,7 +28,7 @@ Your grade will be based on your professionalism in (**1**) completing work, and
 * [**Overview**](#overview)
 * [**Tools and Materials**](#tools-and-materials)
 * [**Attendance**](#attendance)
-* [**Grading**](#grading)
+* [**Grading and Evaluation**](#grading-and-evaluation)
 * [**COVID-19 Policies**](#covid-19-policies)
 * [**Academic Integrity**](#academic-integrity)
 * [**Code of Conduct**](#code-of-conduct)
@@ -61,10 +62,12 @@ At the conclusion of this course, students will be able to:
 4. Exercises with Lines 
 5. Hatching and Fills
 6. Shapes and Clipping
-7. Pattern
-8. Field (Flows and Feedback)
-9. Personal Project (e.g. Material Conditions, Animation, Color, Type, Data, Real-Time Control)
-10. Card Exchange (*ungraded*)
+7. Field (Flows and Feedback)
+8. Personal Project (e.g. Material Conditions, Animation, Color, Type, Data, Real-Time Control)
+  * 8A. Proposal
+  * 8B. Prototype
+  * 8C. Final Project
+9. Card Exchange (*ungraded*)
 
 ### Prerequisite Knowledge
 *What prior knowledge must students have in order to be successful in this course?*
@@ -190,12 +193,11 @@ Focus is precious—both yours and others'. Physical presence means nothing if y
 
 
 ---
-# GRADING
+# GRADING AND EVALUATION
 
-### Grades
+## How to Get A Good Grade
 
-Grades
-Grades will be calculated with a [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading), which will be negotiated with students at the beginning of the semester. This contract will be based on objective factors, such as the number of projects you complete, and how thoroughly you complete them. This contract will form an addendum to this Syllabus.
+Grades will be calculated with a [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading). This contract uses objective factors (such as the number of projects you complete, and how thoroughly you complete them), to compute your grade.
 
 In this course, your grades boil down to *fulfillment*. Projects always have a list of supporting requirements. These are very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Nearly every project assignment will ask you to do some combination of the following:
 
@@ -203,7 +205,7 @@ In this course, your grades boil down to *fulfillment*. Projects always have a l
 * **Upload** a static image of your project, such as a screenshot or photograph.
 * **Upload** a photo of your notebook sketches for the project, if applicable.
 * **Upload** dynamic documentation of your project (such as an animated GIF or video recording), if applicable.
-* **Write** 100-200 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: In what ways did you succeed, and in what ways could it be better?
+* **Write** a few sentences about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: In what ways did you succeed, and in what ways could it be better?
 
 Related to our course policies on [Academic Integrity](#academic-integrity), you must also:
 
@@ -211,31 +213,46 @@ Related to our course policies on [Academic Integrity](#academic-integrity), you
 If you had collaborators, explain how the work was distributed among the collaborators.
 * **Cite and link** to the sources for any code, external libraries, or other media (e.g. photographs, soundtracks, source images) which you used in your Project. Citing your sources is super important, folks. Err on the side of generosity.
 
+## Labor-Based Grading Contract
 
-### My Opinion of Your Work is Not Your Grade
+There are **10 graded assignments** this semester, listed above ("Unit Topics and Assignments"). This includes the seven weekly assignments (1-7), followed by the three components of the **Personal Project** (proposal, prototype, final). Each of these ten Assignments contributes 100 points each, determined by whether its sub-tasks are complete or not. **Your final grade will be calculated as follows:** 
 
-I may or may not "like" your work. But I am just one person, and despite my 30 years of experience in this field, my taste is irrelevant. I have been known to dismiss student projects that later proved to be highly influential and significant. I have sometimes brought in outside critics whose opinions I deeply respect, who prove to have radically different (but equally valid) opinions about the quality of certain student projects. And I have even been known to change my own mind about student projects quickly and often. 
+* A: 750-1000 Points
+* B: 650-750 Points
+* C: 550-650 Points
+* D: 400-550 Points
+* R: <400 Points
 
-That said, there are a few aspects of your work and conduct that I care about very deeply. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get these right:
+**As you can see, it is possible to miss 2 entire projects, and still earn an A in this course.**
+
+Generally I will not award fractional points for a given subtask; either it is done or it ain't. For example, if an assignment awards "10 points" for writing a few sentences, I will usually (except in truly egregious circumstances) award the full 10 points if you did this task, regardless of how insightful or well-written your sentences are.
+
+
+## How to Be A Good Learner
+
+*My Opinion of Your Work is Not Your Grade; Your Grade is Not My Opinion of Your Work. Earning good grades is roughly correlated with, but not the same thing as, being a good learner.*
+
+I may or may not "like" your work. But I am just one person, and despite my 30 years of experience in this field, my taste is irrelevant. I have been known to dismiss student projects that later proved to be highly influential and significant. I have sometimes brought in outside critics whose opinions I deeply respect, who prove to have totally different (but equally valid) opinions about student projects. And I have even been known to change my own mind about student projects quickly and often. 
+
+That said, there are a few aspects of your professional conduct that set you up to actually learn stuff. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get these right:
 
 * **Be good**. Have a positive attitude.
 * **Be present**. Show up to all of the course sessions, on time.
+* **Be diligent**. Submit your work punctually, and with clear documentation.
 * **Be responsible**. Communicate with me if you have a problem.
 * **Be helpful**. Help your classmates when they’re stuck.
 * **Be generous**. Make helpful contributions to discussions.
 * **Be fearless**. Work outside your comfort zone. Give yourself permission to weird.
 * **Be conscientious**. Pay attention to details of craft and execution. Put your heart in the work.
 * **Be persevering**. Become resourceful about getting the assistance you need.
-* **Be diligent**. Submit your work punctually, and with clear documentation.
+* **Be curious**: Are you asking questions as you work?
+* **Be tenacious**: Are you forging through difficult problems without giving up?
+* **Be rigorous**: Are you crafting with purpose, precision, and attention?
+* **Be brave**: Are you exploring methods outside the obvious and predictable?
 
-I also care deeply about the extent to which you demonstrate the following: 
+Whether or not you adhere to these recommendations will not affect your grade. *So, why bother?* Well, when students do follow these recommendations, they *learn* a lot more. 
 
-* **Curiosity**: Are you asking questions as you work?
-* **Tenacity**: Are you forging through difficult problems without giving up?
-* **Execution**: Are you crafting with purpose, precision, and attention?
-* **Inventiveness**: Are you discovering/exploring methods outside the obvious and predictable?
-
-Whether or not you adhere to these recommendations will not affect your grade. *So, why bother?* Well, when students do follow these recommendations, I am more likely to do things like:
+Students who do these things are also more likely to make a good impression. This means that I am more likely to do things like:
 
 * ...admit them into a future course from my waitlist. 
 * ...recommend them to another professor whose waitlist they're on.
@@ -244,7 +261,7 @@ Whether or not you adhere to these recommendations will not affect your grade. *
 * ...write letters of recommendation for them.
 
 
-### Policies for Late Work
+## Policies for Late Work
 
 Our class is fast-paced. When you submit work late, you miss the chance to share, show off, discuss and get feedback on your work.
 
@@ -253,6 +270,14 @@ At times this semester, your creative projects may be evaluated by outside exper
 **In general, I do not accept late work.** I would much prefer that you move on to the next unit, without being additionally burdened by a distracting backlog of overdue projects. The flexibility built into our labor-based grading contract should allow you to miss a project or two without penalty to your grade. 
 
 That said, my **grading policies for late work can depend on the specific project**. For example: I may accept late work when there's no critique scheduled for that assignment, or if it is very important that you accomplish an assignment to master certain skills. 
+
+## Feedback and Critique
+
+**Critique is an act of care.** In art school, it is one of the highest forms of care we can give each other. Outside of art school, if people don't find your work compelling, they will not tell you so; they will simply move on to something they like better. Critiques in an art school are a gift — a context in which you can receive feedback from "inside the house". Take them seriously and give a good faith effort to help your peers. 
+
+We are a diverse group. Some of us are artists, some of us are designers, some of us are scientists, some of us are engineers, and most of us are hybrids of these things. It is impossible to have one single standard we can use for "what is good", but perhaps the following can suffice. When critiquing a project, ***Would you want to tell someone about it (or show it to someone)? Why or why not?*** 
+
+I don't always have time to provide in-depth feedback for all students during critiques. If you would like more feedback on your projects, ask me. 
 
 
 ---
