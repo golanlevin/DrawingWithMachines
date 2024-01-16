@@ -106,10 +106,10 @@ During spring 2024, CFA-303 is available for plotting during the following times
 * Tuesday and Thursdays, after 5pm (i.e. during class)
 * All day Fridays (the professor and/or TA may be present)
 * All day Saturdays and Sundays (you'll need your room key)
-* Monday/Wednesdays, 11am-7pm 
+* Monday/Wednesdays, 8am-Noon, 2pm-7pm 
 * Tuesday/Thursdays, 8am-Noon
 
-The room is busy MW 8-11am; MW 7-10pm; TR 12:30-5.
+The room is busy MW Noon-2pm; MW 7pm-10pm; TR 12:30-5.
 
 ### Required Tools
 
