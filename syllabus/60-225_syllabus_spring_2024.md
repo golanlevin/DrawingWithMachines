@@ -162,7 +162,9 @@ I can be extremely understanding and accommodating about planned and necessary a
 
 When you send me a message informing me of an upcoming absence, I don't need to know the detailed reason. It is courteous and sufficient to offer a general explanation, such as "I'm not feeling well". However, I recommend that you *do not* tell me "...because I need to do homework for another course". Making your priorities plain in this way will not affect your grade, but it may earn my contempt.
 
-If you must miss a significant number of sessions, please come and discuss the issue with me; I would like to try to find a way to support you. There is no specific limit on the number of allowable excused absences, but if you miss too many sessions, your ability to satisfactorily complete required classwork (and thus, your grade) will inevitably suffer. 
+If you must miss a significant number of sessions, please come and discuss the issue with me; I would like to try to find a way to support you. There is no specific limit on the number of allowable excused absences, but if you miss too many sessions, your ability to satisfactorily complete required classwork (and thus, your grade) will inevitably suffer.
+
+I don't require notification if you just need to step out for a few minutes in the middle of class (e.g. to use the restroom, collect yourself, take an urgent call, etc.)
 
 You are responsible for what happens in class whether you’re here or not. Organize with the me and/or your classmates to get class information and material that you have missed. If I am informed of your absence with more than one hour's notice, I *may* be able to help you by recording/streaming my presentation; however, please note that I offer no guarantees about this.
 
