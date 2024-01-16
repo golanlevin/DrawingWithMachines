@@ -1,4 +1,4 @@
-# Assignment 8: *Personal Project*
+# Assignment 9: *Personal Project*
 
 * 2021 Version: 
   1. [Prototype](https://courses.ideate.cmu.edu/60-428/f2021/offerings/8-mid-semester-project/)

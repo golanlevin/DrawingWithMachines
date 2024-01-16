@@ -1,4 +1,4 @@
-# Drawing with Machines Lectures (Spring 2024)
+# Lectures (Spring 2024)
 
 ---
 

@@ -13,7 +13,7 @@
 
 Your grade will be based on your professionalism in (**1**) completing work, and in (**2**) communicating responsibly about your attendance, as follows:
 
-1. **Do The Assignment Checklists.** There is zero mystery about how your work will be graded in this course. Every assignment has a clearly defined list of very simple tasks. Tasks are either done, or they are not. Do all the tasks and you will receive full credit on the assignment. Your semester grade will be determined by counting how many assignments earned full (or near-full) credit, according to a [Labor-Based Grading Contract](https://en.wikipedia.org/wiki/Contract_grading).
+1. **Do The Assignment Checklists.** There is zero mystery about how your work will be graded in this course. Every assignment has a clearly defined list of very simple tasks. A task is either done, or it is not. Do all the tasks and you will receive full credit on the assignment. Your semester grade will be determined by counting how many assignments earned full (or near-full) credit, according to a [Labor-Based Grading Contract](https://en.wikipedia.org/wiki/Contract_grading).
 2. **No Ghosting.** If you need to miss class, inform the professor at the earliest possible opportunity. You are welcome to communicate with me by email, Discord, Twitter, or text message. Absences, while regrettable, are permissible; "[**no call, no-show**](https://en.wikipedia.org/wiki/No_call,_no_show)" events, however, are not: 
 	* **Your first "no call, no-show" event will reduce your semester grade by one letter (A→B).**
 	* **Your second "no-call, no-show" event will cause you to fail the class.**
@@ -53,16 +53,18 @@ At the conclusion of this course, students will be able to:
 * Understand the role of computation in making drawings that explore concepts of procedurality and generativity.
 * Understand how to document and present creative work online and in person.
 
-### Unit Topics
+### Unit Topics and Assignments
 
-1. Rule-Based Art
-2. Introductory Tooling
-3. Exercises with Lines 
-4. Hatching and Fills
-5. Shapes and Clipping
-6. Texture Field (Flows and Feedback)
-7. Personal Project (Material Conditions, Animation, Color, Type, Data, Real-Time Control)
-8. Card Exchange (*ungraded*)
+1. Physical Drawing Machines
+2. Conceptual Drawing Machines (Rule-Based Art)
+3. Introductory Tooling
+4. Exercises with Lines 
+5. Hatching and Fills
+6. Shapes and Clipping
+7. Pattern
+8. Field (Flows and Feedback)
+9. Personal Project (e.g. Material Conditions, Animation, Color, Type, Data, Real-Time Control)
+10. Card Exchange (*ungraded*)
 
 ### Prerequisite Knowledge
 *What prior knowledge must students have in order to be successful in this course?*
@@ -119,7 +121,7 @@ All students will be given a standard kit containing the following materials, *g
 
 * **PROVIDED**: One [Strathmore 300 Series Bristol pad (270 g/m), 9"W x 12"H, smooth surface (*not vellum*), 20 sheets (Product #342-9)](https://www.amazon.com/Strathmore-Bristol-Smooth-Bound-Sheets/dp/B00254AU8Q/)
 * **PROVIDED**: One [Itoya Original Art Profolio - 9"W x 12"H, Black, Portrait, 24 Pages portfolio book](https://www.amazon.com/Itoya-Profolio-Original-Presentation-Inches/dp/B0000AE68P/?th=1)
-* **PROVIDED**: One [PILOT G-2 Rolling Ball Gel Pen, Fine Point (0.7mm), Black](https://www.amazon.com/Pilot-Retractable-Premium-Roller-31078/dp/B0058NN4C0/)
+* **PROVIDED**: Two [PILOT G-2 Rolling Ball Gel Pens, Fine Point (0.7mm), Black](https://www.amazon.com/Pilot-Retractable-Premium-Roller-31078/dp/B0058NN4C0/)
 * **PROVIDED**: One [Sharpie Permanent Marker, Ultra Fine Tip, Black Ink](https://www.amazon.com/gp/product/B083H35VBT/)
 * **PROVIDED**: One [Gelly Roll White Pen (1.0mm)](https://www.amazon.com/gp/product/B07BXTNNPR/), or [Uni-Ball Signo Gel Impact White Pen (1.0)](https://www.amazon.com/gp/product/B00U6UU8YW/)
 * **PROVIDED**: One [Mesh Bag by Artist's Loft pencil case](https://www.michaels.com/product/mesh-bag-by-artists-loft-10537770)
@@ -133,10 +135,10 @@ students to get funds for art supplies using the [*Special Circumstance Request 
 
 ### Our Studio Space, CFA-303
 
-* Please clean up after yourself. 
-* If you don't feel well, please stay home.
+* Please clean up after yourself. Our classroom needs to be in a usable condition for other classes.
 * We have valuable equipment in CFA-303. If you are the only person in the room and you need to step out, don't leave the door unlocked. 
 * **No food or drink**. This is both a drawing course and a creative coding course. Greasy food and spilled liquids are incompatible with both fancy paper and laptop computers. 
+* If you don't feel well, please stay home.
 
 
 ---
@@ -151,13 +153,13 @@ Please note the following. According to [official CMU policy](https://www.cmu.ed
 
 Your presence, collegial conduct, and civic participation are of paramount importance. That said, I also recognize that students may occasionally need to miss class for a variety of reasons (e.g. illness, religious observance, job interview, family emergency, etc.). The attendance policy for this course is simple: 
 
-**If you are unable to attend a class session, send a message to me prior to Roll Call.** You may message me by email, Discord, Twitter, or text message. Generally Roll Call is 5-10 minutes into class. 
+**If you are unable to attend a class session, send a message to me prior to Roll Call.** You may message me by email, Discord, Twitter, or text message. Generally Roll Call is 5-10 minutes into class. My phone number is provided in the #key-information channel of our class Discord. 
 
 I can be extremely understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. Such absences will have no impact on your final grade. 
 
 When you send me a message informing me of an upcoming absence, I don't need to know the detailed reason. It is courteous and sufficient to offer a general explanation, such as "I'm not feeling well". However, I recommend that you *do not* tell me "...because I need to do homework for another course". Making your priorities plain in this way will not affect your grade, but it may earn my contempt.
 
-If you must miss a significant number of sessions, please come and discuss the issue with me; I would like to try to find a way to support you. There is no specific limit on the number of allowable excused absences, but if you miss too many sessions, your ability to satisfactorily complete required classwork (and thus, your grade) will suffer. 
+If you must miss a significant number of sessions, please come and discuss the issue with me; I would like to try to find a way to support you. There is no specific limit on the number of allowable excused absences, but if you miss too many sessions, your ability to satisfactorily complete required classwork (and thus, your grade) will inevitably suffer. 
 
 You are responsible for what happens in class whether you’re here or not. Organize with the me and/or your classmates to get class information and material that you have missed. If I am informed of your absence with more than one hour's notice, I *may* be able to help you by recording/streaming my presentation; however, please note that I offer no guarantees about this.
 
@@ -169,7 +171,7 @@ If I (the Professor) am unable to come to class, I will send a message so that s
 * **Your first *No-Call, No-Show* event will reduce your semester grade by one letter (A→B).**
 * **Your second *No-Call, No-Show* event will cause you to fail the class (B→R).**
 
-There are very few situations in which you would be *literally unable* to send a brief message. That said, the following list of incapacitating emergencies (of you or a loved one) are—of course—acceptable excuses for a *No-Call, No-Show* absence:
+There are very few situations in which a person is *literally unable* to send a brief message. That said, the following list of incapacitating emergencies (of you or a loved one) are—of course—acceptable excuses for a *No-Call, No-Show* absence:
 
 * Death of a family member, loved one, or friend
 * Serious injuries or accidents that pose a high risk to wellbeing
@@ -212,7 +214,7 @@ If you had collaborators, explain how the work was distributed among the collabo
 
 ### My Opinion of Your Work is Not Your Grade
 
-I may or may not "like" your work. But I am just one person, and despite my 30 years of experience in this field, my taste is ultimately irrelevant. I have been known to dismiss student projects that later proved to be highly influential and significant. I have sometimes brought in outside critics I deeply admire, who prove to have radically different (but equally valid) opinions about the quality of certain student projects. And I have even been known to change my own mind about projects a day or two after a critique.
+I may or may not "like" your work. But I am just one person, and despite my 30 years of experience in this field, my taste is irrelevant. I have been known to dismiss student projects that later proved to be highly influential and significant. I have sometimes brought in outside critics whose opinions I deeply respect, who prove to have radically different (but equally valid) opinions about the quality of certain student projects. And I have even been known to change my own mind about student projects quickly and often. 
 
 That said, there are a few aspects of your work and conduct that I care about very deeply. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get these right:
 
@@ -233,11 +235,11 @@ I also care deeply about the extent to which you demonstrate the following:
 * **Execution**: Are you crafting with purpose, precision, and attention?
 * **Inventiveness**: Are you discovering/exploring methods outside the obvious and predictable?
 
-Whether or not you adhere to these recommendations will not affect your grade. So, why bother? Well, when students do follow these recommendations, I am more likely to do things like:
+Whether or not you adhere to these recommendations will not affect your grade. *So, why bother?* Well, when students do follow these recommendations, I am more likely to do things like:
 
 * ...admit them into a future course from my waitlist. 
-* ...arrange an Independent Study course with them.
 * ...recommend them to another professor whose waitlist they're on.
+* ...arrange an Independent Study course with them.
 * ...introduce them to outside professionals (e.g. for internships).
 * ...write letters of recommendation for them.
 
@@ -293,6 +295,7 @@ The assignments in this course are primarily intended to be executed by individu
 * *Describe who did what*. Written reports for collaborative projects should describe how your effort was distributed.
 * *Only collaborators from this class*. Your project collaborator, if you have one, must be in this class. You may not collaborate with people from outside the course (e.g. your housemate).
 * *Avoid co-dependency*. You may not collaborate with the same person (i.e. submit assignments jointly) for more than two projects.
+* *Pairs only*. The third person never does anything. 
 
 
 ---
