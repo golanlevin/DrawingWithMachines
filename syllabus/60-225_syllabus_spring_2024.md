@@ -225,7 +225,7 @@ There are **10 graded assignments** this semester, listed above ("Unit Topics an
 * D: 400-500 Points
 * R: <400 Points
 
-**As you can see, it is possible to miss 2 entire projects, and still earn an A in this course.**
+**As you can see, it is potentially possible (in principle) to miss 2 entire projects, and still earn an A in this course.**
 
 Generally I will not award fractional points for a given subtask; either it is done or it ain't. For example, if an assignment awards "10 points" for writing a few sentences, I will usually (except in truly egregious circumstances) award the full 10 points if you did this task, regardless of how insightful or well-written your sentences are.
 

@@ -1,4 +1,4 @@
-# 01.15 Hello
+# Jan 16: Hello
 
 ---
 
@@ -21,6 +21,8 @@
 
 ### A Discussion about Machines and Drawings
 
+**Show**: Ruler, stencil, spirograph, pantograph, doodletop...
+
 What is a *drawing*? List your assumptions.
 
 * A drawing is made by one person.
@@ -31,7 +33,7 @@ What is a *machine*? List your assumptions.
 * A machine is electric.
 * A machine is not a living thing...
 
-**Show**: Ruler, stencil, spirograph, pantograph, doodletop...
+
 
 ---
 
