@@ -5,7 +5,10 @@
 ## Agenda
 
 * Proper Introductions; Roll Call
-* Distribution of keys; box trays. 
+* Announcements: 
+	* Change of final schedule
+	* Distribution of keys
+	* box trays
 * Exercises (below)
 * Lectures (below)
 	* Rule-Based Art, 1950s-1960s
@@ -102,7 +105,8 @@ The work is "[Substrate](http://www.complexification.net/gallery/machines/substr
 
 * [*Melanie Nailed It*](https://ems.andrew.cmu.edu/2013_60210a/golan/09/02/melanie-nailed-it/index.html) (Lewitt's *Wall Drawing #231*)
 * More examples:
-	* [The Location of a Circle](lewitt_circle_cri_000000205810.jpg)	* [The Location of a Parallelogram](lewitt_parallelogram_cri_000000205814.jpg)	* [The Location of a Rectangle](lewitt_rectangle_cri_000000205208.jpg)	* [The Location of a Square](lewitt_square_000000205812.jpg)	* [The Location of a Trapezoid](lewitt_trapezoid_cri_000000205209.jpg)	* [The Location of a Triangle](lewitt_triangle_cri_000000205813.jpg)
+	* [Lewitt Boston Museum wall drawing](img/lewitt-boston-wall-drawing.jpg)
+	* [*The Location of a Circle*](img/lewitt_circle_cri_000000205810.jpg)	* [*The Location of a Parallelogram*](img/lewitt_parallelogram_cri_000000205814.jpg)	* [*The Location of a Rectangle*](img/lewitt_rectangle_cri_000000205208.jpg)	* [*The Location of a Square*](img/lewitt_square_000000205812.jpg)	* [*The Location of a Trapezoid*](img/lewitt_trapezoid_cri_000000205209.jpg)	* [*The Location of a Triangle*](img/lewitt_triangle_cri_000000205813.jpg)
 
 ---
 

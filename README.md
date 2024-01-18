@@ -55,8 +55,10 @@ Thu Apr 11 - No Class (Spring Carnival)
 Tue Apr 16
 Thu Apr 18
 Tue Apr 23 - Workday
-Thu Apr 25 - #8C Due (Final Project)
-Tue Apr 30 - Card Exchange
+Thu Apr 25 - Workday
+Apr 29-May 3 (TBD) - #8C Due (Final Crit)
+Fri May  3 - Card Exchange
+
 ```
 
 ---
