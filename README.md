@@ -28,8 +28,8 @@ Resources for Golan Levin's *Drawing with Machines* Course, Spring 2024.
 ```
 Tue Jan 16 - Introduction; Drawing Machines
 Thu Jan 18 - #1 Due (Machine); Rule-Based Art
-Tue Jan 23 - Lecture (genArt). Guest.
-Thu Jan 25 - #2 Due (Ruleset). Axi Demo. Guests.
+Tue Jan 23 - Lecture (genArt). Guest (Joshua)
+Thu Jan 25 - #2 Due (Ruleset). Axi. Guests (Benford, Aren, Angie, Jean)
 Tue Jan 30 - #3 Due (Tooling).
 Thu Feb  1 - Guest.
 Tue Feb  6 - #4 Due (Lines). 
