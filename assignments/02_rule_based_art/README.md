@@ -42,7 +42,7 @@ Without showing your own experiments or previous results, ask three different pe
 * You may have to **devise an ending condition**. For example, you could set up a 5-minute timer on your phone, or prescribe a certain number of iterations.
 * You may wish to **include a source of randomness**, unpredictable input, or ambiguity, in order to ensure that your instructions generate different results every time. For example, you could use a coin flip, pair of dice, deck of cards, [random word generator](https://randomwordgenerator.com/), etc.
 * You may wish to **iterate** your instructions — i.e. observe, evaluate, and revise :)
-* 
+* You are welcome to devise a drawing "game"/activity for 2 or more participants.
 
 ### Deliverables
 
