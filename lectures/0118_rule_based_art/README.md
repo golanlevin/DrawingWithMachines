@@ -100,8 +100,15 @@ The work is "[Substrate](http://www.complexification.net/gallery/machines/substr
 
 ## Lectures
 
+![baldessari-three-balls.jpg](img/baldessari-three-balls.jpg)<br /><small>
+John Baldessari, [*Throwing Three Balls in the Air to Get a Straight Line (Best of Thirty-Six Attempts)*](https://artmuseum.princeton.edu/collections/objects/135589), 1973</small>
+
+![Tara Donovan, Pins](img/tara_donovan_pins.jpg)<br /><small>Tara Donovan, [*Untitled (Pins)*](https://www.metmuseum.org/art/collection/search/498735), 2004</small>
+
+
 * Lecture: [Rule-Based Art, 1950s-1960s](https://ems.andrew.cmu.edu/2013_60210a/lectures/lecture-01/index.html)
 * Lecture: [Minimum Inventory, Maximum Diversity](https://ems.andrew.cmu.edu/2021s/60210a/deliverables/deliverables-01/absolute-drawings/index.html)
+* Lecture (Postponed): [Drawing, Expanded by the Computer](https://github.com/golanlevin/lectures/tree/master/lecture_drawing) 
 
 #### Side note: Lewitt's Instructional Work
 
@@ -110,8 +117,3 @@ The work is "[Substrate](http://www.complexification.net/gallery/machines/substr
 	* [Lewitt Boston Museum wall drawing](img/lewitt-boston-wall-drawing.jpg)
 	* [*The Location of a Circle*](img/lewitt_circle_cri_000000205810.jpg)	* [*The Location of a Parallelogram*](img/lewitt_parallelogram_cri_000000205814.jpg)	* [*The Location of a Rectangle*](img/lewitt_rectangle_cri_000000205208.jpg)	* [*The Location of a Square*](img/lewitt_square_000000205812.jpg)	* [*The Location of a Trapezoid*](img/lewitt_trapezoid_cri_000000205209.jpg)	* [*The Location of a Triangle*](img/lewitt_triangle_cri_000000205813.jpg)
 
----
-
-*For another time:*
-
-* Lecture: [Drawing, Expanded by the Computer](https://github.com/golanlevin/lectures/tree/master/lecture_drawing)
