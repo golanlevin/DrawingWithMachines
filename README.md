@@ -19,6 +19,7 @@ Resources for Golan Levin's *Drawing with Machines* Course, Spring 2024.
 * [Machinery Instructions](machines/README.md)
 * Software Instructions
   * [Generating SVG Files](generating_svg/README.md)
+  * [Preparing SVGs for Plotting with *vpype*](generating_svg/vpype_svg_prep/README.md)
 
 ---
 
@@ -57,7 +58,6 @@ Tue Apr 23 - Workday
 Thu Apr 25 - #8C Due (Final Project)
 Tue Apr 30 - Card Exchange
 ```
-
 
 ---
 
