@@ -4,12 +4,13 @@
 
 ## Agenda
 
-* Proper Introductions; Roll Call
 * Announcements: 
 	* Change of final schedule
 	* Distribution of keys
 	* box trays
 	* [Madeline Gannon talk](https://studioforcreativeinquiry.org/events/breathing-life-into-machines), 5pm Friday Feb 2 in the STUDIO (CFA-111)
+* Proper Introductions; Roll Call
+* Quick review of Drawing Machines (also see [this](https://twitter.com/danzeeeeman/status/1747410314839134472) & [this](https://twitter.com/danzeeeeman/status/1747891727468204059))
 * Exercises (below)
 * Lectures (below)
 	* Rule-Based Art, 1950s-1960s
