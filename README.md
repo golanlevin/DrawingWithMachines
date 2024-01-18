@@ -31,7 +31,8 @@ Thu Jan 18 - #1 Due (Machine); Rule-Based Art
 Tue Jan 23 - Lecture (genArt). Guest (Joshua)
 Thu Jan 25 - #2 Due (Ruleset). Axi. Guests (Benford, Aren, Angie, Jean)
 Tue Jan 30 - #3 Due (Tooling).
-Thu Feb  1 - Guest.
+Thu Feb  1 - Guest (Madeline)
+Fri Feb  2 - Madeline Gannon artist talk, 5pm at the STUDIO (CFA-111)
 Tue Feb  6 - #4 Due (Lines). 
 Thu Feb  8
 Tue Feb 13 - #5 Due (Tone).

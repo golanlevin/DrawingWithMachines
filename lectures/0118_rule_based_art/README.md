@@ -9,6 +9,7 @@
 	* Change of final schedule
 	* Distribution of keys
 	* box trays
+	* [Madeline Gannon talk](https://studioforcreativeinquiry.org/events/breathing-life-into-machines), 5pm Friday Feb 2 in the STUDIO (CFA-111)
 * Exercises (below)
 * Lectures (below)
 	* Rule-Based Art, 1950s-1960s
