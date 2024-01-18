@@ -1,5 +1,6 @@
 # Course Machinery Instructions
 
+Index to instructions for plotting with our classroom equipment. 
 
 ---
 
@@ -7,7 +8,7 @@
 
 * [**AxiDraw Standalone RPi Kiosk Instructions**](../rpi_standalone/README.md)
 * [AxiDraw CLI (Command Line Interface)](https://axidraw.com/doc/cli_api/#introduction)
-* [AxiDraw Inkscape Extension](https://wiki.evilmadscientist.com/Axidraw_Software_Installation) — [(YouTube demo)](https://www.youtube.com/watch?v=r5mhw8-nrg0)
+* [AxiDraw Inkscape Extension](https://wiki.evilmadscientist.com/Axidraw_Software_Installation) (& [YouTube demo](https://www.youtube.com/watch?v=r5mhw8-nrg0))
 
 ## HP7475A
 
@@ -18,13 +19,16 @@
 
 * [**Instructions for Plotting with Line-Us**](line-us/README.md)
 
+## USCutter MH871-MK2
+
+* [**Instructions for Plotting with the USCutter MH871-MK2**](uscutter-mh871-mk2/README.md)
+
 ---
 
-### Other Machines
+### *Other Machines*
 
 *Documentation Under Construction.*
 
-* US Cutter MH871-MK2
 * Universal Robots UR5
 * Rotrics DexArm & Rail
 * RGB Laser & EtherDream controller

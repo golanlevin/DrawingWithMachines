@@ -1,0 +1,19 @@
+[device.MH871-MK2]
+name = "MH871-MK2"
+plotter_unit_length = "0.001in"
+pen_count = 1
+
+[[device.MH871-MK2.paper]]
+name = "MH871-MK2"
+
+paper_orientation = "portrait"
+
+origin_location = ["0in", "0in"]
+
+origin_location_reference = "topleft"
+
+y_range = [0, 30000]
+
+y_axis_up = false
+
+rotate_180 = false

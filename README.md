@@ -30,7 +30,7 @@ Thu Jan 18 - #1 Due (Machine); Rule-Based Art
 Tue Jan 23 - Lecture (genArt). Guest.
 Thu Jan 25 - #2 Due (Ruleset). Axi Demo. Guests.
 Tue Jan 30 - #3 Due (Tooling).
-Thu Feb  1
+Thu Feb  1 - Guest.
 Tue Feb  6 - #4 Due (Lines). 
 Thu Feb  8
 Tue Feb 13 - #5 Due (Tone).
