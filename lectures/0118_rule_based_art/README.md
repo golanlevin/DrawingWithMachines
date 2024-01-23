@@ -84,17 +84,6 @@ These exercises are by the [Conditional Design](http://conditionaldesign.org/) g
 
 ![Knots](img/kaleidoscope.jpg)
 
-### Exercise 4: Instructional Drawing in Reverse
-
-*Exercise courtesy of Paolo Pedercini.*
-
-Below are some screenshots of a well-known generative artwork from 2003. Analyze it and try to “reverse engineer” the algorithm that produces similar images (only the lines; colors are not important for this exercise). In your sketchbook or on your computer, describe the process using the minimum amount of clear, non ambiguous instructions. Discuss.
-
-![tarbell-2.jpg](img/tarbell-2.jpg)
-
-![tarbell-1.jpg](img/tarbell-1.jpg)
-
-The work is "[Substrate](http://www.complexification.net/gallery/machines/substrate/)" by Jared Tarbell (2003). A working re-implementation by Tom White is [here](https://dribnet.github.io/substrate/).
 
 ---
 
@@ -108,7 +97,7 @@ John Baldessari, [*Throwing Three Balls in the Air to Get a Straight Line (Best 
 
 * Lecture: [Rule-Based Art, 1950s-1960s](https://ems.andrew.cmu.edu/2013_60210a/lectures/lecture-01/index.html)
 * Lecture: [Minimum Inventory, Maximum Diversity](https://ems.andrew.cmu.edu/2021s/60210a/deliverables/deliverables-01/absolute-drawings/index.html)
-* Lecture (Postponed): [Drawing, Expanded by the Computer](https://github.com/golanlevin/lectures/tree/master/lecture_drawing) 
+
 
 #### Side note: Lewitt's Instructional Work
 
