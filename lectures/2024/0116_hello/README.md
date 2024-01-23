@@ -4,13 +4,13 @@
 
 ### Agenda
 
-* [Syllabus Review](../../syllabus/60-225_syllabus_spring_2024.md)
+* [Syllabus Review](../../../syllabus/60-225_syllabus_spring_2024.md)
 * Introductions and Roll Call
 * Admin work: signing the [Course Agreements Form](https://forms.gle/aJ3QvYeEK2PkCnYU6); getting into Discord
 * Distribution of kits and keys
 * *Break*
 * Presentation: *Loosening Up with DIY Drawing Machines*
-* Announcement of Assignment 1: [*DIY Drawing Machine*](../../assignments/01_diy_drawing_machine/README.md) (due Thursday 1/18)
+* Announcement of Assignment 1: [*DIY Drawing Machine*](../../../assignments/01_diy_drawing_machine/README.md) (due Thursday 1/18)
 
 
 ---

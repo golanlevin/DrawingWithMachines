@@ -15,7 +15,7 @@
 * Lectures (below)
 	* Rule-Based Art, 1950s-1960s
 	* Minimum Inventory, Maximum Diversity
-* Announcement of Assignment 2: [*Rule-Based Art*](../../assignments/02_rule_based_art/README.md) (due Thursday January 25)
+* Announcement of Assignment 2: [*Rule-Based Art*](../../../assignments/02_rule_based_art/README.md) (due Thursday January 25)
 
 ---
 
