@@ -2,9 +2,9 @@
 
 
 * 3a: Plotter tool resource immersion (10 points; 20 minutes)
-* 3b: Looking Outwards: Generative Plotter Art (15 points; 30 minutes)
-* 3c: Reading Response: Skimming Other's Practices (15 points, 30 minutes)
-* 3d: **Making a Plot!** (60 points, 60-90 minutes)
+* 3b: Looking Outwards: Generative Plotter Art (20 points; 30 minutes)
+* 3c: Reading Response: Skimming Other's Practices (20 points, 30 minutes)
+* 3d: **Making a Simple Plot!** (50 points, 60-90 minutes)
 
 ---
 
@@ -13,7 +13,7 @@
 *(10 points; 20 minutes)* The purpose of this exercise is to help introduce you to resources and communities for computer controlled pen-plotting machines. Note: The focus here is on *technical* resources.
 
 * Spend 5-10 minutes browsing the materials at the [**AwesomePlotters Repository**](https://github.com/beardicus/awesome-plotters), "a curated list of code and resources for computer-controlled drawing machines and other visual art robots."
-* Spend 5-10 minutes browsing the materials on [**DrawingBots.net**](https://drawingbots.net/), "the central place on the web to discover the world of drawing robots, get inspiration and talk to other drawing robot enthusiasts." Optionally, check out the affiliated [DrawingBots Discord (invite here)](https://discordapp.com/invite/XHP3dBg). 
+* Spend 5-10 minutes browsing the materials on [**DrawingBots.net**](https://drawingbots.net/), including the special [Resources page](https://drawingbots.net/resources). This is "the central place on the web to discover the world of drawing robots, get inspiration and talk to other drawing robot enthusiasts." Optionally, check out the affiliated [DrawingBots Discord (invite here)](https://discordapp.com/invite/XHP3dBg). 
 * Spend 2-3 minutes familiarizing yourself with the [**AxiDraw documentation Wiki**](https://wiki.evilmadscientist.com/AxiDraw), "the central documentation site for AxiDraw plotters from Evil Mad Scientist."
 * Now, in our Discord channel *#3a-tooling-resources*, **make** a very brief post about a specific technical resource that caught your attention. **Link** to the resource, **describe** what it is, and **write** a sentence about why you found it interesting or potentially useful. 
 
@@ -23,7 +23,7 @@
 
 ![tracingtheline.png](tracingtheline.png)
 
-*(15 points, 30 minutes)* The purpose of this prompt is to develop your familiarity with global practices and international communities of people using code to create art with plotters. You can find this work on the following channels, among other places:
+*(20 points, 30 minutes)* The purpose of this prompt is to develop your familiarity with global practices and international communities of people using code to create art with plotters. You can find this work on the following channels, among other places:
 
 * In the book [*Tracing the Line*](https://vetroeditions.com/products/tracing-the-line), in our classroom
 * On [Twitter/X, using the hashtag #PlotterTwitter](https://twitter.com/hashtag/plottertwitter)
@@ -56,7 +56,7 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 
 ### 3c. Reading Response: Skimming Others' Practices
 
-*(15 points, 30 minutes)* The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. (*Note: It is sufficient to skim these articles!*)
+*(20 points, 30 minutes)* The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. (*Note: It is sufficient to skim these articles!*)
 
 * Skim [*9 Tips to Execute Generative Art with a Plotter*](https://tylerxhobbs.com/essays/2018/executing-generative-art-with-a-plotter) by Tyler Hobbs
 * Skim [*300 Days with Plotters*](https://liciahe.medium.com/300-days-with-plotters-14159ab64034) by Licia He
@@ -70,9 +70,13 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 
 ---
 
-### 3d. Making a Plot!
+### 3d. Making a Simple Plot!
 
-(*60 points, 60-90 minutes*) Info TBA.
+(*50 points, 60-90 minutes*) Info TBA.
+
+* Maks Surguy's [Rad Lines](https://msurguy.github.io/rad-lines/)
+* [Rev Dan Catt's simple generators](https://revdancatt.com/#:~:text=from%20my%20shop-,Pen%20plotter%20tools,-%3E%20000%20Calibrate)
+
 
 ---
 
