@@ -4,7 +4,7 @@
 * 3a: Plotter tool resource immersion (10 points; 20 minutes)
 * 3b: Looking Outwards: Generative Plotter Art (20 points; 30 minutes)
 * 3c: Reading Response: Skimming Other's Practices (20 points, 30 minutes)
-* 3d: **Making a Simple Plot!** (50 points, 60-90 minutes)
+* 3d: **Generate a Plot!** (50 points, 60-120 minutes)
 
 ---
 
@@ -15,13 +15,16 @@
 * Spend 5-10 minutes browsing the materials at the [**AwesomePlotters Repository**](https://github.com/beardicus/awesome-plotters), "a curated list of code and resources for computer-controlled drawing machines and other visual art robots."
 * Spend 5-10 minutes browsing the materials on [**DrawingBots.net**](https://drawingbots.net/), including the special [Resources page](https://drawingbots.net/resources). This is "the central place on the web to discover the world of drawing robots, get inspiration and talk to other drawing robot enthusiasts." Optionally, check out the affiliated [DrawingBots Discord (invite here)](https://discordapp.com/invite/XHP3dBg). 
 * Spend 2-3 minutes familiarizing yourself with the [**AxiDraw documentation Wiki**](https://wiki.evilmadscientist.com/AxiDraw), "the central documentation site for AxiDraw plotters from Evil Mad Scientist."
-* Now, in our Discord channel *#3a-tooling-resources*, **make** a very brief post about a specific technical resource that caught your attention. **Link** to the resource, **describe** what it is, and **write** a sentence about why you found it interesting or potentially useful. 
+* Now, in our Discord channel *#3a-tooling-resources*, **make** a very brief post about a specific technical resource that caught your attention. 
+  * (*2 points*) **Link** to the resource, 
+  * (*3 points*) **describe** what it is, and 
+  * (*5 points*) **write** a sentence about why you found it interesting or potentially useful. 
 
 ---
 
 ### 3b. Looking Outwards: Some Generative Plotter Art
 
-![tracingtheline.png](tracingtheline.png)
+![tracingtheline.png](img/tracingtheline.png)
 
 *(20 points, 30 minutes)* The purpose of this prompt is to develop your familiarity with global practices and international communities of people using code to create art with plotters. You can find this work on the following channels, among other places:
 
@@ -50,7 +53,7 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 * **Create** a post in our Discord channel, *#3b-looking-outwards*.
 * *(5 points)* **Write** a sentence or two summarizing the kinds of work you saw, overall. What was interesting to you? What was disappointing? What opportunities did you see?
 * *(5 points)* **Identify** a specific artwork you liked from the #PlotterTwitter stream. In your post, **link** to the project's URL, and **embed** an image or screenshot of the project. 
-* *(5 points)* **Write** another sentence or two, on what you appreciated about this particular project.
+* *(10 points)* **Write** another sentence or two, on what you appreciated about this particular project.
 
 ---
 
@@ -66,16 +69,17 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 *Now*,
 
 * **Create** a post in the Discord channel, *#3c-reading-response*.
-* Briefly **write** a sentence or two about something from one of the above articles that you found interesting and/or helpful.
+* (*20 points*) Briefly **write** a sentence or two about something from one of the above articles that you found interesting and/or helpful.
 
 ---
 
 ### 3d. Making a Simple Plot!
 
-(*50 points, 60-90 minutes*) Info TBA.
+![Rad Lines tool](img/rad-lines.png)
+
+(*50 points, 60-120 minutes*) Info TBA.
 
 * Maks Surguy's [Rad Lines](https://msurguy.github.io/rad-lines/)
-* [Rev Dan Catt's simple generators](https://revdancatt.com/#:~:text=from%20my%20shop-,Pen%20plotter%20tools,-%3E%20000%20Calibrate)
 
 
 ---
