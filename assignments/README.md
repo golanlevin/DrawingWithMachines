@@ -4,7 +4,7 @@
 
 1. [**DIY Drawing Machine**](01_diy_drawing_machine/README.md) (Due Thursday **1/18**)
 2. [**Drawing Machine & Rule-Based Art**](02_rule_based_art/README.md) (Due Thursday **1/25**)
-3. **Introductory Tooling** (Due Tuesday **1/30**)
+3. [**Introductory Tooling**](03_introductory_tooling/README.md) (Due Tuesday **1/30**)
 4. **Line** (Due Tuesday **2/6**)
 5. **Tone** (Due Tuesday **2/13**)
 6. **Shape** (Due Tuesday **2/20**)
@@ -12,5 +12,5 @@
 8. **Personal Project**
   * **Proposal** (Due Thursday **3/21**)
   * **Prototype** (Due Tuesday **4/9**)
-  * **Final Project** (Due Thursday **4/25**)
+  * **Final Project** (Due TBA in Finals Week)
 9. **Card Exchange** (Due **4/30** at Noon; *ungraded*)
