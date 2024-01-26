@@ -72,7 +72,7 @@ The Processing toolkit is documented [here](https://processing.org/reference) an
 
 ## Generating SVGs with JavaScript (p5.js)
 
-[**p5.js**](https://p5js.org/) is Processing's JavaScript sibling. Version 1.6.0 of p5.js, along with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.5.1, can be used to generate SVGs. **Note**: *As of January 2024, the current version of p5.js (v.1.9.0) is not compatible with the p5.js-svg renderer (v.1.5.1). Instead, be sure to use p5.js v.1.6.0, which is set in the index.html file of your sketch.* The documentation for p5.js is [here](https://p5js.org/reference/).
+[**p5.js**](https://p5js.org/) is Processing's JavaScript sibling. Version **1.6.0** of p5.js, along with @zenozeng's [p5.js-svg library](https://github.com/zenozeng/p5.js-svg) v.1.5.1, can be used to generate SVGs. **Note**: *As of January 2024, the current version of p5.js (v.1.9.0) is not compatible with the p5.js-svg renderer (v.1.5.1). Instead, be sure to use p5.js v.1.6.0, which is set in the index.html file of your sketch.* The documentation for p5.js is [here](https://p5js.org/reference/).
 
 * *Lissajous demo* - [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/JBWOKOQYH) - [on GitHub](p5js/svg_lissajous/sketch.js)
 * *100 Random Lines* - [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/afWmQU4yg) - [on GitHub](p5js/svg_lissajous/sketch.js)

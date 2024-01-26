@@ -4,7 +4,7 @@
 * 3a: Plotter tool resource immersion (10 points; 20 minutes)
 * 3b: Looking Outwards: Generative Plotter Art (20 points; 30 minutes)
 * 3c: Reading Response: Skimming Other's Practices (20 points, 30 minutes)
-* 3d: **Generate a Plot!** (50 points, 60-120 minutes)
+* 3d: **Make a Simple Plot!** (50 points, 60-120 minutes)
 
 ---
 
@@ -28,7 +28,7 @@
 
 *(20 points, 30 minutes)* The purpose of this prompt is to develop your familiarity with global practices and international communities of people using code to create art with plotters. You can find this work on the following channels, among other places:
 
-* In the book [*Tracing the Line*](https://vetroeditions.com/products/tracing-the-line), in our classroom
+* In the book [*Tracing the Line*](https://vetroeditions.com/products/tracing-the-line), in our classroom (cabinet 1A)
 * On [Twitter/X, using the hashtag #PlotterTwitter](https://twitter.com/hashtag/plottertwitter)
 * On Instagram at [#PlotterTwitter](https://www.instagram.com/explore/tags/plottertwitter/) (yes) and [GenerativeHut](https://www.instagram.com/generative.hut/)
 * On the [DrawingBots Discord](https://discordapp.com/invite/XHP3dBg), in the "Gallery" channels 
@@ -73,20 +73,20 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 
 ---
 
-### 3d. Making a Simple Plot!
+### 3d. Make a Simple Plot!
 
-![Rad Lines tool](img/rad-lines.png)
+![lissajous_from_processing_java.svg](img/lissajous_from_processing_java.svg)
 
 (*50 points, 60-120 minutes*)
 
-* **Generate** an SVG using Maks Surguy's [Rad Lines](https://msurguy.github.io/rad-lines/).
-* Using an AxiDraw, **plot** the SVG in black ink on 9x12 or 8.5x11 white paper.
-* (20 *points*) In a Discord post in the channel #3d-make-a-plot, **post** a photo of your drawing.
-* (30 *points*) **Bring** your plot to class on Tuesday 1/30. 
+* Using one of the provided code templates, **Generate** an SVG of one of the provided "**Lissajous**" designs. You may choose from one of the following four workflows:
+  * [Java with Processing](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-java-processing), 
+  * [JavaScript with p5.js **v.1.6.0**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-javascript-p5js), 
+  * [Python in the Processing **v.3.5.4**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-python-processingpy-v354) IDE, or 
+  * [command-line Python with vsketch and vpype](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-python-vsketch). 
+* Using an AxiDraw, **plot** the Lissajous SVG in black ink on 9x12 or 8.5x11 white paper.
+* (*50 points*) In a Discord post in the channel #3d-make-a-plot, **post** a photo of your plot.
+* **Bring** your plot to class on Tuesday 1/30. 
 
-
----
-
-* [2021 Version](https://courses.ideate.cmu.edu/60-428/f2021/offerings/2-generating-svgs/)
 
 
