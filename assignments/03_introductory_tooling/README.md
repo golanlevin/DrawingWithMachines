@@ -66,10 +66,10 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 
 *(20 points, 30 minutes)* The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. (*Note: It is sufficient to skim these articles!*)
 
-* Skim [*9 Tips to Execute Generative Art with a Plotter*](https://tylerxhobbs.com/essays/2018/executing-generative-art-with-a-plotter) by Tyler Hobbs
-* Skim [*300 Days with Plotters*](https://liciahe.medium.com/300-days-with-plotters-14159ab64034) by Licia He
-* Skim *Pen Plotter Art & Algorithms*, [Part 1](https://mattdesl.svbtle.com/pen-plotter-1) and [Part 2](https://mattdesl.svbtle.com/pen-plotter-2) by Matt Deslauriers
-* Skim [*Pen Plotter Programming: the Basics*](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929) by Michael Fogleman
+* Skim: [*9 Tips to Execute Generative Art with a Plotter*](https://tylerxhobbs.com/essays/2018/executing-generative-art-with-a-plotter) by Tyler Hobbs
+* Skim: [*300 Days with Plotters*](https://liciahe.medium.com/300-days-with-plotters-14159ab64034) by Licia He
+* Skim: *Pen Plotter Art & Algorithms*, [Part 1](https://mattdesl.svbtle.com/pen-plotter-1) and [Part 2](https://mattdesl.svbtle.com/pen-plotter-2) by Matt Deslauriers
+* Skim: [*Pen Plotter Programming: the Basics*](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929) by Michael Fogleman
 
 *Now*,
 
