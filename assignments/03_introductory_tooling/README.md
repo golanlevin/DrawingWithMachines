@@ -1,10 +1,10 @@
 # Assignment 3: *Introductory Tooling*
 
 
-* 3a: Plotter tool resource immersion (10 points; 20 minutes)
-* 3b: Looking Outwards: Generative Plotter Art (20 points; 30 minutes)
-* 3c: Reading Response: Skimming Other's Practices (20 points, 30 minutes)
-* 3d: **Make a Simple Plot!** (50 points, 60-120 minutes)
+* [3a: Plotter tool resource immersion](#3a-plotter-tool-resource-immersion) (10 points; 20 minutes)
+* [3b: Looking Outwards: Generative Plotter Art](#3b-looking-outwards-some-generative-plotter-art) (20 points; 30 minutes)
+* [3c: Reading Response: Skimming Other's Practices](#3c-reading-response-skimming-others-practices) (20 points, 30 minutes)
+* [3d: **Make a Simple Plot!**](#3d-make-a-simple-plot) (50 points, 60-120 minutes)
 
 ---
 
@@ -75,7 +75,7 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 
 ### 3d. Make a Simple Plot!
 
-![lissajous_from_processing_java.svg](img/lissajous_from_processing_java.svg)
+![lissajous screenshot](img/lissajous-screenshot.png)
 
 (*50 points, 60-120 minutes*)
 
