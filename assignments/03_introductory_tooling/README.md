@@ -1,5 +1,6 @@
 # Assignment 3: *Introductory Tooling*
 
+*This set of exercises is due at the beginning of class on Tuesday, January 30th. No coding or other "creative" work is required, but you will need to find time on the weekend to make a plot (apologies).*
 
 * [3a: Plotter tool resource immersion](#3a-plotter-tool-resource-immersion) (10 points; 20 minutes)
 * [3b: Looking Outwards: Generative Plotter Art](#3b-looking-outwards-some-generative-plotter-art) (20 points; 30 minutes)
@@ -10,10 +11,12 @@
 
 ### 3a. Plotter tool resource immersion
 
+[![Drawingbots.net](img/drawingbots.png)](https://drawingbots.net/resources)
+
 *(10 points; 20 minutes)* The purpose of this exercise is to help introduce you to resources and communities for computer controlled pen-plotting machines. Note: The focus here is on *technical* resources.
 
+* Spend 10 minutes browsing the materials on [**DrawingBots.net**](https://drawingbots.net/), particularly including the special [**Resources page**](https://drawingbots.net/resources). This is "the central place on the web to discover the world of drawing robots, get inspiration and talk to other drawing robot enthusiasts." Optionally, check out the affiliated [DrawingBots Discord (invite here)](https://discordapp.com/invite/XHP3dBg). There are lists of recommended pens, various types of SVG generators, links to code libraries, etc.
 * Spend 5-10 minutes browsing the materials at the [**AwesomePlotters Repository**](https://github.com/beardicus/awesome-plotters), "a curated list of code and resources for computer-controlled drawing machines and other visual art robots."
-* Spend 5-10 minutes browsing the materials on [**DrawingBots.net**](https://drawingbots.net/), including the special [Resources page](https://drawingbots.net/resources). This is "the central place on the web to discover the world of drawing robots, get inspiration and talk to other drawing robot enthusiasts." Optionally, check out the affiliated [DrawingBots Discord (invite here)](https://discordapp.com/invite/XHP3dBg). 
 * Spend 2-3 minutes familiarizing yourself with the [**AxiDraw documentation Wiki**](https://wiki.evilmadscientist.com/AxiDraw), "the central documentation site for AxiDraw plotters from Evil Mad Scientist."
 * Now, in our Discord channel *#3a-tooling-resources*, **make** a very brief post about a specific technical resource that caught your attention. 
   * (*2 points*) **Link** to the resource, 
@@ -33,7 +36,7 @@
 * On Instagram at [#PlotterTwitter](https://www.instagram.com/explore/tags/plottertwitter/) (yes) and [GenerativeHut](https://www.instagram.com/generative.hut/)
 * On the [DrawingBots Discord](https://discordapp.com/invite/XHP3dBg), in the "Gallery" channels 
 
-Additionally/alternatively, you may check out work by some recommended contemporary artists. (*Note, these are living, 3rd- and 4th generation software artists, generally under 40 years old.*)
+Additionally/alternatively, you may check out work by some recommended contemporary artists. (*Note, these are living, 3rd- and 4th generation software artists, generally under 40 years old, as opposed to 1st-generation computer artists who used plotters in the 1960s.*)
 
 * [Licia He](https://www.eyesofpanda.com/gallery/)
 * [Joanie Lemercier](https://twitter.com/JoanieLemercier/status/1391443586206535682)
@@ -58,6 +61,8 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 ---
 
 ### 3c. Reading Response: Skimming Others' Practices
+
+![licia-he-process.png](img/licia-he-process.png)
 
 *(20 points, 30 minutes)* The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. (*Note: It is sufficient to skim these articles!*)
 
@@ -84,8 +89,8 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
   * [JavaScript with p5.js **v.1.6.0**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-javascript-p5js), 
   * [Python in the Processing **v.3.5.4**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-python-processingpy-v354) IDE, or 
   * [command-line Python with vsketch and vpype](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-python-vsketch). 
-* Using an AxiDraw, **plot** the Lissajous SVG in black ink on 9x12 or 8.5x11 white paper.
-* (*50 points*) In a Discord post in the channel #3d-make-a-plot, **post** a photo of your plot.
+* Using an AxiDraw, **plot** the Lissajous SVG in black ink on 9x12 or 8.5x11 white paper. Feel free to sign your artwork flamboyantly.
+* (*50 points*) In a Discord post in the channel *#3d-make-a-plot*, **post** a photo of your plot.
 * **Bring** your plot to class on Tuesday 1/30. 
 
 
