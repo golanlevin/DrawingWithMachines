@@ -77,9 +77,12 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 
 ![Rad Lines tool](img/rad-lines.png)
 
-(*50 points, 60-120 minutes*) Info TBA.
+(*50 points, 60-120 minutes*)
 
-* Maks Surguy's [Rad Lines](https://msurguy.github.io/rad-lines/)
+* **Generate** an SVG using Maks Surguy's [Rad Lines](https://msurguy.github.io/rad-lines/).
+* Using an AxiDraw, **plot** the SVG in black ink on 9x12 or 8.5x11 white paper.
+* (20 *points*) In a Discord post in the channel #3d-make-a-plot, **post** a photo of your drawing.
+* (30 *points*) **Bring** your plot to class on Tuesday 1/30. 
 
 
 ---
