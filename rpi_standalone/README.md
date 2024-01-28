@@ -1,5 +1,7 @@
 # AxiDraw RPi Instructions (2024)
 
+[PDF version](README_assets/instructions_2024.pdf)
+
 ---
 
 ### Putting your file onto the RPi:
