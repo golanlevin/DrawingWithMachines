@@ -1,6 +1,6 @@
 # Assignment 4: *Line*
 
-This Assignment has three components, and is due at the beginning of class on Tuesday 2/6: 
+This Assignment has three components, and is due at the beginning of class on **Tuesday February 6th**: 
 
 * 4a. Reading on Computational Drawing (*30 minutes, 10 points*) 
 * 4b. A Quartet of Line Exercises (*2 hours, 40 points*)
