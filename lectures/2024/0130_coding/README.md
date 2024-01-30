@@ -8,6 +8,7 @@
 
 * Please complete this survey of general plotting times: [Draft when2meet poll, here](https://www.when2meet.com/?23333057-znyQ3).
 * Our instructions for [Executing a plot on the AxiDraw](https://github.com/golanlevin/DrawingWithMachines/blob/main/rpi_standalone/README.md) have been updated :)
+* (Do we need to do some plotting?)
 * Pointer to [Assignment #4, *Line*](../../../assignments/04_line/README.md), due **Tuesday February 6**.
 
 #### Time Permitting
