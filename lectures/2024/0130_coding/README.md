@@ -13,6 +13,7 @@
 
 #### Time Permitting
 
+* [Robert Hodgin's signature](https://twitter.com/flight404/status/1354874659804762113)
 * [Joanie LeMercier's desert workflow](https://twitter.com/JoanieLemercier/status/996180699357958144) (& [more](https://twitter.com/JoanieLemercier/status/1391443586206535682))
 * William Forsythe's *Improvisation Technologies* (1995): [*Point-Point-Line*](https://www.youtube.com/watch?v=6X29OjcBHG8), [*Line Extrusion*](https://www.youtube.com/watch?v=e_7ixi32lCo), [*Line Avoidance*](https://www.youtube.com/watch?v=cqGyFiEXXIQ), [*Dropping Curves*](https://www.youtube.com/watch?v=_zt95yXWLX4)
 * [*The Dot and the Line*](https://vimeo.com/4929038) (1965, 10m)
@@ -27,6 +28,9 @@
 In *Lines: a Brief History*,  Chapter 6, Tim Ingold writes:
 
 > *In his book "The Nature and Art of Workmanship", theorist of design David Pye arrives at a […] distinction between what he calls the ‘workmanship of risk’ and the ‘workmanship of certainty’. In the workmanship of risk, the result is not pre-determined but ‘depends on the judgement, dexterity and care which the maker exercises as he works’ (Pye 1968: 4). Thus the quality of the outcome is never assured until the work is actually finished. In the workmanship of certainty, by contrast, the result is exactly pre-determined before the task is even begun. This determination is given in the settings and specifications of the apparatus of production, which in turn controls the movements of the working point. The workmanship of risk, Pye suggests, is exemplified by writing with a pen, and the workmanship of certainty by modern printing. In the workmanship of risk, however, practitioners are continually devising ways to limit risk through the use of jigs and templates, which introduce a degree of certainty into the proceedings. Thus ‘if you want to draw a straight line with your pen’, Pye advises, ‘you do not go at it freehand, but use a ruler, that is to say, a jig’.*
+
+![molnar_mothers_letters.jpg](img/molnar_mothers_letters.jpg)<br />Vera Molnar, *My Mother’s Letters* (1988) - [Article](img/molnar_mothers_letters.pdf)
+
 
 ---
 
