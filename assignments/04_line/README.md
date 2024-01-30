@@ -3,8 +3,8 @@
 This Assignment has three components, and is due at the beginning of class on **Tuesday February 6th**: 
 
 * 4a. [Reading on Computational Drawing](#4a-reading-on-computational-drawing) (*30 minutes, 10 points*) 
-* 4b. [A Quartet of Line Exercises](#4b-a-quartet-of-line-exercises) (*2 hours, 40 points*)
-* 4c. [Taking a Line for a Walk](#4c-taking-a-line-for-a-walk) (*2-4 hours, 50 points*)
+* 4b. [A Quartet of Line Exercises](#4b-a-quartet-of-line-exercises) (*2 hours, 40 points*) - **entails 2 plots**
+* 4c. [Taking a Line for a Walk](#4c-taking-a-line-for-a-walk) (*2-4 hours, 50 points*) - **entails 1 plot**
 
 ---
 
@@ -56,7 +56,7 @@ As with exercise **4b-1**, write a program that stores cursor points while a use
 
 ![parallel_polyline.png](resources/parallel_polyline.png)
 
-*Note: How does your code manage the condition in which the user draws a sharp concave angle? (Python programmers, check out Shapely...)*
+*Note: Out of curiosity, how does your code manage the condition in which the user draws a sharp concave angle? (Python programmers, check out Shapely...)*
 
 ### 4b-3. Lines of Different Weights
 
