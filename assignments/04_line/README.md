@@ -2,9 +2,9 @@
 
 This Assignment has three components, and is due at the beginning of class on **Tuesday February 6th**: 
 
-* 4a. Reading on Computational Drawing (*30 minutes, 10 points*) 
-* 4b. A Quartet of Line Exercises (*2 hours, 40 points*)
-* 4c. Taking a Line for a Walk (*2-4 hours, 50 points*)
+* 4a. [Reading on Computational Drawing](#4a-reading-on-computational-drawing) (*30 minutes, 10 points*) 
+* 4b. [A Quartet of Line Exercises](#4b-a-quartet-of-line-exercises) (*2 hours, 40 points*)
+* 4c. [Taking a Line for a Walk](#4c-taking-a-line-for-a-walk) (*2-4 hours, 50 points*)
 
 ---
 
@@ -133,7 +133,7 @@ In this assignment, you are asked to **write** code that takes a dot (or line) f
 
 ---
 
-[*2021 Version*](https://courses.ideate.cmu.edu/60-428/f2021/offerings/3-foundation/)
+(Obsolete) [*2021 Version*](https://courses.ideate.cmu.edu/60-428/f2021/offerings/3-foundation/)
 
 ---
 
