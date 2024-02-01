@@ -7,3 +7,4 @@
 * Jan 23: [Rule Based Art II](2024/0123_rule_based_art/README.md)
 * Jan 25: [Guests; Crit #2; Tooling](2024/0125_tooling/README.md)
 * Jan 30: [Breezy Review of Creative Coding](2024/0130_coding/README.md)
+* Feb 01: [Linewalking](2024/0201_linewalking/README.md)
