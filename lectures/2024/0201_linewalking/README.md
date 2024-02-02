@@ -49,12 +49,40 @@
 
 #### Turtle Graphics.
 
+![Turtle_Graphics_Spiral.svg.png](img/Turtle_Graphics_Spiral.svg.png)
+
 #### Turtle Graphics: Greek Meander Designs
 
 A meander or meandros, also called a Greek fret or Greek key, is a decorative border constructed from a continuous line, shaped into a repeated motif. Meanders are [common decorative elements in Greek and Roman art](https://blogmymaze.wordpress.com/2012/06/07/different-types-of-meanders-in-greek-art/), used as running ornaments. On one hand, the name “meander” recalls the twisting and turning path of the Maeander River in Asia Minor, and on the other hand, as Karl Kerenyi has pointed out, “the meander is the figure of a labyrinth in linear form”.
 
 ![greek-border-patterns.png](img/greek-border-patterns.png)
 
+
+#### Writing-Like
+
+#### Manfred Mohr, *P-021/B*, 1969
+
+![p021b.gif](img/p021b.gif)
+
+*P-021/A + B*, "band-structure", computer generated algorithmic plotter drawings, ink/paper, 1969, 50cm x 50cm
+
+> *"The elements are horizontal, vertical, 45 degree lines, square waves, zig-zags, and have probabilities for line widths and lengths. The algorithm places elements in a horizontal direction and has a high probability to move from left to right and a limited probability to backtrack.
+The original idea of this algorithm was to create a visual musical score which defies the progression in time by occasionally turning back on itself. Thus at the same time an abstract text is created."*
+
+#### Vera Molnár, *Lettres de ma Mère* (1988)
+
+![molnar_mothers_letters.jpg](img/molnar_mothers_letters.png)
+
+Spencerian Flourishes (copperplate calligraphy) 
+
+* [image](img/flourish-exercises-2.jpg)
+* [code example](https://editor.p5js.org/golan/sketches/_bBzlrd26)
+
+![flourish-exercises-1.jpg](img/flourish-exercises-1.jpg)
+
+#### Drunk Walk
+
+* demo
 
 #### Turtle Graphics with Recursion (Fractals)
 
@@ -66,24 +94,38 @@ The Koch Snowflake, Hilbert Curve, Minkowski Island, and other "[space-filling c
 
 ![minkowski-island.png](img/minkowski-island.png)
 
-#### Writing-Like
+#### Signal Filtering
 
-* copperplate calligraphy Spencerian Flourishes 
-* Manfred Mohr
-* Vera Molnar
+* Smoothing & sharpening ("convolution kernel filtering"). [Example](https://editor.p5js.org/golan/sketches/G-uT6taZ_)
 
-#### Drunk Walk
+#### Braitenberg Vehicles
 
-Smoothing & sharpening
+![braitenberg-vehicles.png](img/braitenberg-vehicles.png)
 
-Braitenberg Vehicles
+#### Differential Growth
+
+![differential-growth.png](img/differential-growth.png)
+
+#### Double Pendulum
+
+Double Pendulum (https://editor.p5js.org/codingtrain/sketches/jaH7XdzMK), tripolar (https://www.snibbe.com/art/tripolar)
+
+![tripolar.png](img/tripolar.png);
+
+#### Fourier Synthesis
+
+![trex.gif](img/trex.gif)
+
+Fourier synthesis
+https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#fourier-series
+https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#fourier-series, https://www.youtube.com/watch?v=MY4luNgGfms
+
+---
+
+Parametric equations (mathworld)
 Leaf venation, space colonization
 Crack formation 
 Path planning
-Differential Growth
-Double Pendulum (https://editor.p5js.org/codingtrain/sketches/jaH7XdzMK), tripolar (https://www.snibbe.com/art/tripolar)
-Parametric equations (mathworld)
-Fourier synthesis, https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#fourier-series, https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#fourier-series, https://www.youtube.com/watch?v=MY4luNgGfms
 
 
 ---
