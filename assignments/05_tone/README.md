@@ -45,14 +45,22 @@ Below is some more potential inspo.
 
 ## 5b. Hatched Portrait
 
-(50 points). In this exercise, you will devise a hatching method in order to render a photograph using the plotter.
+(*50 points*). In this exercise, you will devise a hatching method in order to render a photograph using the plotter:
 
-![algorigraph-portrait.jpg](img/algorigraph-portrait.jpg)
+* Write code to **implement** a hatching method capable of transducing a continuous-tone photograph for plotting. Here's some sample p5 code for [weighted rejection sampling](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) and some code for [hatching with lines in grid-based subdivisions of an image](https://editor.p5js.org/golan/sketches/CQmqp4JTQ).
+* **Choose** a portrait phorograph to transduce with the plotter. Your portrait should be of someone you know personally (friend, family) or yourself. Give consideration to the relationship between your subject (*who*) and your hatching method (*how*). Note: You may not create a portrait of a celebrity or of the professor.
+* **Apply** your hatching technique to the portrait photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is strongly recommended that you limit yourself to one color of pen.
+* **Create** a Discord post in the *#5b-hatched-portrait* channel.
+* (*35 points*) In your Discord post, **embed** a photograph of your portrait plot.
+* (*5 points*) In your Discord post, **embed** a copy of your original source photograph.
+* (*10 points*) In your Discord post, please **write** a couple sentences about your process. Evaluate your work. 
 
+![algorigraph-portrait.jpg](img/algorigraph-portrait.jpg)<br />*By Algorigraph*.
 
+![floccugraph_2.jpg](img/floccugraph_2.jpg)<br />*By Golan Levin, 1999.*
 
 ---
 
-* [2021 Version](https://courses.ideate.cmu.edu/60-428/f2021/offerings/4-hatching/)
+* [*2021 Version*](https://courses.ideate.cmu.edu/60-428/f2021/offerings/4-hatching/)
 
 ---

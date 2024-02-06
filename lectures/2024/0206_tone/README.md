@@ -34,9 +34,24 @@ You can hatch along, against, or perpendicular to natural gradients in the image
 
 ![NicolasJolly.jpg](img/NicolasJolly.jpg)<br />By Nicolas Jolly.
 
-#### Pens matter.
+#### Material Considerations.
+
+Contrasts: 
 
 ![pens-make-a-difference.jpg](img/pens-make-a-difference.jpg)
+
+Possibilities for dwelling-based halftoning:
+
+![fogleman-pencils.png](img/fogleman-pencils.png)
+
+Gradient of drawing devices:
+
+![bleeding-ink-dwelling.png](img/bleeding-ink-dwelling.png)
+
+
+#### Contrasts
+
+![contrasts.jpg](img/contrasts.jpg)
 
 ---
 
