@@ -76,13 +76,33 @@ The original idea of this algorithm was to create a visual musical score which d
 Spencerian Flourishes (copperplate calligraphy) 
 
 * [image](img/flourish-exercises-2.jpg)
+* [image](img/flourish-exercises-3.jpg)
 * [code example](https://editor.p5js.org/golan/sketches/_bBzlrd26)
+
+![compu-flourish.png](img/compu-flourish.png)
 
 ![flourish-exercises-1.jpg](img/flourish-exercises-1.jpg)
 
 #### Drunk Walk
 
-* demo
+```
+// Dumb Perlin Drunk Walk
+let px = 200; 
+let py = 200;
+function setup() {
+  createCanvas(400, 400);
+  background(220);
+  fill(0);
+}
+
+function draw() {
+  let qx = px + map(noise(12345+millis()/1000),0,1,-1,1);
+  let qy = py + map(noise(34567+millis()/1000),0,1,-1,1);
+  line(px,py,qx,qy); 
+  px = qx; 
+  py = qy;
+}
+```
 
 #### Turtle Graphics with Recursion (Fractals)
 
@@ -116,16 +136,28 @@ Double Pendulum (https://editor.p5js.org/codingtrain/sketches/jaH7XdzMK), tripol
 
 ![trex.gif](img/trex.gif)
 
-Fourier synthesis
-https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#fourier-series
-https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#fourier-series, https://www.youtube.com/watch?v=MY4luNgGfms
+* https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#fourier-series
+* https://www.youtube.com/watch?v=MY4luNgGfms
+
+#### Dubins Path
+
+Optimal path for robots/turtles with a fixed turning radius. 
+
+* [Dubins Paths](https://en.wikipedia.org/wiki/Dubins_path)
+* [Example app](https://editor.p5js.org/Codefish/sketches/mtTdme9-H)
+
+![dubins-paths-between-two-nodes.png](img/dubins-paths-between-two-nodes.png)
+
+![jurg-lehni-hektor-dubins-font.gif](img/jurg-lehni-hektor-dubins-font.gif)
 
 ---
 
-Parametric equations (mathworld)
-Leaf venation, space colonization
-Crack formation 
-Path planning
+#### Other
+
+* Parametric equations (mathworld)
+* Leaf venation, space colonization
+* Crack formation 
+* Path planning
 
 
 ---
