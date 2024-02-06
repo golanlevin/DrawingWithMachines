@@ -4,7 +4,7 @@
 
 ## Agenda
 
-
+* Happy Chinese New Year
 * [A Line Exercise Solution](https://editor.p5js.org/golan/sketches/wA9aCcCBz)
 * Review of *Line Walk* drawings
 * **Tone**: The appearance of continuous tone can be made through processes of hatching, stippling, dithering, and halftoning, among other techniques. 
