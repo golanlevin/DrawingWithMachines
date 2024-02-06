@@ -41,11 +41,11 @@ Contrasts:
 
 ![pens-make-a-difference.jpg](img/pens-make-a-difference.jpg)
 
-Possibilities for dwelling-based halftoning:
+Gradient of drawing devices:
 
 ![fogleman-pencils.png](img/fogleman-pencils.png)
 
-Gradient of drawing devices:
+Possibilities for dwelling-based halftoning (ink bleeding):
 
 ![bleeding-ink-dwelling.png](img/bleeding-ink-dwelling.png)
 
