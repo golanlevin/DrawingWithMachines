@@ -45,15 +45,27 @@ Below is some more potential inspo.
 
 ## 5b. Hatched Portrait
 
-(*50 points*). In this exercise, you will devise a hatching method in order to render a photograph using the plotter:
+(*50 points*). In this exercise, you will devise a method to render a photograph using the plotter. The objectives of this project are: 
+
+1. To learn how to convert or transduce *raster* images into *vector* representations, and
+2. To learn how to represent gradations of continuous tone through *hatching*, dithering, halftones, or related techniques.
+
+*Now*: 
+
 
 * Write code to **implement** a hatching method capable of transducing a continuous-tone photograph for plotting. Here's some sample p5 code for [weighted rejection sampling](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) and some code for [hatching with lines in grid-based subdivisions of an image](https://editor.p5js.org/golan/sketches/CQmqp4JTQ).
-* **Choose** a portrait phorograph to transduce with the plotter. Your portrait should be of someone you know personally (friend, family) or yourself. Give consideration to the relationship between your subject (*who*) and your hatching method (*how*). Note: You may not create a portrait of a celebrity or of the professor.
-* **Apply** your hatching technique to the portrait photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is strongly recommended that you limit yourself to one color of pen.
+* **Choose** a portrait phorograph to transduce with the plotter. Your portrait should be of someone you know personally (friend, family) or yourself. 
+* Give consideration to the relationship between your subject (*who*) and your hatching method (*how*). Ideally, these will be tightly coupled: you will choose a photo for a specific rendering treatment, and/or develop a rendering treatment for a specific photo. 
+* **Apply** your hatching technique to the photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is strongly recommended that you limit yourself to one color of pen.
 * **Create** a Discord post in the *#5b-hatched-portrait* channel.
 * (*35 points*) In your Discord post, **embed** a photograph of your portrait plot.
 * (*5 points*) In your Discord post, **embed** a copy of your original source photograph.
 * (*10 points*) In your Discord post, please **write** a couple sentences about your process. Evaluate your work. 
+
+*Additional remarks:*
+
+1. The purpose of asking you to make a portrait of (e.g.) a friend or loved one is to ensure that you have a meaningful investment in the subject of your image. If there is another subject you would prefer to use (such as your cat etc.), fine. 
+2. You may not create a portrait of a celebrity, or of the professor.
 
 ![algorigraph-portrait.jpg](img/algorigraph-portrait.jpg)<br />*By Algorigraph*.
 
