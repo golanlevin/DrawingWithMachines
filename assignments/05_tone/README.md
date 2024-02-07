@@ -54,7 +54,7 @@ Below is some more potential inspo.
 
 
 * Write code to **implement** a hatching method capable of transducing a continuous-tone photograph for plotting. Here's some sample p5 code for [weighted rejection sampling](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) and some code for [hatching with lines in grid-based subdivisions of an image](https://editor.p5js.org/golan/sketches/CQmqp4JTQ).
-* **Choose** a portrait phorograph to transduce with the plotter. Your portrait should be of someone you know personally (friend, family) or yourself. 
+* **Choose** a portrait photograph to transduce with the plotter. Your portrait should be of someone you know personally (friend, family) or yourself. 
 * Give consideration to the relationship between your subject (*who*) and your hatching method (*how*). Ideally, these will be tightly coupled: you will choose a photo for a specific rendering treatment, and/or develop a rendering treatment for a specific photo. 
 * **Apply** your hatching technique to the photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is strongly recommended that you limit yourself to one color of pen.
 * **Create** a Discord post in the *#5b-hatched-portrait* channel.
