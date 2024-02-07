@@ -3,7 +3,7 @@
 This assignment has two parts, and is due at the beginning of class on Tuesday, February 13: 
 
 * [**5a. Hatching Studies**](#5a-hatching-studies) (50 points, 3 hours)
-* [**5b. Hatched Portrait**](#5b-hatched-portrait) (50 points, 3 hours)
+* [**5b. Hatched Photograph**](#5b-hatched-photograph) (50 points, 3 hours)
 
 ---
 
@@ -11,7 +11,7 @@ This assignment has two parts, and is due at the beginning of class on Tuesday, 
 
 *Please read this prompt all the way to the end, before you start any drawing or coding. The purpose of this prompt is for you to develop foundational skills in controlling value and tone.*
 
-*First, a warmup exercise*: By hand, with a pen and paper, **draw** some hatching studies (i.e., ways of approximating gray tones using assemblies of lines, in order to fill areas of paper). Specifically: **Generate** 9 different hand-drawn hatching concepts or styles (say, in a 3×3 grid)—starting with the most obvious and simple hatching methods, and aiming for some more exotic hatching methods that you would have no idea how to implement in code. For each hatching style/concept, draw a "value scale" in which you explore how that method increases or decreases its density.
+*First, a warmup exercise*: By hand, with a pen and paper, **draw** some hatching studies (i.e., ways of approximating gray tones using assemblies of lines, in order to fill areas of paper). Specifically: **Generate** 9 different hand-drawn hatching concepts or styles (say, in a 3×3 grid)—starting with the most obvious and simple hatching methods, and aiming for some more exotic hatching methods that you might not have any idea how to implement in code. For each hatching style/concept, draw a "value scale" in which you explore how that method achieves variations in density.
 
 ![value-scale-3-subset.jpg](img/value-scale-3-subset.jpg)
 
@@ -29,7 +29,7 @@ This assignment has two parts, and is due at the beginning of class on Tuesday, 
 **In your designs,** 
 
 * **Consider** methods like: hatching, cross-hatching, scribbling, scumbling, stippling, fill patterns, or other creative methods of your own design. If you're feeling ambitious and self-directed, this is a perfect opportunity to explore how you can create hatching techiques using things like Perlin noise flow fields, physics simulations (e.g. particle systems, Lloyd's relaxation), typography (e.g. Hershey fonts), etc. 
-* **Consider** how you can productively control and contrast properties like: line direction, line density, line length, line curvature to produce different hatches with different characters. Consider how you can control the variation (e.g. randomness, or standard deviations) of these properties. *Do any of your hatching methods have more than one expressive variable (apart from value/density)*? 
+* **Consider** how you can productively control and contrast properties like: line direction, line density, line length, line curvature, line thickness, and line duty cycle (dashes) to produce different hatches with different characters. Consider how you can control the variation (e.g. randomness, or standard deviations) of these properties. *Do any of your hatching methods have more than one expressive variable (apart from value/density)*? 
 * **"Easement" 1:** For up to two of of your hatching methods, you are permitted to integrate “readymade” hatching code into your project (i.e., literally made by someone else — such as you might find in a high-level library like e.g. [PEmbroider](https://github.com/CreativeInquiry/PEmbroider), Cartopy, PyGeode, or [PySLM](https://github.com/drlukeparry/pyslm)). You may use such a library for no more than two of your four different hatch methods. An example project using PEmbroider is given [here](pembroider-example.md). Note that using an external library will not necessarily save you any time (*why*?).
 * **Easement 2:** For one of your hatching methods, feel free to implement the following extremely simple method shown immediately below, using parallel lines.  I have posted the code for this method [here](https://editor.p5js.org/golan/sketches/4KhqqgP7l) in case you'd like to peek at an example solution.
 
@@ -43,9 +43,9 @@ Below is some more potential inspo.
 
 ---
 
-## 5b. Hatched Portrait
+## 5b. Hatched Photograph
 
-(*50 points*). In this exercise, you will devise a method to render a photograph using the plotter. The objectives of this project are: 
+(*50 points*). In this exercise, you will devise a method to render a continuous-tone photograph using the plotter. The objectives of this project are: 
 
 1. To learn how to convert or transduce *raster* images into *vector* representations, and
 2. To learn how to represent gradations of continuous tone through *hatching*, dithering, halftones, or related techniques.
@@ -53,19 +53,19 @@ Below is some more potential inspo.
 *Now*: 
 
 
-* Write code to **implement** a hatching method capable of transducing a continuous-tone photograph for plotting. Here's some sample p5 code for [weighted rejection sampling](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) and some code for [hatching with lines in grid-based subdivisions of an image](https://editor.p5js.org/golan/sketches/CQmqp4JTQ).
-* **Choose** a portrait photograph to transduce with the plotter. Your portrait should be of someone you know personally (friend, family) or yourself. 
-* Give consideration to the relationship between your subject (*who*) and your hatching method (*how*). Ideally, these will be tightly coupled: you will choose a photo for a specific rendering treatment, and/or develop a rendering treatment for a specific photo. 
-* **Apply** your hatching technique to the photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is strongly recommended that you limit yourself to one color of pen.
+* Write code to **implement** a hatching method capable of transducing a continuous-tone photograph into a vector file for plotting. Here is some sample p5 code for [weighted rejection sampling](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) and some related code for [hatching with lines in grid-based subdivisions of an image](https://editor.p5js.org/golan/sketches/CQmqp4JTQ).
+* **Choose** a photograph to transduce with the plotter. Your photograph should depict a subject for which you have some meaningful personal investment, such as a portrait of someone you know personally (friend, family, self). 
+* Give consideration to the relationship between your subject (*who/what*) and your hatching method (*how*). Ideally, these will be tightly coupled: you will choose a photo for a specific rendering treatment, and/or develop a rendering treatment for a specific photo. 
+* **Apply** your hatching technique to the photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is recommended (for practical reasons) that you limit yourself to one color of pen.
 * **Create** a Discord post in the *#5b-hatched-portrait* channel.
-* (*35 points*) In your Discord post, **embed** a photograph of your portrait plot.
+* (*35 points*) In your Discord post, **embed** a photograph of your plotter drawing.
 * (*5 points*) In your Discord post, **embed** a copy of your original source photograph.
 * (*10 points*) In your Discord post, please **write** a couple sentences about your process. Evaluate your work. 
 
 *Additional remarks:*
 
-1. The purpose of asking you to make a portrait of (e.g.) a friend or loved one is to ensure that you have a meaningful investment in the subject of your image. If there is another subject you would prefer to use (such as your cat etc.), fine. 
-2. You may not create a portrait of a celebrity, or of the professor.
+1. The purpose of my asking you to make a *portrait* of (e.g.) a friend or loved one is to ensure that you have some sort of meaningful investment in the subject of your image. If there is a different subject that you would prefer to use (such as your cat etc.), that's fine. 
+2. You may not create a portrait of a celebrity, nor of the professor.
 
 ![algorigraph-portrait.jpg](img/algorigraph-portrait.jpg)<br />*By Algorigraph*.
 
