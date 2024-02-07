@@ -57,7 +57,7 @@ Below is some more potential inspo.
 * **Choose** a photograph to transduce with the plotter. Your photograph should depict a subject for which you have some meaningful personal investment, such as a portrait of someone you know personally (friend, family, self). 
 * Give consideration to the relationship between your subject (*who/what*) and your hatching method (*how*). Ideally, these will be tightly coupled: you will choose a photo for a specific rendering treatment, and/or develop a rendering treatment for a specific photo. 
 * **Apply** your hatching technique to the photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is recommended (for practical reasons) that you limit yourself to one color of pen.
-* **Create** a Discord post in the *#5b-hatched-portrait* channel.
+* **Create** a Discord post in the *#5b-hatched-photo* channel.
 * (*35 points*) In your Discord post, **embed** a photograph of your plotter drawing.
 * (*5 points*) In your Discord post, **embed** a copy of your original source photograph.
 * (*10 points*) In your Discord post, please **write** a couple sentences about your process. Evaluate your work. 
