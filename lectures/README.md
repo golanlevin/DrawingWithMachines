@@ -9,3 +9,4 @@
 * Jan 30: [Breezy Review of Creative Coding](2024/0130_coding/README.md)
 * Feb 01: [Linewalking](2024/0201_linewalking/README.md)
 * Feb 06: [Tone](2024/0206_tone/README.md)
+* Feb 08: [Tone Workday](2024/0208_tone_workday)
