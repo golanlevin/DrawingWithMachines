@@ -136,7 +136,7 @@ This SVG file depicts a vector graphic resembling the following:
 
 ***Summary:*** *[vpype](https://github.com/abey79/vpype), by [Antoine Beyeler](https://github.com/abey79/), "is an extensible CLI pipeline utility which aims to be the Swiss Army knife for creating, modifying and/or optimizing plotter-ready vector graphics." In this section, we will use vpype to convert the SVG to HPGL—in particular, using its export settings for the HP7475A as described [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl). For more information on the HPGL language, here's the complete [HPGL specification](hpgl/HPGL.pdf) (PDF).*
 
-![Example vpype command](images/vpype_command_line.svg)
+![Image: A generic example of a vpype command.](images/vpype_command_line.svg)<br />(Image: A generic example of a vpype command.)
 
 *This section should take about 10-15m.*
 
@@ -150,7 +150,7 @@ This SVG file depicts a vector graphic resembling the following:
 8. Within the virtual environment, install *vype*: ```pip install vpype[all]```
 9. You should now be able to run *vpype*: ```vpype --help```. This may take a moment the first time.
 10. Move a copy of your SVG file into your *myVpype* directory. Verify that vpype can load and display your SVG: ```vpype read lissajous.svg show```. (Note that this viewer exclusively uses metric units.)<br />![The vpype viewer](images/vpype_showing_file.png)
-11. In your Terminal, execute the *vpype* command to read the SVG and write HPGL formatted for the HP7475a. I used this command: ```vpype read lissajous.svg write --device hp7475a --page-size letter --landscape lissajous.hpgl``` but you can find a cookbook of additional recipes [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl).
+11. **VPYPE TO CONVERT SVG TO HPGL:**<br/> In your Terminal, execute the *vpype* command to read the SVG and write HPGL formatted for the HP7475a. I used this command: ```vpype read lissajous.svg write --device hp7475a --page-size letter --landscape lissajous.hpgl``` but you can find a cookbook of additional recipes [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl).
 12. This will produce an HPGL file ([lissajous.hpgl](vpype/lissajous.hpgl)), which, when examined with a text editor, contains: 
 
 ```
