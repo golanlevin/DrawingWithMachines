@@ -15,11 +15,10 @@ This assignment has two parts, and is due at the beginning of class on Tuesday, 
 
 ![value-scale-3-subset.jpg](img/value-scale-3-subset.jpg)
 
-
 *Now*: 
 
 * Write code to **implement** four different methods of hatching. You're not required to implement any method that you sketched earlier, but you're welcome to do so.
-* For each hatching method, **create** a value scale (gradient sequence) of five adjacent one-inch squares, with evenly-spaced gray values of 10%, 30%, 50%, 70%, 90%. Some inspirations can be seen below.
+* For each hatching method, **create** a value scale (gradient sequence) of five adjacent one-inch squares, with evenly-spaced gray values of 10%, 30%, 50%, 70%, 90%. Some inspirations can be seen [below](#hatch-inspo).
 * **Export** a single SVG with all four hatching sequences, and **plot** this using a thin black pen on a sheet of heavy white paper. *(Alternatively, you may use a white pen on black paper.)* If you use 11x8.5" paper, you will have the option to use the (fast) [HP7475a plotter (instructions here)](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/README.md).
 * **Create** a Discord post in the *#5a-hatching-studies* channel.
 * (*5 points*) In your Discord post, **embed** a photo of your 3×3 grid of handmade sketches.
@@ -35,7 +34,7 @@ This assignment has two parts, and is due at the beginning of class on Tuesday, 
 
 ![simple-line-hatching.png](img/simple-line-hatching.png)
 
-Below is some more potential inspo. 
+### Hatch Inspo 
 
 ![hatch-inspo.jpg](img/hatch-inspo.jpg)
 
@@ -47,16 +46,20 @@ Below is some more potential inspo.
 
 (*50 points*). In this exercise, you will devise a method to render a continuous-tone photograph using the plotter. The objectives of this project are: 
 
-1. To learn how to convert or transduce *raster* images into *vector* representations, and
+1. To learn how to convert or transduce *raster* images into *vector* representations, *and/or*
 2. To learn how to represent gradations of continuous tone through *hatching*, dithering, halftones, or related techniques.
 
 *Now*: 
 
-
-* Write code to **implement** a hatching method capable of transducing a continuous-tone photograph into a vector file for plotting. Here is some sample p5 code for [weighted rejection sampling](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) and some related code for [hatching with lines in grid-based subdivisions of an image](https://editor.p5js.org/golan/sketches/CQmqp4JTQ).
+* Write code to **implement** a hatching method capable of transducing a continuous-tone photograph into a vector file for plotting. 
+* **SAMPLE CODE.** Here is some sample code to get you started: 
+	* [weighted rejection sampling of an image](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) in p5.js 
+	* [line hatching in grid-based image subdivision](https://editor.p5js.org/golan/sketches/CQmqp4JTQ) in p5.js
+	* [line hatching in grid-based image subdivision](photo_grid_hatching_java/photo_grid_hatching_java.pde) in Processing (Java)
+	* [line hatching in grid-based image subdivision](photo_grid_hatching_py/photo_grid_hatching_py.pyde) in Processing (Python)
 * **Choose** a photograph to transduce with the plotter. Your photograph should depict a subject for which you have some meaningful personal investment, such as a portrait of someone you know personally (friend, family, self). 
 * Give consideration to the relationship between your subject (*who/what*) and your hatching method (*how*). Ideally, these will be tightly coupled: you will choose a photo for a specific rendering treatment, and/or develop a rendering treatment for a specific photo. 
-* **Apply** your hatching technique to the photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is recommended (for practical reasons) that you limit yourself to one color of pen.
+* **Apply** your hatching technique to the photograph, and **plot** the result. You may plot using any colors of pen and paper you like, but it is recommended (for purely practical reasons) that you limit yourself to one color of pen.
 * **Create** a Discord post in the *#5b-hatched-photo* channel.
 * (*35 points*) In your Discord post, **embed** a photograph of your plotter drawing.
 * (*5 points*) In your Discord post, **embed** a copy of your original source photograph.
@@ -64,7 +67,7 @@ Below is some more potential inspo.
 
 *Additional remarks:*
 
-1. The purpose of my asking you to make a *portrait* of (e.g.) a friend or loved one is to ensure that you have some sort of meaningful investment in the subject of your image. If there is a different subject that you would prefer to use (such as your cat etc.), that's fine. 
+1. The purpose of my asking you to make a *portrait* of (e.g.) a friend or loved one is to ensure that you have some sort of meaningful investment in the subject of your image. If there is a different subject that you would prefer to use (such as your cat, etc.), that's fine. 
 2. You may not create a portrait of a celebrity, nor of the professor.
 
 ![algorigraph-portrait.jpg](img/algorigraph-portrait.jpg)<br />*By Algorigraph*.
