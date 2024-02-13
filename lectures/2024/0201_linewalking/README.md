@@ -76,7 +76,7 @@ The original idea of this algorithm was to create a visual musical score which d
 Spencerian Flourishes (copperplate calligraphy) 
 
 * [image](img/flourish-exercises-2.jpg)
-* [image](img/flourish-exercises-3.jpg)
+* [image](img/flourish-exercises-3.png)
 * [code example](https://editor.p5js.org/golan/sketches/_bBzlrd26)
 
 ![compu-flourish.png](img/compu-flourish.png)
