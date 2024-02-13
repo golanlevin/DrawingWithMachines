@@ -16,6 +16,15 @@
 
 ![blob-club.jpg](img/blob-club.jpg)
 
+Orr Kislev
+* [Mempheez](https://www.fxhash.xyz/generative/29786); [debug](https://twitter.com/OrrKislev/status/1736252101208969496)
+* [Beautiful Friendship](https://www.fxhash.xyz/generative/26461)
+* [Pobbles](https://www.fxhash.xyz/generative/15487)
+* [Morphling](https://www.alba.art/projects/morphling)
+
+
+---
+
 In Kimi Hanauer's *Blobwork: Vision of Contemporary Art Practice & Engagement*, the author "tentatively defines" a blob as "a form that is in constant change and interaction with its specific site, a structure that transforms and moves between disciplines and spaces, all the while interacting and reacting with its audience." She writes: 
 
 > The blob is a system of ordering that, rather than containing its various components, flows through and between them as they expand and contract. It is order that occurs through interaction; an infestation that parasitically feeds from, and thus connects, the various parts within its system. Greg Lynn talks about the blob as an index of continuity and differentiation. The blob’s existence is based in its constant deconstruction of structure and the integration of change. The blob is infinite because its context and connections always have the potential for expansion. The blob is singular because it can be located within any one of its various constituent parts. The blob is a living organism that it is born, lives and eventually dies.
