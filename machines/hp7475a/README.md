@@ -55,11 +55,11 @@
 4. **Ensure** that the DIP switches on the rear of the plotter are set to [9600/8-N-1](https://en.wikipedia.org/wiki/8-N-1), and US letter (8.5x11") paper, as described on page 2-21 of the HP7475A [*Operation and Interconnection Manual*](manuals/7475A-OperationAndInterconnectionManual-07475-90002-102pages-Sep90.pdf). Note that the DIP switches control the machine *defaults* for paper size and measuring system (imperial/metric), but these can be changed from the front panel as well. The switches should look like the following:<br />![HP 7474A DIP switches.jpg](images/7474a_DIP_switches.jpg). 
 5. **Turn on** the plotter.
 6. **Launch** a serial port terminal program, such as [CoolTerm](http://freeware.the-meiers.org/). (A list of other possible serial port apps can be found [here](https://pbxbook.com/other/mac-ser.html) and includes RealTerm, Screen, Minicom, ZTerm, goSerial, Serial Tools, etc.) CoolTerm is distributed for macOS, Windows, Linux, and Raspberry Pi; a backup copy of version 1.9.0 (5/31/2021) for Mac is stashed [here](tools/CoolTermMac_1.9.0.zip).
-7. **Configure** the serial port terminal program so that it matches the communication settings of the plotter, 9600/8-N-1. For example, in CoolTerm, go: *Connection→Options*:<br />![CoolTerm configured for 9600/8-N-1](images/coolterm_7475a_serial_configuration.png)
-8. **Configure** (optionally) the serial port terminal program so that it is in "line mode", meaning that commands are transmitted when you press return:<br />![CoolTerm configured for line mode](images/coolterm_7475a_terminal_configuration.png)<br />
-In CoolTerm, go *Connection→Connect*. 
-8. **Transmit** HPGL to the plotter. Type the command ```IN;SP1;``` into CoolTerm and press return:<br />![](images/coolterm_7475a_testcommand.png)
-9. In response to the command, the HP7475A plotter should initialize itself and Select Pen #1.
+7. **Configure** the serial port terminal program so that it matches the communication settings of the plotter, 9600/8-N-1. You will need to turn OFF the "Software Supported Flow Control". For example, in CoolTerm, go: *Connection→Options->Serial Port*:<br />![CoolTerm configured for 9600/8-N-1](images/coolterm_7475a_serial_configuration.png)
+8. **Configure** the serial port terminal program so that it is in "line mode", meaning that commands are transmitted when you press return:<br />![CoolTerm configured for line mode](images/coolterm_7475a_terminal_configuration.png)<br />
+9. In CoolTerm, **Connect**! Go *Connection→Connect*. 
+10. **Transmit** HPGL to the plotter. Type the command ```IN;SP1;``` into CoolTerm and press return:<br />![](images/coolterm_7475a_testcommand.png)
+11. In response to the command, the HP7475A plotter should initialize itself and Select Pen #1. To put the pen back, type ```SP0;```.
 
 
 ---
@@ -183,11 +183,12 @@ Here are instructions for executing the plot, by sending the HPGL file over the 
 
 1. Have your HPGL file already generated. 
 2. Have the HP7475a connected to your computer. 
-2. Launch CoolTerm. 
-3. Under *Connections→Options→SerialPort*, enable CTS and DTR flow control, and turn off Software-Supported Flow Control:<br />![CoolTerm serial port settings](images/coolterm_7475a_xmit_file_settings.png)
-4. Activate the serial connection to the plotter using *Connections→Connect*.
-5. Load and Transmit the HPGL file using *Connections→SendText/BinaryFile*:<br />![Connections->SendText/BinaryFile](images/coolterm_7475a_send_file.png)
-6. The plotter will plot the file!
+3. Launch CoolTerm. 
+4. Under *Connections→Options→SerialPort*, enable CTS and DTR flow control, and turn OFF Software-Supported Flow Control:<br />![CoolTerm serial port settings](images/coolterm_7475a_xmit_file_settings.png)
+5. Under *Connections→Options→Terminal*, set the Terminal Mode to "Line Mode":<br />![coolterm_7475a_terminal_configuration2.png](images/coolterm_7475a_terminal_configuration2.png)
+6. Activate the serial connection to the plotter using *Connections→Connect*.
+7. Load and Transmit the HPGL file using *Connections→SendText/BinaryFile*:<br />![Connections->SendText/BinaryFile](images/coolterm_7475a_send_file.png)
+8. The plotter will plot the file!
 
 ![successful HP7475A plot](images/successful_7475A_plot.jpeg)
 
@@ -198,7 +199,7 @@ Here are instructions for executing the plot, by sending the HPGL file over the 
 
 Vpype is an extremely powerful tool for SVG manipulation, but there are several alternative workflows, especially if you need real-time control of the HP74785a or if you prefer to work in Java or C++.
 
-* **Real-time control of the HP7475A in Processing.** [Processing](https://processing.org/) can be used to directly control the HP7475A by sending HPGL commands over the serial port, effectively unifying steps 3-6 above. Critically, this also allows for the possibility of interactive (*real-time*) control of the plotter. An [**example of this is here**](processing/realtime_7475a/realtime_7475a.pde), in which the plotter copies the user's mouse drawings. 
+* **Real-time control of the HP7475A in Processing.** [Processing](https://processing.org/) can be used to directly control the HP7475A by sending HPGL commands over the serial port, effectively unifying steps 3-6 above. Critically, this also allows for the possibility of interactive (*real-time*) control of the plotter. An [**example of real-time cursor control in Processing is here**](processing/realtime_7475a/realtime_7475a.pde), in which the plotter copies the user's mouse drawings. 
 
 **Less commonly:**
 
@@ -214,11 +215,12 @@ Vpype is an extremely powerful tool for SVG manipulation, but there are several 
 * @Beardicus maintains [Awesome-Plotters](https://github.com/beardicus/awesome-plotters), an excellent repository of helpful resources.
 * Documents about the HP7475A can be found [at the HP Computer Museum website](http://www.hpmuseum.net/exhibit.php?hwdoc=74).
 * Here is a [Raspberry Pi printserver for the HP7475A](https://github.com/hughpyle/penplot1.local), which also does SVG to HPGL conversion.
-* [PiPlot](https://github.com/ithinkido/PiPlot): The PiPlot is a hardware shield that adds RS232 conectivity with full serial hardware flow control to the Raspberry Pi Zero.![](images/piplot.jpg)
+* [PiPlot](https://github.com/ithinkido/PiPlot): The PiPlot is a hardware shield that adds RS232 conectivity with full serial hardware flow control to the Raspberry Pi Zero.<br />![](images/piplot.jpg)
 
 #### HP7475A Plotter Pens
 
 * The HP7475A plotter uses HP "S Style" Fiber Tip Plotter Pens, and can accommodate pens made for the: 7090, 7220A, 7221 A, 7225A, 7440 HP Colorpro, 7470A, 7475A, 7550A, 7550B, 7570 HP Draftpro, 7580A, 7585A, 7586A, 7595A, 7595B, 7596A, 7596B, 7599A, 9872A, HP Draftmaster I, II, MX, RX, SX, HP Draftpro DXL (7575A); and the Roland DPX, DXY, and GRX Series.
+* Compatible new pens are available from Amazon: [KOH-I-NOOR Fiber-Tip Plotter Pens](https://www.amazon.com/dp/B000KNNIL0), with manufacturer product number 6401.01F, UPC 14173-28306. Note: Old HP numbers were 178xxP.
 * This [YouTube video](https://www.youtube.com/watch?v=h-oj4HrTH14) shows a method for refilling the ink in a vintage pen.
 * Various persons have developed 3D-printed adapters to allow modern pens in the HP7475A: 
 	* [thing:227985](https://www.thingiverse.com/thing:227985) 
