@@ -10,7 +10,7 @@
 * Raven Kwok 'hatching' project (2/10/2024)
 	* [Dynamic version](https://twitter.com/RavenKwok/status/1756692564596650113) (one-line + hatching)
 	* [Static version](https://twitter.com/RavenKwok/status/1756385615661478341)
-* Introduction to *Shape* Assignment
+* Introduction to Assignment #6, [*Shape*](../../../assignments/06_shape/README.md)
 
 ---
 
