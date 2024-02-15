@@ -4,6 +4,8 @@
 
 ## Agenda
 
+![leonni.jpg](img/leonni.jpg)
+
 * Leo Leonni, [*Little Blue and Little Yellow*](https://www.youtube.com/watch?v=91ZmDCXlxAA) (1959)
 
 #### Material Conditions
@@ -16,6 +18,8 @@
 
 #### *Blob Family* Projects by Previous Students
 
+![student-blobs.png](img/student-blobs.png)
+
 * [https://twitter.com/golan/status/1447980505236914179](https://twitter.com/golan/status/1447980505236914179)
 
 #### Featured Artist: Julien Espagnon
@@ -27,7 +31,7 @@
 
 ## Making Shapes
 
-![dominikus_baur_1-line-vs-147.jpg](img/dominikus_baur_1-line-vs-147.jpg)
+![dominikus_baur_1-line-vs-147.jpg](img/dominikus_baur_1-line-vs-147.jpg)<br />*Cartoon by Dominikus Baur*
 
 #### Generating Interesting Shapes
 
@@ -36,10 +40,10 @@
   * [Video: Coding Challenge #36: *Blobby* (Radial Displacement by Looping Noise)](https://www.youtube.com/watch?v=rX5p-QRP6R4)
 * [Demo: Spring Blob Mesh](https://editor.p5js.org/golan/sketches/tN09_szTo) (p5), full lecture notes [here](https://courses.ideate.cmu.edu/60-212/f2020/daily-notes/september/09-14-movement/springs/)
   * [Video: Spring Blob Mesh (Nokia Friends)](https://www.youtube.com/watch?v=g20QOQP6kSU)
-* [Demo: Metaball Isoline Contour](https://editor.p5js.org/golan/sketches/1bmDXMSHX)
+* [Demo: Metaball Isoline Contour](https://editor.p5js.org/golan/sketches/1bmDXMSHX) (p5)
   * [Video: Coding Challenge: *Marching Squares*](https://www.youtube.com/watch?v=0ZONMNUKTfU&t=1444s)
   * [Video: Coding Challenge #26: *Metaballs*](https://www.youtube.com/watch?v=ccYLb7cLB1I)
-* [Differential Growth](https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#differential-growth)
+* [Resource: Differential Growth](https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#differential-growth)
 * [Video: Viscous Fingering](https://vimeo.com/22212386) (Hele-Shaw Cells, Saffman-Taylor instability)
 
 #### Hatching an Arbitrary Shape
