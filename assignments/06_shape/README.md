@@ -36,31 +36,40 @@ Please read two or more of the following readings:
 
 ---
 
-## 6b. Blob Family
+## 6b. Shape Family
 
 ![shape_family.jpg](shape_family.jpg)
 
 (80 points) *The objective of this prompt is to develop your skills in the control of expressive shape.* 
 
-Write a program that generates various compositions of "blob families". Your blobs must be closed shapes, and at least one of them must be filled with some sort of hatch.
+Too often, when using creative coding toolkits, we rely on "readymade" shapes like circles and rectangles. These forms are everywhere and everyone's. Presently, we turn our attention to making our ***own*** shapes. 
 
-* **Run** your generator a few times to produce different compositions. Collect screenshots of some of your favorite compositions.
-* **Select** a particular composition you like, export it as an SVG, and render it with a pen plotter. Do some quick tests with your materials before plotting. 
-* **Consider** your materials! You are welcome (but not required) to use colored inks. Use nice (heavy) paper. Note: *You are prohibited from using standard-ass white printer paper*. You are welcome (but not required) to use colored paper. You can [plot with the HP7475a](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/README.md) if you want to use multiple colors, and if you have time.
-* **Photograph** your plotted composition with your phone or other camera. Be sure your composition is plotted before the beginning of class on Wednesday, September 29.
+Write a computer program that generates various compositions of "blob families". Your blobs must be closed shapes, and at least one of them must be filled with some sort of hatching.
 
+Blobs are a good goal, because everyone has their own unique blob. But please don't feel that you *must* focus on "blobs" *per se*. Despite the examples I've shown in class, the true goal here is for you to develop *your own vocabulary of expressive, computational 2D forms*. 
 
 ### Hints:
 
-* *There’s no single correct technique to make a blob*. You are welcome to consider possible techniques including (but not limited to) making polylines made from particle systems; making high-order Catmull-Rom or Bezier curves; tracing the contours (2D isolines) of metaballs; concatenating elliptical arcs; calculating a Cassini ellipse, [cranioid](https://mathworld.wolfram.com/Cranioid.html), or other parametric curve from Mathworld; simulating a smooth ropelike contour using Verlet integration, etc. Some possibly helpful Coding Train videos can be found below.
+* *There’s no single correct technique to make a blob*. You are welcome to consider possible techniques including (but not limited to) things like: 
+	* making polylines made from particle systems; 
+	* making high-order Catmull-Rom or Bezier curves; 
+	* tracing the contours (2D isolines) of metaballs; 
+	* concatenating elliptical arcs; 
+	* calculating a Cassini ellipse, [cranioid](https://mathworld.wolfram.com/Cranioid.html), or other parametric curve from Mathworld; 
+	* simulating a smooth ropelike contour using Verlet integration, etc. 
+	* Some possibly helpful Coding Train videos can be found below.
 * *There’s no single correct technique to fill (hatch) an arbitrary shape*. You are welcome to use a [point-in-polygon test](https://rosettacode.org/wiki/Ray-casting_algorithm), a [flood-fill algorithm](https://rosettacode.org/wiki/Bitmap/Flood_fill), or an API/library of your choice, such as [PEmbroider](https://github.com/CreativeInquiry/PEmbroider/), [hatched](https://github.com/plottertools/hatched), [Shapely](https://shapely.readthedocs.io/en/latest/), etc.
 * *There is no single correct technique to construct an ‘attractive’ form* or an attractive composition of forms. Devise your own principles.
 
 ### Now:
 
-* **Create** a post in the Discord channel, *#6b-blob-family*.
+* **Run** your generator a few times to produce different compositions. Collect screenshots of some of your favorite compositions.
+* Before you plot, **consider** your materials! You are welcome (but not required) to use colored inks. Use nice (heavy) paper. Note: *You are prohibited from using standard-ass white printer paper*. You are welcome (but not required) to use colored paper. You can [plot with the HP7475a](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/README.md) if you want to use multiple colors, and if you have time.
+* **Select** a particular composition you like, export it as an SVG, and render it with a pen plotter. Do some quick tests with your materials before plotting. 
+* **Photograph** your plotted composition with your phone or other camera. Be sure your composition is plotted before the beginning of class on Wednesday, September 29.
+* **Create** a post in the Discord channel, *#6b-shape-family*.
 * (*15 points*) In your post, **write** 100-200 words about your process. Be sure to give credit to any libraries or code that you used from elsewhere. If applicable, **include** a sentence or two about how any reading(s) and/or inspirational viewings may have influenced your thinking.
-* (*15 ppints*) **Embed** three screenshots of different compositions produced by your software (including e.g. un-plotted ones).
+* (*15 points*) **Embed** three screenshots of different compositions produced by your software (including e.g. un-plotted ones).
 * (*50 points*) **Embed** a photograph of your final plot. If you feel like it, feel free to also **embed** a photograph of a *detail view *of your plot (for example, a detailed view of the hatching).
 
 #### Reference tutorials from Coding Train: 
