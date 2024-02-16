@@ -26,6 +26,9 @@
 
 * [Julien Espagnon @fxhash](https://www.fxhash.xyz/u/Julien%20Espagnon)
 * [Julien Espagnon plotter works](https://www.julienespagnon.fr/art/plotter-artworks/)
+* [current project](https://twitter.com/Julien_Espagnon/status/1758182192495132758)
+* [process](https://twitter.com/Julien_Espagnon/status/1697564859775266821)
+* [video](https://twitter.com/Julien_Espagnon/status/1729523421673890053), [video](https://twitter.com/Julien_Espagnon/status/1730543605226278965)
 
 ---
 
@@ -35,6 +38,8 @@
 
 #### Generating Interesting Shapes
 
+* [Demo: Truchet Blobs](https://editor.p5js.org/golan/sketches/OU4vaCEAA) (p5)
+  * [Resource: Truchet Tiles](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/09-29-truchet/)
 * [Demo: Closed Catmull-Rom Curve](https://editor.p5js.org/golan/sketches/IlEFXzOkF) (p5)
 * [Demo: Radial Displacement by Looping Noise](https://editor.p5js.org/golan/sketches/Fv_U5kR6g) (p5)
   * [Video: Coding Challenge #36: *Blobby* (Radial Displacement by Looping Noise)](https://www.youtube.com/watch?v=rX5p-QRP6R4)
