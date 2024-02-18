@@ -36,6 +36,8 @@ This assignment has two parts, and is due at the beginning of class on Tuesday, 
 
 ### Hatch Inspo 
 
+![joanie_lemercier_hatching.jpg](img/joanie_lemercier_hatching.jpg)
+
 ![hatch-inspo.jpg](img/hatch-inspo.jpg)
 
 ![lars-wander-axidraw-hatches.jpg](img/lars-wander-axidraw-hatches.jpg)<br />*AxiDraw hatching by Lars Wander.*
