@@ -55,6 +55,7 @@
 
 * [Demo: Point-in-Polygon Rejection Sampling](https://editor.p5js.org/golan/sketches/wf8xsGn_-) (p5)
 * [Demo: Axis-Aligned Shape Hatching](https://editor.p5js.org/golan/sketches/jiHPNbJOl) (p5)
+* [Demo: Axis-Aligned Shape Hatching](https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/05_tone/axis_aligned_hatching_java/axis_aligned_hatching_java.pde) (Processing Java)
 * [Demo: Oriented Shape Hatching](https://editor.p5js.org/golan/sketches/kPj9pY-8l) (p5 & Processing)
 * [Demo: Flood Fill](https://editor.p5js.org/StevesMakerspace/sketches/U7CPwxnVS) (p5)
 
