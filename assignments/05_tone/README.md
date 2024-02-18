@@ -81,3 +81,7 @@ This assignment has two parts, and is due at the beginning of class on Tuesday, 
 * [*2021 Version*](https://courses.ideate.cmu.edu/60-428/f2021/offerings/4-hatching/)
 
 ---
+
+#### Other Resources
+
+* [Axis-Aligned Polygon Hatching in Processing (Java)](axis_aligned_hatching_java/axis_aligned_hatching_java.pde)
