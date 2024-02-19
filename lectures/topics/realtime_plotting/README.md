@@ -14,6 +14,7 @@
 * [*DiceGL*](https://twitter.com/v3ga/status/1734285242809065546), Julien Gachadoat, 2023. Dice rolls generate vector patterns and drive a plotter accordingly.
 * [*Repeater*](https://twitter.com/creativeapps/status/1736747265023242264), Georgios Cherouvim, 2023. A feedback loop between a pen plotter and a pen digitizer.
 * [*Being the Machine: 3D printing en plein air*](http://beingthemachine.com/?p=114), Laura Devendorf, 2015.
+* [*Pen Wiggler*](https://scanlime.org/2021/05/scanlime055-pen-wiggler/), Micah Elizabeth Scott (Scanlime), 2021. [Hackaday](https://hackaday.com/2021/05/14/random-robot-makes-random-art/#more-476118)
 
 #### Some Previous CMU Student Realtime Projects
 
