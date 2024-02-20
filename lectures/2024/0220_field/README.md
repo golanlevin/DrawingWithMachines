@@ -1,10 +1,18 @@
 # February 20: Field
 
+*How can we write software to fill a surface with an aesthetic, organic field?*
 
+![field_graphic_games-1536x570.jpg](img/field_graphic_games-1536x570.jpg)
 
 ![fields.jpg](img/fields.jpg)
 
 ![kelly_clarkson.jpg](img/kelly_clarkson.jpg)
+
+---
+
+## Case Study: [Corollaria Railing](https://n-e-r-v-o-u-s.com/blog/?p=8753)
+
+[![corollaria.jpg](img/corollaria.jpg)](https://n-e-r-v-o-u-s.com/blog/?p=8753)
 
 --- 
 
@@ -14,6 +22,8 @@
 * [*That Creative Code Page*](https://thatcreativecode.page/) by Taru Muhonen & Raphaël de Courville
 * [*Processing repository*](https://github.com/v3ga/Processing) by Julien Gachadoat (v3ga)
 * [*Algorithmic Botany papers*](http://algorithmicbotany.org/papers/#webdocs) and [Visual Models of Morphogenesis](http://algorithmicbotany.org/vmm-deluxe/TableOfContents.html) by Przemyslaw Prusinkiewicz 
+
+![venation.png](img/venation.png)
 
 --- 
 ## Contents 
@@ -59,13 +69,13 @@
 
 ## Shape Packing
 
-* https://www.youtube.com/watch?v=QHEQuoIKgNE
-* https://codepen.io/DonKarlssonSan/pen/VwLxXYg
-* https://larswander.com/art/polygon-packing/
+* [Coding Train: Animated Circle Packing](https://www.youtube.com/watch?v=QHEQuoIKgNE)
+* [Codepen: Animated Circle Packing](https://codepen.io/DonKarlssonSan/pen/VwLxXYg)
+* [Lars Wander Article: Polygon Packing](https://larswander.com/art/polygon-packing/)
+* Amy Goodchild: [Maplands artwork](https://www.amygoodchild.com/art/maplands)
+* Amy Goodchild: [Maplands article](https://www.amygoodchild.com/blog/maplands)
+* Amy Goodchild: [*Cake Shaped* at fxhash](https://www.fxhash.xyz/generative/13069)
 * Box2D/matter
-* https://www.amygoodchild.com/art/maplands
-* https://www.amygoodchild.com/blog/maplands
-* https://www.fxhash.xyz/generative/13069
 
 ---
 

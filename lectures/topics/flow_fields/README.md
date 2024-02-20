@@ -80,3 +80,20 @@ By [Aleksandra Jovanić](https://twitter.com/alexis_o_O/status/14130609858842214
 By [Jessica In](https://www.instagram.com/p/COdZNZgnVqW/):
 
 ![flow_field_jessica_in.png](img/flow_field_jessica_in.png)
+
+By 90PercentArt:
+
+![flow_field_90percentart.jpg](img/flow_field_90percentart.jpg)
+
+---
+
+## Blending Algorithmic Approaches
+
+In [this article](https://tylerxhobbs.com/essays/2020/flow-fields), Tyler Hobbs shows how different algorithms (including circle packing) can be used to seed the initial positions of moving particles — which can affect how a Perlin Noise flow field looks.
+
+
+![hobbs-combo.png](img/hobbs-combo.png)
+
+In [this example (YouTube)](https://www.youtube.com/watch?v=s3VsK8BtIw0) (discussed [here](https://medium.com/@jason.webb/simulating-dla-in-js-f1914eb04b1d), "Simulating 2D diffusion-limited aggregation (DLA) with JavaScript"), Jason Webb shows how a Diffusion-Limited Aggregation simulation can be expressively altered, when the diffusing particles are not simply moving in a random way, but are moving along gradients of another simulation (in this case, a Perlin Noise flow field).
+
+[![perlin-flow-dla.png](img/perlin-flow-dla.png)](https://www.youtube.com/watch?v=s3VsK8BtIw0)
