@@ -1,6 +1,6 @@
 # February 20: Field
 
-*How can we write software to fill a surface with an aesthetic, organic field?*
+*How can we [write software to generatively] fill a surface with an aesthetic, organic field?*
 
 ![field_graphic_games-1536x570.jpg](img/field_graphic_games-1536x570.jpg)
 
@@ -28,10 +28,45 @@
 --- 
 ## Contents 
 
-* [**Flow Fields**](../../topics/flow_fields/README.md)
+* [**Flow Fields**](../../topics/flow_fields/README.md) (lecture)
+* [Diffusion Limited Aggregation](#diffusion-limited-aggregation)
 * Shape Packing
-* Diffusion Limited Aggregation
 * Ice-Ray Grammars
+
+---
+
+## Diffusion-Limited Aggregation
+
+![uri_shapira_dla_photo.jpg](img/uri_shapira_dla_photo.jpg)<br />*Chemical photo by Uri Shapira*
+
+![bourke_dla7.gif](img/bourke_dla7.gif)
+
+* [Animated Demonstration](https://twitter.com/0xelric_eth/status/1684045756863504384)
+* [Reference: Paul Bourke on DLA](https://paulbourke.net/fractals/dla/)
+* [Animated demonstration, starting from a line](https://twitter.com/DonKarlssonSan/status/649693928950775808)
+* [Demo code by Shiffman](https://editor.p5js.org/codingtrain/sketches/XpS9wGkbB)
+* [Video: Coding Train DLA Tutorial](https://www.youtube.com/watch?v=Cl_Gjj80gPE)
+* [Video: DLA on Perlin Noise flow field](https://www.youtube.com/watch?v=s3VsK8BtIw0)
+* [Artwork: Jewelry by Nervous System](https://n-e-r-v-o-u-s.com/shop/generativeProduct.php?code=9)
+* [Artwork: 3D DLA slices](https://twitter.com/nacho_cossio/status/1372279259578953728)
+* [Artwork: DLA + RD](https://twitter.com/colinreid_me/status/1680274061253853184)
+* [Artwork: DLA in 3D type](https://twitter.com/mikebrondbjerg/status/1359748990041010177)
+* [Reference: Prusinkiewicz](http://algorithmicbotany.org/vmm-deluxe/Section-05.html)
+* [Physics demo: castor oil, bearings](https://twitter.com/Rainmaker1973/status/1551139590890733570)
+* [*A Two-Dimensional Growth Process*](img/eden_2d_growth_process_1961.pdf), Murray Eden, 1961 (PDF)
+
+---
+
+## Shape Packing
+
+* [Video: Coding Train Tutorial: Animated Circle Packing](https://www.youtube.com/watch?v=QHEQuoIKgNE)
+* [Demo code: Animated Circle Packing](https://codepen.io/DonKarlssonSan/pen/VwLxXYg)
+* [Lars Wander Article: Polygon Packing](https://larswander.com/art/polygon-packing/)
+* Amy Goodchild: [Maplands artwork](https://www.amygoodchild.com/art/maplands)
+* Amy Goodchild: [Maplands article](https://www.amygoodchild.com/blog/maplands)
+* Amy Goodchild: [*Cake Shaped* at fxhash](https://www.fxhash.xyz/generative/13069)
+* Box2D/matter
+
 
 ---
 
@@ -49,33 +84,7 @@
 
 ![mario_klingemann_subdivision.jpg](img/mario_klingemann_subdivision.jpg)<br />Mario Klingemann, [*Subdivision*](https://www.flickr.com/photos/quasimondo/albums/72157606163595189/), 2008
 
----
 
-## Diffusion-Limited Aggregation
-
-* https://twitter.com/0xelric_eth/status/1684045756863504384
-* https://n-e-r-v-o-u-s.com/shop/generativeProduct.php?code=9
-* [*A Two-Dimensional Growth Process*](img/eden_2d_growth_process_1961.pdf), Murray Eden, 1961 (PDF)
-* http://algorithmicbotany.org/vmm-deluxe/Section-05.html
-* [Coding Train](https://www.youtube.com/watch?v=Cl_Gjj80gPE)
-* https://editor.p5js.org/codingtrain/sketches/XpS9wGkbB
-* https://twitter.com/nacho_cossio/status/1372279259578953728
-* https://twitter.com/DonKarlssonSan/status/649693928950775808
-* https://twitter.com/colinreid_me/status/1680274061253853184
-* https://twitter.com/Rainmaker1973/status/1551139590890733570
-* https://paulbourke.net/fractals/dla/
-* https://twitter.com/mikebrondbjerg/status/1359748990041010177
-* https://www.youtube.com/watch?v=s3VsK8BtIw0
-
-## Shape Packing
-
-* [Coding Train: Animated Circle Packing](https://www.youtube.com/watch?v=QHEQuoIKgNE)
-* [Codepen: Animated Circle Packing](https://codepen.io/DonKarlssonSan/pen/VwLxXYg)
-* [Lars Wander Article: Polygon Packing](https://larswander.com/art/polygon-packing/)
-* Amy Goodchild: [Maplands artwork](https://www.amygoodchild.com/art/maplands)
-* Amy Goodchild: [Maplands article](https://www.amygoodchild.com/blog/maplands)
-* Amy Goodchild: [*Cake Shaped* at fxhash](https://www.fxhash.xyz/generative/13069)
-* Box2D/matter
 
 ---
 
