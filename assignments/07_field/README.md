@@ -6,7 +6,8 @@
 
 ---
 
-This assignment has 2 parts: 
+This Assignment has 2 parts and is due at the beginning of class on **Thursday, 2/29**: 
+
 1. (*15 points*) Readings on Fields/Distributions
 2. (*85 points*) A Field/Distribution Composition, Plotted
 
