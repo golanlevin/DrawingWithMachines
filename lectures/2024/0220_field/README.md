@@ -28,14 +28,16 @@
 --- 
 ## Contents 
 
-* [**Flow Fields**](../../topics/flow_fields/README.md) (lecture)
+* [**Flow Fields**](../../topics/flow_fields/README.md)
 * [Diffusion Limited Aggregation](#diffusion-limited-aggregation)
-* Shape Packing
-* Ice-Ray Grammars
+* [Shape Packing](#shape-packing)
+* [Ice-Ray Grammars](#ice-ray-grammars)
 
 ---
 
 ## Diffusion-Limited Aggregation
+
+*A feedback process in which particles get stuck to previous particles.*
 
 ![uri_shapira_dla_photo.jpg](img/uri_shapira_dla_photo.jpg)<br />*Chemical photo by Uri Shapira*
 
@@ -59,6 +61,8 @@
 
 ## Shape Packing
 
+*A feedback process in which new shapes arise in the spaces between previous shapes.*
+
 ![packing.png](img/packing.png)
 
 * [Video: Coding Train Tutorial: Animated Circle Packing](https://www.youtube.com/watch?v=QHEQuoIKgNE)
@@ -78,7 +82,7 @@
 
 ## Ice-Ray Grammars
 
-*A line propagates until it hits a line, while sometimes branching off new lines.*
+*A feedback process in which a line propagates until it hits a previous line, while sometimes branching off new lines.*
 
 ![george_stiny_ice_ray_grammar_1977.png](img/george_stiny_ice_ray_grammar_1977.png)<br />George Stiny, [*Ice Ray Grammars*](https://www.contrib.andrew.cmu.edu/~ramesh/teaching/course/48-747/subFrames/readings/Stiny-1977-EPB3_89-98.Ice-ray..pdf), 1977
 
@@ -89,7 +93,6 @@
 ![mitchell_whitelaw_limits_to_growth_2008.jpg](img/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, [*Limits to Growth*](https://mtchl.net/limits-to-growth/), 2008
 
 ![mario_klingemann_subdivision.jpg](img/mario_klingemann_subdivision.jpg)<br />Mario Klingemann, [*Subdivision*](https://www.flickr.com/photos/quasimondo/albums/72157606163595189/), 2008
-
 
 
 ---
