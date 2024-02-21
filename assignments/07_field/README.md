@@ -15,13 +15,13 @@ This assignment is concerned with growing a design to cover a visual field. Rath
 
 ## 1. Readings on Fields/Distributions
 
-(*15 points total*) The purpose of this reading is to familiarize you with some conceptual and technical approaches to filling 2D fields with aesthetic distributions, especially using visual simulations of morphogenesis. 
+(*15 points total; 40 minutes*) The purpose of this reading is to familiarize you with some conceptual and technical approaches to filling 2D fields with aesthetic distributions, especially using visual simulations of morphogenesis. 
 
 Please check out the following three resources:
 
-1. **Read** [Chapter 2](distribution-graphic-games.pdf) (“Distribution”, pages 64-71) of *Graphic Games* by Victor Baumgartner. [[PDF](distribution-graphic-games.pdf)]
-2. **Read** “[Flow Fields](https://tylerxhobbs.com/essays/2020/flow-fields)” by Tyler Hobbs.
-3. **Skim** one or more of the following collections of algorithm resources.
+1. **Read** [Chapter 2](distribution-graphic-games.pdf) (“Distribution”, pages 64-71) of *Graphic Games* by Victor Baumgartner. [[PDF](distribution-graphic-games.pdf)] (~10 minutes)
+2. **Read** “[Flow Fields](https://tylerxhobbs.com/essays/2020/flow-fields)” by Tyler Hobbs (~10 minutes).
+3. **Skim** one or more of the following collections of algorithm resources (~10 minutes):
    * [*Morphogenesis Resources*](https://github.com/jasonwebb/morphogenesis-resources) by Jason Webb
    * [*That Creative Code Page*](https://thatcreativecode.page/) by Taru Muhonen & Raphaël de Courville
    * [*Processing repository*](https://github.com/v3ga/Processing) by Julien Gachadoat (v3ga)
@@ -29,7 +29,7 @@ Please check out the following three resources:
 
 Now, in a Discord post in the channel *#7a-field-readings*: 
 
-* (10 points) **Write** a brief response to something that you found interesting or helpful from any of these readings. 
+* (10 points) **Write** a brief summary and response to something that you found interesting or helpful from any of these readings. 
 * (5 points) **Include** a relevant image that illustrates the thing you found interesting.
 * Please note that there is no obligation to pursue your discovery further.
 
@@ -39,7 +39,7 @@ Now, in a Discord post in the channel *#7a-field-readings*:
 
 ![perlin-landscape.jpg](img/perlin-landscape.jpg)<br />[*Perlin Noise landscapes by Revdancatt*](https://revdancatt.com/2020/01/30/penplotting-perlin-landscapes)
 
-(*85 points*) The purpose of this prompt is to strengthen your skills in generative form-making with procedures that cover a 2D surface, such as growth algorithms or flow fields. Probably, you will be indirectly governing a simulation or feedback process that covers the page. You may use any algorithm(s) you wish.
+(*85 points, 8 hours*) The purpose of this prompt is to strengthen your skills in generative form-making with procedures that cover a 2D surface, such as growth algorithms or flow fields. Probably, you will be indirectly governing a simulation or feedback process that covers the page. You may use any algorithm(s) you wish.
 
 **Prompt**: Develop a computationally-generated, machine-plotted artwork that presents a field or distribution across the surface, ideally developing through feedback with itself. 
 
@@ -52,15 +52,17 @@ To create your project:
 
 *Now*, to document your project:
 
-* **Create** a post in the #7b-field-composition Discord channel. 
+* **Create** a post in the *#7b-field-composition* Discord channel. 
 * (*Optional*) **Embed** some photographs of your sketches.
-* (*15 points*) **Embed** some screenshots of at least two of your generated compositions.
+* (*15 points*) **Embed** screenshots of at least two of your generated compositions.
 * (*50 points*) **Embed** a good-quality photograph of your plotted composition. Consider having a second photograph showing a close detail.
 * (*20 points*) **Write** a paragraph (of about 100-150 words) describing the logic of your composition, your sources of inspiration, your process, and an evaluation of your results. Be sure to acknowledge any code libraries that you used.
 
 ---
 
-### *Some Potentially helpful Coding Train tutorials:*
+### Some Potentially helpful Coding Train Tutorials
+
+*You're not under any obligation to use these, but they may be helpful.* 
 
 [![Perlin Noise Flow Field](http://img.youtube.com/vi/BjoM9oKOAKY/0.jpg)](https://www.youtube.com/watch?v=BjoM9oKOAKY)<br />
 [Perlin Noise Flow Field](https://www.youtube.com/watch?v=BjoM9oKOAKY)
