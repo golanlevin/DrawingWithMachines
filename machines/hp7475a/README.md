@@ -19,6 +19,13 @@
 
 ---
 
+## About the HP7475a
+
+![7475A_9836_1984-PromoPhoto-27.jpg](images/7475A_9836_1984-PromoPhoto-27.jpg)
+
+The [HP7475a](https://www.hpmuseum.net/display_item.php?hw=74) was the most popular pen plotter ever made. Introduced in 1983, it was not obsoleted until 1994, an amazing 11 year product life. In 1984, the 7475 was the most profitable single product within Hewlett-Packard. OEM versions of this machine were also sold as the **AT&T 435** and the **IBM 7372**. 
+ 
+
 ## HP7475A Tips
 
 * Don't leave pens in the plotter carousel, and especially don't leave pens in the plotter head. They dry out quickly.
