@@ -1,20 +1,24 @@
 # Realtime Plotting
 
+#### *Contents*
+
+* [*Prior Art*](#prior-art)
+* [*Techical Resources*](#technical-resources)
+
 ---
 
 ## Prior Art
 
 #### Drawing Machines Under Realtime Control
 
-* [Sougwen Chung](https://www.youtube.com/watch?v=hpEE_s0pN64).
-* [*Portraits*](https://www.youtube.com/watch?v=A4dQIuD6xbA), [Patrick Tresset](https://patricktresset.com/new/), 2016.
-* [*Blind Self-Portrait*](https://vimeo.com/78431948), Kyle McDonald & Matt Mets, 2013.
-* [*Contour Capture Kiosk*](https://twitter.com/golan/status/1554593715875987456), Elliot Spelman, 2022. 
-* [*A Crack in the Hourglass*](https://www.youtube.com/watch?v=BsVsULhoSbM), Rafael Lozano-Hemmer, 2021. Portraits of deceased loved ones are drawn, ephemerally, in sand.
-* [*DiceGL*](https://twitter.com/v3ga/status/1734285242809065546), Julien Gachadoat, 2023. Dice rolls generate vector patterns and drive a plotter accordingly.
-* [*Repeater*](https://twitter.com/creativeapps/status/1736747265023242264), Georgios Cherouvim, 2023. A feedback loop between a pen plotter and a pen digitizer.
-* [*Being the Machine: 3D printing en plein air*](http://beingthemachine.com/?p=114), Laura Devendorf, 2015.
-* [*Pen Wiggler*](https://scanlime.org/2021/05/scanlime055-pen-wiggler/), Micah Elizabeth Scott (Scanlime), 2021. [Hackaday](https://hackaday.com/2021/05/14/random-robot-makes-random-art/#more-476118)
+* [*DiceGL*](https://twitter.com/v3ga/status/1734285242809065546), Julien Gachadoat, 2023. Dice rolls generate vector patterns and drive a plotter accordingly.<br />![gachadoat-dice.gif](img/gachadoat-dice.gif)
+* [Sougwen Chung](https://www.youtube.com/watch?v=hpEE_s0pN64).<br />![sougwen_process-th_1000.jpg](img/sougwen_process-th_1000.jpg)
+* [*Portraits*](https://www.youtube.com/watch?v=A4dQIuD6xbA), [Patrick Tresset](https://patricktresset.com/new/), 2016.<br />![patrick-tresset-portrait.jpg](img/patrick-tresset-portrait.jpg)
+* [*Contour Capture Kiosk*](https://twitter.com/golan/status/1554593715875987456), Elliot Spelman, 2022.<br />![spelman_contour_capture.jpg](img/spelman_contour_capture.jpg)
+* [*Pen Wiggler*](https://scanlime.org/2021/05/scanlime055-pen-wiggler/), Micah Elizabeth Scott (Scanlime), 2021. [Hackaday](https://hackaday.com/2021/05/14/random-robot-makes-random-art/#more-476118)<br />![scanlime_rng-art-main.png](img/scanlime_rng-art-main.png)
+* [*A Crack in the Hourglass*](https://www.youtube.com/watch?v=BsVsULhoSbM), Rafael Lozano-Hemmer, 2021. Portraits of deceased loved ones are drawn, ephemerally, in sand.<br />![lozano-hemmer_crack-in-the-hourglass.jpg](img/lozano-hemmer_crack-in-the-hourglass.jpg)
+* [*Repeater*](https://twitter.com/creativeapps/status/1736747265023242264), Georgios Cherouvim, 2023. A feedback loop between a pen plotter and a pen digitizer.<br />![cherouvim-repeater.jpg](img/cherouvim-repeater.jpg)
+
 
 #### Some Previous CMU Student Realtime Projects
 
@@ -24,8 +28,10 @@
 * [*Tracing Movement*](https://www.youtube.com/watch?v=zw7HS-e2mCk), Jacqui Fashimpaur, 2016. Jacqui used a Kinect to track the skeleton of a dancer; the traces of the dancer's joints were then captured to paper using the plotter.<br />![fashimpaur_dance.jpg](img/fashimpaur_dance.jpg)
 * [*Threadsteading*](http://lea.zone/threadsteading.html), Lea Albaugh, 2016. ([Article](https://dl.acm.org/doi/10.1145/2851581.2889466)) A two-player territory control game designed to be played on a modified computer-controlled quilting machine.<br />![threadsteading_machine.jpg](img/threadsteading_machine.jpg)
 
-#### Live Performances with Plotting Devices
+#### Live Performances and Human Plotters
 
+* [*Blind Self-Portrait*](https://vimeo.com/78431948), Kyle McDonald & Matt Mets, 2013.<br />![blind_self_portrait.jpg](img/blind_self_portrait.jpg)
+* [*Being the Machine: 3D printing en plein air*](http://beingthemachine.com/?p=114), Laura Devendorf, 2015. Laser-guided 3D-printing by hand.<br />![devendorf-plein-air-3d-printing.jpg](img/devendorf-plein-air-3d-printing.jpg)
 * [*Computer-Controlled Finger Painting*](https://twitter.com/golan/status/1552509950424821760), Deanna Gelosi, 2022. Gelosi became a cyborg AxiDraw meat-puppet, expressing a posthuman squiggle through a computer-controlled finger-painting apparatus.<br />![gelosi-axidraw-fingerpaint.jpg](img/gelosi-axidraw-fingerpaint.jpg)
 * [*Accessibility Aids*](https://art.josephwilk.net/projects/accessibility_aids.html), Joseph Wilk, 2022: "A performance that blurs the line between bodies and machines that comes from the experience of living with a wheelchair as a body: Drawing tools are used as assitive aids acting as different extensions of the body and enabling movements that my body finds difficult....Paint is carefully placed by hand on a canvas and finally the pen-plotter using various clay sculpting tools manipulates the paint."<br />![wilk-axidraw-performance.jpg](img/wilk-axidraw-performance.jpg)
 * [*The Interfered Microscopy Plot*](https://www.youtube.com/watch?v=CBZDvtHyRfo&t=1382s), Golan Levin, 2022. "The live feed of a digital microscope spurs the machine hallucinations of a semiautonomous drawing algorithm, whose interpretations are both coaxed and culled by the performer".<br />![golan_interfered-microscopy-plot.jpg](img/golan_interfered-microscopy-plot.jpg)
