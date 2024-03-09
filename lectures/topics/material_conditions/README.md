@@ -20,7 +20,7 @@ The **direction** of strokes matters.
 
 [Pen direction test by Greweb](https://twitter.com/greweb/status/1441035454124630019)<br />![direction_matters.png](img/direction_matters.jpg)
 
-[Chisel tip pattern by @TarGz](https://twitter.com/TarGz/status/1416856260033531915)<br />![chisel.gif](img/chisel.gif)
+[Chisel tip pattern by @TarGz](https://twitter.com/TarGz/status/1416856260033531915), using the [Pilot Parallel Pen](https://www.amazon.com/gp/product/B019YLRFFS/).<br />![chisel.gif](img/chisel.gif)
 
 ---
 
