@@ -14,7 +14,7 @@ The **order** of strokes matters.
 
 [*Sabbia*](https://vimeo.com/249372973), Andreas Gysin, 2017. Overhead projection through plotted sand, using AxiDraw controlled by Processing. [Code](https://github.com/ertdfgcvb/Genau)<br />![gysin-sabbia-ohp.jpg](img/gysin-sabbia-ohp.jpg)
 
---
+---
 
 The **direction** of strokes matters.
 
@@ -22,13 +22,13 @@ The **direction** of strokes matters.
 
 [Chisel tip pattern by @TarGz](https://twitter.com/TarGz/status/1416856260033531915)<br />![chisel.gif](img/chisel.gif)
 
---
+---
 
 The **speed** of strokes matters. Consider the precise control of a physical process. Move slowly or hold the pen in one spot, the ink spreads: a function of medium, substrate, and time. 
 
 ![feathering.png](img/feathering.png)
 
--- 
+---
 
 Drawing is done on a **substrate** — usually paper. Paper can be varied creatively. 
 
@@ -38,7 +38,7 @@ Drawing is done on a **substrate** — usually paper. Paper can be varied creat
 
 [@emorydunn has been plotting on photographs](https://twitter.com/emorydunn/status/1390093823678713859)<br />![emory_dunn_plot-on-photo.jpg](img/emory_dunn_plot-on-photo.jpg)
 
---
+---
 
 Drawing can be done through **incision** and **etching**. 
 
@@ -50,7 +50,7 @@ Patricio Gonzalez-Vivo [has been using AxiDraw for circuit board etching experim
 
 [Tom Lauerman has been using the AxiDraw to create incisions in clay](https://www.instagram.com/p/ChT0Y7XAf9P/)<br />![lauerman-clay.jpg](img/lauerman-clay.jpg)
 
---
+---
 
 Drawing is a **physical process**. You can interpose appurtenances to meddle with these physics.
 
@@ -58,7 +58,7 @@ Drawing is a **physical process**. You can interpose appurtenances to meddle wit
 
 Here's a [thread by Daniel Feles involving interposed physics](https://twitter.com/dfeles/status/1223962631012339712)<br />![physics-and-plotters.gif](img/physics-and-plotters.gif)
 
---
+---
 
 The **ink** matters.
 
@@ -71,12 +71,11 @@ The **ink** matters.
 
 [Chaotic system with ink+air, by @josephwilk](https://twitter.com/josephwilk/status/1317142944231673857)<br />![josephwilk-axi-air-and-water.gif](img/josephwilk-axi-air-and-water.gif)
 
---
+---
 
 [*Avena+ Test Bed:* Agricultural Printing and Altered Landscapes](https://benedikt-gross.de/projects/avena-test-bed-agricultural-printing-and-altered-landscapes/), Benedikt Groß, 2013. Precision farming: drawing by planting seeds with a GPS bulldozer.
 
 ![benedikt_gross_avena_test_bed.jpg](img/benedikt_gross_avena_test_bed.jpg)
-
 
 ---
 
