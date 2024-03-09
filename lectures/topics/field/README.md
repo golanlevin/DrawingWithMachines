@@ -1,4 +1,4 @@
-# February 20: Field
+# Field
 
 *How can we [write software to generatively] fill a surface with an aesthetic, organic field?*
 
@@ -17,6 +17,8 @@
 --- 
 
 ## Morphogenesis Resources
+
+Resources surveying a wide variety of algorithms for growing forms.
 
 * [*Morphogenesis Resources*](https://github.com/jasonwebb/morphogenesis-resources) by Jason Webb
 * [*That Creative Code Page*](https://thatcreativecode.page/) by Taru Muhonen & Raphaël de Courville
@@ -65,13 +67,13 @@
 
 ![packing.png](img/packing.png)
 
-* [Video: Coding Train Tutorial: Animated Circle Packing](https://www.youtube.com/watch?v=QHEQuoIKgNE)
+* [*Coding Train* Tutorial Video: Animated Circle Packing](https://www.youtube.com/watch?v=QHEQuoIKgNE)
 * [Demo code: Animated Circle Packing](https://codepen.io/DonKarlssonSan/pen/VwLxXYg)
 * [Approximate Circle Packing](https://estebanhufstedler.com/2020/12/11/approximate-circle-packing/)
 * [Tutorial: in Processing](http://www.codeplastic.com/2017/09/09/controlled-circle-packing-with-processing/)
 * [Lars Wander Article: Polygon Packing](https://larswander.com/art/polygon-packing/)
-* Amy Goodchild: [Maplands artwork](https://www.amygoodchild.com/art/maplands)
-* Amy Goodchild: [Maplands article](https://www.amygoodchild.com/blog/maplands)
+* Amy Goodchild: [*Maplands* artwork](https://www.amygoodchild.com/art/maplands)
+* Amy Goodchild: [*Maplands* article](https://www.amygoodchild.com/blog/maplands)
 * Amy Goodchild: [*Cake Shaped* at fxhash](https://www.fxhash.xyz/generative/13069)
 * Box2D/Matter.js examples (Coding Train)
   * [Matter.js Boxes and boundaries](https://editor.p5js.org/natureofcode/sketches/WSoUy03ph)
@@ -97,5 +99,5 @@
 
 ---
 
-[2021 Lecture](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-06-field-distribution/)
+[2021 Lecture version](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-06-field-distribution/)
 

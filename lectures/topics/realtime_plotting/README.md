@@ -2,12 +2,12 @@
 
 #### *Contents*
 
-* [*Prior Art*](#prior-art)
+* [*Some Prior Art*](#some-prior-art)
 * [*Techical Resources*](#technical-resources)
 
 ---
 
-## Prior Art
+## Some Prior Art
 
 #### Drawing Machines Under Realtime Control
 
@@ -28,7 +28,7 @@
 * [*Tracing Movement*](https://www.youtube.com/watch?v=zw7HS-e2mCk), Jacqui Fashimpaur, 2016. Jacqui used a Kinect to track the skeleton of a dancer; the traces of the dancer's joints were then captured to paper using the plotter.<br />![fashimpaur_dance.jpg](img/fashimpaur_dance.jpg)
 * [*Threadsteading*](http://lea.zone/threadsteading.html), Lea Albaugh, 2016. ([Article](https://dl.acm.org/doi/10.1145/2851581.2889466)) A two-player territory control game designed to be played on a modified computer-controlled quilting machine.<br />![threadsteading_machine.jpg](img/threadsteading_machine.jpg)
 
-#### Live Performances and Human Plotters
+#### Live Performances and Machine-Assisted Human Plotters
 
 * [*Blind Self-Portrait*](https://vimeo.com/78431948), Kyle McDonald & Matt Mets, 2013.<br />![blind_self_portrait.jpg](img/blind_self_portrait.jpg)
 * [*Being the Machine: 3D printing en plein air*](http://beingthemachine.com/?p=114), Laura Devendorf, 2015. Laser-guided 3D-printing by hand.<br />![devendorf-plein-air-3d-printing.jpg](img/devendorf-plein-air-3d-printing.jpg)

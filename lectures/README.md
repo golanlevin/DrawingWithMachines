@@ -12,7 +12,7 @@
 * Feb 08: [Tone Workday](2024/0208_tone_workday/README.md)
 * Feb 13: [Shape](2024/0213_shape/README.md)
 * Feb 15: [Shape](2024/0215_shape/README.md)
-* Feb 20: [Field](2024/0220_field/README.md)
+* Feb 20: [Field](topics/field/README.md)
 
 ---
 
