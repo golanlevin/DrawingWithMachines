@@ -58,9 +58,16 @@ Drawing is a **physical process**. You can interpose appurtenances to meddle wit
 
 Here's a [thread by Daniel Feles involving interposed physics](https://twitter.com/dfeles/status/1223962631012339712).<br />![physics-and-plotters.gif](img/physics-and-plotters.gif)
 
+Arnaud Pfeffer (@arnaudpfef) has been [exploring mechatronic suminagashi](https://twitter.com/arnaudpfef/status/1589358879728508929).<br />![pfeffer_suminagashi.jpg](img/pfeffer_suminagashi.jpg)
+
+![pfeffer_suminagashi_vid.gif](img/pfeffer_suminagashi_vid.gif)
+
 ---
 
 The **ink** (marking medium) matters.
+
+Marcel Schwittlick has [explored dying pens](https://schwittlick.net/composition52/).<br />![c52_dying_rotring_web03.jpg](img/c52_dying_rotring_web03.jpg)
+
 
 [Joanie Lemercier with invisible ink](https://www.evilmadscientist.com/2018/invisible-ink-with-axidraw/).<br />![joanie-invisible.jpg](img/joanie-invisible.jpg)
 
