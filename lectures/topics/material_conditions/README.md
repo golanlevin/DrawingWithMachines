@@ -18,9 +18,9 @@ The **order** of strokes matters.
 
 The **direction** of strokes matters.
 
-[Pen direction test by Greweb](https://twitter.com/greweb/status/1441035454124630019)<br />![direction_matters.png](img/direction_matters.jpg)
-
 [Chisel tip pattern by @TarGz](https://twitter.com/TarGz/status/1416856260033531915), using the [Pilot Parallel Pen](https://www.amazon.com/gp/product/B019YLRFFS/).<br />![chisel.gif](img/chisel.gif)
+
+[Pen direction test by Greweb](https://twitter.com/greweb/status/1441035454124630019)<br />![direction_matters.png](img/direction_matters.jpg)
 
 ---
 
@@ -56,14 +56,17 @@ Drawing is a **physical process**. You can interpose appurtenances to meddle wit
 
 [Mike Jacobs added a pantograph to his AxiDraw to multiply its size range](https://www.evilmadscientist.com/2018/axidraw-pantograph/), increasing the range from 9×12” to 45×58”.<br />![jacobs_pantograph2.jpg](img/jacobs_pantograph2.jpg)
 
-Here's a [thread by Daniel Feles involving interposed physics](https://twitter.com/dfeles/status/1223962631012339712)<br />![physics-and-plotters.gif](img/physics-and-plotters.gif)
+Here's a [thread by Daniel Feles involving interposed physics](https://twitter.com/dfeles/status/1223962631012339712).<br />![physics-and-plotters.gif](img/physics-and-plotters.gif)
 
 ---
 
-The **ink** matters.
+The **ink** (marking medium) matters.
 
-[Joanie Lemercier with invisible ink](https://www.evilmadscientist.com/2018/invisible-ink-with-axidraw/)<br />![joanie-invisible.jpg](img/joanie-invisible.jpg)
+[Joanie Lemercier with invisible ink](https://www.evilmadscientist.com/2018/invisible-ink-with-axidraw/).<br />![joanie-invisible.jpg](img/joanie-invisible.jpg)
 
+Tobias Grothman used invisible ink, which reveals the solution to a maze under UV light.<br />![tobias_grothman_maze_postcard_uv.jpg](img/tobias_grothman_maze_postcard_uv.jpg)
+
+There are some really [wild inks out there](https://www.reddit.com/r/fountainpens/comments/129i2e9/what_are_the_most_unique_inks_youve_tried/). This is "Wearingeul Taxidermied Genius", a magenta ink with a metallic green sheen.<br />![wearingeul-ink.jpg](img/wearingeul-ink.jpg)
 
 ---
 
