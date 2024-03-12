@@ -14,10 +14,10 @@
   * 3/14 (Thursday): Guest speaker, [Jean Hyaejin Oh](https://www.cs.cmu.edu/~./jeanoh/)
   * 3/26 (Tuesday): Guest speaker, [Licia He](https://www.instagram.com/blahblahpaperblah/)
 4. Other Special Events:
-  * 3/13 (Wednesday, 5:30pm): Animator [Rebecca Ruige Xu](https://studioforcreativeinquiry.org/events/18204) at the STUDIO
-  * 3/21 (Thursday, 5:30pm): Sound artist [Ioana Vreme Moser](https://studioforcreativeinquiry.org/events/pirouette-machines-fluid-components-artist-talk-by-ioana-vreme-moser) at the STUDIO
-  * 3/27 (Wednesday, 5:30pm): Animator [JooYoung Choi](https://studioforcreativeinquiry.org/events/jooyoung-choi) at the STUDIO
-  * 3/26 (Tuesday, 5:30pm): Designer [Carla Diana](https://studioforcreativeinquiry.org/events/carla-diana) at the STUDIO
+  * 3/13 (Wednesday, 5:00pm): Animator [Rebecca Ruige Xu](https://studioforcreativeinquiry.org/events/18204) at the STUDIO
+  * 3/21 (Thursday, 5:00pm): Sound artist [Ioana Vreme Moser](https://studioforcreativeinquiry.org/events/pirouette-machines-fluid-components-artist-talk-by-ioana-vreme-moser) at the STUDIO
+  * 3/27 (Wednesday, 5:00pm): Animator [JooYoung Choi](https://studioforcreativeinquiry.org/events/jooyoung-choi) at the STUDIO
+  * 3/26 (Tuesday, 5:00pm): Designer [Carla Diana](https://studioforcreativeinquiry.org/events/carla-diana) at the STUDIO
 
 --- 
 
