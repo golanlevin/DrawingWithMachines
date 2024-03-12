@@ -24,3 +24,4 @@
 * [Realtime Plotting](topics/realtime_plotting/README.md)
 * [Material Conditions](topics/material_conditions/README.md)
 * [Typography](topics/type/README.md)
+* [Plot Animation](topics/plot_animation/README.md)
