@@ -1,21 +1,21 @@
-# Assignment 8: *Personal Project*
+# Assignment 8: *Personal Project(s)*
 
 ---
 
-Some possible topics: 
+# 8a: Research Update
 
-* Material explorations and conditions.
-* Other devices: embroidery, laser control, light-painting, robots.
-* Typographic explorations, single-line fontplay, asemic writing.
-* Vector dataset exploration (Quickdraw, etc.).
-* Algorithmic exploration (Webb etc.).
-* [Real-time plotting](../../lectures/topics/realtime_plotting/README.md).
-* CNC Animation.
+This project is due **Thursday March 21**. The goal of this project is to allow you time to delve deeper into a project that interests you (if you want to), or to explore something new (if you want to). 
 
- 
+Please do one of the following: 
 
+* Revise an earlier project, **OR**
+* Conduct an experiment towards a new project. 
 
+If you're not sure what to do, don't worry, we'll workshop you together in class. 
 
+*Now*, 
+
+In the Discord channel *#8a-research-update*, document your project nicely. Include text which introduces or re-introduces your project — don’t assume that the reader is already familiar with it. Also include text which discusses your process: how you developed the project, and how you iterated on it. Expect to write 150-200 words, please. Include diagrams, sketches, and good photographs of the project at various stages.
 
 
 

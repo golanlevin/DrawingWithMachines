@@ -17,21 +17,25 @@
   * 3/27 (Wednesday, 5:30pm): [JooYoung Choi](https://studioforcreativeinquiry.org/events/jooyoung-choi) at the STUDIO
   * 3/26 (Tuesday, 5:30pm): [Carla Diana](https://studioforcreativeinquiry.org/events/carla-diana) at the STUDIO
 
+--- 
 
-#### Some possible topics for final projects: 
+## Some possible topics for final projects: 
 
-* Material Conditions
-* Machine Exploration
-* Generative Multiples
-* Asemic Writing
-* Realtime Plotting
-* Database Plotting
-* Drawing Software
+*(This list is not exhaustive.)*
+
+* Vector Dataset Exploration ([Quickdraw](https://quickdraw.withgoogle.com/data), etc.)
+* [Material Explorations](../../topics/material_conditions/README.md)
+* [Morphogenesis Exploration](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/field/README.md#morphogenesis-resources)
+* [Generative Multiples](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-27-new-ii/generative-multiples/)
+* [Asemic Writing](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/11-01-work/asemic-writing/)
+* [Realtime Plotting](../../topics/realtime_plotting/README.md)
+* [Computational Drawing Tools](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-25-new-beginning/computational-drawing-tools/)
+* Device Exploration (embroidery, laser control, etc.)
 * Plottimation
 
 ---
 
-## At the Ready
+## Presentations at the Ready
 
 * [Material Conditions](../../topics/material_conditions/README.md)
 * [Realtime Plotting](../../topics/realtime_plotting/README.md)
