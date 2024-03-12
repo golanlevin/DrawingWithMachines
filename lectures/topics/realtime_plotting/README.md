@@ -1,5 +1,7 @@
 # Realtime Plotting
 
+![sassmograph.gif](img/sassmograph.gif)
+
 #### *Contents*
 
 * [*Some Prior Art*](#some-prior-art)
@@ -17,6 +19,7 @@
 * [*Contour Capture Kiosk*](https://twitter.com/golan/status/1554593715875987456), Elliot Spelman, 2022.<br />![spelman_contour_capture.jpg](img/spelman_contour_capture.jpg)
 * [*Pen Wiggler*](https://scanlime.org/2021/05/scanlime055-pen-wiggler/), Micah Elizabeth Scott (Scanlime), 2021. [Hackaday](https://hackaday.com/2021/05/14/random-robot-makes-random-art/#more-476118)<br />![scanlime_rng-art-main.png](img/scanlime_rng-art-main.png)
 * [*A Crack in the Hourglass*](https://www.youtube.com/watch?v=BsVsULhoSbM), Rafael Lozano-Hemmer, 2021. Portraits of deceased loved ones are drawn, ephemerally, in sand.<br />![lozano-hemmer_crack-in-the-hourglass.jpg](img/lozano-hemmer_crack-in-the-hourglass.jpg)
+* [*Seismoscope*](https://vimeo.com/46055629), Rafael Lozano-Hemmer, 2009. Realtime seismic data influences how a plotter executes a portrait.<br />![rlh-seismoscope.jpg](img/rlh-seismoscope.jpg)
 * [*Repeater*](https://twitter.com/creativeapps/status/1736747265023242264), Georgios Cherouvim, 2023. A feedback loop between a pen plotter and a pen digitizer.<br />![cherouvim-repeater.jpg](img/cherouvim-repeater.jpg)
 
 
@@ -35,6 +38,18 @@
 * [*Computer-Controlled Finger Painting*](https://twitter.com/golan/status/1552509950424821760), Deanna Gelosi, 2022. Gelosi became a cyborg AxiDraw meat-puppet, expressing a posthuman squiggle through a computer-controlled finger-painting apparatus.<br />![gelosi-axidraw-fingerpaint.jpg](img/gelosi-axidraw-fingerpaint.jpg)
 * [*Accessibility Aids*](https://art.josephwilk.net/projects/accessibility_aids.html), Joseph Wilk, 2022: "A performance that blurs the line between bodies and machines that comes from the experience of living with a wheelchair as a body: Drawing tools are used as assitive aids acting as different extensions of the body and enabling movements that my body finds difficult....Paint is carefully placed by hand on a canvas and finally the pen-plotter using various clay sculpting tools manipulates the paint."<br />![wilk-axidraw-performance.jpg](img/wilk-axidraw-performance.jpg)
 * [*The Interfered Microscopy Plot*](https://www.youtube.com/watch?v=CBZDvtHyRfo&t=1382s), Golan Levin, 2022. "The live feed of a digital microscope spurs the machine hallucinations of a semiautonomous drawing algorithm, whose interpretations are both coaxed and culled by the performer".<br />![golan_interfered-microscopy-plot.jpg](img/golan_interfered-microscopy-plot.jpg)
+
+#### Projection Plotting
+
+Projection mapping on (live) plotting. 
+
+![daniel_berio_graffitizer2.gif](img/daniel_berio_graffitizer2.gif)<br />![daniel_berio_graffitizer2b.gif](img/daniel_berio_graffitizer2b.gif)
+
+* Daniel Berio's [Graffitizer](https://www.enist.org/post/drawing_machines/graffitizer-2/) & [tweet](https://twitter.com/colormotor/status/1320356812424646657)
+* [Daniel Berio](https://twitter.com/colormotor/status/1415020778542800900)
+* [Joanie Lemercier](https://twitter.com/JoanieLemercier/status/719283368119152641)
+* [Gustavo M.](https://twitter.com/bustavo/status/1509923339195719690)
+* [Receipt Racer](https://vimeo.com/24987120), D_Effekt et al., 2011. Augmented projection game on live receipt printer.<br />[![receipt_racer.jpg](img/receipt_racer.jpg)](https://vimeo.com/24987120)
 
 ---
 
