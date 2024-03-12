@@ -9,9 +9,13 @@ This project is due **Thursday March 21**. The goal of this project is to allow 
 Please do one of the following: 
 
 * Revise an earlier project, **OR**
-* Conduct an experiment towards a new project. 
+* Conduct a preliminary experiment towards a new project. 
 
-If you're not sure what to do, don't worry, we'll workshop you together in class. 
+Consider the following: 
+
+* If you revise an earlier project, this is a good opportunity to try to make something nice/large/better.
+* If you tinker with a preliminary experiment: You have permission to make failed experiments. 
+* If you're not sure what to do, don't worry, we'll workshop this together in class. 
 
 *Now*, 
 

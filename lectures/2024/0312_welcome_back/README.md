@@ -6,7 +6,7 @@
 
 1. [Trajectoids](https://www.youtube.com/watch?v=2lW9HznqsVY) & [more info](https://www.youtube.com/watch?v=VbuXOC0Fy1c)
 2. Upcoming Due Dates: 
-  * 3/21 (Thursday): Research Update due
+  * 3/21 (Thursday): [8a - Research Update](../../../assignments/08_personal_project/README.md) due
   * 4/9 (Tuesday): Self-Directed Project I due
   * 4/2X (TBD): Self-Directed Project II due
 3. Special Guest Presentations:
