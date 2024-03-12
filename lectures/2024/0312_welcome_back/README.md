@@ -7,15 +7,16 @@
 1. [Trajectoids](https://www.youtube.com/watch?v=2lW9HznqsVY) & [more info](https://www.youtube.com/watch?v=VbuXOC0Fy1c)
 2. Upcoming Due Dates: 
   * 3/21 (Thursday): [8a - Research Update](../../../assignments/08_personal_project/README.md) due
-  * 4/9 (Tuesday): Self-Directed Project I due
-  * 4/2X (TBD): Self-Directed Project II due
+  * 4/9 (Tuesday): 8b - Self-Directed Project I due
+  * 4/2X (TBD): 8c - Self-Directed Project II due
 3. Special Guest Presentations:
   * 3/14 (Thursday): Guest speaker, [Jean Hyaejin Oh](https://www.cs.cmu.edu/~./jeanoh/)
   * 3/26 (Tuesday): Guest speaker, [Licia He](https://www.instagram.com/blahblahpaperblah/)
 4. Other Special Events:
-  * 3/21 (Thursday, 5:30pm): [Ioana Vreme Moser](https://studioforcreativeinquiry.org/events/pirouette-machines-fluid-components-artist-talk-by-ioana-vreme-moser) at the STUDIO
-  * 3/27 (Wednesday, 5:30pm): [JooYoung Choi](https://studioforcreativeinquiry.org/events/jooyoung-choi) at the STUDIO
-  * 3/26 (Tuesday, 5:30pm): [Carla Diana](https://studioforcreativeinquiry.org/events/carla-diana) at the STUDIO
+  * 3/13 (Wednesday, 5:30pm): Animator [Rebecca Ruige Xu](https://studioforcreativeinquiry.org/events/18204) at the STUDIO
+  * 3/21 (Thursday, 5:30pm): Sound artist [Ioana Vreme Moser](https://studioforcreativeinquiry.org/events/pirouette-machines-fluid-components-artist-talk-by-ioana-vreme-moser) at the STUDIO
+  * 3/27 (Wednesday, 5:30pm): Animator [JooYoung Choi](https://studioforcreativeinquiry.org/events/jooyoung-choi) at the STUDIO
+  * 3/26 (Tuesday, 5:30pm): Designer [Carla Diana](https://studioforcreativeinquiry.org/events/carla-diana) at the STUDIO
 
 --- 
 
