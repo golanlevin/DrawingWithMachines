@@ -5,7 +5,7 @@
 ## Agenda
 
 1. [Trajectoids](https://www.youtube.com/watch?v=2lW9HznqsVY) & [more info](https://www.youtube.com/watch?v=VbuXOC0Fy1c)
-2. Questionnaire
+2. [Questionnaire](https://forms.gle/pBDV6w9GyvPpXny8A)
 2. Upcoming Due Dates: 
   * 3/21 (Thursday): [8a - Research Update](../../../assignments/08_personal_project/README.md) due
   * 4/9 (Tuesday): 8b - Self-Directed Project I due
