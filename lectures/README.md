@@ -13,6 +13,7 @@
 * Feb 13: [Shape](2024/0213_shape/README.md)
 * Feb 15: [Shape](2024/0215_shape/README.md)
 * Feb 20: [Field](topics/field/README.md)
+* Mar 12: [Welcome Back](2024/0312_welcome_back/README.md)
 
 ---
 
