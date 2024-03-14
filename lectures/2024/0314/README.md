@@ -17,8 +17,12 @@
   * more hands-on time and workdays in class
   * more in-class activities
 * Miscellaneous: 
-  * Sophomore review is real and is back to mandatory.
-  * Applications to art awards are due April 1.
+  * Applications to Art Awards are due April 1.
+     * The School of Art gives away numerous cash awards for each cohort.
+     * Award winners graduate "with Honor" on their Diploma
+  * Sophomore review is real and (back to) mandatory.
+     * Review dates are 4/19 and 4/26. 
+     * [Indicate your preferred review date here](https://forms.gle/p1TtexSwNs12bcg97).
 
 ---
 
