@@ -43,22 +43,22 @@ Tue Feb 27
 Thu Feb 29 - #7 Due (Field).
 Tue Mar  5 - No Class (Spring Break)
 Thu Mar  7 - No Class (Spring Break)
-Tue Mar 12 - Lectures (other topics); 1:1 Meetings
-Thu Mar 14 - Lectures (other topics); 1:1 Meetings
-Tue Mar 19 - Lectures (other topics); 1:1 Meetings
+Tue Mar 12 - Lectures (other topics)
+Thu Mar 14 - Guest (Jean Oh), Lectures (other topics)
+Tue Mar 19 - Workday; 1:1 Meetings etc. 
 Thu Mar 21 - #8A Due (Proposal); Workshop
-Tue Mar 26
-Thu Mar 28 
-Tue Apr  2
+Tue Mar 26 - Guest (Licia He); Workday
+Thu Mar 28 - Workday
+Tue Apr  2 - Spot-check workshop, Workday
 Thu Apr  4 - Workday
 Tue Apr  9 - #8B Due (Self-Directed Project I)
 Thu Apr 11 - No Class (Spring Carnival)
-Tue Apr 16
-Thu Apr 18
+Tue Apr 16 - Workday
+Thu Apr 18 - Workday
 Tue Apr 23 - Workday
 Thu Apr 25 - Workday
 Apr 29-May 3 (TBD) - #8C Due (Self-Directed Project II)
-Fri May  3 - Card Exchange
+Tbd May  X - Card Exchange
 
 ```
 
