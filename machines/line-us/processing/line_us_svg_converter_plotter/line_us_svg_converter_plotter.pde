@@ -132,7 +132,7 @@ void setup() {
   b_rotate.addActionListener(this);
 
   RG.init(this);
-  grp = RG.loadShape("venn_.svg");
+  grp = RG.loadShape("lissajous.svg"); //venn_.svg");
 }
 
 

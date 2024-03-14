@@ -59,7 +59,7 @@ Projection mapping on (live) plotting.
 
 * [Realtime control of AxiDraw with Python](https://axidraw.com/doc/py_api/#quick-start-interactive-xy)
 * [Realtime control of AxiDraw with Python (unofficial)](https://github.com/fogleman/axi)
-* [Realtime control of AxiDraw with Processing (Java)](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/axidraw/realtime_processing/simple_mouse_axidraw_2021/simple_mouse_axidraw_2021.pde)
+* [Realtime control of AxiDraw with Processing (Java)](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/axidraw/realtime_processing/simple_mouse_axidraw_2024/simple_mouse_axidraw_2024.pde) (2024)
 * [Gannon's AxiDraw_Mouse](https://github.com/madelinegannon/axidraw/tree/master/AxiDraw_Mouse)
 
 #### Line-Us: 

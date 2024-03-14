@@ -9,6 +9,7 @@ Index to instructions for plotting with our classroom equipment.
 * [**AxiDraw Standalone RPi Kiosk Instructions**](../rpi_standalone/README.md)
 * [AxiDraw CLI (Command Line Interface)](https://axidraw.com/doc/cli_api/#introduction)
 * [AxiDraw Inkscape Extension](https://wiki.evilmadscientist.com/Axidraw_Software_Installation) (& [YouTube demo](https://www.youtube.com/watch?v=r5mhw8-nrg0))
+* [AxiDraw realtime control in Processing](axidraw/realtime_processing/simple_mouse_axidraw_2024) (2024)
 
 ## HP7475A
 
