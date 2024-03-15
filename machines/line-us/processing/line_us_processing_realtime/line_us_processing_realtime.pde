@@ -1,4 +1,5 @@
 import processing.net.*;
+// Control the Line-Us in real time with the mouse. 
 
 LineUs myLineUs;
 int prevMouseX = 0; 

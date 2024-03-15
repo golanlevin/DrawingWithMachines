@@ -43,7 +43,7 @@
 
 This section describes workflows for controlling Line-Us from p5.js. These workflows all use the JavaScript [Line-Us library by @beardicus](https://github.com/beardicus/line-us), which controls the Line-us robot via its websocket interface, and works in both Node.js and the browser. The examples below establish a work area of 1125 (w) x 2000 (h) units, with approximately 20 units per millimeter. 
 
-*Note: p5.js cannot run Line-Us from sketches served online at https://editor.p5js.org, because Line-Us does not support secure web sockets, and browsers require secure websocket connections for secure (https) sites like the p5 Editor. This issue is discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586).*
+*Note: p5.js cannot run Line-Us from sketches served online at https://editor.p5js.org, because Line-Us does not support secure web sockets, and browsers require secure websocket connections for secure (https) sites like the p5 Editor. This issue is discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586). One solution is to run the p5 projects from Visual Studio Code, using the "Go Live" feature. Another possibility is to run a local server with ```python3 -m http.server```.*
 
 #### Example projects 
 
@@ -74,8 +74,9 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 ## Programming Line-Us with Processing (Java)
 
-* [Processing code for a very simple example](https://github.com/Line-us/Line-us-Programming/blob/master/Processing/HelloWorld/HelloWorld.pde)
-* [SVG loader/plotter for Line-Us, built in Processing](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/line-us/processing/line_us_svg_converter_plotter)
+* [Processing code for a very simple example](processing/line_us_processing_simple). Draws the word "Hi".
+* [SVG loader/plotter for Line-Us, built in Processing](processing/line_us_svg_converter_plotter). Bloated project (requires the Geomerative and Interfascia external libraries), but able to control Line-Us in order to render SVG files. 
+* [Realtime Control Demo](processing/line_us_processing_realtime). Control Line-Us in real time with the mouse. 
 
 ---
 
@@ -91,6 +92,6 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 * Line-Us support for other programming languages can be found [here](https://github.com/Line-us/Line-us-Programming)
 * Line-Us may throw errors when receiving high-precision floating-point coordinates. It's recommended to transmit integer coordinates instead. 
-* Here's a view of the Line-Us Drawing Area:
+* Here's a view of the "D-shaped" Line-Us drawing area:
 
 ![Line-Us Drawing area](images/drawing-area.png)

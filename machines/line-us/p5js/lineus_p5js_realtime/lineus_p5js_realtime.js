@@ -12,7 +12,7 @@ function setup() {
   // My Line-Us is named 'sfci-lineus-1'.
   // This is set in the official Line-Us app.
   var myLineusOptions = {
-    url: 'ws://sfci-lineus-1.local/',
+    url: 'ws://line-us.local/',
     autoConnect: true,
     autoStart: true,
     concurrency: 5

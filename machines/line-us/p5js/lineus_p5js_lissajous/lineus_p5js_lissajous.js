@@ -10,7 +10,7 @@ function setup() {
 
   // You'll need the name of your Line-Us device. 
   // This can be set in the official Line-Us App.
-  var bot = new LineUs({url: 'ws://sfci-lineus-1.local/'});
+  var bot = new LineUs({url: 'ws://line-us.local/'});
   print(bot);
 
   background(220);
