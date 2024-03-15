@@ -45,7 +45,7 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 *Note: p5.js cannot run Line-Us from sketches served online at https://editor.p5js.org, because Line-Us does not support secure web sockets, and browsers require secure websocket connections for secure (https) sites like the p5 Editor. This issue is discussed [here](https://forum.line-us.com/t/https-secure-websockets-only/586). One solution is to run the p5 projects from Visual Studio Code, using the "Go Live" feature. Another possibility is to run a local server with ```python3 -m http.server```.*
 
-#### Example projects 
+#### Example p5.js Projects 
 
 * [**Calibration Grid**](p5js/lineus_p5js_calibration): a calibration grid (see image below). *Expect some nonlinearities*. * [**Lissajous Figure**](p5js/lineus_p5js_lissajous): a simple Lissajous figure.* [**Mouse Playback**](p5js/lineus_p5js_mouserecording): a single mouse gesture is recorded into an array of points, and then rendered by the robot when the user presses a key.
 * [**Realtime Control**](p5js/lineus_p5js_realtime): control Line-Us in real-time with the cursor.
@@ -53,7 +53,7 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 ![Wiggly calibration grid](images/calibration-test.jpg)
 
-#### Instructions using p5.js Mode in the Processing IDE
+#### Instructions using p5.js Mode from within the Processing IDE
 
 *This workflow has been tested with Processing IDE versions 3.5.4 and 4.0a4 in MacOS 10.15.7.*
 
