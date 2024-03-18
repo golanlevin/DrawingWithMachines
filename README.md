@@ -44,8 +44,8 @@ Thu Feb 29 - #7 Due (Field).
 Tue Mar  5 - No Class (Spring Break)
 Thu Mar  7 - No Class (Spring Break)
 Tue Mar 12 - Lectures (other topics)
-Thu Mar 14 - Guest (Jean Oh), Lectures (other topics)
-Tue Mar 19 - Workday; 1:1 Meetings etc. 
+Thu Mar 14 - Guest (Jean Oh)
+Tue Mar 19 - Lectures (other topics); Workday.
 Thu Mar 21 - #8A Due (Proposal); Workshop
 Tue Mar 26 - Guest (Licia He); Workday
 Thu Mar 28 - Workday
@@ -57,9 +57,9 @@ Tue Apr 16 - Workday
 Thu Apr 18 - Workday
 Tue Apr 23 - Workday
 Thu Apr 25 - Workday
-Apr 29-May 3 (TBD) - #8C Due (Self-Directed Project II)
-Tbd May  X - Card Exchange
-
+Wed May  1 - Final Projects due before Noon (FIRM)
+Thu May  2 - Final Critique and Card Exchange, 5:30-8:20pm
+Tue May  7 - Last deadline for Documentation (due by Noon).
 ```
 
 ---
