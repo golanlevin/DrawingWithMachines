@@ -24,6 +24,11 @@ Index to instructions for plotting with our classroom equipment.
 
 * [**Instructions for Plotting with the USCutter MH871-MK2**](uscutter-mh871-mk2/README.md)
 
+## uArm Metal 
+
+* [**Instructions for controlling the uArm Metal robot arm**](uarm_metal/README.md)
+
+
 ---
 
 ### *Other Machines*
