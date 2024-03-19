@@ -2,7 +2,7 @@
 // This tool is based (with very minimal modifications) on
 // https://github.com/tbertz/LineUs_SVG/tree/release/v0.2
 // Installation instructions: 
-// 1. Install the Geomerative library (via Tools > Add Tool)
+// 1. Install the Geomerative library (via Tools > Manage Tools > Libraries)
 // 2. Install the Interfascia library (from http://interfascia.berg.industries/download/)
 
 
