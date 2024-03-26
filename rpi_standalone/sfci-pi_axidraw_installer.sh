@@ -163,7 +163,7 @@ echo "Done creating axidraw venv and updating it!"
 
 
 echo "Installing axidraw in venv..."
-/usr/local/share/venv-axidraw/bin/python3 -m pip install --upgrade --upgrade-strategy eager "https://cdn.evilmadscientist.com/dl/ad/public/ad_api/AxiDraw_API_321.zip"
+/usr/local/share/venv-axidraw/bin/python3 -m pip install --upgrade --upgrade-strategy eager "https://cdn.evilmadscientist.com/dl/ad/public/ad_api/AxiDraw_API_396.zip"
 ln -sf /usr/local/share/venv-axidraw/bin/axicli /usr/local/bin/axicli
 echo "Done installing axidraw in venv!"
 
