@@ -14,7 +14,8 @@
 //   https://nodejs.org/en/learn/getting-started/how-to-install-nodejs
 //   https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 // * Download https://github.com/techninja/cncserver/archive/master.zip
-// * Unzip cncserver-master.zip, rename dir to cncserver, cd cncserver
+//   or use installs/cncserver-2024.zip
+// * Unzip cncserver-2024.zip, rename dir to cncserver, cd cncserver
 // * at the Terminal: npm install nconf
 // * at the Terminal: node cncserver --botType=axidraw
 // * Then run this program.
