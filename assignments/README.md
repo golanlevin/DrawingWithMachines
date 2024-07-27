@@ -8,8 +8,9 @@
 4. [**Line**](04_line/README.md) (Due Tuesday **2/6**)
 5. [**Tone**](05_tone/README.md) (Due Tuesday **2/13**)
 6. [**Shape**](06_shape/README.md) (Due Tuesday **2/20**)
-7. [**Field**](07_field/README.md) (Due Thursday **2/29**)
-8. **Personal Project**
+7. [**Pattern**](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1184.html) (2021 only)
+8. [**Field**](07_field/README.md) (Due Thursday **2/29**)
+9. **Personal Project**
   * **Proposal** (Due Thursday **3/21**)
   * **Prototype** (Due Tuesday **4/9**)
   * **Final Project** (Due TBA in Finals Week)
