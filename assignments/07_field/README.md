@@ -1,4 +1,4 @@
-# Assignment 7: *Pattern*
+# Assignment 7: *Field*
 
 This assignment is concerned with growing a design to cover a visual field. Rather than explicitly plotting a pattern (e.g. by placing tiles), my hope is that you are able to create an image that *develops through a feedback process with itself*. This Assignment has two parts and is due at the beginning of class on **Thursday, 2/29**: 
 
