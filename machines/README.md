@@ -15,6 +15,15 @@ Index to instructions for plotting with our classroom equipment.
 
 * [**Instructions for Plotting with the HP7475A**](hp7475a/README.md)
 * [Configuring HP7475A with GP-IB/HP-IB](hp7475a/manuals/GPIB/README.md)
+* Realtime Control of the HP7475A
+
+## HP DraftMaster II 7596A
+
+* [**Instructions for Plotting with the HP DraftMaster II**](hp_draftmaster_ii_7596a/README.md)
+
+## Bantam ArtFrame 1824
+
+* Information Forthcoming
 
 ## Line-Us
 
@@ -35,7 +44,6 @@ Index to instructions for plotting with our classroom equipment.
 
 *Documentation Under Construction.*
 
-* HP DraftMaster II Pen Plotter, Model 7596A
 * Universal Robots UR5
 * Rotrics DexArm & Rail
 * RGB Laser & EtherDream controller
