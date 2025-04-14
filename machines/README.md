@@ -24,9 +24,9 @@ Index to instructions for plotting with our classroom equipment.
 
 * [**Instructions for Plotting with the USCutter MH871-MK2**](uscutter-mh871-mk2/README.md)
 
-## uArm Metal 
+## Rotring NC-Scriber CS 100
 
-* [**Instructions for controlling the uArm Metal robot arm**](uarm_metal/README.md)
+* [**Instructions for the Rotring NC-Scriber CS 100**](rotring-nc-scriber-cs100/README.md)
 
 
 ---
@@ -35,7 +35,9 @@ Index to instructions for plotting with our classroom equipment.
 
 *Documentation Under Construction.*
 
+* HP DraftMaster II Pen Plotter, Model 7596A
 * Universal Robots UR5
 * Rotrics DexArm & Rail
 * RGB Laser & EtherDream controller
 * Viking Jade 35A CNC embroidery machine
+* [uarm_metal](uArm Metal/README.md) – *no longer operational*
