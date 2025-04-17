@@ -2,8 +2,8 @@
 
 ![rotring_nc_scriber_cs_100.jpg](img/rotring_nc_scriber_cs_100.jpg)
 
-* [**Operating Manual**](rotring_nc_scriber_cs_100_operating_instructions.pdf)
-* [**Commercial Brochure**](rotring_nc_scriber_cs_100_brochure_1990.pdf)
+* [**Operating Manual**](pdf/rotring_nc_scriber_cs_100_operating_instructions.pdf)
+* [**Commercial Brochure**](pdf/rotring_nc_scriber_cs_100_brochure_1990.pdf)
 
 The Rotring NC-Scriber CS-100 is a standalone electronic lettering machine developed in the 1980s for technical drafting applications. It combines a membrane keyboard with a precision plotting arm that moves a pen to draw typed text onto paper, creating consistent, mechanically-rendered lettering.
 
