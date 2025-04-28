@@ -2,6 +2,12 @@
 
 The Draftmaster II was among the most advanced pen plotters ever made by HP. They handled media sizes up to E/A0 size and plotted at 60 cm/s with acceleration up to 5.7g. The DraftMaster II (P/N 7596A - $10995) also plotted on continuous rolls.
 
+---
+
+## Quickstart
+
+* Connect USB-to-DB9 FTDI serial cable to the gray HP 24542G (DB9-to-DB25) cable. Plug the USB connector to your laptop; plug the 25-pin HP 24542G to the **upper** RS-232 serial port on the DraftMaster. *Note:* The upper RS-232 port is specifically for connecting to a computer; don't use the lower ("terminal") port, which is wired differently.
+
 
 ---
 
@@ -9,8 +15,8 @@ The Draftmaster II was among the most advanced pen plotters ever made by HP. The
 
 You're probably looking for these User's Guides & Programmer's Manuals:
 
-* [**HP DraftMaster Plotter: User's Guide** (1988)](pdf/DraftMasterPlotter-UsersGuide-07595-90002-220pages-Feb88.pdf)
-* [**HP DraftMaster Plotter: Programmer's Reference** (1987)](pdf/DraftMaster_ProgrammersReference_07595-90001_505pages_Jan87.pdf)
+* [**HP DraftMaster Plotter: User's Guide** (1988)](pdf/DraftMasterPlotter-UsersGuide-07595-90002-220pages-Feb88_OCR.pdf)
+* [**HP DraftMaster Plotter: Programmer's Reference** (1987)](pdf/DraftMaster_ProgrammersReference_07595-90001_505pages_Jan87_OCR.pdf)
 
 Other PDFs from the HP Computer Museum:
 
@@ -30,11 +36,12 @@ Key pages about the HP DraftMaster II at the HP Computer Museum:
 
 ## Other Hardware Information
 
-* [Here are binary images](firmware/7595Afirmware.zip) of the Processor EPROMs in the HP Computer Museum's 7596A plotter to use in creating replacement EPROMs (they are all 27512 items). Note that these EPROMs are used on the 07595-60100 Processor PCA and may not work on the newer 07595-60200 version of the Processor PCA.
+* [Here are binary images](firmware/7595Afirmware.zip) of the Processor EPROMs in the HP Computer Museum's 7596A plotter to use in creating replacement EPROMs. Note that these EPROMs are used on the 07595-60100 Processor PCA and may not work on the newer 07595-60200 version of the Processor PCA.
 * [HP DraftMaster RX Y-Axis Driven Pulley](https://www.thingiverse.com/thing:6521894) at Thingiverse
 * [Refilling or Replacing Vintage HP Plotter Pens](https://www.youtube.com/watch?v=h-oj4HrTH14)
-* If you need to replace the drive belt that goes between the Y-drive motor and the Y-axis pulley on your Draftmaster SX, the specifications of the belt are: Pitch - 0.080" MXL; Pitch(Belt) length - 8.4"; Number of teeth - 105; Belt width - 0.25". The HP part number for this belt is 1500-0687, but the equivalent Kevlar part from Small Parts and Bearings is [B-MXL-0105-0064-PKB timing belt: 105 tooth - 213.36x6.4 mm](https://smallparts.com.au/products/105-213-36mm-polyurethane-belts-timing-2-032mm-pitch-mxl-6-4mm-widebelts-bmxl01050064pkb?variant=44336115548456)
-* The belt between the X-Drive motor and the Grit roller has the following specifications: Pitch - 0.080" MXL; Pitch(Belt) length - 11.6"; Number of teeth - 145; Belt width - 0.375". The HP part number for this belt is 1500-0689, but the equivalent Kevlar part from Small Parts and Bearings is [B-MXL-0145-0095-PKB timing belt: 145 Teeth x 294.64 mm x 9.5 mm](https://smallparts.com.au/products/145-294-64mm-polyurethane-belts-timing-2-032mm-pitch-mxl-9-5mm-widebelts-bmxl01450095pkb?variant=44354477457704)
+* Replacement drive belts:
+	* If you need to replace the drive belt that goes between the Y-drive motor and the Y-axis pulley on your Draftmaster SX, the specifications of the belt are: Pitch - 0.080" MXL; Pitch(Belt) length - 8.4"; Number of teeth - 105; Belt width - 0.25". The HP part number for this belt is 1500-0687, but the equivalent Kevlar part from Small Parts and Bearings is [B-MXL-0105-0064-PKB timing belt: 105 tooth - 213.36x6.4 mm](https://smallparts.com.au/products/105-213-36mm-polyurethane-belts-timing-2-032mm-pitch-mxl-6-4mm-widebelts-bmxl01050064pkb?variant=44336115548456)
+	* The belt between the X-Drive motor and the Grit roller has the following specifications: Pitch - 0.080" MXL; Pitch(Belt) length - 11.6"; Number of teeth - 145; Belt width - 0.375". The HP part number for this belt is 1500-0689, but the equivalent Kevlar part from Small Parts and Bearings is [B-MXL-0145-0095-PKB timing belt: 145 Teeth x 294.64 mm x 9.5 mm](https://smallparts.com.au/products/145-294-64mm-polyurethane-belts-timing-2-032mm-pitch-mxl-9-5mm-widebelts-bmxl01450095pkb?variant=44354477457704)
 
 
 

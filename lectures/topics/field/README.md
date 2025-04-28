@@ -96,8 +96,14 @@ Resources surveying a wide variety of algorithms for growing forms.
 
 ![mario_klingemann_subdivision.jpg](img/mario_klingemann_subdivision.jpg)<br />Mario Klingemann, [*Subdivision*](https://www.flickr.com/photos/quasimondo/albums/72157606163595189/), 2008
 
+![rapidly_exploring_random_tree_rrt.gif](img/rapidly_exploring_random_tree_rrt.gif)<br />[Rapidly Exploring Random Tree](https://en.wikipedia.org/wiki/Rapidly_exploring_random_tree) (RRT) path-planning algorithm
 
 ---
 
 [2021 Lecture version](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-06-field-distribution/)
 
+Also: 
+
+* Voronoi stippling, Lloyd's relaxation, Bostock
+* Spatial partitioning (Guillotine cutting)
+* Venation/Colonization, https://medium.com/@jason.webb/space-colonization-algorithm-in-javascript-6f683b743dc5
