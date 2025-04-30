@@ -90,3 +90,7 @@ There are some really [wild inks out there](https://www.reddit.com/r/fountainpen
 ---
 
 [2021 Notes](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-25-new-beginning/material-conditions/)
+
+Unincorporated notes: 
+
+* Lightpainting, https://www.instagram.com/p/DI_gGrhpO45/
