@@ -224,18 +224,7 @@ Vpype is an extremely powerful tool for SVG manipulation, but there are several 
 * Here is a [Raspberry Pi printserver for the HP7475A](https://github.com/hughpyle/penplot1.local), which also does SVG to HPGL conversion.
 * [PiPlot](https://github.com/ithinkido/PiPlot): The PiPlot is a hardware shield that adds RS232 conectivity with full serial hardware flow control to the Raspberry Pi Zero.<br />![](images/piplot.jpg)
 
-#### HP7475A Plotter Pens
+## CAD Files
 
-* The HP7475A plotter uses HP "S Style" Fiber Tip Plotter Pens, and can accommodate pens made for the: 7090, 7220A, 7221 A, 7225A, 7440 HP Colorpro, 7470A, 7475A, 7550A, 7550B, 7570 HP Draftpro, 7580A, 7585A, 7586A, 7595A, 7595B, 7596A, 7596B, 7599A, 9872A, HP Draftmaster I, II, MX, RX, SX, HP Draftpro DXL (7575A); and the Roland DPX, DXY, and GRX Series.
-* Compatible new pens are available from Amazon: [KOH-I-NOOR Fiber-Tip Plotter Pens](https://www.amazon.com/dp/B000KNNIL0), with manufacturer product number 6401.01F, UPC 14173-28306. Note: Old HP numbers were 178xxP.
-* This [YouTube video](https://www.youtube.com/watch?v=h-oj4HrTH14) shows a method for refilling the ink in a vintage pen.
-* Various persons have developed 3D-printed adapters to allow modern pens in the HP7475A: 
-	* [thing:227985](https://www.thingiverse.com/thing:227985) 
-	* [thing:2955469](https://www.thingiverse.com/thing:2955469) 
-	* [thing:4720715](https://www.thingiverse.com/thing:4720715)
-	* [thing:4813060](https://www.thingiverse.com/thing:4813060)
-	* [plotter-oem-pen-body-mode](https://softsolder.com/2015/04/21/hp-7475a-plotter-oem-pen-body-model/)
-	* [plotter-sakura-micron-pen-adapter](https://softsolder.com/2015/04/22/hp-7475a-plotter-sakura-micron-pen-adapter/)
-	* [plotter-full-up-sakura-micron-pen-tests](https://softsolder.com/2015/04/23/hp-7475a-plotter-full-up-sakura-micron-pen-tests/)
-	* [felt-tip-adapter-for-hp-style-plotters](https://www.printables.com/model/138334-felt-tip-adapter-for-hp-style-plotters)
-
+* [HP7475A pen adapter](3d_pen_adapter/README.md)
+* [HP7475A geneva wheel](3d/hp_7475a_geneva_wheel.stl)
