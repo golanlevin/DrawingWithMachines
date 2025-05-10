@@ -23,10 +23,10 @@ This pen adapter is known to be compatible with all of the following modern roll
 
 * [Pilot G-2](https://www.amazon.com/PILOT-Refills-Rolling-Point-12-Pack/dp/B0C2DZQ8V3/) (LG2RF-8M, BLS-G2-10) and G-2 Mini
 * [Pilot Juice 0.38mm](https://www.amazon.com/Pilot-Juice-Retractable-LJU-10UF-0-38mm/dp/B06XF41HHH/) (LJU-10UF, LPR2F-8UF)
-* [Pilot Juice 0.3mm](https://www.amazon.com/Pilot-Rollerball-point-Refill-Juice/dp/B07DNFW2DB/) (LP3RF12S3)
-* [Pilot Hi-Tec-C 0.25mm](https://www.amazon.com/Pilot-Hi-Tec-C-Hyper-0-25mm-LH-20C25/dp/B06Y3P1RQG/) (LH-20C25)
-* [Uni-Ball Signo 0.28 mm](https://www.amazon.com/Uni-ball-UMR-82-Refills-Ballpoint-10-Pack/dp/B076JBGNKY/) (UMR-82)
-* [Zebra Pen Sarasa 0.5mm](https://www.amazon.com/Zebra-ballpoint-Sarasa-P-JJ15-BK10-pieces/dp/B00P0PT7BS/)
+* [Pilot Juice 0.3mm](https://www.amazon.com/Pilot-Rollerball-point-Refill-Juice/dp/B07DNFW2DB/) (LP3RF-12S3)
+* [Pilot Hi-Tec-C 0.25mm, 0.3mm](https://www.amazon.com/Pilot-Hi-Tec-C-Hyper-0-25mm-LH-20C25/dp/B06Y3P1RQG/) (LH-20C25, LH20C3)
+* [Uni-Ball Signo 0.28 mm](https://www.amazon.com/Uni-ball-UMR-82-Refills-Ballpoint-10-Pack/dp/B076JBGNKY/) (UMR-82, UM-151-28, UMR-1-28, UMN-155N-28)
+* [Zebra Pen Sarasa 0.3mm, 0.5mm](https://www.amazon.com/Zebra-ballpoint-Sarasa-P-JJ15-BK10-pieces/dp/B00P0PT7BS/)
 
 ---
 
