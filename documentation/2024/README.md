@@ -1,17 +1,17 @@
 # Drawing with Machines • Spring 2024
 
-Highlights of projects produced in Golan Levin's Spring 2024 *Drawing with Machines* course at CMU, as documented in [this Twitter thread](https://x.com/golan/status/1789165483658244231). More images can also be found in [this Flickr album](https://flickr.com/photos/golanlevin/albums/72177720316690822/).
+This page presents highlights of projects produced in Golan Levin's Spring 2024 *Drawing with Machines* course at CMU, as documented in [this Twitter thread](https://x.com/golan/status/1789165483658244231). Additional and higher-resolution images can also be found in [this Flickr album](https://flickr.com/photos/golanlevin/albums/72177720316690822/).
 
 ---
 
 Friends, a thread: projects from my Spring 2024 #generativeArt #plotterTwitter course at CMU, [*Drawing with Machines*](https://github.com/golanlevin/DrawingWithMachines)! I'm privileged to work with brilliant students from the [CMU School of Art](https://art.cmu.edu/), [CMU's BXA](https://www.cmu.edu/interdisciplinary/programs/) Intercollege Degree Programs, the [CMU IDeATe](https://ideate.cmu.edu/) program — and generous support from [Bantam Tools](https://bantamtools.com/), makers of the world's best plotters.
 
-![overview.jpg](img/overview.jpg)
+![overview](img/overview.jpg)
 
 *Drawing with Machines* is a studio art course in creative coding, CNC drawing, and mechatronic mishegoss. Students explored ultra-niche workflows, generative art algorithms, and the use of machine collaborators as nontraditional intermediaries between mind, hand, and paper.
 
 
-![shelly_hp.jpg](img/shelly_hp.jpg)
+![shelly_hp](img/shelly_hp.jpg)
 
 <table>
   <tr>
@@ -62,7 +62,7 @@ BFA sophomore [Vincent Wolfe](https://www.instagram.com/fangknife/) conducted mu
 
 Some more stills from Vincent's embroidered animation.
 
-![wolfe_frames.jpg](img/wolfe_frames.jpg)
+![wolfe_frames](img/wolfe_frames.jpg)
 
 Vincent Wolfe also used PEmbroider and Processing to create these herbarium-style plant samples — implementing an [L-system](https://en.wikipedia.org/wiki/L-system) algorithm from papers by [Przemyslaw Prusinkiewicz](https://algorithmicbotany.org/) and running the embroidery machine without fabric (i.e. only stabilizer).
 
@@ -167,6 +167,7 @@ Inspired by the organic and crunky unpredictability of the Line-Us plotter, BFA 
 
 Shelly Zhang also used the tiny Line-Us to introduce material irregularity into machine-drawn stop-frame animations. Working in Maya, she developed a workflow for exporting frames of 3D geometries as plottable SVGs.
 
+![shelly_zhang_combo](img/shelly_zhang_combo.gif)
 
 BFA sophomore G Meloche developed custom workflows for generative geometry in Blender, building on SVG-export tools by [Maks Surguy](https://makssurguy.com/). They then used these to produce mixed-media pieces, combining Axidraw plots with hand-painted casein and acrylic.
 
@@ -179,17 +180,18 @@ BFA sophomore G Meloche developed custom workflows for generative geometry in Bl
 
 BFA 2nd-year Emma Im created a “3D-print photobooth” in a project combining computer vision and real-time additive prototyping. [Her p5.js program](https://github.com/siye0ngim/SIMS) transforms webcam snaps directly into G-code for a low-cost 3D printer, as shown in this self-portrait.
 
-![emma_im_3dprint.jpg](img/emma_im_3dprint.jpg)
+![emma_im_3dprint](img/emma_im_3dprint.jpg)
 
+![emma_im_vision](img/emma_im_vision.gif)
 
 BFA sophomore [Finnian Brooke](https://www.instagram.com/finnian_brooke/) explored "automatic" drawing in expressive and psychedelic works that combined hand and machine mark-making. In this example, a computer-generated noise field of AxiDraw marks (blue) is overdrawn by Finn's own improvised sketches (black).
 
-![finnian_brooke.jpg](img/finnian_brooke.jpg)
+![finnian_brooke](img/finnian_brooke.jpg)
 
 
 [Elise Chapman](https://eliseraichapman.com/), a senior in the CMU School of Design, developed a Processing program to generate flourishes and asemic writing informed by traditional calligraphy techniques. Elise made heavy use of specialized AxiDraw attachments for angled fountain pens.
 
-![elise_chapman.jpg](img/elise_chapman.jpg)
+![elise_chapman](img/elise_chapman.jpg)
  
 
 This light painting was produced by CMU School of Architecture 5th-year student [Mira Teng](https://www.linkedin.com/in/mira-teng-050233212/), who directed a modified, autonomous Zumo robot to roam their house. Through long-exposure photography, Mira's drawing machine gave voice to the spaces between the walls.
@@ -254,7 +256,7 @@ Another of Leo Lin's durational installation projects was his *Bounding Box*, in
 
 [![Leo Lin's Bounding Box](https://i.ytimg.com/vi/uxH9vzOfRnc/maxresdefault.jpg)](https://www.youtube.com/watch?v=uxH9vzOfRnc)
 
-![leo_lin_bounding_box.jpg](img/leo_lin_bounding_box.jpg)
+![leo_lin_bounding_box](img/leo_lin_bounding_box.jpg)
 
 In [Marc Dunand](https://marcdunand.com/)'s [interactive project](https://www.youtube.com/watch?v=MfCeOq2Uj1s), participants draw a curve across a piece of paper. Using his custom vision software, a plotter then embellishes this hand-drawn curve with features like trees, lakes, and houses—turning it into a charming landscape. 
 
@@ -262,10 +264,15 @@ In [Marc Dunand](https://marcdunand.com/)'s [interactive project](https://www.yo
 
 [![Marc Dunand interactive plotter project](https://i.ytimg.com/vi/o3LQy62Ii-I/maxresdefault.jpg)](https://www.youtube.com/watch?v=o3LQy62Ii-I)
 
-Some more photos of Marc's collaborative drawing machine, and its results. Marc developed the software using OpenCV and the AxiDraw Python API.
+Some more photos of Marc's collaborative drawing machine, and its results. Marc developed the software using OpenCV and the A]xiDraw Python API.
 
-![marc_dunand_installation.jpg](img/marc_dunand_installation.jpg)
+![marc_dunand_installation](img/marc_dunand_installation.jpg)
 
+![dunand_closeup.jpg](img/dunand_closeup.jpg)
+
+Students finished the semester with a postcard exchange, annotated in [this PDF](dwm_2024_postcards.pdf).
+
+![dwm_2024_postcards](img/dwm_2024_postcards.jpg)
 
 Thanks for your interest! If you're interested in browsing the "Drawing with Machines" course syllabus and resources, you can find these [here](https://github.com/golanlevin/DrawingWithMachines).
 
