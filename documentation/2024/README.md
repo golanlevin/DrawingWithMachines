@@ -1,6 +1,6 @@
-# Drawing with Machines • Spring 2024
+# Drawing with Machines: Spring 2024
 
-This page presents highlights of projects produced in Golan Levin's Spring 2024 *Drawing with Machines* course at CMU, as documented in [this Twitter thread](https://x.com/golan/status/1789165483658244231). Additional and higher-resolution images can also be found in [this Flickr album](https://flickr.com/photos/golanlevin/albums/72177720316690822/).
+This page presents highlights of projects produced in Golan Levin's Spring 2024 *Drawing with Machines* course at Carnegie Mellon University, as documented in [this Twitter thread](https://x.com/golan/status/1789165483658244231). Additional and higher-resolution images can also be found in [this Flickr album](https://flickr.com/photos/golanlevin/albums/72177720316690822/).
 
 ---
 

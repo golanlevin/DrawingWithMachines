@@ -30,6 +30,7 @@ Resources for Golan Levin's *Drawing with Machines* Course, Spring 2024.
   * [2021 CMU Student Projects Twitter Thread](https://x.com/golan/status/1447980505236914179)
   * [2021 CMU Student Project Flickr Album](https://flickr.com/photos/creativeinquiry/albums/72157719893055282/)
 * 2024 Course at CMU
+  * [Official documentation page](documentation/2024/README.md)
   * [2024 CMU Student Projects Twitter Thread](https://x.com/golan/status/1789165483658244231)
   * [2024 CMU Student Projects Flickr Album](https://flickr.com/photos/golanlevin/albums/72177720316690822)
 * 2022 Workshop at Anderson Ranch
