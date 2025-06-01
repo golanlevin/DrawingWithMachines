@@ -1,6 +1,10 @@
 # Drawing with Machines: Spring 2024
 
-This page presents highlights of projects produced in Golan Levin's Spring 2024 *Drawing with Machines* course at Carnegie Mellon University, as documented in [this Twitter thread](https://x.com/golan/status/1789165483658244231). Additional and higher-resolution images can also be found in [this Flickr album](https://flickr.com/photos/golanlevin/albums/72177720316690822/).
+This page presents highlights of projects produced in Golan Levin's Spring 2024 *Drawing with Machines* course at Carnegie Mellon University. Key links include: 
+
+* Additional and higher-resolution images can also be found in [this Flickr album](https://flickr.com/photos/golanlevin/albums/72177720316690822/).
+* Here is the [Spring 2024 Syllabus](../../syllabus/60-225_syllabus_spring_2024.md) and the [Spring 2024 daily calendar](../../2024.md).
+* The notes below were originally published in [this Twitter thread](https://x.com/golan/status/1789165483658244231). 
 
 ---
 
@@ -269,6 +273,10 @@ Some more photos of Marc's collaborative drawing machine, and its results. Marc 
 ![marc_dunand_installation](img/marc_dunand_installation.jpg)
 
 ![dunand_closeup.jpg](img/dunand_closeup.jpg)
+
+---
+
+## Postcard Exchange
 
 Students finished the semester with a postcard exchange, annotated in [this PDF](dwm_2024_postcards.pdf).
 
