@@ -1,6 +1,6 @@
 # Drawing with Machines
 
-![60428_banner_2021.png](syllabus/60428_banner_2021.png)
+![60428_banner_2021](syllabus/60428_banner_2021.png)
 
 Resources for Golan Levin's *Drawing with Machines* Course<br />Fall 2025 • Carnegie Mellon University School of Art & IDeATe
 
@@ -25,7 +25,7 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Fall 2025 • C
 
 ---
 
-![60428_banner_2024.jpg](syllabus/60428_banner_2024.jpg)
+![60428_banner_2025](syllabus/60428_banner_2025.jpg)
 
 ### Course Archives
 

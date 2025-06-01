@@ -1,6 +1,12 @@
-# Syllabus for *Drawing with Machines*, Spring 2024
+<h1 style="font-size: 10em;">DRAFT</h1>
 
-![60225_banner_2024](60225_banner_2024.jpg)
+---
+
+# Syllabus for *Drawing with Machines*, Fall 2025
+
+<!--
+
+![60428_banner_2025.jpg](60428_banner_2025.jpg)
 
 * *Drawing with Machines* (60-225, 10 Units, IPO)
 * Times: Tue/Thu, 7:00–9:50pm; plotting on Fridays
@@ -285,32 +291,35 @@ I don't always have time to provide in-depth feedback for all students during cr
 
 
 ---
-# COVID-19 POLICIES
+# PANDEMIC POLICIES
 
-### Mask-Wearing Expectations
-COVID-19 is still with us. As of January 2024, the new JN.1 variant is estimated to be highly transmissible, and is circulating widely. You are encouraged to wear a mask if possible, especially as we come back from holiday travel. A supply of facial coverings as well as sanitizing wipes can be found near our room's entrance. 
+### Mask-Wearing
+
+A supply of facial coverings as well as sanitizing wipes can be found near our room's entrance. You are encouraged to wear a mask if possible, especially as we come back from holiday travel. 
 
 ### Health-Related Absences
-Please evaluate your own health status regularly and *refrain from attending class and other on-campus events if you feel unwell*. You are emphatically encouraged to seek appropriate medical attention for treatment of illness. In the event of any contagious illness, please do not come to class or to campus to turn in work. Instead, notify me by email about your absence before class, so that accommodations can be made.
+
+Please evaluate your own health status regularly and *refrain from attending class and other on-campus events if you feel unwell*. You are emphatically encouraged to seek appropriate medical attention for treatment of illness. In the event of any contagious illness, please do not come to class. Instead, notify me by email about your absence before class, so that we can discuss possible accommodations.
 
 ### Classroom Streams/Recordings
-If you are absent, you are responsible to obtain any information you missed. That said, students who are unable to attend class in person *may request* that a session be recorded and/or streamed over Zoom. I offer *no guarantees* that I will be able to accommodate such requests, nor any guarantees about the quality of any recordings. For non-lecture events (demonstrations, discussions, critiques, workshops, work days), it may be impossible to document the session satisfactorily.
 
-Recordings of class sessions, if they are made, are covered under the Family Educational Rights and Privacy Act (FERPA) and must not be shared with anyone outside the course. The purpose of these recordings is so students in this course (and only students in this course) can watch or re-watch past class sessions.
-
+If you are absent, you are responsible to obtain any information you missed. Because so much of the time spent in this course — such as demonstrations, discussions, critiques, workshops, and collaborative work sessions — depends on in-person presence and cannot be documented satisfactorily, teleconference streams and recordings will generally not be offered.
 
 ---
+
 # ACADEMIC INTEGRITY
 
 Your behavior as a responsible member of the new media arts community is very important — as demonstrated, for example, by properly citing your sources and borrowed code, and crediting those who have helped you. These expectations and obligations are addressed here, in our course Academic Integrity Policy.
 
 ### Use of Free and Open-Source Code in Projects
+
 **Credit is the most important form of currency** in the economies of commons-based peer production and open-source arts. You are expected to cite the source of any code you use. Please note the following expectations and guidelines:
 
 * **Use Libraries**. In your Projects, the use of general, reusable libraries is strongly encouraged. The people who developed and contributed these components to the community worked hard, often for no pay; acknowledge them by citing their name and linking to their repository.
 * **Be Careful**. It sometimes happens that an artist places the entire source code for their artwork online. *You should probably avoid this code*. But at the very least, you should be very, very careful about approaching such code for possible re-use. If it is necessary to do so, it is best to extract components that solve a specific technical problem, rather than those parts which operate to create a unique experience. Your challenge, if and/or when you work with others’ code, is to *make it your own*. Doing so without proper citation would be actionable plagiarism.
 
 ### Policies Regarding Informal Collaboration
+
 Our course places a very high value on civic responsibility that includes, but is not limited to, helping others learn. In this course, I strongly encourage you to give help (or ask others for help) in using various toolkits, algorithms, libraries, or other facilities. Please note the following expectations:
 
 * In this class, *it’s OK to give and receive help*. In fact, it’s better than OK! But students who receive help from someone else are obliged to acknowledge that person in their project report, clarifying the nature of the help that was received.
@@ -318,6 +327,7 @@ Our course places a very high value on civic responsibility that includes, but i
 * When in doubt: *give credit* to the people who have helped you.
 
 ### Policies Regarding Formal Collaboration
+
 The assignments in this course are primarily intended to be executed by individuals. That said, I am in favor of students collaborating if such collaborations arise organically and can be conducted safely. Please note the following expectations:
 
 * *Notify the Professor*. It’s helpful for me to know who is working with whom. Students who wish to collaborate should jointly inform the professor as early as possible.
@@ -358,8 +368,5 @@ An important part of the college experience is learning how to ask for help. Ask
 * **[Resolve Crisis Network](https://www.upmc.com/services/behavioral-health/resolve-crisis-services) (UPMC): +1-888-796-8226**
 * **[On campus CMU Police](https://www.cmu.edu/police/): +1-412-268-2323**
 
----
-# LAND NOTICE
 
-Carnegie Mellon University is situated on land that has been continuously inhabited for over 16,000 years, serving as a home to members of the Adena, Hopewell, Monongahela, Lenape, Shawnee, Wyandot, Tisagechroami, Delaware, and Mohican communities before becoming a territory of the Iroquois Confederacy. The Iroquois Confederacy included the Mohawk, Onondaga, Oneida, Cayuga, Seneca, and Tuscarora people, whose relationships with the land continue to this day. The Seneca name for Pittsburgh is [Dionde:gâ](https://en.wikipedia.org/wiki/History_of_Pittsburgh).
-
+-->
