@@ -1,5 +1,7 @@
 # Syllabus for *Drawing with Machines*, Spring 2024
 
+![60428_banner_2024.jpg](60428_banner_2024.jpg)
+
 * *Drawing with Machines* (60-225, 10 Units, IPO)
 * Times: Tue/Thu, 7:00–9:50pm; plotting on Fridays
 * Dates: January 16 – April 25, 2024

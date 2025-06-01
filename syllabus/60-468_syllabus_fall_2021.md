@@ -1,5 +1,7 @@
 # Syllabus for *Drawing with Machines*
 
+![60428_banner_2021.png](60428_banner_2021.png)
+
 * *Drawing with Machines* (60-428, Fall 2021)
 * Times: Mon/Wed, 1:25-4:15pm, August 30 – December 1, 2021
 * Location: Frank-Ratchye STUDIO for Creative Inquiry, CFA-111

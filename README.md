@@ -1,6 +1,8 @@
 # Drawing with Machines
 
-Resources for Golan Levin's *Drawing with Machines* Course, Fall 2025.
+![60428_banner_2021.png](syllabus/60428_banner_2021.png)
+
+Resources for Golan Levin's *Drawing with Machines* Course<br />Fall 2025 • Carnegie Mellon University School of Art & IDeATe
 
 ---
 
@@ -23,8 +25,11 @@ Resources for Golan Levin's *Drawing with Machines* Course, Fall 2025.
 
 ---
 
-### Student Project Archives
+![60428_banner_2024.jpg](syllabus/60428_banner_2024.jpg)
+
+### Course Archives
 
 * Fall 2021 Course at CMU: [**Official documentation page**](documentation/2021/README.md)
 * Spring 2024 Course at CMU: [**Official documentation page**](documentation/2024/README.md)
 * July 2022 Workshop at Anderson Ranch: [**Official documentation page**](documentation/2022/README.md)
+
