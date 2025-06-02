@@ -76,7 +76,8 @@ This section describes workflows for controlling Line-Us from p5.js. These workf
 
 * [Processing code for a very simple example](processing/line_us_processing_simple). Draws the word "Hi".
 * [SVG loader/plotter for Line-Us, built in Processing](processing/line_us_svg_converter_plotter). Bloated project (requires the Geomerative and Interfascia external libraries), but able to control Line-Us in order to render SVG files. 
-* [Realtime Control Demo](processing/line_us_processing_realtime). Control Line-Us in real time with the mouse. 
+* [Realtime Control Demo](processing/line_us_processing_realtime). Control Line-Us in real time with the mouse.
+* 2024 version of [Processing 4.3 plotting program for Line-Us](https://github.com/bareimage/LineUs_SVG) (untested)
 
 ---
 
