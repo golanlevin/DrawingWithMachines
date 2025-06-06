@@ -37,7 +37,12 @@ We will use Nick Hardeman's [ofxHPGL](https://github.com/NickHardeman/ofxHPGL) a
 * This assumes that you have downloaded and installed an appropriate development envrironment (e.g. XCode) as well as [openFrameworks](https://openframeworks.cc/download/), using the instructions from [here](https://openframeworks.cc/setup/xcode/)
 * Download the [ofxHPGL](https://github.com/NickHardeman/ofxHPGL) addon, and install it in the OF addons folder. 
 * There is an example project provided here: [hp7475a_openframeworks](hp7475a_openframeworks). (Note, this is not a full openFrameworks installation bundle). 
-* In [ofApp.cpp](hp7475a_openframeworks/of_v0.11.2_osx_release/apps/myApps/hp7475a_1/src/ofApp.cpp) on line 5, you'll see `hp.setup( "/dev/tty.usbserial-A101768Y" );`. You'll need to change this to whatever is your computer's name for its USB-to-serial adaptor. You can locate your adapter by executing this in the terminal: `ls /dev/tty.*`. 
+* In [ofApp.cpp](hp7475a_openframeworks/of_v0.11.2_osx_release/apps/myApps/hp7475a_1/src/ofApp.cpp) on line 5, you'll see `hp.setup( "/dev/tty.usbserial-A101768Y" );`. You'll need to change this to whatever is your computer's name for its USB-to-serial adaptor. You can locate your adapter by executing this in the terminal: `ls /dev/tty.*`.
+
+Other links: 
+
+* Realtime control of [HP7475A with Processing](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/processing/realtime_7475a/realtime_7475a.pde)
+* Realtime control of [HP7475A with Python](https://github.com/vogelchr/hp7475a-send/tree/master)
 
 ---
 
