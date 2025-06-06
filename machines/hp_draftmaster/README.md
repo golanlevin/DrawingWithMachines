@@ -155,10 +155,10 @@ Convert these to HPGL using *vpype* at the command line. For the tall/portrait p
 
 You should get: 
 
-* [hp7596_24x36_lissajous.svg](workflow/hp7596_24x36_lissajous.hpgl)
-* [hp7596_36x24_lissajous.svg](workflow/hp7596_36x24_lissajous.hpgl)
+* [hp7596_24x36_lissajous.hpgl](workflow/hp7596_24x36_lissajous.hpgl)
+* [hp7596_36x24_lissajous.hpgl](workflow/hp7596_36x24_lissajous.hpgl)
 
-Before you plot, it's always a good idea to preview all HPGL files with [ShareCad](https://sharecad.org/). You should see previews resembling this: 
+Before you plot, it's always a good idea to preview all HPGL files with a tool like [ShareCad](https://sharecad.org/). You should see previews resembling this: 
 
 <table>
   <tr>
@@ -176,7 +176,7 @@ You're probably looking for these User's Guides & Programmer's Manuals from the 
 * [**HP DraftMaster Plotter: User's Guide** (1988)](pdf/DraftMasterPlotter-UsersGuide-07595-90002-220pages-Feb88_OCR.pdf)
 * [**HP DraftMaster Plotter: Programmer's Reference** (1987)](pdf/DraftMaster_ProgrammersReference_07595-90001_505pages_Jan87_OCR.pdf)
 
-Other PDFs from the HP Computer Museum:
+Other PDFs from the HP Computer Museum, duplicated here, include:
 
 * [HP 7595/6 Drafting Plotters: Hardware Support Manual](pdf/7595-7596_HardwareSupportManual_07595-90025_168pages_Feb90.pdf)
 * [HP Journal 1992: Plotter Engineering](pdf/HPJournal_1992-Dec_DraftMasterPlus_26pages.pdf)
