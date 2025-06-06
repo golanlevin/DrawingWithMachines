@@ -48,4 +48,4 @@ Index to instructions for plotting with our classroom equipment.
 * Rotrics DexArm & Rail
 * RGB Laser & EtherDream controller
 * Viking Jade 35A CNC embroidery machine
-* [uarm_metal](uArm Metal/README.md) – *no longer operational*
+* Small Vinyl cutter
