@@ -2,7 +2,7 @@
 
 ---
 
-[![Fan/Toy Drawing Machine](fan-drawing-machine.jpg)](https://vimeo.com/305405463)
+[![Fan/Toy Drawing Machine](img/fan-drawing-machine.jpg)](https://vimeo.com/305405463)
 
 **This Assignment has two parts.** Both are due at the beginning of class on **Thursday, January 18**.
 
