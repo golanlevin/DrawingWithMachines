@@ -1,6 +1,6 @@
-# Drawing With Machines: One-Week Workshop
+# Drawing With Machines: One-Week Workshop Syllabus
 
-Syllabus and Resources for Golan Levin's one-week *Drawing with Machines* [Workshop at Anderson Ranch](https://www.andersonranch.org/workshops/workshop/drawing-with-machines-p0814-22/), July 2022. *Note: Some links may be obsolete*.
+Syllabus and Resources for Golan Levin's one-week *Drawing with Machines* [Workshop at Anderson Ranch](https://www.andersonranch.org/workshops/workshop/drawing-with-machines-p0814-22/), July 2022. *Some links may be obsolete*.
 
 ---
 

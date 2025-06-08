@@ -8,29 +8,82 @@ This page presents highlights of projects produced in Golan Levin's one-week [*D
 
 ---
 
-Day 2 of our "Drawing with Machines" plotter workshop at Anderson Ranch near Aspen, and there's already lovely generative artworks in progress by Chris Coleman, Caleb Ogg, Harley Turan, and many others.
+![participants_1.jpg](img/participants_1.jpg)
 
+It's day 2 of our "Drawing with Machines" plotter workshop at Anderson Ranch near Aspen, and there's already lovely generative artworks in progress by Chris Coleman, Caleb Ogg, Harley Turan, and many others.
+
+<table>
+  <tr>
+    <td><img src="img/chris_coleman_1.jpg"/></td>
+    <td><img src="img/caleb_ogg_1.jpg"/></td>
+    <td><img src="img/hobby_curves.jpg"/></td>
+  </tr>
+</table>
 
 On Day 3 of our "Drawing with Machines" workshop at Anderson Ranch, Elliott Spelman generated novel faces with Quick!Draw data — and then made a real-time portrait machine using ZKM Karlsruhe's ofxTensorFlow2, Nick Hardeman's ofxHPGL, and a vintage HP7475A pen plotter.
 
+<table>
+  <tr>
+    <td><img src="img/elliott_spelman_1.jpg"/></td>
+    <td><img src="img/elliott_spelman_2.jpg"/></td>
+  </tr>
+</table>
 
 More of today's experiments from our #generativeArt workshop at Anderson Ranch: hand-colored spring by Lea Eaton; differential growth cyanotype by Harley Turan; multicolor plot by Caleb Ogg; plot-in-progress of a vectorized physarum simulation by Moishe Lettvin:
 
+<table>
+  <tr>
+    <td><img src="img/lea_eaton_spring.jpg"/></td>
+    <td><img src="img/harley_turan_1.jpg"/></td>
+  </tr>
+  <tr>
+    <td><img src="img/moishe_lettvin_1.jpg"/></td>
+    <td><img src="img/caleb_ogg_boxes.jpg"/></td>
+  </tr>
+</table>
 
 The seven AxiDraws in our workshop sound like a roomful of chirping crickets. Kudos to EMSL for an amazing line of artist tools, and their incredibly responsive customer service when we had a (rare) issue.
+
+<table>
+  <tr>
+    <td><img src="img/participants_2.jpg"/></td>
+    <td><img src="img/participants_3.jpg"/></td>
+  </tr>
+</table>
 
 
 Plein-air drawing, but by whom? In our generative plotter art workshop at Anderson Ranch today, Deanna Gelosi — Tinkering Studio alum, CUAtlas PhD student, and AxiDraw cyborg — expressed a posthuman squiggle through her computer-controlled finger-painting apparatus.
 
+[![deanna_gelosi_fingerpainting_00.jpg](img/deanna_gelosi_fingerpainting_anim.gif)](img/deanna_gelosi_fingerpainting_anim.mp4)
 
 More images of Deanna Gelosi's plein-air mechatronic fingerpainting studies from our "Drawing with Machines" workshop at Anderson Ranch — including 4-up paintings exploring the nuances of automation and repetition.
 
+![deanna_gelosi_fingerpainting_01.jpg](img/deanna_gelosi_fingerpainting_01.jpg)
+
+<table>
+  <tr>
+    <td><img src="img/deanna_gelosi_fingerpainting_02.jpg"/></td>
+    <td><img src="img/deanna_gelosi_fingerpainting_03.jpg"/></td>
+  </tr>
+</table>
 
 Deanna Gelosi wrote more about her project in [this Medium post](https://medium.com/@deannagelosi/computer-controlled-finger-painting-352767a39358).
 
+Some projects from Day 4 of our "Drawing with Machines" plotter workshop at Anderson Ranch: vectorized physarum simulation by Moishe Lettvin; 3D-to-2D projection study by Satre Stuelke; Multilayer interpolations by Lea Eaton; moiré discs by Caleb Ogg.
 
-Some projects from Day 4 of our "Drawing with Machines" plotter workshop at Anderson Ranch: Multilayer interpolations by Lea Eaton; 3D-to-2D projection study by Satre Stuelke; vectorized physarum simulation by Moishe Lettvin; moiré discs by Caleb Ogg.
+<table>
+  <tr>
+    <td><img src="img/moishe_lettvin_2.jpg"/></td>
+    <td><img src="img/satre_stuelke_1.jpg"/></td>
+  </tr>
+</table>
 
+<table>
+  <tr>
+    <td><img src="img/caleb_ogg_2.jpg"/></td>
+    <td><img src="img/lea_eaton_layers.jpg"/></td>
+  </tr>
+</table>
 
 The final day of the workshop at lovely Anderson Ranch was a whirlwind. Here are some more highlights. (Stylized photogrammetry landscape by Chris Coleman; skeletonized reaction-diffusion and differential growth T-shirt design by Harley Turan):
 
