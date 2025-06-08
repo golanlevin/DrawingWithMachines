@@ -15,7 +15,7 @@
 
 * (*5 Points*) **Complete** the [**Course Agreements Form**](https://forms.gle/aJ3QvYeEK2PkCnYU6), if you have not already.
 * (*20 Points*) *Looking Outwards* at Drawing Machines:
-  * **Browse** the links [here](../../lectures/2024/0116_hello/README.md), and spend a few minutes browsing [DrawingMachines.org](https://drawingmachines.org/), an archive of optical/mechanical/automated drawing machines/devices/aids. **Identify** a drawing machine or tool that speaks to you. **Create** a post in the *#1a-looking-outwards* Discord channel. 
+  * **Browse** the links [here](list.md), and spend a few minutes browsing [DrawingMachines.org](https://drawingmachines.org/), an archive of optical/mechanical/automated drawing machines/devices/aids. **Identify** a drawing machine or tool that speaks to you. **Create** a post in the *#1a-looking-outwards* Discord channel. 
   * (15) **Write** a sentence or two describing the drawing machine or tool you selected, and why you found it interesting.
   * (5) **Include** an image of the machine or tool. 
 
