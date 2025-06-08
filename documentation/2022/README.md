@@ -1,6 +1,6 @@
 # Drawing with Machines: July 2022
 
-This page presents highlights of projects produced in Golan Levin's one-week [*Drawing with Machines*](https://www.andersonranch.org/workshops/workshop/drawing-with-machines-p0814-22/) workshop at [Anderson Ranch Arts Center](https://www.andersonranch.org/) in Snowmass, Colorado, in July 2022. The participating attendees were Chris Coleman, Lea Eaton, Deanna Gelosi, Moishe Lettvin, Caleb Ogg, Elliott Spelman, Satre Stuelke, Harley Turan, Travis Uhrig. Key links include: 
+This page presents highlights of projects produced in Golan Levin's one-week [*Drawing with Machines*](https://www.andersonranch.org/workshops/workshop/drawing-with-machines-p0814-22/) workshop at [Anderson Ranch Arts Center](https://www.andersonranch.org/) in Snowmass, Colorado, in July 2022. The participating attendees were [Chris Coleman](https://digitalcoleman.com/), [Lea Eaton](https://www.linkedin.com/in/lea-eaton-a61327b8/), [Deanna Gelosi](https://www.deannagelosi.com/), [Moishe Lettvin](https://www.moishelettvin.com/), [Caleb Ogg](https://www.instagram.com/iso.hedron/), [Elliott Spelman](https://www.ebspelman.com/), [Satre Stuelke](https://www.satrestuelke.com/about), [Harley Turan](https://hturan.com/), and [Travis Uhrig](https://x.com/travisformayor). Key links include: 
 
 * Here is the [syllabus for the one-week workshop](syllabus.md).
 * Additional and higher-resolution images can also be found in [this Flickr Album](https://flickr.com/photos/golanlevin/albums/72177720301016071/).
@@ -87,14 +87,31 @@ Some projects from Day 4 of our "Drawing with Machines" plotter workshop at Ande
 
 The final day of the workshop at lovely Anderson Ranch was a whirlwind. Here are some more highlights. (Stylized photogrammetry landscape by Chris Coleman; skeletonized reaction-diffusion and differential growth T-shirt design by Harley Turan):
 
+<table>
+  <tr>
+    <td><img src="img/chris_coleman_2.jpg"/></td>
+    <td><img src="img/workshop_tshirts_by_harley_turan.jpg"/></td>
+  </tr>
+</table>
+![harley_turan_skeletonized_reactdif.jpg](img/harley_turan_skeletonized_reactdif.jpg)
 
 Elliott Spelman completed his impromptu contour-capture kiosk. Every 20 seconds, the system extracted and plotted the outline of whomever was gawking at it.
- 
 
-At our plein-air AxiDraw station, Deanna Gelosi and her partner Travis Uhrig continued their cyborg finger-painting experiments. Here, Travis is obligingly helping the machine execute a generative squiggle.
- 
+<table>
+  <tr>
+    <td><img src="img/elliott_spelman_system_1.jpg"/></td>
+    <td><img src="img/elliott_spelman_system_2.jpg"/></td>
+  </tr>
+</table>
+![elliott_spelman_system_3.jpg](img/elliott_spelman_system_3.jpg)
+
+At our plein-air AxiDraw station, Deanna Gelosi and her partner Travis Uhrig continued their cyborg finger-painting experiments. Here, Deanna is obligingly helping the machine execute a generative squiggle; it dips her finger in paint to reload between strokes. ([Here](img/travis_uhrig_plotterfinger.mp4) is a related video.)
+
+[![deanna_gelosi_fingerdip.gif](img/deanna_gelosi_fingerdip.gif)](img/travis_uhrig_plotterfinger.mp4)
 
 On the final day, all of the participants in our plotter workshop made generative cards for a print exchange. (Some cards were individually personalized by/for the recipients, such as Elliott Spelman's body contours and Harley Turan's overplotted photos.)
+
+![workshop_postcards_1.jpg](img/workshop_postcards_1.jpg)
 
 
 More generative art cards from the print exchange of our plotter workshop at Anderson Ranch: curlicues by Chris Coleman; arc play by Caleb Ogg; interpolated profiles by Golan Levin; vectorized Physarum simulations by Moishe Lettvin...
@@ -102,8 +119,24 @@ More generative art cards from the print exchange of our plotter workshop at And
 
 ...and both positive and negative (resist) generative plotter-fingerpaintings by Deanna Gelosi + Travis Uhrig!
 
+<table>
+  <tr>
+    <td><img src="img/deanna_gelosi_fingerpainting_04.jpg"/></td>
+    <td><img src="img/deanna_gelosi_fingerpainting_05.jpg"/></td>
+  </tr>
+</table>
 
 For me, the highlight of our workshop at Anderson Ranch was an unplanned colab: student Lea Eaton, and ceramics student Joey Glickman, joined forces to create a set of sgraffito Truchet/Wang tiles (generated with differential growth & hobby curves)!
- 
+
+<table>
+  <tr>
+    <td><img src="img/lea_eaton_clay_truchet_3.jpg"/></td>
+    <td><img src="img/lea_eaton_clay_truchet_2.jpg"/></td>
+  </tr>
+</table>
+
+![lea_eaton_clay_truchet_4.jpg](img/lea_eaton_clay_truchet_4.jpg)
 
 Bonus pic: Lea & Joey generously shared their developing understanding of CNC sgraffito techniques with other students in our plotter workshop at Anderson Ranch. Here, Lea uses the AxiDraw to execute a generative curlicue design, by Chris Coleman, into a clay slab.
+
+![lea_and_chris_clay_play.jpg](img/lea_and_chris_clay_play.jpg)
