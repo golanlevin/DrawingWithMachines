@@ -1,4 +1,4 @@
-# Realtime Plotting
+# Realtime & Interactive Plotting
 
 ![sassmograph.gif](img/sassmograph.gif)
 
@@ -17,7 +17,7 @@
 * [Sougwen Chung](https://www.youtube.com/watch?v=hpEE_s0pN64).<br />![sougwen_process-th_1000.jpg](img/sougwen_process-th_1000.jpg)
 * [*Portraits*](https://www.youtube.com/watch?v=A4dQIuD6xbA), [Patrick Tresset](https://patricktresset.com/new/), 2016.<br />![patrick-tresset-portrait.jpg](img/patrick-tresset-portrait.jpg)
 * [*Contour Capture Kiosk*](https://twitter.com/golan/status/1554593715875987456), Elliot Spelman, 2022.<br />![spelman_contour_capture.jpg](img/spelman_contour_capture.jpg)
-* [*Pen Wiggler*](https://scanlime.org/2021/05/scanlime055-pen-wiggler/), Micah Elizabeth Scott (Scanlime), 2021. [Hackaday](https://hackaday.com/2021/05/14/random-robot-makes-random-art/#more-476118)<br />![scanlime_rng-art-main.png](img/scanlime_rng-art-main.png)
+* [*Pen Wiggler*](https://scanlime.org/2021/05/scanlime055-pen-wiggler/), Micah Elizabeth Scott (Scanlime), 2021. [Hackaday](https://hackaday.com/2021/05/14/random-robot-makes-random-art/#more-476118) • [YouTube](https://www.youtube.com/watch?v=3a4-ZxISiRM) <br />![scanlime_rng-art-main.png](img/scanlime_rng-art-main.png)
 * [*A Crack in the Hourglass*](https://www.youtube.com/watch?v=BsVsULhoSbM), Rafael Lozano-Hemmer, 2021. Portraits of deceased loved ones are drawn, ephemerally, in sand.<br />![lozano-hemmer_crack-in-the-hourglass.jpg](img/lozano-hemmer_crack-in-the-hourglass.jpg)
 * [*Seismoscope*](https://vimeo.com/46055629), Rafael Lozano-Hemmer, 2009. Realtime seismic data influences how a plotter executes a portrait.<br />![rlh-seismoscope.jpg](img/rlh-seismoscope.jpg)
 * [*Repeater*](https://twitter.com/creativeapps/status/1736747265023242264), Georgios Cherouvim, 2023. A feedback loop between a pen plotter and a pen digitizer.<br />![cherouvim-repeater.jpg](img/cherouvim-repeater.jpg)
@@ -30,6 +30,8 @@
 * [*Three Trees*](https://www.youtube.com/watch?v=fv8tembgAcA), Jacqui Fashimpaur, 2016. A simple use case: Jacqui used Processing to control the plotter in real-time, in order to dip a brush in ink.<br />![fashimpaur_trees.jpg](img/fashimpaur_trees.jpg)
 * [*Tracing Movement*](https://www.youtube.com/watch?v=zw7HS-e2mCk), Jacqui Fashimpaur, 2016. Jacqui used a Kinect to track the skeleton of a dancer; the traces of the dancer's joints were then captured to paper using the plotter.<br />![fashimpaur_dance.jpg](img/fashimpaur_dance.jpg)
 * [*Threadsteading*](http://lea.zone/threadsteading.html), Lea Albaugh, 2016. ([Article](https://dl.acm.org/doi/10.1145/2851581.2889466)) A two-player territory control game designed to be played on a modified computer-controlled quilting machine.<br />![threadsteading_machine.jpg](img/threadsteading_machine.jpg)
+* [Augmented drawing system](https://www.youtube.com/watch?v=MfCeOq2Uj1s), Marc Dunand, 2024. Participants draw a curve across a piece of paper. Using custom vision software, a plotter then embellishes this hand-drawn curveh, turning it into a charming landscape.<br />![marc_dunand_installation](img/marc_dunand_installation.jpg)
+
 
 #### Live Performances and Machine-Assisted Human Plotters
 

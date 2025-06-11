@@ -8,8 +8,8 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Fall 2025 • C
 
 ### Admin
 
-* [Syllabus](syllabus/60-225_syllabus_spring_2024.md) (Spring 2024)
-* [Course Calendar](2024.md)
+* Syllabus 
+* Course Calendar
 
 ---
 
@@ -33,3 +33,7 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Fall 2025 • C
 * Spring 2024 Course at CMU: [**Official documentation page**](documentation/2024/README.md)
 * July 2022 Workshop at Anderson Ranch: [**Official documentation page**](documentation/2022/README.md)
 
+---
+
+* [Syllabus](syllabus/60-225_syllabus_spring_2024.md) (Spring 2024)
+* [Course Calendar](2024.md) (Spring 2024)
