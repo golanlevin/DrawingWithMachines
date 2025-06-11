@@ -41,6 +41,7 @@ The interior cavity of this pen adapter is specially tapered to constrain variou
 * [Uni-Ball Signo 0.28 mm](https://www.amazon.com/Uni-ball-UMR-82-Refills-Ballpoint-10-Pack/dp/B076JBGNKY/) (UMR-82, UM-151-28, UMR-1-28, UMN-155N-28)
 * [Pentel Energel](https://www.amazon.com/Pentel-EnerGel-Liquid-Gel-Pens/dp/B09RRNVXVN/) (BL77-A)
 * [Zebra Pen Sarasa 0.3mm, 0.5mm](https://www.amazon.com/Zebra-ballpoint-Sarasa-P-JJ15-BK10-pieces/dp/B00P0PT7BS/)
+* [Paper Mate InkJoy](https://www.amazon.com/Paper-Mate-Ultimate-Retractable-Featuring/dp/B0F2GGLKHD/)
 
 Fitting the adapter with the short [Pilot G-2 Mini](https://www.amazon.com/Retractable-Rolling-Assorted-colors-Turquoise/dp/B07H7YTT3D/) refill allows it to be used with the HP DraftMaster plotter.
 
@@ -77,4 +78,6 @@ Fitting the adapter with the short [Pilot G-2 Mini](https://www.amazon.com/Retra
 
 ---
 
-*Keywords: HP7475A, Pilot G2, Uniball 207, pen plotter, pen adapter, roller-point gel pen refill, 3D printing, CAD files, #plotterTwitter*
+*Keywords: HP7475A, Pilot G2, Uniball 207, pen plotter, HP plotters, HP pen adapter, roller-point gel pen refill, 3D printing, CAD files, #plotterTwitter*.
+
+<img width="128" height="128" src="img/repo_qr.png">
