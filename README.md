@@ -25,7 +25,7 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon 
 * [Assignments](assignments/README.md)
 * [Readings](readings/README.md)
 * [Machinery Instructions](machines/README.md)
-* Software Instructions
+* Software Instructions & Code Template Index
   * [Generating SVG Files](generating_svg/README.md)
   * [Preparing SVGs for Plotting with *vpype*](generating_svg/vpype_svg_prep/README.md)
 
@@ -35,6 +35,6 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon 
 
 ### Course Archives
 
-* [Fall 2021 Course at CMU: documentation](documentation/2021/README.md)
-* [Spring 2024 Course at CMU: documentation](documentation/2024/README.md)
-* [July 2022 Workshop at Anderson Ranch: documentation](documentation/2022/README.md)
+* [2021 Course at CMU: documentation](documentation/2021/README.md)
+* [2024 Course at CMU: documentation](documentation/2024/README.md)
+* [2022 Workshop at Anderson Ranch: documentation](documentation/2022/README.md)

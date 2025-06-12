@@ -1,43 +1,45 @@
 # Typography
 
+[![media_lab_youtube_lecture.png](img/media_lab_youtube_lecture.png)](https://www.youtube.com/watch?v=nlKJPWGQGkc)<br />*MIT Media Lab: Space Type Studio* lecture (video)
+
+---
+
 ## Hershey Fonts
 
-[The Hershey Fonts with Frank Griesshammer](https://vimeo.com/178015110)<br />[![griesshammer.png](img/griesshammer.png)](https://vimeo.com/178015110)
+[The Hershey Fonts with Frank Griesshammer](https://vimeo.com/178015110) (video)<br />[![griesshammer.png](img/griesshammer.png)](https://vimeo.com/178015110)
 
 > *In the 1960s, at Dahlgren Naval Weapons Laboratory, Dr. Allen V. Hershey worked on what was to become some of the earliest digital fonts. Hershey’s work is impressive for both technical and creative aspects, and was documented in a report called “CALLIGRAPHY FOR COMPUTERS”.*
 
-![simplex1.gif](img/simplex1.gif)
+* See [p5-hershey-js](https://github.com/LingDong-/p5-hershey-js) Hershey Fonts in p5.js ([live demo](https://lingdong-.github.io/p5-hershey-js/))
 
-#### Hershey Font Tools by Lingdong Huang (BCSA 2019):
+---
 
-* [p5-hershey-js](https://github.com/LingDong-/p5-hershey-js) Hershey Fonts in p5.js ([live demo](https://lingdong-.github.io/p5-hershey-js/))
-* [chinese-hershey-font](https://github.com/LingDong-/chinese-hershey-font) Chinese Hershey Font ([live demo](https://lingdong-.github.io/chinese-hershey-font/))
-* [legumes](https://github.com/LingDong-/legumes) Sheet music in polylines using Hershey text
-* [hfmath](https://github.com/LingDong-/hfmath) Render LaTeX math with Hershey Fonts
-* [ttf2hershey](https://github.com/LingDong-/ttf2hershey) TTF-to-Hershey Converter 
-* [hfedit.glitch.me](https://hfedit.glitch.me/) Hershey Font Editor 
+## p5.js Single-Line Font Resources
 
-Other Hershey Font tools and Single-Line Fonts:
+[![single_line_repo_banner.png](img/single_line_repo_banner.png)](https://github.com/golanlevin/p5-single-line-font-resources/blob/main/README.md)
 
-* [cnc-text-tool](https://msurguy.github.io/cnc-text-tool/) Browser-based SVG editor with Hershey text overlayer
-* [Hershey Font Inkscape plugin](https://wiki.inkscape.org/wiki/index.php/Release_notes/1.0#Hershey_Text) 
-* [Index of many single-line fonts](http://www.imajeenyus.com/computer/20150110_single_line_fonts/index.shtml)
-* [Commercial single-line fonts](https://www.singlelinefonts.com/)
+[This is a repository](https://github.com/golanlevin/p5-single-line-font-resources/blob/main/README.md) of p5.js programs for loading and displaying **single-line vector fonts** (also called single-stroke or monoline fonts) in a variety of formats — including TTF, SVG Font, Hershey Font, and others. The repository also includes an authoritative **archive of single-line fonts** (and procedural fonts) from a wide range of creative projects, obsolete technologies, and other sources.
 
 
 ---
 
 ## Getting Points from Glyphs
 
-p5.js (JavaScript): 
+![text_to_points.png](img/text_to_points.png)
+
+[**This terrific article**](https://erraticgenerator.com/blog/p5js-texttopoints-function/) provides an overview of the p5.js `textToPoints()` function, and some of the nuances of using it well. 
+
+p5.js (JavaScript) examples: 
 
 * [textToPoints()](https://p5js.org/reference/#/p5.Font/textToPoints) reference (from p5.Font)
-* [textToPoints() demo #1](https://editor.p5js.org/golan/sketches/YR_GSPMmY) by golan
-* [textToPoints() demo #2](https://editor.p5js.org/aferriss/sketches/B1BOfBdZX) by aferris
-* [Improved extraction of sub-contours in p5](https://editor.p5js.org/ffd8/sketches/TaPWHTaH)
-* [Advanced decomposition of glyph components in p5](https://editor.p5js.org/allison.parrish/sketches/ByNj90dT7)
+* [textToPoints() demo #1](https://editor.p5js.org/golan/sketches/YR_GSPMmY)
+* [textToPoints() demo #1b](https://editor.p5js.org/golan/sketches/0gbZoi7Jg)
+* [textToPoints() demo #2](https://editor.p5js.org/golan/sketches/X-GOmJo5I)
+* [Improved extraction of sub-contours in p5](https://editor.p5js.org/golan/sketches/1m2YaC0d9)
+* [Advanced decomposition of glyphs in p5](https://editor.p5js.org/allison.parrish/sketches/ByNj90dT7) (uses patched p5)
+* [textToPoints+openType](https://gist.github.com/erraticgenerator/e20cc8c8806ae89d077ceaf962d913af#file-p5-texttopoints-opentypejs-html) example
 
-Processing (Java):
+Processing (Java) examples:
 
 * [Geomerative](http://www.ricardmarxer.com/geomerative/) library
 * [Geomerative Text Processing Example](https://www.youtube.com/watch?v=IthjKDGf7oQ) (Video)
@@ -46,7 +48,9 @@ Processing (Java):
 
 --- 
 
-### Inspo: Type Studies by Zach Lieberman
+## Some Inspiration: Type Studies by Zach Lieberman
+
+
 
 * [https://www.instagram.com/tv/CJi3NPkjoed/](https://www.instagram.com/tv/CJi3NPkjoed/)
 * [https://www.instagram.com/p/CJgMp-tD6w_](https://www.instagram.com/p/CJgMp-tD6w_)
@@ -60,6 +64,8 @@ Processing (Java):
 * [https://www.instagram.com/p/Bj6slhaA-VV](https://www.instagram.com/p/Bj6slhaA-VV)
 * [https://www.instagram.com/p/BhDZbE1AKmp](https://www.instagram.com/p/BhDZbE1AKmp)
 * [https://www.instagram.com/p/BdunBVpAFJX](https://www.instagram.com/p/BdunBVpAFJX)
+
+![zach_type_example.png](img/zach_type_example.png)
 
 ---
 
