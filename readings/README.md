@@ -9,7 +9,6 @@
 * Steven Holt and Maria Skov, [Blobjects: Beyond the New Fluidity in Design](blobjects_holt.pdf)
 * Christopher Alexander, *The Nature of Order.* [2.6: Good Shape](nature_of_order_alexander_good_shape.pdf)
 
-
 ---
 
 ### Other Links

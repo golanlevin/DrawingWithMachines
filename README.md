@@ -2,14 +2,20 @@
 
 ![60428_banner_2021](syllabus/60428_banner_2021.png)
 
-Resources for Golan Levin's *Drawing with Machines* Course<br />Fall 2025 • Carnegie Mellon University School of Art & IDeATe
+Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon University School of Art & IDeATe
+
+> <small>*This is an advanced studio course in experimental drawing and generative art. Working at the boundaries of creative code, automation, physical materials, and gestural mark-making, we will explore the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, and paper.*</small>
 
 ---
 
-### Admin
+### Fall 2025 Admin
 
-* Syllabus 
+* [Syllabus](syllabus/60-468_syllabus_fall_2025.md) 
 * Course Calendar
+* Instagram
+* Discord
+* Github
+* Box
 
 ---
 
@@ -29,11 +35,6 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Fall 2025 • C
 
 ### Course Archives
 
-* Fall 2021 Course at CMU: [**Official documentation page**](documentation/2021/README.md)
-* Spring 2024 Course at CMU: [**Official documentation page**](documentation/2024/README.md)
-* July 2022 Workshop at Anderson Ranch: [**Official documentation page**](documentation/2022/README.md)
-
----
-
-* [Syllabus](syllabus/60-225_syllabus_spring_2024.md) (Spring 2024)
-* [Course Calendar](2024.md) (Spring 2024)
+* [Fall 2021 Course at CMU: documentation](documentation/2021/README.md)
+* [Spring 2024 Course at CMU: documentation](documentation/2024/README.md)
+* [July 2022 Workshop at Anderson Ranch: documentation](documentation/2022/README.md)
