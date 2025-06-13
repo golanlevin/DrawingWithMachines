@@ -4,7 +4,7 @@
 
 Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon University School of Art & IDeATe
 
-> <small>*This is an advanced studio course in experimental drawing and generative art. Working at the boundaries of creative code, automation, physical materials, and gestural mark-making, we will explore the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, and paper.*</small>
+> <small>*This is an advanced studio course in experimental drawing and generative art. Working at the boundaries of creative code, automation, physical materials, and gestural mark-making, we will explore the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, paper, and mark.*</small>
 
 ---
 
