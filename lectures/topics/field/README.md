@@ -6,7 +6,7 @@
 
 ![fields.jpg](img/fields.jpg)
 
-![kelly_clarkson.jpg](img/kelly_clarkson.jpg)
+[![julienv3ga_fields.jpg](img/julienv3ga_fields.jpg)](https://www.instagram.com/julienv3ga/)<br/>[Fields by Julien Gachadoat (v3ga)](https://www.instagram.com/julienv3ga/)
 
 ---
 
@@ -30,34 +30,12 @@ Resources surveying a wide variety of algorithms for growing forms.
 --- 
 ## Contents 
 
-* [**Flow Fields**](../../topics/flow_fields/README.md)
-* [Diffusion Limited Aggregation](#diffusion-limited-aggregation)
+Here's a small handful of approaches:
+
+* [**Flow Fields**](../../topics/flow_fields/README.md) (page)
 * [Shape Packing](#shape-packing)
 * [Ice-Ray Grammars](#ice-ray-grammars)
-
----
-
-## Diffusion-Limited Aggregation
-
-*A feedback process in which particles get stuck to previous particles.*
-
-![uri_shapira_dla_photo.jpg](img/uri_shapira_dla_photo.jpg)<br />*Chemical photo by Uri Shapira*
-
-![bourke_dla7.gif](img/bourke_dla7.gif)
-
-* [Animated Demonstration](https://twitter.com/0xelric_eth/status/1684045756863504384)
-* [Reference: Paul Bourke on DLA](https://paulbourke.net/fractals/dla/)
-* [Animated demonstration, starting from a line](https://twitter.com/DonKarlssonSan/status/649693928950775808)
-* [Demo code by Shiffman](https://editor.p5js.org/codingtrain/sketches/XpS9wGkbB)
-* [Video: Coding Train DLA Tutorial](https://www.youtube.com/watch?v=Cl_Gjj80gPE)
-* [Video: DLA on Perlin Noise flow field](https://www.youtube.com/watch?v=s3VsK8BtIw0)
-* [Artwork: Jewelry by Nervous System](https://n-e-r-v-o-u-s.com/shop/generativeProduct.php?code=9)
-* [Artwork: 3D DLA slices](https://twitter.com/nacho_cossio/status/1372279259578953728)
-* [Artwork: DLA + RD](https://twitter.com/colinreid_me/status/1680274061253853184)
-* [Artwork: DLA in 3D type](https://twitter.com/mikebrondbjerg/status/1359748990041010177)
-* [Reference: Prusinkiewicz](http://algorithmicbotany.org/vmm-deluxe/Section-05.html)
-* [Physics demo: castor oil, bearings](https://twitter.com/Rainmaker1973/status/1551139590890733570)
-* [*A Two-Dimensional Growth Process*](img/eden_2d_growth_process_1961.pdf), Murray Eden, 1961 (PDF)
+* [Diffusion Limited Aggregation](#diffusion-limited-aggregation)
 
 ---
 
@@ -100,10 +78,34 @@ Resources surveying a wide variety of algorithms for growing forms.
 
 ---
 
+## Diffusion-Limited Aggregation
+
+*A feedback process in which particles get stuck to previous particles.*
+
+![uri_shapira_dla_photo.jpg](img/uri_shapira_dla_photo.jpg)<br />*Chemical photo by Uri Shapira*
+
+![bourke_dla7.gif](img/bourke_dla7.gif)
+
+* [Animated Demonstration](https://twitter.com/0xelric_eth/status/1684045756863504384)
+* [Reference: Paul Bourke on DLA](https://paulbourke.net/fractals/dla/)
+* [Animated demonstration, starting from a line](https://twitter.com/DonKarlssonSan/status/649693928950775808)
+* [Demo code by Shiffman](https://editor.p5js.org/codingtrain/sketches/XpS9wGkbB)
+* [Video: Coding Train DLA Tutorial](https://www.youtube.com/watch?v=Cl_Gjj80gPE)
+* [Video: DLA on Perlin Noise flow field](https://www.youtube.com/watch?v=s3VsK8BtIw0)
+* [Artwork: Jewelry by Nervous System](https://n-e-r-v-o-u-s.com/shop/generativeProduct.php?code=9)
+* [Artwork: 3D DLA slices](https://twitter.com/nacho_cossio/status/1372279259578953728)
+* [Artwork: DLA + RD](https://twitter.com/colinreid_me/status/1680274061253853184)
+* [Artwork: DLA in 3D type](https://twitter.com/mikebrondbjerg/status/1359748990041010177)
+* [Reference: Prusinkiewicz](http://algorithmicbotany.org/vmm-deluxe/Section-05.html)
+* [Physics demo: castor oil, bearings](https://twitter.com/Rainmaker1973/status/1551139590890733570)
+* [*A Two-Dimensional Growth Process*](img/eden_2d_growth_process_1961.pdf), Murray Eden, 1961 (PDF)
+
+---
+
 [2021 Lecture version](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-06-field-distribution/)
 
 Also: 
 
-* Voronoi stippling, Lloyd's relaxation, Bostock
-* Spatial partitioning (Guillotine cutting)
-* Venation/Colonization, https://medium.com/@jason.webb/space-colonization-algorithm-in-javascript-6f683b743dc5
+* [Voronoi stippling](https://www.youtube.com/watch?v=Bxdt6T_1qgc), [Lloyd's relaxation by Bostock](https://observablehq.com/@mbostock/lloyds-algorithm)
+* [Spatial partitioning (Guillotine cutting)](https://en.wikipedia.org/wiki/Guillotine_partition)
+* [Venation/Colonization](https://medium.com/@jason.webb/space-colonization-algorithm-in-javascript-6f683b743dc5)
