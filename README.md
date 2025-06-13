@@ -1,6 +1,6 @@
 # Drawing with Machines
 
-![60428_banner_2021](syllabus/60428_banner_2021.png)
+![60428_banner_2021](syllabus/img/60428_banner_2021.png)
 
 Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon University School of Art & IDeATe
 
@@ -31,7 +31,7 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon 
 
 ---
 
-![60428_banner_2025](syllabus/60428_banner_2025.jpg)
+![60428_banner_2025](syllabus/img/60428_banner_2025.jpg)
 
 ### Course Archives
 
