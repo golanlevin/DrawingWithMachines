@@ -1,4 +1,4 @@
-# HP DraftMaster, Model 7596
+# HP DraftMaster II, Model 7596A
 
 > *"The Draftmaster II was among the most advanced pen plotters ever made by HP. They handled media sizes up to E/A0 size and plotted at 60 cm/s with acceleration up to 5.7g. The DraftMaster II (P/N 7596A - $10995) also plotted on continuous rolls."*
 
@@ -22,9 +22,11 @@ You're probably looking for these User's Guides & Programmer's Manuals:
 
 ## Quickstart
 
-* Connect USB-to-DB9 FTDI serial cable to the gray HP 24542G (DB9-to-DB25) cable. Plug the USB connector to your laptop; plug the 25-pin HP 24542G to the **upper** RS-232 serial port on the DraftMaster. *Note:* The upper RS-232 port is specifically for connecting to a computer; **don't use the lower ("terminal") port**, which is wired differently.
+*This document assumes you are familiar with the use of the HP7475A plotter. Students are strongly discouraged from using the HP DraftMaster until they have had experience with the HP7475A.*
 
-In CoolTerm, under Connection > Options > Serial Port: 
+* As with the HP7475A: Connect USB-to-DB9 FTDI serial cable to the gray HP 24542G (DB9-to-DB25) cable. Plug the USB connector to your laptop; plug the 25-pin HP 24542G to the **upper** RS-232 serial port on the DraftMaster. *Note:* The upper RS-232 port is specifically for connecting to a computer; **don't use the lower ("terminal") port**, which is wired differently.
+
+In CoolTerm, under *Connection > Options > Serial Port*: 
 
 * **Select** the correct port (you should see an option for the FTDI usbserial)
 * **Set** the connection to 9600 baud, 8 data bits, Parity: None, 1 stop bit. 
@@ -61,7 +63,7 @@ PD;PA-14240,7880;PA-13240,7880;PU;
 SP0;IN;
 ```
 
-The above HPGL should produce the following, a rectangle 34.4×21.5", with the letters `TL` in the top left of the design, drawn one inch high:
+The above HPGL should produce the following, a rectangle 34.4×21.5", with the "letters" `TL` in the top left of the design, drawn using one-inch-long line segments:
 
 ![draftmaster_arch_d_horizontal.hpgl.png](img/draftmaster_arch_d_horizontal.hpgl.png)
 
@@ -90,17 +92,17 @@ This document assumes you have experience using *vpype* to optimize SVGs and con
 * [Prepping SVGs for Plotting with vpype](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/vpype_svg_prep/README.md)
 * [Convert SVG to HPGL with vpype](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/hp7475a#4-convert-svg-to-hpgl-with-vpype)
 
-Thus you are already familiar with *vpype* commands such as:
+Thus you are already familiar with *vpype* commands for the HP7475A, such as:
 
 ```
 $ vpype read input.svg reloop linemerge linesort --page-size letter write --device hp7475a output.hpgl
 ```
 
-The flag `--device hp7475a` in this formula demonstrates that Antoine Beyeler has helpfully made a [config file for the HP7475A](https://github.com/abey79/vpype/blob/master/vpype/vpype_config.toml), and a few other widely available HPGL devices. This config file massages the HPGL for the dimensions and coordinate systems of those plotters. Alas, there is no readymade config file for the DraftMaster, so we will have to follow [Beyeler's instructions](https://vpype.readthedocs.io/en/latest/cookbook.html#faq-custom-config-file) to make our own.
+The flag `--device hp7475a` in this formula demonstrates that the author of *vpype*, Antoine Beyeler has helpfully made a [config file for the HP7475A](https://github.com/abey79/vpype/blob/master/vpype/vpype_config.toml), and a few other widely available HPGL devices. This config file massages the HPGL for the dimensions and coordinate systems of those plotters. Alas, there is no readymade config file for the DraftMaster, so we will have to follow [Beyeler's instructions](https://vpype.readthedocs.io/en/latest/cookbook.html#faq-custom-config-file) to make our own.
 
 Below is a *vpype* config file for the DraftMaster II (HP7596A), for plotting 36×24" or 24×36" artworks on a 24" roll of paper. As you can see, it defines a `device.hp7596a` plotter, as well as a new paper size called `archdh` (for Architecture-D Horizontal).
 
-In order to install the configuration, create a file called `~/.vpype.toml` (e.g. with `nano ~/.vpype.toml`), paste in the .toml data below, and save the file. *vpype* automatically seeks this file whenever it runs. Note that this is a "dot file" which is ordinarily hidden, but becomes visible with `ls -l -a`. 
+In order to install the configuration [on your Mac], create a file called `~/.vpype.toml` (e.g. with `nano ~/.vpype.toml`), paste in the `.toml` data below, and save the file. *vpype* automatically seeks this file whenever it runs. Note that this is a "[dot file](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory)" which is ordinarily hidden, but is listable with the command `ls -l -a`. 
 
 
 ```toml
@@ -124,7 +126,7 @@ final_pu_params = "-18000,11500"
 
 ```
 
-You can verify that *vpype* now supports the DraftMaster device by typing, `vpype write --help`. Amidst the (lengthy) response, you should see text that includes **`hp7596a`**, e.g.:
+You can verify that *vpype* now supports the DraftMaster device with the command, `vpype write --help`. Amidst the (lengthy) response, you should see text that now includes **`hp7596a`**, e.g.:
 
 ```
 The following devices are currently available:
@@ -140,8 +142,8 @@ Let's do a complete workflow: We will generate a lissajous SVG with p5.js; conve
 
 Here are complete programs in p5.js: 
 
-* [hp7596_24x36_lissajous_p5js/sketch.js](workflow/hp7596_24x36_lissajous_p5js/sketch.js) — 24×36" (tall/portrait) plot • [at editor.p5js.org](https://editor.p5js.org/golan/sketches/uPp8yZXs6X)
-* [hp7596_36x24_lissajous_p5js/sketch.js](workflow/hp7596_36x24_lissajous_p5js/sketch.js) — 36×24" (wide/landscape) plot • [at editor.p5js.org](https://editor.p5js.org/golan/sketches/WKvuseR3M)
+* **Portrait**, 24×36": [hp7596_24x36_lissajous_p5js/sketch.js](workflow/hp7596_24x36_lissajous_p5js/sketch.js): [in repo](workflow/hp7596_24x36_lissajous_p5js/sketch.js) • [at editor.p5js.org](https://editor.p5js.org/golan/sketches/uPp8yZXs6X)
+* **Landscape**, 36×24": [hp7596_36x24_lissajous_p5js/sketch.js](workflow/hp7596_36x24_lissajous_p5js/sketch.js): [in repo](workflow/hp7596_36x24_lissajous_p5js/sketch.js) • [at editor.p5js.org](https://editor.p5js.org/golan/sketches/WKvuseR3M)
 
 Running these programs, press 's' to export an SVG. You should get: 
 
@@ -158,7 +160,7 @@ You should get:
 * [hp7596_24x36_lissajous.hpgl](workflow/hp7596_24x36_lissajous.hpgl)
 * [hp7596_36x24_lissajous.hpgl](workflow/hp7596_36x24_lissajous.hpgl)
 
-Before you plot, it's always a good idea to preview all HPGL files with a tool like [ShareCad](https://sharecad.org/). You should see previews resembling this: 
+Before you plot, it's always a good idea to preview all HPGL files with a tool like [ShareCad](https://sharecad.org/). You should see previews resembling this. (Note that my landscape design has two Lissajous figures.)
 
 <table>
   <tr>
@@ -195,6 +197,7 @@ Key pages about the HP DraftMaster II at the HP Computer Museum:
 
 ## Other Hardware Information
 
+* [Here are STL files for pen-holders](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/hp7475a/3d_pen_adapter) that adapt the G-2 mini refill for the HP Draftmaster.
 * [Here are binary images](firmware/7595Afirmware.zip) of the Processor EPROMs in the HP Computer Museum's 7596A plotter to use in creating replacement EPROMs. Note that these EPROMs are used on the 07595-60100 Processor PCA and may not work on the newer 07595-60200 version of the Processor PCA.
 * [Refilling or Replacing Vintage HP Plotter Pens](https://www.youtube.com/watch?v=h-oj4HrTH14)
 * Here's a [replacement STL for the Y-Axis Driven Pulley](3d/hp_draftmaster_rx_y-axis_pulley.zip) on the DraftMaster RX. This was created by PartierSP and is originally downloaded from Thingiverse, [here](https://www.thingiverse.com/thing:6521894). 
