@@ -51,6 +51,7 @@ Projection mapping on (live) plotting.
 * [Daniel Berio](https://twitter.com/colormotor/status/1415020778542800900)
 * [Joanie Lemercier](https://twitter.com/JoanieLemercier/status/719283368119152641)
 * [Gustavo M.](https://twitter.com/bustavo/status/1509923339195719690)
+* [Plotty Bird](https://github.com/WesleyAC/plotty-bird), Flappy Bird on HP7440
 * [Receipt Racer](https://vimeo.com/24987120), D_Effekt et al., 2011. Augmented projection game on live receipt printer.<br />[![receipt_racer.jpg](img/receipt_racer.jpg)](https://vimeo.com/24987120)
 
 ---
