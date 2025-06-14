@@ -17,7 +17,7 @@ Index to instructions for plotting with our classroom equipment.
 * [Configuring HP7475A with GP-IB/HP-IB](hp7475a/manuals/GPIB/README.md)
 * Realtime Control of the HP7475A
 
-## HP DraftMaster 7596
+## HP DraftMaster II 7596A
 
 * [**Instructions for Plotting with the HP DraftMaster II**](hp_draftmaster/README.md)
 
