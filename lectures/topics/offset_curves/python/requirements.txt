@@ -1,0 +1,6 @@
+matplotlib==3.10.3
+noise==1.2.2
+numpy==2.3.0
+pillow==11.2.1
+shapely==2.1.1
+svgwrite==1.4.3
