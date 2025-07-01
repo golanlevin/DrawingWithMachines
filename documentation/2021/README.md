@@ -297,3 +297,9 @@ Mali Tribune used virtual headforms as an environmental pressure on particle sim
 </table>
 
 ---
+
+## Postcard Exchange
+
+Students finished the semester with a postcard exchange, annotated in [this PDF](dwm_2021_postcards.pdf).
+
+![dwm_2024_postcards](img/dwm_2021_postcards.jpg)

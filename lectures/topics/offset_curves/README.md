@@ -12,6 +12,8 @@ Demonstration code to compute offset curves:
 * [p5.js (JavaScript) demo](p5js/) (uses [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang).
 * [Python demo](python/README.md) (uses the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1)
 
+![offset_curves in Python](python/wiggly_polyline.png)
+
 ![offset_curves in Processing](processing/offset_curves/offset_curves_output.png)
 
 
