@@ -1,6 +1,8 @@
 # Typography
 
-[![media_lab_youtube_lecture.png](img/media_lab_youtube_lecture.png)](https://www.youtube.com/watch?v=nlKJPWGQGkc)<br />*MIT Media Lab: Space Type Studio* lecture (video)
+## Notes on Type, Code, and Plotting
+
+[![media_lab_youtube_lecture.png](img/media_lab_youtube_lecture.png)](https://www.youtube.com/watch?v=nlKJPWGQGkc)<br />*MIT Media Lab: Space Type Studio* lecture ([video](https://www.youtube.com/watch?v=nlKJPWGQGkc))
 
 ---
 
@@ -29,7 +31,7 @@
 
 [**This terrific article**](https://erraticgenerator.com/blog/p5js-texttopoints-function/) provides an overview of the p5.js `textToPoints()` function, and some of the nuances of using it well. 
 
-p5.js (JavaScript) examples: 
+p5.js v.1.x (JavaScript) examples: 
 
 * [textToPoints()](https://p5js.org/reference/#/p5.Font/textToPoints) reference (from p5.Font)
 * [textToPoints() demo #1](https://editor.p5js.org/golan/sketches/YR_GSPMmY)
@@ -38,6 +40,12 @@ p5.js (JavaScript) examples:
 * [Improved extraction of sub-contours in p5](https://editor.p5js.org/golan/sketches/1m2YaC0d9)
 * [Advanced decomposition of glyphs in p5](https://editor.p5js.org/allison.parrish/sketches/ByNj90dT7) (uses patched p5)
 * [textToPoints+openType](https://gist.github.com/erraticgenerator/e20cc8c8806ae89d077ceaf962d913af#file-p5-texttopoints-opentypejs-html) example
+
+p5.js v.2.x has some new features: 
+
+* Text to Points: [beta.p5js.org/reference/p5.font/texttopoints/](https://beta.p5js.org/reference/p5.font/texttopoints/)
+* Text to Contours: [beta.p5js.org/reference/p5.font/texttocontours/](https://beta.p5js.org/reference/p5.font/texttocontours/)
+* Text to Model (3D): [beta.p5js.org/reference/p5.font/texttomodel/](https://beta.p5js.org/reference/p5.font/texttomodel/)
 
 Processing (Java) examples:
 
