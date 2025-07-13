@@ -83,9 +83,7 @@ Live ASCII webcam video art by [Alida Sun](https://www.instagram.com/p/Cz87BMryZ
 ## Tone and Algorithm II. 
 
 
-
-
-Some approaches: 
+Just a small handful of many possible approaches: 
 
 [Weighted Rejection Sampling](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) (p5)
 
@@ -117,6 +115,8 @@ Some approaches:
 > Instead of clustering the points in their image, they start with a regular grid of points. The object of the game is then to connect them not with a path that solves the traveling salesman problem but with one that visually resembles the target image. The path should still hit each point exactly once, but now the winning trip will probably be longer than the TSP-optimal path.
 
 ![tsp-mona.png](img/mona-figurative-tour.png)
+
+The [DrawingBotv34 software](https://drawingbotv3.com/) offers many different readymade algorithms for converting raster images to vector drawings.
 
 
 ## Tone and Algorithm III: Dithering
