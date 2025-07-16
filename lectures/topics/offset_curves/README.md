@@ -77,3 +77,6 @@ Jürg Lehni, [*Otto*](https://vimeo.com/129666491), 2014
 
 ![jenn_karson_lifelines7604.jpg](img/jenn_karson_lifelines7604.jpg)
 [Jenn Karson](https://jennkarson.studio/), *Lifelines*, 2024
+
+![targz.jpg](img/targz.jpg)
+Work by [Targz](https://www.instagram.com/targz/?hl=en)
