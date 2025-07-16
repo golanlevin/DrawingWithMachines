@@ -2,16 +2,20 @@
 
 ![offset_curves in Python](python/wiggly_polyline.png)
 
-*Offset curves, also known as parallel curves, are shapes that run a fixed distance away from an original curve. They are essential in applications ranging from CNC machining to typography, and have many analogies in layered phenomena in the natural world. Despite their simple definition, offset curves are mathematically complex: they can develop cusps, self-intersections, and abrupt changes even when the original curve is smooth. Understanding them helps artists and engineers work more precisely with form, structure, and process.*
+*Offset curves are shapes that run a fixed distance away from an original curve. They are essential in applications ranging from CNC machining to typography, and have many analogies in layered phenomena in the natural world. Despite their simple definition, offset curves are mathematically complex: they can develop cusps, self-intersections, and abrupt changes even when the original curve is smooth. Understanding them helps artists and engineers work more precisely with form, structure, and process.*
+
+*Offset curves are also known as equidistant curves or parallel curves.*
 
 ---
 
-Demonstration code to compute offset curves: 
+## Code
+
+Here is some Demonstration code to compute offset curves: 
 
 * [Processing (Java) v.4.4.4 demo](processing/offset_curves/offset_curves.pde) (requires the [PEmbroider](https://github.com/CreativeInquiry/PEmbroider) library)
-* [p5.js (JavaScript) demo](p5js/) (uses [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang).
+* [p5.js (JavaScript) demo](p5js/) (uses [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang)
 * [Python demo](python/README.md) (uses the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1)
-
+* [C++ implementation](https://github.com/Bryce-Summers/ofxScribbleSegmenter/blob/master/src/OffsetCurves.cpp) by Bryce Summers
 
 
 ![offset_curves in Processing](processing/offset_curves/offset_curves_output.png)
@@ -20,7 +24,7 @@ Demonstration code to compute offset curves:
 
 ---
 
-### In Nature
+## In Nature
 
 
 ![sedimentary_layers](img/sedimentary_layers.jpg)
@@ -43,7 +47,7 @@ The Belousov-Zhabotinsky Reaction
 
 ---
 
-### In Art and Human Activity
+## In Art and Human Activity
 
 ![rice_terraces_in_vietnam](img/rice_terraces_in_vietnam.jpg)
 Rice terraces in Vietnam
@@ -70,3 +74,6 @@ Zach Lieberman, [*Offsety Person*](https://www.instagram.com/p/BHBKPsgAOA0/), 20
 
 ![lehni_otto](img/lehni_otto.jpg)
 Jürg Lehni, [*Otto*](https://vimeo.com/129666491), 2014
+
+![jenn_karson_lifelines7604.jpg](img/jenn_karson_lifelines7604.jpg)
+[Jenn Karson](https://jennkarson.studio/), *Lifelines*, 2024

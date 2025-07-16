@@ -61,6 +61,7 @@ The following GCode commands are well-supported by the Bantam ArtFrame. (More in
 * `G20` Specify units in mm
 * `G53` Use machine coordinates
 * `G90` Absolute distance mode
+* `G91` Relative distance mode
 * `M0`, `M2`, `M30` for pausing and program end
 
 Here is an example program. Note that the ArtFrame prefers the style of GCode comments written in parentheses.
@@ -199,7 +200,7 @@ void setup(){
     sendGCodeCommand("$H");  // Home the machine
     delay(10000);            // Wait for homing to complete
     sendGCodeCommand("G90"); // Absolute positioning mode
-    String cmd = createG1Command(width/2, height/2, 20, 10000); 
+    String cmd = createG1MotionCommand(maxX/2, maxY/2, 20, 10000); 
     sendGCodeCommand(cmd);
   }
 }

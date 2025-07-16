@@ -28,7 +28,7 @@ void setup(){
     sendGCodeCommand("$H");  // Home the machine
     delay(10000);            // Wait for homing to complete
     sendGCodeCommand("G90"); // Absolute positioning mode
-    String cmd = createG1Command(width/2, height/2, 20, 10000); 
+    String cmd = createG1MotionCommand(maxX/2, maxY/2, 20, 10000); 
     sendGCodeCommand(cmd);
   }
 }
