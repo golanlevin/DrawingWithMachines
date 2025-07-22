@@ -11,9 +11,9 @@ This page presents some resources for controlling the Bantam ArtFrame 1824 in re
 
 ## Realtime GCode via the `fluidterm.py` Terminal Program
 
-Bantam provides [fluidterm.py](fluidterm.py), a terminal program coded in Python which allows GCode communications with the ArtFrame. This software can send GCode interactively, and can also stream GCode file to the plotter. This version of fluidterm.py is customized for the ArtFrame. 
+Bantam provides [fluidterm.py](fluidterm.py), a terminal program coded in Python which allows realtime GCode communications with the ArtFrame. This software can send GCode interactively, and can also stream GCode files to the plotter. [This version of fluidterm.py](fluidterm.py) is customized for the ArtFrame. 
 
-I tested the following workflow in a Python 3.10 virtual environment; note that Fluidterm requires the following installs: 
+As always, [working within a virtual environment](https://docs.python.org/3/library/venv.html) is strongly recommended. The following workflow is known to work in a Python 3.10 virtual environment. Note that Fluidterm.py requires the following installs: 
 
 ```
 pip install pyserial
@@ -23,19 +23,26 @@ pip install xmodem
 Once Fluidterm.py and its dependencies are installed, connect the ArtFrame via USB-B serial cable and in your virtual environment, run:
 
 ```
-python3 fluidterm.py
+python3 fluidterm.py -
 ```
 
-This will list available serial ports. Then re-run the program with the ArtFrame's serial port as an argument (such as, for example): 
+This will list available serial ports. Then re-run the program with the name of the ArtFrame's serial port as an argument (such as, for example): 
 
 ```
 python3 fluidterm.py /dev/cu.usbmodem11201
 ```
 
-Fluidterm will connect to the plotter (*the default serial configuration is 115200kbps with 8,N,1*). You can then execute typical GCode commands in real time, such as the following: 
+Fluidterm will connect to the plotter (*the default serial configuration is 115200kbps with 8,N,1*). Hit 'return' a couple of times on your keyboard until you see the `ok` response. Then type the following to home the plotter: 
 
 ```
-G1 X 300.0 Y 250.0 Z 30.0 F 5000
+$H
+```
+
+You can then execute typical GCode commands in real time, such as the following: 
+
+```
+G90
+G1 X300.0 Y250.0 Z30.0 F5000
 ```
 
 Note: 
@@ -85,9 +92,9 @@ It is also possible to use `fluidterm.py` to stream a GCode file to the plotter.
 * While running `fluidterm.py` and connected to the ArtFrame:
 * Press **Ctrl+S** to invoke the `stream_file()` function.
 * This will open a file picker dialog (on macOS it uses AppleScript; on other platforms Tkinter).
-* Select your GCode file (e.g., `program.gcode`).
-* It streams the file line-by-line, waiting for an ok response after each line before sending the next. 
-* It skips empty lines, GCode comments, and `M0` commands.
+* Select your GCode file (e.g., `program.gcode`) and hit 'return' to proceed through the dialogues. 
+* Fluidterm then streams the file line-by-line, waiting for an `ok` response after each line before sending the next. 
+* Fluidterm ignores empty lines, GCode comments, and `M0` commands.
 
 
 ---
