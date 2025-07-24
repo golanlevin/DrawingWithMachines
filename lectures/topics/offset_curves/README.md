@@ -10,12 +10,16 @@
 
 ## Code
 
-Here is some Demonstration code to compute offset curves: 
+Here is some working demonstration code to compute offset curves: 
 
 * [Processing (Java) v.4.4.4 demo](processing/offset_curves/offset_curves.pde) (requires the [PEmbroider](https://github.com/CreativeInquiry/PEmbroider) library)
-* [p5.js (JavaScript) demo](p5js/) (uses [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang)
-* [Python demo](python/README.md) (uses the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1)
-* [C++ implementation](https://github.com/Bryce-Summers/ofxScribbleSegmenter/blob/master/src/OffsetCurves.cpp) by Bryce Summers
+* [p5.js (JavaScript) demo](p5js/) (using [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang)
+* [Python demo](python/README.md) (using the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1)
+
+Some other implementations include: 
+
+* [SKIA PathKit (JavaScript via WebAssembly and asm.js)](https://skia.org/docs/user/modules/pathkit/#pathkit) 
+* [OpenFrameworks (C++) implementation](https://github.com/Bryce-Summers/ofxScribbleSegmenter/blob/master/src/OffsetCurves.cpp) by Bryce Summers
 
 
 ![offset_curves in Processing](processing/offset_curves/offset_curves_output.png)
