@@ -2,13 +2,13 @@
 
 **Contents:** 
 
-* Introduction: What are SVG Files?
+* [Introduction: What are SVG Files?](#-introduction-what-are-svg-files)
 * Recommended Toolchains
-	* Looking Ahead: Finalizing Your SVGs with *vpype*
-	* Generating SVGs with JavaScript (p5.js)
-	* Generating SVGs with Java (Processing)
-	* Generating SVGs with Python
-	* Other SVG Tools and Generators
+	* [Looking Ahead: Finalizing Your SVGs with *vpype*](#-looking-ahead-finalizing-your-svgs-with-vpype)
+	* [Generating SVGs with JavaScript (p5.js)](#-generating-svgs-with-javascript-p5js)
+	* [Generating SVGs with Java (Processing)](#-generating-svgs-with-java-processing)
+	* [Generating SVGs with Python](#-generating-svgs-with-python)
+	* [Other SVG Tools and Generators](#-other-svg-toolkits-and-generators)
 
 ---
 
