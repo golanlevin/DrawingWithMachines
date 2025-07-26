@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    /*! *****************************************************************************
+    /******************************************************************************
     Copyright (c) Microsoft Corporation.
 
     Permission to use, copy, modify, and/or distribute this software for any
@@ -15,16 +15,18 @@
     OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
     PERFORMANCE OF THIS SOFTWARE.
     ***************************************************************************** */
-    /* global Reflect, Promise */
+    /* global Reflect, Promise, SuppressedError, Symbol, Iterator */
 
     var extendStatics = function(d, b) {
         extendStatics = Object.setPrototypeOf ||
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
         return extendStatics(d, b);
     };
 
     function __extends(d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
         extendStatics(d, b);
         function __() { this.constructor = d; }
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
@@ -41,12 +43,12 @@
     }
 
     function __generator(thisArg, body) {
-        var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-        return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+        var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === "function" ? Iterator : Object).prototype);
+        return g.next = verb(0), g["throw"] = verb(1), g["return"] = verb(2), typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
         function verb(n) { return function (v) { return step([n, v]); }; }
         function step(op) {
             if (f) throw new TypeError("Generator is already executing.");
-            while (_) try {
+            while (g && (g = 0, op[0] && (_ = 0)), _) try {
                 if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
                 if (y = 0, t) op = [op[0] & 2, t.value];
                 switch (op[0]) {
@@ -68,7 +70,16 @@
         }
     }
 
+    typeof SuppressedError === "function" ? SuppressedError : function (error, suppressed, message) {
+        var e = new Error(message);
+        return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
+    };
+
     var DEBUG = false;
+
+    var svgcanvas = {};
+
+    Object.defineProperty(svgcanvas, '__esModule', { value: true });
 
     function toString(obj) {
         if (!obj) {
@@ -362,7 +373,7 @@
             stop.setAttribute("offset", offset);
             if (toString(color).indexOf("rgba") !== -1) {
                 //separate alpha value, since webkit can't handle it
-                regex = /rgba\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d?\.?\d*)\s*\)/gi;
+                regex = /rgba\(\s*(\d*\.?\d+)\s*,\s*(\d*\.?\d+)\s*,\s*(\d*\.?\d+)\s*,\s*(\d?\.?\d*)\s*\)/gi;
                 matches = regex.exec(color);
                 stop.setAttribute("stop-color", format("rgb({r},{g},{b})", {r:matches[1], g:matches[2], b:matches[3]}));
                 stop.setAttribute("stop-opacity", matches[4]);
@@ -456,7 +467,7 @@
 
         /**
          * Log
-         * 
+         *
          * @private
          */
         Context.prototype.__debug = function(...data) {
@@ -543,15 +554,15 @@
          * @private
          */
         Context.prototype.__applyStyleToCurrentElement = function (type) {
-        	var currentElement = this.__currentElement;
-        	var currentStyleGroup = this.__currentElementsToStyle;
-        	if (currentStyleGroup) {
-        		currentElement.setAttribute(type, "");
-        		currentElement = currentStyleGroup.element;
-        		currentStyleGroup.children.forEach(function (node) {
-        			node.setAttribute(type, "");
-        		});
-        	}
+            var currentElement = this.__currentElement;
+            var currentStyleGroup = this.__currentElementsToStyle;
+            if (currentStyleGroup) {
+                currentElement.setAttribute(type, "");
+                currentElement = currentStyleGroup.element;
+                currentStyleGroup.children.forEach(function (node) {
+                    node.setAttribute(type, "");
+                });
+            }
 
             var keys = Object.keys(STYLES), i, style, value, regex, matches, id, nodeIndex, node;
             for (i = 0; i < keys.length; i++) {
@@ -576,9 +587,9 @@
                         //gradient
                         currentElement.setAttribute(style.apply, format("url(#{id})", {id:value.__root.getAttribute("id")}));
                     } else if (style.apply.indexOf(type)!==-1 && style.svg !== value) {
-                        if ((style.svgAttr === "stroke" || style.svgAttr === "fill") && value.indexOf("rgba") !== -1) {
+                        if ((style.svgAttr === "stroke" || style.svgAttr === "fill") && value && value.indexOf("rgba") !== -1) {
                             //separate alpha value, since illustrator can't handle it
-                            regex = /rgba\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d?\.?\d*)\s*\)/gi;
+                            regex = /rgba\(\s*(\d*\.?\d+)\s*,\s*(\d*\.?\d+)\s*,\s*(\d*\.?\d+)\s*,\s*(\d?\.?\d*)\s*\)/gi;
                             matches = regex.exec(value);
                             currentElement.setAttribute(style.svgAttr, format("rgb({r},{g},{b})", {r:matches[1], g:matches[2], b:matches[3]}));
                             //should take globalAlpha here
@@ -596,6 +607,9 @@
                                      //fill-opacity or stroke-opacity has already been set by stroke or fill.
                                     continue;
                                 }
+                            } else if (keys[i] === 'lineWidth') {
+                                var scale = this.__getTransformScale();
+                                value = value * Math.max(scale.x, scale.y);
                             }
                             //otherwise only update attribute if right type, and not svg default
                             currentElement.setAttribute(attr, value);
@@ -694,7 +708,7 @@
             if (this.__transformMatrixStack && this.__transformMatrixStack.length > 0) {
                 this.setTransform(this.__transformMatrixStack.pop());
             }
-           
+
         };
 
         /**
@@ -719,11 +733,11 @@
          * @private
          */
         Context.prototype.__applyCurrentDefaultPath = function () {
-        	var currentElement = this.__currentElement;
+            var currentElement = this.__currentElement;
             if (currentElement.nodeName === "path") {
-    			currentElement.setAttribute("d", this.__currentDefaultPath);
+                currentElement.setAttribute("d", this.__currentDefaultPath);
             } else {
-    			console.error("Attempted to apply path command to node", currentElement.nodeName);
+                console.error("Attempted to apply path command to node", currentElement.nodeName);
             }
         };
 
@@ -748,7 +762,7 @@
             // creates a new subpath with the given point
             this.__currentPosition = {x: x, y: y};
             this.__addPathCommand(format("M {x} {y}", {
-                x: this.__matrixTransform(x, y).x, 
+                x: this.__matrixTransform(x, y).x,
                 y: this.__matrixTransform(x, y).y
             }));
         };
@@ -769,12 +783,12 @@
             this.__currentPosition = {x: x, y: y};
             if (this.__currentDefaultPath.indexOf('M') > -1) {
                 this.__addPathCommand(format("L {x} {y}", {
-                    x: this.__matrixTransform(x, y).x, 
+                    x: this.__matrixTransform(x, y).x,
                     y: this.__matrixTransform(x, y).y
                 }));
             } else {
                 this.__addPathCommand(format("M {x} {y}", {
-                    x: this.__matrixTransform(x, y).x, 
+                    x: this.__matrixTransform(x, y).x,
                     y: this.__matrixTransform(x, y).y
                 }));
             }
@@ -791,7 +805,7 @@
                     cp1y: this.__matrixTransform(cp1x, cp1y).y,
                     cp2x: this.__matrixTransform(cp2x, cp2y).x,
                     cp2y: this.__matrixTransform(cp2x, cp2y).y,
-                    x: this.__matrixTransform(x, y).x, 
+                    x: this.__matrixTransform(x, y).x,
                     y: this.__matrixTransform(x, y).y
                 }));
         };
@@ -802,9 +816,9 @@
         Context.prototype.quadraticCurveTo = function (cpx, cpy, x, y) {
             this.__currentPosition = {x: x, y: y};
             this.__addPathCommand(format("Q {cpx} {cpy} {x} {y}", {
-                cpx: this.__matrixTransform(cpx, cpy).x, 
+                cpx: this.__matrixTransform(cpx, cpy).x,
                 cpy: this.__matrixTransform(cpx, cpy).y,
-                x: this.__matrixTransform(x, y).x, 
+                x: this.__matrixTransform(x, y).x,
                 y: this.__matrixTransform(x, y).y
             }));
         };
@@ -948,6 +962,30 @@
             this.closePath();
         };
 
+        /**
+         * Adds a rectangle to the path.
+         * https://github.com/processing/p5.js/commit/a975515e9ea0a43d89ed522f281d8c9433ede96c
+         */
+        Context.prototype.roundRect = function (x, y, w, h, radii) {
+            if (this.__currentElement.nodeName !== "path") {
+                this.beginPath();
+            }
+            let tl, tr, br, bl;
+            if (typeof radii == 'number') {
+                tl = radii;
+                tr = radii;
+                br = radii;
+                bl = radii;
+            } else {
+                [tl, tr, br, bl] = radii;
+            }
+            this.moveTo(x + tl, y);
+            this.arcTo(x + w, y, x + w, y + h, tr);
+            this.arcTo(x + w, y + h, x, y + h, br);
+            this.arcTo(x, y + h, x, y, bl);
+            this.arcTo(x, y, x + w, y, tl);
+            this.closePath();
+        };
 
         /**
          * adds a rectangle element
@@ -1072,52 +1110,6 @@
         };
 
         /**
-         * Parses the font string and returns svg mapping
-         * @private
-         */
-        Context.prototype.__parseFont = function () {
-            var regex = /^\s*(?=(?:(?:[-a-z]+\s*){0,2}(italic|oblique))?)(?=(?:(?:[-a-z]+\s*){0,2}(small-caps))?)(?=(?:(?:[-a-z]+\s*){0,2}(bold(?:er)?|lighter|[1-9]00))?)(?:(?:normal|\1|\2|\3)\s*){0,3}((?:xx?-)?(?:small|large)|medium|smaller|larger|[.\d]+(?:\%|in|[cem]m|ex|p[ctx]))(?:\s*\/\s*(normal|[.\d]+(?:\%|in|[cem]m|ex|p[ctx])))?\s*([-,\'\"\sa-z0-9]+?)\s*$/i;
-            var fontPart = regex.exec( this.font );
-            var data = {
-                style : fontPart[1] || 'normal',
-                size : fontPart[4] || '10px',
-                family : fontPart[6] || 'sans-serif',
-                weight: fontPart[3] || 'normal',
-                decoration : fontPart[2] || 'normal',
-                href : null
-            };
-
-            //canvas doesn't support underline natively, but we can pass this attribute
-            if (this.__fontUnderline === "underline") {
-                data.decoration = "underline";
-            }
-
-            //canvas also doesn't support linking, but we can pass this as well
-            if (this.__fontHref) {
-                data.href = this.__fontHref;
-            }
-
-            return data;
-        };
-
-        /**
-         * Helper to link text fragments
-         * @param font
-         * @param element
-         * @return {*}
-         * @private
-         */
-        Context.prototype.__wrapTextLink = function (font, element) {
-            if (font.href) {
-                var a = this.__createElement("a");
-                a.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", font.href);
-                a.appendChild(element);
-                return a;
-            }
-            return element;
-        };
-
-        /**
          * Fills or strokes text
          * @param text
          * @param x
@@ -1126,16 +1118,21 @@
          * @private
          */
         Context.prototype.__applyText = function (text, x, y, action) {
-            var font = this.__parseFont(),
+            var el = document.createElement("span");
+            el.setAttribute("style", 'font:' + this.font);
+
+            var style = el.style, // CSSStyleDeclaration object
                 parent = this.__closestGroupOrSvg(),
                 textElement = this.__createElement("text", {
-                    "font-family" : font.family,
-                    "font-size" : font.size,
-                    "font-style" : font.style,
-                    "font-weight" : font.weight,
-                    "text-decoration" : font.decoration,
-                    "x" : x,
-                    "y" : y,
+                    "font-family": style.fontFamily,
+                    "font-size": style.fontSize,
+                    "font-style": style.fontStyle,
+                    "font-weight": style.fontWeight,
+
+                    // canvas doesn't support underline natively, but we do :)
+                    "text-decoration": this.__fontUnderline,
+                    "x": x,
+                    "y": y,
                     "text-anchor": getTextAnchor(this.textAlign),
                     "dominant-baseline": getDominantBaseline(this.textBaseline)
                 }, true);
@@ -1144,7 +1141,16 @@
             this.__currentElement = textElement;
             this.__applyTransformation(textElement);
             this.__applyStyleToCurrentElement(action);
-            parent.appendChild(this.__wrapTextLink(font,textElement));
+
+            if (this.__fontHref) {
+                var a = this.__createElement("a");
+                // canvas doesn't natively support linking, but we do :)
+                a.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", this.__fontHref);
+                a.appendChild(textElement);
+                textElement = a;
+            }
+
+            parent.appendChild(textElement);
         };
 
         /**
@@ -1210,16 +1216,83 @@
                 largeArcFlag = diff > Math.PI ? 1 : 0;
             }
 
+            var scaleX = Math.hypot(this.__transformMatrix.a, this.__transformMatrix.b);
+            var scaleY = Math.hypot(this.__transformMatrix.c, this.__transformMatrix.d);
+
             this.lineTo(startX, startY);
             this.__addPathCommand(format("A {rx} {ry} {xAxisRotation} {largeArcFlag} {sweepFlag} {endX} {endY}",
                 {
-                    rx:radius,
-                    ry:radius,
+                    rx:radius * scaleX,
+                    ry:radius * scaleY,
                     xAxisRotation:0,
                     largeArcFlag:largeArcFlag,
                     sweepFlag:sweepFlag,
-                    endX: this.__matrixTransform(endX, endY).x, 
+                    endX: this.__matrixTransform(endX, endY).x,
                     endY: this.__matrixTransform(endX, endY).y
+                }));
+
+            this.__currentPosition = {x: endX, y: endY};
+        };
+
+        /**
+         *  Ellipse command!
+         */
+         Context.prototype.ellipse = function(x, y, radiusX, radiusY, rotation, startAngle, endAngle, counterClockwise) {
+            if (startAngle === endAngle) {
+                return;
+            }
+
+            var transformedCenter = this.__matrixTransform(x, y);
+            x = transformedCenter.x;
+            y = transformedCenter.y;
+            var scale = this.__getTransformScale();
+            radiusX = radiusX * scale.x;
+            radiusY = radiusY * scale.y;
+            rotation = rotation + this.__getTransformRotation();
+
+            startAngle = startAngle % (2*Math.PI);
+            endAngle = endAngle % (2*Math.PI);
+            if(startAngle === endAngle) {
+                endAngle = ((endAngle + (2*Math.PI)) - 0.001 * (counterClockwise ? -1 : 1)) % (2*Math.PI);
+            }
+            var endX = x + Math.cos(-rotation) * radiusX * Math.cos(endAngle)
+                         + Math.sin(-rotation) * radiusY * Math.sin(endAngle),
+                endY = y - Math.sin(-rotation) * radiusX * Math.cos(endAngle)
+                         + Math.cos(-rotation) * radiusY * Math.sin(endAngle),
+                startX = x + Math.cos(-rotation) * radiusX * Math.cos(startAngle)
+                           + Math.sin(-rotation) * radiusY * Math.sin(startAngle),
+                startY = y - Math.sin(-rotation) * radiusX * Math.cos(startAngle)
+                           + Math.cos(-rotation) * radiusY * Math.sin(startAngle),
+                sweepFlag = counterClockwise ? 0 : 1,
+                largeArcFlag = 0,
+                diff = endAngle - startAngle;
+
+            if(diff < 0) {
+                diff += 2*Math.PI;
+            }
+
+            if(counterClockwise) {
+                largeArcFlag = diff > Math.PI ? 0 : 1;
+            } else {
+                largeArcFlag = diff > Math.PI ? 1 : 0;
+            }
+
+            // Transform is already applied, so temporarily remove since lineTo
+            // will apply it again.
+            var currentTransform = this.__transformMatrix;
+            this.resetTransform();
+            this.lineTo(startX, startY);
+            this.__transformMatrix = currentTransform;
+
+            this.__addPathCommand(format("A {rx} {ry} {xAxisRotation} {largeArcFlag} {sweepFlag} {endX} {endY}",
+                {
+                    rx:radiusX, 
+                    ry:radiusY, 
+                    xAxisRotation:rotation*(180/Math.PI), 
+                    largeArcFlag:largeArcFlag, 
+                    sweepFlag:sweepFlag, 
+                    endX:endX,
+                    endY:endY
                 }));
 
             this.__currentPosition = {x: endX, y: endY};
@@ -1292,6 +1365,7 @@
             }
 
             parent = this.__closestGroupOrSvg();
+            this.__currentElement;
             const matrix = this.getTransform().translate(dx, dy);
             if (image instanceof Context) {
                 //canvas2svg mock canvas context. In the future we may want to clone nodes instead.
@@ -1371,9 +1445,9 @@
         };
 
         /**
-         * SetTransform changes the current transformation matrix to 
+         * SetTransform changes the current transformation matrix to
          * the matrix given by the arguments as described below.
-         * 
+         *
          * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setTransform
          */
         Context.prototype.setTransform = function (a, b, c, d, e, f) {
@@ -1387,7 +1461,7 @@
         /**
          * GetTransform Returns a copy of the current transformation matrix,
          * as a newly created DOMMAtrix Object
-         * 
+         *
          * @returns A DOMMatrix Object
          */
         Context.prototype.getTransform = function () {
@@ -1397,7 +1471,7 @@
 
         /**
          * ResetTransform resets the current transformation matrix to the identity matrix
-         * 
+         *
          * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/resetTransform
          */
         Context.prototype.resetTransform = function () {
@@ -1405,13 +1479,13 @@
         };
 
         /**
-         * Add the scaling transformation described by the arguments to the current transformation matrix. 
-         * 
-         * @param x The x argument represents the scale factor in the horizontal direction 
+         * Add the scaling transformation described by the arguments to the current transformation matrix.
+         *
+         * @param x The x argument represents the scale factor in the horizontal direction
          * @param y The y argument represents the scale factor in the vertical direction.
          * @see https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-scale
          */
-        Context.prototype.scale = function (x, y) {        
+        Context.prototype.scale = function (x, y) {
             if (y === undefined) {
                 y = x;
             }
@@ -1425,7 +1499,7 @@
 
         /**
          * Rotate adds a rotation to the transformation matrix.
-         * 
+         *
          * @param angle The rotation angle, clockwise in radians. You can use degree * Math.PI / 180 to calculate a radian from a degree.
          * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rotate
          * @see https://www.w3.org/TR/css-transforms-1
@@ -1444,7 +1518,7 @@
 
         /**
          * Translate adds a translation transformation to the current matrix.
-         * 
+         *
          * @param x Distance to move in the horizontal direction. Positive values are to the right, and negative to the left.
          * @param y Distance to move in the vertical direction. Positive values are down, and negative are up.
          * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate
@@ -1455,9 +1529,9 @@
         };
 
         /**
-         * Transform multiplies the current transformation with the matrix described by the arguments of this method. 
+         * Transform multiplies the current transformation with the matrix described by the arguments of this method.
          * This lets you scale, rotate, translate (move), and skew the context.
-         * 
+         *
          * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/transform
          */
         Context.prototype.transform = function (a, b, c, d, e, f) {
@@ -1471,6 +1545,25 @@
 
         /**
          * 
+         * @returns The scale component of the transform matrix as {x,y}.
+         */
+        Context.prototype.__getTransformScale = function() {
+            return {
+                x: Math.hypot(this.__transformMatrix.a, this.__transformMatrix.b),
+                y: Math.hypot(this.__transformMatrix.c, this.__transformMatrix.d)
+            };
+        };
+
+        /**
+         * 
+         * @returns The rotation component of the transform matrix in radians.
+         */
+        Context.prototype.__getTransformRotation = function() {
+            return Math.atan2(this.__transformMatrix.b, this.__transformMatrix.a);
+        };
+
+        /**
+         *
          * @param {*} sx The x-axis coordinate of the top-left corner of the rectangle from which the ImageData will be extracted.
          * @param {*} sy The y-axis coordinate of the top-left corner of the rectangle from which the ImageData will be extracted.
          * @param {*} sw The width of the rectangle from which the ImageData will be extracted. Positive values are to the right, and negative to the left.
@@ -1514,6 +1607,13 @@
             set: function(val) {
                 return wrapper.setAttribute('class', val);
             }
+        });
+
+        Object.defineProperty(this, 'tagName', {
+            get: function() {
+                return "CANVAS";
+            },
+            set: function() {} // no-op
         });
 
         ["width", "height"].forEach(function(prop) {
@@ -1586,7 +1686,17 @@
     SVGCanvasElement.prototype.getElement = function() {
         return this.wrapper;
     };
-    var Element$1 = SVGCanvasElement;
+
+    SVGCanvasElement.prototype.getAttribute = function(prop) {
+        return this.wrapper.getAttribute(prop);
+    };
+
+    SVGCanvasElement.prototype.setAttribute = function(prop, val) {
+        this.wrapper.setAttribute(prop, val);
+    };
+
+    svgcanvas.Context = Context;
+    var Element$1 = svgcanvas.Element = SVGCanvasElement;
 
     function RendererSVG (p5) {
         /**
@@ -1625,7 +1735,7 @@
                     return target[prop];
                 }
             });
-            p5.Renderer2D.call(this, elt, pInstProxy, isMainCanvas);
+            Object.assign(this, p5.Renderer2D.call(this, elt, pInstProxy, isMainCanvas));
             this.isSVG = true;
             this.svg = svg;
             return this;
@@ -1877,9 +1987,9 @@
             // Here we use CIE luminance for RGB
             gray: function (inGraphics, resultGraphics) {
                 var matrix = [
-                    0.2126, 0.7152, 0.0722, 0, 0,
-                    0.2126, 0.7152, 0.0722, 0, 0,
-                    0.2126, 0.7152, 0.0722, 0, 0,
+                    0.2126, 0.7152, 0.0722, 0, 0, // R'
+                    0.2126, 0.7152, 0.0722, 0, 0, // G'
+                    0.2126, 0.7152, 0.0722, 0, 0, // B'
                     0, 0, 0, 1, 0 // A'
                 ];
                 return p5.SVGFilters.colorMatrix(inGraphics, resultGraphics, matrix);
@@ -1896,7 +2006,7 @@
                     // Note that original value is from 0 to 1
                     var func = p5.SVGElement.create('feFunc' + channel, {
                         type: 'linear',
-                        slope: 255,
+                        slope: 255, // all non-zero * 255
                         intercept: (thresh - 1) * -1
                     });
                     componentTransfer.append(func);
@@ -1915,9 +2025,9 @@
             },
             opaque: function (inGraphics, resultGraphics) {
                 var matrix = [
-                    1, 0, 0, 0, 0,
-                    0, 1, 0, 0, 0,
-                    0, 0, 1, 0, 0,
+                    1, 0, 0, 0, 0, // original R
+                    0, 1, 0, 0, 0, // original G
+                    0, 0, 1, 0, 0, // original B
                     0, 0, 0, 0, 1 // set A to 1
                 ];
                 return p5.SVGFilters.colorMatrix(inGraphics, resultGraphics, matrix);
@@ -1974,18 +2084,17 @@
         var _graphics = p5.Graphics;
         p5.Graphics = function (w, h, renderer, pInst) {
             var isSVG = renderer === constants.SVG;
-            _graphics.apply(this, [w, h, isSVG ? pInst.P2D : renderer, pInst]);
+            var pg = new _graphics(w, h, isSVG ? pInst.P2D : renderer, pInst);
             if (isSVG) {
-                // replace <canvas> with <svg>
-                var c = this._renderer.elt;
-                this._renderer = new p5.RendererSVG(c, this, false); // replace renderer
-                c = this._renderer.elt;
-                this.elt = c; // replace this.elt
+                // replace renderer with SVG renderer
+                var svgRenderer = new p5.RendererSVG(pg.elt, pg, false);
+                pg._renderer = svgRenderer;
+                pg.elt = svgRenderer.elt;
                 // do default again
-                this._renderer.resize(w, h);
-                this._renderer._applyDefaults();
+                pg._renderer.resize(w, h);
+                pg._renderer._applyDefaults();
             }
-            return this;
+            return pg;
         };
         p5.Graphics.prototype = _graphics.prototype;
         /**
@@ -2397,13 +2506,29 @@
              * Create SVGElement
              *
              */
-            SVGElement.create = function (nodeName, attributes) {
+            SVGElement.create = function (nodeName, attributes, isUserInstanciated) {
                 attributes = attributes || {};
                 var elt = document.createElementNS('http://www.w3.org/2000/svg', nodeName);
                 Object.keys(attributes).forEach(function (k) {
                     elt.setAttribute(k, attributes[k]);
                 });
-                return new SVGElement(elt);
+                var svgEl = new SVGElement(elt);
+                svgEl.isUserInstanciated = isUserInstanciated;
+                return svgEl;
+            };
+            /**
+             * Check if any group above is user instanciated
+             * Will also return true if oneself is user instanciated
+             *
+             */
+            SVGElement.prototype.isWithinUserInstanciated = function () {
+                if (this.isUserInstanciated) {
+                    return true;
+                }
+                if (!(this.parentNode() instanceof SVGElement)) {
+                    return false;
+                }
+                return this.parentNode().isWithinUserInstanciated();
             };
             /**
              * Get parentNode.
@@ -2433,6 +2558,7 @@
     // SVG Filter
     function Filters (p5) {
         var _filter = p5.prototype.filter;
+        var p5proto = p5.prototype;
         /**
          * Register a custom SVG Filter
          *
@@ -2452,7 +2578,7 @@
          * });
          * filter('myblur', 5);
          */
-        p5.prototype.registerSVGFilter = function (name, fn) {
+        p5proto.registerSVGFilter = function (name, fn) {
             p5.SVGFilters[name] = fn;
         };
         /**
@@ -2480,11 +2606,44 @@
                 // create new <g> so that new element won't be influenced by the filter
                 g = p5.SVGElement.create('g');
                 rootGroup.appendChild(g.elt);
+                if (ctx.__currentElement.isWithinUserInstanciated && ctx.__currentElement.isWithinUserInstanciated()) {
+                    console.warn('Filter will promptly exit out of any instanciated group. Please make sure you\'ve exited them before filtering');
+                }
                 ctx.__currentElement = g.elt;
             }
             else {
                 _filter.apply(this, [operation, value]);
             }
+        };
+    }
+
+    function GroupInterface (p5) {
+        p5.prototype.pushSVGGroup = function () {
+            if (!(this._renderer instanceof RendererSVG)) {
+                console.warn('Attempted to push SVG group in non-svg canvas');
+                return null;
+            }
+            var group = p5.SVGElement.create('g', {}, true);
+            var currEl = this._renderer.drawingContext.__currentElement;
+            if (currEl.tagName !== 'g' && currEl.tagName) {
+                console.warn('Attempted to pop SVG group whilst not in g, svg');
+                return;
+            }
+            currEl.append(group);
+            this._renderer.drawingContext.__currentElement = group;
+            return group;
+        };
+        p5.prototype.popSVGGroup = function (group) {
+            if (!(this._renderer instanceof RendererSVG)) {
+                console.warn('Attempted to pop SVG group in non-svg canvas');
+                return null;
+            }
+            var currEl = this._renderer.drawingContext.__currentElement;
+            if (currEl !== group) {
+                return; // Silently fail: the warning has already been given by filter
+            }
+            this._renderer.drawingContext.__currentElement = currEl.parentNode();
+            return;
         };
     }
 
@@ -2497,6 +2656,7 @@
         Image$1(p5svg);
         Filters(p5svg);
         Element(p5svg);
+        GroupInterface(p5svg);
         // attach constants to p5 instance
         p5svg.prototype['SVG'] = constants.SVG;
         return p5svg;

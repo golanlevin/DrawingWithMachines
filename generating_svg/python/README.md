@@ -6,7 +6,7 @@
 
 * Follow [instructions from here](../vpype_svg_prep/README.md) to install a Python virtual environment, and the very useful SVG optimization and plot-prepping tool, *vpype*.
 * If you'd like to plot directly from your computer, follow instructions from here to install the AxiDraw command-line interface (CLI), [*axicli*](https://axidraw.com/doc/cli_api/#installation), e.g. `python3 -m pip install https://cdn.evilmadscientist.com/dl/ad/public/AxiDraw_API.zip`
-* We'll do our Python coding with [*vsketch*](https://github.com/abey79/vsketch), a Processing-like python environment. Use the instructions from here to [instructions from here](https://vsketch.readthedocs.io/en/latest/install.html) to install it, e.g. `pipx install git+https://github.com/abey79/vsketch --system-site-packages`
+* We'll do our Python coding with [*vsketch*](https://github.com/abey79/vsketch), a Processing-like python environment. Use the [instructions from here](https://vsketch.readthedocs.io/en/latest/install.html) to install it, e.g. `pipx install git+https://github.com/abey79/vsketch --system-site-packages`
 * Activate the virtual environment with `source myVypeEnvironment/bin/activate`. 
 * Separately download and test the [*vsketch* examples](https://vsketch.readthedocs.io/en/latest/install.html#running-the-examples), with e.g. `vsk run path/to/vsketch-master/examples/shotter`
 

@@ -1,7 +1,11 @@
+// Note: this older sketch uses zenozeng's p5.js-svg. 
+// "Drawing with Machines" students should consider
+// using Golan's p5.plotSvg library instead. 
+//
 // Generate a Lissajous curve, and export it as an SVG file.
 // Uses https://github.com/zenozeng/p5.js-svg to export SVG.
-// NOTE: p5.js-svg@1.5.1 is only compatible with p5.js v.1.6.0.
 // Press a key to export the SVG.
+
 
 let bDoExport = false;
 function setup() {
