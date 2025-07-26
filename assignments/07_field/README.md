@@ -19,7 +19,7 @@ This assignment is concerned with growing a design to cover a visual field. Rath
 
 Please check out the following three resources:
 
-1. **Read** [Chapter 2](distribution-graphic-games.pdf) (“Distribution”, pages 64-71) of *Graphic Games* by Victor Baumgartner. [[PDF](distribution-graphic-games.pdf)] (~10 minutes)
+1. **Read** [Chapter 2](../../readings/distribution-graphic-games.pdf) (“Distribution”, pages 64-71) of *Graphic Games* by Victor Baumgartner. [[PDF](../../readings/distribution-graphic-games.pdf)] (~10 minutes)
 2. **Read** “[Flow Fields](https://tylerxhobbs.com/essays/2020/flow-fields)” by Tyler Hobbs (~10 minutes).
 3. **Skim** one or more of the following collections of algorithm resources (~10 minutes):
    * [*Morphogenesis Resources*](https://github.com/jasonwebb/morphogenesis-resources) by Jason Webb
