@@ -38,7 +38,7 @@ Paths in SVG files are defined as sequences of points, which makes them very sui
 In this course, you will generally: 
 
 1. Generate SVG files using your preferred programming toolkit (such as p5.js, Python, or Processing);
-2. Use *vpype* to prepare and optimize your SVG files for plotting. 
+2. Use *vpype* to prepare and optimize your SVG files prior to plotting. 
 
 ---
 
@@ -46,7 +46,7 @@ In this course, you will generally:
 
 ## ![vpype](img/vpype_logo.png) Looking Ahead: Finalizing Your SVGs with *vpype*
 
-**Heads up!** No matter which programming toolkit you use to create your SVG files, you will likely want to process and optimize them for plotting using [*vpype*](https://github.com/abey79/vpype), a powerful command-line tool. For example, *vpype* can layout SVGs with precise control of position, scale, and cropping; optimize the drawing order of paths; and merge and de-duplicate points. Using this tool will help avoid damage to our machines, and can make your plots execute much faster, too. To use *vpype*: 
+**Heads up!** No matter which programming toolkit you use to create your SVG files, you will probably eventually want to process and optimize them, prior to plotting, using [**vpype**](https://github.com/abey79/vpype), a powerful command-line tool. For example, *vpype* can layout SVGs with precise control of position, scale, and cropping; optimize the drawing order of paths; and merge and de-duplicate points. Using this tool will help avoid damage to our machines, and can make your plots execute much faster, too. To use *vpype*: 
 
 1. Follow these instructions [*(Prepping SVGs for Plotting with vpype)*](vpype_svg_prep/README.md) for installing *vpype*.
 2. *vpype* allows commands to be "stacked" into a filtering pipeline. For example, the following *vpype* command loads your `inputfile.svg`; ensures that any line segments with coincident endpoints are merged into polylines; optimally *sorts* the polylines; and crops the image for an 11x8.5 page with a half-inch margin: `vpype read inputfile.svg linemerge --tolerance 0.1mm linesort crop 0.5in 0.5in 10.0in 7.5in write outputfile.svg`
@@ -151,6 +151,7 @@ Many creative technology toolkits provide good support for generating SVG files,
 *We will generally not be using other peoples' "readymade" SVG generators in this course, but it's good to be aware of the kinds of free tools that people make.*
 
 * [**There's a huge list of SVG tools**](https://drawingbots.net/resources#5) at Drawingbots.net. Check it out!
+* [**Rapid Resizer**](https://online.rapidresizer.com/tracer.php) offers a [free online centerline tracer](https://online.rapidresizer.com/tracer.php) which converts line drawings to SVG. 
 * [**DrawingBotV3**](https://drawingbotv3.com/) creates stylised drawings from pixel-based images. [Portions](https://github.com/SonarSonic/DrawingBotV3) of it are open-source.
 * [RadLines](https://msurguy.github.io/rad-lines/) by @msurguy, a readymade tool for generating SVGs of rotating patterns
 * [SquiggleCam](https://msurguy.github.io/SquiggleCam/) by @msurguy, a readymade tool for converting images into squiggly lines.
