@@ -28,9 +28,9 @@ A blob is a sensitization to nonlinearity
 Please read two or more of the following readings:
 
 1. [*Atlas of Blobs*](https://atlasofblobs.cc/), by Zachary Lieberman (and related [interview](https://www.mplus.org.hk/en/magazine/spirit-of-blobs--artist-zachary-lieberman-in-conversation/))
-2. Excerpt from *Entering the Blobosphere*, by Laura Hyunjhee Kim [[PDF]](readings/kim_blobosphere.pdf)
-3. Excerpt from *Blobjects: Beyond the New Fluidity in Design*, by Steven Holt and Maria Skov [[PDF]](readings/patton_blobjects.pdf)
-4. Excerpt (“Good Shape”) from *The Nature of Order*, by Christopher Alexander [[PDF]](readings/alexander_good-shape.pdf)
+2. Excerpt from *Entering the Blobosphere*, by Laura Hyunjhee Kim [[PDF]](../../readings/shape_readings/kim_blobosphere.pdf)
+3. Excerpt from *Blobjects: Beyond the New Fluidity in Design*, by Steven Holt and Maria Skov [[PDF]](../../readings/shape_readings/patton_blobjects.pdf)
+4. Excerpt (“Good Shape”) from *The Nature of Order*, by Christopher Alexander [[PDF]](../../readings/shape_readings/alexander_good-shape.pdf)
 
 (*20 points*) In the Discord channel, *#6a-shape-readings*, write a sentence or two about something that struck you from these readings. 
 
