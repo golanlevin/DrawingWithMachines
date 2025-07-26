@@ -2,9 +2,9 @@
 
 This page presents some resources for controlling the Bantam ArtFrame 1824 in real-time, using GCode: 
 
-* Realtime GCode via the `fluidterm.py` Terminal Program
-* Realtime GCode via CoolTerm
-* Realtime GCode via Processing (Java)
+* [Realtime GCode via the `fluidterm.py` Terminal Program](#realtime-gcode-via-the-fluidtermpy-terminal-program)
+* [Realtime GCode via CoolTerm](#realtime-gcode-via-coolterm)
+* [Realtime GCode via Processing (Java)](#realtime-gcode-in-processing-java)
 
 
 ---
@@ -13,7 +13,7 @@ This page presents some resources for controlling the Bantam ArtFrame 1824 in re
 
 Bantam provides [fluidterm.py](fluidterm.py), a terminal program coded in Python which allows realtime GCode communications with the ArtFrame. This software can send GCode interactively, and can also stream GCode files to the plotter. [This version of fluidterm.py](fluidterm.py) is customized for the ArtFrame. 
 
-As always, [working within a virtual environment](https://docs.python.org/3/library/venv.html) is strongly recommended. The following workflow is known to work in a Python 3.10 virtual environment. Note that Fluidterm.py requires the following installs: 
+As always when using Python, [working within a virtual environment](https://docs.python.org/3/library/venv.html) is very strongly recommended. The following workflow is known to work in a Python 3.10 virtual environment. Note that Fluidterm.py requires the following installs: 
 
 ```
 pip install pyserial
@@ -47,13 +47,22 @@ G1 X300.0 Y250.0 Z30.0 F5000
 
 Note: 
 
-* The units here are millimeters. Decimal fractions are fine.
-* On the ArtFrame 1824, the acceptable range for X is 18"x25.4mm/in = 457.2
-* The acceptable range for Y = 24"x25.4mm/in = 609.6
-* The acceptable range for Z = 60.0, where Z+ is upwards. 
-* The acceptable range for F (feed speed) is 0-15000 mm/min. For
+* The units here are millimeters. Decimal fractions of millimeters are fine.
+* On the ArtFrame 1824, the acceptable range for `X` is 0 to 18"x25.4mm/in = 457.2
+* The acceptable range for `Y` is 0 to 24"x25.4mm/in = 609.6
+* The acceptable range for `Z` is 0 to 60.0, where Z+ is upwards. 
+* The acceptable range for `F` (feed speed) is 0-15000 mm/min. For
 ballpoint pens, a recommended feedrate is 10000 mm/min.
-* Exceeding the XYZ workspace range will trigger alarms that stop the plotting process.
+* Exceeding any of the XYZ workspace ranges will trigger alarms that stop the plotting process and require you to reboot the plotter.
+* The plotter will continually interpolate from one point to the next. If you need a pen up between two different pen downs, do it with four commands, or else you will end up streaking your pen across the page. For example: 
+
+```
+G1 X200 Y300 Z10 F5000 (the pen is down)
+G1 X200 Y300 Z50 F5000 (in the same spot, lift the pen)
+G1 X345 Y678 Z50 F5000 (move the pen -- but keep it raised!)
+G1 X345 Y678 Z10 F5000 (in the same spot, NOW lower the pen)
+
+```
 
 
 The following GCode commands are well-supported by the Bantam ArtFrame. (More information about the GCodes supported by the Bantam ArtFrame are available in the [Bantam Tools ArtFrame User Guide](../../machines/bantam_artframe_1824/ArtFrame_Guide_v1-1-1.pdf), Chapter 6, pp 45-50.)
@@ -71,7 +80,7 @@ The following GCode commands are well-supported by the Bantam ArtFrame. (More in
 * `G91` Relative distance mode
 * `M0`, `M2`, `M30` for pausing and program end
 
-Here is an example program. Note that the ArtFrame prefers the style of GCode comments written in parentheses.
+Here is an example GCode program. Note that the ArtFrame prefers the style of GCode comments which are written in parentheses.
 
 ```
 $H (home the machine)
@@ -80,7 +89,7 @@ G0 Z5 (raise the pen 5mm, using rapid motion)
 G1 X 300.0 Y 250.0 Z 10.0 F 5000 (go to 300,500,10 at 5000mm/min)
 G1 X250Y350Z10 (spaces are optional)
 G1 Y150 (only new information is necessary)
-G0 Z55 (lift the pen close to max height when we're done)
+G0 Z55 (lift the pen close to the max height when we're done)
 G0 X0 Y0 (move to origin when we're done)
 M2 (end of program)
 ```
@@ -89,11 +98,11 @@ M2 (end of program)
 
 It is also possible to use `fluidterm.py` to stream a GCode file to the plotter. Here are instructions: 
 
-* While running `fluidterm.py` and connected to the ArtFrame:
+* While your computer is running `fluidterm.py` and is connected to the ArtFrame:
 * Press **Ctrl+S** to invoke the `stream_file()` function.
 * This will open a file picker dialog (on macOS it uses AppleScript; on other platforms Tkinter).
 * Select your GCode file (e.g., `program.gcode`) and hit 'return' to proceed through the dialogues. 
-* Fluidterm then streams the file line-by-line, waiting for an `ok` response after each line before sending the next. 
+* Fluidterm then streams the file line-by-line to the plotter. You'll observe that it waits for an `ok` response from the plotter after each GCode command before sending the next one. 
 * Fluidterm ignores empty lines, GCode comments, and `M0` commands.
 
 
@@ -101,7 +110,7 @@ It is also possible to use `fluidterm.py` to stream a GCode file to the plotter.
 
 ## Realtime GCode via CoolTerm
 
-A configuration file for realtime communication with the Bantam ArtFrame plotter can be found here ([artframe_coolterm_config.stc](coolterm_config/artframe_coolterm_config.stc)) and is also documented below. It is possible to use this to send individual GCode commands to the plotter, as well as complete GCode files. 
+A CoolTerm configuration file for realtime communication with the Bantam ArtFrame plotter can be found here ([artframe_coolterm_config.stc](coolterm_config/artframe_coolterm_config.stc)) and is also documented below. It is possible to use this to send individual GCode commands to the plotter, as well as complete GCode files. 
 
 ![coolterm_config.png](coolterm_config/coolterm_config.png)
 
