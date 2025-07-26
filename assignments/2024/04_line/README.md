@@ -14,7 +14,7 @@ This Assignment has three components, and is due at the beginning of class on **
 
 ![lostritto-cover.jpg](resources/lostritto-cover.jpg)
 
-[Carl Lostritto](http://lostritto.com/drawing) is a professor of Architecture at RISD whose creative practice centers around the use of pen plotters. Read or skim “Chapter 1: Definitions” (9 pages) from his book, *Computational Drawing*, from the [PDF linked here](../../readings/computational_drawing_lostritto_chapter1.pdf). This chapter has five brief provocations: 
+[Carl Lostritto](http://lostritto.com/drawing) is a professor of Architecture at RISD whose creative practice centers around the use of pen plotters. Read or skim “Chapter 1: Definitions” (9 pages) from his book, *Computational Drawing*, from the [PDF linked here](../../../readings/computational_drawing_lostritto_chapter1.pdf). This chapter has five brief provocations: 
 
 * *What drawing is not and what computing cannot do*
 * *A drawing cannot be edited*
@@ -94,7 +94,7 @@ Pablo Picasso, *Chien (Dog)*, 1957.
 
 (*2-4 hours, 50 points*) The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills in using code to govern a foundational graphical form: *a single line*. 
 
-Recall Paul Klee’s *Pedagogical Sketchbook* (1925), in which he proposes that “a line is a dot that went for a walk”. (*A PDF copy of this book is available [here](../../readings/klee_pedagogical_sketchbook.pdf) if you are interested in reading further.*) Klee’s statement has been very influential, and has become a common prompt for students, such as this [assignment for grade-schoolers](https://www.youtube.com/watch?v=2kPu7ndVZEo).
+Recall Paul Klee’s *Pedagogical Sketchbook* (1925), in which he proposes that “a line is a dot that went for a walk”. (*A PDF copy of this book is available [here](../../../readings/klee_pedagogical_sketchbook.pdf) if you are interested in reading further.*) Klee’s statement has been very influential, and has become a common prompt for students, such as this [assignment for grade-schoolers](https://www.youtube.com/watch?v=2kPu7ndVZEo).
 
 ![klee_line_walk.jpg](resources/klee_line_walk.jpg)
 
