@@ -66,10 +66,12 @@ In this course, you will generally:
 
 
 <details>
-  <summary><strong>Click</strong> to learn about some alternative approaches to generate SVGs in JavaScript.</summary>
+  <summary><strong>Click here</strong> to review some alternative approaches to generate SVGs in JavaScript.</summary>
 
 * [*p5.js-svg*](https://github.com/zenozeng/p5.js-svg) p5.js library, by @zenozeng.  Note that this is an SVG *runtime* which completely replaces p5's Canvas-based renderer. For @zenozeng's p5.js-svg library, here is the *Lissajous demo* ([at Editor.p5js.org](https://editor.p5js.org/golan/sketches/JBWOKOQYH) and [on GitHub](p5js/p5_with_p5svgjs/svg_lissajous/sketch.js)); and a demo of *100 Random Lines* ([at Editor.p5js.org](https://editor.p5js.org/golan/sketches/afWmQU4yg) and [on GitHub](p5js/p5_with_p5svgjs/svg_random_lines/sketch.js)).
-* Make SVGs completely from scratch: Demo [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/cR3C_JI1-) • [on GitHub](p5js/p5_with_svg_from_scratch/sketch.js)
+* Construct SVGs completely from scratch in p5.js: Demo [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/cR3C_JI1-) • [on GitHub](p5js/p5_with_svg_from_scratch/sketch.js)
+* [*Three.js*](https://threejs.org/) supports SVG export via its [SVGRenderer](https://threejs.org/docs/#examples/en/renderers/SVGRenderer) class.
+* [*D3.js*](https://d3js.org/), widely used in data visualization, can export SVG as described [here](https://observablehq.com/@mbostock/saving-svg).
 * [*svg5.js*](https://www.npmjs.com/package/svg5) by @MAKIO135:  (demo at [Editor.p5js.org](https://editor.p5js.org/golan/sketches/QbOhi4I1v))
 * [*Rune.js*](http://runemadsen.github.io/rune.js/) by @runemadsen, with [rune.save.js](https://www.npmjs.com/package/rune.save.js) by @alterebro
 * [*canvas-sketch*](https://github.com/mattdesl/canvas-sketch/) by @mattdesl, with [```pathsToSVG()```](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md#pathsToSVG) from [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch-util/blob/master/docs/penplot.md)
@@ -106,11 +108,15 @@ The Processing toolkit is documented [here](https://processing.org/reference) an
 
 
 <details>
-  <summary><strong>Click</strong> to learn about other Python toolkits for generating SVGs.</summary>
+  <summary><strong>Click here</strong> to review some other Python toolkits for generating SVGs.</summary>
 
 ### Generating SVGs with py5
 
 [**py5**](https://py5coding.org/index.html) is a new (2024) version of Processing for Python 3.9+. py5 works with other popular Python libraries and tools such as Jupyter, NumPy, SciPy, Shapely, trimesh, matplotlib, and Pillow. py5 allows you to generate SVGs using its [`py5drawsvg`](https://py5coding.org/reference/py5magics_py5drawsvg.html) command. 
+
+### Generating SVGs with Drawsvg in Python
+
+[Drawsvg](https://pypi.org/project/drawsvg/) is a Python 3 library for programmatically generating SVG images and animations that can render and display your drawings in a Jupyter notebook. Drawsvg is current as of June 2024. 
 
 ### Generating SVGs with Processing.py (v.3.5.4)
 
@@ -124,6 +130,7 @@ Assuming you're working in Processing 3.5.4, you can install the Python Mode usi
 * [*Test Grid demo*](processing_py_3.5.4/svg_testgrid/svg_testgrid.pyde)
 * [*Lissajous demo*](processing_py_3.5.4/svg_lissajous/svg_lissajous.pyde)
 * [*100 Random Lines*](processing_py_3.5.4/svg_random_lines/svg_random_lines.pyde)
+
 
 </details>
 
