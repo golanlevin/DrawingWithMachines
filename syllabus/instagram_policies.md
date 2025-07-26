@@ -17,16 +17,18 @@ This semester we will share an Instagram channel, @[**DrawingWithMachines**](htt
 
 ### ✍️ Purpose and Content
 
-* This account is for sharing our process: sketches, code, plotter failures, final drawings, experiments. Think of it as a studio logbook — not a portfolio.
+* This account is for sharing our process: sketches, plotter failures, final drawings, time-lapses, experiments. Think of it as a studio logbook — not a portfolio.
 * Feel free to include short captions or reflections — what you were trying, what worked, what surprised you.
+* When relevant, feel free to tag tools or platforms we’re using (e.g. @axidraw, @p5xjs), or use hashtags like `#plotterart`, `#generativeart`, `#creativecoding`, and `#plottertwitter`.
+* Please don’t repost artwork or media from outside accounts, even if it’s relevant or inspirational. This account is for sharing work made by members of our class.
 * Do not post off-topic content (memes, unrelated selfies, promotions, etc.).
-* When relevant, feel free to tag tools or platforms we’re using (e.g. @axidraw, @p5xjs), or use hashtags like `#plotterart`, `#generativeart`, `#creativecoding`, and `#plottertwitter`. 
 * Artistic work that engages with social or political ideas is welcome, as long as it connects meaningfully to our material and process. That said, this is a shared space — please don’t use the account as a soapbox or a platform to espouse personal views unrelated to the course.
+* If you're unsure whether something is appropriate to post, just ask Golan or bring it up in class.
 
 ### 🔐 Account Security
 
-* Login details for our account are in our `#key-information` Discord channel.
-* Do not share the login info outside of our class.
+* Login details for our account are in the `#key-information` channel of our Discord.
+* Do not share the account login info outside of our class.
 * Do not change the password, linked email, or any account settings.
 * Avoid copying or transmitting the login details. Do not store them insecurely.
 * If you notice suspicious behavior or login issues, report it to Golan immediately.
