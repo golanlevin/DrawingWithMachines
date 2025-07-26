@@ -66,7 +66,7 @@ In this course, you will generally:
 
 
 <details>
-  <summary>**Click** to learn about some alternative approaches to generate SVGs in JavaScript.</summary>
+  <summary><strong>Click</strong> to learn about some alternative approaches to generate SVGs in JavaScript.</summary>
 
 * [*p5.js-svg*](https://github.com/zenozeng/p5.js-svg) p5.js library, by @zenozeng.  Note that this is an SVG *runtime* which completely replaces p5's Canvas-based renderer. For @zenozeng's p5.js-svg library, here is the *Lissajous demo* ([at Editor.p5js.org](https://editor.p5js.org/golan/sketches/JBWOKOQYH) and [on GitHub](p5js/p5_with_p5svgjs/svg_lissajous/sketch.js)); and a demo of *100 Random Lines* ([at Editor.p5js.org](https://editor.p5js.org/golan/sketches/afWmQU4yg) and [on GitHub](p5js/p5_with_p5svgjs/svg_random_lines/sketch.js)).
 * Make SVGs completely from scratch: Demo [at Editor.p5js.org](https://editor.p5js.org/golan/sketches/cR3C_JI1-) • [on GitHub](p5js/p5_with_svg_from_scratch/sketch.js)
@@ -106,7 +106,7 @@ The Processing toolkit is documented [here](https://processing.org/reference) an
 
 
 <details>
-  <summary>**Click** to learn about other Python toolkits for generating SVGs.</summary>
+  <summary><strong>Click</strong> to learn about other Python toolkits for generating SVGs.</summary>
 
 ### Generating SVGs with py5
 
