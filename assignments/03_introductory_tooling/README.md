@@ -88,7 +88,7 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
   * [Java with Processing](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-java-processing), 
   * [JavaScript with p5.js **v.1.6.0**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-javascript-p5js), 
   * [Python in the Processing **v.3.5.4**](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-python-processingpy-v354) IDE, or 
-  * [command-line Python with vsketch and vpype](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#generating-svgs-with-python-vsketch). 
+  * [command-line Python with vsketch and vpype](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg#-generating-svgs-with-python). 
 * Using an AxiDraw, **plot** the Lissajous SVG in black ink on 9x12 or 8.5x11 white paper. Feel free to sign your artwork flamboyantly.
 * (*50 points*) In a Discord post in the channel *#3d-make-a-plot*, **post** a photo of your plot.
 * **Bring** your plot to class on Tuesday 1/30. 
