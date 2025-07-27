@@ -97,3 +97,7 @@ In [this article](https://tylerxhobbs.com/essays/2020/flow-fields), Tyler Hobbs 
 In [this example (YouTube)](https://www.youtube.com/watch?v=s3VsK8BtIw0) (discussed [here](https://medium.com/@jason.webb/simulating-dla-in-js-f1914eb04b1d), "Simulating 2D diffusion-limited aggregation (DLA) with JavaScript"), Jason Webb shows how a Diffusion-Limited Aggregation simulation can be expressively altered, when the diffusing particles are not simply moving in a random way, but are moving along gradients of another simulation (in this case, a Perlin Noise flow field).
 
 [![perlin-flow-dla.png](img/perlin-flow-dla.png)](https://www.youtube.com/watch?v=s3VsK8BtIw0)
+
+---
+
+[2021 version](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1372.html)

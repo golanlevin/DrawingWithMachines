@@ -180,3 +180,7 @@ If you want to nerd out, these articles are amazing.
 [Halftoning with Reaction-Diffusion Patterns](https://estebanhufstedler.com/2020/05/17/halftoning-with-reaction-diffusion-patterns/) (+[Sims](https://www.karlsims.com/rd.html))
 
 ![reaction-diffusion-haring.jpg](img/reaction-diffusion-haring.jpg)
+
+---
+
+[2021 version](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=771.html)

@@ -1,18 +1,29 @@
 # Field
 
-*How can we [write software to generatively] fill a surface with an aesthetic, organic field?*
+*How can we (write software to generatively) fill a surface with an aesthetic, organic field?*
 
 ![field_graphic_games-1536x570.jpg](img/field_graphic_games-1536x570.jpg)
 
-![fields.jpg](img/fields.jpg)
 
 [![julienv3ga_fields.jpg](img/julienv3ga_fields.jpg)](https://www.instagram.com/julienv3ga/)<br/>[Fields by Julien Gachadoat (v3ga)](https://www.instagram.com/julienv3ga/)
 
 ---
 
+## Case Study: Shantell Martin
+
+![shantell-martin-13.jpg](img/shantell-martin-13.jpg)
+
+[Video](https://youtu.be/peeXWxxfUAc)
+
 ## Case Study: [Corollaria Railing](https://n-e-r-v-o-u-s.com/blog/?p=8753)
 
+Jessica Rosenkrantz and Jesse Louis-Rosenberg, who work together as [Nervous System](https://n-e-r-v-o-u-s.com/), have been at the forefront of nature-inspired computational design for nearly two decades. In designing their new studio, they used simulation algorithms to create [an algorithmically-generated, lasercut steel railing](https://n-e-r-v-o-u-s.com/blog/?p=8753) that acts as a sculptural element winding through the space. 
+
 [![corollaria.jpg](img/corollaria.jpg)](https://n-e-r-v-o-u-s.com/blog/?p=8753)
+
+Nervous System also [created the plaques](https://n-e-r-v-o-u-s.com/blog/?p=9778) for the STUDIO for Creative Inquiry's Fund for Underwriting Creativity, Knowledge, Experimentation, Research and Yumminess, which supports antidisciplinary undergraduate research at CMU. 
+
+[![moore_plaques_at_cmu_studio.jpg](img/moore_plaques_at_cmu_studio.jpg)](https://n-e-r-v-o-u-s.com/blog/?p=9778)
 
 --- 
 
@@ -68,11 +79,14 @@ Here's a small handful of approaches:
 
 ![mauro_annunziato_chaos_revenge.jpg](img/mauro_annunziato_chaos_revenge.jpg)<br />Mauro Annunziato, [*Chaos Revenge*](https://digitalartarchive.siggraph.org/artwork/mauro-annunziato-chaos-revenge/), 1999
 
-![jared_tarbell_substrate.jpg](img/jared_tarbell_substrate.jpg)<br />Jared Tarbell, [*Substrate*](), 2003; [2023 recode by Tom White](https://dribnet.github.io/substrate/).
+![jared_tarbell_substrate.jpg](img/jared_tarbell_substrate.jpg)<br />Jared Tarbell, [*Substrate*](), 2003; [2023 recode by Tom White](https://dribnet.github.io/substrate/); [video](https://vimeo.com/208903786); [simple recode by Golan](https://editor.p5js.org/golan/sketches/lbIjah3p2)
+
+> A single line (known internally as a “crack”) begins drawing itself from some random point in some random direction. The line continues to draw itself until it either (a) hits the edge of the screen or (b) hits another line, at which point it stops and two more lines begin. The one simple rule used in the creation of new lines is that they begin at tangents to existing lines. This process is repeated until there are too many lines to keep track of or the program is stopped.
 
 ![mitchell_whitelaw_limits_to_growth_2008.jpg](img/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, [*Limits to Growth*](https://mtchl.net/limits-to-growth/), 2008
 
-![mario_klingemann_subdivision.jpg](img/mario_klingemann_subdivision.jpg)<br />Mario Klingemann, [*Subdivision*](https://www.flickr.com/photos/quasimondo/albums/72157606163595189/), 2008
+![mario_klingemann_subdivision.jpg](img/mario_klingemann_subdivision_2.jpg)<br />Mario Klingemann, [*Subdivision*](https://www.flickr.com/photos/quasimondo/albums/72157606163595189/with/2490048589), 2008
+
 
 ![rapidly_exploring_random_tree_rrt.gif](img/rapidly_exploring_random_tree_rrt.gif)<br />[Rapidly Exploring Random Tree](https://en.wikipedia.org/wiki/Rapidly_exploring_random_tree) (RRT) path-planning algorithm
 
@@ -102,7 +116,8 @@ Here's a small handful of approaches:
 
 ---
 
-[2021 Lecture version](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-06-field-distribution/)
+* [2021 lecture on flow fields](https://courses.ideate.cmu.edu/60-428/f2021/daily-notes/10-06-field-distribution/)
+* [2021 lecture on feedback fields](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1542.html)
 
 Also: 
 
