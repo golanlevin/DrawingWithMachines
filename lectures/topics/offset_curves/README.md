@@ -59,14 +59,20 @@ Rice terraces in Vietnam
 ![maya_lin_systematic_landscapes](img/maya_lin_systematic_landscapes.jpg)
 Maya Lin, [*Systematic Landscapes*](https://camstl.org/exhibitions/maya-lin-systematic-landscapes/), 2007
 
+![cuna_molas_1955_peabody.jpg](img/cuna_molas_1955_peabody.jpg)
+[Cuna mola embroidery designs](https://www.jstor.org/stable/community.15377658), 1955, from the Peabody Museum of Archaeology and Ethnology, Harvard University
+
+![verner_panton_spectrum_1974_moma](img/verner_panton_spectrum_1974_moma.jpg)
+Verner Panton, [Spectrum textile](https://www.moma.org/collection/works/292747), 1974
+
 ![cnc_machining_toolpaths.png](img/cnc_machining_toolpaths.png)
 CNC machining toolpaths
 
-![cmu_fence_1993-2007_laurel_bancroft](img/cmu_fence_1993-2007_laurel_bancroft.jpg)
-Laurel Bancroft, [*core section of the CMU fence*](https://www.flickr.com/photos/golanlevin/2426520046), 2007
-
 ![mexico_1968_pedro_ramirez](img/mexico_1968_pedro_ramirez.jpg)
 Pedro Ramírez Vázquez et al., [*Mexico 1968 olympics logo*](https://www.logohistories.com/p/folk-art-psychedelia)
+
+![cmu_fence_1993-2007_laurel_bancroft](img/cmu_fence_1993-2007_laurel_bancroft.jpg)
+Laurel Bancroft, [*core section of the CMU fence*](https://www.flickr.com/photos/golanlevin/2426520046), 2007
 
 ![robert_hodgin_individuation](img/robert_hodgin_individuation.jpg)
 Robert Hodgin, [*Individuation*](https://roberthodgin.com/project/individuation), 2021
