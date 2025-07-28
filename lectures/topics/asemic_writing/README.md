@@ -6,6 +6,8 @@
 
 Asemic writing explores the liminal territories between familiarity and chaos, language and gesture.
 
+![mirtha_dermisache-1970s.jpg](img/mirtha_dermisache-1970s.jpg)
+
 This is research by S.E. Petersen (1995), showing activation of the cortex by “word-like stimuli” including what she called “false fonts”, or letters from an imaginary alphabet.
 
 
@@ -133,11 +135,17 @@ Other Links
 
 Readings
 
-* Aima, Rahel. “[Definition Not Found](https://reallifemag.com/definition-not-found/).” *Real Life*, Sept. 2016.
-* Callich, Ty Casey. “[Mean Less: My Experience With Asemic Writing](https://medium.com/@tylercaseycallich/mean-less-my-experience-with-asemic-writing-5c5791e91162).” 12 Oct. 2016.
+* Aima, Rahel. “[Definition Not Found](https://reallifemag.com/definition-not-found/).” *Real Life*, September 2016.
+* Boice, Robert, and Patricia E. Meyers. “[Two Parallel Traditions: Automatic Writing and Free Writing](https://journals.sagepub.com/doi/abs/10.1177/0741088386003004004).” *Written Communication*, v.3.#4, October 1986, pp. 471–90.
+* Callich, Ty Casey. “[Mean Less: My Experience With Asemic Writing](https://medium.com/@tylercaseycallich/mean-less-my-experience-with-asemic-writing-5c5791e91162).” 12 October 2016.
 * Bury, Louis. “[Mirtha Dermisache’s Writing Is a Rorschach Test](https://hyperallergic.com/444659/selected-writings-mirtha-dermisache-ugly-duckling-presse-siglio-2017/).” *Hyperallergic*, 24 June 2018.
+* Fenstermaker, Will. "[Mirtha Dermisache and the Limits of Language](https://www.theparisreview.org/blog/2018/01/30/mirtha-dermisache-limits-language/)", *The Paris Review*, 30 January 2018.
 * Ingold, Tim. [*Lines: A Brief History*](https://ebookcentral.proquest.com/lib/cm/reader.action?docID=4507339&ppg=137). Chapter 5 Drawing, writing and calligraphy (pp. 137-168).
-* Boice, Robert, and Patricia E. Meyers. “[Two Parallel Traditions: Automatic Writing and Free Writing](https://journals.sagepub.com/doi/abs/10.1177/0741088386003004004).” *Written Communication*, vol. 3, no. 4, Oct. 1986, pp. 471–90. SAGE Journals, doi:10.1177/0741088386003004004.
+
+
+
+
+
 
 ---
 
