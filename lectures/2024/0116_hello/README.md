@@ -10,7 +10,7 @@
 * Distribution of kits and keys
 * *Break*
 * Presentation: *Loosening Up with DIY Drawing Machines*
-* Announcement of Assignment 1: [*DIY Drawing Machine*](../../../assignments/01_diy_drawing_machine/README.md) (due Thursday 1/18)
+* Announcement of Assignment 1: [*DIY Drawing Machine*](../../../assignments/2024/01_diy_drawing_machine/README.md) (due Thursday 1/18)
 
 
 ---
@@ -39,4 +39,4 @@ What is a *machine*? List your assumptions.
 
 ### Some Things to View
 
-See updated [list of links here](../../../assignments/01_diy_drawing_machine/list.md).
+See updated [list of links here](../../../assignments/2024/01_diy_drawing_machine/list.md).

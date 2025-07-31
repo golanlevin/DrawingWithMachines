@@ -3,12 +3,14 @@
 * The **order** of strokes matters. 
 * The **direction** of strokes matters.
 * The **speed** of strokes matters.
+* The **pressure** of strokes matters.
 * The **substrate** matters.
+* The **stylus** matters.
 * The **ink** matters.
 
 ---
 
-The **order** of strokes matters. 
+The **order** of strokes matters:
 
 ![finger_paint_flowers.jpg](img/finger_paint_flowers.jpg)
 
