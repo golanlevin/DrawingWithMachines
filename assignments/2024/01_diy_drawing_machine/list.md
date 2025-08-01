@@ -2,6 +2,7 @@
 
 ---
 
+This list compiles a wide range of drawing machines, and/or artworks which function as drawing machines. 
 *All links work as of 6/8/2025.*
 
 ### Some Things to View

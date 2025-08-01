@@ -10,9 +10,10 @@ PAST VERSIONS:
 2024: https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/01_diy_drawing_machine/README.md
 -->
 
-* 1.1. Course Administration Tasks
-* 1.2. Looking Outwards: Drawing Machines
-* 1.3. Shitty Drawing Machine
+* 1.1. Course Administration
+* 1.2. Looking Outwards I: Previous DwM Work
+* 1.3. Looking Outwards II: Drawing Machines
+* 1.4. Shitty Drawing Machine
 
 ---
 

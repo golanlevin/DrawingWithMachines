@@ -14,6 +14,7 @@ This semester we will share an Instagram channel, @[**DrawingWithMachines**](htt
 * Only post your own work (finished or in progress), or the work of others with their explicit permission. Feel free to sign your posts with your first name or initials if you want — or not.
 * Don’t post photos or videos of classmates unless they’ve agreed to be shown.
 * Even with permission, please avoid tagging individuals in photos. Let’s protect each other’s privacy.
+* Be thoughtful about how often you post — shared platforms need shared space. If you’ve shared several things recently, consider giving others time to contribute before posting again.
 
 ### ✍️ Purpose and Content
 

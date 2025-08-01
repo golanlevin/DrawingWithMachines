@@ -296,6 +296,14 @@ Mali Tribune used virtual headforms as an environmental pressure on particle sim
   </tr>
 </table>
 
+For her final project, Hima Gururaj [developed custom software](https://courses.ideate.cmu.edu/60-428/f2021/author/miniverse/index.html) that could create generative compositions from her modular hand-drawings — obeying semantic logics in how they were arranged. For example, her software arranged animals eating each other (mouth to tail), and constructions of machinery and plumbing that fit together. 
+
+
+
+![hima_animals.png](img/hima_animals.png)
+
+![himalini_gururaj_machines.jpg](img/himalini_gururaj_machines.jpg)
+
 ---
 
 ## Postcard Exchange
