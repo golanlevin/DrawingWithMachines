@@ -4,10 +4,10 @@
 
 *This project has four parts and is due Wednesday, August 27th at the beginning of class.* 
 
-* 1.1. Course Administration *(15 minutes, 5%)*
-* 1.2. Looking Outwards I: Previous Student Work *(15 minutes, 5%)*
-* 1.3. Looking Outwards II: Drawing Machines *(30-45 minutes, 15%)*
-* 1.4. Shitty Drawing Machine *(4 hours max, 75%)*
+* 1.1. [Course Administration](#11-course-administration) *(15 minutes, 5%)*
+* 1.2. [Looking Outwards I: Previous Student Work](#12-looking-outwards-i-previous-student-work) *(15 minutes, 5%)*
+* 1.3. [Looking Outwards II: Drawing Machines](#13-looking-outwards-ii-drawing-machines) *(30-45 minutes, 15%)*
+* 1.4. [Shitty Drawing Machine](#14-%EF%B8%8F-shitty-drawing-machine) *(4 hours max, 75%)*
 
 ---
 
@@ -60,7 +60,7 @@
 
 ## 1.4. 💩🤖🖌️ Shitty Drawing Machine
 
-[![fan-drawing-machine](img/kanako_ishikawa_drawing machine.gif)](https://vimeo.com/305405463)<br /><small><small>Kanako Ishikawa used an oscillating fan and a barking puppy toy to create this [*Drawing Machine*](https://vimeo.com/305405463), 2018.</small></small>
+![fan drawing machine](img/kanako_ishikawa_drawing_machine.gif)<br /><small><small>Kanako Ishikawa used an oscillating fan and a barking puppy toy to create this [*Drawing Machine*](https://vimeo.com/305405463), 2018.</small></small>
 
 *(75%, due Wednesday 8/27; 4 hours max)*
 
