@@ -15,13 +15,13 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon 
 * [Instagram](https://www.instagram.com/drawingwithmachines/)
 * Discord
 * [Github](https://github.com/golanlevin/DrawingWithMachines)
-* [Box](https://cmu.box.com/s/rmeiop95vt67nmw60dz1v5x08wqp6m0c)
+<!-- * [Box](https://cmu.box.com/s/rmeiop95vt67nmw60dz1v5x08wqp6m0c) -->
 
 ---
 
 ### Key Resources
 
-* [Lectures](lectures/README.md)
+* [Lectures](lectures/2025/)
 * [Assignments](assignments/2025/README.md)
 * [Readings](readings/README.md)
 * [Machinery Instructions](machines/README.md)

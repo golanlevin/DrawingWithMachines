@@ -37,10 +37,10 @@ This semester we will share an Instagram channel, @[**DrawingWithMachines**](htt
 ### 🤝 Follows, Likes, and Comments
 
 * Please don’t use the class account to follow influencers, friends, or unrelated accounts.
-* It’s okay to follow artists, labs, or projects relevant to generative art, drawing machines, or creative code — help curate our feed thoughtfully.
+* It’s okay to follow artists, labs, or projects relevant to generative art, drawing machines, or creative code — you can help curate our feed thoughtfully.
 * Be mindful with likes — you’re acting on behalf of our entire group.
 * Avoid leaving comments on others' posts unless it’s directly related to our work.
-* If someone leaves a comment on one of our posts (e.g., “How did you do that?”), it’s fine to respond — but let Golan know if it involves harassment or a formal inquiry.
+* If someone leaves a friendly question or comment on one of our posts (e.g., “How did you do that?”), it's fine to respond — but alert Golan if the comment involves harassment or a formal inquiry.
 * Do not use the account to send or reply to direct messages (DMs). If someone messages us, let Golan know.
 
 ### 🚫 Community Standards

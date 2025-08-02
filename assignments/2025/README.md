@@ -1,20 +1,15 @@
 # DwM Assignments (Fall 2025)
 
+<img src="../../syllabus/img/2025_schedule.png" width="400">
+
 ---
 
-## 1. [Drawing Machine](01_drawing_machine) `8/27`
+## 1. [Drawing Machine](01_drawing_machine/README.md) `8/27`
 
-<!-- 
-PAST VERSIONS: 
-2021: https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=41.html
-2024: https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/01_diy_drawing_machine/README.md
--->
-
-* 1.1. [Course Administration](01_drawing_machine/README.md#11-course-administration)
-* 1.2. [Looking Outwards I: Previous Student Work](01_drawing_machine/README.md#12-looking-outwards-i-previous-student-work)
-* 1.3. [Looking Outwards II: Drawing Machines](01_drawing_machine/README.md#13-looking-outwards-ii-drawing-machines)
-* 1.4. [Shitty Drawing Machine](01_drawing_machine/README.md#14-%EF%B8%8F-shitty-drawing-machine)
-
+* 1.1. [Course Administration](01_drawing_machine/README.md#11-course-administration) (15m)
+* 1.2. [Looking Outwards I: Previous Student Work](01_drawing_machine/README.md#12-looking-outwards-i-previous-student-work) (15m)
+* 1.3. [Looking Outwards II: Drawing Machines](01_drawing_machine/README.md#13-looking-outwards-ii-drawing-machines) (30m)
+* 1.4. [Shitty Drawing Machine](01_drawing_machine/README.md#14-%EF%B8%8F-shitty-drawing-machine) (3h)
 
 ---
 
@@ -27,9 +22,9 @@ PAST VERSIONS:
 2024: https://github.com/golanlevin/DrawingWithMachines/tree/main/assignments/2024/02_rule_based_art
 -->
 
-* 2.1. Looking Outwards: Tooling
-* 2.2. Looking Outwards: Generative Plotter Art
-* 2.3. Re-Coding and Plotting Molnár's *Letters*
+* 2.1. Looking Outwards III: Tooling
+* 2.2. Looking Outwards IV: Generative Plotter Art
+* 2.3. (Re)Coding and Plotting Molnár's *Letters*
 
 ---
 
@@ -44,7 +39,7 @@ README.md
 
 * 3.1. Line Exercises
 * 3.2. Offset Curve Composition
-* 3.3. Taking A Line for A Walk
+* 3.3. Taking A Line for A Walk (3D)
 
 
 ---
@@ -62,14 +57,14 @@ PAST VERSIONS:
 
 ---
 
-## 5. Pattern `9/24`
+## 5. Pattern/Modularity `9/24`
 
 <!-- 
 PAST VERSIONS: 
 https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1184.html
 -->
 
-* 5.1. Readings on Pattern
+* 5.1. Readings
 * 5.2. Truchet Tiling
 * 5.3. A Tiling Pattern Composition
 
@@ -82,21 +77,22 @@ PAST VERSIONS:
 https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1430.html
 -->
 
-* 6.1. Readings on Fields/Distributions
+* 6.1. Readings
 * 6.2. Packing
 * 6.3. Flow Field
 * 6.3. A Field/Distribution Composition
 
 ---
 
-## 7. Material Conditions `10/8`
+## 7. Materiality `10/8`
 
 <!-- 
 PAST VERSIONS: 
 https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/07_field/README.md
 -->
 
-* 7.1. Material Exploration `10/8`
+* 7.1. Plottimation `10/8`
+* 7.2. Material Exploration `10/8`
 
 ---
 
