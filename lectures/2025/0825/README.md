@@ -15,7 +15,7 @@
 * End-of-Semester Activities
 * Welcome to our Machine Drawing Lab
 
-**Kickoff: Loosening Up with DIY Drawing Machines**
+**Kickoff: Loosening Up with Low-Tech Drawing Machines**
 
 * A Discussion about Machines and Drawings
 * In-Class Viewings: Low-Tech Drawing Machines
@@ -144,7 +144,7 @@ We will spend plenty of time thinking about drawing machines that use computers,
 
 ---
 
-### Introducing Assignment 1: Shitty Drawing Machine
+### Introducing Assignment 1: 💩🤖🖌️ Shitty Drawing Machine
 
 ![alban_voss_xbox_drawing_machine](img/alban_voss_xbox_drawing_machine.gif)<br />*Alban Voss, [Xbox Rumble Drawing Machine](https://vimeo.com/16728393), 2010*
 
