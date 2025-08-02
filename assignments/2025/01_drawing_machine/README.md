@@ -1,6 +1,6 @@
 # 1. Drawing Machine
 
-![knowles/horn](img/knowles_horn.jpg)<br />*Tim Knowles made wind-activated [Tree Drawings](https://www.cabinetmagazine.org/issues/28/knowles.php), 2005; Rebecca Horn wore this [Pencil Mask](https://www.youtube.com/watch?v=RPwpC82li2Q) to make wall drawings in 1973.*
+![knowles/horn](img/knowles_horn.jpg)<br />*Tim Knowles made wind-activated [Tree Drawings](https://www.cabinetmagazine.org/issues/28/knowles.php), 2005; Rebecca Horn wore this [Pencil Mask](https://www.youtube.com/watch?v=Eh9JH7daSbg) to make wall drawings in 1973.*
 
 *This project has four parts and is due Wednesday, August 27th at the beginning of class.* 
 
@@ -32,12 +32,12 @@
 	* [**Drawing with Machines, Fall 2021**](https://github.com/golanlevin/DrawingWithMachines/blob/main/documentation/2021/README.md) 
 	* [**Drawing with Machines, Spring 2024**](https://github.com/golanlevin/DrawingWithMachines/blob/main/documentation/2024/README.md)
 	* [**Drawing with Machines Workshop, Summer 2022**](https://github.com/golanlevin/DrawingWithMachines/tree/main/documentation/2022)
-* **Identify** a project that speaks to you, made by another student. 
+* **Identify** a project that intrigues you, made by another student. 
 * **Create** a post in the `#1-2-looking-at-dwm` Discord channel.
-* **Write** a sentence or two about why you found the project appealing or interesting.
+* **Write** a sentence or two about why you found the project appealing or interesting — and/or a question you have about the project.
 * **Include** an image of the project.
 
-*(In some cases, additional information may be available about the project you selected. If you're interested, message the professor by Discord, or check out the provided links to Flickr archives, etc.)*
+*(In some cases, additional documentation may be available about the project you selected. If you're interested, message the professor by Discord, or check out the provided links to Flickr archives, Wordpress sites, etc.)*
 
 ---
 

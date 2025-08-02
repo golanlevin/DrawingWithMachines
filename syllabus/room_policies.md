@@ -16,16 +16,17 @@ Outside of these scheduled sessions — and unless otherwise notified — the ro
 
 ### 🤫 Noise and Focus
 
-Our lab is a **shared studio and workspace**, not just a hangout. It should support concentration, exploration, and deep focus.
+Creating a place for our classroom community to be creative together is one of my top priorities. But our lab is a **shared studio and workspace**, not just a hangout. It should support concentration, exploration, and deep focus.
 
 * Mental focus is precious. Some folks are trying to think, write code, or troubleshoot — they may need quiet.
-* If someone looks locked in, let them stay that way. If someone asks for quiet, please respect that without making it weird. Generally: We all want to feel comfortable here; please don’t make it harder for someone else to focus.
 * **Keep conversations low-key**, and **avoid boisterous behavior** or playing distracting media. Laughter is great, group chat is great — but if the room feels like a party, it’s probably too loud.
+* If someone looks locked in, let them stay that way. We all want to feel comfortable here; please don’t make it harder for someone else to focus.
 * Don’t make me tap the sign. 🙃
+
 
 ### 🔧 Equipment Use
 
-* Treat all equipment with care and respect. If something breaks, report it immediately — accidents happen, but silence causes problems.
+* Treat our equipment with care and respect. If something breaks, report it immediately — accidents happen, but silence causes problems.
 * Always return tools and materials to their designated places.
 * There are some library books I have borrowed for us to browse for inspiration. These should not be removed from the room. 
 * Some plots can take a lot of time. Please try to share access equitably: in particular, don’t monopolize specialized machines. Time limits may be enforced if demand is high.
@@ -37,6 +38,7 @@ Our lab is a **shared studio and workspace**, not just a hangout. It should supp
 * If their materials are accidentally in your way, ask a faculty member before moving them.
 * Leave the room clean and ready for the next class: wipe surfaces, throw away trash, and don’t leave half-finished projects out unless they’re clearly labeled.
 
+
 ### 👥 Guests and Room Security
 
 * You may bring a friend to visit or observe while you work, **but please do not invite people to hang out or use the space casually.**
@@ -45,13 +47,14 @@ Our lab is a **shared studio and workspace**, not just a hangout. It should supp
 * Random people sometimes wander CFA, and thefts have occurred. **The last person to leave must ensure the door is locked.**
 * Always take your CMU ID badge with you if you step out. **Do not prop the door open and walk away — ever.** 
 
+
 ### 🧃 Food and Drinks
 
 * You may eat dry, clean snacks, but please **keep food and open drinks away from laptops, artwork, and machines.**
-* **No messy or greasy meals** (e.g. takeout, sauce-heavy food) in the lab.
+* **No messy or greasy meals** (e.g. sauce-heavy food) in the lab.
 * Dispose of trash immediately — don’t leave wrappers, cans, or compostables behind.
 
 
-*Thanks for helping make our room a focused, generous, and genuinely collaborative space.*
+*Thanks for helping make our room a generous, focused, and genuinely collaborative space.*
 
 ---
