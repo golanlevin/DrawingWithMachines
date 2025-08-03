@@ -46,13 +46,22 @@ In this course, you will generally:
 
 ## ![vpype](img/vpype_logo.png) Looking Ahead: Finalizing Your SVGs with *vpype*
 
-**Heads up!** No matter which programming toolkit you use to create your SVG files, you will probably eventually want to process and optimize them, prior to plotting, using [**vpype**](https://github.com/abey79/vpype), a powerful command-line tool. For example, *vpype* can layout SVGs with precise control of position, scale, and cropping; optimize the drawing order of paths; and merge and de-duplicate points. Using this tool will help avoid damage to our machines, and can make your plots execute much faster, too. To use *vpype*: 
+**Heads up!** No matter which programming toolkit you use to create your SVG files, you will probably eventually want to process and optimize them, prior to plotting, using [**vpype**](https://github.com/abey79/vpype), a powerful command-line tool. For example, *vpype* can layout SVGs with precise control of position, scale, and cropping; optimize the drawing order of paths; and merge and de-duplicate points. Using this tool will help avoid damage to our machines, and can make your plots execute much faster, too. [This article](https://plotterfiles.com/news/optimizing-files-for-plotting) by Maks Surguy offers a good explanation for why we need such optimization. To use *vpype*: 
 
 1. Follow these instructions [*(Prepping SVGs for Plotting with vpype)*](vpype_svg_prep/README.md) for installing *vpype*.
 2. *vpype* allows commands to be "stacked" into a filtering pipeline. For example, the following *vpype* command loads your `inputfile.svg`; ensures that any line segments with coincident endpoints are merged into polylines; optimally *sorts* the polylines; and crops the image for an 11x8.5 page with a half-inch margin: `vpype read inputfile.svg linemerge --tolerance 0.1mm linesort crop 0.5in 0.5in 10.0in 7.5in write outputfile.svg`
 3. Some other common ready-to-use formulas for *vpype* can be found [here](https://github.com/abey79/vpype?tab=readme-ov-file#examples). The main *vpype* documentation is [here](https://vpype.readthedocs.io/en/latest/index.html).
 4. *vpype* also has an ecology of plug-ins, including tools like [Deduplicate](https://github.com/LoicGoulefert/deduplicate), for adjusting overlapping lines, and [Occult](https://github.com/LoicGoulefert/occult), for removing lines occulted by polygons.
 
+<details>
+  <summary><strong>Click here</strong> to review some alternative tools for optimizing SVG files for plotting.</summary>
+  
+Tools like InkScape, Adobe Illustrator, and [Boxy-SVG](https://boxy-svg.com/) may be useful for certain operations, such as scaling and cropping, but they lack affordances for making *plotter-specific* optimizations to SVG files. As mentioned, *vpype* is the recommended tool for optimizing your SVGs in this course. However, there are two notable and potentially worthwhile alternatives: 
+
+* [saxi](https://github.com/alexrudd2/saxi) - powerful, but AxiDraw-specific
+* [PlotterFiles SVG Optimizer](https://plotterfiles.com/tools/optimizer) - simple and quick
+
+</details>
 
 ---
 

@@ -50,9 +50,6 @@ A meander or meandros, also called a Greek fret or Greek key, is a decorative bo
 
 ---
 
-#### Vera Molnár, *Lettres de ma Mère* (1988)
-
-![molnar_mothers_letters.jpg](img/molnar_mothers_letters.png)
 
 #### Spencerian Flourishes (copperplate calligraphy) 
 
@@ -206,6 +203,8 @@ Optimal path for robots/turtles with a fixed turning radius.
 
 
 ---
+
+![bangert_complex_intersecting_line_1976_spalter.jpg](img/bangert_complex_intersecting_line_1976_spalter.jpg)<br />Colette and Charles Bangert, [*Complex Intersecting Line*](https://spalterdigital.com/artworks/3314/), 1976. Spalter Collection. [Detail](https://i0.wp.com/spalterdigital.com/wp-content/uploads/2019/09/IMG_4451-e1569338421449.jpeg?fit=2000%2C1500&ssl=1)
 
 ![gl_linewalk.gif](img/gl_linewalk.gif)<br />
 [*The Professor's Attempt*](https://editor.p5js.org/golan/sketches/im4aJHJO_) (p5)

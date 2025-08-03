@@ -60,19 +60,8 @@ Xu Bing, A Book from the Sky (1987-1991)
 
 
 
-Vera Molnar, [*Letters from My Mother*](http://collections.vam.ac.uk/item/O216188/letters-from-my-mother-print-molnar-vera/) (1987-88) [[more information](https://brownpoliticalreview.org/2020/05/bpr-interviews-vera-molnar/)]
 
 
-
-
-
-
-
-Vera Molnar first started to use computers in 1968. This screenprint was created from two plotter drawings that simulate the handwriting of Molnar’s elderly mother as she became increasingly unwell. In a description of the work, Molnar wrote:
-
-“My mother had a wonderful hand-writing. There was something gothic in it (it was the style of writing of all well-educated ladies in the Habsburg monarchy in the early XXth century) but also something hysteric. The beginning of every line, on the left side, was always regular, severe, gothic and at the end of each line it become [sic] more nervous, restless, almost hysteric. As the years passed, the letters in their totality, become [sic] more and more chaotic, the gothic aspect disappeared step by step and only the disorder remained. Every week she wrote me a letter, it was a basic and important event in my visual environment. They were more and more difficult to decipher, but it was so nice to look at them… then, there were no more letters…So I went on to write letters of hers to myself, on the computer of course, simulating the transition between gothic and hysteric.”
-
-Many of Molnar’s other works also resemble writing.
 
 
 

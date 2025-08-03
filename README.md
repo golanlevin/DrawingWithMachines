@@ -38,3 +38,5 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon 
 * [2021 Course at CMU: documentation](documentation/2021/README.md)
 * [2024 Course at CMU: documentation](documentation/2024/README.md)
 * [2022 Workshop at Anderson Ranch: documentation](documentation/2022/README.md)
+
+---

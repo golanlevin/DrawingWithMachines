@@ -80,7 +80,7 @@ Robert Hodgin, [*Individuation*](https://roberthodgin.com/project/individuation)
 ![mjlindow_jardin_fxhash](img/mjlindow_jardin_fxhash.jpg)
 M.J. Lindow, [*Jardin*](https://www.fxhash.xyz/project/jardin), 2021
 ![zach_lieberman_nyt](img/zach_lieberman_nyt.jpg)
-Zach Lieberman, [*Offsety Person*](https://www.instagram.com/p/BHBKPsgAOA0/), 2016
+Zach Lieberman, [*Offsety Person*](https://www.instagram.com/p/BHBKPsgAOA0/), 2016. Discussion [here](https://zachlieberman.medium.com/daily-sketches-2016-28586d8f008e#:~:text=When%20I%20mentioned%20this%20problem%20to%20Golan%20Levin%2C%20he%20connected%20me%20with%20Bryce%20Summers%2C%20whose%20ofxScribbleSegmenter%20helped%20solve%20for%20self%20intersection%20of%20those%20polygon%20offsets%20and%20I%20was%20able%20to%20do%20offsets%20pretty%20fast). 
 
 ![lehni_otto](img/lehni_otto.jpg)
 Jürg Lehni, [*Otto*](https://vimeo.com/129666491), 2014

@@ -93,7 +93,8 @@ This semester, you will have four main channels for **sharing, documenting, and 
 3. Our class will also have a private **Discord** server, where we will post writeups about our work for each other. You can also use this Discord to ask for help, coordinate amongst yourselves, and offer comments, encouragement, and feedback to your peers. **Note:** I will also use this Discord to transmit timely alerts and important announcements. *Check your email for the invite link*.
 4. Finally, we will also use a public-facing [**course Instagram**](https://www.instagram.com/drawingwithmachines/), [**@drawingwithmachines**](https://www.instagram.com/drawingwithmachines/) — a collectively-managed space for our class to document and share our work, process, silliness, and experiments. In order for us to share this account, I have developed some [**Policies**](https://github.com/golanlevin/DrawingWithMachines/blob/main/syllabus/instagram_policies.md). Your participation in this Instagram is warmly encouraged, but optional.
 
-![gradient-of-visibility.png](img/gradient-of-visibility.png)
+<img src="img/gradient-of-visibility.png" width="400">
+
 
 ---
 
@@ -108,7 +109,7 @@ Here is a set of [**Policies and Guidelines for Our Studio Classroom**](../../..
 On Wednesday we'll discuss the machines in the room in great detail. But for the record, this semester we will use or have access to: 
 
 * *(multiple)* [AxiDraw](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines#axidraw), [HP7475A](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/README.md), and [Line-Us](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/line-us/README.md) plotters, as well as
-* *(singular)* [Bantam Tools Artframe 1824](https://bantamtools.com/products/bantam-tools-artframe-1824), [HP DraftMaster II](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp_draftmaster/README.md), [USCutter MH871-MK2](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/uscutter-mh871-mk2/README.md), [Rotrics DexArm](https://github.com/CreativeInquiry/Rotrics_control), [Silhouette Portrait 4](https://github.com/fablabnbg/inkscape-silhouette)
+* *(singular)* [Bantam Tools Artframe 1824](https://bantamtools.com/products/bantam-tools-artframe-1824), [HP DraftMaster II](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp_draftmaster/README.md), [USCutter MH871-MK2](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/uscutter-mh871-mk2/README.md), [Rotrics DexArm](https://github.com/CreativeInquiry/Rotrics_control), [Silhouette Portrait 4](https://github.com/fablabnbg/inkscape-silhouette), [Rotring NC-Scriber](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/rotring-nc-scriber-cs100/README.md)
 * *(elsewhere at CMU)* laser cutters, computer-controlled embroidery machines, UR5 robot arm, etc.
 
 ---

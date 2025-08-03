@@ -11,7 +11,7 @@
 	* Historic Computer Art
 	* A Line is a Dot that Went for a Walk
 	* Drawing, Expanded by the Computer
-* Work Session ([Assignment 2](../../../assignments/02_rule_based_art/README.md))
+* Work Session ([Assignment 2](../../../assignments/2024/02_rule_based_art/README.md))
 * Zoom visit from [Joshua Schachter](https://www.inverse.com/input/culture/tiktok-robotsdraw-joshua-schachter-art)
 
 ---

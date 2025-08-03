@@ -98,6 +98,8 @@ John Baldessari, [*Throwing Three Balls in the Air to Get a Straight Line (Best 
 * Lecture: [Rule-Based Art, 1950s-1960s](https://ems.andrew.cmu.edu/2013_60210a/lectures/lecture-01/index.html)
 * Lecture: [Minimum Inventory, Maximum Diversity](https://ems.andrew.cmu.edu/2021s/60210a/deliverables/deliverables-01/absolute-drawings/index.html)
 
+<!-- https://x.com/larswander/status/1778145513004503519 -->
+
 
 #### Side note: Lewitt's Instructional Work
 

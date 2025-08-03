@@ -7,8 +7,9 @@
 *This set of exercises has four parts and is due Wednesday, 8/27/2025 at the beginning of class.* 
 
 * 2.1. Looking Outwards: Tooling *(20 minutes)* 
-* 2.2. Looking Outwards: Generative Plotter Art *(30 minutes)* 
-* 2.3. (Re)Coding and Plotting Molnár's "Letters"
+* 2.2. Looking Outwards: Generative Plotter Art *(30 minutes)*
+* 2.3. Reading: 
+* 2.4. Re-Coding and Plotting Molnár's *Lettres*
 
 ---
 
@@ -54,12 +55,12 @@ You can also browse work by some individual contemporary artists who use code an
 | [Joel Cammarata](https://www.instagram.com/j.cammarata.art/) | [Julien Gachadoat](https://www.instagram.com/julienv3ga/) | [Jürg Lehni](https://juerglehni.com/) |
 | [Lars Wander](https://www.instagram.com/larswander/) | [LIA](https://www.liaworks.com/tag/plotter-drawing/) | [Licia He](https://www.instagram.com/blahblahpaperblah/) |
 | [Magda Brzezińska](https://www.instagram.com/magmidas_art/) | [Marius Watz](https://www.instagram.com/nosuchfuture/) | [Michael Fogleman](https://www.michaelfogleman.com/plotter/) |
-| [Michael Zancan](https://www.instagram.com/zancan.code/?hl=en) | [Michelle Chandra](https://www.dirtalleydesign.com/collections/flowers-and-leaves) | [Patrick Tresset](https://www.instagram.com/patricktresset/) |
+| [Michaël Zancan](https://www.instagram.com/zancan.code/?hl=en) | [Michelle Chandra](https://www.dirtalleydesign.com/collections/flowers-and-leaves) | [Patrick Tresset](https://www.instagram.com/patricktresset/) |
 | [Paul Prudence](https://www.instagram.com/mrprudence/) | [Paul Rickards](https://shop.paulrickards.com/galleries/) | [Rev Dan Catt](https://www.instagram.com/revdancatt) |
 | [Ron Scalera](https://x.com/robscalera) | [Shojiro Nakaoka](https://viridian-adapter-f76.notion.site/PLOTTER-WORKS-1c972edc8aa680fc9cedef0cd5587c58) | [Sougwen Chung](https://sougwen.com/) |
-| [Targz](https://www.instagram.com/targz/) | [Travess Smalley](https://www.instagram.com/travess/?hl=en) |[Floris de Jonge](https://bsky.app/profile/florisdejonge.bsky.social) |
+| [Julien Terraz (Targz)](https://www.instagram.com/targz/) | [Travess Smalley](https://www.instagram.com/travess/?hl=en) |[Floris de Jonge](https://bsky.app/profile/florisdejonge.bsky.social) |
 
-Please spend at least 20 minutes browsing these materials to get a sense of how various people are combining computation and plotter devices. *Now*,
+Please spend about 20 minutes browsing these materials to get a sense of how some artists are combining computation and plotter devices. *Now*,
 
 * **Create** a post in the Discord channel, `#2-2-looking-at-art`.
 * **Write** a sentence or two reflecting on the work you saw, overall. What was interesting to you? What was disappointing? What opportunities did you see?
@@ -68,6 +69,28 @@ Please spend at least 20 minutes browsing these materials to get a sense of how 
 
 ---
 
+## 2.4. Re-Coding and Plotting Molnár's *Lettres*
+
+![vera_lettres_x2.jpg](img/vera_lettres_x2.jpg)
+Two examples of *Lettres de ma Mère* by Vera Molnár, 1988, Spalter Collection.
+
+Vera Molnár began making art with the computer in 1968, ans was among the first dozen or so people to do so. In the mid-1980s, she began a series of plotted works, *Lettres de ma Mère*, which simulated the handwriting of her elderly mother as she became increasingly unwell. In a description of the work, Molnár wrote:
+
+> “My mother had a wonderful hand-writing. There was something gothic in it (it was the style of writing of all well-educated ladies in the Habsburg monarchy in the early XXth century) but also something hysteric. The beginning of every line, on the left side, was always regular, severe, gothic and at the end of each line it became more nervous, restless, almost hysteric. As the years passed, the letters in their totality, became more and more chaotic, the gothic aspect disappeared step by step and only the disorder remained. Every week she wrote me a letter, it was a basic and important event in my visual environment. They were more and more difficult to decipher, but it was so nice to look at them… then, there were no more letters…So I went on to write letters of hers to myself, on the computer of course, simulating the transition between gothic and hysteric.”
+
+
+
+![molnar_mothers_letters.jpg](../../../lectures/topics/walking_a_dot/img/molnar_mothers_letters.png)
+
+Links: 
+
+* [*Letters from My Mother*](http://collections.vam.ac.uk/item/O216188/letters-from-my-mother-print-molnar-vera/) in the Victoria & Albert Museum 
+* [Interview with Vera Molnár](https://brownpoliticalreview.org/bpr-interviews-vera-molnar/) by Anne Spalter
+* [Works by Molnár in the Spalter Collection](https://spalterdigital.com/artists/vera-molnar/)
+* [Golan cheat sheet](https://editor.p5js.org/golan/sketches/h-6WtzDGv)
+
+
+---
 
 EOF
 
