@@ -92,6 +92,7 @@ At the conclusion of this course, students will be able to:
 
 
 ---
+
 # Course Profile
 
 ### Key Topics
@@ -155,6 +156,7 @@ There are no *specific* extra time committments outside of regularly posted meet
 
 
 ---
+
 # Administrata
 
 ### Access to Plotting Equipment
@@ -204,6 +206,7 @@ This course uses the following software systems to share information:
 
 
 ---
+
 # COVID-19 Accommodations
 
 ### Mask-Wearing Expectations
@@ -230,6 +233,7 @@ Typically I do not allow *unexcused* absences, i.e., an absence in which you neg
 
 
 ---
+
 # Civics and Attendance
 
 ### Attendance and Presence
@@ -252,6 +256,7 @@ Sometimes, students who haven’t completed their projects skip class during cri
 
 
 ---
+
 # Rubrics and Grading
 
 ### General Expectations
@@ -322,6 +327,7 @@ In addition to spoken and/or written feedback, the professor may also provide fe
 (*These scores do not figure into your official grade.*)
 
 ---
+
 # Academic Integrity
 Your behavior as a responsible member of the new-media arts community is very important — as demonstrated, for example, by properly citing your sources and borrowed code, and crediting those who have helped you. These expectations and obligations are addressed here, in our course Academic Integrity Policy.
 
@@ -361,6 +367,7 @@ The assignments in this course are primarily intended to be executed by individu
 
 
 ---
+
 # Code of Conduct
 
 ### Code of Conduct
@@ -379,6 +386,7 @@ I commit to make individual arrangements to address disabilities or religious ne
 
 
 ---
+
 # Zoom & Remote Education
 
 This course is planned for an in-person modality, but it's possible that we may use Zoom if appropriate or necessary. For example, if there is a guest artist who visits the class by Zoom, or if we transition to another quarantine, etc. 
@@ -394,6 +402,7 @@ This course is planned for an in-person modality, but it's possible that we may 
 * Having *some* cameras *occasionally* turned off is understandable, reasonable, and quite manageable; having *a majority* of cameras *persistently* turned off makes it very difficult for me to teach. **Please consider sharing your camera** when/if you're comfortable doing so. If you have any concerns about sharing your video, please email me and we can discuss possible adjustments.
 
 ---
+
 # Freedom of Speech
 
 ### Freedom of Speech Committment 
@@ -414,6 +423,7 @@ Materials are considered innocent until proven guilty. Allegedly offensive mater
 
 
 ---
+
 # Taking Care of Yourself
 
 **Take care of yourself**. Your well-being is more important than your performance in this course. Please do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.
@@ -428,6 +438,7 @@ If you or anyone you know experiences any academic stress, difficult life events
 
 
 ---
+
 # FERPA Statement
 [FERPA](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) (The Family Educational Rights and Privacy Act) is a federal law that protects the confidentiality of student records. It restricts others from accessing or discussing your educational records without your consent. In this section, we discuss why you have been asked to sign a waiver, which grants your consent to have your work shown online.
 
@@ -443,6 +454,7 @@ That said, there are also plenty of reasons why you may wish to work anonymously
 
 
 ---
+
 # Land Notice
 The Frank-Ratchye STUDIO for Creative Inquiry, Carnegie Mellon University, and the city of Pittsburgh is situated on land that has been continuously inhabited for over 16,000 years, serving as a home to members of the Adena, Hopewell, Monongahela, Lenape, Shawnee, Wyandot, Tisagechroami, Delaware, and Mohican communities before becoming a territory of the Iroquois Confederacy. The Iroquois Confederacy included the Mohawk, Onondaga, Oneida, Cayuga, Seneca, and Tuscarora people, whose relationships with the land continue to this day. The Seneca name for Pittsburgh is [Dionde:gâ](https://en.wikipedia.org/wiki/History_of_Pittsburgh).
 

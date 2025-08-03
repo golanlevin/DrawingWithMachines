@@ -4,6 +4,8 @@
 
 # Syllabus for *Drawing with Machines*, Fall 2025
 
+60-428
+
 <!--
 
 ![60428_banner_2025.jpg](img/60428_banner_2025.jpg)
