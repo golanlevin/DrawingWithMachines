@@ -8,42 +8,36 @@
 
 **Welcome** to the Fall 2025 edition of **Drawing with Machines** (60-428/728)!
 
-* Introductions
-* Studio Knowledge, Machine Literacy, and Peer Support
-* Overview of Information Resources & Workflows
-* Overview of Semester Units & Assignments
-* End-of-Semester Activities
-* Welcome to our Machine Drawing Lab
+* [Introductions](#introductions)
+* [Studio Knowledge, Machine Literacy, and Peer Support](#studio-knowledge-machine-literacy-and-peer-support)
+* [Overview of Semester Units & Assignments](#overview-of-semester-units--assignments)
+* [End-of-Semester Activities](#end-of-semester-activities)
+* [Overview of Information Resources & Workflows](#overview-of-semester-units--assignments)
+* [Welcome to our Machine Drawing Lab](#welcome-to-our-machine-drawing-lab)
 
 **Kickoff: Loosening Up with Low-Tech Drawing Machines**
 
-* A Discussion about Machines and Drawings
-* In-Class Viewings: Low-Tech Drawing Machines
-* Assignment 1: Shitty Drawing Machine
+* [A Discussion about Machines and Drawing](#a-discussion-about-machines-and-drawing)
+* [In-Class Viewings: Low-Tech Drawing Machines](#in-class-viewings-low-tech-drawing-machines)
+* [Introducing Assignment 1: Shitty Drawing Machine](#introducing-assignment-1-%EF%B8%8F-shitty-drawing-machine)
 
 ---
 
 ## Welcome
 
+### Introductions
+
+Who's here?
+
 
 ### Studio Knowledge, Machine Literacy, and Peer Support
 
-This semester, we’re lucky to have a few students who have taken this course before. They know the machines. They’ve debugged weird problems. They’ve survived SVGs.
+This semester, we’re lucky to have a few students who have taken this course before. They know the machines, they’ve survived SVGs.
 
-**If you are a returning student:** *thank you* for being here again. (I've got some new machines and assignments to keep things fresh for you.) You’re part of what will make this studio robust, responsive, and delightful. Your expertise helps lift everyone up. I want to acknowledge that experience — and also gently deputize you. I’m not asking you to be full-on TAs, but I am asking you to share what you know and help others get unstuck. 
+**If you are a returning student:** *thank you* for being here again. (We've got some new machines and assignments to keep things fresh for you.) You’re part of what will make this studio robust, responsive, and delightful. Your expertise helps lift everyone up. I want to acknowledge that experience — and also gently deputize you. I’m not asking you to be full-on TAs, but I am asking you to share what you know and help others get unstuck. 
 
 This is a rhizomatic studio: learning flows sideways. I am not the center of knowledge. You’ll all be asking each other for help, and hopefully giving help too. And when someone helps you: Give them credit in your project report. We build community that way.
 
-
-### Overview of Information Resources & Workflows
-
-This semester, my primary vehicle for delivering information **to you** will be this [**Drawing with Machines GitHub**](https://github.com/golanlevin/DrawingWithMachines/tree/main). Here you will be able to find my [Lectures](../), [Assignments](../../../assignments/2025/README.md), [Machinery Instructions](../../../machines/README.md), and much more.
-
-This semester, you will have three main channels for **sharing and documenting** your work:
-
-  1. Our private **Discord** server, where you will post writeups about your work. You can also use this Discord to ask for help, coordinate with each other, and offer comments, encouragement, and feedback to your peers. *Check your email for the invite link*. 
-  2. My own **Google Forms**, such as [this one](https://docs.google.com/forms/d/e/1FAIpQLScPxj3o4SNXomiYu4vGqDObooXI_7j4vK2sFzYPpyAIJK6-jQ/viewform?usp=header), which I will use to collect, archive, and automatically organize high-quality documentation of your work.
-  3. Our public-facing [**course Instagram**](https://www.instagram.com/drawingwithmachines/), a collectively-managed space for our class to document and share our work, process, and experiments. In order for us to share this account, I have developed some [**Policies**](https://github.com/golanlevin/DrawingWithMachines/blob/main/syllabus/instagram_policies.md). Your participation in this Instagram is encouraged but optional.
 
 ---
 
@@ -71,6 +65,7 @@ The themes of the units/assignments will be:
 9. Self-Directed Investigation `12/3`
 10. Portfolio Review `12/TBA`
 
+
 ---
 
 ### End-of-Semester Activities
@@ -80,9 +75,23 @@ The themes of the units/assignments will be:
 * Portfolio Review during Final Exam week
 * CFA Hallway Exhibition (December 8-12, 3rd Floor South Foyer)
 * Class exhibition at the Bantam [Machine Art Gallery](https://bantamtools.com/pages/gallery), January 2026, Peekskill NY
-* Card Exchange & Coin-Op Vending Machines
+* [Card Exchange](https://github.com/golanlevin/DrawingWithMachines/blob/main/documentation/2024/README.md#postcard-exchange) & Coin-Op Vending Machines
 
 ![coin-op-plot-machine.jpg](img/coin-op-plot-machine.jpg)
+
+
+---
+
+### Overview of Information Resources & Workflows
+
+This semester, my primary vehicle for delivering information **to you** will be this [**Drawing with Machines GitHub**](https://github.com/golanlevin/DrawingWithMachines/tree/main). Here you will be able to find my [Lectures](../), [Assignments](../../../assignments/2025/README.md), [Machinery Instructions](../../../machines/README.md), and much more.
+
+This semester, you will have three main channels for **sharing and documenting** your work:
+
+  1. Our private **Discord** server, where you will post writeups about your work. You can also use this Discord to ask for help, coordinate with each other, and offer comments, encouragement, and feedback to your peers. *Check your email for the invite link*. 
+  2. My own **Google Forms**, such as [this one](https://docs.google.com/forms/d/e/1FAIpQLScPxj3o4SNXomiYu4vGqDObooXI_7j4vK2sFzYPpyAIJK6-jQ/viewform?usp=header), which I will use to collect, archive, and automatically organize high-quality documentation of your work.
+  3. Our public-facing [**course Instagram**](https://www.instagram.com/drawingwithmachines/), a collectively-managed space for our class to document and share our work, process, and experiments. In order for us to share this account, I have developed some [**Policies**](https://github.com/golanlevin/DrawingWithMachines/blob/main/syllabus/instagram_policies.md). Your participation in this Instagram is encouraged but optional.
+
 
 ---
 
@@ -102,11 +111,11 @@ On Wednesday we'll discuss the machines in the room in great detail. But for the
 
 ---
 
-## Unit 1: Loosening Up with DIY Drawing Machines
+## Unit 1: Loosening Up with Low-Tech Drawing Machines
 
 *In which we allow ourselves to make shitty machines and even shittier drawings.* 
 
-### A Discussion about Machines and Drawings
+### A Discussion about Machines and Drawing
 
 What is a *drawing*? List some common assumptions.
 
@@ -128,7 +137,7 @@ What is a *drawing tool*? List some common assumptions.
 
 ---
 
-### In-Class Viewings: No-Tech Drawing Machines
+### In-Class Viewings: Low-Tech Drawing Machines
 
 We will spend plenty of time thinking about drawing machines that use computers, but let's begin with an appreciation of the poetics of those that don't. From this [list of links](../../../assignments/2024/01_diy_drawing_machine/list.md), we will view in class (time permitting):
 
