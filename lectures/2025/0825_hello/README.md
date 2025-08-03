@@ -139,7 +139,7 @@ What is a *drawing tool*? List some common assumptions.
 
 ### In-Class Viewings: Low-Tech Drawing Machines
 
-We will spend plenty of time thinking about drawing machines that use computers, but let's begin with an appreciation of the poetics of those that don't. Note that I'm playing loose with terms like *drawing/drafting* and *machine/tool/toy/intervention*. From this [**list of links**](../../../assignments/2024/01_diy_drawing_machine/list.md), we will view in class (time permitting):
+We will spend plenty of time thinking about drawing machines that use computers, but let's begin with an appreciation of the poetics of those that don't. Note that I'm playing loose with terms like *drawing/drafting* and *machine/tool/toy/intervention*. From this [**list of links**](../../topics/drawing_machine/list.md), we will view in class (time permitting):
 
 * Jean Tinguely [*Metamatics*](https://www.youtube.com/watch?v=VxoqVvQeil0), 1959
 * Rebecca Horn, [*Pencil Mask*](https://www.youtube.com/watch?v=Eh9JH7daSbg), 1972

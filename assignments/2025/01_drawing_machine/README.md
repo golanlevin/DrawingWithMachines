@@ -48,7 +48,7 @@
 *(15%, due Wednesday 8/27; 30-45 minutes)*
 
 * **Browse** the following lists, which index a wide range of contemporary and historic drawing tools, artworks, toys, and machine experiments:
-	1. [**Drawing machines in this list**](../../2024/01_diy_drawing_machine/list.md) 
+	1. [**Drawing machines in this list**](../../../lectures/topics/drawing_machine/list.md)
 	2. [**DrawingMachines.org**](https://drawingmachines.org/), by Pablo Garcia
 * **Identify** a drawing machine or tool that speaks to you. 
 * **Create** a post in the `#1-3-looking-at-machines` Discord channel.
