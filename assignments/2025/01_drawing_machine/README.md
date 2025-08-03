@@ -1,8 +1,8 @@
-# 1. Drawing Machine
+# 1. Drawing Machine (2025)
 
 ![knowles/horn](img/knowles_horn.jpg)<br />*Tim Knowles made wind-activated [Tree Drawings](https://www.cabinetmagazine.org/issues/28/knowles.php), 2005; Rebecca Horn wore this [Pencil Mask](https://www.youtube.com/watch?v=Eh9JH7daSbg) to make wall drawings in 1973.*
 
-*This project has four parts and is due Wednesday, August 27th at the beginning of class.* 
+*This project has four parts and is due Wednesday, 8/27/2025 at the beginning of class.* 
 
 * 1.1. [Course Administration](#11-course-administration) *(15 minutes, 5%)*
 * 1.2. [Looking Outwards I: Previous Student Work](#12-looking-outwards-i-previous-student-work) *(15 minutes, 5%)*
@@ -72,7 +72,7 @@ Take some photos of your machine and its drawings, and record a brief video or a
 *Now*, **provide documentation** of your project through two different channels: 
 
 1. **Present** your documentation in a post in the **Discord channel**, `#1-4-drawing-machine`. The purpose of your Discord post is to make it easy for us to share, browse, and discuss each others' work. (Note: Discord imposes an 8 MB/file limit; for GIFs, consider reducing file size with [ezgif.com/optimize](https://ezgif.com/optimize).)
-2. *Also*, **Submit** your documentation through this [**Google Form**](https://docs.google.com/forms/d/e/1FAIpQLScPxj3o4SNXomiYu4vGqDObooXI_7j4vK2sFzYPpyAIJK6-jQ/viewform?usp=header). The purpose of this form is to ensure that your documentation is collected in a well-organized archive. (Note: This form has a 10 MB/file limit, and requires that you be logged in through CMU.)
+2. ***Also***, **Submit** your documentation through this [**Google Form**](https://docs.google.com/forms/d/e/1FAIpQLScPxj3o4SNXomiYu4vGqDObooXI_7j4vK2sFzYPpyAIJK6-jQ/viewform?usp=header). The purpose of this form is to ensure that your documentation is collected in a well-organized archive. (Note: This form has a 10 MB/file limit, and requires that you be logged in through CMU.)
 
 In both the Discord post and the Google form: 
  
