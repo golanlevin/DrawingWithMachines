@@ -1,8 +1,10 @@
-# 1. Drawing Machine (2025)
+# 1: Drawing Machine
+
+### Drawing with Machines, Fall 2025
 
 ![knowles/horn](img/knowles_horn.jpg)<br />*Tim Knowles made wind-activated [Tree Drawings](https://www.cabinetmagazine.org/issues/28/knowles.php), 2005; Rebecca Horn wore this [Pencil Mask](https://www.youtube.com/watch?v=Eh9JH7daSbg) to make wall drawings in 1973.*
 
-*This project has four parts and is due Wednesday, 8/27/2025 at the beginning of class.* 
+*This assignment has four parts and is due Wednesday, 8/27/2025 at the beginning of class.* 
 
 * 1.1. [Course Administration](#11-course-administration) *(15 minutes, 5%)*
 * 1.2. [Looking Outwards I: Previous Student Work](#12-looking-outwards-i-previous-student-work) *(15 minutes, 5%)*
@@ -15,10 +17,13 @@
 
 *(5%, due Wednesday 8/27; 15 minutes)*
 
-* **Read** our [Syllabus](../../../syllabus/60-468_syllabus_fall_2025.md) carefully and thoroughly!
-* **Complete** the [Welcome Questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSfYfugxf4r9tl-mcmCE5DTFNTZB9v3lK23TR6JeFjFf0_g-DA/viewform?usp=header).
+* Please **read** the following three documents carefully and thoroughly: 
+	* our [Syllabus](../../../syllabus/60-468_syllabus_fall_2025.md)
+	* our [Studio Room Policies](../../../syllabus/room_policies.md)
+	* our [Class Instagram Account Policies](../../../syllabus/instagram_policies.md)
+* **Complete** this [**Welcome Questionnaire**](https://docs.google.com/forms/d/e/1FAIpQLSfYfugxf4r9tl-mcmCE5DTFNTZB9v3lK23TR6JeFjFf0_g-DA/viewform?usp=header).
 * **Join** our course Discord using the invite provided by email.
-* **Introduce** yourself! In the Discord channel `1-1-introductions`, **write** a couple of sentences about your background, interests, and special powers. Optionally, feel free to **embed** an image or **include** a link to some of your work.
+* **Introduce** yourself! In the Discord channel `#1-1-introductions`, **write** a couple of sentences about your background, interests, and special powers. Optionally, feel free to **embed** an image or **include** a link to some of your work.
 
 ---
 

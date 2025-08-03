@@ -15,13 +15,6 @@
 
 ## 2. Getting Started `9/3`
 
-<!-- 
-PAST VERSIONS: 
-2021: https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=111.html
-2024: https://github.com/golanlevin/DrawingWithMachines/tree/main/assignments/2024/03_introductory_tooling
-2024: https://github.com/golanlevin/DrawingWithMachines/tree/main/assignments/2024/02_rule_based_art
--->
-
 * 2.1. Looking Outwards III: Tooling
 * 2.2. Looking Outwards IV: Generative Plotter Art
 * 2.3. (Re)Coding and Plotting Molnár's *Letters*

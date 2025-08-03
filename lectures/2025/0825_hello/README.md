@@ -86,12 +86,14 @@ The themes of the units/assignments will be:
 
 This semester, my primary vehicle for delivering information **to you** will be this [**Drawing with Machines GitHub**](https://github.com/golanlevin/DrawingWithMachines/tree/main). Here you will be able to find my [Lectures](../), [Assignments](../../../assignments/2025/README.md), [Machinery Instructions](../../../machines/README.md), and much more.
 
-This semester, you will have three main channels for **sharing and documenting** your work:
+This semester, you will have four main channels for **sharing, documenting, and archiving** your work. They exist along a *gradient of public visibility*:
 
-  1. Our private **Discord** server, where you will post writeups about your work. You can also use this Discord to ask for help, coordinate with each other, and offer comments, encouragement, and feedback to your peers. *Check your email for the invite link*. 
-  2. My own **Google Forms**, such as [this one](https://docs.google.com/forms/d/e/1FAIpQLScPxj3o4SNXomiYu4vGqDObooXI_7j4vK2sFzYPpyAIJK6-jQ/viewform?usp=header), which I will use to collect, archive, and automatically organize high-quality documentation of your work.
-  3. Our public-facing [**course Instagram**](https://www.instagram.com/drawingwithmachines/), a collectively-managed space for our class to document and share our work, process, and experiments. In order for us to share this account, I have developed some [**Policies**](https://github.com/golanlevin/DrawingWithMachines/blob/main/syllabus/instagram_policies.md). Your participation in this Instagram is encouraged but optional.
+1. For your own sanity, you are *strongly encouraged* to maintain some sort of personal online repository to archive your code, working files, writeups, and process documentation. This is entirely up to you; I recommend using **GitHub**, but Google Drive or Box could also work.
+2. For each assignment, I will ask you to upload your documentation to one of my own **Google Forms**, such as [this one](https://docs.google.com/forms/d/e/1FAIpQLScPxj3o4SNXomiYu4vGqDObooXI_7j4vK2sFzYPpyAIJK6-jQ/viewform?usp=header). I will use these forms to collect, archive, and automatically organize high-quality documentation of your work. *Your assignment will not be considered complete unless and until you have submitted its Google Form.* 
+3. Our class will also have a private **Discord** server, where we will post writeups about our work for each other. You can also use this Discord to ask for help, coordinate amongst yourselves, and offer comments, encouragement, and feedback to your peers. **Note:** I will also use this Discord to transmit timely alerts and important announcements. *Check your email for the invite link*.
+4. Finally, we will also use a public-facing [**course Instagram**](https://www.instagram.com/drawingwithmachines/), [**@drawingwithmachines**](https://www.instagram.com/drawingwithmachines/) — a collectively-managed space for our class to document and share our work, process, silliness, and experiments. In order for us to share this account, I have developed some [**Policies**](https://github.com/golanlevin/DrawingWithMachines/blob/main/syllabus/instagram_policies.md). Your participation in this Instagram is warmly encouraged, but optional.
 
+![gradient-of-visibility.png](img/gradient-of-visibility.png)
 
 ---
 

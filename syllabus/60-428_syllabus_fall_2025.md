@@ -8,7 +8,7 @@
 
 ![60428_banner_2025.jpg](img/60428_banner_2025.jpg)
 
-* *Drawing with Machines* (60-225, 10 Units, IPO)
+* *Drawing with Machines* (60-428/728, 10 Units, IPO)
 * Times: Tue/Thu, 7:00–9:50pm; plotting on Fridays
 * Dates: January 16 – April 25, 2024
 * Location: CMU College of Fine Arts, Room CFA-303
