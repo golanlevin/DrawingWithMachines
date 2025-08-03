@@ -2,7 +2,7 @@
 
 This page presents highlights of generative plotter artworks produced in Golan Levin's Fall 2021 [*Drawing with Machines*](https://courses.ideate.cmu.edu/60-428/f2021/index.html) course at Carnegie Mellon University. Key links include: 
 
-* The official (Wordpress) course web page is [here](https://courses.ideate.cmu.edu/60-428/f2021/index.html). The [fall 2021 syllabus is here](../../syllabus/60-468_syllabus_fall_2021.md). 
+* The official (Wordpress) course web page is [here](https://courses.ideate.cmu.edu/60-428/f2021/index.html). The [fall 2021 syllabus is here](../../syllabus/60-428_syllabus_fall_2021.md). 
 * Additional and higher-resolution images can also be found in [this Flickr album](https://flickr.com/photos/creativeinquiry/albums/72157719893055282/).
 * The notes below were originally published in [this Twitter thread](https://x.com/golan/status/1447980505236914179). 
 

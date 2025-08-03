@@ -10,7 +10,7 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon 
 
 ### Fall 2025 Admin
 
-* [Syllabus](syllabus/60-468_syllabus_fall_2025.md) 
+* [Syllabus](syllabus/60-428_syllabus_fall_2025.md) 
 * Course Calendar
 * [Instagram](https://www.instagram.com/drawingwithmachines/)
 * Discord

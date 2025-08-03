@@ -18,7 +18,7 @@
 *(5%, due Wednesday 8/27; 15 minutes)*
 
 * Please **read** the following three documents carefully and thoroughly: 
-	* our [Syllabus](../../../syllabus/60-468_syllabus_fall_2025.md)
+	* our [Syllabus](../../../syllabus/60-428_syllabus_fall_2025.md)
 	* our [Studio Room Policies](../../../syllabus/room_policies.md)
 	* our [Class Instagram Account Policies](../../../syllabus/instagram_policies.md)
 * **Complete** this [**Welcome Questionnaire**](https://docs.google.com/forms/d/e/1FAIpQLSfYfugxf4r9tl-mcmCE5DTFNTZB9v3lK23TR6JeFjFf0_g-DA/viewform?usp=header).
