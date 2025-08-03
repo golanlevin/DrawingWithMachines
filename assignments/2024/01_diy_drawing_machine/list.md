@@ -77,3 +77,5 @@ This list compiles a wide range of drawing machines, and/or artworks which funct
 * Cameron Zotter, [*Box Fan Drawing Machine*](https://vimeo.com/34355529)
 * Tinkering Studio, [*Rubber-band powered drawing machine*](https://vimeo.com/55486870)
 * Jurg Lehni: [*Otto*](http://juerglehni.com/works/otto)
+* Adam Savage's [favorite drafting tools](https://www.youtube.com/watch?v=PVQFvHuJHec)
+* Steven Novak, [*Portal Picture*](https://www.youtube.com/watch?v=w2TXBMeQDAI) and [*Novascope*](https://www.tiktok.com/@omnisteven/video/7324815801989532971)
