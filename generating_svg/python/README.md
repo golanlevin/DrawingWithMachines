@@ -13,9 +13,9 @@
 
 1. As of August 2025, the **recommended Python version** for our course is **3.10**. To get started, at the MacOS Terminal, **find out** whether you have Python v.3.10 installed by typing: `which python3.10`
 2. You should see a response like `/opt/local/bin/python3.10`. If you don't already have Python 3.10 installed, you'll need to do that. To **install** Python3.10, if necessary:
-  * Use [Homebrew](https://brew.sh/) if you already have it installed, because it’s common and widely documented: `brew install python@3.10`
-  * Otherwise, use the [official Python.org installer](https://www.python.org/downloads/release/python-3100/), which is easy and requires no package manager.
-  * You could also use the [MacPorts](https://www.macports.org/) package manager if that's your thing. 
+	* Use [Homebrew](https://brew.sh/) if you already have it installed, because it’s common and widely documented: `brew install python@3.10`
+	* Otherwise, use the [official Python.org installer](https://www.python.org/downloads/release/python-3100/), which is easy and requires no package manager.
+	* You could also use the [MacPorts](https://www.macports.org/) package manager if that's your thing. 
 3. You can now **test** that Python 3.10 is installed correctly by typing `python3.10` at the Terminal. You should see something like `Python 3.10.14 (main, Mar 20 2024, 14:43:31)`. (To quit, type `quit()`.)
 4. **Change directory** to the folder in which you'd like to create your virtual environment(s). In my case, that looks like: `cd /Users/golan/Documents/dev/python_virtual_environments`.
 5. **Create** a new *virtual environment* in that directory by typing: `python3.10 -m venv myDwMPy310Venv` . This will create a subdirectory (*myDwMPy310Venv*) containing various files. A virtual environment is like a bubble that protects your Python installation by keeping its packages and dependencies isolated from the rest of your system.
@@ -26,12 +26,12 @@
 10. We will also install vpype's sibling project, *vsketch*: `pip install vsketch`, which will come in handy soon.  
 11. *vpype* should now be installed and ready to use. You may check that it is fully functional by checking its version: `vpype --version` (I get the result: `vpype 1.13.0`.) You can also check *vpype* by displaying some random lines: `vpype random show`.
 12. *Eventually*, you may wish to also `pip install` some additional useful libraries into this virtual environment, such as: 
-  * `svgpathtools` — for parsing and manipulating SVG paths and Bézier curves
-  * `numpy` — foundational array math for geometry, transforms, and image data
-  * `scipy` — numerical and scientific computing, including interpolation and optimization
-  * `shapely` — 2D geometry manipulation (union, intersection, buffering, etc.)
-  * `opencv-python` — image processing and computer vision (e.g., contour tracing, edge detection)
-  * `scikit-image` — image analysis and filters (e.g., thinning, labeling, segmentation)
+	* `svgpathtools` — for parsing and manipulating SVG paths and Bézier curves
+	* `numpy` — foundational array math for geometry, transforms, and image data
+	* `scipy` — numerical and scientific computing, including interpolation and optimization
+	* `shapely` — 2D geometry manipulation (union, intersection, buffering, etc.)
+	* `opencv-python` — image processing and computer vision (e.g., contour tracing, edge detection)
+	* `scikit-image` — image analysis and filters (e.g., thinning, labeling, segmentation)
 
 ---
 
