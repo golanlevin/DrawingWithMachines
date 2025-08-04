@@ -74,7 +74,7 @@ The following GCode commands are well-supported by the Bantam ArtFrame. (More in
 * `G2`, `G3` Arc motion at feedrate
 * `I` `J` `K` `R` for arc parameters
 * `G4` Dwell
-* `G20` Specify units in mm
+* `G21` Specify units in mm
 * `G53` Use machine coordinates
 * `G90` Absolute distance mode
 * `G91` Relative distance mode
@@ -84,6 +84,7 @@ Here is an example GCode program. Note that the ArtFrame prefers the style of GC
 
 ```
 $H (home the machine)
+G21 (set units to millimeters)
 G90 (set to absolute positioning mode)
 G0 Z5 (raise the pen 5mm, using rapid motion)
 G1 X 300.0 Y 250.0 Z 10.0 F 5000 (go to 300,500,10 at 5000mm/min)
@@ -141,8 +142,8 @@ Here is a minimal [Processing](https://processing.org/) (Java) program that move
 import processing.serial.*;
 Serial myPort;
 
-final int maxX = 609; // 24"*25.4mm/in
-final int maxY = 457; // 18"*25.4mm/in
+final int maxX = 609; // mm: 24"*25.4mm/in
+final int maxY = 457; // mm: 18"*25.4mm/in
 int period = 5000;  // milliseconds
 int lastExecutionTime = 0; 
 
@@ -154,6 +155,8 @@ void setup(){
   delay(1000);             // Wait for the port to settle
   sendGCodeCommand("$H");  // Home the machine
   delay(10000);            // Wait for homing to complete
+  
+  sendGCodeCommand("G21"); // Set units to millimeters
   sendGCodeCommand("G90"); // Set to absolute positioning mode
 }
 

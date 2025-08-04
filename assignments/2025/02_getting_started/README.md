@@ -9,7 +9,7 @@
 * 2.1. Looking Outwards: Tooling *(20 minutes)* 
 * 2.2. Looking Outwards: Generative Plotter Art *(30 minutes)*
 * 2.3. Reading: 
-* 2.4. Re-Coding and Plotting Molnár's *Lettres*
+* 2.4. A Complete Workflow: Re-Coding and Plotting Molnár's *Lettres*
 
 ---
 
