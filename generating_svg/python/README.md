@@ -2,10 +2,10 @@
 
 **Contents:**
 
-1. Creating a Suitable Python3.10 Virtual Environment
-2. Generating an SVG within a Jupyter Python Notebook
-  * 2a. Generating an SVG within a Google Colab Notebook
-3. Generating an SVG using vsketch, vpype, and VSCode
+1. [Creating a Suitable Python3.10 Virtual Environment](#1-creating-a-suitable-python310-virtual-environment)
+2. [Generating an SVG within a Jupyter Python Notebook](#2-generating-an-svg-within-a-jupyter-python-notebook)
+  * [2a. Generating an SVG within a Google Colab Notebook](#2a-generating-an-svg-within-a-google-colab-notebook)
+3. [Generating an SVG using vsketch, vpype, and VSCode](#3-generating-an-SVG-using-vsketch-vpype-and-vscode)
 
 ---
 
@@ -154,8 +154,9 @@ In the next section, we’ll use *vpype* to inspect this SVG with precision, and
 
 ---
 
+## 3. Generating an SVG using vsketch, vpype, and VSCode
 
-
+TBA. 
 
 
 
