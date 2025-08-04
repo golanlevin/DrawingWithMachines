@@ -11,6 +11,7 @@ This document provides workflows for generating G-code *files*. For information 
 * Generating G-code with p5.js
 * p5.js G-code Drawing Recorder
 * Generating G-code with Python
+* Other Workflows
 
 ---
 
@@ -281,3 +282,7 @@ This will open a browser to `http://localhost:8888/tree`. From there, you can ei
 ![lissajous-python-notebook.png](img/lissajous-python-notebook.png)
 
 ---
+
+## Other Workflows
+
+* A plugin for vpype, [*vpype-gcode*](https://github.com/plottertools/vpype-gcode), is a plugin which allows generation of G-code in a Python environment. 

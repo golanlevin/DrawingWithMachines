@@ -45,7 +45,7 @@ These instructions are adapted from [here](https://vpype.readthedocs.io/en/lates
 3. Activate the newly created virtual environment: `source myVypeEnvironment/bin/activate`. (You can exit the virtual environment later by typing `deactivate`.)
 4. We will now install *pipx*, a tool that allows you to install Python applications in isolated environments. It is the recommended way to install *vpype* on macOS. It can be installed with the following commands:`python3 -m pip install pipx` followed by `python3 -m pipx ensurepath`. You can then ensure that *pipx* is properly installed by running this command: `pipx --version`.
 5. Once *pipx* is properly installed, you can install *vpype* with the following command: `pipx install "vpype[all]"`.
-6. *vpype* should now be installed and ready to use. You may check that it is fully functional by checking its version: `vpype --version`. You can also check *vpype* by displaying some random lines: `vpype random show`.
+7. *vpype* should now be installed and ready to use. You may check that it is fully functional by checking its version: `vpype --version` (I get the result: `vpype 1.13.0`.) You can also check *vpype* by displaying some random lines: `vpype random show`.
 
 ---
 
