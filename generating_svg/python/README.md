@@ -96,10 +96,13 @@ In general, we **won’t** be using Google Colab notebooks this semester because
 That said, the above program is *so simple* — it uses just three libraries, `math`, `matplotlib`, and `svgwrite` — that only small changes are needed to create the following **Google Colab version** of the same program, which you can set up in your Google Drive. This may be a workable fallback if you're unable to set up a local Python environment, but keep in mind that it won't support our full toolchain.
 
 <details>
-  <summary><strong>Click here</strong> for instructions for generating SVGs within a Google Colab Notebook.</summary>
+  <summary><strong>Click here</strong> for information about generating SVGs within a Google Colab Notebook.</summary>
 
 * To create a Colab notebook from Google Drive, go to **+New → More → Google Colaboratory**.
 * If you don’t see “Google Colaboratory” in the list, click **+New → More → Connect more apps**, search for *Colaboratory*, and install it.
+
+Once you have a blank Colab notebook, **paste** the following code into a cell and run it: 
+
 
 ```python
 # VERSION FOR GOOGLE COLAB NOTEBOOK
