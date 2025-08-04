@@ -37,8 +37,8 @@ Paths in SVG files are defined as sequences of points, which makes them very sui
 
 In this course, you will generally: 
 
-1. Generate SVG files using your preferred programming toolkit (such as p5.js, Python, or Processing);
-2. Use *vpype* to prepare and optimize your SVG files prior to plotting. 
+1. **Generate** SVG files using your preferred programming toolkit (such as p5.js, Python, or Processing);
+2. Use the *vpype* command-line tool to prepare and **optimize** your SVG files prior to plotting. 
 
 ---
 
@@ -110,25 +110,25 @@ The Processing toolkit is documented [here](https://processing.org/reference) an
 
 ## ![Python](img/python_logo.png) Generating SVGs with Python 
 
-Python has powerful tools for generating geometries and optimizing SVG files. Some preliminary setup work is needed to prepare your computer for generating SVGs in Python. In addition to installing certain libraries, **it is VERY STRONGLY RECOMMENDED that you do all of your Python work from within a properly-configured virtual environment.** [Instructions for creating such a virtual environment are here](python/README.md#1-creating-a-suitable-python310-virtual-environment).
+**Python** has powerful tools for generating geometries and optimizing SVG files. Some preliminary setup work is needed to prepare your computer for generating SVGs in Python. In addition to installing certain libraries, **it is VERY STRONGLY RECOMMENDED that you do all of your Python work from within a properly-configured virtual environment.** [Instructions for creating such a virtual environment are here](python/README.md#1-creating-a-suitable-python310-virtual-environment).
 
 Instructions for two main Python workflows are provided: 
 
 * [Generating an SVG within a Jupyter Python Notebook](python/README.md#2-generating-an-svg-within-a-jupyter-python-notebook)
-* [Generating an SVG using vsketch and VSCode](python/README.md#3-generating-an-SVG-using-vsketch-and-vscode). This toolchain includes [*vsketch*](https://github.com/abey79/vsketch) (a Processing-like Python toolkit for generating SVGs), and [*vpype*](https://vpype.readthedocs.io/en/latest/index.html) (a framework for optimizing SVGs for plotting), which interoperates with vsketch. 
+* [Generating an SVG using vsketch and VSCode](python/README.md#3-generating-an-SVG-using-vsketch-and-vscode) (*recommended*). This toolchain includes [*vsketch*](https://github.com/abey79/vsketch) (a Processing-like Python toolkit for generating SVGs), and [*vpype*](https://vpype.readthedocs.io/en/latest/index.html) (a framework for optimizing SVGs for plotting), which interoperates with vsketch. 
 
 <details>
   <summary><strong>Click here</strong> to review some other Python toolkits for generating SVGs.</summary>
 
-### Generating SVGs with py5
+#### Generating SVGs with py5
 
-[**py5**](https://py5coding.org/index.html) is a new (2024) version of Processing for Python 3.9+. py5 works with other popular Python libraries and tools such as Jupyter, NumPy, SciPy, Shapely, trimesh, matplotlib, and Pillow. py5 allows you to generate SVGs using its [`py5drawsvg`](https://py5coding.org/reference/py5magics_py5drawsvg.html) command. 
+[py5](https://py5coding.org/index.html) is a new (2024) version of Processing for Python 3.9+. py5 works with other popular Python libraries and tools such as Jupyter, NumPy, SciPy, Shapely, trimesh, matplotlib, and Pillow. py5 allows you to generate SVGs using its [`py5drawsvg`](https://py5coding.org/reference/py5magics_py5drawsvg.html) command. 
 
-### Generating SVGs with Drawsvg in Python
+#### Generating SVGs with Drawsvg in Python
 
 [Drawsvg](https://pypi.org/project/drawsvg/) is a Python 3 library for programmatically generating SVG images and animations that can render and display your drawings in a Jupyter notebook. Drawsvg is current as of June 2024. 
 
-### Generating SVGs with Processing.py (v.3.5.4)
+#### Generating SVGs with Processing.py (v.3.5.4)
 
 Processing has a semi-obsolete "Python Mode" that allows you to use the same [SVG Export Library](https://processing.org/reference/libraries/svg/index.html) as the Java version. It is documented [here](https://py.processing.org/tutorials/gettingstarted/). There are some small snags: 
 
