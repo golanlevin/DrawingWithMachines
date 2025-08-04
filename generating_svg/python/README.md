@@ -101,7 +101,7 @@ That said, the above program is *so simple* — it uses just three libraries, `m
 * To create a Colab notebook from Google Drive, go to **+New → More → Google Colaboratory**.
 * If you don’t see “Google Colaboratory” in the list, click **+New → More → Connect more apps**, search for *Colaboratory*, and install it.
 
-```
+```python
 # VERSION FOR GOOGLE COLAB NOTEBOOK
 !pip install svgwrite
 
@@ -149,12 +149,12 @@ Here's how the Google Colab version should look in your browser:
 
 </details>
 
-In the next section, we’ll use *vpype* to inspect this SVG with precision, and later generate toolpaths suitable for plotters.
-
 
 ---
 
 ## 3. Generating an SVG using vsketch, vpype, and VSCode
+
+In this section, we’ll use *vpype* to inspect this SVG with precision. 
 
 TBA. 
 
