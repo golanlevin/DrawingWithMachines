@@ -1,11 +1,11 @@
-# Generating SVGs in Python
+# Generating SVGs in Python (2025)
 
 **Contents:**
 
 1. [Creating a Suitable Python3.10 Virtual Environment](#1-creating-a-suitable-python310-virtual-environment)
 2. [Generating an SVG within a Jupyter Python Notebook](#2-generating-an-svg-within-a-jupyter-python-notebook)
 	* [2a. Generating an SVG within a Google Colab Notebook](#2a-generating-an-svg-within-a-google-colab-notebook)
-3. [Generating an SVG using vsketch, vpype, and VSCode](#3-generating-an-SVG-using-vsketch-vpype-and-vscode)
+3. [Generating an SVG using vsketch and VSCode](#3-generating-an-SVG-using-vsketch-and-vscode)
 
 ---
 
@@ -155,24 +155,87 @@ Here's how the Google Colab version should look in your browser:
 
 ---
 
-## 3. Generating an SVG using vsketch, vpype, and VSCode
+## 3. Generating an SVG using vsketch and VSCode
 
-In this section, we’ll use *vpype* to inspect this SVG with precision. 
+The [vsketch API](https://vsketch.readthedocs.io/en/latest/autoapi/vsketch/index.html) gives you an *extensive* library of p5-like drawing commands, such as `vsk.line()`. These commands are documented [here](https://vsketch.readthedocs.io/en/latest/autoapi/vsketch/index.html).  Unlike p5, vsketch runs entirely in Python and is built for generating precise, plotter‑ready SVGs. Because it’s pure Python, it connects seamlessly to the full Python ecosystem — from geometry libraries to data science, machine learning, and AI — letting you integrate powerful computational tools directly into your creative, code‑driven art workflow.
 
-TBA. 
+1. Activate your virtual environment, `myDwMPy310Venv` (or whatever you called it): `source /path/to/myDwMPy310Venv/bin/activate`
+2. Install `vsketch` if you haven’t already: `pip install vsketch`
+3. Change directory to your directory of projects, e.g. `cd /path/to/my_vsketch_projects/`
+4. From inside there, **type**: `vsk init lissajous_demo --page-size letter --landscape`. This will create a vsketch project folder called `lissajous_demo/`, and inside it, ` config/`, `output/`, and `sketch_lissajous_demo.py`.
+5. **Open** the project in VS Code. Do this by creating a New Window in VS Code, and dragging the `lissajous_demo` directory into it (or you can use `code lissajous_demo` if you have the VS Code CLI helper installed).
+6. **Replace** the default sketch code. In VS Code, open `sketch_lissajous_demo.py` and replace its contents with:
+
+```python
+import math
+import vsketch
+
+class LissajousSketch(vsketch.SketchClass):
+    n_points = vsketch.Param(100)
+    radius = vsketch.Param(264.0)  # ~ WIDTH/4 at 96 DPI
+    freq_x = vsketch.Param(2.0)
+    freq_y = vsketch.Param(3.0)
+
+    def draw(self, vsk: vsketch.Vsketch) -> None:
+        # Letter size in landscape, measured in pixels at 96 DPI
+        vsk.size("letter", landscape=True)
+        vsk.scale("px")  # work in pixels
+
+        cx = vsk.width / 2
+        cy = vsk.height / 2
+
+        # Starting point
+        qx = cx + self.radius * math.sin(0)
+        qy = cy + self.radius * math.cos(0)
+
+        for i in range(self.n_points):
+            theta = (i / (self.n_points - 1)) * (2 * math.pi)
+            px = cx + self.radius * math.sin(self.freq_x * theta)
+            py = cy + self.radius * math.cos(self.freq_y * theta)
+            vsk.line(qx, qy, px, py)
+            qx, qy = px, py
+
+    def finalize(self, vsk: vsketch.Vsketch) -> None:
+        # Clean up for plotting
+        vsk.vpype("linemerge linesimplify reloop linesort")
 
 
+if __name__ == "__main__":
+    LissajousSketch.display()
+```
 
-<!--
+**Observe** that this version of the code also gives you *live‑adjustable* parameters for:
 
-### 1. Prep the Virtual Environment
+* `n_points`
+* `radius`
+* `freq_x` (Lissajous X frequency)
+* `freq_y` (Lissajous Y frequency)
 
-* Follow [instructions from here](../vpype_svg_prep/README.md) to install a Python virtual environment, and the very useful SVG optimization and plot-prepping tool, *vpype*.
-* If you'd like to plot directly from your computer, follow instructions from here to install the AxiDraw command-line interface (CLI), [*axicli*](https://axidraw.com/doc/cli_api/#installation), e.g. `python3 -m pip install https://cdn.evilmadscientist.com/dl/ad/public/AxiDraw_API.zip`
-* We'll do our Python coding with [*vsketch*](https://github.com/abey79/vsketch), a Processing-like python environment. Use the [instructions from here](https://vsketch.readthedocs.io/en/latest/install.html) to install it, e.g. `pipx install git+https://github.com/abey79/vsketch --system-site-packages`
-* Activate the virtual environment with `source myVypeEnvironment/bin/activate`. 
-* Separately download and test the [*vsketch* examples](https://vsketch.readthedocs.io/en/latest/install.html#running-the-examples), with e.g. `vsk run path/to/vsketch-master/examples/shotter`
+Now you can **run** it! In Terminal, from within the `my_vsketch_projects` folder containing your project, **type**: `vsk run lissajous_demo`. This will launch the vsketch viewer. You can **adjust** the stubbed-out parameters, and when you like the results, **clicking** the "LIKE!" button will save an SVG to `lissajous_demo/output/lissajous_demo_liked_1.svg`. 
 
--->
+![vsketch-lissajous.png](img/vsketch-lissajous.png)
+
+### Connecting VS Code to our Venv
+
+There's just a *little* more work we need to do. Currently VS Code is not aware of our virtual environment, `myDwMPy310Venv`. As a result, its type hints, IntelliSense, and Copilot aren't currently working while we're editing our *vsketch* code. To **fix** this: 
+
+1. **Create** a `.vscode/settings.json` file inside your project folder. First, from inside `lissajous_demo/`, make a directory: `mkdir .vscode`. (Note that this directory will be hidden in your Finder, but should be visible from inside VS Code.) Then, **create** a new file, `settings.json` inside of `.vscode`. (You can create this file from within VS Code if you like.)
+2. Inside of `settings.json`, **paste** this: `{ "python.defaultInterpreterPath": "/Users/golan/Documents/dev/python_virtual_environments/myDwMPy310Venv/bin/python" }`
+3. ...But **replace** that path with your *actual* venv Python path. To find it, type `which python` (with your venv activated).
+4. **Quit and restart** VS Code. It should now be aware of the *vsketch* library, and any other libraries you installed. 
+
+*For those interested:* If you also create a VS Code `tasks.json` file, you would be able to run their whole “generate and preview” workflow from inside VS Code with a single menu command, without switching to the terminal.
+
+### More About *vsketch*
+
+* See the official [*vsketch* examples](https://vsketch.readthedocs.io/en/latest/install.html#running-the-examples)
+* Here are some [examples by former DwM student Shiva Peri](shapely_demos/README.md), showing the integration of *vsketch* and *vpype* with *numpy*, *sklearn*, and especially [***shapely***](https://pypi.org/project/Shapely/) (which can be used for advanced geometry operations like offset curves and clipping):
+	1. [*hatching*](https://github.com/shivaPeri/shapely-demos/blob/main/hatching/README.md), demo of using clip_by_rect
+	2. [*blob*](https://github.com/shivaPeri/shapely-demos/blob/main/blob/README.md), demo of data manipulation with sklearn
+	3. [*tiling*](https://github.com/shivaPeri/shapely-demos/blob/main/tiling/README.md), demo of triangular coordinates with numpy
+	4. [*moire*](https://github.com/shivaPeri/shapely-demos/blob/main/moire/README.md), demo of using offset curves
+
 
 ---
+
+EOF
