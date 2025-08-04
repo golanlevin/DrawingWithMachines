@@ -87,9 +87,6 @@ Here's how it should look in your browser:
 
 ![python-lissajous-svg-1.png](img/python-lissajous-svg-1.png)
 
-<details>
-  <summary><strong>Click here</strong> for information about generating SVGs within a Google Colab Notebook.</summary>
-
 ---
 
 ### 2a. Generating an SVG within a Google Colab Notebook
@@ -97,6 +94,9 @@ Here's how it should look in your browser:
 In general, we **won’t** be using Google Colab notebooks this semester because our workflow depends on reading and writing local files for plotting, which Colab’s cloud-based environment makes cumbersome. In addition, the visualization tools in *vpype* and *vsketch* require a local graphics context and do not run inside a browser-based environment like Colab, making them impractical for our needs.
 
 That said, the above program is *so simple* — it uses just three libraries, `math`, `matplotlib`, and `svgwrite` — that only small changes are needed to create the following **Google Colab version** of the same program, which you can set up in your Google Drive. This may be a workable fallback if you're unable to set up a local Python environment, but keep in mind that it won't support our full toolchain.
+
+<details>
+  <summary><strong>Click here</strong> for instructions for generating SVGs within a Google Colab Notebook.</summary>
 
 * To create a Colab notebook from Google Drive, go to **+New → More → Google Colaboratory**.
 * If you don’t see “Google Colaboratory” in the list, click **+New → More → Connect more apps**, search for *Colaboratory*, and install it.
