@@ -1,6 +1,6 @@
 # Prepping SVGs for Plotting with *vpype*
 
-*vpype* is a powerful tool for preparing and optimizing SVG files for plotters. It can do many different things, but we will use it most often for the following operations: 
+[***vpype***](https://vpype.readthedocs.io/en/latest/) is a powerful tool for preparing and optimizing SVG files for plotters. It can do many different things, but we will use it most often for the following operations: 
 
 * **Optimizing plots**. *vpype* uses a traveling-salesman algorithm to reorder the strokes in your design so that the machine doesn't have to move around as much. This saves wear-and-tear on the machine, and can also reduce your plot times from hours to minutes. Optimizing can also mean things like de-duplicating strokes, simplifying complex strokes, etc.
 * **Cropping plots**. It's possible for SVG designs to have strokes that "go off the page" (for example, into negative coordinates). You can't ordinarily see these lines, but they're in the file. Plotters are dumb machines and can break when they try to move to these inaccessible locations. *vpype* can ensure that this data is eliminated.
@@ -15,14 +15,23 @@ Just so you know, *vpype* can do much more, including:
 
 **Summary of Instructions Below:** 
 
-1. Install Python; create a virtual environment
-2. Install MacPorts and *vpype*.
-3. Use *vpype* to crop and optimize
-4. *vpype* cheatsheet
+1. Install Python; create a virtual environment; install *vpype*.
+2. Use *vpype* to crop and optimize
+3. *vpype* cheatsheet
 
 ---
 
-## 1. Install Python; create a virtual environment.
+## 1. Install Python; create a virtual environment; install *vpype*.
+
+In order to install *vpype*, it is first necessary to make sure your computer has an installation of the correct version of Python (3.10), and to create a virtual environment in which to execute the *vpype* commands. Creating a virtual environment is **VERY STRONGLY RECOMMENDED.**  
+
+Instructions for installing Python, creating a correctly-configured virtual environment, and installing *vpype* can be found [here](../python/README.md#1-creating-a-suitable-python310-virtual-environment):
+
+* [**Creating a Suitable Python3.10 Virtual Environment**](../python/README.md#1-creating-a-suitable-python310-virtual-environment)
+
+<!-- 
+
+## OBSOLETE 1. Install Python; create a virtual environment.
 
 *These instructions are for MacOS.*
 
@@ -36,7 +45,7 @@ Just so you know, *vpype* can do much more, including:
 
 ---
 
-## 2. Install *vpype* via MacPorts and pipx
+## OBSOLETE  2. Install *vpype* via MacPorts and pipx
 
 These instructions are adapted from [here](https://vpype.readthedocs.io/en/latest/install.html).
 
@@ -47,9 +56,12 @@ These instructions are adapted from [here](https://vpype.readthedocs.io/en/lates
 5. Once *pipx* is properly installed, you can install *vpype* with the following command: `pipx install "vpype[all]"`.
 7. *vpype* should now be installed and ready to use. You may check that it is fully functional by checking its version: `vpype --version` (I get the result: `vpype 1.13.0`.) You can also check *vpype* by displaying some random lines: `vpype random show`.
 
+-->
+
+
 ---
 
-## 3. Use *vpype* to crop and optimize
+## 2. Use *vpype* to crop and optimize
 
 Suppose you have generated an SVG. It is possible that your lines may go outside the bounds of the document's plottable region. It is also likely that your plot is not "optimized", so that strokes are badly ordered, or connecting line segments are not understood to be continuous. *vpype* can help. 
 
@@ -75,7 +87,7 @@ Examining the result in the *vpype* viewer, and displaying the pen trajectories,
 
 ---
 
-## 4. *vpype* cheatsheet
+## 3. *vpype* cheatsheet
 
 Some common, ready-to-use formulas for *vpype* can be found [here](https://github.com/abey79/vpype?tab=readme-ov-file#examples). The main *vpype* documentation is [here](https://vpype.readthedocs.io/en/latest/index.html). 
 
