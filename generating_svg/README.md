@@ -110,11 +110,12 @@ The Processing toolkit is documented [here](https://processing.org/reference) an
 
 ## ![Python](img/python_logo.png) Generating SVGs with Python 
 
-[**Here's a Python v.3 workflow**](python/README.md) for generating SVG files. The recommended toolchain includes [**vsketch**](https://github.com/abey79/vsketch) (a Processing-like Python toolkit for generating SVGs), and [**vpype**](https://vpype.readthedocs.io/en/latest/index.html) (a Python framework for generating SVGs, as well as prepping them for plotting), which interoperates with vsketch.
+Python has powerful tools for generating geometries and optimizing SVG files. Some preliminary setup work is needed to prepare your computer for generating SVGs in Python. In addition to installing certain libraries, **it is VERY STRONGLY RECOMMENDED that you do all of your Python work from within a properly-configured virtual environment.** [Instructions for creating such a virtual environment are here](python/README.md#1-creating-a-suitable-python310-virtual-environment).
 
-  * [*Lissajous demo*](python/svg_lissajous/sketch_svg_lissajous.py)
-  * [Shapely](https://shapely.readthedocs.io/en/latest/project.html), a Python package for manipulation and analysis of planar geometric objects.
+Instructions for two main Python workflows are provided: 
 
+* [Generating an SVG within a Jupyter Python Notebook](python/README.md#2-generating-an-svg-within-a-jupyter-python-notebook)
+* [Generating an SVG using vsketch and VSCode](python/README.md#3-generating-an-SVG-using-vsketch-and-vscode). This toolchain includes [*vsketch*](https://github.com/abey79/vsketch) (a Processing-like Python toolkit for generating SVGs), and [*vpype*](https://vpype.readthedocs.io/en/latest/index.html) (a framework for optimizing SVGs for plotting), which interoperates with vsketch. 
 
 <details>
   <summary><strong>Click here</strong> to review some other Python toolkits for generating SVGs.</summary>
