@@ -6,12 +6,12 @@ This document provides workflows for generating G-code *files*. For information 
 
 ## Contents
 
-* What is G-code?
-* Basic G-code Commands
-* Generating G-code with p5.js
-* p5.js G-code Drawing Recorder
-* Generating G-code with Python
-* Other Workflows
+* [What is G-code?](#what-is-g-code)
+* [Basic G-code Commands](#basic-g-code-commands)
+* [Generating G-code with p5.js](#generating-g-code-with-p5js)
+* [p5.js G-code Drawing Recorder](#p5js-g-code-drawing-recorder)
+* [Generating G-code with Python](#generating-g-code-files-with-python)
+* [Other Workflows](#other-workflows)
 
 ---
 
