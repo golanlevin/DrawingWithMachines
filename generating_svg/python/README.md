@@ -166,45 +166,58 @@ The [vsketch API](https://vsketch.readthedocs.io/en/latest/autoapi/vsketch/index
 5. **Open** the project in VS Code. Do this by creating a New Window in VS Code, and dragging the `lissajous_demo` directory into it (or you can use `code lissajous_demo` if you have the VS Code CLI helper installed).
 6. **Replace** the default sketch code. In VS Code, open `sketch_lissajous_demo.py` and replace its contents with:
 
-```python
+```
 import math
 import vsketch
 
+# It's necessary to extend the vsketch base class, to use its functionality.
+# This provides .draw()/.finalize() hooks, live parameters, 
+# and integration with the vsk CLI/viewer.
 class LissajousSketch(vsketch.SketchClass):
+
+    # These are parameter definitions. 
+    # vsketch.Param makes them adjustable in the live viewer.
     n_points = vsketch.Param(100)
     radius = vsketch.Param(264.0)  # ~ WIDTH/4 at 96 DPI
     freq_x = vsketch.Param(2.0)
     freq_y = vsketch.Param(3.0)
 
+    # The draw() method is called by vsketch to render the sketch's geometry.
     def draw(self, vsk: vsketch.Vsketch) -> None:
-        # Letter size in landscape, measured in pixels at 96 DPI
+        # Set page size to US Letter in landscape orientation, in pixels at 96 DPI
         vsk.size("letter", landscape=True)
-        vsk.scale("px")  # work in pixels
+        vsk.scale("px")  # Work in pixel units
 
         cx = vsk.width / 2
         cy = vsk.height / 2
 
-        # Starting point
+        # Starting point for the line sequence
         qx = cx + self.radius * math.sin(0)
         qy = cy + self.radius * math.cos(0)
 
+        # Generate a Lissajous curve as connected line segments
         for i in range(self.n_points):
             theta = (i / (self.n_points - 1)) * (2 * math.pi)
             px = cx + self.radius * math.sin(self.freq_x * theta)
             py = cy + self.radius * math.cos(self.freq_y * theta)
             vsk.line(qx, qy, px, py)
-            qx, qy = px, py
+            qx, qy = px, py  # Update last point
 
+    # finalize() is called after drawing to optionally post-process the geometry.
     def finalize(self, vsk: vsketch.Vsketch) -> None:
-        # Clean up for plotting
+        # This runs vpype commands to merge/simplify/reorder paths for efficient plotting.
+        # It's worth reading up about the cool optimizations vpype can do. 
         vsk.vpype("linemerge linesimplify reloop linesort")
 
 
+# This block is optional for our workflow because we normally run sketches with `vsk run`.
+# It’s only here to allow standalone preview if you run the file directly with Python, e.g.
+#     python sketch_lissajous_demo.py
 if __name__ == "__main__":
     LissajousSketch.display()
 ```
 
-**Observe** that this version of the code also gives you *live‑adjustable* parameters for:
+**Observe** that this version of the project also gives you *live‑adjustable* parameters for:
 
 * `n_points`
 * `radius`

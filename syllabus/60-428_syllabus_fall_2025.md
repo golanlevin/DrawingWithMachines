@@ -1,23 +1,25 @@
-<h1 style="font-size: 10em;">DRAFT</h1>
-
----
-
 # Syllabus for *Drawing with Machines*, Fall 2025
-
-60-428
-
-<!--
 
 ![60428_banner_2025.jpg](img/60428_banner_2025.jpg)
 
-* *Drawing with Machines* (60-428/728, 10 Units, IPO)
-* Times: Tue/Thu, 7:00–9:50pm; plotting on Fridays
-* Dates: January 16 – April 25, 2024
-* Location: CMU College of Fine Arts, Room CFA-303
-* Carnegie Mellon University School of Art & IDeATe Program
-* Professor Golan Levin, golan@andrew
-* Github Repository: [https://github.com/golanlevin/DrawingWithMachines](https://github.com/golanlevin/DrawingWithMachines)
+**Key Information:**
 
+* *Drawing with Machines* (60-428/728, 12 Units, In-Person)
+* Carnegie Mellon University School of Art + IDeATe Program
+* Times: Tue/Thu, 7:00–9:50pm
+* Dates: August 25 – December 3, 2025
+* Location: CMU College of Fine Arts, Room CFA-303
+* Professor: [Golan Levin](https://art.cmu.edu/people/golan-levin/), golan@andrew...
+* Teaching Assistant: Santi Salazar, ssalazar@andrew...
+
+**Links:**
+
+* Github Repository: [https://github.com/golanlevin/DrawingWithMachines](https://github.com/golanlevin/DrawingWithMachines)
+* Instagram: [@drawingwithmachines](https://www.instagram.com/drawingwithmachines/)
+* [Syllabus](https://github.com/golanlevin/DrawingWithMachines/blob/main/syllabus/60-428_syllabus_fall_2025.md) (this document)
+
+
+<!--
 ---
 
 ## TL,DR:
