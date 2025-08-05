@@ -36,7 +36,7 @@ Creating a place for our classroom community to be creative together is one of m
 
 * **Do not move, borrow, or touch setups, materials, or artwork belonging to the Stop Frame Animation course.**
 * If their materials are accidentally in your way, ask a faculty member before moving them.
-* Leave the room clean and ready for the next class: wipe surfaces, throw away trash, and don’t leave half-finished projects out unless they’re clearly labeled.
+* **Please clean up after yourself!** Our classroom needs to be in a usable condition for others. Leave the room clean and ready for the next class: wipe surfaces, throw away trash, and don’t leave half-finished projects out unless they’re clearly labeled.
 
 
 ### 👥 Guests and Room Security

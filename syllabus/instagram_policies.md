@@ -18,7 +18,7 @@ This semester we will share an Instagram channel, @[**DrawingWithMachines**](htt
 
 ### ✍️ Purpose and Content
 
-* This account is for sharing our process: sketches, plotter failures, final drawings, time-lapses, experiments. Think of it as a studio logbook — not a portfolio.
+* This Instagram account is for sharing our process: sketches, plotter failures, final drawings, time-lapses, experiments. Think of it as a studio logbook — not a portfolio.
 * Feel free to include short captions or reflections — what you were trying, what worked, what surprised you.
 * When relevant, feel free to tag tools or platforms we’re using (e.g. @axidraw, @p5xjs), or use hashtags like `#plotterart`, `#generativeart`, `#creativecoding`, and `#plottertwitter`.
 * Please don’t repost artwork or media from outside accounts, even if it’s relevant or inspirational. This account is for sharing work made by members of our class.
