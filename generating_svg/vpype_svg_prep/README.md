@@ -9,10 +9,10 @@
 
 **Contents:** 
 
-* Why Optimize? Introducing *vpype*
-* 1 - Install Python; create a virtual environment; install *vpype*
-* 2 - Use *vpype* to crop and optimize
-* 3 - *vpype* cheatsheet
+* [Why Optimize? Introducing *vpype*](#why-optimize-introducing-vpype)
+* [1 - Install Python; create a virtual environment; install *vpype*](#1-install-python-create-a-virtual-environment-install-vpype)
+* [2 - Use *vpype* to crop and optimize](#2-use-vpype-to-crop-and-optimize)
+* [3 - *vpype* cheatsheet](#3-vpype-cheatsheet)
 
 ---
 
