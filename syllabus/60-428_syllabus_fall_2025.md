@@ -1,4 +1,4 @@
-# Syllabus for *Drawing with Machines*, Fall 2025
+# *Drawing with Machines* Syllabus, Fall 2025
 
 ![60428_banner_2025.jpg](img/60428_banner_2025.jpg)
 
@@ -16,46 +16,46 @@
 
 #### CONTENTS
 
-* TL,DR
+* [TL,DR](#tldr)
 	* Assignment Policy
 	* Attendance Policy
-* ABOUT THIS COURSE
+* [ABOUT THIS COURSE](#about-this-course)
 	* Summary 
 	* Course Description
 	* Learning Objectives
 	* Unit Topics and Assignments
 	* Prerequisite Knowledge
 	* Extra Time Commitments
-* TOOLS, MATERIALS, AND SPACE
+* [TOOLS, MATERIALS, AND SPACE](#tools-materials-and-space)
 	* Required Tools
 	* Communication Tools
 	* Art Supplies
 	* Access to Plotting Equipment
 	* Our Studio Space, CFA-303
-* ATTENDANCE POLICIES
+* [ATTENDANCE POLICIES](#attendance-policies)
 	* Excused Absences
 	* Ghosting (No-Call, No-Show Absences)
 	* Partial Attendance
 	* Malingering On Critique Days
 	* Health-Related Absences
 	* Classroom Streams/Recordings
-* GRADING AND EVALUATION POLICIES
+* [GRADING AND EVALUATION POLICIES](#grading-and-evaluation-policies)
 	* Grades
 	* Evaluations
 	* Expectations of Professionalism
 	* Policies for Late Work
 	* Feedback and Critique
-* ACADEMIC INTEGRITY
+* [ACADEMIC INTEGRITY](#academic-integrity)
 	* Use of Free and Open-Source Code in Projects
 	* Policies Regarding Informal Collaboration
 	* Policies Regarding Formal Collaboration
-* ACCOMMODATIONS
+* [ACCOMMODATIONS](#accommodations)
 	* Inclusivity Statement
 	* Content Considerations
-* CODE OF CONDUCT
+* [CODE OF CONDUCT](#code-of-conduct)
 	* Discrimination and Harassment
 	* Take Care of Yourself
-* APPENDICES
+* [APPENDICES](#appendices)
 	* [Policies for Our Class Instagram](instagram_policies.md)
 	* [Guidelines for Our Studio Classroom](room_policies.md)
 
@@ -435,7 +435,7 @@ In order to best engage as critical makers and thinkers, we will approach a dive
 
 <img src="img/benford_krummenacher_foot_plot.jpg" width="480">
 
-# CODE OF CONDUCT
+## CODE OF CONDUCT
 
 ### Discrimination and Harassment
 
