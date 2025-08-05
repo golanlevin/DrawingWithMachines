@@ -165,7 +165,7 @@ This course uses the following software tools to share information:
 * **Discord server**, for posting your work, announcements, and informal communication.
 * **Email**, for additional important announcements by the professor.
 * **Google Forms**, for collecting official assignment docmentation.
-* [**Shared Instagram account**](https://www.instagram.com/drawingwithmachines/), for public sharing. **Note**: Please see this special appendix on [Policies for Our Class Instagram](instagram_policies.md). 
+* [**Shared Instagram account**](https://www.instagram.com/drawingwithmachines/), for public sharing. **Note**: Please see this special appendix on [Policies for Our Class Instagram](instagram_policies.md), which should be considered an addendum to our *Code of Conduct*.
 * *In the unlikely event that the professor is sick/quarantined, Zoom may be used for a remote lecture.*
 
 
@@ -198,19 +198,17 @@ You will generally execute your assignments using the plotter equipment at in CF
 
 ### Our Studio Space, CFA-303
 
-During Fall 2025, CFA-303 is available for plotting during the following times: 
+During Fall 2025, CFA-303 is available for work during all of the times marked with an empty square in the schedule below:
 
 <img src="img/cfa303-fall2025.png" width="480">
 
-The room is busy MW 
+There are many simple things we can do to ensure that our room is a generous, focused, and genuinely collaborative space. Furthermore, this semester, we will be sharing our laboratory with Professor DeYoung's *Stop-Frame Animation* course, which meets on Tuesday/Thursday mornings; it is imperative that we be considerate of our schoolmates in this course. 
+
+To that end, I have prepared a special document with guidelines for sharing space with the other class; guests and room security; noise and focus, equipment use; and food and drinks. Please read these [**Guidelines for Our Studio Classroom**](room_policies.md) carefully. This document should be considered an addendum to our *Code of Conduct*.
 
 
-* Please clean up after yourself. Our classroom needs to be in a usable condition for other classes.
-* We have valuable equipment in CFA-303. If you are the only person in the room and you need to step out, don't leave the door unlocked. 
-* **No food or drink**. This is both a drawing course and a creative coding course. Greasy food and spilled liquids are incompatible with both fancy paper and laptop computers. 
-* If you don't feel well, please stay home.
 
-room_policies.md
+
 
 ---
 
