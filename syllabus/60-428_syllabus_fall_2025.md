@@ -4,9 +4,9 @@
 
 **Key Information:**
 
-* Course: *Drawing with Machines* (60-428/728, 12 Units, In-Person)
+* Course: *Drawing with Machines* (60-428/728, 12 Units, In-Person-Only)
 * Carnegie Mellon University School of Art + IDeATe Program
-* Times: Tuesday/Thursday, 7:00–9:50pm
+* Times: Mondays/Wednesdays, 7:00–9:50pm
 * Dates: August 25 – December 3, 2025
 * Location: CMU College of Fine Arts, Room CFA-303
 * Professor: [Golan Levin](https://art.cmu.edu/people/golan-levin/), golan@andrew...
@@ -205,9 +205,6 @@ During Fall 2025, CFA-303 is available for work during all of the times marked w
 There are many simple things we can do to ensure that our room is a generous, focused, and genuinely collaborative space. Furthermore, this semester, we will be sharing our laboratory with Professor DeYoung's *Stop-Frame Animation* course, which meets on Tuesday/Thursday mornings; it is imperative that we be considerate of our schoolmates in this course. 
 
 To that end, I have prepared a special document with guidelines for sharing space with the other class; guests and room security; noise and focus, equipment use; and food and drinks. Please read these [**Guidelines for Our Studio Classroom**](room_policies.md) carefully. This document should be considered an addendum to our *Code of Conduct*.
-
-
-
 
 
 ---
