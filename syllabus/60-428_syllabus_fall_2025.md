@@ -237,7 +237,7 @@ An *excused* absence is one about which you have communicated with me in a timel
 
 If I, the professor, am unable to come to class, I will send a message so that you can plan accordingly. I respectfully ask exactly the same courtesy of you. 
 
-Failing to communicate responsibly about your absences — in other words, *ghosting*, or "[No-Call, No-Show](https://en.wikipedia.org/wiki/No_call,_no_show)" events — is problematic and disrespectful to the classroom community, and is not acceptable in this course. Allowing the grace of one emergency for everyone, the following policy applies (*except as otherwise officially accommodated under University policy*):
+Failing to communicate responsibly about your absences — in other words, *ghosting*, or "No-Call, No-Show" events — is problematic and disrespectful to the classroom community, and is not acceptable in this course. Allowing the grace of one emergency for everyone, the following policy applies (*except as otherwise officially accommodated under University policy*):
 
 * Ghost 1 session: no impact on your grade.
 * Ghost 2 sessions: lose a letter grade (A→B).
