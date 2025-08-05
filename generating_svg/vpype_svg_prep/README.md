@@ -1,17 +1,18 @@
 # Prepping SVGs for Plotting with *vpype*
 
 
-> ***TL,DR*** *— here are some vpype commands I find handy:*
-> *`vpype read inputfile.svg linesimplify linemerge linesort write outputfile.svg show`*
-> *`vpype read inputfile.svg linemerge --tolerance 0.1mm linesort crop 0.5in 0.5in 10.0in 7.5in write outputfile.svg`*
+***TL,DR*** *— here are some vpype commands I find handy:*
+
+> *`vpype read inputfile.svg linesimplify linemerge linesort write outputfile.svg show`*<br />
+> *`vpype read inputfile.svg linemerge --tolerance 0.1mm linesort crop 0.5in 0.5in 10.0in 7.5in write outputfile.svg`*<br />
 > *`vpype read inputfile.svg reloop linesort --no-flip write --device hp7475a --page-size letter outputfile.hpgl`*
 
 **Contents:** 
 
 * Why Optimize? Introducing *vpype*
-* 1. Install Python; create a virtual environment; install *vpype*
-* 2. Use *vpype* to crop and optimize
-* 3. *vpype* cheatsheet
+* 1 - Install Python; create a virtual environment; install *vpype*
+* 2 - Use *vpype* to crop and optimize
+* 3 - *vpype* cheatsheet
 
 ---
 
