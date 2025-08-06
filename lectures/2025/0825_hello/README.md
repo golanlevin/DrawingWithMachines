@@ -16,7 +16,7 @@
 * [Overview of Information Resources & Workflows](#overview-of-semester-units--assignments)
 * [Welcome to our Machine Drawing Lab](#welcome-to-our-machine-drawing-lab)
 
-**Kickoff: Loosening Up with Low-Tech Drawing Machines**
+**[Kickoff: Loosening Up with Low-Tech Drawing Machines](#unit-1-loosening-up-with-low-tech-drawing-machines)**
 
 * [A Discussion about Machines and Drawing](#a-discussion-about-machines-and-drawing)
 * [In-Class Viewings: Low-Tech Drawing Machines](#in-class-viewings-low-tech-drawing-machines)
