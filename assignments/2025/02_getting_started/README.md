@@ -95,6 +95,8 @@ Please spend about 20 minutes browsing these materials to get a sense of how som
 
 The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. *(Note: It is sufficient to skim these articles!)*
 
+**Skim** the following:
+
 * Shiqing (Licia) He. *300 Days with Plotters*, 2020. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/licia_he_300_days_with_plotters.pdf) / [Online](https://liciahe.medium.com/300-days-with-plotters-14159ab64034)
 * Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 1*](https://mattdesl.svbtle.com/pen-plotter-1), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/deslauriers_plotter_art_i.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-1)
 * Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 2*](https://mattdesl.svbtle.com/pen-plotter-2), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/deslauriers_plotter_art_ii.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-2)
