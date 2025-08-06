@@ -9,7 +9,7 @@
 **Welcome** to the Fall 2025 edition of **Drawing with Machines** (60-428/728)!
 
 * [Introductions](#introductions)
-* [What is this class](#what-is-this-class)
+* [What is this class?](#what-is-this-class)
 * [Studio Knowledge, Machine Literacy, and Peer Support](#studio-knowledge-machine-literacy-and-peer-support)
 * [Overview of Semester Units & Assignments](#overview-of-semester-units--assignments)
 * [End-of-Semester Activities](#end-of-semester-activities)
@@ -133,6 +133,8 @@ On Wednesday we'll discuss the machines in the room in great detail. But for the
 * *(elsewhere at CMU)* laser cutters, computer-controlled embroidery machines, UR5 robot arm, etc.
 
 ---
+
+![karina_smigla_bobinski_ada_2010.jpg](img/karina_smigla_bobinski_ada_2010.jpg)
 
 ## Unit 1: Loosening Up with Low-Tech Drawing Machines
 
