@@ -26,6 +26,7 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon 
 * Software Instructions & Code Template Index
   * [Generating SVG Files](generating_svg/README.md)
   * [Preparing SVGs for Plotting with *vpype*](generating_svg/vpype_svg_prep/README.md)
+  * [Controlling various plotters in real-time](realtime/README.md)
 
 ---
 

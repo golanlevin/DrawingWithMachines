@@ -11,8 +11,6 @@
 * Realtime Control of HP7475A with openFrameworks (C++)
 
 
-
-
 ---
 
 ### Realtime Control of Line-Us
