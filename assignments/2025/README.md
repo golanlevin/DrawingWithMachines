@@ -10,18 +10,18 @@
 * 1.1. [Course Administration](01_drawing_machine/README.md#11-course-administration) (15m)
 * 1.2. [Looking Outwards I: Previous Student Work](01_drawing_machine/README.md#12-looking-outwards-i-previous-student-work) (15m)
 * 1.3. [Looking Outwards II: Drawing Machines](01_drawing_machine/README.md#13-looking-outwards-ii-drawing-machines) (30m)
-* 1.4. [Shitty Drawing Machine](01_drawing_machine/README.md#14-%EF%B8%8F-shitty-drawing-machine) (3h)
+* 1.4. [Shitty Drawing Machine](01_drawing_machine/README.md#14-%EF%B8%8F-shitty-drawing-machine) (3-4h)
 
 
 ---
 
 ## 2. [Getting Started, Plotting](02_getting_started/README.md) `9/3`
 
-* 2.1. Personal Speculation (10m)
-* 2.2. Looking Outwards: Tooling (20m) 
-* 2.3. Looking Outwards: Generative Plotter Art (30m)
-* 2.4. Reading Response: Skimming Others' Practices (20m)
-* 2.5. A Complete Workflow: Re-Coding and Plotting Molnar's "Lettres" (3h)
+* 2.1. [Personal Speculation](02_getting_started/README.md#21-personal-speculation) (10m)
+* 2.2. [Looking Outwards: Tooling](02_getting_started/README.md#22-looking-outwards-tooling) (20m) 
+* 2.3. [Looking Outwards: Generative Plotter Art](02_getting_started/README.md#23-looking-outwards-generative-plotter-art) (30m)
+* 2.4. [Reading Response: Skimming Others' Practices](02_getting_started/README.md#24-reading-response-skimming-others-practices) (20m)
+* 2.5. [A Complete Workflow: Re-Coding and Plotting Molnar's "Lettres"](02_getting_started/README.md#25-re-coding-and-plotting-molnars-lettres) (3-4h)
 
 
 ---

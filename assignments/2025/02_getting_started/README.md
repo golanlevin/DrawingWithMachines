@@ -2,15 +2,15 @@
 
 ### Drawing with Machines, Fall 2025 • Due 9/3
 
-![james_merrell_plot.jpg](img/james_merrell_plot.jpg)<br />James Merrill, [*Busy*](https://www.artblocks.io/exhibitions/busy-by-james-merrill), 2025
+![james_merrell_plot](img/james_merrell_plot.jpg)<br />James Merrill, [*Busy*](https://www.artblocks.io/exhibitions/busy-by-james-merrill), 2025
 
 *This set of exercises has five parts and is due Wednesday, 9/3/2025 at the beginning of class.* 
 
-* 2.1. Personal Speculation *(10%, 10 minutes)*
-* 2.2. Looking Outwards: Tooling *(10%, 20 minutes)* 
-* 2.3. Looking Outwards: Generative Plotter Art *(10%, 30 minutes)*
-* 2.4. Reading Response: Skimming Others' Practices *(10%, 20 minutes)*
-* 2.5. A Complete Workflow: Re-Coding and Plotting Molnar's "Lettres" *(60%, 3-4 hours)*
+* [2.1. Personal Speculation](#21-personal-speculation) *(10%, 10 minutes)*
+* [2.2. Looking Outwards: Tooling](#22-looking-outwards-tooling) *(10%, 20 minutes)* 
+* [2.3. Looking Outwards: Generative Plotter Art](#23-looking-outwards-generative-plotter-art) *(10%, 30 minutes)*
+* [2.4. Reading Response: Skimming Others' Practices](#24-reading-response-skimming-others-practices) *(10%, 20 minutes)*
+* [2.5. A Complete Workflow: Re-Coding and Plotting Molnar's "Lettres"](#25-re-coding-and-plotting-molnars-lettres) *(60%, 3-4 hours)*
 
 
 ---
@@ -51,7 +51,7 @@ The purpose of this exercise is to help introduce you to some of the technical r
 
 ## 2.3. Looking Outwards: Generative Plotter Art
 
-![licia_he_fictional_lullaby_2023.jpg](img/licia_he_fictional_lullaby_2023.jpg)<br />Licia He, [*Fictional Lullaby*](https://www.eyesofpanda.com/project/fictional_lullaby/), 2023
+![licia_he_fictional_lullaby_2023](img/licia_he_fictional_lullaby_2023.jpg)<br />Licia He, [*Fictional Lullaby*](https://www.eyesofpanda.com/project/fictional_lullaby/), 2023
 
 *(30 minutes)* 
 
@@ -89,7 +89,9 @@ Please spend about 20 minutes browsing these materials to get a sense of how som
 
 ---
 
-## 2.4. Reading Response: Skimming Others' Practices 
+## 2.4. Reading Response: Skimming Others' Practices
+
+![matt deslauriers plotter](img/matt_deslauriers_plotter.jpg)<br/>
 
 *(10%, 20 minutes)*
 
@@ -97,13 +99,11 @@ The purpose of this prompt is to learn about how various creators think about an
 
 **Skim** the following:
 
-* Shiqing (Licia) He. *300 Days with Plotters*, 2020. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/licia_he_300_days_with_plotters.pdf) / [Online](https://liciahe.medium.com/300-days-with-plotters-14159ab64034)
+* Shiqing (Licia) He. [*300 Days with Plotters*](https://liciahe.medium.com/300-days-with-plotters-14159ab64034), 2020. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/licia_he_300_days_with_plotters.pdf) / [Online](https://liciahe.medium.com/300-days-with-plotters-14159ab64034) / [Interview](https://www.dirtalleydesign.com/blogs/news/how-to-watercolor-painting-with-a-robotic-drawing-machine-an-interview-with-licia-he)
 * Michael Fogleman, [*Pen Plotter Programming: The Basics*](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/fogleman_plotting_basics.pdf) / [Online](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929)
-* Cameron Sun, [Generative Art: Pen Plotting an Old Family Photo](https://www.csun.io/2021/12/29/plotting-old-pictures.html), 2021. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/cameron_sun_plotting_a_family_photo.pdf) | [Online](https://www.csun.io/2021/12/29/plotting-old-pictures.html)
+* Cameron Sun, [*Generative Art: Pen Plotting an Old Family Photo*](https://www.csun.io/2021/12/29/plotting-old-pictures.html), 2021. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/cameron_sun_plotting_a_family_photo.pdf) | [Online](https://www.csun.io/2021/12/29/plotting-old-pictures.html)
 * Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 1*](https://mattdesl.svbtle.com/pen-plotter-1), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/deslauriers_plotter_art_i.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-1)
 * Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 2*](https://mattdesl.svbtle.com/pen-plotter-2), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/deslauriers_plotter_art_ii.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-2)
-
-
 
 *Now:*
 
@@ -119,31 +119,31 @@ The purpose of this prompt is to learn about how various creators think about an
 
 Copying or interpreting a masterwork is a classic way artists learn. This assignment builds your skills in:
 
-* Creative coding with a toolkit of your choice (p5.js, Processing, vsketch…)
+* Creative coding and generative design with a toolkit of your choice 
 * Exporting SVGs for plotting (essential for this course)
 * Observation, analysis, and historical appreciation
 * Expressing your own voice within asemic writing
 
-![molnar_photo.jpg](img/molnar_photo.jpg)
+![molnar_photo](img/molnar_photo.jpg)
 
 Vera Molnar (1924–2023), known as the “Mother of Computer Art,” began making art with computers in 1968. In the mid-1980s, she began a series of plotted works, *Lettres de ma Mère*, which simulated her elderly mother’s handwriting as it became more chaotic with age and illness. Molnar described the work as tracing a transition — from precise to restless to unreadable:
 
 > *“My mother had a wonderful hand-writing. There was something gothic in it (it was the style of writing of all well-educated ladies in the Habsburg monarchy in the early XXth century) but also something hysteric. The beginning of every line, on the left side, was always regular, severe, gothic and at the end of each line it became more nervous, restless, almost hysteric. As the years passed, the letters in their totality, became more and more chaotic, the gothic aspect disappeared step by step and only the disorder remained. Every week she wrote me a letter, it was a basic and important event in my visual environment. They were more and more difficult to decipher, but it was so nice to look at them… then, there were no more letters…So I went on to write letters of hers to myself, on the computer of course, simulating the transition between gothic and hysteric.”*
 
-![vera_lettres_x2.jpg](img/vera_lettres_x2.jpg)
+![vera_lettres](img/vera_lettres_x2.jpg)
 Two examples of *Lettres de ma Mère* by Vera Molnár, 1988, [Spalter Collection](https://spalterdigital.com/artists/vera-molnar/).
 
 *Now:*
 
 * **Examine** examples, [2](img/vera_lettres_2_1987.jpg), [3](img/vera_lettres_3_1988.jpg), [4](img/vera_lettres_4.jpg), [5](img/vera_lettres_5.jpg), [6](img/vera_lettres_6.jpg), and [7](img/vera_lettres_7.jpg).
 * **Read or Skim**: Vera Molnar's own [1995 Leonardo article](../../../readings/molnar_letters/vera_molnar_my_mothers_letters_leonardo_1995.pdf), and [this 2024 Artforum article](../../../readings/molnar_letters/vera_molnar_artforum_2024.pdf).  
-* **Code**: Re-create or re-interpret the work. Your program must be generative and export SVGs. (Practical [instructions on creating SVGs with p5.js, Python, or Java can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).)
+* **Code**: Re-create or re-interpret the work in a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).)
 * **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use AxiDraw*.
 * **Post**: In Discord `#2-5-lettres`, **embed** a photo (2–3 variations if relevant) and **write** a few sentences about your approach.
 * **Submit**: Documentation via Google Form (TBA) with clear filenames (e.g. `lastname_lettres.jpg`).
 * **Bring**: Your physical plot to class on 9/3 for pinup.
 
-![molnar_mothers_letters.jpg](../../../lectures/topics/walking_a_dot/img/molnar_mothers_letters.png)
+![molnar_mothers_letters](../../../lectures/topics/walking_a_dot/img/molnar_mothers_letters.png)
 
 For more information about *Lettres de ma Mère* and Molnar's work, see: 
 
