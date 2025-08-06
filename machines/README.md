@@ -15,7 +15,7 @@ Index to instructions for plotting with our classroom equipment.
 
 * [**Instructions for Plotting with the HP7475A**](hp7475a/README.md)
 * [Configuring HP7475A with GP-IB/HP-IB](hp7475a/manuals/GPIB/README.md)
-* Realtime Control of the HP7475A
+* [Realtime Control of the HP7475A with Processing](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/processing/realtime_7475a/realtime_7475a.pde)
 
 ## HP DraftMaster II 7596A
 
@@ -23,7 +23,9 @@ Index to instructions for plotting with our classroom equipment.
 
 ## Bantam ArtFrame 1824
 
-* Information Forthcoming
+* [**Instructions for Plotting with the Bantam ArtFrame 1824**](bantam_artframe_1824/artframe_guide_v1-1-1.pdf)
+* [Controlling the ArtFrame in Real-Time with G-Code](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime#readme)
+* [Processing (Java) code](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime/artframe_realtime_processing/artframe_realtime_processing.pde) for controlling the Bantam ArtFrame in real time
 
 ## Line-Us
 
