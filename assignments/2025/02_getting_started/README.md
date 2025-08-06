@@ -17,7 +17,7 @@
 
 ## 2.1. Personal Speculation
 
-In the blink of an eye, it's 2026. Somehow, this class completely changed how you work. 
+In the blink of an eye, it's 2026. Somehow, this class has completely changed how you work. 
 
 * What was the breakthrough? 
 * What was the challenge? 
