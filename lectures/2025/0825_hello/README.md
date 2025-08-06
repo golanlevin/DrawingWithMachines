@@ -134,7 +134,7 @@ On Wednesday we'll discuss the machines in the room in great detail. But for the
 
 ---
 
-![karina_smigla_bobinski_ada_2010.jpg](img/karina_smigla_bobinski_ada_2010.jpg)
+![karina_smigla_bobinski_ada_2010.jpg](img/karina_smigla_bobinski_ada_2010.jpg)<br />Karina Smigla-Bobinski, [*ADA*](https://www.youtube.com/watch?v=RPwpC82li2Q), 2010
 
 ## Unit 1: Loosening Up with Low-Tech Drawing Machines
 
@@ -168,7 +168,7 @@ We will spend plenty of time thinking about drawing machines that use computers,
 
 * Jean Tinguely [*Metamatics*](https://www.youtube.com/watch?v=VxoqVvQeil0), 1959
 * Rebecca Horn, [*Pencil Mask*](https://www.youtube.com/watch?v=Eh9JH7daSbg), 1972
-* Karina Smigla-Bobinski, [*ADA*](https://www.youtube.com/watch?v=RPwpC82li2Q), 2017
+* Karina Smigla-Bobinski, [*ADA*](https://www.youtube.com/watch?v=RPwpC82li2Q), 2010
 * Iepe Rubingh, [*Painting Reality*](https://www.youtube.com/watch?v=N1AHBZybjW4), 2010
 * Sam van Doorn, [*STYN* (Machine that Records Pinball)](https://www.thisiscolossal.com/2012/11/a-drawing-machine-that-records-the-chaos-of-pinball/)
 * Laura Millard, [*Crossing*](https://lauramillard.com/2019/01/01/crossing/), 2019

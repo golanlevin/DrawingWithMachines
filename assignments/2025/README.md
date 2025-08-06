@@ -15,10 +15,11 @@
 
 ---
 
-## 2. [Getting Started](02_getting_started/README.md) `9/3`
+## 2. [Getting Started, Plotting](02_getting_started/README.md) `9/3`
 
-* 2.1. Looking Outwards III: Tooling
-* 2.2. Looking Outwards IV: Generative Plotter Art
+* 2.1. Personal Speculation
+* 2.2. Looking Outwards III: Tooling
+* 2.3. Looking Outwards IV: Generative Plotter Art
 * 2.3. (Re)Coding and Plotting Molnár's *Letters*
 
 

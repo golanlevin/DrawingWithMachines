@@ -1,15 +1,15 @@
 # 1: Drawing Machine
 
-### Drawing with Machines, Fall 2025
+### Drawing with Machines, Fall 2025 • Due 8/27
 
 ![knowles/horn](img/knowles_horn.jpg)<br />*Tim Knowles made wind-activated [Tree Drawings](https://www.cabinetmagazine.org/issues/28/knowles.php), 2005; Rebecca Horn wore this [Pencil Mask](https://www.youtube.com/watch?v=Eh9JH7daSbg) to make wall drawings in 1973.*
 
 *This assignment has four parts and is due Wednesday, 8/27/2025 at the beginning of class.* 
 
-* 1.1. [Course Administration](#11-course-administration) *(15 minutes, 5%)*
-* 1.2. [Looking Outwards I: Previous Student Work](#12-looking-outwards-i-previous-student-work) *(15 minutes, 5%)*
-* 1.3. [Looking Outwards II: Drawing Machines](#13-looking-outwards-ii-drawing-machines) *(30-45 minutes, 15%)*
-* 1.4. [Shitty Drawing Machine](#14-%EF%B8%8F-shitty-drawing-machine) *(4 hours max, 75%)*
+* 1.1. [Course Administration](#11-course-administration) *(5%, 15 minutes)*
+* 1.2. [Looking Outwards I: Previous Student Work](#12-looking-outwards-i-previous-student-work) *(5%, 15 minutes)*
+* 1.3. [Looking Outwards II: Drawing Machines](#13-looking-outwards-ii-drawing-machines) *(15%, 30-45 minutes)*
+* 1.4. [Shitty Drawing Machine](#14-%EF%B8%8F-shitty-drawing-machine) *(75%, 4 hours max)*
 
 ---
 
