@@ -9,6 +9,7 @@
 **Welcome** to the Fall 2025 edition of **Drawing with Machines** (60-428/728)!
 
 * [Introductions](#introductions)
+* [What is this class](#what-is-this-class)
 * [Studio Knowledge, Machine Literacy, and Peer Support](#studio-knowledge-machine-literacy-and-peer-support)
 * [Overview of Semester Units & Assignments](#overview-of-semester-units--assignments)
 * [End-of-Semester Activities](#end-of-semester-activities)
@@ -27,7 +28,16 @@
 
 ### Introductions
 
-Who's here?
+Hello! Who's here?
+
+
+### What is this class?
+
+*(What do* ***you*** *think this course is about?)*
+
+> This is an advanced studio course in experimental drawing and generative art. Working at the boundaries of creative code, automation, physical materials, and gestural mark-making, we will explore the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, paper, and mark.
+
+*In this course, we will use our brains to control machines to do new things with art supplies.*
 
 
 ### Studio Knowledge, Machine Literacy, and Peer Support
@@ -79,6 +89,16 @@ The themes of the units/assignments will be:
 
 ![coin-op-plot-machine.jpg](img/coin-op-plot-machine.jpg)
 
+---
+
+### The Syllabus TLDR
+
+![grading-cliff](../../../syllabus/img/grading-cliff.jpg)
+
+Your grade in this course is straightforwardly calculated based on your professionalism in completing work and attending class, subject to the policies summarized here. 
+
+* There will be 10 sets of assignments this semester. Each set of assignments has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. A set of assignments is "forgone" if it is more than one week late, or if it is less than 15% completed.
+* If I am unable to come to class, I will send a message so that you can plan accordingly. I respectfully ask the exact same courtesy of you. Attendance is important, but if you need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me about your attendance. An *excused* absence is one about which you have communicated with me in a timely, professional, and responsible manner; by contrast, "*ghosting*" refers specifically to "No-call, No-show" attendance events. 
 
 ---
 
@@ -134,7 +154,7 @@ What is a *drawing tool*? List some common assumptions.
 
 * A drawing tool is held in your *hand*.
 * A drawing tool is only used by *one person at a time*...
-* How much does it affect your thinking if we say drawing *tool*, *toy*, *machine*, *apparatus*...?
+* How much does it affect your thinking if we say drawing *tool*, *toy*, *machine*, *apparatus*, *algorithm*, *system*, *installation*...?
 
 **Show**: Ruler, stencil, spirograph, pantograph, doodletop...
 
