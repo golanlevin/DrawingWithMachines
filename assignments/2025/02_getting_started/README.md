@@ -26,7 +26,7 @@ In the blink of an eye, it's 2026. Somehow, this class completely changed how yo
 Create a post in the Discord channel `#2-1-speculation`. In your own voice, in a few sentences, please **speculate**. 
 
 <details> <summary><em>What?</em></summary> 
-We’re about to spend a semester making things with machines—and machines have a way of changing the people who use them. This prompt is a way to take your own baseline measurement. Imagine, before we start, how automation might actually *matter* to you — what you’d want from it, what might trip you up, and what you might have to give up. Months from now, you may look back and see how your thinking has shifted.</details>
+We’re about to spend a semester making things with machines—and machines have a way of changing the people who use them. This prompt is a way to take your own baseline measurement. Imagine, before we start, how automation might actually <em>matter</em> to you — what you’d want from it, what might trip you up, and what you might have to give up. Months from now, you may look back and see how your thinking has shifted.</details>
 
 
 ---
