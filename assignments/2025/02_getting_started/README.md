@@ -93,15 +93,17 @@ Please spend about 20 minutes browsing these materials to get a sense of how som
 
 *(10%, 20 minutes)*
 
-The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. *(Note: It is sufficient to skim these articles!)*
+The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. (It is sufficient to skim these articles.)
 
 **Skim** the following:
 
-* Shiqing (Licia) He. *300 Days with Plotters*, 2020. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/licia_he_300_days_with_plotters.pdf) / [Online](https://liciahe.medium.com/300-days-with-plotters-14159ab64034)
-* Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 1*](https://mattdesl.svbtle.com/pen-plotter-1), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/deslauriers_plotter_art_i.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-1)
-* Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 2*](https://mattdesl.svbtle.com/pen-plotter-2), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/deslauriers_plotter_art_ii.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-2)
-* Michael Fogleman, [*Pen Plotter Programming: The Basics*](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/fogleman_plotting_basics.pdf) / [Online](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929)
-* Cameron Sun, [Generative Art: Pen Plotting an Old Family Photo](https://www.csun.io/2021/12/29/plotting-old-pictures.html), 2021. [PDF]() | [Online](https://www.csun.io/2021/12/29/plotting-old-pictures.html)
+* Shiqing (Licia) He. *300 Days with Plotters*, 2020. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/licia_he_300_days_with_plotters.pdf) / [Online](https://liciahe.medium.com/300-days-with-plotters-14159ab64034)
+* Michael Fogleman, [*Pen Plotter Programming: The Basics*](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/fogleman_plotting_basics.pdf) / [Online](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929)
+* Cameron Sun, [Generative Art: Pen Plotting an Old Family Photo](https://www.csun.io/2021/12/29/plotting-old-pictures.html), 2021. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/cameron_sun_plotting_a_family_photo.pdf) | [Online](https://www.csun.io/2021/12/29/plotting-old-pictures.html)
+* Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 1*](https://mattdesl.svbtle.com/pen-plotter-1), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/deslauriers_plotter_art_i.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-1)
+* Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 2*](https://mattdesl.svbtle.com/pen-plotter-2), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/deslauriers_plotter_art_ii.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-2)
+
+
 
 *Now:*
 
