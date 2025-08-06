@@ -19,7 +19,7 @@ Resources for Golan Levin's *Drawing with Machines* Course<br />Carnegie Mellon 
 
 ### Key Resources
 
-* [Lectures](lectures/2025/)
+* [Lectures & Agenda](lectures/2025/README.md)
 * [Assignments](assignments/2025/README.md)
 * [Readings](readings/README.md)
 * [Machinery Instructions](machines/README.md)
