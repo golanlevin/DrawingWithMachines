@@ -9,7 +9,7 @@
 * 2.1. Personal Speculation *(10%, 10 minutes)*
 * 2.2. Looking Outwards: Tooling *(10%, 20 minutes)* 
 * 2.3. Looking Outwards: Generative Plotter Art *(10%, 30 minutes)*
-* 2.4. Reading Response: Skimming Others' Practices *(10%, 30 minutes)*
+* 2.4. Reading Response: Skimming Others' Practices *(10%, 20 minutes)*
 * 2.5. A Complete Workflow: Re-Coding and Plotting Molnar's "Lettres" *(60%, 3-4 hours)*
 
 
@@ -91,7 +91,7 @@ Please spend about 20 minutes browsing these materials to get a sense of how som
 
 ## 2.4. Reading Response: Skimming Others' Practices 
 
-*(10%, 30 minutes)*
+*(10%, 20 minutes)*
 
 The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. *(Note: It is sufficient to skim these articles!)*
 
@@ -101,6 +101,7 @@ The purpose of this prompt is to learn about how various creators think about an
 * Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 1*](https://mattdesl.svbtle.com/pen-plotter-1), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/deslauriers_plotter_art_i.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-1)
 * Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 2*](https://mattdesl.svbtle.com/pen-plotter-2), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/deslauriers_plotter_art_ii.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-2)
 * Michael Fogleman, [*Pen Plotter Programming: The Basics*](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/fogleman_plotting_basics.pdf) / [Online](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929)
+* Cameron Sun, [Generative Art: Pen Plotting an Old Family Photo](https://www.csun.io/2021/12/29/plotting-old-pictures.html), 2021. [PDF]() | [Online](https://www.csun.io/2021/12/29/plotting-old-pictures.html)
 
 *Now:*
 

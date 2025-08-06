@@ -17,10 +17,11 @@
 
 ## 2. [Getting Started, Plotting](02_getting_started/README.md) `9/3`
 
-* 2.1. Personal Speculation
-* 2.2. Looking Outwards III: Tooling
-* 2.3. Looking Outwards IV: Generative Plotter Art
-* 2.3. (Re)Coding and Plotting Molnár's *Letters*
+* 2.1. Personal Speculation (10m)
+* 2.2. Looking Outwards: Tooling (20m) 
+* 2.3. Looking Outwards: Generative Plotter Art (30m)
+* 2.4. Reading Response: Skimming Others' Practices (20m)
+* 2.5. A Complete Workflow: Re-Coding and Plotting Molnar's "Lettres" (3h)
 
 
 ---
