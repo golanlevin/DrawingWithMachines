@@ -163,8 +163,6 @@ For more information about *Lettres de ma Mère* and Molnar's work, see:
 
 ---
 
-### ✅ Week 2 Completion Checklist
-
 EOF
 
 <!-- 
