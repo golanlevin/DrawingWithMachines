@@ -17,6 +17,8 @@
 
 ## 2.1. Personal Speculation
 
+*(10%, 10 minutes)*
+
 In the blink of an eye, it's 2026. Somehow, this class has completely changed how you work. 
 
 * What was the breakthrough? 
@@ -35,7 +37,7 @@ We’re about to spend a semester making things with machines—and machines hav
 
 [![Drawingbots.net](../../2024/03_introductory_tooling/img/drawingbots.png)](https://drawingbots.net/resources)
 
-*(20 minutes)* 
+*(10%, 20 minutes)* 
 
 The purpose of this exercise is to help introduce you to some of the technical resources and communities for computer controlled pen-plotting machines.
 
@@ -53,7 +55,7 @@ The purpose of this exercise is to help introduce you to some of the technical r
 
 ![licia_he_fictional_lullaby_2023](img/licia_he_fictional_lullaby_2023.jpg)<br />Licia He, [*Fictional Lullaby*](https://www.eyesofpanda.com/project/fictional_lullaby/), 2023
 
-*(30 minutes)* 
+*(10%, 30 minutes)*
 
 The purpose of this prompt is to develop your familiarity with global practices and international communities of people using code to create art with plotters. You can find this work on the following channels, among other places:
 
@@ -115,14 +117,16 @@ The purpose of this prompt is to learn about how various creators think about an
 
 ## 2.5. Re-Coding and Plotting Molnar's "Lettres"
 
-*(60%, due Wednesday 9/3; 3-4 hours)*
+*(60%, 3-4 hours; pinup on Wednesday 9/3)*
+
+> *The visual and muscular aspects of writing are generally obscured by the primacy of writing's communicative function. We see the message, we see what the writing means, but we do not see the writing. Consequently Barthes can assert, with no sense of paradox, "for writing to be manifest in its truth (and not in its instrumentality), it must be illegible". In this way the graphic element is allowed to reclaim its primacy.* — from "Asemic: The Art of Writing" by Peter Schwenger, 2019.
 
 Copying or interpreting a masterwork is a classic way artists learn. This assignment builds your skills in:
 
 * Creative coding and generative design with a toolkit of your choice 
 * Exporting SVGs for plotting (essential for this course)
 * Observation, analysis, and historical appreciation
-* Expressing your own voice within asemic writing
+* Expressing your own voice within [asemic writing](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1790.html)
 
 ![molnar_photo](img/molnar_photo.jpg)
 
@@ -137,10 +141,10 @@ Two examples of *Lettres de ma Mère* by Vera Molnár, 1988, [Spalter Collection
 
 * **Examine** examples, [2](img/vera_lettres_2_1987.jpg), [3](img/vera_lettres_3_1988.jpg), [4](img/vera_lettres_4.jpg), [5](img/vera_lettres_5.jpg), [6](img/vera_lettres_6.jpg), and [7](img/vera_lettres_7.jpg).
 * **Read or Skim**: Vera Molnar's own [1995 Leonardo article](../../../readings/molnar_letters/vera_molnar_my_mothers_letters_leonardo_1995.pdf), and [this 2024 Artforum article](../../../readings/molnar_letters/vera_molnar_artforum_2024.pdf).  
-* **Code**: Re-create or re-interpret the work in a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).)
+* **Code**: Re-create or re-interpret this work in a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).)
 * **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use AxiDraw*.
 * **Post**: In Discord `#2-5-lettres`, **embed** a photo (2–3 variations if relevant) and **write** a few sentences about your approach.
-* **Submit**: Documentation via Google Form (TBA) with clear filenames (e.g. `lastname_lettres.jpg`).
+* **Submit**: Documentation into [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeapsPKJF1MGBi7hKpPzuNrQvNOJIt53q_Uut38GXSwU7Sx2w/viewform?usp=dialog) with clear filenames (e.g. `lastname_lettres.jpg`).
 * **Bring**: Your physical plot to class on 9/3 for pinup.
 
 ![molnar_mothers_letters](../../../lectures/topics/walking_a_dot/img/molnar_mothers_letters.png)
