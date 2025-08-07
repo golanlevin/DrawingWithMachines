@@ -61,7 +61,7 @@ The purpose of this prompt is to develop your familiarity with global practices 
 
 * In the book [*Tracing the Line*](https://vetroeditions.com/products/tracing-the-line), in our classroom
 * On Twitter/X, using the hashtag [#PlotterTwitter](https://twitter.com/hashtag/plottertwitter)
-* On Instagram at [#PlotterTwitter](https://www.instagram.com/explore/tags/plottertwitter/)
+* On Instagram at [#PlotterTwitter](https://www.instagram.com/explore/tags/plottertwitter/), [#drawingrobot](https://www.instagram.com/explore/search/keyword/?q=%23drawingrobot), [#penplotter](https://www.instagram.com/explore/search/keyword/?q=%23penplotter)
 * On BlueSky, at [#penplotter](https://bsky.app/hashtag/penplotter) and [#plottertwitter](https://bsky.app/hashtag/plottertwitter)
 * In the Feral File exhibition, [*+GRAPH*](https://feralfile.com/explore/exhibitions/graph-8vs)
 
