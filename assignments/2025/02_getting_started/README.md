@@ -4,7 +4,7 @@
 
 ![james_merrell_plot](img/james_merrell_plot.jpg)<br />James Merrill, [*Busy*](https://www.artblocks.io/exhibitions/busy-by-james-merrill), 2025
 
-*This set of exercises has five parts and is due Wednesday, 9/3/2025 at the beginning of class.* 
+*The purpose of this week's exercises is to observe how others work, try it yourself, and build your first full generative plotter pipeline. This set of exercises has five parts and is due Wednesday, 9/3/2025 at the beginning of class.* 
 
 * [2.1. Personal Speculation](#21-personal-speculation) *(10%, 10 minutes)*
 * [2.2. Looking Outwards: Tooling](#22-looking-outwards-tooling) *(10%, 20 minutes)* 
@@ -25,7 +25,7 @@ In the blink of an eye, it's 2026. Somehow, this class has completely changed ho
 * What was the challenge? 
 * What was the casualty?
 
-Create a post in the Discord channel `#2-1-speculation`. In your own voice, in a few sentences, please **speculate**. 
+Create a post in the Discord channel `#2-1-personal-speculation`. In your own voice, in a few sentences, please **speculate**. 
 
 <details> <summary><em>What?</em></summary> 
 We’re about to spend a semester making things with machines—and machines have a way of changing the people who use them. This prompt is a way to take your own baseline measurement. Imagine, before we start, how automation might actually <em>matter</em> to you — what you’d want from it, what might trip you up, and what you might have to give up. Months from now, you may look back and see how your thinking has shifted.</details>
@@ -43,7 +43,7 @@ The purpose of this exercise is to help introduce you to some of the technical r
 
 * Spend ten minutes browsing the materials on the [**DrawingBots.net Resources**](https://drawingbots.net/resources) page. This is "the central place on the web to discover the world of drawing robots, get inspiration and talk to other drawing robot enthusiasts." Optionally, check out the affiliated [DrawingBots Discord (invite here)](https://discordapp.com/invite/XHP3dBg). There are lists of recommended pens, various types of SVG generators, many links to code libraries, etc.
 * Spend 5-10 minutes browsing the materials at the [**AwesomePlotters Repository**](https://github.com/beardicus/awesome-plotters), "a curated list of code and resources for computer-controlled drawing machines and other visual art robots."
-* *Now*, in our Discord channel `#2-1-looking-at-tooling`, **create** a very brief post about a specific technical resource that caught your attention. 
+* *Now*, in our Discord channel `#2-2-looking-at-tooling`, **create** a very brief post about a specific technical resource that caught your attention. 
   * **Link** to the resource, 
   * **describe** what it is, and 
   * **write** a sentence about why you found it interesting or potentially useful. 
@@ -83,9 +83,9 @@ You can also browse work by some individual contemporary artists who use code an
 
 Please spend about 20 minutes browsing these materials to get a sense of how some artists are combining computation and plotter devices. *Now*,
 
-* **Create** a post in the Discord channel, `#2-2-looking-at-art`.
-* **Write** a sentence or two reflecting on the work you saw, overall. What was interesting to you? What was disappointing? What opportunities did you see? Why do you think people are combining generative art and plotting machines?
-* **Identify** a specific artwork you liked, that involved plotters in some way. In your post, **link** to the project's URL, and **embed** an image or screenshot of the project. 
+* **Create** a post in the Discord channel, `#2-3-looking-at-art`.
+* **Write** a sentence or two reflecting on the work you saw, overall. What stood out to you — visually, conceptually, or technically? What opportunities did you see? Why do you think people are combining generative art and plotting machines?
+* **Pick** an artwork you find compelling — and that involved a plotter in some way (not just generative art). In your post, **link** to the project's URL, and **embed** an image or screenshot of the project. 
 * **Write** another sentence or two, on what you appreciated about this particular project.
 
 
@@ -110,7 +110,7 @@ The purpose of this prompt is to learn about how various creators think about an
 *Now:*
 
 * **Create** a post in the Discord channel, `#2-4-reading-response`.
-* **Write** a sentence or two about something from one of the above articles that you found interesting and/or helpful.
+* **Write** a sentence or two about something that stuck with you, surprised you, or made you think.
 
 
 ---
@@ -141,7 +141,7 @@ Two examples of *Lettres de ma Mère* by Vera Molnár, 1988, [Spalter Collection
 
 * **Examine** examples, [2](img/vera_lettres_2_1987.jpg), [3](img/vera_lettres_3_1988.jpg), [4](img/vera_lettres_4.jpg), [5](img/vera_lettres_5.jpg), [6](img/vera_lettres_6.jpg), and [7](img/vera_lettres_7.jpg).
 * **Read or Skim**: Vera Molnar's own [1995 Leonardo article](../../../readings/molnar_letters/vera_molnar_my_mothers_letters_leonardo_1995.pdf), and [this 2024 Artforum article](../../../readings/molnar_letters/vera_molnar_artforum_2024.pdf).  
-* **Code**: Re-create or re-interpret this work in a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).)
+* **Code**: Re-create or re-interpret *Lettres de ma Mère* in a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).)
 * **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use AxiDraw*.
 * **Post**: In Discord `#2-5-lettres`, **embed** a photo (2–3 variations if relevant) and **write** a few sentences about your approach.
 * **Submit**: Documentation into [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeapsPKJF1MGBi7hKpPzuNrQvNOJIt53q_Uut38GXSwU7Sx2w/viewform?usp=dialog) with clear filenames (e.g. `lastname_lettres.jpg`).
@@ -160,7 +160,10 @@ For more information about *Lettres de ma Mère* and Molnar's work, see:
 * [Golan p5 solution](https://editor.p5js.org/golan/sketches/h-6WtzDGv)
 -->
 
+
 ---
+
+### ✅ Week 2 Completion Checklist
 
 EOF
 
