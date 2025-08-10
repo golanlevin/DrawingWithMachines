@@ -19,7 +19,7 @@ Contents:
 
 ![hp7475a_penholder_parts](img/hp7475a_pen_adapter_parts_rendering.png)
 
-The body of the pen adapter is intended for PLA filament printing in two pieces (pictured at left and center, above), which must be [super-glued](https://www.amazon.com/Super-Glue-11710615-Gel-Future/dp/B08WJSY5RK/?th=1) together. Printing the design in two pieces eliminates the need for messy support structures under the central flange. The design includes an optional pen-cap (pictured at right), which offers a snap-fit and a knurled barrel. 
+The body of the pen adapter is intended for PLA filament printing in two pieces (pictured at left and center, above), which must be [super-glued](https://www.amazon.com/Super-Glue-11710615-Gel-Future/dp/B08WJSY5RK/?th=1) together. Printing the design in two pieces eliminates the need for messy support structures under the central flange. The design includes an optional pen-cap (pictured at right), which offers a snap-fit and a knurled barrel. The pieces should be printed with a *fine* or *ultrafine* setting, if possible. 
 * [hp7475a_pen_adapter.stl](files/hp7475a_pen_adapter.stl) – STL file* [hp7475a_pen_adapter_obj.zip](files/hp7475a_pen_adapter_obj.zip) – OBJ & MTL files
 * [hp7475a_pen_adapter.glb.zip](files/hp7475a_pen_adapter.glb.zip) - GLB/GLTF file* [hp7475a_pen_adapter_UM2E.gcode.zip](files/hp7475a_pen_adapter_UM2E.gcode.zip) – GCODE for an Ultimaker 2 Extended+ 3D printer, using a 0.4mm nozzle
 * This 3D model was created with TinkerCAD; you are welcome to remix [the design file here](https://www.tinkercad.com/things/lzj4ZikZXlT-hp7475apenadaptercap).
