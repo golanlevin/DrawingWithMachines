@@ -56,6 +56,9 @@ The Belousov-Zhabotinsky Reaction
 ![rice_terraces_in_vietnam](img/rice_terraces_in_vietnam.jpg)
 Rice terraces in Vietnam
 
+![contour farming](img/contour_farming.jpg)
+Contour farming in [Vernon County, Wisconsin](https://www.google.com/maps/@43.5997103,-90.9630865,2465m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D) conserves rainwater and reduces soil loss
+
 ![maya_lin_systematic_landscapes](img/maya_lin_systematic_landscapes.jpg)
 Maya Lin, [*Systematic Landscapes*](https://camstl.org/exhibitions/maya-lin-systematic-landscapes/), 2007
 
