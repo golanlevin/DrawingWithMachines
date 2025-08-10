@@ -1,9 +1,9 @@
 # 3: Line
 
-
-* 3.1. Line Exercises
-* 3.2. Offset Curve Composition
-* 3.3. Taking A Line for A Walk (3D)
+* 3.1. Line Readings
+* 3.2. Line Exercises
+* 3.3. Offset Curve Composition
+* 3.4. Taking A Line for A Walk (3D)
 
 ---
 

@@ -3,9 +3,9 @@
 
 
 * 6.1. Readings
-* 6.2. Packing
-* 6.3. Flow Field
-* 6.3. A Field/Distribution Composition
+* 6.2. Flow Field
+* 6.3. Feedback: Packing, Ice-Ray
+* 6.4. A Field/Distribution Composition
 
 ---
 

@@ -11,7 +11,7 @@
 * `Mon 09/08` — TBA / Lecture & work session
 * `Wed 09/10` — [#3 Due](../../assignments/2025/03_line/README.md)
 * `Mon 09/15` — TBA / Lecture & work session
-* `Wed 09/17` — [#4 Due](../../assignments/2025/04_tone/README.md)
+* `Wed 09/17` — [#4 Due](../../assignments/2025/04_tone/README.md); Guest presentation
 * `Mon 09/22` — TBA / Lecture & work session
 * `Wed 09/24` — [#5 Due](../../assignments/2025/05_pattern/README.md)
 * `Mon 09/29` — TBA / Lecture & work session

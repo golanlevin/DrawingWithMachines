@@ -9,13 +9,13 @@
 
 ---
 
-## Case Study: Shantell Martin
+## Case Study I: Shantell Martin
 
 ![shantell-martin-13.jpg](img/shantell-martin-13.jpg)
 
 [Video](https://youtu.be/peeXWxxfUAc)
 
-## Case Study: [Corollaria Railing](https://n-e-r-v-o-u-s.com/blog/?p=8753)
+## Case Study II: [Corollaria Railing](https://n-e-r-v-o-u-s.com/blog/?p=8753)
 
 Jessica Rosenkrantz and Jesse Louis-Rosenberg, who work together as [Nervous System](https://n-e-r-v-o-u-s.com/), have been at the forefront of nature-inspired computational design for nearly two decades. In designing their new studio, they used simulation algorithms to create [an algorithmically-generated, lasercut steel railing](https://n-e-r-v-o-u-s.com/blog/?p=8753) that acts as a sculptural element winding through the space. 
 

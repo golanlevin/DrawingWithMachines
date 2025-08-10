@@ -184,7 +184,7 @@ If desired, it is possible to test-preview your HPGL file using [ShareCad.org](h
 
 ---
 
-## 6. Transmit HPGL to HP7475A with CoolTerm
+## 6. Transmit HPGL to HP7475A with CoolTerm on Mac
 
 Here are instructions for executing the plot, by sending the HPGL file over the serial connection to the plotter using CoolTerm (on the Mac). A similar workflow exists for Windows with [RealTerm](https://realterm.sourceforge.io/).
 
@@ -199,6 +199,29 @@ Here are instructions for executing the plot, by sending the HPGL file over the 
 
 ![successful HP7475A plot](images/successful_7475A_plot.jpeg)
 
+---
+
+### 6a. Transmit HPGL to HP7475A with CuteCom on Debian
+
+As of August 2025, the Linux version of CoolTerm has some unpleasant UI bugs that make it confusing to operate. For this reason, if you are plotting to HP7475A using one of our Debianized Mac Mini machines, I recommend using [**CuteCom**](https://cutecom.sourceforge.net/) instead. 
+
+First, be sure to **select** the correct USB-to-serial interface on the main UI, where it lists *Devices*. Then **click** on *Settings* in the upper right:
+
+![debian cutecom UI](images/debian_cutecom_1.png)
+
+Then, **configure** CuteCom as follows:
+
+* Baudrate = 9600
+* Data Bits = 8
+* Flow Control = Hardware
+* Parity = None
+* Stop Bits = 1
+* Open Mode = Read/Write
+
+![debian cutecom UI settings](images/debian_cutecom_2.png)
+
+Close the Settings panel and click *Open* on the main UI. Once the connection to the serial adapter has been established, the *Send file* button will become un-greyed, and you can choose an HPGL file to send to the plotter.
+
 
 ---
 
@@ -208,11 +231,14 @@ Vpype is an extremely powerful tool for SVG manipulation, but there are several 
 
 * **Real-time control of the HP7475A in Processing.** [Processing](https://processing.org/) can be used to directly control the HP7475A by sending HPGL commands over the serial port, effectively unifying steps 3-6 above. Critically, this also allows for the possibility of interactive (*real-time*) control of the plotter. An [**example of real-time cursor control in Processing is here**](processing/realtime_7475a/realtime_7475a.pde), in which the plotter copies the user's mouse drawings. 
 
-**Less commonly:**
+
+<details><summary><em>Less common workflows</em></summary> 
 
 * Nick Hardeman's [ofxHPGL](https://github.com/NickHardeman/ofxHPGL) is an openFrameworks (C++) addon which can generate and/or load SVGs, and control the HP7475a directly. It can also allow for interactive real-time control of the HP7475A plotter. 
 * [Inkcut](https://www.codelv.com/projects/inkcut/) is a standalone application, also available as an [InkScape extension](https://inkscape.org/~frmdstryr/%E2%98%85inkcut) extension, which can load SVG files and control plotters directly (unifying Steps 2 and 3 above). However, it may be challenging to install.
-* [Chiplotle](https://pypi.org/project/Chiplotle/) is a mostly obsolete Python toolkit for controlling the HP7475A, last actively developed [around 2012](http://sites.music.columbia.edu/cmc/chiplotle/). A guide to controlling the HP7475A with Chiplotle can be found in this repository, [here](chiplotle/README.md). 
+* [Chiplotle](https://pypi.org/project/Chiplotle/) is a now-obsolete Python toolkit for controlling the HP7475A, last actively developed [around 2012](http://sites.music.columbia.edu/cmc/chiplotle/). A guide to controlling the HP7475A with Chiplotle can be found in this repository, [here](chiplotle/README.md). 
+
+</details>
 
 --- 
 

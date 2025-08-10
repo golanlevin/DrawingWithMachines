@@ -2,7 +2,7 @@
 
 ### Drawing with Machines, Fall 2025 • Due 9/3
 
-![james_merrell_plot](img/james_merrell_plot.jpg)<br />James Merrill, [*Busy*](https://www.artblocks.io/exhibitions/busy-by-james-merrill), 2025
+![james_merrell_plot](img/james_merrell_plot.jpg)<br />[James Merrill](https://www.instagram.com/lostpixels/?hl=en), [*Busy*](https://www.artblocks.io/exhibitions/busy-by-james-merrill), 2025
 
 *The purpose of this week's exercises is to observe how others work, try it yourself, and build your first full generative plotter pipeline. This set of exercises has five parts and is due Wednesday, 9/3/2025 at the beginning of class.* 
 
@@ -97,20 +97,20 @@ Please spend about 20 minutes browsing these materials to get a sense of how som
 
 *(10%, 20 minutes)*
 
-The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are essentially introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. (It is sufficient to skim these articles.)
+The purpose of this prompt is to learn about how various creators think about and describe their processes of working with code and plotters. These articles are introductory technical walk-throughs, with “tips” and suggestions; you will notice considerable diversity in the artists’ approaches. (It is sufficient to skim these articles.)
 
 **Skim** the following:
 
-* Shiqing (Licia) He. [*300 Days with Plotters*](https://liciahe.medium.com/300-days-with-plotters-14159ab64034), 2020. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/licia_he_300_days_with_plotters.pdf) / [Online](https://liciahe.medium.com/300-days-with-plotters-14159ab64034) / [Interview](https://www.dirtalleydesign.com/blogs/news/how-to-watercolor-painting-with-a-robotic-drawing-machine-an-interview-with-licia-he)
-* Michael Fogleman, [*Pen Plotter Programming: The Basics*](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/fogleman_plotting_basics.pdf) / [Online](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929)
+* [Shiqing (Licia) He](https://www.eyesofpanda.com/). [*300 Days with Plotters*](https://liciahe.medium.com/300-days-with-plotters-14159ab64034), 2020. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/licia_he_300_days_with_plotters.pdf) / [Online](https://liciahe.medium.com/300-days-with-plotters-14159ab64034) / [Interview](https://www.dirtalleydesign.com/blogs/news/how-to-watercolor-painting-with-a-robotic-drawing-machine-an-interview-with-licia-he)
+* [Michael Fogleman](https://www.michaelfogleman.com/), [*Pen Plotter Programming: The Basics*](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/fogleman_plotting_basics.pdf) / [Online](https://medium.com/@fogleman/pen-plotter-programming-the-basics-ec0407ab5929)
 * Cameron Sun, [*Generative Art: Pen Plotting an Old Family Photo*](https://www.csun.io/2021/12/29/plotting-old-pictures.html), 2021. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/cameron_sun_plotting_a_family_photo.pdf) | [Online](https://www.csun.io/2021/12/29/plotting-old-pictures.html)
-* Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 1*](https://mattdesl.svbtle.com/pen-plotter-1), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/deslauriers_plotter_art_i.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-1)
+* [Matt Deslauriers](https://www.mattdesl.com/), [*Pen Plotter Art & Algorithms, Part 1*](https://mattdesl.svbtle.com/pen-plotter-1), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/deslauriers_plotter_art_i.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-1)
 * Matt Deslauriers, [*Pen Plotter Art & Algorithms, Part 2*](https://mattdesl.svbtle.com/pen-plotter-2), 2017. [PDF](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/practices/deslauriers_plotter_art_ii.pdf) / [Online](https://mattdesl.svbtle.com/pen-plotter-2)
 
 *Now:*
 
 * **Create** a post in the Discord channel, `#2-4-reading-response`.
-* **Write** a sentence or two about something that stuck with you, surprised you, or made you think.
+* **Write** a sentence or two about something that stuck with you, or surprised you, from these articles.
 
 
 ---
@@ -142,7 +142,7 @@ Two examples of *Lettres de ma Mère* by Vera Molnár, 1988, [Spalter Collection
 * **Examine** examples, [2](img/vera_lettres_2_1987.jpg), [3](img/vera_lettres_3_1988.jpg), [4](img/vera_lettres_4.jpg), [5](img/vera_lettres_5.jpg), [6](img/vera_lettres_6.jpg), and [7](img/vera_lettres_7.jpg).
 * **Read or Skim**: Vera Molnar's own [1995 Leonardo article](../../../readings/molnar_letters/vera_molnar_my_mothers_letters_leonardo_1995.pdf), and [this 2024 Artforum article](../../../readings/molnar_letters/vera_molnar_artforum_2024.pdf).  
 * **Code**: Re-create or re-interpret *Lettres de ma Mère* in a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).)
-* **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use AxiDraw*.
+* **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use an AxiDraw plotter*.
 * **Post**: In Discord `#2-5-lettres`, **embed** a photo (2–3 variations if relevant) and **write** a few sentences about your approach.
 * **Submit**: Documentation into [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeapsPKJF1MGBi7hKpPzuNrQvNOJIt53q_Uut38GXSwU7Sx2w/viewform?usp=dialog) with clear filenames (e.g. `lastname_lettres.jpg`).
 * **Bring**: Your physical plot to class on 9/3 for pinup.
