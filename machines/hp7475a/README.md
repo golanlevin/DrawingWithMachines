@@ -9,13 +9,10 @@
 3. [**Generate an SVG with Processing**](#3-generate-an-svg-with-processing)
 4. [**Convert the SVG to HPGL with vpype**](#4-convert-svg-to-hpgl-with-vpype)
 5. [**Preview Your HPGL File**](#5-preview-your-hpgl-file)
-6. [**Transmit HPGL to HP7475A with CoolTerm**](#6-transmit-hpgl-to-hp7475a-with-coolterm)
-
-* [HP7475A Tips](#hp7475a-tips)
-* [Some Alternate Workflows](#some-alternate-workflows)
-* [Miscellaneous](#miscellaneous)
-
-*(TODO: Workflow for ofxHPGL.)*
+6. [**Transmit HPGL to HP7475A with CoolTerm on Mac**](#6-transmit-hpgl-to-hp7475a-with-coolterm-on-mac)
+	* [6a. Transmit HPGL to HP7475A with CuteCom on Debian](#6a-transmit-hpgl-to-hp7475a-with-cutecom-on-debian)
+7. [Some Alternate Workflows](#7-some-alternate-workflows)
+8. [Miscellaneous](#8-miscellaneous)
 
 ---
 
@@ -225,7 +222,7 @@ Close the Settings panel and click *Open* on the main UI. Once the connection to
 
 ---
 
-## Some Alternate Workflows
+## 7. Some Alternate Workflows
 
 Vpype is an extremely powerful tool for SVG manipulation, but there are several alternative workflows, especially if you need real-time control of the HP74785a or if you prefer to work in Java or C++.
 
@@ -242,7 +239,7 @@ Vpype is an extremely powerful tool for SVG manipulation, but there are several 
 
 --- 
 
-## Miscellaneous
+## 8. Miscellaneous
 
 * The drawingbots [Discord](https://drawingbots.net/) is a community with many HP7475A enthusiasts.
 * @Beardicus maintains [Awesome-Plotters](https://github.com/beardicus/awesome-plotters), an excellent repository of helpful resources.
@@ -250,7 +247,7 @@ Vpype is an extremely powerful tool for SVG manipulation, but there are several 
 * Here is a [Raspberry Pi printserver for the HP7475A](https://github.com/hughpyle/penplot1.local), which also does SVG to HPGL conversion.
 * [PiPlot](https://github.com/ithinkido/PiPlot): The PiPlot is a hardware shield that adds RS232 conectivity with full serial hardware flow control to the Raspberry Pi Zero.<br />![](images/piplot.jpg)
 
-## CAD Files
+### CAD Files
 
 * [HP7475A pen adapter](3d_pen_adapter/README.md)
 * [HP7475A geneva wheel](3d/hp_7475a_geneva_wheel.stl)
