@@ -104,9 +104,9 @@ Topics in this course include: rule-based art and conditional design; computatio
 
 At the conclusion of this course, students will be able to:
 
-* Be proficient in creating computer programs to execute drawings with plotting machines.
-* Demonstrate familiarity with the repertoire of artists, designers, works and activities centered around generative art with robots and mechatronic plotters.
-* Understand the role of computation in making drawings that explore concepts of procedurality and generativity.
+* Be proficient in creating programs to execute drawings with plotting machines.
+* Demonstrate familiarity with the repertoire of artists, designers, works and activities centered around generative art with drawing machines.
+* Understand the role of algorithms in making drawings that explore concepts of procedurality and generativity.
 * Understand how to document and present creative work online and in person.
 
 
@@ -114,7 +114,7 @@ At the conclusion of this course, students will be able to:
 
 <img src="img/2025_schedule.png" width="480">
 
-This semester, there will be 10 sets of Assignments. These include 7 *weekly assignments* prior to the mid-semester break; a 2-week *Experiment*, with a proposal stage; a 4-week *Investigation*, with proposal and check-in stages; and a culminatory *Portfolio Review* during Finals Week. The themes of the assignment sets will be:
+This semester, there will be 10 sets of Assignments. These include 7 *weekly assignment sets* prior to the mid-semester break; a 2-week *Experiment*, with a proposal stage; a 4-week *Investigation*, with proposal and check-in stages; and a culminatory *Portfolio Review* during Finals Week. The themes of the assignment sets will be:
 
 1. Physical and Conceptual Drawing Machines `8/27`
 2. Introductory Tooling: Creative Coding and Pen Plotting `9/3`
