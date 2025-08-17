@@ -12,7 +12,7 @@
 
 Here is some working demonstration code to compute offset curves: 
 
-* [Processing (Java) v.4.4.4 demo](processing/offset_curves/offset_curves.pde) (requires the [PEmbroider](https://github.com/CreativeInquiry/PEmbroider) library)
+* [Processing (Java) v.4.4 demo](processing/offset_curves/offset_curves.pde) (requires the [PEmbroider](https://github.com/CreativeInquiry/PEmbroider) library)
 * [p5.js (JavaScript) demo](p5js/) (using [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang)
 * [Python demo](python/README.md) (using the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1)
 
@@ -32,10 +32,10 @@ Some other implementations include:
 
 
 ![sedimentary_layers](img/sedimentary_layers.jpg)
-Layers of sedimentary geology, i.e. *varves*
+Layers of sedimentary geology, i.e. [*varves*](https://en.wikipedia.org/wiki/Varve) and other [*rhythmites*](https://en.wikipedia.org/wiki/Rhythmite)
 
 ![laguna_and_condor_agate](img/laguna_and_condor_agate.jpg)
-Laguna Agate and Condor Agate
+Laguna Agate and [Condor Agate](https://en.wikipedia.org/wiki/Condor_agate)
 
 ![coral_growth_bands_great_barrier_slice_in_uv](img/coral_growth_bands_great_barrier_slice_in_uv.jpg)
 Coral growth bands
@@ -47,7 +47,7 @@ Annual tree rings
 Layers of an onion
 
 ![belousov_zhabotinsky_reaction](img/belousov_zhabotinsky_reaction.jpg)
-The Belousov-Zhabotinsky Reaction
+The [Belousov-Zhabotinsky chemical reaction](https://www.youtube.com/watch?v=jRQAndvF4sM)
 
 ---
 
@@ -92,4 +92,4 @@ Jürg Lehni, [*Otto*](https://vimeo.com/129666491), 2014
 [Jenn Karson](https://jennkarson.studio/), *Lifelines*, 2024
 
 ![targz.jpg](img/targz.jpg)
-Work by [Targz](https://www.instagram.com/targz/?hl=en)
+Plotter artwork by [Targz](https://www.instagram.com/targz/?hl=en)
