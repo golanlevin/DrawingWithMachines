@@ -4,10 +4,10 @@
 
 <img src="../../syllabus/img/2025_schedule.png" width="480">
 
-* `Mon 08/25` — [Hello 1](0825_hello/README.md)
-* `Wed 08/27` — [#1 Due](../../assignments/2025/01_drawing_machine/README.md) (Machine); [Hello 2](0827_hello/README.md)
+* `Mon 08/25` — [0825_hello](0825_hello/README.md)
+* `Wed 08/27` — [#1 Due](../../assignments/2025/01_drawing_machine/README.md) (Machine); [0827_hello](0827_hello/README.md)
 * `Mon 09/01` — [Optional Workday (Labor Day)](0901_workday/README.md)  
-* `Wed 09/03` — [#2 Due](../../assignments/2025/02_getting_started/README.md) (Plotting); [Line](0903_line/README.md)
+* `Wed 09/03` — [#2 Due](../../assignments/2025/02_getting_started/README.md) (Plotting); [0903_line](0903_line/README.md)
 * `Mon 09/08` — TBA / Lecture & work session
 * `Wed 09/10` — [#3 Due](../../assignments/2025/03_line/README.md) (Line)
 * `Mon 09/15` — TBA / Lecture & work session
