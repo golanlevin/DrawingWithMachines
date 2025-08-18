@@ -5,25 +5,26 @@
 
 ---
 
-*This lecture presents a few common approaches used in creative coding for "walking a dot", i.e. creating an interesting trace of a moving point.*
+*This lecture presents a few common approaches used in creative coding for "walking a dot", i.e. creating an interesting trace of a moving point.* **Contents:**
 
-**Contents**
-
-1. **Direct Calculation**. Use an equation to determine the position of a point leaving a trace. For example: 
-  * explicit curves: `y=f(x)`
-  * parametric curves: `y=f(t), x=g(t)`, etc.
-  * polar curves: `r=f(θ)` [...and then convert: `x=r*cos(θ), y=r*sin(θ)`]
+1. [**Direct Calculation**](#1-direct-calculation). Use an equation to determine the position of a point leaving a trace. For example: 
+  * Graphs of simple non-parametric functions: `y=f(x)`
+  * Parametric Curves: `y=f(t), x=g(t)`, etc.
+  * Polar curves: `r=f(θ)` [...and then convert: `x=r*cos(θ), y=r*sin(θ)`]
   * Evolutes and involutes
-2. **Differential Curve Plotting**
-3. **Path-Planning Algorithms**
-4. **Whole-line transformations**.
+2. [**Differential Curve Plotting**](#2-differential-curve-plotting)
+  * (Structured) Drunk Walks
+  * Turtle Graphics
+  * Traces from Particle Systems and Flocking Algorithms
+3. [**Path-Planning Algorithms**](#3-path-planning-algorithms)
+4. [**Whole-Line Transformations**](#4-whole-line-methods)
   * Signal processing and filtering (convolution): Smoothing & sharpening
-  * Differential growth
-  * Filament simulations
-  * Recursive Segment Substitution (fractals)
-5. **Grab Bag Time**
-  * Fourier epicycles
-  * Recurrence formula
+  * Simulated Filaments
+  * Differential Growth
+  * Recursive Segment Substitution (Fractals)
+5. [**Grab Bag!**](#5-grab-bag)
+  * Fourier Epicycles
+  * Recurrence Formula
 
 ---
 
@@ -109,6 +110,14 @@ You can view more examples of this type of calligraphy [here](img/flourishes_23.
 
 <img src="img/flourish2.jpg" width="450">
 
+---
+
+## 1.3. Polar Curves; Evolutes and Involutes
+
+Time permitting, discuss: 
+
+* Polar curves: `r=f(θ)` [...and then convert: `x=r*cos(θ), y=r*sin(θ)`]
+* Evolutes and involutes
 
 ---
 
@@ -208,9 +217,9 @@ Researchers have identified several types of random walks on a lattice (discrete
 
 ### Case Study: Michael Fogleman's Combinatorics of Mowing a Lawn, 2021
 
-Michael Fogleman computed [all the unique ways to mow a square lawn of size 7](https://x.com/FogleBird/status/1349118870611767297). These are the combinatorics of Hamiltonian paths. 
+Michael Fogleman exhaustively computed [all the unique ways to mow a square lawn of size 7](https://x.com/FogleBird/status/1349118870611767297). These are the combinatorics of Hamiltonian paths. 
 
-![michael_fogleman_lawn_mowing.png](img/michael_fogleman_lawn_mowing.png)
+<img src="img/michael_fogleman_lawn_mowing.png" width="600">
 
 ---
 
