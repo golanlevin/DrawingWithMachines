@@ -9,7 +9,7 @@ This document provides workflows for generating G-code *files*. For information 
 * [What is G-code?](#what-is-g-code)
 * [Basic G-code Commands](#basic-g-code-commands)
 * [Generating G-code with p5.js](#generating-g-code-with-p5js)
-* [p5.js G-code Drawing Recorder](#p5js-g-code-drawing-recorder)
+	* [p5.js G-code Drawing Recorder](#p5js-g-code-drawing-recorder)
 * [Generating G-code with Python](#generating-g-code-files-with-python)
 * [Other Workflows](#other-workflows)
 
@@ -160,7 +160,7 @@ Once you have generated your G-code file, you can **plot** it on the Bantam ArtF
 ## p5.js G-Code Drawing Recorder
 
 <details>
-  <summary><strong>Click here</strong> for another sample program, a p5.js G-code Drawing Recorder.</summary>
+  <summary><strong>Click here</strong> for information about another sample program, a p5.js G-code Drawing Recorder.</summary>
 
 
 Here's [another p5.js program]((https://editor.p5js.org/golan/sketches/5NkOru6OA)) which records mouse drawings and exports G-Code files: 
@@ -176,7 +176,7 @@ Here's [another p5.js program]((https://editor.p5js.org/golan/sketches/5NkOru6OA
 
 ## Generating G-code Files with Python
 
-[Here's a Python 3.10 program](python/lissajous-gcode.py), `lissajous-gcode.py`, for generating a Lissajous figure and exporting G-code. Note that this program records the design data to a pair of arrays, `x_vals` and `x_vals`, and then uses those arrays for both on-screen display and file export. Code like `gcode_data.append(f"G1 X{gx} Y{gy} Z{Z_HI}")` uses Python *f-strings*, short for formatted string literals, to inject the numbers into a string:
+[Here's a Python 3.10 program](python/lissajous-gcode.py), `lissajous-gcode.py`, for generating a Lissajous figure and exporting G-code. Note that this program records the design data to a pair of arrays, `x_vals` and `y_vals`, and then uses those arrays for both on-screen display and file export. Code like `gcode_data.append(f"G1 X{gx} Y{gy} Z{Z_HI}")` uses Python *f-strings*, short for formatted string literals, to inject the numbers into a string:
 
 
 ```python

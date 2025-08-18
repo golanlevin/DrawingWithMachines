@@ -1,5 +1,6 @@
 # 7: Material Conditions
 
+*Provisionally — Details TBA:*
 
 * 7.1. Plottimation
 * 7.2. Material Exploration

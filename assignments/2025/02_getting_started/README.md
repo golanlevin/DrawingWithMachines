@@ -19,7 +19,7 @@
 
 *(10%, 10 minutes)*
 
-In the blink of an eye — it's 2026. Somehow, this class has completely changed how you work. 
+In the blink of an eye — it's 2026. Somehow, this class has unmistakably changed how you work. 
 
 * What was the breakthrough? 
 * What was the challenge? 
@@ -28,7 +28,7 @@ In the blink of an eye — it's 2026. Somehow, this class has completely changed
 Create a post in the Discord channel `#2-1-personal-speculation`. In your own voice, in a few sentences, please **speculate**. 
 
 <details> <summary><em>What?</em></summary> 
-We’re about to spend a semester making things with machines—and machines have a way of changing the people who use them. This prompt is a way to take your own baseline measurement. Imagine, before we start, how automation might actually <em>matter</em> to you, in your creative work — what you’d want from it, what might trip you up, and what you might have to give up. Months from now, you may be able to look back and see how your thinking has shifted.</details>
+We’re about to spend a semester making things with machines—and machines have a way of changing the people who use them. This prompt is a way to take your own baseline measurement. I ask you to imagine, before we start, how automation might actually <em>matter</em> to you, in your creative work — what you’d want from it, what might trip you up, and what you might have to give up. Months from now, you may be able to look back and see how your thinking has shifted.</details>
 
 
 ---
@@ -126,7 +126,7 @@ Copying or interpreting a masterwork is a classic way artists learn. This assign
 * Creative coding and generative design with a toolkit of your choice 
 * Exporting SVGs for plotting (essential for this course)
 * Observation, analysis, and historical appreciation
-* Expressing your own voice within [asemic writing](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1790.html)
+* Expressing your own creative voice through [asemic writing](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1790.html)
 
 ![molnar_photo](img/molnar_photo.jpg)
 
@@ -141,10 +141,10 @@ Two examples of computationally generated, machine-plotted *Lettres de ma Mère*
 
 * **Examine** plotted examples of the project, [2](img/vera_lettres_2_1987.jpg), [3](img/vera_lettres_3_1988.jpg), [4](img/vera_lettres_4.jpg), [5](img/vera_lettres_5.jpg), [6](img/vera_lettres_6.jpg), and [7](img/vera_lettres_7.jpg).
 * **Read or Skim**: Vera Molnar's own [1995 Leonardo article](../../../readings/molnar_letters/vera_molnar_my_mothers_letters_leonardo_1995.pdf), and [this 2024 Artforum article](../../../readings/molnar_letters/vera_molnar_artforum_2024.pdf).  
-* **Code**: Re-create or re-interpret *Lettres de ma Mère* in a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).) 
+* **Code**: Re-create or re-interpret *Lettres de ma Mère* using a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).) 
 * **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use an AxiDraw plotter*.
 * **Photo or Scan**: Document your plot(s) in one or more high-resolution images. A smartphone photo is acceptable, but I also encourage you to use the classroom scanner (if available).
-* **Post**: In Discord `#2-5-lettres`, **embed** a photo/scan (2–3 variations if relevant) and **write** a few sentences about your approach.
+* **Post**: In Discord `#2-5-lettres`, **embed** a photo/scan (2–3 variations if relevant) and **write** a few sentences about your approach, and/or what you learned. 
 * **Submit**: Documentation into [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeapsPKJF1MGBi7hKpPzuNrQvNOJIt53q_Uut38GXSwU7Sx2w/viewform?usp=dialog) with clear filenames (e.g. `lastname_lettres.jpg`).
 * **Bring**: Your physical plot to class on 9/3 for pinup.
 * **Store**: Following our crit, archive your plot in your provided portfolio book. 

@@ -1,9 +1,11 @@
 # 3: Line
 
+*Provisionally — Details TBA:*
+
 * 3.1. Line Readings
 * 3.2. Line Exercises
 * 3.3. Offset Curve Composition
-* 3.4. Taking A Line for A Walk (3D)
+* 3.4. Taking A Dot for A Walk
 
 ---
 

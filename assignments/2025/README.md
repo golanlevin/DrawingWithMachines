@@ -28,14 +28,17 @@
 
 ## 3. [Line](03_line/README.md) `9/10`
 
-* 3.1. Line Exercises
-* 3.2. Offset Curve Composition
-* 3.3. Taking A Line for A Walk (3D)
+* 3.1. Line Readings
+* 3.2. Line Exercises
+* 3.3. Offset Curve Composition
+* 3.4. Taking A Dot for A Walk
 
 
 ---
 
 ## 4. [Tone/Hatching](04_tone/README.md) `9/17`
+
+*Provisionally:*
 
 * 4.1. Hatching Studies
 * 4.2. Hatched Image/Surface
@@ -44,6 +47,8 @@
 ---
 
 ## 5. [Pattern/Modularity](05_pattern/README.md) `9/24`
+
+*Provisionally:*
 
 * 5.1. Readings
 * 5.2. Truchet Tiling
@@ -54,6 +59,8 @@
 
 ## 6. [Field/Distribution](06_field_distribution/README.md) `10/1` 
 
+*Provisionally:*
+
 * 6.1. Readings
 * 6.2. Packing
 * 6.3. Flow Field
@@ -63,6 +70,8 @@
 ---
 
 ## 7. [Material Conditions](07_material_conditions/README.md) `10/8`
+
+*Provisionally:*
 
 * 7.1. Plottimation
 * 7.2. Material Exploration

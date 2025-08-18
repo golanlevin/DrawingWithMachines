@@ -1,5 +1,6 @@
 # 4: Tone/Hatching
 
+*Provisionally — Details TBA:*
 
 * 4.1. Hatching Studies (50%, 3 hours)
 * 4.2. Hatched Image/Surface (50%, 3 hours)

@@ -16,7 +16,7 @@ Here is some working demonstration code to compute offset curves:
 * [p5.js (JavaScript) demo](p5js/) (using [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang)
 * [Python demo](python/README.md) (using the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1)
 
-Some other implementations include: 
+Some alternative implementations include: 
 
 * [SKIA PathKit (JavaScript via WebAssembly and asm.js)](https://skia.org/docs/user/modules/pathkit/#pathkit) 
 * [OpenFrameworks (C++) implementation](https://github.com/Bryce-Summers/ofxScribbleSegmenter/blob/master/src/OffsetCurves.cpp) by Bryce Summers

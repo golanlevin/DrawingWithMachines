@@ -1,6 +1,6 @@
 # September 1: Labor Day
 
-## ➛ Optional Work Session
+## ➛ *Optional Work Session*
 
 Today is [Labor Day](https://en.wikipedia.org/wiki/Labor_Day), a federal holiday which honors and recognizes the American labor movement. **You are not required to come to class.** 
 

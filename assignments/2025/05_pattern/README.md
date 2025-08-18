@@ -1,5 +1,7 @@
 # 5: Pattern/Modularity
 
+*Provisionally — Details TBA:*
+
 * 5.1. Readings
 * 5.2. Truchet Tiling
 * 5.3. A Tiling Pattern Composition
