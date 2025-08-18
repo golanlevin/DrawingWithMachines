@@ -83,11 +83,18 @@ y = r * sin(t);
 
 ---
 
-### 1.2.2. Case Study: Spencerian Flourishes (1800s copperplate calligraphy)
+### 1.2.2. Case Study: John Whitney's *Permutations* (1968)
+
+Invited to work as an artist-in-residence at IBM's laboratories, animator John Whitney teamed up with programmer Jack P. Citron to create a series of groundbreaking computer animations. Together they created *Permutations* (1968), one of the earliest examples of computer-generated abstract cinema. Whitney employed parametric polar equations like roulettes to control the motion of points and geometric forms, creating hypnotic visual patterns that unfolded with mathematical precision.
+
+[![john_whitney_permutation_1968.jpg](img/john_whitney_permutation_1968.jpg)](https://www.youtube.com/watch?v=nwsYlI4QtGo&t=24s)
+
+
+### 1.2.3. Case Study: Spencerian flourishes (1800s copperplate calligraphy)
 
 Spencerian flourishes are the ornate, looping decorative extensions found in 19th-century copperplate calligraphy, popularized by calligrapher Platt Rogers Spencer in the mid-1800s. They were designed both to beautify handwriting and to demonstrate a calligrapher’s skill in controlling rhythm, curves, and elegant line variation.
 
-Some decorative Spencerian designs can be emulated using parametric equations based on periodic functions. For example, in this [interactive p5.js code example](https://editor.p5js.org/golan/sketches/_bBzlrd26), both `x` and `y` are derived from sinusoidal functions of `t`. These periodic functions approximate the movement of the calligrapher's hand over time:
+Just like Spirograph curves, decorative Spencerian designs can be emulated using parametric equations based on periodic functions. For example, in this [interactive p5.js code example](https://editor.p5js.org/golan/sketches/_bBzlrd26), both `x` and `y` are derived from sinusoidal functions of `t`. These periodic functions approximate the movement of the calligrapher's hand over time:
 
 ```
 x = a * (t + b*sin(3*t) + c*sin(2*t));
@@ -98,7 +105,10 @@ y = d + e * sin(t);
 
 ![flourish-exercises-1](img/flourish-exercises-1.jpg)
 
-You can view more examples of this calligraphy [here](img/flourishes_23.jpg), [here](img/flourish-exercises-2.jpg) and [here](img/flourish-exercises-3.png).
+You can view more examples of this type of calligraphy [here](img/flourishes_23.jpg), [here](img/flourish-exercises-2.jpg) and [here](img/flourish-exercises-3.png). With a bit of work and some help from [this FFT tool](https://lampz.tugraz.at/~hadley/num/ch3/3.3a.php), I was able to [reproduce more complex flourishes](https://editor.p5js.org/golan/sketches/XPmsA_xvR) by summing periodic functions:
+
+<img src="img/flourish2.jpg" width="450">
+
 
 ---
 
@@ -191,13 +201,16 @@ For related work, also see Vera Molnar's 1998 [*Une Ligne Vagabonde*](img/vera_m
 
 ![types_of_random_walks.gif](img/types_of_random_walks.gif)
 
-Researchers have identified several types of random walks on a lattice (discrete grid) — including purely random walks, *non-reversing walks*, [*self-avoiding walks*](https://en.wikipedia.org/wiki/Self-avoiding_walk), and *maximal self-avoiding walks*. A self-avoiding walk is a sequence of moves on a lattice that does not visit the same point more than once. Maximal self-avoiding walks also visit every point in a defined region. 
+Researchers have identified several types of random walks on a lattice (discrete grid) — including purely random walks, *non-reversing walks*, [*self-avoiding walks*](https://en.wikipedia.org/wiki/Self-avoiding_walk), and *maximal self-avoiding walks*. A self-avoiding walk is a sequence of moves on a lattice that does not visit the same point more than once. Maximal self-avoiding walks (also known as *Hamiltonian paths*) furthermore visit every point in a defined region. (And if you also require that the path returns to the starting point and visits every vertex once, that’s a *Hamiltonian cycle*.)
 
-https://thecodingtrain.com/challenges/162-self-avoiding-walk
+* Dan Shiffman presents [techniques for self-avoiding walks on Coding Train](https://thecodingtrain.com/challenges/162-self-avoiding-walk)
 
 
-### Case Study: Michael Fogleman's Combinatorics of Mowing a Lawn
+### Case Study: Michael Fogleman's Combinatorics of Mowing a Lawn, 2021
 
+Michael Fogleman computed [all the unique ways to mow a square lawn of size 7](https://x.com/FogleBird/status/1349118870611767297). These are the combinatorics of Hamiltonian paths. 
+
+![michael_fogleman_lawn_mowing.png](img/michael_fogleman_lawn_mowing.png)
 
 ---
 
@@ -378,7 +391,7 @@ Patt Vira has a [nice YouTube tutorial on differential growth in p5.js](https://
 * [Overview of experiments](https://jasonwebb.github.io/2d-differential-growth-experiments/)
 * [Interactive playground](https://jasonwebb.github.io/2d-differential-growth-experiments/experiments/playground/)
 
-![leah_minsky_blobs.jpg](../../../documentation/2021/img/leah_minsky_blobs.jpg)<br />Differential growth inside blob shapes, by DwM-2021 student, Leah Minsky.
+<img src="../../../documentation/2021/img/leah_minsky_blobs.jpg" width="400"><br />Differential growth inside blob shapes, by DwM-2021 student, Leah Minsky.
 
 
 ### 4.3.1. Case Study: Robert Hodgin's *Meander*
