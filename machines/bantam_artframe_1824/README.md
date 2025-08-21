@@ -4,6 +4,7 @@
 
 #### Useful Links
 
+* Here is a [one-sheet PDF guide](artframe-one-sheet/artframe_instructions.pdf) (2025)
 * Here is the [ArtFrame User Guide](artframe_guide_v1-1-1.pdf) (PDF)
 * Here are instructions for [controlling the ArtFrame in real-time](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime)
 * Here are [code resources for generating G-Code](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode) directly from JavaScript, Java and Python.
