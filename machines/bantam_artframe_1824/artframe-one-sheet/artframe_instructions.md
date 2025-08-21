@@ -1,6 +1,6 @@
 # Plotting SVG files on the ArtFrame 1824
 
-<img src="img/artframe_instructions_qr.png" width="128">
+<img src="artframe_instructions_qr.png" width="128">
 
 ---
 
