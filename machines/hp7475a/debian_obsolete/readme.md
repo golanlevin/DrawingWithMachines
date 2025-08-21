@@ -1,5 +1,11 @@
 # Debian 12 Plotter Machine Configuration Summary
 
+
+*As of August 2025 this document is obsolete and slated for deletion. It has been [replaced by these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/axidraw/debianization.md).*
+
+
+---
+
 This guide outlines the steps needed to prepare a Debian 12 machine for use in the *Drawing with Machines* classroom. It includes setup for HDMI underscan, CoolTerm with root access, screen lock disabling, and SVG plotting via `vpype`.
 
 ---
