@@ -1,6 +1,8 @@
 # Generating G-code Files for Plotters
 
-This document provides workflows for generating G-code *files*. For information on controlling a plotter in *real-time* with G-code, see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/realtime/artframe_realtime/README.md) instead.
+* It is straightforward to *convert* a 2D SVG to G-Code — using, for example, the [BantamToolsStudio app](https://support.bantamtools.com/hc/en-us/articles/36808222820499-Bantam-Tools-Studio-Software-Installation), or the [vpype-gcode](https://github.com/plottertools/vpype-gcode) or [vpype-gscrib](https://vpype-gscrib.readthedocs.io/en/latest/) G-Code plugins for vpype. 
+* However, if you wish to execute **3D** G-Code files, you will probably need to generate these files yourself. This document provides workflows for computationally generating G-code *files*.
+* For information on controlling a plotter in *real-time* with G-code, see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/realtime/artframe_realtime/README.md) instead. 
 
 ---
 

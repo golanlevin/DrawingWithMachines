@@ -23,7 +23,8 @@ Index to instructions for plotting with our classroom equipment.
 
 ## Bantam ArtFrame 1824
 
-* [**Instructions for Plotting with the Bantam ArtFrame 1824**](bantam_artframe_1824/artframe_guide_v1-1-1.pdf)
+* [Plotting SVG's on the Bantam ArtFrame 1824](bantam_artframe_1824/README.md)
+* [Bantam ArtFrame 1824 User Guide](bantam_artframe_1824/artframe_guide_v1-1-1.pdf)
 * [Controlling the ArtFrame in Real-Time with G-Code](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime#readme)
 * [Processing (Java) code](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime/artframe_realtime_processing/artframe_realtime_processing.pde) for controlling the Bantam ArtFrame in real time
 

@@ -1,6 +1,8 @@
 # Some Strategies for Walking a Dot
 
 
+
+
 ![bangert_complex_intersecting_line_1976_spalter](img/bangert_complex_intersecting_line_1976_spalter.jpg)<br />Colette and Charles Bangert, [*Complex Intersecting Line*](https://spalterdigital.com/artworks/3314/), computer plot, 1976. Spalter Collection. [Detail](https://i0.wp.com/spalterdigital.com/wp-content/uploads/2019/09/IMG_4451-e1569338421449.jpeg?fit=2000%2C1500&ssl=1)
 
 ---
@@ -26,6 +28,11 @@
   * Fourier Epicycles
   * Recurrence Formula
 
+<!--
+---
+Digit by Julien Maire!
+
+-->
 ---
 
 ![squiggle.png](img/squiggle.png)

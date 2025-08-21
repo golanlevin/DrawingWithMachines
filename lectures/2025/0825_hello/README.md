@@ -30,6 +30,18 @@
 
 Hello! Who's here?
 
+* 6 repeat students + Santi
+* 4 graduate students
+* 16 undergraduates: 7 BCSA, 6 BFA, 2 BHA, 1 BEA
+* 3 students affiliated with SoArch, 1 from Design
+
+### Studio Knowledge, Machine Literacy, and Peer Support
+
+This semester, I'm honored to welcome back some students who have taken this course before. They know the machines, they’ve survived SVGs.
+
+**If you are a returning student:** *thank you* for being here again. (We've got some new machines and assignments to keep things fresh for you.) You’re part of what will make this studio robust, responsive, and delightful. Your expertise helps lift everyone up. I want to acknowledge that experience — and also gently deputize you. I’m not asking you to be full-on TAs, but I am asking you to share what you know and help others get unstuck. 
+
+This is a rhizomatic studio: learning flows sideways. I am not the center of knowledge. You’ll all be asking each other for help, and hopefully giving help too. And when someone helps you: Give them credit in your project report. We build community that way.
 
 ### What is this class?
 
@@ -38,15 +50,6 @@ Hello! Who's here?
 > This is an advanced studio course in experimental drawing and generative art. Working at the boundaries of creative code, automation, physical materials, and gestural mark-making, we will explore the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, paper, and mark.
 
 *In this course, we will use our brains to control machines to do new things with art supplies.*
-
-
-### Studio Knowledge, Machine Literacy, and Peer Support
-
-This semester, we’re lucky to have a few students who have taken this course before. They know the machines, they’ve survived SVGs.
-
-**If you are a returning student:** *thank you* for being here again. (We've got some new machines and assignments to keep things fresh for you.) You’re part of what will make this studio robust, responsive, and delightful. Your expertise helps lift everyone up. I want to acknowledge that experience — and also gently deputize you. I’m not asking you to be full-on TAs, but I am asking you to share what you know and help others get unstuck. 
-
-This is a rhizomatic studio: learning flows sideways. I am not the center of knowledge. You’ll all be asking each other for help, and hopefully giving help too. And when someone helps you: Give them credit in your project report. We build community that way.
 
 
 ---
@@ -82,7 +85,7 @@ The themes of the units/assignments will be:
 
 ![final_review_2024.jpg](img/final_review_2024.jpg)
 
-* Portfolio Review during Final Exam week
+* Portfolio Review during Final Exam week, to coincide with a...
 * CFA Hallway Exhibition (December 8-12, 3rd Floor South Foyer)
 * Class exhibition at the Bantam [Machine Art Gallery](https://bantamtools.com/pages/gallery), January 2026, Peekskill NY
 * [Card Exchange](https://github.com/golanlevin/DrawingWithMachines/blob/main/documentation/2024/README.md#postcard-exchange) & Coin-Op Vending Machines
@@ -133,6 +136,8 @@ On Wednesday we'll discuss the machines in the room in great detail. But for the
 * *(elsewhere at CMU)* laser cutters, computer-controlled embroidery machines, UR5 robot arm, etc.
 
 ---
+
+(Time Permitting: [Jürg Lehni’s *Viktor*](https://www.youtube.com/watch?v=I3Uuc1Jy3oQ)) (3m)
 
 ![karina_smigla_bobinski_ada_2010.jpg](img/karina_smigla_bobinski_ada_2010.jpg)<br />Karina Smigla-Bobinski, [*ADA*](https://www.youtube.com/watch?v=RPwpC82li2Q), 2010
 
