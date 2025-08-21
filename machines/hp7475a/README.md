@@ -2,6 +2,8 @@
 
 ***Summary:*** *This document outlines a workflow for offline (non-interactive) plotting with an RS-232 HP7475A, using Processing and from a Mac computer. This has been tested in OSX 10.15.7, 11.5.2, and 14.1.2. Last update: 1/6/2024.*
 
+One-Sheet [PDF summary available **here**](hp7475a-one-sheet/hp7475a-one-sheet.pdf) (2025)
+
 #### Contents
 
 1. [**Standalone Testing the HP7475A**](#1-standalone-testing-the-hp7475a)
@@ -13,6 +15,8 @@
 	* [6a. Transmit HPGL to HP7475A with CuteCom on Debian](#6a-transmit-hpgl-to-hp7475a-with-cutecom-on-debian)
 7. [Some Alternate Workflows](#7-some-alternate-workflows)
 8. [Miscellaneous](#8-miscellaneous)
+
+
 
 ---
 
