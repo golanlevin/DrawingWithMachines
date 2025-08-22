@@ -52,6 +52,7 @@ This is a rhizomatic studio: learning flows sideways. I am not the center of kno
 *In this course, we will use our brains to control machines to do new things with art supplies.*
 
 
+
 ---
 
 ### Overview of Semester Units & Assignments
@@ -91,6 +92,17 @@ The themes of the units/assignments will be:
 * [Card Exchange](https://github.com/golanlevin/DrawingWithMachines/blob/main/documentation/2024/README.md#postcard-exchange) & Coin-Op Vending Machines
 
 ![coin-op-plot-machine.jpg](img/coin-op-plot-machine.jpg)
+
+---
+
+### In Sum: What's New for 2025? 
+
+* Machines: Draftmaster, Silhouette, Rotrics; ...(maybe) WaterColor Bot
+* Assignments: Plottimation, Materiality
+* Frontier: Hand+Machine
+* Frontier: Color!
+* January Exhibition
+
 
 ---
 
