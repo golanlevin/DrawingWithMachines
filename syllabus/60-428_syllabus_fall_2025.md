@@ -156,6 +156,8 @@ There are no *specific* extra time committments outside of regularly posted meet
 * **Software**. Recent, well-updated installations of Mac OSX, Windows or Linux are all acceptable operating systems. However, although all of the programming toolkits with which we work are free and cross-platform, it is possible that demonstrations or example projects may only be provided for Mac OSX. 
 * **Camera**. Students must have access to some sort of camera to document their work. A smartphone with a camera is acceptable.
 * **Personal Sketchbook**. It is extremely wise to plan your projects on paper before writing any code. And some ideas can only be worked out on paper itself. Above all, this is a drawing course. In support of this, you are *strongly advised* to maintain a personal sketchbook for this course. 
+* **Thumb Drive**. It may be easiest to move files around on thumb drives and I strongly encourage (but don't require) you to get one. If you do, I recommend getting a [dual USB-C/USB-A thumb drive](https://www.amazon.com/JOIOT-Portable-Keychain-Smartphone-Computer/dp/B0CSW6375K/)
+
 
 ### Communication Tools
 
