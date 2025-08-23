@@ -30,16 +30,19 @@
 
 Hello! Who's here?
 
-* 6 repeat students + Santi
-* 4 graduate students
+![one_room_schoolhouse_1900.jpg](img/one_room_schoolhouse_1900.jpg)
+
+* This is a one-room schoolhouse.
+* 6 repeat students, plus Santi
+* 2 PhD students, 2 Masters, 2 fifth-years, 6 seniors, 8 juniors
 * 16 undergraduates: 7 BCSA, 6 BFA, 2 BHA, 1 BEA
-* 3 students affiliated with SoArch, 1 from Design
+* 3 students affiliated with Architecture, 1 from Design, 2 from SCS
 
 ### Studio Knowledge, Machine Literacy, and Peer Support
 
 This semester, I'm honored to welcome back some students who have taken this course before. They know the machines, they’ve survived SVGs.
 
-**If you are a returning student:** *thank you* for being here again. (We've got some new machines and assignments to keep things fresh for you.) You’re part of what will make this studio robust, responsive, and delightful. Your expertise helps lift everyone up. I want to acknowledge that experience — and also gently deputize you. I’m not asking you to be full-on TAs, but I am asking you to share what you know and help others get unstuck. 
+**If you are a returning student:** *thank you* for being here again. (We've got some new machines and assignments to keep things fresh for you.) You’re part of what will make this studio robust, responsive, and delightful: Your expertise helps lift everyone up. I want to acknowledge that experience — and also gently deputize you. I’m not asking you to be full-on TAs, but I am asking you to share what you know and help others get unstuck. 
 
 This is a rhizomatic studio: learning flows sideways. I am not the center of knowledge. You’ll all be asking each other for help, and hopefully giving help too. And when someone helps you: Give them credit in your project report. We build community that way.
 
@@ -47,11 +50,11 @@ This is a rhizomatic studio: learning flows sideways. I am not the center of kno
 
 *(What do* ***you*** *think this course is about?)*
 
-> This is an advanced studio course in experimental drawing and generative art. Working at the boundaries of creative code, automation, physical materials, and gestural mark-making, we will explore the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, paper, and mark.
+> This is an advanced studio course in experimental drawing, generative art, and creative mechanics. Working at the boundaries of creative code, automation, physical materials, and gestural mark-making, we will explore the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand, paper, and mark.
 
 *In this course, we will use our brains to control machines to do new things with art supplies.*
 
-
+There are no "plotter artist" positions being advertised at Google or Facebook; there is no "plotter-art industry" that this course gives us the qualifications to join. I know for a fact that no other school in the world is offering a class like this right now. We're here because we want to be.
 
 ---
 
@@ -87,7 +90,7 @@ The themes of the units/assignments will be:
 ![final_review_2024.jpg](img/final_review_2024.jpg)
 
 * Portfolio Review during Final Exam week, to coincide with a...
-* CFA Hallway Exhibition (December 8-12, 3rd Floor South Foyer)
+* CFA Hallway Exhibition (December 8-12, CFA 3rd Floor South Foyer)
 * Class exhibition at the Bantam [Machine Art Gallery](https://bantamtools.com/pages/gallery), January 2026, Peekskill NY
 * [Card Exchange](https://github.com/golanlevin/DrawingWithMachines/blob/main/documentation/2024/README.md#postcard-exchange) & Coin-Op Vending Machines
 
@@ -95,9 +98,9 @@ The themes of the units/assignments will be:
 
 ---
 
-### In Sum: What's New for 2025? 
+### (Summary: What's New for 2025?)
 
-* Machines: Draftmaster, Silhouette, Rotrics; ...(maybe) WaterColor Bot
+* Machines: Draftmaster, Silhouette, Rotrics; ...(hopefully) WaterColor Bot
 * Assignments: Plottimation, Materiality
 * Frontier: Hand+Machine
 * Frontier: Color!
