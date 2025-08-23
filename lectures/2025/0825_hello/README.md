@@ -32,11 +32,13 @@ Hello! Who's here?
 
 ![one_room_schoolhouse_1900.jpg](img/one_room_schoolhouse_1900.jpg)
 
-* This is a one-room schoolhouse.
-* 6 repeat students, plus Santi
-* 2 PhD students, 2 Masters, 2 fifth-years, 6 seniors, 8 juniors
-* 16 undergraduates: 7 BCSA, 6 BFA, 2 BHA, 1 BEA
-* 3 students affiliated with Architecture, 1 from Design, 2 from SCS
+* This is a [one-room schoolhouse](img/one_room_schoolhouse_2.jpg), with diversity of:
+* experiences: 6 repeat students, plus our TA, Santi
+* levels: 2 PhD students, 2 Masters, 2 fifth-years, 6 seniors, 8 juniors
+* degrees: 16 undergraduates: 7 BCSA, 5 BFA, 2 BHA, 1 BESA, 1 BDes
+* departments: 3 students affiliated with Architecture, 2 from SCS, 1 from Design
+* Each person will be necessarily working at their own level on their own problem. 
+* Please help each other. 
 
 ### Studio Knowledge, Machine Literacy, and Peer Support
 
@@ -54,7 +56,9 @@ This is a rhizomatic studio: learning flows sideways. I am not the center of kno
 
 *In this course, we will use our brains to control machines to do new things with art supplies.*
 
-There are no "plotter artist" positions being advertised at Google or Facebook; there is no "plotter-art industry" that this course gives us the qualifications to join. I know for a fact that no other school in the world is offering a class like this right now. We're here because we want to be.
+* This course is a partial antidote to virtuality in media arts.
+* This course is practical training for an imaginary field. There are no "plotter artist" positions being advertised at Google or Facebook; there is no "plotter-art industry" that this course will qualify you to join. To the best of my knowledge, no other school in the world is offering a class like this right now. We're here because we want to be *here* — together, in dialogue with each other, with these arcane tools and ideas.
+
 
 ---
 
@@ -115,8 +119,9 @@ The themes of the units/assignments will be:
 
 Your grade in this course is straightforwardly calculated based on your professionalism in completing work and attending class, subject to the policies summarized here. 
 
-* There will be **10 sets** of assignments this semester. Each set of assignments has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. A set of assignments is "forgone" if it is more than one week late, or if it is less than 15% completed.
-* If I am unable to come to class, I will send a message so that you can plan accordingly. I respectfully ask the exact same courtesy of you. Attendance is important, but if you need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me about your attendance. An *excused* absence is one about which you have communicated with me in a timely, professional, and responsible manner; by contrast, "*ghosting*" refers specifically to "No-call, No-show" attendance events. In this course, ghosting is not permitted (allowing for one emergency).
+* There will be **10 sets** of assignments this semester. Each set of assignments has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is based on your easily provable fulfillment of these simple checklists. A set of assignments is "forgone" if it is more than one week late, or if it is less than 15% completed. I will provide feedback to you about your work (and so will your peers), but *your grade is not based on my personal taste.*
+* In this course, **ghosting is not permitted**. If I am unable to come to class, I will send a message so that you can plan accordingly. I respectfully ask the exact same courtesy of you. Attendance is important, but if you need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me about your attendance. An *excused* absence is one about which you have communicated with me in a timely, professional, and responsible manner; by contrast, "*ghosting*" refers specifically to "No-call, No-show" attendance events. You are allowed one emergency.
+
 
 ---
 
