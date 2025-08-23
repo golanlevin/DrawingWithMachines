@@ -284,7 +284,7 @@ In this course, your effort is evaluated according to three different systems, w
 
 *This is art sqool.* With very rare exceptions (I’ll be clear), I will always prefer that you make the assignment interesting *to you* — if necessary, by creatively bending the rules or re-interpreting the assignment. My assignments are starting-points, prompts and propositions; think beyond them. Regardless, however:
 
-Projects will always have a checklist of *supporting requirements*. These are often very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Items on an assignment checklist will be announced with the number of points awarded for each. Be sure to pay careful attention to seemingly trivial requirements. Practically every project assignment will ask you to check off typical subtasks such as (*for example*):
+Projects will always have a checklist of *supporting requirements*. These are often extremely straightforward to fulfill, but if you fail to meet these, you will have points deducted. Items on an assignment checklist will be announced with the number of points awarded for each. Be sure to pay careful attention to seemingly trivial requirements. Practically every project assignment will ask you to check off typical subtasks such as (*for example*):
 
 * **Create** a unique Discord post for your project in the correct channel.
 * **Upload** a static image of your project, such as a screenshot or rendering.
@@ -298,11 +298,11 @@ Projects will always have a checklist of *supporting requirements*. These are of
 
 Your evident care and diligence in fulfilling the stated checklist(s) will be straightforwardly graded. Your final grade will be summed from your various sub-grades, less any demerits due to unexcused absences or lateness. 
 
-Lastly, the following grading policy concerns "**foregone**" assignments — that is, when you have *altogether skipped* one of the semester projects, or on which you have completed less than 15% of points, within one week of its due date (*except as otherwise officially accommodated under University policy*):
+Lastly, the following grading policy concerns "**foregone**" assignments — that is, when you have *altogether skipped* one of the semester project-sets, or on which you have completed less than 15% of points, within one week of its due date (*except as otherwise officially accommodated under University policy*):
 
-* **Forgo 1 assignment**: no impact on your grade whatsoever.
-* **Forgo 2 assignments**: lose a letter grade (e.g., A→B).
-* **Forgo 3+ assignments**: fail the class (B→R).
+* **Forgo 1 assignment-set**: no impact on your grade whatsoever.
+* **Forgo 2 assignment-sets**: lose a letter grade (e.g., A→B).
+* **Forgo 3+ assignment-sets**: fail the class (B→R).
 
 
 ### Evaluations
