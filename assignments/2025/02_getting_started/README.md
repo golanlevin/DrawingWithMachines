@@ -2,9 +2,9 @@
 
 ### Drawing with Machines, Fall 2025 • Due 9/3
 
-![james_merrell_plot](img/james_merrell_plot.jpg)<br />[James Merrill](https://www.instagram.com/lostpixels/?hl=en), [*Busy*](https://www.artblocks.io/exhibitions/busy-by-james-merrill), 2025
+![james_merrell_plot](img/james_merrell_plot.jpg)<br />[James Merrill](https://www.instagram.com/lostpixels/?hl=en), [*Busy*](https://www.artblocks.io/exhibitions/busy-by-james-merrill), Plotter art, 2025
 
-*The purpose of this week's exercises is to observe how others work, try it yourself, and build your first full generative plotter pipeline. This set of exercises has five parts and is due Wednesday, 9/3/2025 at the beginning of class.* 
+*The purpose of this week's exercises is to learn about how some artists work with plotters, and build your first full generative plotter pipeline to try it yourself. This set of exercises has five parts and is due Wednesday, 9/3/2025 at the beginning of class.* 
 
 * [2.1. Personal Speculation](#21-personal-speculation) *(10%, 10 minutes)*
 * [2.2. Looking Outwards: Tooling](#22-looking-outwards-tooling) *(10%, 20 minutes)* 
@@ -59,7 +59,7 @@ The purpose of this exercise is to help introduce you to the landscape of techni
 
 The purpose of this prompt is to develop your familiarity with global practices and international communities of people using code to create art with plotters. You can find this work on the following channels, among other places:
 
-* In the book [*Tracing the Line*](https://vetroeditions.com/products/tracing-the-line), in our classroom
+* In the book [*Tracing the Line*](https://vetroeditions.com/products/tracing-the-line), in our classroom library;
 * On Twitter/X, using the hashtag [#PlotterTwitter](https://twitter.com/hashtag/plottertwitter)
 * On Instagram at [#PlotterTwitter](https://www.instagram.com/explore/tags/plottertwitter/), [#drawingrobot](https://www.instagram.com/explore/search/keyword/?q=%23drawingrobot), [#penplotter](https://www.instagram.com/explore/search/keyword/?q=%23penplotter)
 * On BlueSky, at [#penplotter](https://bsky.app/hashtag/penplotter) and [#plottertwitter](https://bsky.app/hashtag/plottertwitter)
@@ -142,12 +142,12 @@ Two examples of computationally generated, machine-plotted *Lettres de ma Mère*
 * **Examine** plotted examples of the project, [2](img/vera_lettres_2_1987.jpg), [3](img/vera_lettres_3_1988.jpg), [4](img/vera_lettres_4.jpg), [5](img/vera_lettres_5.jpg), [6](img/vera_lettres_6.jpg), and [7](img/vera_lettres_7.jpg).
 * **Read or Skim**: Vera Molnar's own [1995 Leonardo article](../../../readings/molnar_letters/vera_molnar_my_mothers_letters_leonardo_1995.pdf), and [this 2024 Artforum article](../../../readings/molnar_letters/vera_molnar_artforum_2024.pdf).  
 * **Code**: Re-create or re-interpret *Lettres de ma Mère* using a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).) 
-* **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use an AxiDraw plotter*.
-* **Photo or Scan**: Document your plot(s) in one or more high-resolution images. A smartphone photo is acceptable, but I also encourage you to use the classroom scanner (if available).
+* **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use one of the AxiDraw V3 plotters; returning students may explore other machines*. **For AxiDraw instructions, see [this one-sheet how-to](https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone).**
+* **Photo or Scan**: Document your plot(s) in one or more high-resolution images. A smartphone photo is acceptable, but I also encourage you to use the classroom scanner.
 * **Post**: In Discord `#2-5-lettres`, **embed** a photo/scan (2–3 variations if relevant) and **write** a few sentences about your approach, and/or what you learned. 
-* **Submit**: Documentation into [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeapsPKJF1MGBi7hKpPzuNrQvNOJIt53q_Uut38GXSwU7Sx2w/viewform?usp=dialog) with clear filenames (e.g. `lastname_lettres.jpg`).
-* **Bring**: Your physical plot to class on 9/3 for pinup.
-* **Store**: Following our crit, archive your plot in your provided portfolio book. 
+* **Submit**: Documentation into [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeapsPKJF1MGBi7hKpPzuNrQvNOJIt53q_Uut38GXSwU7Sx2w/viewform?usp=dialog) with well-structured, sensible filenames (e.g. `yourname_lettres.jpg`).
+* **Bring**: Your physical plot to class on September 3rd, for pinup.
+* **Store**: Following our discussion, **archive** your plot in your provided portfolio book. 
 
 ![molnar_mothers_letters](../../../lectures/topics/walking_a_dot/img/molnar_mothers_letters.png)
 

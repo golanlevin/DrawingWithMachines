@@ -19,7 +19,12 @@
 ## Why Optimize? Introducing *vpype*
 
 **SVG files often benefit from optimization prior to plotting.** [This article](https://plotterfiles.com/news/optimizing-files-for-plotting) by Maks Surguy offers a good explanation for why we need such optimization. As we can see in Surguy's illustrations below, optimization software (such as [vpype](https://vpype.readthedocs.io), [saxi](https://github.com/nornagon/saxi), and the 
-[PlotterFiles SVG Optimizer](https://plotterfiles.com/tools/optimizer)) can significantly reduce plotting time by changing the *order* in which strokes are plotted; optionally changing the *direction* in which strokes are drawn; *merging* pen-up/pen-down actions when points are sufficiently close; and *eliminating* duplicate paths when they overlap:
+[PlotterFiles SVG Optimizer](https://plotterfiles.com/tools/optimizer)) can significantly reduce plotting time by: 
+
+1. changing the *order* in which strokes are plotted, to reduce travel; 
+2. optionally changing the *direction* in which strokes are drawn; 
+3. *merging* pen-up/pen-down actions when points are sufficiently close; and 
+4. *eliminating* duplicate paths when they overlap:
 
 <table>
 <tr>
