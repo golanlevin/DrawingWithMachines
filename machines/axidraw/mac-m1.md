@@ -1,6 +1,6 @@
-# Using `vsketch` and `vpype` on M1 Macs (2022)
+# (Obsolete) Using `vsketch` and `vpype` on M1 Macs
 
-*This document is from 2022 and is likely obsolete as of 2025. For 2025 instrutions see [here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#1-creating-a-suitable-python310-virtual-environment) and [here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#3-generating-an-svg-using-vsketch-and-vscode).*
+*This document is from 2022 and is obsolete as of 2025. For 2025 instructions see [here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#1-creating-a-suitable-python310-virtual-environment) and [here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#3-generating-an-svg-using-vsketch-and-vscode).*
 
 ---
 

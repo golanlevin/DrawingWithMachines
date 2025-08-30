@@ -2,6 +2,8 @@
 
 *How to plot with AxiDraws using the RPi kiosks.*
 
+Here is a [one-page PDF with this information](axidraw_one_sheet_2025.pdf)
+
 ---
 
 ### 1. Move your SVG file onto the RPi:
