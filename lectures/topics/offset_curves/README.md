@@ -79,6 +79,9 @@ CNC machining toolpaths
 ![mexico_1968_pedro_ramirez](img/mexico_1968_pedro_ramirez.jpg)
 Pedro Ramírez Vázquez et al., [*Mexico 1968 olympics logo*](https://www.logohistories.com/p/folk-art-psychedelia)
 
+![sumit_mehndiratta_no251.jpg](img/sumit_mehndiratta_no251.jpg)
+Sumit Mehndiratta, [*No. 251*](https://www.artfinder.com/product/composition-no-251-5a215/), 2021
+
 ![fordite_layers](img/fordite_layers.jpg)
 Layers in [Fordite](https://en.wikipedia.org/wiki/Fordite)
 
@@ -95,6 +98,9 @@ Zach Lieberman, [*Offsety Person*](https://www.instagram.com/p/BHBKPsgAOA0/), 20
 
 ![lehni_otto](img/lehni_otto.jpg)
 Jürg Lehni, [*Otto*](https://vimeo.com/129666491), 2014
+
+![carl_lostritto_DC-006-020_2016.jpg](img/carl_lostritto_DC-006-020_2016.jpg)
+Carl Lostritto, *Cascading Lines Break the Circle*. Plotter artwork, 2016
 
 ![jenn karson, lifelines](img/jenn_karson_lifelines7604.jpg)
 [Jenn Karson](https://jennkarson.studio/), *Lifelines*, 2024

@@ -144,8 +144,11 @@ This SVG file depicts a vector graphic resembling the following:
 
 ***Summary:*** *[vpype](https://github.com/abey79/vpype), by [Antoine Beyeler](https://github.com/abey79/), "is an extensible CLI pipeline utility which aims to be the Swiss Army knife for creating, modifying and/or optimizing plotter-ready vector graphics." In this section, we will use vpype to convert the SVG to HPGL—in particular, using its export settings for the HP7475A as described [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl). For more information on the HPGL language, here's the complete [HPGL specification](hpgl/HPGL.pdf) (PDF).*
 
-![Image: A generic example of a vpype command.](images/vpype_command_line.svg)<br />(Image: A generic example of a vpype command.)
+![Image: A generic example of a vpype command.](images/vpype_command_line.svg)<br />(Image: A generic example of a typical vpype command.)
 
+This section assumes you have installed *vpype*, and created a virtual environment (e.g. `vpype_venv`) to contain it — [instructions for doing this installation are here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#1-creating-a-suitable-python310-virtual-environment). Now:
+
+<!--
 *This section should take about 10-15m.*
 
 1. The preferred way to install vpype is in a dedicated virtual environment running Python 3.9+. We will follow the *vpype* installation instructions for end-users, [here](https://vpype.readthedocs.io/en/latest/install.html), which are duplicated below. Make sure your computer has at least 1GB of available hard drive space for this virtual environment.
@@ -153,11 +156,14 @@ This SVG file depicts a vector graphic resembling the following:
 3. Using your Mac's Terminal app, install Python 3.9: ```brew install python@3.9```
 4. Change directory to the folder in which you'd like to create your virtual environment, e.g. ```cd /Users/golan/Desktop/myVpype```
 5. Create a new virtual environment in that directory: ```python3.9 -m venv vpype_venv``` . This will create a subdirectory (*vpype_venv*) containing various files. 
-6. Activate the newly created virtual environment: ```source vpype_venv/bin/activate```. (You can exit the virtual environment later by typing ```deactivate```.)
+
+-->
+
+6. Activate your virtual environment: ```source vpype_venv/bin/activate```. (You can exit the virtual environment later by typing ```deactivate```.)
 7. Within the virtual environment, install *pip*: ```pip install --upgrade pip```
 8. Within the virtual environment, install *vype*: ```pip install vpype[all]```
 9. You should now be able to run *vpype*: ```vpype --help```. This may take a moment the first time.
-10. Move a copy of your SVG file into your *myVpype* directory. Verify that vpype can load and display your SVG: ```vpype read lissajous.svg show```. (Note that this viewer exclusively uses metric units.)<br />![The vpype viewer](images/vpype_showing_file.png)
+10. Move a copy of your SVG file into your *myVpype* directory. Verify that vpype can load and display your SVG: ```vpype read lissajous.svg show```. (Note that this viewer exclusively uses metric units.)<br /><img src="images/vpype_showing_file.png" width="400">
 11. **VPYPE TO CONVERT SVG TO HPGL:**<br/> In your Terminal, execute the *vpype* command to read the SVG and write HPGL formatted for the HP7475a. I used this command: ```vpype read lissajous.svg write --device hp7475a --page-size letter --landscape lissajous.hpgl``` but you can find a cookbook of additional recipes [here](https://vpype.readthedocs.io/en/latest/cookbook.html#converting-a-svg-to-hpgl).
 12. This will produce an HPGL file ([lissajous.hpgl](vpype/lissajous.hpgl)), which, when examined with a text editor, contains: 
 
@@ -165,7 +171,8 @@ This SVG file depicts a vector graphic resembling the following:
 IN;DF;PS4;SP1;PU5213,1334;PD5565,1384,5911,1532,6247,1771,6566,2095,6863,2492,7135,2947,7376,3444,7583,3966,7753,4494,7883,5009,7971,5494,8015,5931,8015,6305,7971,6602,7883,6812,7753,6927,7583,6944,7376,6861,7135,6682,6863,6413,6566,6064,6247,5646,5911,5175,5565,4668,5213,4142,4861,3616,4515,3108,4180,2638,3861,2220,3563,1871,3291,1602,3050,1423,2843,1340,2673,1357,2543,1472,2455,1682,2411,1979,2411,2352,2455,2789,2543,3274,2673,3790,2843,4318,3050,4840,3291,5337,3563,5792,3861,6188,4180,6512,4515,6752,4861,6900,5213,6949,5565,6900,5911,6752,6247,6512,6566,6188,6863,5792,7135,5337,7376,4840,7583,4318,7753,3790,7883,3274,7971,2789,8015,2352,8015,1979,7971,1682,7883,1472,7753,1357,7583,1340,7376,1423,7135,1602,6863,1871,6566,2220,6247,2638,5911,3108,5565,3616,5213,4142,4861,4668,4515,5175,4180,5646,3861,6064,3563,6413,3291,6682,3050,6861,2843,6944,2673,6927,2543,6812,2455,6602,2411,6305,2411,5931,2455,5494,2543,5009,2673,4494,2843,3966,3050,3444,3291,2947,3563,2492,3861,2095,4180,1771,4515,1532,4861,1384,5213,1334;PU10365,7962;SP0;IN;
 ```
 
-**Helpful *vpype* tips** ([explained here](https://github.com/abey79/vpype)): 
+
+### **Helpful *vpype* tips** ([explained here](https://github.com/abey79/vpype)): 
 
 * The online documentation for vpype is [here](https://vpype.readthedocs.io/en/stable/).
 * *vpype* can also layout existing vector files with precise control of position, scale and page format.
