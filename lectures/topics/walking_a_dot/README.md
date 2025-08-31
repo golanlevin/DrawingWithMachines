@@ -1,13 +1,12 @@
 # Some Strategies for Walking a Dot
 
-
-
+*This lecture presents a few common approaches used in creative coding for "walking a dot", i.e. creating an interesting trace of a moving point.* 
 
 ![bangert_complex_intersecting_line_1976_spalter](img/bangert_complex_intersecting_line_1976_spalter.jpg)<br />Colette and Charles Bangert, [*Complex Intersecting Line*](https://spalterdigital.com/artworks/3314/), computer plot, 1976. Spalter Collection. [Detail](https://i0.wp.com/spalterdigital.com/wp-content/uploads/2019/09/IMG_4451-e1569338421449.jpeg?fit=2000%2C1500&ssl=1)
 
 ---
 
-*This lecture presents a few common approaches used in creative coding for "walking a dot", i.e. creating an interesting trace of a moving point.* **Contents:**
+### **Contents:**
 
 1. [**Direct Calculation**](#1-direct-calculation). Use an equation to determine the position of a point leaving a trace. For example: 
   * Graphs of simple non-parametric functions: `y=f(x)`
@@ -43,23 +42,33 @@ Digit by Julien Maire!
 
 ### 1.1.1. Case Study: Vera Molnar's *Mont St. Victoire*
 
-The profile of the Mont Sainte-Victoire, a mountain in southern France, became the subject of [more than 30 of Cézanne's paintings](https://en.wikipedia.org/wiki/Mont_Sainte-Victoire_(C%C3%A9zanne)). In the 1980s, pioneering computer artist Vera Molnar, living in France and a fan of Cezanne, likewise considered Mont St. Victoire as a subject in a [series of plotter artworks](https://dam.org/museum/artists_ui/artists/molnar-vera/sainte-victoire/), representing this *instantly-recognizable* landscape with a piecewise continuous, single-valued polyline. 
+![mont_saint-victoire.jpg](img/mont_saint-victoire.jpg)
+
+The profile of the Mont Sainte-Victoire, a mountain in southern France, became the subject of [more than 30 of Cézanne's paintings](https://en.wikipedia.org/wiki/Mont_Sainte-Victoire_(C%C3%A9zanne)). In 1989, pioneering computer artist Vera Molnar, living in France and a fan of Cezanne, likewise considered Mont St. Victoire as a subject in a [series of plotter artworks](https://dam.org/museum/artists_ui/artists/molnar-vera/sainte-victoire/), representing this instantly-recognizable landscape with a piecewise continuous, single-valued polyline. Molnar [wrote](https://dam.org/museum/artists_ui/artists/molnar-vera/sainte-victoire/) that for her, the shape of Mont St. Victoire was also visually related to the Gaussian [bell curve](https://en.wikipedia.org/wiki/Normal_distribution), y ≈ e<sup>-x<sup>2</sup></sup>
+
 
 ![vera_molnar_mount_st_victoire_variations.jpg](img/vera_molnar_mount_st_victoire_variations.jpg)
 
 ### 1.1.2. Case Study: Bridget Riley
 
-In the 1960s and 70s, as part of the *Op Art* movement, English artist Bridget Riley made large paintings with rhythmic patterns of sine waves. At their foundation, these paintings present traces of `y = sin(x)` — though there is much more going on here with color, rhythm, and composition. 
+In the 1960s and 70s, as part of the *Op Art* movement, English artist Bridget Riley made large paintings with rhythmic patterns of sine waves. At their foundation, these paintings present traces of `y = sin(x)` — though there is much more going on here than a mere function plot, with color, rhythm, and composition. 
 
 ![bridget_riley_cataract3.webp](img/bridget_riley_cataract3.webp)<br />A recent photo of Bridget Riley standing in front of her 1967 painting, *Cataract 3*.
 
-Although Riley did not use a computer, she did have access to [books like these](https://archive.org/details/fiveplacelogari10hillgoog/page/n380/mode/2up) shown below, containing tables of values of sines and cosines. This is how most people did trigonometric calculations before the personal computer.
+Although Riley did not use a computer, she did have access to [books like these](https://archive.org/details/fiveplacelogari10hillgoog/page/n380/mode/2up) shown below, containing tables of values of sines and cosines. Using such books is how most people did trigonometric calculations before the personal computer and scientific calculator.
 
 ![sine_table_book.jpg](img/sine_table_book.jpg)
 
 ---
 
 ## 1.2. Parametric Curves
+
+Here we discuss *parametric* curves, where each point `(x,y)` on the curve is computed using functions of some other number — the parameter `t`.
+
+``` 
+x = f(t);
+y = g(t);
+```
 
 ### 1.2.1. Case Study: Spirograph Curves
 
@@ -78,7 +87,7 @@ Spirographs were commercialized in the mid-1960s, but [had their origins](https:
 The kinematic model shown here traces out a [*trochoid*](https://mathworld.wolfram.com/Trochoid.html). These are curves that are formed by a point on either the radius of a circle, the circumference of a circle, or the extension of the radius of a circle as it rolls along a straight line. Trochoids obey the parametric equations below, as demonstrated in [this p5 sketch](https://editor.p5js.org/golan/sketches/XeVk96kax),
 
 ``` 
-x = a*t - b*sin(t)
+x = a*t - b*sin(t);
 y = a - b*cos(t);
 ```
 
@@ -102,7 +111,7 @@ Invited to work as an artist-in-residence at IBM's laboratories, animator John W
 
 Spencerian flourishes are the ornate, looping decorative extensions found in 19th-century copperplate calligraphy, popularized by calligrapher Platt Rogers Spencer in the mid-1800s. They were designed both to beautify handwriting and to demonstrate a calligrapher’s skill in controlling rhythm, curves, and elegant line variation.
 
-Just like Spirograph curves, decorative Spencerian designs can be emulated using parametric equations based on periodic functions. For example, in this [interactive p5.js code example](https://editor.p5js.org/golan/sketches/_bBzlrd26), both `x` and `y` are derived from sinusoidal functions of `t`. These periodic functions approximate the movement of the calligrapher's hand over time:
+Just like Spirograph curves, many decorative Spencerian designs can be emulated using parametric equations based on periodic functions. For example, in this [interactive p5.js code example](https://editor.p5js.org/golan/sketches/_bBzlrd26), both `x` and `y` are derived from sinusoidal functions of `t`. These periodic functions approximate the movement of the calligrapher's hand over time:
 
 ```
 x = a * (t + b*sin(3*t) + c*sin(2*t));
@@ -123,8 +132,8 @@ You can view more examples of this type of calligraphy [here](img/flourishes_23.
 
 Time permitting, discuss: 
 
-* Polar curves: `r=f(θ)` [...and then convert: `x=r*cos(θ), y=r*sin(θ)`]
-* Evolutes and involutes
+* Polar curves: `r=f(θ)` [...and then convert: `x=r*cos(θ), y=r*sin(θ)`]. Here's the Mathworld [polar curves](https://mathworld.wolfram.com/topics/PolarCurves.html) page, the [Cranioid page](https://mathworld.wolfram.com/Cranioid.html), and a p5.js [cranioid demo](https://editor.p5js.org/golan/sketches/2HuAJCzhG)
+* [Evolutes](https://mathworld.wolfram.com/Evolute.html) and involutes
 
 ---
 
@@ -462,11 +471,10 @@ https://editor.p5js.org/p5/sketches/Simulate:_Koch
 
 ## 5.2. Case Study: Recurrence Formula by Deconbatch
 
-https://editor.p5js.org/golan/sketches/l1uB6Kdy8
+* [article](https://www.deconbatch.com/2019/05/think-it-over.html)
+* [p5.js demo](https://editor.p5js.org/golan/sketches/l1uB6Kdy8)
 
-https://www.deconbatch.com/2019/05/think-it-over.html
-
-![recurrence_formula.jpg](img/recurrence_formula.jpg)<br />Recurrence formula art by Dmitri Cherniak (left) and Deconbatch (right)
+![recurrence_formula.jpg](img/recurrence_formula.jpg)<br />Recurrence formula art by Dmitri Cherniak (left) and Deconbatch (right), using a formula by Deconbatch.
 
 
 <!--

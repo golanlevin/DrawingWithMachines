@@ -25,7 +25,7 @@ In the blink of an eye — it's 2026. Somehow, this class has unmistakably chang
 * What was the challenge? 
 * What was the casualty?
 
-Create a post in the Discord channel `#2-1-personal-speculation`. In your own voice, in a few sentences, please **speculate**. 
+Create a post in the Discord channel `#2-1-personal-speculation`. In your own voice, in a few sentences, please **speculate** about the questions above. 
 
 <details> <summary><em>What?</em></summary> 
 We’re about to spend a semester making things with machines—and machines have a way of changing the people who use them. This prompt is a way to take your own baseline measurement. I ask you to imagine, before we start, how automation might actually <em>matter</em> to you, in your creative work — what you’d want from it, what might trip you up, and what you might have to give up. Months from now, you may be able to look back and see how your thinking has shifted.</details>
@@ -67,6 +67,7 @@ The purpose of this prompt is to develop your familiarity with global practices 
 
 You can also browse work by some individual contemporary artists who use code and plotters extensively in their practices. Here's a partial list I've prepared (you are not limited to these artists):
 
+
 | Artists                 |                           |                         |
 |:------------------------|:--------------------------|:------------------------|
 | [Adam Fuhrer](https://adamfuhrer.bigcartel.com/) | [Catherine B](https://www.instagram.com/catherineb_._/) | [Frederik Vanhoutte](https://www.instagram.com/wblut/) |
@@ -78,14 +79,14 @@ You can also browse work by some individual contemporary artists who use code an
 | [Magda Brzezińska](https://www.instagram.com/magmidas_art/) | [Marius Watz](https://www.instagram.com/nosuchfuture/) | [Michael Fogleman](https://www.michaelfogleman.com/plotter/) |
 | [Michaël Zancan](https://www.instagram.com/zancan.code/?hl=en) | [Michelle Chandra](https://www.dirtalleydesign.com/collections/flowers-and-leaves) | [Patrick Tresset](https://www.instagram.com/patricktresset/) |
 | [Paul Prudence](https://www.instagram.com/mrprudence/) | [Paul Rickards](https://shop.paulrickards.com/galleries/) | [Rev Dan Catt](https://www.instagram.com/revdancatt) |
-| [Ron Scalera](https://x.com/robscalera) | [Shojiro Nakaoka](https://viridian-adapter-f76.notion.site/PLOTTER-WORKS-1c972edc8aa680fc9cedef0cd5587c58) | [Sougwen Chung](https://sougwen.com/) |
+| [Rob Scalera](https://x.com/robscalera) | [Shojiro Nakaoka](https://viridian-adapter-f76.notion.site/PLOTTER-WORKS-1c972edc8aa680fc9cedef0cd5587c58) | [Sougwen Chung](https://sougwen.com/) |
 | [Julien Terraz (Targz)](https://www.instagram.com/targz/) | [Travess Smalley](https://www.instagram.com/travess/?hl=en) |[Floris de Jonge](https://bsky.app/profile/florisdejonge.bsky.social) |
 
 Please spend about 20-25 minutes browsing these materials to get a sense of how some artists are combining computation and plotter devices. *Now*,
 
 * **Create** a post in the Discord channel, `#2-3-looking-at-art`.
 * **Write** a sentence or two reflecting on the work you saw, overall. What stood out to you — visually, conceptually, or technically? What opportunities did you see? Why do you think people are combining generative art and plotting machines?
-* **Pick** an artwork you find compelling — and that involved a plotter in some way (not just generative art). In your post, **link** to the project's URL, and **embed** an image or screenshot of the project. 
+* **Pick** an artwork you find compelling — and which also involved a plotter in some way (not just generative art). In your post, **link** to the project's URL, and **embed** an image or screenshot of the project. 
 * **Write** another sentence or two, on what you appreciated about this particular project.
 
 
