@@ -65,7 +65,7 @@ The purpose of this prompt is to develop your familiarity with global practices 
 * On BlueSky, at [#penplotter](https://bsky.app/hashtag/penplotter) and [#plottertwitter](https://bsky.app/hashtag/plottertwitter)
 * In the Feral File exhibition, [*+GRAPH*](https://feralfile.com/explore/exhibitions/graph-8vs)
 
-You can also browse work by some individual contemporary artists who use code and plotters extensively in their practices. Here's a partial list I've prepared:
+You can also browse work by some individual contemporary artists who use code and plotters extensively in their practices. Here's a partial list I've prepared (you are not limited to these artists):
 
 | Artists                 |                           |                         |
 |:------------------------|:--------------------------|:------------------------|
@@ -141,11 +141,11 @@ Two examples of computationally generated, machine-plotted *Lettres de ma Mère*
 
 * **Examine** plotted examples of the project, [2](img/vera_lettres_2_1987.jpg), [3](img/vera_lettres_3_1988.jpg), [4](img/vera_lettres_4.jpg), [5](img/vera_lettres_5.jpg), [6](img/vera_lettres_6.jpg), and [7](img/vera_lettres_7.jpg).
 * **Read or Skim**: Vera Molnar's own [1995 Leonardo article](../../../readings/molnar_letters/vera_molnar_my_mothers_letters_leonardo_1995.pdf), and [this 2024 Artforum article](../../../readings/molnar_letters/vera_molnar_artforum_2024.pdf).  
-* **Code**: Re-create or re-interpret *Lettres de ma Mère* using a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).) 
-* **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use one of the AxiDraw V3 plotters; returning students may explore other machines*. **For AxiDraw instructions, see [this one-sheet how-to](https://github.com/golanlevin/DrawingWithMachines/tree/main/rpi_standalone).**
+* **Code**: Re-create or re-interpret *Lettres de ma Mère* using a programming toolkit of your choice. Your program must be generative and export SVGs. (Practical [instructions for creating SVGs with p5.js, vsketch (Python), or Processing (Java) can be found here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/README.md).) If you're using p5.js, I recommend starting from [this template project](https://editor.p5js.org/golan/sketches/LRTXmDg2q).
+* **Plot**: Black or blue ink, 9×12" or 8.5×11" white paper. *First‑time DwM students should use one of the AxiDraw V3 plotters; returning students may explore other machines*. **For AxiDraw instructions, see [this one-sheet how-to](https://github.com/golanlevin/DrawingWithMachines/blob/main/rpi_standalone/README.md).**
 * **Photo or Scan**: Document your plot(s) in one or more high-resolution images. A smartphone photo is acceptable, but I also encourage you to use the classroom scanner.
 * **Post**: In Discord `#2-5-lettres`, **embed** a photo/scan (2–3 variations if relevant) and **write** a few sentences about your approach, and/or what you learned. 
-* **Submit**: Documentation into [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeapsPKJF1MGBi7hKpPzuNrQvNOJIt53q_Uut38GXSwU7Sx2w/viewform?usp=dialog) with well-structured, sensible filenames (e.g. `yourname_lettres.jpg`).
+* **Submit**: Documentation into [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeapsPKJF1MGBi7hKpPzuNrQvNOJIt53q_Uut38GXSwU7Sx2w/viewform?usp=dialog) with well-structured, sensible filenames, please (e.g. `yourname_lettres.jpg`).
 * **Bring**: Your physical plot to class on September 3rd, for pinup.
 * **Store**: Following our discussion, **archive** your plot in your provided portfolio book. 
 
