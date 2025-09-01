@@ -22,7 +22,7 @@
 6. **Activate** the newly created virtual environment: `source myDwMPy310Venv/bin/activate`. (You can exit the virtual environment later by typing `deactivate`.) Your Terminal prompt should change to indicate that you are now operating within this virtual environment.
 7. We will now **add some libraries** to grow our virtual environment. First we will install/update `pip`, which is a package manager for Python that lets you install and manage external libraries and tools: `pip install --upgrade pip`.
 8. Now we **add** more libraries: support for [Jupyter](https://jupyter.org/) notebooks and [matplotlib](https://matplotlib.org/), a graphing/visualization library. Type: `pip install notebook matplotlib`
-9. We now install *vpype* and its collection of sidecar plugins: `pip install "vpype[all]"`
+9. We now install *vpype* and its collection of sidecar plugins: `pip install "vpype[all]"`. Note that the `[all]` installs the helpful *vpype* viewer.
 10. We will also install vpype's sibling project, *vsketch*: `pip install vsketch`, which will come in handy soon.  
 11. *vpype* should now be installed and ready to use. You may check that it is fully functional by checking its version: `vpype --version` (I get the result: `vpype 1.13.0`.) You can also check *vpype* by displaying some random lines: `vpype random show`.
 12. *Eventually*, you may wish to also `pip install` some additional useful libraries into this virtual environment, such as: 

@@ -1,18 +1,26 @@
 # 3: Line
 
 <img src="img/ellsworth_kelly_rubber_plant_1957.jpg" width="400"><br />
-<small>Ellsworth Kelly, *Rubber Plant*, 1957</small>
+<small>Ellsworth Kelly, [*Rubber Plant*](https://matthewmarks.com/exhibitions/ellsworth-kelly-plant-drawings-05-2017), 1957</small>
 
 * 3.1. Line Readings
 * 3.2. Line Exercises
+	* 3.2.0. Install and Test *vpype*
 * 3.3. Offset Curve Composition
 * 3.4. Taking A Dot for A Walk
 
 ---
 
-### 3.1.0. Install *vpype*
+### 3.2.0. Install and Test *vpype*
 
-It's time. As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/vpype_svg_prep/README.md), *vpype* is a powerful tool for preparing SVG files for plotting. From this point on, it will be extremely handy to have a Python3.10 virtual environment installed on your laptop that can run *vpype*. Instructions for installing the right version of Python, creating a correctly-configured virtual environment, and installing *vpype* can be found here: [**Creating a Suitable Python3.10 Virtual Environment**](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#1-creating-a-suitable-python310-virtual-environment).
+<img src="img/vpype_demo.png" width="400">
+
+As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/vpype_svg_prep/README.md), *vpype* is a powerful tool for preparing SVG files for plotting; from this point on, it will be extremely handy to have a Python3.10 virtual environment installed on your laptop that can run *vpype*. Instructions for installing *vpype* can be found here: [**Creating a Suitable Python3.10 Virtual Environment**](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#1-creating-a-suitable-python310-virtual-environment). *So, please:*
+
+* **Install** *vpype*, using these [instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#1-creating-a-suitable-python310-virtual-environment).
+* **Test** *vpype* with commands like `vpype --help` and `vpype random show`.
+* **Run** the following *vpype* command, but **replace** "Your Name": `vpype text --font futural --size 40 "Your Name :)" show`. 
+* **Screenshot** the *vpype* display with your name and **post** it in the Discord channel `#320-vpype-works`.
 
 
 ---
