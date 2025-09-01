@@ -226,6 +226,8 @@ if __name__ == "__main__":
 
 Now you can **run** it! In Terminal, from within the `my_vsketch_projects` folder containing your project, **type**: `vsk run lissajous_demo`. This will launch the vsketch viewer. You can **adjust** the stubbed-out parameters, and when you like the results, **clicking** the "LIKE!" button will save an SVG to `lissajous_demo/output/lissajous_demo_liked_1.svg`. 
 
+**Note**: it is expected that you will **run the project through the vsketch viewer**; *running the project as a normal Python program will introduce undesirable additional elements in the SVG.* 
+
 ![vsketch-lissajous.png](img/vsketch-lissajous.png)
 
 ### Connecting VS Code to our Venv
