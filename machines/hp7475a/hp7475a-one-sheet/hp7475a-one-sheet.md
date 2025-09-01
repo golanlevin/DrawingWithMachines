@@ -7,19 +7,16 @@
 * **Move** a copy of your SVG file into your current working directory. (On the Debian MacMini, you might wish to do this with a thumb drive, or `wget`, `rsync`, etc.)
 * **Execute** a *vpype* command like the one below to convert the SVG into HPGL formatted for the HP7475a. (You can **preview** your HPGL file in the browser using [ShareCad.org](https://sharecad.org/).)
 
-```
-vpype read input.svg write --device hp7475a 
---page-size letter --landscape output.hpgl 
-```
+`
+vpype read input.svg write --device hp7475a --page-size letter --landscape output.hpgl 
+`
 
 * The *speed* of the HP7475A plotter can be adjusted from 0.38 to 38.1 cm/second, using the *vpype* ```-velocity``` command.
 * A more elaborated *vpype* command can also scale, crop, and do complex optimizations on your design, as shown below. Consult the *vpype* docs to use these commands wisely! 
 
-```
-vpype read input.svg scale 0.9 0.9 crop 0.5in 0.5in 10.0in 7.5in 
-linesimplify reloop linemerge --tolerance 0.1mm linesort --no-flip 
-write --device hp7475a --velocity 3 --page-size letter output.hpgl 
-```
+`
+vpype read input.svg scale 0.9 0.9 crop 0.5in 0.5in 10.0in 7.5in linesimplify reloop linemerge --tolerance 0.1mm linesort --no-flip write --device hp7475a --velocity 3 --page-size letter output.hpgl 
+`
 
 ---
 
