@@ -55,7 +55,7 @@ Of course, there are *many* ways to do this; for example, you might:
 * **Use** your function to create a "test-sheet design" that uses at least three line weights. You may use any color pen(s) and any color paper, but your design should allow for direct comparison between lines of different weights that were drawn with the same pen.
 * **Plot** your test-sheet design on 8.5x11" or 9x12" paper. I recommend using either AxiDraw or HP7475A plotters for this project.
 	* As a reminder, instructions for plotting with the AxiDraw V3's are [here](https://github.com/golanlevin/DrawingWithMachines/blob/main/rpi_standalone/README.md). 
-	* **Note**: If you use the HP7475A, you will need to convert SVG to HPGL using *vpype*; see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/vpype_svg_prep/README.md), and this [one-sheet PDF for using the HP7475A](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/hp7475a-one-sheet/hp7475a-one-sheet.pdf).
+	* **Note**: If you use the HP7475A, you will need to convert SVG to HPGL using *vpype*; see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/vpype_svg_prep/README.md), and this [one-sheet PDF for using the HP7475A](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/hp7475a-one-sheet/hp7475a-one-sheet.md).
 
 
 
