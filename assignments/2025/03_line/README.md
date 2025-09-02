@@ -3,16 +3,15 @@
 <img src="img/ellsworth_kelly_rubber_plant_1957.jpg" width="400"><br />
 <small>Ellsworth Kelly, [*Rubber Plant*](https://matthewmarks.com/exhibitions/ellsworth-kelly-plant-drawings-05-2017), 1957</small>
 
-This set of assignments has three main parts
+This set of assignments has three main parts: a series of warmup exercises, a minor project, and a main project. **You are asked to decide whether 3.2 or 3.3 is your minor/main project, and vice-versa.**
 
-* 3.1. [Warmup Exercises]()
-	* 3.1.0. [Install and Test vpype]() *(0-60 minutes)*
-	* 3.1.1. [Naive Offset Curve]() *(30 minutes)*
-	* 3.1.2. [Making Lines with Different Weights]() *(30 minutes)*
-	* 3.1.3. [Squiggy Hacking]() *(30 minutes)*
-* 3.2. [Offset Curve Composition]() *(1-3 hours)*
-* 3.3. [Taking A Dot for A Walk]() *(2-4 hours)*
-
+* 3.1. [Warmup Exercises](#31-warmup-exercises) *(~2 hours)*
+	* 3.1.0. [Install and Test vpype](#310-install-and-test-vpype) *(0-60 minutes)*
+	* 3.1.1. [Naive Offset Curve](#311-naive-offset-curve) *(30 minutes)*
+	* 3.1.2. [Making Lines with Different Weights](#312-making-lines-with-different-weights) *(30 minutes)*
+	* 3.1.3. [Squiggy Hacking](#313-squiggy-hacking) *(30 minutes)*
+* 3.2. [Offset Curve Composition](#32-offset-curve-composition) *(2-3 hours)*
+* 3.3. [Taking A Dot for A Walk (in 3D)](#33-taking-a-dot-for-a-walk-in-3d) *(2-3 hours)*
 
 ---
 
@@ -39,9 +38,9 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 
 ---
 
-## 3.1.1. Naive Offset Curve
+## 3.1.1. (Naive) Offset Curve
 
-**(30 minutes)** *The purpose of this exercise is to give you a practical appreciation of offset curves, which are an important ingredient in computing thickened lines. For this exercise, a screenshot is required — no plot.*
+**(30 minutes)** *The purpose of this exercise is to give you a bottom-up appreciation of offset curves, which can be an essential ingredient in computing thickened lines. For this exercise, only a screenshot is required — no plot.*
 
 <img src="img/offset-curves-of-sine-curve.png" width="500">
 
@@ -50,8 +49,9 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 ![naive_offset_demo.png](img/naive_offset_demo.png)
 
 * **Write** a program that stores cursor points while a user draws.
-* **Connect** these points with a polyline (shown in black, above). *(In the example shown above, I also tossed in some local averaging to improve the smoothness of my polyline, but you don't have to.)*
-* **Compute** a new polyline (shown above in red) derived from the user's drawing, using trigonometry or other simple mathematics, which is *offset* everywhere from the user's drawing by a fixed distance of (say) 25 pixels. *(Don't use any fancy libraries, and don't try to resolve any issues with unexpected cusps or self-intersections that arise.)*
+* **Connect** these points with a polyline (shown in black, above). *(In the example shown here, I also performed some local averaging to improve the smoothness of my polyline, but you don't have to.)*
+* **Compute** an additional polyline (shown above in red) derived from the user's drawing, which is *offset* everywhere from the user's drawing by a fixed distance of (say) 25 pixels. You can do this with just a few lines of trigonometry. *(Don't use any fancy libraries, and don't try to resolve any issues with unexpected cusps or self-intersections that arise.)*
+* ***SIGH.*** ChatGPT is able to execute this assignment reasonably well. Personally, I genuinely think it's worth understanding how to do this exercise yourself — it hits a lot of pedagogic goals... or at least, it *used* to. But if you find yourself spending more than 15 minutes puzzling over the trigonometry, it may be best to ask your AI friend for help.
 * **Create** a Discord post in the channel `#311-naive-offset`.
 * **Draw** your cursive initials using your sketch, and **embed** a screenshot of your sketch in your Discord post. 
 * Optionally, **write** a sentence in your Discord post discussing any observations.
@@ -142,17 +142,18 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 # 3.2. Offset Curve Composition 
 
-**(90-120 minutes, 25%)** *This is the smaller of the two main creative projects for this unit.*
+**(90-120 minutes, 25%)** *You are provided with libraries for computing "proper" offset curves, and invited to use them to make a creative composition.*
 
 ![jenn_karson_offset_leaves](img/jenn_karson_offset_leaves.jpg)
 
-
-
+* **Choose** whether you would like this project or the *Dot-for-a-Walk* composition (3.3) to be your main focus for this week.
 * **Review** [this presentation about offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves). **Observe** that [code for computing offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves#code) is provided for several toolkits. 
-* Develop a composition using offset curves.
-* There are no Plot your composition using any device, pen, and paper available. 
-
-
+* **Develop** a composition using offset curves.
+* **Plot** your offset curve composition — you are encouraged to use an AxiDraw or HP7475A plotter. This is a good opportunity to **experiment** with different pens and paper.
+* **Create** a post in the Discord channel, `#33-line-walk`.
+* **Embed** a scan or photograph of your plotted project in your Discord post.
+* **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned.
+* **Bring** your plot to class for pinup on September 10.
 
 
 ---
@@ -162,9 +163,9 @@ If you find this project interesting, I highly encourage you to read or skim the
 ![picasso dachshund 1957](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/picasso_dachshund.jpg)<br />
 Pablo Picasso, *Chien* (Dog), 1957.
 
-**(2-4 hours, 50%)** *The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills in using code to govern a foundational graphical form: a single line.*
+**(2-4 hours, 50%)** *The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills in using code to govern a foundational graphical form: a single line. The assignment is complexified by the additional requirement to control a pen's (`z`) pressure, and not just its `x,y` position.*
 
-Recall Paul Klee’s [*Pedagogical Sketchbook*](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf) (1925), in which he proposes that “a line is a dot that went for a walk”.
+**Recall** Paul Klee’s [*Pedagogical Sketchbook*](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf) (1925), in which he proposes that “a line is a dot that went for a walk”.
 
 [![Klee line walk, from Pedagogical Sketchbook](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/klee_line_walk.jpg)](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf)
 
@@ -178,19 +179,19 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 
 *Now:*
 
+* **Choose** whether you would like this project or the *Offset Curve Composition* (3.2) to be your main focus for this week.
 * **Write** code to take a dot on an interesting walk. Your code may be written in any programming language you prefer, and should export a design that consists of exactly one line.
-* Decide whether you will plot on a 12x9" or 11x8.5" page. Either is fine. Please use nice paper.
-* Ensure that your drawing does not ask the plotter to move beyond the bounds of your page! You may ensure this through some combination of scaling, translation, and/or cropping. To crop your drawing, use either vpype (preferred; instructions here), Inkscape (instructions here), or svg-cropper-tool.
-* Plot your line drawing. Please use a black pen on white paper. Color is not permitted for this project.
-Create a post in the Discord channel, #33-line-walk.
-* Embed a scan or photograph of your plotted project in your Discord post.
-* Write a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned.
-* Bring your plot to class for pinup on 
-
+* *HA HA* **BUT** in addition to specifying your dot's path in `x` and `y`, you must ***also*** specify its path in `z`, which will be used to govern *pen pressure* on the Bantam ArtFrame. In order to do this, your software will need to export G-Code — *not* SVG.
+* **Plot** your drawing. I have provided a *black PigmaBB brush pen* in your kit specifically for this exercise — it has excellent pressure response within a range of ~3-5mm of z-height. 
+* For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters, and **limit** your feed rate to 5000-10000 mm/minute. These parameters will give the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter.
+* **Fall back** to an AxiDraw or HP7475A plotter if there is a failure situation of some sort. *(You'll have to jettison your pressure work.)*
+* **Create** a post in the Discord channel, `#33-line-walk`.
+* **Embed** a scan or photograph of your plotted project in your Discord post.
+* **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned.
+* **Bring** your plot to class for pinup on September 10.
 
 
 #### Generating G-Code: Code Templates
-
 
 * Python: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#generating-g-code-files-with-python)
 * p5.js: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#generating-g-code-with-p5js)
