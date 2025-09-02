@@ -117,8 +117,8 @@ function setup() {
   endShape();
   
   gcodeData.push("G1 Z" + zHi); // raise pen at end
-  gcodeData.push("$H"); // Re-home the plotter
   gcodeData.push("M2"); // End the GCode program
+  gcodeData.push("$H"); // Re-home the plotter
   saveStrings (gcodeData, "lissajous.gcode.txt");
 }
 ```
@@ -141,8 +141,8 @@ G1 X98.6432 Y66.8932 Z20
 G1 X118.1152 Y45.7132 Z20
 G1 X139.7000 Y38.1000 Z20
 G1 Z25
-$H
 M2
+$H
 ```
 
 We can **verify** that the G-code is valid using special previewing software such as [**NC Viewer**](https://ncviewer.com/) (in the browser), or [Universal G-code Sender](https://winder.github.io/ugs_website/installing/) (on your laptop). (UGS is great software, which can also be used to transmit G-code to devices in real-time; to install it on MacOS, you may need to use the command `sudo xattr -rd com.apple.quarantine /Applications/UniversalGcodeSender.app`.)
@@ -236,8 +236,8 @@ for i in range(N_POINTS + 1):
 
 # End G-code program
 gcode_data.append(f"G1 Z{Z_HI}")
-gcode_data.append("$H")
 gcode_data.append("M2")
+gcode_data.append("$H")
 
 # Save G-code to file
 with open("lissajous-from-python.gcode.txt", "w") as f:
@@ -287,4 +287,4 @@ This will open a browser to `http://localhost:8888/tree`. From there, you can ei
 
 ## Other Workflows
 
-* A plugin for vpype, [*vpype-gcode*](https://github.com/plottertools/vpype-gcode), is a plugin which allows generation of G-code in a Python environment. 
+* A plugin for vpype, [*vpype-gcode*](https://github.com/plottertools/vpype-gcode), allows generation of G-code in a Python environment. 
