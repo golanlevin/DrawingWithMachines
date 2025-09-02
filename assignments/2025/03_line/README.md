@@ -3,31 +3,25 @@
 <img src="img/ellsworth_kelly_rubber_plant_1957.jpg" width="400"><br />
 <small>Ellsworth Kelly, [*Rubber Plant*](https://matthewmarks.com/exhibitions/ellsworth-kelly-plant-drawings-05-2017), 1957</small>
 
-This set of assignments has 
+This set of assignments has three main parts
 
-* 3.1. Line Reading
-* 3.2. [Warmup Exercises]()
-	* 3.2.0. [Install and Test vpype]() *(0-60 minutes)*
-	* 3.2.1. [Naive Offset Curve]() *(20 minutes)*
-	* 3.2.2. [Making Lines with Different Weights]() *(30 minutes)*
-	* 3.2.3. [Squiggy Hacking]() *(30 minutes)*
-* 3.3. [Offset Curve Composition]() *(1-3 hours)*
-* 3.4. [Taking A Dot for A Walk]() *(2-4 hours)*
-
----
-
-# 3.1. Line Reading
-
+* 3.1. [Warmup Exercises]()
+	* 3.1.0. [Install and Test vpype]() *(0-60 minutes)*
+	* 3.1.1. [Naive Offset Curve]() *(30 minutes)*
+	* 3.1.2. [Making Lines with Different Weights]() *(30 minutes)*
+	* 3.1.3. [Squiggy Hacking]() *(30 minutes)*
+* 3.2. [Offset Curve Composition]() *(1-3 hours)*
+* 3.3. [Taking A Dot for A Walk]() *(2-4 hours)*
 
 
 ---
 
-# 3.2. Warmup Exercises
+# 3.1. Warmup Exercises
 
 *These technical warmup exercises are intended to develop your understanding of computational control of line weight.*
 
 
-## 3.2.0. Install and Test *vpype*
+## 3.1.0. Install and Test *vpype*
 
 **(0-60 minutes, depending)** *In this assignment I ask you to make sure that vpype is installed and operational on your computer.*
 
@@ -38,16 +32,16 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 * **Install** *vpype*, using these [instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#1-creating-a-suitable-python310-virtual-environment). **NOTE: I must emphasize the importance of installing vpype [in a virtual environment](https://docs.python.org/3/library/venv.html). Failing to do so could cause you a great deal of misery.**
 * **Test** *vpype* with commands like `vpype --help` and `vpype random show`.
 * **Run** the following *vpype* command, but **replace** "Your Name": `vpype text --font futural --size 40 "Your Name :)" show`. 
-* **Screenshot** the *vpype* display with your name and **post** it in the Discord channel `#320-vpype-works`. (I want receipts, please.)
+* **Screenshot** the *vpype* display with your name and **post** it in the Discord channel `#310-vpype-works`. (I want receipts, please.)
 * In the unlikely event that you are unable to get *vpype* installed on your computer, **message** the professor in Discord to discuss other options for [optimizing](https://plotterfiles.com/tools/optimizer) and [cropping](https://msurguy.github.io/svg-cropper-tool/) your SVGs.
 
 **Python programmers:** If you happen to prefer coding in Python, installing *vpype* and its interoperating sibling project [*vsketch*](https://github.com/abey79/vsketch) (for generative plotter art) is a terrific toolchain for this course. My instructions for [installing and using *vsketch* are here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#3-generating-an-svg-using-vsketch-and-vscode).
 
 ---
 
-## 3.2.1. Naive Offset Curve
+## 3.1.1. Naive Offset Curve
 
-**(20 minutes)** *The purpose of this exercise is to give you a practical appreciation of offset curves, which are an important ingredient in computing thickened lines. For this exercise, a screenshot is required — no plot.*
+**(30 minutes)** *The purpose of this exercise is to give you a practical appreciation of offset curves, which are an important ingredient in computing thickened lines. For this exercise, a screenshot is required — no plot.*
 
 <img src="img/offset-curves-of-sine-curve.png" width="500">
 
@@ -58,14 +52,14 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 * **Write** a program that stores cursor points while a user draws.
 * **Connect** these points with a polyline (shown in black, above). *(In the example shown above, I also tossed in some local averaging to improve the smoothness of my polyline, but you don't have to.)*
 * **Compute** a new polyline (shown above in red) derived from the user's drawing, using trigonometry or other simple mathematics, which is *offset* everywhere from the user's drawing by a fixed distance of (say) 25 pixels. *(Don't use any fancy libraries, and don't try to resolve any issues with unexpected cusps or self-intersections that arise.)*
-* **Create** a Discord post in the channel `#321-naive-offset`.
+* **Create** a Discord post in the channel `#311-naive-offset`.
 * **Draw** your cursive initials using your sketch, and **embed** a screenshot of your sketch in your Discord post. 
 * Optionally, **write** a sentence in your Discord post discussing any observations.
 
 
 ---
 
-## 3.2.2. Making Lines with Different Weights
+## 3.1.2. Making Lines with Different Weights
 
 **(30 minutes)** *In this exercise, you will construct a basic drawing primitive from first principles: lines thicker than the nib of one's pen.*
 
@@ -94,14 +88,14 @@ Of course, there are *many* ways to do this; for example, you might:
 * **Plot** your test-sheet design on 8.5x11" or 9x12" paper. For this project, I recommend using either [AxiDraw](https://github.com/golanlevin/DrawingWithMachines/blob/main/rpi_standalone/README.md), HP7475A, or [Line-Us](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/line-us) plotters. **Note**: If you use the HP7475A, you will need to convert SVG to HPGL using *vpype*; see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/vpype_svg_prep/README.md), and this [one-sheet PDF for using the HP7475A](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/hp7475a-one-sheet/hp7475a-one-sheet.md).
 * **Scan** or **photograph** your test-sheet design. 
 * **Scan** or **photograph** your hand-made tests as well.
-* **Create** a post in the Discord channel `#322-line-weight`.
+* **Create** a post in the Discord channel `#312-line-weight`.
 * **Upload** the images of your hand-made tests and your test-sheet design plot. 
 * **Write** a sentence or two that describes your method, and any considerations or discoveries you made.
 
 
 ---
 
-## 3.2.3. Squiggy Hacking
+## 3.1.3. Squiggy Hacking
 
 **(30 minutes)** *In this exercise, you will develop experience designing strokes with procedural strokeweight functions.*
 
@@ -136,7 +130,7 @@ You can make your own brush function by typing code in the text region and click
 * **Tinker** with the [**Squiggy**](https://squiggy.netlify.app/) app for a few minutes. **Explore** the different brush presets, and **make** some superficial modifications to brush functions.
 * **Devise** your own custom brush function. Feel free to consult Lingdong's [documentation](https://github.com/LingDong-/squiggy?tab=readme-ov-file#tube-brush). 
 * **Create** a casual composition that shows off your brush function to good effect, and **screenshot** it.
-* **Create** a post in the Discord channel `#323-squiggy`. **Paste** your function code in the post and **upload** your screenshot. **Write** a sentence that describes your function, and any thoughts you have about the exercise. *Note: Discord uses Markdown; you can format code in Discord by wrapping your code in backticks ( ` ) or triple-backticks for longer blocks.*
+* **Create** a post in the Discord channel `#313-squiggy`. **Paste** your function code in the post and **upload** your screenshot. **Write** a sentence that describes your function, and any thoughts you have about the exercise. *Note: Discord uses Markdown; you can format code in Discord by wrapping your code in backticks ( ` ) or triple-backticks for longer blocks.*
 
 If you find this project interesting, I highly encourage you to read or skim the brief articles below.
 
@@ -146,7 +140,7 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 ---
 
-# 3.3. Offset Curve Composition 
+# 3.2. Offset Curve Composition 
 
 **(90-120 minutes, 25%)** *This is the smaller of the two main creative projects for this unit.*
 
@@ -163,7 +157,7 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 ---
 
-# 3.4. Taking A Dot for A Walk (in 3D)
+# 3.3. Taking A Dot for A Walk (in 3D)
 
 ![picasso dachshund 1957](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/picasso_dachshund.jpg)<br />
 Pablo Picasso, *Chien* (Dog), 1957.
@@ -188,7 +182,7 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 * Decide whether you will plot on a 12x9" or 11x8.5" page. Either is fine. Please use nice paper.
 * Ensure that your drawing does not ask the plotter to move beyond the bounds of your page! You may ensure this through some combination of scaling, translation, and/or cropping. To crop your drawing, use either vpype (preferred; instructions here), Inkscape (instructions here), or svg-cropper-tool.
 * Plot your line drawing. Please use a black pen on white paper. Color is not permitted for this project.
-Create a post in the Discord channel, #34-line-walk.
+Create a post in the Discord channel, #33-line-walk.
 * Embed a scan or photograph of your plotted project in your Discord post.
 * Write a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned.
 * Bring your plot to class for pinup on 
@@ -242,8 +236,3 @@ README.md
 -->
 
 
-
-
-In *Lines: a Brief History*, Chapter 6, Tim Ingold writes:
-
-> “In his book *The Nature and Art of Workmanship*, theorist of design David Pye arrives at a […] distinction between what he calls the ‘workmanship of risk’ and the ‘workmanship of certainty’. In the workmanship of risk, the result is not pre-determined but ‘depends on the judgement, dexterity and care which the maker exercises as he works’ (Pye 1968: 4). Thus the quality of the outcome is never assured until the work is actually finished. In the workmanship of certainty, by contrast, the result is exactly pre-determined before the task is even begun. This determination is given in the settings and specifications of the apparatus of production, which in turn controls the movements of the working point. The workmanship of risk, Pye suggests, is exemplified by writing with a pen, and the workmanship of certainty by modern printing. In the workmanship of risk, however, practitioners are continually devising ways to limit risk through the use of jigs and templates, which introduce a degree of certainty into the proceedings. Thus ‘if you want to draw a straight line with your pen’, Pye advises, ‘you do not go at it freehand, but use a ruler, that is to say, a jig’.”
