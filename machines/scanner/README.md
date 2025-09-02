@@ -1,10 +1,12 @@
 # Using the Plustek Scanner (2025)
 
-Instructions for using our classroom scanner: a [Plustek OpticSlim 1680](https://plustek.com/sa/products/flatbed-scanners/opticslim-1680/support.php), able to scan paper up to 11.69"x17" (tabloid). A manual for the scanner is available [here](UG_Mac_OpticSlimA3Series_EN_v1.3.pdf).
+*Instructions for using our classroom scanner: a [Plustek OpticSlim 1680](https://plustek.com/sa/products/flatbed-scanners/opticslim-1680/support.php), able to scan paper up to 11.69"x17" (tabloid).<br />A PDF manual for the scanner is available [here](UG_Mac_OpticSlimA3Series_EN_v1.3.pdf).*
+
+<img src="img/scanner_page_qr.png" width="128">
 
 --- 
 
-<img src="plustek-scanner-resolution.png" width="500">
+<img src="img/plustek-scanner-resolution.png" width="500">
 
 
 
