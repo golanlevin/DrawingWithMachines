@@ -3,15 +3,15 @@
 <img src="img/ellsworth_kelly_rubber_plant_1957.jpg" width="400"><br />
 <small>Ellsworth Kelly, [*Rubber Plant*](https://matthewmarks.com/exhibitions/ellsworth-kelly-plant-drawings-05-2017), 1957</small>
 
-This set of assignments has three main parts: a series of warmup exercises, a minor project, and a main project. **You are asked to decide whether 3.2 or 3.3 is your minor/main project, and vice-versa.**
+This set of assignments has three main parts: a series of warmup exercises, a minor project, and a main project. **You are asked to decide whether 3.2 (offset curves) or 3.3 (dot walk) is your minor project (worth 25%) or your main project (worth 50%), or vice-versa.**
 
 * 3.1. [Warmup Exercises](#31-warmup-exercises) *(~2 hours)*
 	* 3.1.0. [Install and Test vpype](#310-install-and-test-vpype) *(0-60 minutes)*
-	* 3.1.1. [Naive Offset Curve](#311-naive-offset-curve) *(30 minutes)*
-	* 3.1.2. [Making Lines with Different Weights](#312-making-lines-with-different-weights) *(30 minutes)*
-	* 3.1.3. [Squiggy Hacking](#313-squiggy-hacking) *(30 minutes)*
-* 3.2. [Offset Curve Composition](#32-offset-curve-composition) *(2-3 hours)*
-* 3.3. [Taking A Dot for A Walk (in 3D)](#33-taking-a-dot-for-a-walk-in-3d) *(2-3 hours)*
+	* 3.1.1. [Naive Offset Curve](#311-naive-offset-curve) *(30 minutes, 5%)*
+	* 3.1.2. [Making Lines with Different Weights](#312-making-lines-with-different-weights) *(30 minutes, 10%)*
+	* 3.1.3. [Squiggy Hacking](#313-squiggy-hacking) *(30 minutes, 10%)*
+* 3.2. [Offset Curve Composition](#32-offset-curve-composition) *(2-4 hours, 25% or 50%)*
+* 3.3. [Taking A Dot for A Walk (in 3D)](#33-taking-a-dot-for-a-walk-in-3d) *(2-4 hours, 25% or 50%)*
 
 ---
 
@@ -40,7 +40,7 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 
 ## 3.1.1. (Naive) Offset Curve
 
-**(30 minutes)** *The purpose of this exercise is to give you a bottom-up appreciation of offset curves, which can be an essential ingredient in computing thickened lines. For this exercise, only a screenshot is required — no plot.*
+**(30 minutes, 5%)** *The purpose of this exercise is to give you a bottom-up appreciation of offset curves, which can be an essential ingredient in computing thickened lines. For this exercise, only a screenshot is required — no plot.*
 
 <img src="img/offset-curves-of-sine-curve.png" width="500">
 
@@ -61,7 +61,7 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 
 ## 3.1.2. Making Lines with Different Weights
 
-**(30 minutes)** *In this exercise, you will construct a basic drawing primitive from first principles: lines thicker than the nib of one's pen.*
+**(30 minutes, 10$)** *In this exercise, you will construct a basic drawing primitive from first principles: lines thicker than the nib of one's pen.*
 
 <img src="img/alphonse_mucha_detail.jpg" width="400"><br />
 <small>Alphonse Mucha's *La Plume* (1897) uses lines of different weights to establish visual hierarchy.</small> 
@@ -97,7 +97,7 @@ Of course, there are *many* ways to do this; for example, you might:
 
 ## 3.1.3. Squiggy Hacking
 
-**(30 minutes)** *In this exercise, you will develop experience designing strokes with procedural strokeweight functions.*
+**(30 minutes, 10%)** *In this exercise, you will develop experience designing strokes with procedural strokeweight functions.*
 
 <a href="https://squiggy.netlify.app/"><img src="img/squiggy.png" width="400"></a>
 
@@ -142,7 +142,7 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 # 3.2. Offset Curve Composition 
 
-**(90-120 minutes, 25%)** *You are provided with libraries for computing "proper" offset curves, and invited to use them to make a creative composition.*
+**(2-4 hours, 25% or 50%)** *You are provided with libraries for computing "proper" offset curves—a type of machine-made line— and invited to use them to make a creative composition.* 
 
 ![jenn_karson_offset_leaves](img/jenn_karson_offset_leaves.jpg)
 
@@ -152,7 +152,8 @@ If you find this project interesting, I highly encourage you to read or skim the
 * **Plot** your offset curve composition — you are encouraged to use an AxiDraw or HP7475A plotter. This is a good opportunity to **experiment** with different pens and paper.
 * **Create** a post in the Discord channel, `#33-line-walk`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
-* **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned.
+* **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
+* **Submit** high-quality documentation of this project into [**this Google Form**]() (TBA). 
 * **Bring** your plot to class for pinup on September 10.
 
 
@@ -160,12 +161,16 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 # 3.3. Taking A Dot for A Walk (in 3D)
 
+### *A.K.A. "Pressure" Project*
+
 ![picasso dachshund 1957](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/picasso_dachshund.jpg)<br />
 Pablo Picasso, *Chien* (Dog), 1957.
 
-**(2-4 hours, 50%)** *The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills in using code to govern a foundational graphical form: a single line. The assignment is complexified by the additional requirement to control a pen's (`z`) pressure, and not just its `x,y` position.*
+**(2-4 hours, 25% or 50%)** *The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills to govern a foundational graphical form: a single, expressive line. The assignment is complexified by the* ***additional challenge*** *of controlling a pen's `z` pressure — and not just its `x,y` position.*
 
-**Recall** Paul Klee’s [*Pedagogical Sketchbook*](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf) (1925), in which he proposes that “a line is a dot that went for a walk”.
+**Recall** Paul Klee’s [*Pedagogical Sketchbook*](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf) (1925), in which he describes:
+
+> "an active line on a walk, moving freely, without goal. A walk for a walk's sake. The mobility agent, is a point, shifting its position forward." 
 
 [![Klee line walk, from Pedagogical Sketchbook](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/klee_line_walk.jpg)](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf)
 
@@ -175,23 +180,29 @@ The artwork [Sum05](https://www.liaworks.com/theprojects/sum05/) by Austrian sof
 
 ![cherniak_recursive.jpg](img/deconbatch_oioi0003-min.png)
 
-In this open-ended assignment, you are asked to **write** code that takes a dot for a walk, to create an interesting line; **export** a plottable file representing your line; **plot** and **document** the result; and **write** a brief statement about your project. In evaluating your work, we may discuss things like: the expressiveness of your line, the muscularity of your control, conceptual propositions you may have engaged, etc.
+Now look again carefully at Klee's and Picasso's lines, above. There is ...*something else going on* besides merely traveling from place to place. There is also a sense of timing, of presence, of articulation and locality — conveyed by the changing *ductus* (weight and ink flow) of the line. For expressive and organic lines, pressure can make a big difference. 
+
+In this open-ended assignment, you are asked to **write** code that takes a dot for a walk *in three dimensions*, in order to create an interesting line; **export** a plottable file representing your line; **plot** and **document** the result; and **write** a brief statement about your project. In evaluating your work, we may discuss things like: the expressiveness of your line, the muscularity of your control, conceptual propositions you may have engaged, etc.
 
 *Now:*
 
 * **Choose** whether you would like this project or the *Offset Curve Composition* (3.2) to be your main focus for this week.
-* **Write** code to take a dot on an interesting walk. Your code may be written in any programming language you prefer, and should export a design that consists of exactly one line.
-* *HA HA* **BUT** in addition to specifying your dot's path in `x` and `y`, you must ***also*** specify its path in `z`, which will be used to govern *pen pressure* on the Bantam ArtFrame. In order to do this, your software will need to export G-Code — *not* SVG.
-* **Plot** your drawing. I have provided a *black PigmaBB brush pen* in your kit specifically for this exercise — it has excellent pressure response within a range of ~3-5mm of z-height. 
-* For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters, and **limit** your feed rate to 5000-10000 mm/minute. These parameters will give the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter.
-* **Fall back** to an AxiDraw or HP7475A plotter if there is a failure situation of some sort. *(You'll have to jettison your pressure work.)*
+* **Write** code to take a dot on an interesting walk. Your code may be written in any programming language you prefer, and should export a design that consists of exactly one line. Some possible springboards from the Coding Train are linked below, but you are by no means limited to these.
+* ***HA HA BUT*** in addition to specifying your dot's path in `x` and `y`, you are *also* asked to specify its path in `z` — which will be used to govern *pen pressure* on the Bantam ArtFrame. In order to do this, your software will need to export G-Code directly — *not* SVG! Some code templates for doing this are below. 
+* **Plot** your drawing. I have provided a *black PigmaBB brush pen* in your kit specifically for this exercise — it has excellent pressure response within a range of ~3-5mm of z-height. You may need to do some tests on scrap paper to reckon your pen's position and the z-travel specified by your code.
+* For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters; and **limit** your feed rate to 5000-10000 mm/minute. These parameters will afford the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter.
+* *Optionally*, **record** a time-lapse video of the Bantam plotter in action. Speak with the professor or TA about how to do this. 
+* Having everyone depend on a single plotter entails certain risks. If there is a failure situation of some sort, please just **fall back** to using an AxiDraw or HP7475A plotter. *(You'll have to jettison your pressure work.)*
 * **Create** a post in the Discord channel, `#33-line-walk`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
-* **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned.
+* **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
+* **Submit** high-quality documentation of this project into [**this Google Form**]() (TBA). 
 * **Bring** your plot to class for pinup on September 10.
 
 
 #### Generating G-Code: Code Templates
+
+*Note that for this project, you will need to generate G-Code yourself in order to have continuous control of pressure (z-axis). Although there are tools for converting SVGs into G-Code, they treat the design as purely 2D.*
 
 * Python: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#generating-g-code-files-with-python)
 * p5.js: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#generating-g-code-with-p5js)
@@ -219,14 +230,11 @@ Your line may be zig-zaggy, wavy, curly, wiggly, noisy, etc. Your line may be wh
 
 ![lia_12_P8280026_variante-1](img/lia_12_P8280026_variante-1.jpg)
 
-The mononymic Austrian computer artist, [Lia](https://www.liaworks.com/), mentioned earlier, has been active in software art since 1995. In 2018 she used a custom workflow to control a modded AxiDraw plotter **in 3D**, to produce a [series of ink studies](https://www.liaworks.com/theprojects/mechanical-plotter-drawings-waves/) The example shown above consists of a series of sinewave-like paths, executed by an ink brush. *(To the extent that this artwork is interesting, what makes it so?)*
-
-
-
+The mononymic Austrian computer artist, [Lia](https://www.liaworks.com/), mentioned earlier, has been active in software art since 1995. In 2018 she developed a custom workflow to control a hacked AxiDraw plotter **in 3D**, in order to produce a [series of ink studies](https://www.liaworks.com/theprojects/mechanical-plotter-drawings-waves/) exploring pen pressure. The example shown above consists of a series of sinewave-like paths, executed by an ink brush. *(To the extent that this artwork is interesting, what makes it so?)*
 
 ---
 
-
+EOF
 
 
 <!-- 

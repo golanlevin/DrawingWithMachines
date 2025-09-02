@@ -295,3 +295,4 @@ This will open a browser to `http://localhost:8888/tree`. From there, you can ei
 ## Other Workflows
 
 * A plugin for vpype, [*vpype-gcode*](https://github.com/plottertools/vpype-gcode), allows generation of G-code in a Python environment. 
+* There are tools like BantamToolsApp and [https://jscut.org/](https://jscut.org/) that can convert SVG to G-Code ...but note that they will lack z-information.
