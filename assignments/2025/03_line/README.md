@@ -3,10 +3,10 @@
 <img src="img/ellsworth_kelly_rubber_plant_1957.jpg" width="400"><br />
 <small>Ellsworth Kelly, [*Rubber Plant*](https://matthewmarks.com/exhibitions/ellsworth-kelly-plant-drawings-05-2017), 1957</small>
 
-This set of assignments has three main parts: a series of warmup exercises, a minor project, and a main project. **You are asked to decide whether 3.2 (offset curves) or 3.3 (dot walk) is your minor project (worth 25%) or your main project (worth 50%), or vice-versa.**
+This set of assignments is due at the start of class on Wednesday September 10th, and has three main parts: a series of warmup exercises, a minor project, and a main project. For the sake of your own sanity, **you are asked to decide whether 3.2 (offset curves) or 3.3 (dot walk) is your minor project (worth 25%) or your main project (worth 50%), or vice-versa.**
 
 * 3.1. [Warmup Exercises](#31-warmup-exercises) *(~2 hours)*
-	* 3.1.0. [Install and Test vpype](#310-install-and-test-vpype) *(0-60 minutes)*
+	* 3.1.0. [Install and Test vpype](#310-install-and-test-vpype) *(0-60 minutes, checked but ungraded)*
 	* 3.1.1. [Naive Offset Curve](#311-naive-offset-curve) *(30 minutes, 5%)*
 	* 3.1.2. [Making Lines with Different Weights](#312-making-lines-with-different-weights) *(30 minutes, 10%)*
 	* 3.1.3. [Squiggy Hacking](#313-squiggy-hacking) *(30 minutes, 10%)*
@@ -22,7 +22,7 @@ This set of assignments has three main parts: a series of warmup exercises, a mi
 
 ## 3.1.0. Install and Test *vpype*
 
-**(0-60 minutes, depending)** *In this assignment I ask you to make sure that vpype is installed and operational on your computer.*
+**(0-60 minutes, depending; checked but ungraded)** *In this assignment I ask you to make sure that vpype is installed and operational on your computer.*
 
 <img src="img/vpype_demo.png" width="400">
 
@@ -234,14 +234,6 @@ The mononymic Austrian computer artist, [Lia](https://www.liaworks.com/), mentio
 
 ---
 
-EOF
-
-
-<!-- 
-PAST VERSIONS: 
-2021: https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=456.html
-2024: https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/04_line/
-README.md
--->
+*Past versions of this assignment: [2021](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=456.html), [2024](https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/04_line/README.md)*
 
 
