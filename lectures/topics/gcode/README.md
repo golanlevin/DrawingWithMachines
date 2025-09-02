@@ -1,7 +1,7 @@
 # Generating G-code Files for Plotters
 
 * It is straightforward to *convert* a 2D SVG to G-Code — using, for example, the [BantamToolsStudio app](https://support.bantamtools.com/hc/en-us/articles/36808222820499-Bantam-Tools-Studio-Software-Installation), or the [vpype-gcode](https://github.com/plottertools/vpype-gcode) or [vpype-gscrib](https://vpype-gscrib.readthedocs.io/en/latest/) G-Code plugins for vpype. 
-* However, if you wish to execute **3D** G-Code files, you will probably need to generate these files yourself. This document provides workflows for computationally generating G-code *files*.
+* However, if you wish to execute **3D G-Code file**, you will almost certainly need to generate these files *yourself*. This document provides workflows for computationally generating G-code *files*.
 * For information on controlling a plotter in *real-time* with G-code, see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/realtime/artframe_realtime/README.md) instead. 
 
 ---
@@ -19,9 +19,12 @@
 
 ## What is G-code?
 
-[G-code](https://en.wikipedia.org/wiki/G-code), short for “Geometric Code,” is a plain-text programming language used to control milling machines, 3D printers, plotters, and other automated tools. It was developed in the late 1950s as part of U.S. military-funded research into computer numerical control (CNC), particularly at MIT’s Servomechanisms Laboratory. One of its earliest motivations was to machine complex submarine propellers—precise, curved forms that were nearly impossible to produce by hand. With funding from the U.S. Navy, these efforts led to the first NC milling systems and, eventually, the standardization of G-code (RS-274) in the early 1960s.
+![cnc in the 1950s](img/cnc_1950s.jpg)
+
+[G-code](https://en.wikipedia.org/wiki/G-code), short for “Geometric Code,” is a plain-text programming language used to control milling machines, 3D printers, plotters, and other automated tools. It was developed in the late 1950s as part of U.S. military-funded research into computer numerical control (CNC), particularly at MIT’s Servomechanisms Laboratory. One of its earliest motivations was to machine complex submarine propellers—precise, curved forms that were nearly impossible to produce by hand. With funding from the U.S. Navy, these efforts led to the first NC milling systems and, eventually, the standardization of G-code (RS-274) in the early 1960s. If you'd like to know more, our friends at Bantam Tools have published a [nice history of CNC machining](https://medium.com/cnc-life/history-of-cnc-machining-part-1-2a4b290d994d).
 
 G-code’s simplicity and clarity made it ideal for precise, repeatable fabrication. Its commands are terse and human-readable, like `G01 X10 Y10` to move a tool to position (10,10). Despite its age, G-code is the most widely used CNC language today because it’s hardware-agnostic, easy to parse, and flexible enough to support everything from basic movements to elaborate toolpaths. Its longevity is a testament to its simple, functional design.
+
 
 ---
 
@@ -33,21 +36,23 @@ This illustration shows an example of one of the most basic and important G-code
 
 For executing G-code on our classroom Bantam Artframe 1824:
 
-* The Bantam's default units are millimeters.
-* The G-code origin is in the lower-left, so if you're working in a toolkit like p5.js or Processing, you'll need to subtract your Y-coordinates from your document height.
+* The Bantam 1824's default units are **millimeters**.
+* The G-code **origin** is in the lower-left, so if you're working in a toolkit like p5.js or Processing, you'll need to subtract your Y-coordinates from your document height.
 * `+X` goes right, `+Y` goes upwards, `+Z` goes up and away from the work surface.
+* Did you notice that `+Y` goes upwards? That means: **flip** your p5.js sketches vertically!
 * The acceptable range for `X` is 0 to 18"x25.4mm/in = 457.2
 * The acceptable range for `Y` is 0 to 24"x25.4mm/in = 609.6
 * The acceptable range for `Z` is 0 to 60.0, where Z+ is upwards. Z can be used for pressure!
 * The acceptable range for `F` (feed speed) is 0-15000 mm/min. For
 ballpoint pens, a recommended feedrate is 10000 mm/min.
-* Exceeding any of the XYZ workspace ranges will trigger alarms that stop the plotting process and require you to reboot the plotter.
+* It is possible to send the Bantam too far into `+X`, so that your pen crashes into the plotter frame. It is your job to prevent this. 
+* Exceeding any of the XYZ coordinate ranges will likely trigger alarms that stop the plotting process and require you to reboot the plotter.
 * The plotter will continually interpolate from one point to the next. 
 
 Here is an example G-code program. Note how comments are written `(in parentheses)`; spaces are optional but helpful; and only *new* information is necessary on each line:
 
 ```
-$H (home the machine - this code is Bantam-specific)
+$H (Home the machine - this code is Bantam-specific)
 G21 (tells plotter to interpret numbers in millimeters)
 G90 (set to absolute positioning mode)
 G0 Z5 (raise the pen 5mm, using rapid motion)
@@ -59,17 +64,19 @@ G0 X0 Y0 (move to origin when we're done)
 M2 (end of program)
 ```
 
-If you want more information, here's an [overview of GCode commands](https://howtomechatronics.com/tutorials/g-code-explained-list-of-most-important-g-code-commands/) that you might find helpful.
+If you want more information, here's an [overview of GCode commands](https://howtomechatronics.com/tutorials/g-code-explained-list-of-most-important-g-code-commands/) that you might find helpful. But in point of fact, 99% of the commands you need to know are shown above. Although there are dozens of possible G-Code commands, most are concerned with 3D milling machines (e.g. spindle speed) and irrelevant to 2D plotting.
 
 ---
 
 ## Generating G-code with p5.js
 
-To **generate** G-code in p5.js, we can
+To **generate** G-code in p5.js, we can:
 
 1. **construct** strings that contain G-code commands — using string [concatenation](https://www.freecodecamp.org/news/how-js-string-concatenation-works/?utm_source=chatgpt.com) or [template literals](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings?utm_source=chatgpt.com#embedding_javascript) — as well as the p5.js [`nf()`](https://p5js.org/reference/p5/nf/) number-format function to specify decimal precision;
 2. **append** these strings into an array, using the [`Array.prototype.push()`](https://www.freecodecamp.org/news/javascript-append-to-array-a-js-guide-to-the-push-method-2/) function;
-3. and then **export** the array of strings as a GCode file, using the p5.js [`saveStrings()`](https://p5js.org/reference/p5/saveStrings/) function. 
+3. and then **export** the array of strings as a GCode file, using the p5.js [`saveStrings()`](https://p5js.org/reference/p5/saveStrings/) function.
+
+Put another way, to generate G-Code in JavaScript, all you really need to know is how to do string concatenation, how to handle arrays of strings, and how to use the p5.js [`saveStrings()`](https://p5js.org/reference/p5/saveStrings/) function. 
 
 [Here](https://editor.p5js.org/golan/sketches/Gly-gpjzM) and below is a simple p5.js program that generates a Lissajous figure and exports a GCode file: 
 

@@ -47,8 +47,8 @@ for i in range(N_POINTS + 1):
 
 # End G-code program
 gcode_data.append(f"G1 Z{Z_HI}")
-gcode_data.append("$H")
 gcode_data.append("M2")
+gcode_data.append("$H")
 
 # Save G-code to file
 with open("lissajous-from-python.gcode.txt", "w") as f:

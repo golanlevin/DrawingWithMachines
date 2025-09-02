@@ -69,8 +69,8 @@ function draw(){
 
   if (bDoExportGCode){
     // End exporting, if doing so
-    gcodeData.push("$H"); // Re-home the plotter
     gcodeData.push("M2"); // End the GCode program
+    gcodeData.push("$H"); // Re-home the plotter
     let gcodeFilename = "gcode_recording_" + frameCount + ".gcode.txt";
     saveStrings (gcodeData, gcodeFilename);
     bDoExportGCode = false;

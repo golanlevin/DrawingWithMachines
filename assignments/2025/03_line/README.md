@@ -6,30 +6,26 @@
 This set of assignments has 
 
 * 3.1. Line Reading
-* 3.2. Warmup Exercises
-	* 3.2.0. Install and Test *vpype*
-	* 3.2.1. Naive Offset Curve
-	* 3.2.2. Making Lines of Different Weights
-	* 3.2.3. Calligraphic Polyline 
-	* 3.2.4. Squiggy Hacking
-* 3.3. Offset Curve Composition
-* 3.4. Taking A Dot for A Walk
+* 3.2. [Warmup Exercises]()
+	* 3.2.0. [Install and Test vpype]() *(0-60 minutes)*
+	* 3.2.1. [Naive Offset Curve]() *(20 minutes)*
+	* 3.2.2. [Making Lines with Different Weights]() *(30 minutes)*
+	* 3.2.3. [Squiggy Hacking]() *(30 minutes)*
+* 3.3. [Offset Curve Composition]() *(1-3 hours)*
+* 3.4. [Taking A Dot for A Walk]() *(2-4 hours)*
 
 ---
 
 # 3.1. Line Reading
 
+
+
 ---
 
 # 3.2. Warmup Exercises
 
-The exercises below
+*These technical warmup exercises are intended to develop your understanding of computational control of line weight.*
 
-* 3.2.0. Install and Test *vpype*
-* 3.2.1. Naive Offset Curve
-* 3.2.2. Making Lines of Different Weights
-* 3.2.3. Calligraphic Polyline 
-* 3.2.4. Squiggy Hacking
 
 ## 3.2.0. Install and Test *vpype*
 
@@ -45,19 +41,31 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 * **Screenshot** the *vpype* display with your name and **post** it in the Discord channel `#320-vpype-works`. (I want receipts, please.)
 * In the unlikely event that you are unable to get *vpype* installed on your computer, **message** the professor in Discord to discuss other options for [optimizing](https://plotterfiles.com/tools/optimizer) and [cropping](https://msurguy.github.io/svg-cropper-tool/) your SVGs.
 
-**Python programmers:** If you happen to prefer coding in Python, installing *vpype* and its interoperating sibling project [*vsketch*](https://github.com/abey79/vsketch) (for generative plotter art) is a great toolchain for this course. My instructions for [installing and using *vsketch* are here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#3-generating-an-svg-using-vsketch-and-vscode).
+**Python programmers:** If you happen to prefer coding in Python, installing *vpype* and its interoperating sibling project [*vsketch*](https://github.com/abey79/vsketch) (for generative plotter art) is a terrific toolchain for this course. My instructions for [installing and using *vsketch* are here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#3-generating-an-svg-using-vsketch-and-vscode).
+
+---
+
+## 3.2.1. Naive Offset Curve
+
+**(20 minutes)** *The purpose of this exercise is to give you a practical appreciation of offset curves, which are an important ingredient in computing thickened lines. For this exercise, a screenshot is required — no plot.*
+
+<img src="img/offset-curves-of-sine-curve.png" width="500">
+
+[**Offset curves**](https://en.wikipedia.org/wiki/Parallel_curve) are a generalization of the concept of "parallel lines" — they are shapes that run a fixed distance away from an original curve. They are essential in applications ranging from CNC machining to typography, and have many analogies in layered phenomena in the natural world. Despite their simple definition, offset curves are mathematically complex, and surprisingly challenging to calculate: as illustrated here, they can develop cusps, self-intersections, and abrupt changes even when the original curve is smooth. Understanding them can help artists and engineers work more precisely with form, structure, and process.
+
+![naive_offset_demo.png](img/naive_offset_demo.png)
+
+* **Write** a program that stores cursor points while a user draws.
+* **Connect** these points with a polyline (shown in black, above). *(In the example shown above, I also tossed in some local averaging to improve the smoothness of my polyline, but you don't have to.)*
+* **Compute** a new polyline (shown above in red) derived from the user's drawing, using trigonometry or other simple mathematics, which is *offset* everywhere from the user's drawing by a fixed distance of (say) 25 pixels. *(Don't use any fancy libraries, and don't try to resolve any issues with unexpected cusps or self-intersections that arise.)*
+* **Create** a Discord post in the channel `#321-naive-offset`.
+* **Draw** your cursive initials using your sketch, and **embed** a screenshot of your sketch in your Discord post. 
+* Optionally, **write** a sentence in your Discord post discussing any observations.
 
 
 ---
 
-## 3.2.1. Spiced Line
-
-
-
-
----
-
-## 3.2.2. Making Lines of Different Weights
+## 3.2.2. Making Lines with Different Weights
 
 **(30 minutes)** *In this exercise, you will construct a basic drawing primitive from first principles: lines thicker than the nib of one's pen.*
 
@@ -78,10 +86,11 @@ Of course, there are *many* ways to do this; for example, you might:
 
 **Keep** your hand-made tests. *Now*, using one of your methods:
 
-* **Write** code for a function that produces "lines" with different weights. *(I say "lines" in quotes because technically, each thick line is likely comprised of many constituent sub-lines.)* **Extend** your code so that it can produce a *polyline* ([polygonal chain](https://en.wikipedia.org/wiki/Polygonal_chain)) of a given thickness. Your program should **export** SVGs of your lines/polylines — such that they appear as intended when plotted using the pen you used earlier. As a reminder, some overviews and sample code for generating SVGs can be found [here](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg). 
-	* **Note 1**: For this exercise, you are not permitted to use Z-axis pressure.
+* **Write** code for a function that produces "lines" with different weights. *(I say "lines" in quotes because technically, each thick line is likely comprised of many constituent sub-lines.)* **Extend** your code so that it can produce a *polyline* ([polygonal chain](https://en.wikipedia.org/wiki/Polygonal_chain)) of a given thickness. Your program should **export** SVGs of your lines/polylines — such that they appear as intended when plotted using the pen you used earlier. As a reminder, some overviews and sample code for generating SVGs can be found [here](https://github.com/golanlevin/DrawingWithMachines/tree/main/generating_svg).
+	* **Note 1**: For this particular exercise, you are not permitted to use Z-axis pressure.
 	* **Note 2**: Sadly, the p5.js/Processing [`strokeWeight()`](https://p5js.org/reference/p5/strokeWeight/) command will not be helpful for generating plottable SVGs.
-* **Use** your function to create a simple "test-sheet design" that uses at least three line weights. You may use any color pen(s) and any color paper, but your design should allow for direct comparison between lines of different weights that were drawn with the same pen.
+* 🌶️ For an optional challenge, **extend** your function so that it can produce a polyline with continuously-variable thickness. In other words, specify your thickened polyline using `(x,y, weight)` points that each specify their local thickness. 
+* **Use** your function to create a *simple "test-sheet design"* that uses at least three line weights. You may use any color pen(s) and any color paper, but your design should allow for direct comparison between lines of different weights that were drawn with the same pen. *(Keep your test-sheet design simple, please, and save your time for the larger projects below.)*
 * **Plot** your test-sheet design on 8.5x11" or 9x12" paper. For this project, I recommend using either [AxiDraw](https://github.com/golanlevin/DrawingWithMachines/blob/main/rpi_standalone/README.md), HP7475A, or [Line-Us](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/line-us) plotters. **Note**: If you use the HP7475A, you will need to convert SVG to HPGL using *vpype*; see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/vpype_svg_prep/README.md), and this [one-sheet PDF for using the HP7475A](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/hp7475a-one-sheet/hp7475a-one-sheet.md).
 * **Scan** or **photograph** your test-sheet design. 
 * **Scan** or **photograph** your hand-made tests as well.
@@ -92,7 +101,7 @@ Of course, there are *many* ways to do this; for example, you might:
 
 ---
 
-## 3.2.4. Squiggy Hacking
+## 3.2.3. Squiggy Hacking
 
 **(30 minutes)** *In this exercise, you will develop experience designing strokes with procedural strokeweight functions.*
 
@@ -120,14 +129,14 @@ z,  // velocity, calculated as Math.hypot(dx,dy)
 
 You can make your own brush function by typing code in the text region and clicking `set brush from code`. For example, in the illustration below, I have set the brush function `w` to `0.1 * o.x` — in other words: the thickness of the brush is directly (and strictly) proportional to the `x`-coordinate of the mark at that location `o`:
 
-![squiggy_simple.png](img/squiggy_simple.png)
+![squiggy_simple](img/squiggy_simple.png)
 
 *Now:*
 
 * **Tinker** with the [**Squiggy**](https://squiggy.netlify.app/) app for a few minutes. **Explore** the different brush presets, and **make** some superficial modifications to brush functions.
 * **Devise** your own custom brush function. Feel free to consult Lingdong's [documentation](https://github.com/LingDong-/squiggy?tab=readme-ov-file#tube-brush). 
 * **Create** a casual composition that shows off your brush function to good effect, and **screenshot** it.
-* **Create** a post in the Discord channel `#324-squiggy`. **Paste** your function code in the post and **upload** your screenshot. **Write** a sentence that describes your function, and any thoughts you have about the exercise. *Note: Discord uses Markdown; you can format code in Discord by wrapping your code in backticks ( ` ) or triple-backticks for longer blocks.*
+* **Create** a post in the Discord channel `#323-squiggy`. **Paste** your function code in the post and **upload** your screenshot. **Write** a sentence that describes your function, and any thoughts you have about the exercise. *Note: Discord uses Markdown; you can format code in Discord by wrapping your code in backticks ( ` ) or triple-backticks for longer blocks.*
 
 If you find this project interesting, I highly encourage you to read or skim the brief articles below.
 
@@ -135,24 +144,41 @@ If you find this project interesting, I highly encourage you to read or skim the
 * Matt Deslauriers, [*Drawing Lines is Hard*](https://mattdesl.svbtle.com/drawing-lines-is-hard), 2015
 
 
+---
+
+# 3.3. Offset Curve Composition 
+
+**(90-120 minutes, 25%)** *This is the smaller of the two main creative projects for this unit.*
+
+![jenn_karson_offset_leaves](img/jenn_karson_offset_leaves.jpg)
+
+
+
+* **Review** [this presentation about offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves). **Observe** that [code for computing offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves#code) is provided for several toolkits. 
+* Develop a composition using offset curves.
+* There are no Plot your composition using any device, pen, and paper available. 
+
+
 
 
 ---
 
-# 3.4. Taking A Dot for A Walk
+# 3.4. Taking A Dot for A Walk (in 3D)
 
 ![picasso dachshund 1957](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/picasso_dachshund.jpg)<br />
 Pablo Picasso, *Chien* (Dog), 1957.
 
-(2-4 hours, 50%) *The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills in using code to govern a foundational graphical form: a single line.*
+**(2-4 hours, 50%)** *The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills in using code to govern a foundational graphical form: a single line.*
 
 Recall Paul Klee’s [*Pedagogical Sketchbook*](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf) (1925), in which he proposes that “a line is a dot that went for a walk”.
 
 [![Klee line walk, from Pedagogical Sketchbook](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/klee_line_walk.jpg)](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf)
 
-The artwork [Sum05](https://www.liaworks.com/theprojects/sum05/) by Austrian software artist (2005), Lia (at left) and the artwork [Path_P](https://reas.com/path_p/) by Casey Reas (2001, at right, described in [this article](https://medium.com/@REAS/notes-on-phototaxis-db7aa7641ad8)), can be understood as examples of this, though they achieve this in very different ways: In her design, Lia composes trigonometric functions of trigonometric functions, while Casey records the paths taken by Braitenberg vehicles.
+The artwork [Sum05](https://www.liaworks.com/theprojects/sum05/) by Austrian software artist (2005), Lia (at left); the artwork [Path_P](https://reas.com/path_p/) by Casey Reas (2001, at right, described in [this article](https://medium.com/@REAS/notes-on-phototaxis-db7aa7641ad8)), and [oioi0003](https://www.deconbatch.com/2019/05/think-it-over.html) (2019) by Deconbatch, [described here](https://www.deconbatch.com/2019/05/think-it-over.html), can be understood as examples of this, though they achieve this in very different ways: In her design, Lia composes trigonometric functions, while Casey records the paths taken by Braitenberg vehicles, and Deconbatch uses a fractal-like recurrence formula.
 
 ![walks by Lia and Casey](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/walks.jpg)
+
+![cherniak_recursive.jpg](img/deconbatch_oioi0003-min.png)
 
 In this open-ended assignment, you are asked to **write** code that takes a dot for a walk, to create an interesting line; **export** a plottable file representing your line; **plot** and **document** the result; and **write** a brief statement about your project. In evaluating your work, we may discuss things like: the expressiveness of your line, the muscularity of your control, conceptual propositions you may have engaged, etc.
 
@@ -168,7 +194,17 @@ Create a post in the Discord channel, #34-line-walk.
 * Bring your plot to class for pinup on 
 
 
-#### Technical Suggestions
+
+#### Generating G-Code: Code Templates
+
+
+* Python: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#generating-g-code-files-with-python)
+* p5.js: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#generating-g-code-with-p5js)
+* p5.js: [G-Code Drawing Recorder](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#p5js-g-code-drawing-recorder)
+
+
+
+#### Walking a Dot: Technical Springboards 
 
 [**Some strategies for walking a dot are discussed in these lecture notes**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md) — but this list is only a starting point. There are an infinity of possible approaches to generate an interesting line, and there is no preferred method. 
 
@@ -183,16 +219,12 @@ Your line may be zig-zaggy, wavy, curly, wiggly, noisy, etc. Your line may be wh
 * [Polar Perlin Noise Loops](https://www.youtube.com/watch?v=ZI1dmHv3MeM) (Coding Challenge #136.1)
 * [Horizontal Directional Drilling](https://www.youtube.com/watch?v=FfCBNL6lWK0) (Coding Challenge #172)
 
-Here are some helpful templates to get you started:
 
-JavaScript (p5.js) template for interactive SVG export • at the p5 Editor
-Java (Processing) template for interactive SVG export
-Python (Processing.py, v.3.5.4) template for interactive SVG export
+#### 3D Plotting Case Study: Lia's Hacked AxiDraw (2018) 
 
-#### Templates for Generating G-Code in p5.js
+![lia_12_P8280026_variante-1](img/lia_12_P8280026_variante-1.jpg)
 
-* [G-Code Lissajous Exporter](https://editor.p5js.org/golan/sketches/Gly-gpjzM)
-* [G-Code Drawing Recorder](https://editor.p5js.org/golan/sketches/5NkOru6OA)
+The mononymic Austrian computer artist, [Lia](https://www.liaworks.com/), mentioned earlier, has been active in software art since 1995. In 2018 she used a custom workflow to control a modded AxiDraw plotter **in 3D**, to produce a [series of ink studies](https://www.liaworks.com/theprojects/mechanical-plotter-drawings-waves/) The example shown above consists of a series of sinewave-like paths, executed by an ink brush. *(To the extent that this artwork is interesting, what makes it so?)*
 
 
 
@@ -210,14 +242,8 @@ README.md
 -->
 
 
-Lecture Notes
 
 
 In *Lines: a Brief History*, Chapter 6, Tim Ingold writes:
 
 > “In his book *The Nature and Art of Workmanship*, theorist of design David Pye arrives at a […] distinction between what he calls the ‘workmanship of risk’ and the ‘workmanship of certainty’. In the workmanship of risk, the result is not pre-determined but ‘depends on the judgement, dexterity and care which the maker exercises as he works’ (Pye 1968: 4). Thus the quality of the outcome is never assured until the work is actually finished. In the workmanship of certainty, by contrast, the result is exactly pre-determined before the task is even begun. This determination is given in the settings and specifications of the apparatus of production, which in turn controls the movements of the working point. The workmanship of risk, Pye suggests, is exemplified by writing with a pen, and the workmanship of certainty by modern printing. In the workmanship of risk, however, practitioners are continually devising ways to limit risk through the use of jigs and templates, which introduce a degree of certainty into the proceedings. Thus ‘if you want to draw a straight line with your pen’, Pye advises, ‘you do not go at it freehand, but use a ruler, that is to say, a jig’.”
-
-* [Sprouts](https://www.youtube.com/watch?v=ZQY4v5GItes); Conditional Design
-* [Joanie Lemercier's workflow](https://twitter.com/JoanieLemercier/status/1391443586206535682) & [another thread](https://x.com/JoanieLemercier/status/996180699357958144)
-* [Robert Hodgin's signature](https://www.instagram.com/p/CKmcSliHwg_/)
-* Here is the short documentary [*CURVES*](https://www.youtube.com/watch?v=Be3R5YEKFN0) by Masahiko Sato. We will watch 0:15–6:45 and 13:20–19:20. Sato says, “A line is a miracle that you draw when you throw it.”
