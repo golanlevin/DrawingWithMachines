@@ -4,16 +4,18 @@
 
 ## Agenda
 
+* Reminder about [support for art supplies](https://github.com/golanlevin/DrawingWithMachines/blob/main/syllabus/60-428_syllabus_fall_2025.md#art-supplies)
 * Pinup of [Assignment 2.5](../../../assignments/2025/02_getting_started/README.md#25-re-coding-and-plotting-molnars-lettres): Asemic Writing & Vera Molnar's *Lettres*
+* ***Break***
 * [Warmup: Sprouts](#warmup-sprouts)
 * [Vibing: Curves are Traces in Space](#vibing-curves-are-traces-in-space)
-* *Break*
-* Introduction to [Assignment 3: Line](../../../assignments/2025/03_line/README.md) (due Wednesday September 10) 
+* Introduction to [Assignment 3: Line](../../../assignments/2025/03_line/README.md) (due Wednesday September 10)
+* ***Break***
 * Main Presentations
 	* [Generating G-code Files for Plotters](../../../lectures/topics/gcode/README.md)
 	* [Offset Curves](../../../lectures/topics/offset_curves/README.md)
 	* [Some Strategies for Walking a Dot](../../../lectures/topics/walking_a_dot/README.md)
-* Dessert: [Joanie Lemercier's workflow](https://twitter.com/JoanieLemercier/status/1391443586206535682) & [another thread](https://x.com/JoanieLemercier/status/996180699357958144)
+* *Dessert*: [Joanie Lemercier's workflow](https://twitter.com/JoanieLemercier/status/1391443586206535682) & [another thread](https://x.com/JoanieLemercier/status/996180699357958144)
 
 ---
 
