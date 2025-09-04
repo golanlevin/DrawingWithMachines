@@ -150,7 +150,7 @@ If you find this project interesting, I highly encourage you to read or skim the
 * **Review** [this presentation about offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves). **Observe** that [code for computing offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves#code) is provided for several toolkits. 
 * **Develop** a composition using offset curves.
 * **Plot** your offset curve composition — you are encouraged to use an AxiDraw or HP7475A plotter. This is a good opportunity to **experiment** with different pens and paper.
-* **Create** a post in the Discord channel, `#33-line-walk`.
+* **Create** a post in the Discord channel, `#32-offset-composition`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
 * **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
 * **Submit** high-quality documentation of this project into [**this Google Form**]() (TBA). 
