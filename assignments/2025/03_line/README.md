@@ -195,7 +195,7 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 * For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters; and **limit** your feed rate to 5000-10000 mm/minute. These parameters will afford the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter.
 * *Optionally*, **record** a time-lapse video of the Bantam plotter in action. Speak with the professor or TA about how to do this. 
 * Having everyone depend on a single plotter entails certain risks. If there is a failure situation of some sort, please just **fall back** to using an AxiDraw or HP7475A plotter. *(You'll have to jettison your pressure work.)*
-* **Create** a post in the Discord channel, `#33-line-walk`.
+* **Create** a post in the Discord channel, `#33-dot-walk`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
 * **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
 * **Submit** high-quality documentation of this project into [**this Google Form**]() (TBA). 
