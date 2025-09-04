@@ -104,7 +104,7 @@ y = r * sin(t);
 
 Invited to work as an artist-in-residence at IBM's laboratories, animator John Whitney teamed up with programmer Jack P. Citron to create a series of groundbreaking computer animations. Together they created *Permutations* (1968), one of the earliest examples of computer-generated abstract cinema. Whitney employed parametric polar equations like roulettes to control the motion of points and geometric forms, creating hypnotic visual patterns that unfolded with mathematical precision.
 
-[![john_whitney_permutation_1968.jpg](img/john_whitney_permutation_1968.jpg)](https://www.youtube.com/watch?v=nwsYlI4QtGo&t=24s)
+[**Watch the Video**](https://www.youtube.com/watch?v=nwsYlI4QtGo&t=24s)<br />[![john_whitney_permutation_1968.jpg](img/john_whitney_permutation_1968.jpg)](https://www.youtube.com/watch?v=nwsYlI4QtGo&t=24s)
 
 
 ### 1.2.3. Case Study: Spencerian flourishes (1800s copperplate calligraphy)
@@ -242,7 +242,7 @@ Michael Fogleman exhaustively computed [all the unique ways to mow a square lawn
 
 ## 2.2. Turtle Graphics
 
-[![papert_turtle](img/papert_turtle.jpg)](https://www.youtube.com/watch?v=xMzojQFyMo0&t=59s)
+[**Watch the Video**](https://www.youtube.com/watch?v=xMzojQFyMo0&t=59s)<br />[![papert_turtle](img/papert_turtle.jpg)](https://www.youtube.com/watch?v=xMzojQFyMo0&t=59s)
 
 [**Turtle graphics**](https://www.youtube.com/watch?v=xMzojQFyMo0&t=59s) are vector graphics using a relative cursor (the "turtle") on a Cartesian plane (x and y axis). The turtle has three attributes: a location, an orientation (or direction), and a pen with an on/off state. The turtle moves with commands that are relative to its own position, such as "move forward 10 spaces" and "turn left 90 degrees". A student could understand and reason about) the turtle's motion by imagining what they would do if they were the turtle. 
 
@@ -388,7 +388,7 @@ Given a polyline, you can give it coherent character using smoothing & sharpenin
 
 ## 4.2. Simulated Filaments
 
-A rope or string can be simulated with a series of particles connected by springs (sometimes called a 1-D mesh). The springs apply forces that ensure the particles remain separated by a constant distance. The particles can then be subjected to other forces (such as gravity, etc.), causing the entire rope to behave in interesting ways. Here is a [p5.js code example](https://editor.p5js.org/golan/sketches/_vAyG38UI).
+A rope or string can be simulated with a series of particles connected by springs (sometimes called a 1-D mesh). The springs apply forces that ensure the particles remain separated by a constant distance. The particles can then be subjected to other forces (such as gravity, etc.), causing the entire rope to behave in interesting ways. Here is an interactive [p5.js code example](https://editor.p5js.org/golan/sketches/_vAyG38UI).
 
 [![p5js_rope.gif](img/p5js_rope.gif)](https://editor.p5js.org/golan/sketches/_vAyG38UI)
 
