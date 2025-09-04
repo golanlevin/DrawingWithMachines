@@ -163,6 +163,8 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 ### *A.K.A. "Pressure" Project*
 
+**Summary**: Read these [**these lecture notes**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md). Then [generate G-Code](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md) and plot a single-line composition on the Bantam plotter, which can do Z-axis pressure.
+
 ![picasso dachshund 1957](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/picasso_dachshund.jpg)<br />
 Pablo Picasso, *Chien* (Dog), 1957.
 
@@ -187,7 +189,7 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 *Now:*
 
 * **Choose** whether you would like this project or the *Offset Curve Composition* (3.2) to be your main focus for this week.
-* **Write** code to take a dot on an interesting walk. Your code may be written in any programming language you prefer, and should export a design that consists of exactly one line. Some possible springboards from the Coding Train are linked below, but you are by no means limited to these.
+* **Write** code to take a dot on an interesting walk. Your code may be written in any programming language you prefer, and should produce a design that consists of **exactly one line**. Some [possible springboards](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md) from the Coding Train are linked below, but you are by no means limited to these.
 * ***HA HA BUT*** in addition to specifying your dot's path in `x` and `y`, you are *also* asked to specify its path in `z` — which will be used to govern *pen pressure* on the Bantam ArtFrame. In order to do this, your software will need to export G-Code directly — *not* SVG! Some code templates for doing this are below. 
 * **Plot** your drawing. I have provided a *black PigmaBB brush pen* in your kit specifically for this exercise — it has excellent pressure response within a range of ~3-5mm of z-height. You may need to do some tests on scrap paper to reckon your pen's position and the z-travel specified by your code.
 * For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters; and **limit** your feed rate to 5000-10000 mm/minute. These parameters will afford the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter.
@@ -204,11 +206,11 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 
 *Note that for this project, you will need to generate G-Code yourself in order to have continuous control of pressure (z-axis). Although there are tools for converting SVGs into G-Code, they treat the design as purely 2D.*
 
-* Python: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#generating-g-code-files-with-python)
-* p5.js: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#generating-g-code-with-p5js)
-* p5.js: [G-Code Drawing Recorder](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/gcode#p5js-g-code-drawing-recorder)
+* Python: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#generating-g-code-files-with-python)
+* p5.js: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#generating-g-code-with-p5js)
+* p5.js: [G-Code Drawing Recorder](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#p5js-g-code-drawing-recorder)
 
-
+https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md
 
 #### Walking a Dot: Technical Springboards 
 

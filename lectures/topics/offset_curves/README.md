@@ -12,13 +12,13 @@
 
 Here is some working demonstration code to compute offset curves in Java, JavaScript, and Python. *Note that these implementations differ widely in how they are used, and in the quality of their results. In my opinion, the Python [Shapely](https://shapely.readthedocs.io/en/stable/) library — a professional-grade cartography toolkit – will produce the best-quality, most robust results, but your mileage may vary!*
 
-* [**Python** demo](python/README.md) (using the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1)
+* [**Python** demo](python/README.md) (using the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1) — *Recommended*
 * [**Processing** (Java) v.4.4 demo](processing/offset_curves/offset_curves.pde) (requires the [PEmbroider](https://github.com/CreativeInquiry/PEmbroider) library)
 * [**p5.js** (JavaScript) demo](p5js/) (using [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang); Also see [here](https://editor.p5js.org/golan/sketches/3weJl07Re) and [here](https://editor.p5js.org/golan/sketches/hJ--ERIWQ)
 
 Some additional implementations of offset curves include: 
 
-* [SKIA PathKit (JavaScript via WebAssembly and asm.js)](https://skia.org/docs/user/modules/pathkit/#pathkit) 
+* [SKIA PathKit (JavaScript wrapping WebAssembly and asm.js)](https://skia.org/docs/user/modules/pathkit/#pathkit) 
 * [jsts + d3](https://github.com/bjornharrtell/jsts), as shown [here](https://observablehq.com/@rveciana/coastal-vignettes-with-jsts-d3js)
 * [OpenFrameworks (C++) implementation](https://github.com/Bryce-Summers/ofxScribbleSegmenter/blob/master/src/OffsetCurves.cpp) by Bryce Summers
 
