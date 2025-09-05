@@ -50,7 +50,7 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 
 * **Write** a program that stores cursor points while a user draws.
 * **Connect** these points with a polyline (shown in black, above). *(In the example shown here, I also performed some local averaging to improve the smoothness of my polyline, but you don't have to.)*
-* **Compute** an additional polyline (shown above in red) derived from the user's drawing, which is *offset* everywhere from the user's drawing by a fixed distance of (say) 25 pixels. You can do this with just a few lines of trigonometry. *(Don't use any fancy libraries, and don't try to resolve any issues with unexpected cusps or self-intersections that arise.)*
+* **Compute** an additional polyline (shown above in red) derived from the user's drawing, which is *offset* everywhere from the user's drawing by a fixed distance of (say) 25 pixels. You can do this with just a few lines of trigonometry. *(Don't use any fancy libraries, and don't try to resolve any issues with unexpected cusps or self-intersections that arise.)* **Note** that this offset line could come in handy in the next project (3.1.2, *Making Lines with Different Weights*).
 * ***SIGH.*** ChatGPT is able to execute this assignment reasonably well. Personally, I genuinely think it's worth understanding how to do this exercise yourself — it hits a lot of pedagogic goals... or at least, it *used* to. But if you find yourself spending more than 15 minutes puzzling over the trigonometry, it may be best to ask your AI friend for help.
 * **Create** a Discord post in the channel `#311-naive-offset`.
 * **Draw** your cursive initials using your sketch, and **embed** a screenshot of your sketch in your Discord post. 
@@ -84,7 +84,7 @@ Of course, there are *many* ways to do this; for example, you might:
 	* **Note 1**: For this particular exercise, you are not permitted to use Z-axis pressure.
 	* **Note 2**: Sadly, the p5.js/Processing [`strokeWeight()`](https://p5js.org/reference/p5/strokeWeight/) command will not be helpful for generating plottable SVGs.
 * 🌶️ For an optional challenge, **extend** your function so that it can produce a polyline with continuously-variable thickness. In other words, specify your thickened polyline using `(x,y, weight)` points that each specify their local thickness. 
-* **Use** your function to create a *simple "test-sheet design"* that uses at least three line weights. You may use any color pen(s) and any color paper, but your design should allow for direct comparison between lines of different weights that were drawn with the same pen. *(Keep your test-sheet design simple, please, and save your time for the larger projects below.)*
+* **Use** your function to create a *simple "test-sheet design"* that uses at least three line weights. You may use any color pen(s) and any color paper, but your design should allow for direct comparison between lines of different weights that were drawn with the same pen. *(Keep your test-sheet design simple, please; save your time for the larger projects below.)*
 * **Plot** your test-sheet design on 8.5x11" or 9x12" paper. For this project, I recommend using either [AxiDraw](https://github.com/golanlevin/DrawingWithMachines/blob/main/rpi_standalone/README.md), HP7475A, or [Line-Us](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/line-us) plotters. **Note**: If you use the HP7475A, you will need to convert SVG to HPGL using *vpype*; see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/vpype_svg_prep/README.md), and this [one-sheet PDF for using the HP7475A](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/hp7475a-one-sheet/hp7475a-one-sheet.md).
 * **Scan** or **photograph** your test-sheet design. 
 * **Scan** or **photograph** your hand-made tests as well.
@@ -97,11 +97,11 @@ Of course, there are *many* ways to do this; for example, you might:
 
 ## 3.1.3. Squiggy Hacking
 
-**(30 minutes, 10%)** *In this exercise, you will develop experience designing strokes with procedural strokeweight functions.*
+**(30 minutes, 10%)** *In this brief exercise, you will develop experience designing strokes with procedural strokeweight functions.*
 
 <a href="https://squiggy.netlify.app/"><img src="img/squiggy.png" width="400"></a>
 
-[***Squiggy***](https://squiggy.netlify.app/) is a sketchpad for the design of lines with procedural strokeweights, and a [vector brushstroke library](https://github.com/LingDong-/squiggy). Squiggy was developed by former BCSA student [Lingdong Huang](https://lingdong.works/) in 2021.
+[***Squiggy***](https://squiggy.netlify.app/) is an online sketchpad for the design of lines with procedural strokeweights, and a [vector brushstroke library](https://github.com/LingDong-/squiggy). Squiggy was developed by former BCSA student [Lingdong Huang](https://lingdong.works/) in 2021.
 
 Squiggy works by using a function to govern the thickness of the stroke. This function returns the local radius (half-width) `w` based on properties like the percentage of distance traveled  (`t`) and the user's velocity `z` (estimated from velocity) at a given point `o`, among others. For example, Squiggy's *slug* brush preset (pictured above) has the following equation, a half sine-wave:
 
@@ -176,13 +176,11 @@ Pablo Picasso, *Chien* (Dog), 1957.
 
 [![Klee line walk, from Pedagogical Sketchbook](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/klee_line_walk.jpg)](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf)
 
-The artwork [Sum05](https://www.liaworks.com/theprojects/sum05/) by Austrian software artist (2005), Lia (at left); the artwork [Path_P](https://reas.com/path_p/) by Casey Reas (2001, at right, described in [this article](https://medium.com/@REAS/notes-on-phototaxis-db7aa7641ad8)), and [oioi0003](https://www.deconbatch.com/2019/05/think-it-over.html) (2019) by Deconbatch, [described here](https://www.deconbatch.com/2019/05/think-it-over.html), can be understood as examples of this, though they achieve this in very different ways: In her design, Lia composes trigonometric functions, while Casey records the paths taken by Braitenberg vehicles, and Deconbatch uses a fractal-like recurrence formula.
+The artwork [Sum05](https://www.liaworks.com/theprojects/sum05/) by Austrian software artist (2005), Lia (at left); the artwork [Path_P](https://reas.com/path_p/) by Casey Reas (2001, at right, described in [this article](https://medium.com/@REAS/notes-on-phototaxis-db7aa7641ad8)), can be understood as examples of this, though they achieve this in very different ways: In her design, Lia composes trigonometric functions, while Casey records the paths taken by Braitenberg vehicles, and Deconbatch uses a fractal-like recurrence formula.
 
 ![walks by Lia and Casey](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/walks.jpg)
 
-![cherniak_recursive.jpg](img/deconbatch_oioi0003-min.png)
-
-Now look again carefully at Klee's and Picasso's lines, above. There is ...*something else going on* besides merely traveling from place to place. There is also a sense of timing, of presence, of articulation and locality — conveyed by the changing *ductus* (weight and ink flow) of the line. For expressive and organic lines, pressure can make a big difference. 
+Now look again carefully at Klee's and Picasso's lines, above. There is ...*something else going on* besides merely traveling from place to place. There is also a sense of timing, of presence, of articulation and locality — conveyed by the changing *ductus* (weight and ink flow) of the line. For expressive and organic lines, *pressure* can make a big difference. 
 
 In this open-ended assignment, you are asked to **write** code that takes a dot for a walk *in three dimensions*, in order to create an interesting line; **export** a plottable file representing your line; **plot** and **document** the result; and **write** a brief statement about your project. In evaluating your work, we may discuss things like: the expressiveness of your line, the muscularity of your control, conceptual propositions you may have engaged, etc.
 
