@@ -163,12 +163,17 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 ### *A.K.A. "Pressure" Project*
 
-**Summary**: **Read** these [**these lecture notes**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md). Then [**generate G-Code**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md) for a single-line composition on the Bantam ArtFrame plotter. Your design should specify the `x`, `y`, and `z` (pressure) movement of the pen. **Limit** yourself to a single line no longer than 100,000mm. **Plot** your design (on paper up to 11x17" or 12x18").
+**(2-4 hours, 25% or 50%)** *The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills to govern a foundational graphical form: a single, expressive line. The assignment is complexified by the* ***additional challenge*** *of controlling a pen's `z` pressure — and not just its `x,y` position.*
+
+**Summary**:
+
+* **Read** these [**these lecture notes**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md). 
+* Then [**generate G-Code**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md) for a single-line composition on the Bantam ArtFrame plotter. Your design should specify the `x`, `y`, and `z` (pressure) movement of the pen. 
+* **Limit** yourself to a single line no longer than 100,000mm (i.e. a ~10-minute plot).
+* **Plot** your design (on paper up to 11x17" or 12x18") with your Pigma BB pen.
 
 ![picasso dachshund 1957](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/picasso_dachshund.jpg)<br />
 Pablo Picasso, *Chien* (Dog), 1957.
-
-**(2-4 hours, 25% or 50%)** *The objective of this prompt is to exercise your conceptual, aesthetic, and computational skills to govern a foundational graphical form: a single, expressive line. The assignment is complexified by the* ***additional challenge*** *of controlling a pen's `z` pressure — and not just its `x,y` position.*
 
 **Recall** Paul Klee’s [*Pedagogical Sketchbook*](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/klee_pedagogical_sketchbook.pdf) (1925), in which he describes:
 
@@ -189,10 +194,10 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 * **Choose** whether you would like this project or the *Offset Curve Composition* (3.2) to be your main focus for this week.
 * **Write** code to take a dot on an interesting walk. Your code may be written in any programming language you prefer, and should produce a design that consists of **exactly one line**. Some [possible springboards](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md) from the Coding Train are linked below, but you are by no means limited to these.
 * ***HA HA BUT*** in addition to specifying your dot's path in `x` and `y`, you are *also* asked to specify its path in `z` — which will be used to govern *pen pressure* on the Bantam ArtFrame. In order to do this, your software will need to export G-Code directly — *not* SVG! Some code templates for doing this are below. 
-* **Plot** your drawing. I have provided a *black PigmaBB brush pen* in your kit specifically for this exercise — it has excellent pressure response within a range of ~3-5mm of z-height. You may need to do some tests on scrap paper to reckon your pen's position and the z-travel specified by your code.
-* For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters; and **limit** your feed rate to 5000-10000 mm/minute. These parameters will afford the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter.
+* **Plot** your drawing. I have provided a *black PigmaBB brush pen* in your kit specifically for this exercise — it has excellent pressure response within a range of ~1-2mm of z-height. You may need to do some tests on scrap paper to reckon your pen's position and the z-travel specified by your code.
+* For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters; and **limit** your feed rate to 5000-10000 mm/minute (thus: a 10-15 minute plot). These parameters will afford the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter.
 * *Optionally*, **record** a time-lapse video of the Bantam plotter in action. Speak with the professor or TA about how to do this. 
-* Having everyone depend on a single plotter entails certain risks. If there is a failure situation of some sort, please just **fall back** to using an AxiDraw or HP7475A plotter. *(You'll have to jettison your pressure work.)*
+* Having everyone depend on a single plotter entails certain risks. If there is a failure situation of some sort, please **fall back** to using an AxiDraw or HP7475A plotter. *(You'll have to jettison your pressure work.)*
 * **Create** a post in the Discord channel, `#33-dot-walk`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
 * **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
