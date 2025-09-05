@@ -44,7 +44,7 @@ Digit by Julien Maire!
 
 ![mont_saint-victoire.jpg](img/mont_saint-victoire.jpg)
 
-The profile of the Mont Sainte-Victoire, a mountain in southern France, became the subject of [more than 30 of Cézanne's paintings](https://en.wikipedia.org/wiki/Mont_Sainte-Victoire_(C%C3%A9zanne)). In 1989, pioneering computer artist Vera Molnar, living in France and a fan of Cezanne, likewise considered Mont St. Victoire as a subject in a [series of plotter artworks](https://dam.org/museum/artists_ui/artists/molnar-vera/sainte-victoire/), representing this instantly-recognizable landscape with a piecewise continuous, single-valued polyline. Molnar [wrote](https://dam.org/museum/artists_ui/artists/molnar-vera/sainte-victoire/) that for her, the shape of Mont St. Victoire was also visually related to the Gaussian [bell curve](https://en.wikipedia.org/wiki/Normal_distribution), y ≈ e<sup>-x<sup>2</sup></sup>
+The profile of the Mont Sainte-Victoire, a mountain in southern France, became the subject of [more than 30 of Cézanne's paintings](https://en.wikipedia.org/wiki/Mont_Sainte-Victoire_(C%C3%A9zanne)). In 1989, pioneering computer artist Vera Molnar, living in France and a fan of Cezanne, likewise considered Mont St. Victoire as a subject in a [series of plotter artworks](https://dam.org/museum/artists_ui/artists/molnar-vera/sainte-victoire/), representing this instantly-recognizable landscape with a piecewise continuous, single-valued polyline. Molnar [wrote](https://dam.org/museum/artists_ui/artists/molnar-vera/sainte-victoire/) that for her, the shape of Mont St. Victoire was also visually related to the Gaussian [bell curve](https://en.wikipedia.org/wiki/Normal_distribution), y ≈ e<sup>-x<sup>2</sup></sup>.
 
 
 ![vera_molnar_mount_st_victoire_variations.jpg](img/vera_molnar_mount_st_victoire_variations.jpg)
@@ -63,12 +63,14 @@ Although Riley did not use a computer, she did have access to [books like these]
 
 ## 1.2. Parametric Curves
 
-Here we discuss *parametric* curves, where each point `(x,y)` on the curve is computed using functions of some other number — the parameter `t`.
+Another strategy for walking a dot is to use *parametric* curves, where each point `(x,y)` on the curve is computed using functions of some other number — the parameter `t`. Note how each dimension (x and y) can have its own independent function of the parameter:
 
 ``` 
 x = f(t);
 y = g(t);
 ```
+
+You can make up your own functions `f(t)` and `g(t)` but it's worth looking at some well-known examples of parametric curves, below.
 
 ### 1.2.1. Case Study: Spirograph Curves
 
@@ -84,30 +86,54 @@ Spirographs were commercialized in the mid-1960s, but [had their origins](https:
 
 ![german_kinematic_models.jpg](img/german_kinematic_models.jpg)
 
-The kinematic model shown here traces out a [*trochoid*](https://mathworld.wolfram.com/Trochoid.html). These are curves that are formed by a point on either the radius of a circle, the circumference of a circle, or the extension of the radius of a circle as it rolls along a straight line. Trochoids obey the parametric equations below, as demonstrated in [this p5 sketch](https://editor.p5js.org/golan/sketches/XeVk96kax),
+The kinematic model shown here traces out a [*trochoid*](https://mathworld.wolfram.com/Trochoid.html). These are curves that are formed by a point on either the radius of a circle, the circumference of a circle, or the extension of the radius of a circle as it rolls along a straight line. Trochoids obey the parametric equations shown below, as demonstrated in [this p5 sketch](https://editor.p5js.org/golan/sketches/XeVk96kax),
 
 ``` 
 x = a*t - b*sin(t);
 y = a - b*cos(t);
 ```
 
-**Hundreds** of such parametric equations can be found in the [Mathworld Plane Curves site](https://mathworld.wolfram.com/topics/PlaneCurves.html). If you're browsing the collection of [Polar Curves](https://mathworld.wolfram.com/topics/PolarCurves.html) and see equations of the form `r = f(t)`, such as this nice [cranioid](https://mathworld.wolfram.com/Cranioid.html), just remember that once you have calculated `r` from `t`, you can plot `(x,y)` coordinates using the identities below, as demonstrated [in this p5 sketch](https://editor.p5js.org/golan/sketches/2HuAJCzhG):
+---
+
+### 1.2.2. Polar Curves
+
+**Hundreds** of parametric equations can be found in the [Mathworld Plane Curves site](https://mathworld.wolfram.com/topics/PlaneCurves.html). If you're browsing the collection of [Polar Curves](https://mathworld.wolfram.com/topics/PolarCurves.html) and see equations of the form `r = f(t)` or `r=f(θ)`, don't feel stumped: it's easy to convert such polar equations to a Cartesian form. Just remember that once you've calculated `r` from `t`, you can easily plot `(x,y)` coordinates using the identities below, as demonstrated [in this p5 sketch](https://editor.p5js.org/golan/sketches/2HuAJCzhG):
 
 ```
+r = f(t); // given some polar equation
 x = r * cos(t);
 y = r * sin(t); 
 ```
 
+For example, here's the equation for a [cranioid](https://mathworld.wolfram.com/Cranioid.html):
+
+<img src="img/cranioid.png" width="400">
+
+Here's how that equation looks when converted to JavaScript:
+
+```
+r = a*sin(t) + b*sqrt(1-p*cos(t)*cos(t)) + c*sqrt(1-q*cos(t)*cos(t));
+x = r * cos(t); 
+y = r * sin(t); 
+```
+
+And here is an interactive p5.js [**cranioid demo**](https://editor.p5js.org/golan/sketches/2HuAJCzhG) where you can see this code in action. The sketch uses the mouse to sweep through different values of the variable `a`. That's a potential strategy for making a design...
+
+
 ---
 
-### 1.2.2. Case Study: John Whitney's *Permutations* (1968)
+### 1.2.3. Case Study: John Whitney's *Permutations* (1968)
 
-Invited to work as an artist-in-residence at IBM's laboratories, animator John Whitney teamed up with programmer Jack P. Citron to create a series of groundbreaking computer animations. Together they created *Permutations* (1968), one of the earliest examples of computer-generated abstract cinema. Whitney employed parametric polar equations like roulettes to control the motion of points and geometric forms, creating hypnotic visual patterns that unfolded with mathematical precision.
+Invited to work as an artist-in-residence at IBM's laboratories in the mid-1960s, computer animator John Whitney teamed up with programmer Jack Citron to create a series of groundbreaking computer animations. Together they created *Permutations* (1968), one of the earliest examples of computer-generated abstract cinema. Whitney employed parametric [polar equations](https://mathworld.wolfram.com/topics/PolarCurves.html) like roulettes to control the motion of points and geometric forms, creating hypnotic visual patterns that unfolded with mathematical precision.
 
 [**Watch the Video**](https://www.youtube.com/watch?v=nwsYlI4QtGo&t=24s)<br />[![john_whitney_permutation_1968.jpg](img/john_whitney_permutation_1968.jpg)](https://www.youtube.com/watch?v=nwsYlI4QtGo&t=24s)
 
+Whitney was literally taking a dot for a walk. Each frame of animation took minutes to calculate, and was captured to film by taking a long exposure of a single dot moving around on a CRT screen. 
 
-### 1.2.3. Case Study: Spencerian flourishes (1800s copperplate calligraphy)
+
+---
+
+### 1.2.4. Case Study: Spencerian flourishes (1800s copperplate calligraphy)
 
 Spencerian flourishes are the ornate, looping decorative extensions found in 19th-century copperplate calligraphy, popularized by calligrapher Platt Rogers Spencer in the mid-1800s. They were designed both to beautify handwriting and to demonstrate a calligrapher’s skill in controlling rhythm, curves, and elegant line variation.
 
@@ -122,18 +148,19 @@ y = d + e * sin(t);
 
 ![flourish-exercises-1](img/flourish-exercises-1.jpg)
 
-You can view more examples of this type of calligraphy [here](img/flourishes_23.jpg), [here](img/flourish-exercises-2.jpg) and [here](img/flourish-exercises-3.png). With a bit of work and some help from [this FFT tool](https://lampz.tugraz.at/~hadley/num/ch3/3.3a.php), I was able to [reproduce more complex flourishes](https://editor.p5js.org/golan/sketches/XPmsA_xvR) by summing periodic functions:
+You can view more examples of this type of calligraphy [here](img/flourishes_23.jpg), [here](img/flourish-exercises-2.jpg) and [here](img/flourish-exercises-3.png). With a bit of work and some help from [this FFT tool](https://lampz.tugraz.at/~hadley/num/ch3/3.3a.php), I was able to [reproduce more complex flourishes](https://editor.p5js.org/golan/sketches/XPmsA_xvR) by summing multiple periodic functions:
 
 <img src="img/flourish2.jpg" width="450">
 
 ---
 
-## 1.3. Polar Curves; Evolutes and Involutes
+## 1.3. Evolutes and Involutes
 
-Time permitting, discuss: 
+*(Time permitting)* [Evolutes](https://mathworld.wolfram.com/Evolute.html) and involutes are a fascinating way to generate one curve from another. An evolute is an output curve formed from the centers of curvature of some input curve. Here are some videos that explain this: 
 
-* Polar curves: `r=f(θ)` [...and then convert: `x=r*cos(θ), y=r*sin(θ)`]. Here's the Mathworld [polar curves](https://mathworld.wolfram.com/topics/PolarCurves.html) page, the [Cranioid page](https://mathworld.wolfram.com/Cranioid.html), and a p5.js [cranioid demo](https://editor.p5js.org/golan/sketches/2HuAJCzhG)
-* [Evolutes](https://mathworld.wolfram.com/Evolute.html) and involutes
+* [Demonstration of calculating the Evolute of an Ellipse](https://www.youtube.com/watch?v=7Dsg9UkSP7A)
+* [Intro to Curvature & Circles of Curvature](https://www.youtube.com/watch?v=si6ka6HeUdY)
+
 
 ---
 
@@ -150,6 +177,27 @@ In **differential curve plotting**, we think about a trace as the movement of a 
   	* See: Braitenberg Vehicles, Craig Reynolds' Steering Behaviors, Boids-type Flocking, etc.
   * using **parametric differential equations**: `dy=f(t), dx=g(t); y+=dy, x+=dx`.
   * using **recurrence formulas**: `xNew = f(xPrev), yNew = g(yPrev)`
+
+So whereas parametric curves take the form
+
+```
+x = f(t)
+y = g(t)
+```
+
+these differentially-plotted curves are cumulative:
+
+```
+x += f(t)
+y += g(t)
+```
+
+and may even depend on the dot's current position and velocity: 
+
+```
+x += f(t,x,y,dx,dy)
+y += g(t,x,y,dx,dy)
+```
 
 
 ---
@@ -246,7 +294,7 @@ Michael Fogleman exhaustively computed [all the unique ways to mow a square lawn
 
 [**Turtle graphics**](https://www.youtube.com/watch?v=xMzojQFyMo0&t=59s) are vector graphics using a relative cursor (the "turtle") on a Cartesian plane (x and y axis). The turtle has three attributes: a location, an orientation (or direction), and a pen with an on/off state. The turtle moves with commands that are relative to its own position, such as "move forward 10 spaces" and "turn left 90 degrees". A student could understand and reason about) the turtle's motion by imagining what they would do if they were the turtle. 
 
-Turtle graphics were devised by Seymour Papert at MIT in the late 1960s, using actual drawing robots, as a way of teaching children to write computer programs. He called the turtle's first-person perspective "body syntonic reasoning". In support of this, Papert also developed the LOGO programming language.
+Turtle graphics were devised by Seymour Papert at MIT in the late 1960s, using actual drawing robots, as a way of teaching children to write computer programs. He called the turtle's first-person perspective "body syntonic reasoning". In support of this, Papert also developed the LOGO programming language, in 1967, in collaboration with Cynthia Solomon. 
 
 * [p5.js turtle graphics starter program](https://editor.p5js.org/golan/sketches/SeiQiFsMa)
 
@@ -257,6 +305,7 @@ Here's my own [attempt at a turtle-graphics design](https://editor.p5js.org/gola
 ![gl_linewalk](img/gl_linewalk.gif)<br />
 [*Golan's Attempt*](https://editor.p5js.org/golan/sketches/im4aJHJO_) (p5)
 
+---
 
 ### 2.2.1. *Meander* Designs: Turtle Graphics with Periodic Sequences
 

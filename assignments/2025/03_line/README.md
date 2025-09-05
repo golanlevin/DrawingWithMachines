@@ -163,7 +163,7 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 ### *A.K.A. "Pressure" Project*
 
-**Summary**: Read these [**these lecture notes**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md). Then [generate G-Code](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md) and plot a single-line composition on the Bantam plotter, which can do Z-axis pressure.
+**Summary**: **Read** these [**these lecture notes**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md). Then [**generate G-Code**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md) for a single-line composition on the Bantam ArtFrame plotter. Your design should specify the `x`, `y`, and `z` (pressure) movement of the pen. **Limit** yourself to a single line no longer than 100,000mm. **Plot** your design (on paper up to 11x17" or 12x18").
 
 ![picasso dachshund 1957](https://github.com/golanlevin/DrawingWithMachines/raw/main/assignments/2024/04_line/resources/picasso_dachshund.jpg)<br />
 Pablo Picasso, *Chien* (Dog), 1957.
