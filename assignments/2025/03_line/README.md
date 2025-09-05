@@ -153,7 +153,7 @@ If you find this project interesting, I highly encourage you to read or skim the
 * **Create** a post in the Discord channel, `#32-offset-composition`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
 * **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
-* **Submit** high-quality documentation of this project into [**this Google Form**]() (TBA). 
+* **Submit** high-quality documentation of this project into [**this Google Form**](https://forms.gle/DNES3zSXNrurKZf59). 
 * **Bring** your plot to class for pinup on September 10.
 
 
@@ -201,7 +201,7 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 * **Create** a post in the Discord channel, `#33-dot-walk`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
 * **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
-* **Submit** high-quality documentation of this project into [**this Google Form**]() (TBA). 
+* **Submit** high-quality documentation of this project into [**this Google Form**](https://forms.gle/DNES3zSXNrurKZf59). 
 * **Bring** your plot to class for pinup on September 10.
 
 
