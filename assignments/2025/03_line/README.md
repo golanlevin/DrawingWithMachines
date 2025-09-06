@@ -50,7 +50,7 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 
 * **Write** a program that stores cursor points while a user draws.
 * **Connect** these points with a polyline (shown in black, above). *(In the example shown here, I also performed some local averaging to improve the smoothness of my polyline, but you don't have to.)*
-* **Compute** an additional polyline (shown above in red) derived from the user's drawing, which is *offset* everywhere from the user's drawing by a fixed distance of (say) 25 pixels. You can do this with just a few lines of trigonometry. *(Don't use any fancy libraries, and don't try to resolve any issues with unexpected cusps or self-intersections that arise.)* **Note** that this offset line could come in handy in the next project (3.1.2, *Making Lines with Different Weights*).
+* **Compute** an additional polyline (shown above in red) derived from the user's drawing, which is *offset* everywhere from the user's drawing by a fixed distance of (say) 25 pixels. You can do this from scratch with just a few lines of trigonometry. *(Don't use any fancy libraries, and don't try to resolve any issues with unexpected cusps or self-intersections that arise.)* **Note** that this offset line could come in handy in the next project (3.1.2, *Making Lines with Different Weights*).
 * ***SIGH.*** ChatGPT is able to execute this assignment reasonably well. Personally, I genuinely think it's worth understanding how to do this exercise yourself — it hits a lot of pedagogic goals... or at least, it *used* to. But if you find yourself spending more than 15 minutes puzzling over the trigonometry, it may be best to ask your AI friend for help.
 * **Create** a Discord post in the channel `#311-naive-offset`.
 * **Draw** your cursive initials using your sketch, and **embed** a screenshot of your sketch in your Discord post. 
@@ -142,14 +142,14 @@ If you find this project interesting, I highly encourage you to read or skim the
 
 # 3.2. Offset Curve Composition 
 
-**(2-4 hours, 25% or 50%)** *You are provided with libraries for computing "proper" offset curves—a type of machine-made line— and invited to use them to make a creative composition.* 
+**(2-4 hours, 25% or 50%)** *You are provided with libraries for computing "proper" offset curves, and invited to use them to make a creative composition.* 
 
 ![jenn_karson_offset_leaves](img/jenn_karson_offset_leaves.jpg)
 
 * **Choose** whether you would like this project or the *Dot-for-a-Walk* composition (3.3) to be your main focus for this week.
-* **Review** [this presentation about offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves). **Observe** that [code for computing offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves#code) is provided for several toolkits. 
+* **Review** [this presentation about offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves). **Observe** that [code for computing offset curves](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/offset_curves#code) is provided in Python, JavaScript, and Java; the Python implementation (using [Shapely](https://shapely.readthedocs.io/en/2.0.6/reference/shapely.offset_curve.html)) is the best-quality.
 * **Develop** a composition using offset curves.
-* **Plot** your offset curve composition — you are encouraged to use an AxiDraw or HP7475A plotter. This is a good opportunity to **experiment** with different pens and paper.
+* **Plot** your offset curve composition — you are encouraged to use an AxiDraw or HP7475A plotter. This could be a good opportunity to **experiment** with different pens and paper.
 * **Create** a post in the Discord channel, `#32-offset-composition`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
 * **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
@@ -209,11 +209,15 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 
 *Note that for this project, you will need to generate G-Code yourself in order to have continuous control of pressure (z-axis). Although there are tools for converting SVGs into G-Code, they treat the design as purely 2D.*
 
-* Python: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#generating-g-code-files-with-python)
-* p5.js: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#generating-g-code-with-p5js)
-* p5.js: [G-Code Drawing Recorder](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#p5js-g-code-drawing-recorder)
+**NEW!** I've made a [**simple p5.js demo**](https://editor.p5js.org/golan/sketches/UpHCoNCz1) that exports G-Code from a lissajous design, with (z-axis) pressure. This sketch shows one way to structure your project that does everything you need. The line weight is a combination of Perlin noise and a cosine taper.
 
-https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md
+[![lissajous-pressure.png](img/lissajous-pressure.png)](https://editor.p5js.org/golan/sketches/UpHCoNCz1)
+
+Here are some additional demos:
+
+* Python: [G-Code Lissajous Exporter](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#generating-g-code-files-with-python)
+* p5.js: [G-Code Lissajous Exporter (no Z-pressure)](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#generating-g-code-with-p5js)
+* p5.js: [G-Code Drawing Recorder](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/gcode/README.md#p5js-g-code-drawing-recorder)
 
 #### Walking a Dot: Technical Springboards 
 

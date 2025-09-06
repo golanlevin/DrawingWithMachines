@@ -6,20 +6,23 @@
 
 *Offset curves are also known as equidistant curves or parallel curves.*
 
+
 ---
 
 ## Code
 
-Here is some working demonstration code to compute offset curves in Java, JavaScript, and Python. *Note that these implementations differ widely in how they are used, and in the quality of their results. In my opinion, the Python [Shapely](https://shapely.readthedocs.io/en/stable/) library — a professional-grade cartography toolkit – will produce the best-quality, most robust results, but your mileage may vary!*
+Here is some working demonstration code to compute offset curves in Python, Java, and JavaScript. *Note that these implementations differ widely in how they are used, in their performance, and in the quality of their results. In my opinion, the Python [Shapely](https://shapely.readthedocs.io/en/stable/) library — a professional-grade cartography toolkit – will produce the best-quality, fastest, most robust results, but your mileage may vary!*
 
-* [**Python** demo](python/README.md) (using the [Shapely](https://shapely.readthedocs.io/en/stable/) library v.2.1.1) — *Recommended*
+* [**Python** demo](python/README.md) (using the [Shapely](https://shapely.readthedocs.io/en/stable/) v.2.1.1 [`offset_curve`](https://shapely.readthedocs.io/en/2.1.1/reference/shapely.offset_curve.html) function) — ***Recommended***
 * [**Processing** (Java) v.4.4 demo](processing/offset_curves/offset_curves.pde) (requires the [PEmbroider](https://github.com/CreativeInquiry/PEmbroider) library)
-* [**p5.js** (JavaScript) demo](p5js/) (using [Unmess.ts](https://github.com/LingDong-/squiggy) by Lingdong Huang); Also see [here](https://editor.p5js.org/golan/sketches/3weJl07Re) and [here](https://editor.p5js.org/golan/sketches/hJ--ERIWQ)
+* [**p5.js** (JavaScript) demo](p5js/) (using [Squiggy/Unmess](https://github.com/LingDong-/squiggy) by Lingdong Huang); including:
+	* [p5 offset curve demo 1: open polyline](https://editor.p5js.org/golan/sketches/3weJl07Re)
+	* [p5 offset curve demo 2: closed shape](https://editor.p5js.org/golan/sketches/hJ--ERIWQ)
 
 Some additional implementations of offset curves include: 
 
-* [SKIA PathKit (JavaScript wrapping WebAssembly and asm.js)](https://skia.org/docs/user/modules/pathkit/#pathkit) 
 * [jsts + d3](https://github.com/bjornharrtell/jsts), as shown [here](https://observablehq.com/@rveciana/coastal-vignettes-with-jsts-d3js)
+* [SKIA PathKit (JavaScript wrapping WebAssembly and asm.js)](https://skia.org/docs/user/modules/pathkit/#pathkit) 
 * [OpenFrameworks (C++) implementation](https://github.com/Bryce-Summers/ofxScribbleSegmenter/blob/master/src/OffsetCurves.cpp) by Bryce Summers
 
 
@@ -50,6 +53,7 @@ Layers of an onion
 
 ![belousov_zhabotinsky_reaction](img/belousov_zhabotinsky_reaction.jpg)
 The [Belousov-Zhabotinsky chemical reaction](https://www.youtube.com/watch?v=jRQAndvF4sM)
+
 
 ---
 
