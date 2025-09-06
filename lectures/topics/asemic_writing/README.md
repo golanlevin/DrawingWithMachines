@@ -5,15 +5,15 @@
 [Asemic writing](https://en.wikipedia.org/wiki/Asemic_writing) is a wordless open semantic form of writing. The word asemic means “having no specific semantic content,” or “without the smallest unit of meaning.” With the non-specificity of asemic writing there comes a vacuum of meaning, which is left for the reader to fill in and interpret. Asemic writing explores the liminal territories between familiarity and chaos, language and gesture.
 
 Work by Mirtha Dermisache (1970s):
-![mirtha_dermisache-1970s.jpg](img/mirtha_dermisache-1970s.jpg)
+![mirtha_dermisache-1970s](img/mirtha_dermisache-1970s.jpg)
 
 This is research by S.E. Petersen (1995), showing activation of the cortex by “word-like stimuli” including what she called “false fonts”, or letters from an imaginary alphabet.
 
-![se_petersen_1995_tweal.jpg](img/se_petersen_1995_tweal.jpg)
+![se_petersen_1995_tweal](img/se_petersen_1995_tweal.jpg)
 
 The *Alphabet Organique* (France, 1780s) was an attempt to redesign the alphabet (coincident with the creation of the metric system) based on the configurations of the mouth. Meanwhile, the *Deseret Alphabet* (1847-1854) was "revealed by God" to the founder/prophet of the Mormon religion, as a way of keeping out unwanted influences, and unifying a worldwide congregation: 
 
-![alpha_historic.jpg](img/alpha_historic.jpg)
+![alpha_historic](img/alpha_historic.jpg)
 
 [Hélène Smith](http://www.cabinetmagazine.org/issues/1/i_martian.php)’s “Martian”:
 
@@ -21,30 +21,30 @@ The *Alphabet Organique* (France, 1780s) was an attempt to redesign the alphabet
 
 Paul Klee, *Frontière* (1938):
 
-![klee_frontiere.jpg](img/klee_frontiere.jpg)
+![klee_frontiere](img/klee_frontiere.jpg)
 
 Joan Miro: *surreal writing* (1940s);
 Bruno Munari, *Scritture Illegibili di popoli Sconosciuti* (1940s):
 
-![alpha_miro_munari.jpg](img/alpha_miro_munari.jpg)
+![alpha_miro_munari](img/alpha_miro_munari.jpg)
 
 Munari: “Every people has its own writing, that of the Arabs and different from that of the Chinese, which is different from that of Sri Lanka and so on. However, each of these scriptures has a precise graphic rule for reading to be facilitated. These writings (for us illegible) are legible for the respected peoples. Why not try to construct other systems with other specially designed rules? What do you read? I do not know. These scriptures are also as beautiful as a drawing.”
 
-![munari_scrittura.jpg](img/munari_scrittura.jpg)
+![munari_scrittura](img/munari_scrittura.jpg)
 
 Max Ernst, “[Maximiliana ou L’Exercise illégal de l’Astronomie](https://www.google.com/search?q=Max+Ernst,+Maximiliana+ou+L%27Exercice+ill%C3%A9gal+de+l%27Astronomie&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjQpfeRsJnZAhXyx1kKHWyZD3oQ_AUICygC&biw=1272&bih=831)” (1964)
 
-![max_ernst_cri_000000340314.jpg](img/max_ernst_cri_000000340314.jpg)
+![max_ernst_cri_000000340314](img/max_ernst_cri_000000340314.jpg)
 
 Luigi Seraphini, *Codex Seraphinianus* (1981):
 
-![codex_seraphinianus_tools.jpg](img/codex_seraphinianus_tools.jpg)
+![codex_seraphinianus_tools](img/codex_seraphinianus_tools.jpg)
 
-![codex_seraphinianus_mammals.jpg](img/codex_seraphinianus_mammals.jpg)
+![codex_seraphinianus_mammals](img/codex_seraphinianus_mammals.jpg)
 
 Alexander Calder, *Balloons* (1973)
 
-![calder_balloons.jpg](img/calder_balloons.jpg)
+![calder_balloons](img/calder_balloons.jpg)
 
 Xu Bing, *A Book from the Sky* (1987-1991)
 
@@ -52,27 +52,27 @@ Xu Bing, *A Book from the Sky* (1987-1991)
 
 [Video](https://www.youtube.com/watch?v=jxHWJjaUDQg)
 
-![xu_bing_5.jpg](img/xu_bing_5.jpg)
+![xu_bing_5](img/xu_bing_5.jpg)
 
-![xu_bing_installation.jpg](img/xu_bing_installation.jpg)
+![xu_bing_installation](img/xu_bing_installation.jpg)
 
 Manfred Mohr, another early computer artist:
 
-![manfred_mohr_1970.jpg](img/manfred_mohr_1970.jpg)
+![manfred_mohr_1970](img/manfred_mohr_1970.jpg)
 
 Roman Verostko, an early algorithmic artist, active in computer art since the early 1970s:
 
-![roman_verostko_p-vio-yel-w.jpg](img/roman_verostko_p-vio-yel-w.jpg)
+![roman_verostko_p-vio-yel-w](img/roman_verostko_p-vio-yel-w.jpg)
 
-![roman_verostko_at_plotter.jpg](img/roman_verostko_at_plotter.jpg)
+![roman_verostko_at_plotter](img/roman_verostko_at_plotter.jpg)
 
 Anders Hoff, *Spline Script*, 2017 (with [writeup](https://inconvergent.net/2017/spline-script/))
 
-![anders_hoff_1.jpg](img/anders_hoff_1.jpg);
+![anders_hoff_1](img/anders_hoff_1.jpg);
 
 Other asemic writing projects by Anders Hoff:
 
-![anders_hoff_2.jpg](img/anders_hoff_2.jpg)
+![anders_hoff_2](img/anders_hoff_2.jpg)
 
 --- 
 
@@ -80,17 +80,17 @@ Other asemic writing projects by Anders Hoff:
 
 Work by [pentronik](pic.twitter.com/Eo68GqcGb0)
 
-![pentronik.jpg](img/pentronik.jpg)
+![pentronik](img/pentronik.jpg)
 
 
 Work by [Sarah Ridgely](https://x.com/sarah_ridgley/status/1408177554087989255)
 
-![sarah_ridgely.jpg](img/sarah_ridgely.jpg)
+![sarah_ridgely](img/sarah_ridgely.jpg)
 
 
 [Kanji-RNN by neokanji](https://otoro.net/kanji-rnn/)
 
-![neokanji.png](img/neokanji.png)
+![neokanji](img/neokanji.png)
 
 ---
 
