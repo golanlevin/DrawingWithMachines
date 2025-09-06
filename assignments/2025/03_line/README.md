@@ -3,7 +3,7 @@
 <img src="img/ellsworth_kelly_rubber_plant_1957.jpg" width="400"><br />
 <small>Ellsworth Kelly, [*Rubber Plant*](https://matthewmarks.com/exhibitions/ellsworth-kelly-plant-drawings-05-2017), 1957</small>
 
-This set of assignments is due at the start of class on Wednesday September 10th, and has three main parts: a series of warmup exercises, a minor project, and a main project. For the sake of your own sanity, **you are asked to decide whether 3.2 (offset curves) or 3.3 (dot walk) is your minor project (worth 25%) or your main project (worth 50%), or vice-versa.**
+This set of assignments is concerned with developing your control of **line**. It is due at the start of class on Wednesday September 10th, and has three main parts: a series of warmup exercises, a minor creative project, and a main creative project. For the sake of your own sanity, **you are asked to decide whether 3.2 (offset curves) or 3.3 (dot walk) is your minor project (worth 25%) or your main project (worth 50%), or vice-versa.**
 
 * 3.1. [Warmup Exercises](#31-warmup-exercises) *(~2 hours)*
 	* 3.1.0. [Install and Test vpype](#310-install-and-test-vpype) *(0-60 minutes, checked but ungraded)*
@@ -34,7 +34,7 @@ As we [discussed in class](https://github.com/golanlevin/DrawingWithMachines/blo
 * **Screenshot** the *vpype* display with your name and **post** it in the Discord channel `#310-vpype-works`. (I want receipts, please.)
 * In the unlikely event that you are unable to get *vpype* installed on your computer, **message** the professor in Discord to discuss other options for [optimizing](https://plotterfiles.com/tools/optimizer) and [cropping](https://msurguy.github.io/svg-cropper-tool/) your SVGs.
 
-**Python programmers:** If you happen to prefer coding in Python, installing *vpype* and its interoperating sibling project [*vsketch*](https://github.com/abey79/vsketch) (for generative plotter art) is a terrific toolchain for this course. My instructions for [installing and using *vsketch* are here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#3-generating-an-svg-using-vsketch-and-vscode).
+**Python programmers:** If you happen to prefer coding in Python, installing *vpype* and its terrific sibling project [*vsketch*](https://github.com/abey79/vsketch) (for generative plotter art) is a recommended toolchain for this course. My instructions for [installing and using *vsketch* are here](https://github.com/golanlevin/DrawingWithMachines/blob/main/generating_svg/python/README.md#3-generating-an-svg-using-vsketch-and-vscode).
 
 ---
 
@@ -108,7 +108,7 @@ Squiggy works by using a function to govern the thickness of the stroke. This fu
 
 `squiggy.tube_brush(o=>({w:Math.sin(o.t*Math.PI)*30+2}))`
 
-In other words, the Squiggy brush function is an [arrow function callback](https://javascript.info/arrow-functions-basics) that Squiggy calls for each point along the line. *(Note that this function is pure JavaScript, not p5.js.)* Here are the available parameters for Squiggy brush functions:
+In other words, the Squiggy brush function is an [arrow function callback](https://javascript.info/arrow-functions-basics) that Squiggy calls for each point along the line. Here are the available parameters for Squiggy brush functions:
 
 ```javascript
 i,  // index of this point in polyline
@@ -122,13 +122,19 @@ y,  // y (1st coordinate)
 z,  // velocity, calculated as Math.hypot(dx,dy)
 ```
 
+*(Note that the Squiggy function is pure JavaScript, not p5.js.)* Some functions you can try within a Squiggy formula include: `Math.sin()` (and other trig functions); `Math.random()`; and even `Date.now()`. Lingdong has also provided `noise(a)` and `noise(a,b)`. If you experience poor performance, try switching to Lingdong's pixel-based pipeline using the `raster piggyback` checkbox.
+
+<!--
+squiggy.tube_brush(o=>({w:(1.0 + Math.sin(o.t*Math.PI * o.i/50.0 + Date.now()/50.0)) *10+2}))
+-->
+
 You can make your own brush function by typing code in the text region and clicking `set brush from code`. For example, in the illustration below, I have set the brush function `w` to `0.1 * o.x` — in other words: the thickness of the brush is directly (and strictly) proportional to the `x`-coordinate of the mark at that location `o`:
 
 ![squiggy_simple](img/squiggy_simple.png)
 
 *Now:*
 
-* **Tinker** with the [**Squiggy**](https://squiggy.netlify.app/) app for a few minutes. **Explore** the different brush presets, and **make** some superficial modifications to brush functions.
+* **Tinker** with the [**Squiggy**](https://squiggy.netlify.app/) app for a few minutes. **Explore** the different brush presets, and **make** some superficial modifications to Lingdong's brush functions.
 * **Devise** your own custom brush function. Feel free to consult Lingdong's [documentation](https://github.com/LingDong-/squiggy?tab=readme-ov-file#tube-brush). 
 * **Create** a casual composition that shows off your brush function to good effect, and **screenshot** it.
 * **Create** a post in the Discord channel `#313-squiggy`. **Paste** your function code in the post and **upload** your screenshot. **Write** a sentence that describes your function, and any thoughts you have about the exercise. *Note: Discord uses Markdown; you can format code in Discord by wrapping your code in backticks ( ` ) or triple-backticks for longer blocks.*
@@ -138,12 +144,11 @@ If you find this project interesting, I highly encourage you to read or skim the
 * Lingdong Huang, [*Nuances of Hose Making*](https://quadst.rip/hose.html), 2021
 * Matt Deslauriers, [*Drawing Lines is Hard*](https://mattdesl.svbtle.com/drawing-lines-is-hard), 2015
 
-
 ---
 
 # 3.2. Offset Curve Composition 
 
-**(2-4 hours, 25% or 50%)** *You are provided with libraries for computing "proper" offset curves, and invited to use them to make a creative composition.* 
+**(2-4 hours, 25% or 50%)** *You are provided with code libraries for computing "proper" offset curves, and are invited to use them to make a creative composition.* 
 
 ![jenn_karson_offset_leaves](img/jenn_karson_offset_leaves.jpg)
 
@@ -154,8 +159,8 @@ If you find this project interesting, I highly encourage you to read or skim the
 * **Create** a post in the Discord channel, `#32-offset-composition`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
 * **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
-* **Submit** high-quality documentation of this project into [**this Google Form**](https://forms.gle/DNES3zSXNrurKZf59). 
-* **Bring** your plot to class for pinup on September 10.
+* **Submit** high-quality scans or photos of this project into [**this Google Form**](https://forms.gle/DNES3zSXNrurKZf59).
+* **Bring** your plot to class for pinup on Wednesday September 10.
 
 
 ---
@@ -195,22 +200,23 @@ In this open-ended assignment, you are asked to **write** code that takes a dot 
 * **Choose** whether you would like this project or the *Offset Curve Composition* (3.2) to be your main focus for this week.
 * **Write** code to take a dot on an interesting walk. Your code may be written in any programming language you prefer, and should produce a design that consists of **exactly one line**. Some [possible springboards](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/walking_a_dot/README.md) from the Coding Train are linked below, but you are by no means limited to these.
 * ***HA HA BUT*** in addition to specifying your dot's path in `x` and `y`, you are *also* asked to specify its path in `z` — which will be used to govern *pen pressure* on the Bantam ArtFrame. In order to do this, your software will need to export G-Code directly — *not* SVG! Some code templates for doing this are below. 
+* **Note:** You may not need to do "much" with pressure! *Subtle* effort may pay off really well here: a little variation from noise, a little taper, perhaps some simple proportionality to speed or local curvature...
 * **Plot** your drawing. I have provided a *black PigmaBB brush pen* in your kit specifically for this exercise — it has excellent pressure response within a range of ~1-2mm of z-height. You may need to do some tests on scrap paper to reckon your pen's position and the z-travel specified by your code.
-* For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters; and **limit** your feed rate to 5000-10000 mm/minute (thus: a 10-15 minute plot). These parameters will afford the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter.
+* For this assignment, I recommend you **limit** your paper size to no larger than 11x17 or 12x18; **limit** your total line length to no more than 100,000 millimeters; and **limit** your feed rate to 5000-10000 mm/minute (thus: a 10-15 minute plot). These parameters will afford the best chances for your design to look good, and for everyone to get a fair chance to use the Bantam plotter. **Be careful** to stay within the plotter's bounds!
 * *Optionally*, **record** a time-lapse video of the Bantam plotter in action. Speak with the professor or TA about how to do this. 
 * Having everyone depend on a single plotter entails certain risks. If there is a failure situation of some sort, please **fall back** to using an AxiDraw or HP7475A plotter. *(You'll have to jettison your pressure work.)*
 * **Create** a post in the Discord channel, `#33-dot-walk`.
 * **Embed** a scan or photograph of your plotted project in your Discord post.
 * **Write** a few sentences in your Discord post that describe your approach, what you struggled with, and what you learned. **Indicate** whether this is your major or minor project for the unit. 
-* **Submit** high-quality documentation of this project into [**this Google Form**](https://forms.gle/DNES3zSXNrurKZf59). 
-* **Bring** your plot to class for pinup on September 10.
+* **Submit** high-quality scans or photos of this project into [**this Google Form**](https://forms.gle/DNES3zSXNrurKZf59). 
+* **Bring** your plot to class for pinup on Wednesday September 10.
 
 
 #### Generating G-Code: Code Templates
 
-*Note that for this project, you will need to generate G-Code yourself in order to have continuous control of pressure (z-axis). Although there are tools for converting SVGs into G-Code, they treat the design as purely 2D.*
+*Note that for this project, you will need to generate G-Code yourself in order to have continuous control of pressure (z-axis). Although there are tools for converting SVGs into G-Code, they lack the ability to support Z-axis information.*
 
-**NEW!** I've made a [**simple p5.js demo**](https://editor.p5js.org/golan/sketches/UpHCoNCz1) that exports G-Code from a lissajous design, with (z-axis) pressure. This sketch shows one way to structure your project that does everything you need. The line weight is a combination of Perlin noise and a cosine taper.
+**NEW!** I've made a [**simple p5.js demo**](https://editor.p5js.org/golan/sketches/UpHCoNCz1) that exports G-Code from a lissajous design — with (z-axis) pressure. This sketch shows one possible way to structure your project. In my demo, the line weight is a combination of Perlin noise and a cosine taper.
 
 [![lissajous-pressure.png](img/lissajous-pressure.png)](https://editor.p5js.org/golan/sketches/UpHCoNCz1)
 
@@ -244,6 +250,6 @@ The mononymic Austrian computer artist, [Lia](https://www.liaworks.com/), mentio
 
 ---
 
-*Past versions of this assignment: [2021](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=456.html), [2024](https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/04_line/README.md)*
+*Past versions of this assignment: [2021](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=456.html), [2024](https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/04_line/README.md)*.
 
 
