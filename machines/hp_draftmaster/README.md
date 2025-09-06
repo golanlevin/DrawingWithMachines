@@ -138,7 +138,7 @@ The following devices are currently available:
 
 ## Complete Workflow Test
 
-Let's do a complete workflow: We will generate a lissajous SVG with p5.js; convert it to HPGL with *vpype* (assuming we have our custom `~/.vpype.toml` installed; and plot it on "Architecture D" (24×36") paper. 
+Let's do a complete workflow: We will generate a lissajous SVG with p5.js; convert it to HPGL with *vpype* (assuming we have our custom `~/.vpype.toml` installed); and plot it on "Architecture D" (24×36") paper. 
 
 Here are complete programs in p5.js: 
 

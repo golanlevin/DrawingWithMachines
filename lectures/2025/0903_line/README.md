@@ -64,5 +64,3 @@ American choreographer William Forsythe served as artistic director of the Frank
 * [**Generating G-code Files for Plotters**](../../../lectures/topics/gcode/README.md)
 * [**Offset Curves**](../../../lectures/topics/offset_curves/README.md)
 * [**Some Strategies for Walking a Dot**](../../../lectures/topics/walking_a_dot/README.md)
-* Time permitting: Using the HP7475A
-* **Dessert**: [Joanie Lemercier's workflow](https://twitter.com/JoanieLemercier/status/1391443586206535682) & [another thread](https://x.com/JoanieLemercier/status/996180699357958144)
