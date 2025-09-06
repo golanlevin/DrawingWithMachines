@@ -75,6 +75,7 @@ Of course, there are *many* ways to do this; for example, you might:
 * Draw a line very slowly or very quickly, using a pen/paper combo that bleeds ink
 * Draw a line which turns out to be, upon close examination, a decorative border
 * Draw a line comprised of a cloud of small dots
+* Draw a line of densely-packed circles...
 
 <img src="img/handmade_line_weights.jpg" width="400">
 

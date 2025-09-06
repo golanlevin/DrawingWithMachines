@@ -1,7 +1,7 @@
 # Generating G-code Files for Plotters
 
 * It is straightforward to *convert* a 2D SVG to G-Code — using, for example, the [BantamToolsStudio app](https://support.bantamtools.com/hc/en-us/articles/36808222820499-Bantam-Tools-Studio-Software-Installation), or the [vpype-gcode](https://github.com/plottertools/vpype-gcode) or [vpype-gscrib](https://vpype-gscrib.readthedocs.io/en/latest/) G-Code plugins for vpype. 
-* However, if you wish to execute **3D G-Code file**, you will almost certainly need to generate these files *yourself*. This document provides workflows for computationally generating G-code *files*.
+* However, if you wish to execute **3D G-Code file**, you will almost certainly need to generate these files *yourself*. This document provides workflows for computationally generating G-code files from scratch.
 * For information on controlling a plotter in *real-time* with G-code, see [these instructions](https://github.com/golanlevin/DrawingWithMachines/blob/main/realtime/artframe_realtime/README.md) instead. 
 
 ---
@@ -11,6 +11,7 @@
 * [What is G-code?](#what-is-g-code)
 * [Basic G-code Commands](#basic-g-code-commands)
 * [Generating G-code with p5.js](#generating-g-code-with-p5js)
+	* [p5.js G-Code Lissajous (with Z-axis Pressure)](#p5js-g-code-lissajous-with-z-axis-pressure)
 	* [p5.js G-code Drawing Recorder](#p5js-g-code-drawing-recorder)
 * [Generating G-code with Python](#generating-g-code-files-with-python)
 * [Other Workflows](#other-workflows)
@@ -163,6 +164,18 @@ Once you have generated your G-code file, you can **plot** it on the Bantam ArtF
 * by placing the file on the plotter's SD card, as described in the [ArtFrame user's guide, here](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/bantam_artframe_1824/artframe_guide_v1-1-1.pdf),
 * or by streaming the file's data to the plotter in-real time, [using the instructions here](https://github.com/golanlevin/DrawingWithMachines/blob/main/realtime/artframe_realtime/README.md).
 
+---
+
+## p5.js G-Code Lissajous (with Z-axis Pressure)
+
+<details>
+  <summary><strong>Click here</strong> for a p5.js sample program that demonstrates G-Code generation with Z-axis pressure.</summary>
+
+Here is a [**simple p5.js demo**](https://editor.p5js.org/golan/sketches/UpHCoNCz1) that exports G-Code from a lissajous design, with additional (z-axis) pressure. The pressure information is a combination of Perlin noise and a cosine taper.
+
+[![lissajous-pressure.png](img/lissajous-pressure.png)](https://editor.p5js.org/golan/sketches/UpHCoNCz1)
+
+</details>
 
 ---
 
