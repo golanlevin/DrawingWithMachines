@@ -15,7 +15,6 @@
 	* [Generating G-code Files for Plotters](../../../lectures/topics/gcode/README.md)
 	* [Offset Curves](../../../lectures/topics/offset_curves/README.md)
 	* [Some Strategies for Walking a Dot](../../../lectures/topics/walking_a_dot/README.md)
-* *Dessert*: [Joanie Lemercier's workflow](https://twitter.com/JoanieLemercier/status/1391443586206535682) & [another thread](https://x.com/JoanieLemercier/status/996180699357958144)
 
 ---
 

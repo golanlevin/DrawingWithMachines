@@ -1,22 +1,26 @@
 # Tone
 
+In this lecture, we turn our attention to the problem of **tone in drawing** — and more specifically, how we can achieve variations in light and dark across a surface, by building up marks that in themselves may not vary in their darkness. 
+
+
 ---
 
 ## Hatching: Some Reminders
+
 
 * Question to the group: What are some *dimensions of variability* that are used to achieve tone and tone textures in drawings?
 
 <details><summary>Click to reveal some examples</summary>
 
-* density (elements per linear inch or square inch)
-* orientation
-* line weight
-* layering (cross-hatching)
+* density (elements per linear inch, or per square inch)
+* line weight (by varying pen pressure or orientation)
+* layering (cross-hatching of multiple marks)
 * duty cycle (of a dashed line)
 * hardness of pencil
 * darkness of ink
 
 </details>
+
 
 ![hatching-techniques](img/hatching-techniques.jpg)
 
@@ -24,44 +28,53 @@
 
 ![sketch-hatching](img/sketch-hatching.jpg)
 
-
----
-
-### Orientation Matters. 
-
-You can hatch along, against, or perpendicular to natural gradients in the image.
-
-![Queens-of-Persia-at-the-Feet-of-Alexander-detail](img/Queens-of-Persia-at-the-Feet-of-Alexander-detail.jpg)<br />*Gérard Edelinck after Charles Le Brun, French, ca. 1675.*
-
-![goltzius](img/goltzius.jpg)<br />Hendrick Goltzius (1558–1617), *Apostle Simon*, 1589 (detail)
-
-...or hatch in ways that ignore gradients in the "primary" visual material, establishing secondary flows in the image plane.
-
-![NicolasJolly](img/NicolasJolly.jpg)<br />By Nicolas Jolly.
-
-#### Material Considerations.
-
-Contrasts: 
-
-![pens-make-a-difference](img/pens-make-a-difference.jpg)
-
-Gradient of drawing devices:
-
-![fogleman-pencils.png](img/fogleman-pencils.png)
-
-Possibilities for dwelling-based halftoning (ink bleeding):
-
-![bleeding-ink-dwelling.png](img/bleeding-ink-dwelling.png)
-
-
-#### Contrasts
+![texture-pattern-elements](img/texture-pattern-elements.jpg)
 
 ![contrasts](img/contrasts.jpg)
 
 
 ---
 
-## Tone and Algorithm I: Modular Texture Elements
+## Orientation Matters
+
+
+The illustration below shows a very simplistic cross-hatching method. If a region of the image is darker than 0.7, a horizontal line is drawn there. If a region is darker than 0.5, a vertical line is *also* drawn there. In this way, several different effective grayscale levels are achieved. However, beyond representing gross luminance, the hatched lines are not otherwise *image-aware*. They are missing an important opportunity to help structure the image in other ways, at the same time that they communicate value.
+
+![simple_hatching](img/simple_hatching.png)
+
+In classical engraving, you may see hatch lines that move along, against, or perpendicular to natural gradients in the image. These hatch lines not only convey dark and light, but help model the volume of the depicted form, and even its surface texture. 
+
+![Queens-of-Persia-at-the-Feet-of-Alexander-detail](img/Queens-of-Persia-at-the-Feet-of-Alexander-detail.jpg)<br />*Gérard Edelinck after Charles Le Brun, French, ca. 1675.*
+
+![goltzius](img/goltzius.jpg)<br />Hendrick Goltzius (1558–1617), *Apostle Simon*, 1589 (detail)
+
+We can also hatch in ways that may ignore gradients in the "primary" visual material, but nonetheless establish intriguing secondary flows in the image plane.
+
+![NicolasJolly](img/NicolasJolly.jpg)<br />By Nicolas Jolly.
+
+
+---
+
+## Material Considerations
+
+Here are some alternative approaches to achieving tone that rely on using combinations of different tools, or using tools in unconventional ways.
+
+We can achieve different tones (and textures) by using a set of pens with different nib sizes. 
+
+![pens-make-a-difference](img/pens-make-a-difference.jpg)
+
+We can achieve different tones by using a set of pencils with different hardnesses. 
+
+![fogleman-pencils](img/fogleman-pencils.png)
+
+We can acheive different tones by allowing ink to bleed for different amounts of time ("dwell-based halftoning"):
+
+![bleeding-ink-dwelling](img/bleeding-ink-dwelling.png)
+
+
+---
+
+## Tone and Algorithm I: Alphabets of Modular Texture Elements
 
 One way to establish tone is to use an **alphabet** of modular elements of varying luminance.
 
@@ -75,15 +88,15 @@ One way to establish tone is to use an **alphabet** of modular elements of varyi
 
 Nowadays we know this as ASCII art. Here's live ASCII webcam video art by [Alida Sun](https://www.instagram.com/p/Cz87BMryZgW/?hl=en&img_index=1): 
 
-![alida-sun.png](img/alida-sun.png)<br />Alida Sun
+![alida-sun](img/alida-sun.png)<br />Alida Sun
 
 ![arjan_van_der_meij](img/arjan_van_der_meij.jpg)<br />Arjan van der Meij
 
-![archi-materials.png](img/archi-materials.png)
+![archi-materials](img/archi-materials.png)
 
 ![wood-and-stone-material-hatch-patterns](img/wood-and-stone-material-hatch-patterns.jpg)
 
-![texture-pattern-elements](img/texture-pattern-elements.jpg)
+
 
 <details><summary>Sidebar about stamps/printing</summary>
 
@@ -97,43 +110,49 @@ Or this typewriter drawing by Lenka Clayton:<br />
 
 ---
 
-## Tone and Algorithm II. 
+## Tone and Algorithm II: Grab Bag. 
 
 
 Just a small handful of many possible approaches: 
 
 [Weighted Rejection Sampling](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) (p5)
 
-![weighted-rejection-sampling.png](img/weighted-rejection-sampling.png)
+![weighted-rejection-sampling](img/weighted-rejection-sampling.png)
 
 [Rasterization with variable line weight](http://paperjs.org/examples/spiral-raster/) (SpiralRaster)
 
-![rasterization-with-line-weight.png](img/rasterization-with-line-weight.png)
+![rasterization-with-line-weight](img/rasterization-with-line-weight.png)
 
 [Novel approaches to variable line density](https://msurguy.github.io/SquiggleCam/) (SquiggleCam)
 
-![squigglecam.png](img/squigglecam.png)
+![squigglecam](img/squigglecam.png)
 
 [Weighted Voronoi Stippling](https://observablehq.com/@mbostock/voronoi-stippling) & [p5.js](https://editor.p5js.org/golan/sketches/i3-pa_GPI)
 
-![weighted-voronoi-stippling.png](img/weighted-voronoi-stippling.png)
+![weighted-voronoi-stippling](img/weighted-voronoi-stippling.png)
 
 [Traveling Salesman Problem tour](https://www.math.uwaterloo.ca/tsp/data/art/) & [example](img/robert_bosch_pareja_160K.png)
 
-![tsp-mona-detail.png](img/tsp-mona-detail.png)
+![tsp-mona-detail](img/tsp-mona-detail.png)
 
 
 [TSP Tour & Figurative Tour](https://blogs.scientificamerican.com/roots-of-unity/when-the-mona-lisa-is-np-hard/)
 
 > As Bosch and Wexler write, “Even though this tour is the best one possible and does indeed resemble the target image, it doesn’t achieve as good a likeness as the points do alone.” It seems like kind of a waste to solve the traveling salesman problem just to make the picture worse, so they decided to change the rules of the game.
 
-![tsp-mona.png](img/tsp-mona.png)
+![tsp-mona](img/tsp-mona.png)
 
 > Instead of clustering the points in their image, they start with a regular grid of points. The object of the game is then to connect them not with a path that solves the traveling salesman problem but with one that visually resembles the target image. The path should still hit each point exactly once, but now the winning trip will probably be longer than the TSP-optimal path.
 
-![tsp-mona.png](img/mona-figurative-tour.png)
+![tsp-mona](img/mona-figurative-tour.png)
 
-The [**DrawingBotv34 software**](https://drawingbotv3.com/) offers *many* different readymade algorithms for converting raster images to vector drawings.
+[Halftoning with Reaction-Diffusion Patterns](https://estebanhufstedler.com/2020/05/17/halftoning-with-reaction-diffusion-patterns/) (+[Sims](https://www.karlsims.com/rd.html))
+
+![reaction-diffusion-haring](img/reaction-diffusion-haring.jpg)
+
+The [**DrawingBotv34 software**](https://docs.drawingbotv3.com/en/latest/pfms.html#) offers *numerous* different readymade algorithms for converting raster images to vector drawings.
+
+![drawingbotv3](img/drawingbotv3.jpg)
 
 ---
 
@@ -141,11 +160,11 @@ The [**DrawingBotv34 software**](https://drawingbotv3.com/) offers *many* differ
 
 [Dithering](https://en.wikipedia.org/wiki/Dither) is the problem of rendering a continuous-tone (or high bit-depth) raster image with fewer bits. There are many, many different techniques.
 
-![dithering-montage.png](img/dithering-montage.png)
+![dithering-montage](img/dithering-montage.png)
 
 Some easy ones are: *Threshold*; *Random*; *Bayer*. (How do you suppose they work?)
 
-![dithering.png](img/dithering.png)
+![dithering](img/dithering.png)
 
 [Floyd-Steinberg](https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering) is the most common dithering method. it works by using error diffusion, meaning it propagates (adds) the residual quantization error of a given pixel onto its neighboring pixels, to be dealt with later.
 
@@ -179,9 +198,9 @@ If you want to nerd out, these articles are amazing:
 [Work by Loackme (Loïc Schwaller)](https://twitter.com/loackme_)
 
 <!-- 
-![loackme-0.gif](img/loackme-0.gif)
+![loackme-0](img/loackme-0.gif)
 -->
-![loackme-1.gif](img/loackme-1.gif)
+![loackme-1](img/loackme-1.gif)
 
 [*Cajal* Neural Drawings by Mark Webster](https://twitter.com/search?q=%40motiondesign_01%20cajal)
 
@@ -192,15 +211,6 @@ If you want to nerd out, these articles are amazing:
 ![mark-webster-2](img/mark-webster-2.jpg)
 
 
-
-
----
-
-## Time Permitting
-
-[Halftoning with Reaction-Diffusion Patterns](https://estebanhufstedler.com/2020/05/17/halftoning-with-reaction-diffusion-patterns/) (+[Sims](https://www.karlsims.com/rd.html))
-
-![reaction-diffusion-haring](img/reaction-diffusion-haring.jpg)
 
 ---
 

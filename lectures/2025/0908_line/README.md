@@ -2,6 +2,8 @@
 
 ![wayfarer.jpg](img/wayfarer.jpg)
 
+--- 
+
 **Agenda:**
 
 * Practical Demonstrations (ArtFrame, HP7475A)
@@ -24,8 +26,8 @@
 
 ---
 
-* [Some Strategies for Walking a Dot](../../../lectures/topics/walking_a_dot/README.md)
-* [Joanie Lemercier's workflow](https://twitter.com/JoanieLemercier/status/1391443586206535682) & [another thread](https://x.com/JoanieLemercier/status/996180699357958144)
+* [**Some Strategies for Walking a Dot**](../../../lectures/topics/walking_a_dot/README.md)
+
 
 ---
 
