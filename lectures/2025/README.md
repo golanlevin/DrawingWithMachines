@@ -8,8 +8,8 @@
 * `Wed 08/27` — [#1 Due](../../assignments/2025/01_drawing_machine/README.md) (Machine); [0827_hello](0827_hello/README.md)
 * `Mon 09/01` — [Optional Workday (Labor Day)](0901_workday/README.md)  
 * `Wed 09/03` — [#2 Due](../../assignments/2025/02_getting_started/README.md) (Plotting); [0903_line](0903_line/README.md)
-* `Mon 09/08` — TBA / Lecture & work session
-* `Wed 09/10` — [#3 Due](../../assignments/2025/03_line/README.md) (Line)
+* `Mon 09/08` — [0908_line](0908_line/README.md) & work session
+* `Wed 09/10` — [#3 Due](../../assignments/2025/03_line/README.md) (Line); [0910_tone](0910_tone/README.md)
 * `Mon 09/15` — TBA / Lecture & work session
 * `Wed 09/17` — [#4 Due](../../assignments/2025/04_tone/README.md) (Tone); Guest presentation
 * `Mon 09/22` — TBA / Lecture & work session
