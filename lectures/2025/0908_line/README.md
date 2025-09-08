@@ -14,10 +14,11 @@
 
 ### Practical Demonstrations
 
-* Using the **Bantam ArtFrame 1824** plotter
+* Using the **Bantam ArtFrame 1824** plotter with custom G-Code
 	* [p5.js Lissajous G-Code with Pressure demo](https://editor.p5js.org/golan/sketches/UpHCoNCz1)
 	* Preview G-Code using [NCViewer.com](https://ncviewer.com/)
 	* [Plotter instructions](https://github.com/golanlevin/DrawingWithMachines/tree/main/machines/bantam_artframe_1824)
+	* [A word about pressure: cosine profile](img/golan_squiffles.jpg)
 * Using the **HP7475A** plotter
 	* Test file: [lissajous.svg](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/vpype/lissajous.svg)
 	* Convert to HPGL using vpype `vpype read input.svg write --device hp7475a --page-size letter --landscape output.hpgl`
