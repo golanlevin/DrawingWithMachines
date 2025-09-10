@@ -1,12 +1,15 @@
 # Tone
 
-In this lecture, we turn our attention to the problem of **tone in drawing** — and more specifically, how we can achieve variations in light and dark across a surface, by building up marks that in themselves may not vary in their darkness. 
+[*A Crack in the Hourglass*](https://www.youtube.com/watch?v=BsVsULhoSbM), Rafael Lozano-Hemmer, 2021. Portraits of deceased loved ones are drawn, ephemerally, in sand.<br />![Rafael Lozano Hemmer, Crack in the Hourglass](../realtime_plotting/img/lozano-hemmer_crack-in-the-hourglass.jpg)
+
+In this lecture, we turn our attention to the problem of **tone in drawing** — and more specifically, how we can achieve variations in light and dark across a surface, by building up marks that in themselves may not vary in their darkness.
+
+[*Portraits*](https://www.youtube.com/watch?v=A4dQIuD6xbA), [Patrick Tresset](https://patricktresset.com/new/), 2016.<br />![Patrick Tresset](../realtime_plotting/img/patrick-tresset-portrait.jpg)
 
 
 ---
 
 ## Hatching: Some Reminders
-
 
 * Question to the group: What are some *dimensions of variability* that are used to achieve tone and tone textures in drawings?
 
