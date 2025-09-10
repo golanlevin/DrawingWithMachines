@@ -1,6 +1,6 @@
 # Tone
 
-[*A Crack in the Hourglass*](https://www.youtube.com/watch?v=BsVsULhoSbM), Rafael Lozano-Hemmer, 2021. Portraits of deceased loved ones are drawn, ephemerally, in sand.<br />![Rafael Lozano Hemmer, Crack in the Hourglass](../realtime_plotting/img/lozano-hemmer_crack-in-the-hourglass.jpg)
+[*A Crack in the Hourglass*](https://www.youtube.com/watch?v=BsVsULhoSbM), Rafael Lozano-Hemmer, 2021. Portraits of deceased loved ones are drawn, ephemerally, in sand.<br />[![Rafael Lozano Hemmer, Crack in the Hourglass](../realtime_plotting/img/lozano-hemmer_crack-in-the-hourglass.jpg)](https://www.youtube.com/watch?v=BsVsULhoSbM)
 
 In this lecture, we turn our attention to the problem of **tone in drawing** — and more specifically, how we can achieve variations in light and dark across a surface, by building up marks that in themselves may not vary in their darkness.
 
