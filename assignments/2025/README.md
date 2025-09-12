@@ -35,7 +35,7 @@
 
 ---
 
-## 4. [Tone/Hatching](04_tone/README.md) `9/17`
+## 4. [Tone/Hatching/Field](04_tone/README.md) `9/17`
 
 *Provisionally:*
 
@@ -56,14 +56,9 @@
 
 ---
 
-## 6. [Field/Distribution](06_field_distribution/README.md) `10/1` 
+## 6. [Hand](06_hand/README.md) `10/1` 
 
-*Provisionally:*
-
-* 6.1. Readings
-* 6.2. Packing
-* 6.3. Flow Field
-* 6.3. A Field/Distribution Composition
+*Details TBA.*
 
 
 ---
