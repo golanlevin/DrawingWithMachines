@@ -1,11 +1,6 @@
-# 6: Field/Distribution
+# 6: Hand
 
-*Provisionally — Details TBA:*
-
-* 6.1. Readings
-* 6.2. Flow Field
-* 6.3. Feedback: Packing, Ice-Ray
-* 6.4. A Field/Distribution Composition
+This is an all-new assignment. Details TBA!
 
 ---
 

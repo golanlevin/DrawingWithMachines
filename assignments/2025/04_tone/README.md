@@ -1,4 +1,4 @@
-# 4: Tone, Hatching, Field
+# 4: Tone / Hatching / Field
 
 This assignment has three parts, and is due at the beginning of class on Wednesday, September 17: 
 
@@ -10,6 +10,7 @@ For reference:
 
 * Golan's [**Tone lecture is here**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/tone/README.md).
 * Golan's [**Field lecture is here**](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/field).
+* Golan's [**Flow Field lecture is here**](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/flow_fields/README.md)
 
 ---
 
@@ -30,16 +31,16 @@ For reference:
 *Now*: 
 
 * **Write code** to implement **two** different methods of hatching. You're not specifically required to implement any of the hatching methods that you sketched earlier, but of course you're welcome to do so.
-* For each hatching method, **create** a value scale (gradient sequence) of five adjacent one-inch squares, with evenly-spaced gray values of 10%, 30%, 50%, 70%, 90%. Some inspirations can be seen [below](#hatch-inspo).
+* For each hatching method, **create** a value scale (gradient sequence) of five adjacent one-inch squares, with evenly-spaced gray values of 10%, 30%, 50%, 70%, 90%. Some more inspirations can be seen [here](../../2024/05_tone/img/hatch-inspo.jpg).
 * **Export** a single SVG with both of your hatching sequences, and **plot** this using a thin black pen on a sheet of white paper. *(Alternatively, you may use a white pen on black paper.)* If you use 11x8.5" paper, you will have the option to use the (fast) [HP7475a plotter (instructions here)](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/README.md).
 * **Create** a Discord post in the *#41-hatching-studies* channel.
 * In your Discord post, **embed** a photo of your 3×3 grid of handmade sketches.
 * In your Discord post, **embed** a photograph of your plot with the two computer-generated value sequences.
-* In your Discord post, please **write** a sentence to describe each of your hatching methods, and what you learned making them.
+* In your Discord post, please **write** a sentence to describe your two computational hatching methods, and what you learned making them.
 
 **In your designs,** 
 
-* **Consider** methods like: hatching, cross-hatching, scribbling, scumbling, stippling, fill patterns, or other creative methods of your own design. If you're feeling ambitious and self-directed, this is a perfect opportunity to explore how you can create hatching techiques using things like Perlin noise flow fields, physics simulations (e.g. particle systems, Lloyd's relaxation), typography (e.g. Hershey fonts), etc. 
+* **Consider** methods like: hatching, cross-hatching, scribbling, scumbling, stippling, fill patterns, or other creative methods of your own design. If you're feeling ambitious and self-directed, this is a perfect opportunity to explore how you can create hatching techiques using things like Perlin noise flow fields, physics simulations (e.g. particle systems, Lloyd's relaxation, voronoi stippling), typography (e.g. Hershey fonts), etc. 
 * **Consider** how you can productively control and contrast properties like: line direction, line density, line length, line curvature, line thickness, and line duty cycle (dashes) to produce different hatches with different characters. Consider how you can control the variation (e.g. randomness, or standard deviations) of these properties. *Do any of your hatching methods have more than one expressive variable (apart from value/density)*? 
 * To help you get started, feel free to **study** the code of the following extremely simple method shown immediately below, using parallel lines. I have posted the code for this method [here](https://editor.p5js.org/golan/sketches/4KhqqgP7l) for you to examine. 
 
@@ -61,12 +62,72 @@ For reference:
 
 ![padcrafting_parametric_puppy.jpg](img/padcrafting_parametric_puppy.jpg)
 
-*(2 hours, 20%)* The purpose of this quick exercise is to develop an introductory understanding of the computational techniques required to transduce raster images into vector representations. Put simply: I think it's important for you to be able to fetch the pixel values of an image and use them as the basis for your making own custom picture elements.
+*(2 hours, 20%)* The purpose of this quick exercise is to develop an introductory understanding of the computational techniques required to transduce raster images into vector representations. Put simply: I think it's important for you to be able to fetch the pixel values of an image and use them as the basis for your making own custom picture elements. 
 
 This is intended as a *no-fuss, low-concept exercise*, whose results will be published on our class Instagram. Keep it fun and simple, and **please don't overthink this**. In this exercise, you will devise a method to render a selfie photograph using the plotter. The objectives of this project are: 
 
 1. To learn how to convert *raster* images into *vector* representations, *and/or*
 2. To increase your skill in using code to represent gradations of continuous tone through *hatching*, dithering, halftones, or related techniques.
+
+### How to Fetch a Pixel Color
+
+The main thing you will need to know is how to fetch the color of a pixel at a given location in an image, and how to determine its brightness. 
+
+<details><summary><b>Click here for code to fetch pixel colors!</b></summary>
+
+**To fetch a pixel's brightness in p5.js**, use the [`p5.Image.get()`](https://p5js.org/reference/p5.Image/get/) and [`brightness()`](https://p5js.org/reference/p5/brightness/) functions. Note that p5's `brightness()` returns values in the range of 0..100. 
+
+```javascript
+let myImg; 
+function preload(){
+  myImg = loadImage("kitten.jpg"); 
+}
+function setup(){; 
+   createCanvas(640, 320);
+}
+function draw(){
+  image(myImg,0,0); 
+  let px = 100; 
+  let py = 50; 
+  let colorAtXY = myImg.get(px,py); 
+  let bri01 = brightness(colorAtXY)/100.0; 
+  print(bri01); 
+}
+```
+
+Alternatively, use [`p5.Image.loadPixels()`](https://p5js.org/reference/p5.Image/loadPixels/) and explore the [`p5.Image.pixels`](https://p5js.org/reference/p5.Image/pixels/) array.
+
+**To fetch a pixel's brightness in Processing (Java)**, use the [`PImage.get()`](https://processing.org/reference/PImage_get_.html) and [`brightness()`](https://processing.org/reference/brightness_.html) functions. Note that the coordinates provided  to `get()` must be integers, and Processing's `brightness()` returns values in the range of 0...255.
+
+```java
+PImage myImg; 
+void setup(){; 
+  myImg = loadImage("kitten.jpg"); 
+}
+void draw(){
+  image(myImg,0,0); 
+  int px = 100; 
+  int py = 50; 
+  color colorAtXY = myImg.get(px, py); 
+  float bri01 = brightness(colorAtXY)/255.0; 
+  println(bri01); 
+}
+```
+
+**To fetch a pixel’s brightness in Python**, use the [`getpixel`](https://www.geeksforgeeks.org/python/python-pil-getpixel-method/) function in Pillow:
+
+```python
+from PIL import Image
+myImg = Image.open("kitten.jpg").convert("RGB")
+px, py = 100, 50  
+r, g, b = myImg.getpixel((px, py))
+brightness = 0.299*r + 0.587*g + 0.114*b  # Rec. 601
+bri01 = brightness / 255.0  
+print(bri01)
+```
+
+</details>
+
 
 *Now*: 
 
@@ -89,9 +150,9 @@ This is intended as a *no-fuss, low-concept exercise*, whose results will be pub
 
 ## 4.3. Tonal Composition
 
-![daniela_kroehnert_untamed5.jpg](img/daniela_kroehnert_untamed5.jpg)<br />Daniela Kroehnert, *Untamed #5: Somewhere Above the Black Forest*, plotter art, 2024. 
+![daniela_kroehnert_untamed5.jpg](img/daniela_kroehnert_untamed5.jpg)<br />Transduction of a tonal image. Daniela Kroehnert, *Untamed #5: Somewhere Above the Black Forest*, plotter art, 2024. 
 
-![gachadoat.jpg](img/gachadoat.jpg)<br />Julien Gachadoat, plotter art, 2021.
+![gachadoat.jpg](img/gachadoat.jpg)<br />Synthesis of a tonal surface. Julien Gachadoat, plotter art, 2021.
 
 (*4 hours, 60%*). In this assignment, you will devise a method to render a tonal composition using the plotter. The objective of this project is to develop dexterity in representing gradations of continuous tone through hatching, dithering, halftones, or other algorithmic techniques that cover the image surface in marks of varying density.
 
@@ -103,10 +164,11 @@ To be very clear: for this project, you may *choose* between directly **generati
 Some **special rules apply** if you choose to convert or transduce a pixel-based image into a plottable design:
 
 * If you choose to convert a pixel-based image, you should **feel welcome** to use any *type* of pixel-based source image, such as a video, photograph, drawing, AI-synthesized image, or shader.
-* If you choose to convert a pixel-based image, it **must be** *an image that you created or captured yourself* (such as with a camera, scanner, paint program, Midjourney, etc.). You are not permitted to just download some photo off the internet.
+* If you choose to convert a pixel-based image, you are **very strongly encouraged** to use an image that you created or captured yourself (such as with a camera, scanner, paint program, Midjourney, etc.).
 * If you choose to convert a pixel-based image, you must **give consideration** to the relationship between your subject (*who/what*) and your hatching method (*how*). Ideally, these will be tightly coupled: you will choose a photo for a specific rendering treatment, and/or develop a rendering treatment for a specific photo. I recommend depicting a subject in which you have some meaningful personal investment, such as a portrait of someone you know personally (friend, family, self).
 * If you choose to convert a pixel-based image, ***you are permitted** to use readymade photo-to-SVG tools such as [DrawingBotV3](https://docs.drawingbotv3.com/en/latest/pfms.html), [SquiggleCam](https://msurguy.github.io/SquiggleCam/), or [StippleGen](https://www.evilmadscientist.com/2012/stipplegen-weighted-voronoi-stippling-and-tsp-paths-in-processing/), if you wish — but be prepared to explain your choices.
 * You **may not** create a portrait of a celebrity, nor of the professor, please.
+
 
 ### Requirements
 
@@ -120,6 +182,8 @@ Some **special rules apply** if you choose to convert or transduce a pixel-based
 * **Submit** high-quality documentation of your project to [**this Google Form**]() (TBA).
 * **Bring** your work to class on Wednesday 9/17 for pinup.
 
+
+---
 
 ### Some Potentially Helpful Coding Train Tutorials
 
@@ -143,25 +207,17 @@ Some **special rules apply** if you choose to convert or transduce a pixel-based
 [Space Colonization](https://www.youtube.com/watch?v=kKT0v3qhIQY)
 
 
-<!-- 
-
-Code: 
-
-**SAMPLE CODE.** Here is some sample code to get you started: 
-
-* [weighted rejection sampling of an image](https://editor.p5js.org/golan/sketches/qmdA2b2_Y) in p5.js 
-* [line hatching in grid-based image subdivision](https://editor.p5js.org/golan/sketches/CQmqp4JTQ) in p5.js
-* [line hatching in grid-based image subdivision](photo_grid_hatching_java/photo_grid_hatching_java.pde) in Processing (Java)
-* [line hatching in grid-based image subdivision](photo_grid_hatching_py/photo_grid_hatching_py.pyde) in Processing (Python)
-* [Axis-Aligned Polygon Hatching in Processing (Java)](axis_aligned_hatching_java/axis_aligned_hatching_java.pde)
-
--->
-
 ---
 
 <!-- 
-PAST VERSIONS: 
+PAST VERSIONS:  (Tone)
 2021: https://courses.ideate.cmu.edu/60-428/f2021/offerings/4-hatching/
 2021: https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=823.html
 2024: https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/05_tone/README.md
+-->
+
+<!-- 
+PAST VERSIONS: (Field) 
+https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=1430.html
+https://github.com/golanlevin/DrawingWithMachines/blob/main/assignments/2024/07_field/README.md
 -->
