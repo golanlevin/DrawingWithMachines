@@ -121,7 +121,7 @@ This semester, there will be 10 sets of Assignments. These include 7 *weekly ass
 3. Line and Line Weight `9/10`
 4. Tone and Hatching `9/17`
 5. Pattern/Modularity `9/24`
-6. Field/Distribution `10/1` 
+6. Hand: Gesture/Database `10/1` 
 7. Material Conditions `10/8`
 8. Self-Directed Experiment `11/3`
 9. Self-Directed Investigation `12/3`

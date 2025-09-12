@@ -37,10 +37,9 @@
 
 ## 4. [Tone/Hatching/Field](04_tone/README.md) `9/17`
 
-*Provisionally:*
-
-* 4.1. Hatching Studies
-* 4.2. Hatched Image/Surface
+* 4.1. [Hatching Studies](04_tone/README.md#41-hatching-studies) *(1 hour, 20%)*
+* 4.2. [Hatched Selfie](04_tone/README.md#42-hatched-selfie) *(2 hours, 20%)*
+* 4.3. [Tonal Composition](04_tone/README.md#43-tonal-composition) *(4 hours, 60%)*
 
 
 ---

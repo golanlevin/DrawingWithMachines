@@ -16,6 +16,8 @@ Here’s an [excellent Observable notebook](https://observablehq.com/@esperanc/f
 
 ![flow_field_observable_perlin_noise.jpg](img/flow_field_observable_perlin_noise.jpg)
 
+Here's another [series of helpful explanatory interactives](https://observablehq.com/@esperanc/flow-field-variations) by Claudio Esperança, including a nice demonstration of Simplex Noise. 
+
 Here’s Dan Shiffman offering an explanation [on the Coding Train](https://www.youtube.com/watch?v=BjoM9oKOAKY).
 
 ![flow_field_coding_train.jpg](img/flow_field_coding_train.jpg)

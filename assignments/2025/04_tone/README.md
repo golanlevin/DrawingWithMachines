@@ -69,9 +69,11 @@ This is intended as a *no-fuss, low-concept exercise*, whose results will be pub
 1. To learn how to convert *raster* images into *vector* representations, *and/or*
 2. To increase your skill in using code to represent gradations of continuous tone through *hatching*, dithering, halftones, or related techniques.
 
-### How to Fetch a Pixel Color
+### How to Fetch a Pixel Color in Code
 
-The main thing you will need to know is how to fetch the color of a pixel at a given location in an image, and how to determine its brightness. 
+The main thing you will need to know is how to fetch the color of a pixel at a given location in an image. Generally, once you have fetched the color of the pixel, you'll use that to determine its brightness (luminance) in order to design your custom pixel elements. 
+
+The simplest estimate of brightness is to use a straight average of the color channels: `(r + g + b)/3`, but a more perceptually accurate equation is the ITU-R BT.601 luma spec: `0.299*r + 0.587*g + 0.114*b`.
 
 <details><summary><b>Click here for code to fetch pixel colors!</b></summary>
 
@@ -121,7 +123,7 @@ from PIL import Image
 myImg = Image.open("kitten.jpg").convert("RGB")
 px, py = 100, 50  
 r, g, b = myImg.getpixel((px, py))
-brightness = 0.299*r + 0.587*g + 0.114*b  # Rec. 601
+brightness = 0.299*r + 0.587*g + 0.114*b
 bri01 = brightness / 255.0  
 print(bri01)
 ```
@@ -144,15 +146,16 @@ print(bri01)
 * **Create** a Discord post in the *#42-hatched-selfie* channel.
 * In your Discord post, **embed** a photograph of your plotter drawing.
 * In your Discord post, please **write** a couple sentences about your design or your process.
+* **Submit** high-quality documentation of your project to [**this Google Form**](https://forms.gle/6mCG9f24Y1LTa4en9).
 
 
 ---
 
 ## 4.3. Tonal Composition
 
-![daniela_kroehnert_untamed5.jpg](img/daniela_kroehnert_untamed5.jpg)<br />Transduction of a tonal image. Daniela Kroehnert, *Untamed #5: Somewhere Above the Black Forest*, plotter art, 2024. 
+![daniela_kroehnert_untamed5.jpg](img/daniela_kroehnert_untamed5.jpg)<br />Transduction of a tonal image. [Daniela Kroehnert](https://www.instagram.com/daniela_kroehnert/?hl=en), *Untamed #5: Somewhere Above the Black Forest*, plotter art, 2024. 
 
-![gachadoat.jpg](img/gachadoat.jpg)<br />Synthesis of a tonal surface. Julien Gachadoat, plotter art, 2021.
+![gachadoat.jpg](img/gachadoat.jpg)<br />Synthesis of a tonal surface. [Julien Gachadoat](https://verse.works/series/umwelt-by-julien-gachadoat), plotter art, 2021.
 
 (*4 hours, 60%*). In this assignment, you will devise a method to render a tonal composition using the plotter. The objective of this project is to develop dexterity in representing gradations of continuous tone through hatching, dithering, halftones, or other algorithmic techniques that cover the image surface in marks of varying density.
 
@@ -166,7 +169,7 @@ Some **special rules apply** if you choose to convert or transduce a pixel-based
 * If you choose to convert a pixel-based image, you should **feel welcome** to use any *type* of pixel-based source image, such as a video, photograph, drawing, AI-synthesized image, or shader.
 * If you choose to convert a pixel-based image, you are **very strongly encouraged** to use an image that you created or captured yourself (such as with a camera, scanner, paint program, Midjourney, etc.).
 * If you choose to convert a pixel-based image, you must **give consideration** to the relationship between your subject (*who/what*) and your hatching method (*how*). Ideally, these will be tightly coupled: you will choose a photo for a specific rendering treatment, and/or develop a rendering treatment for a specific photo. I recommend depicting a subject in which you have some meaningful personal investment, such as a portrait of someone you know personally (friend, family, self).
-* If you choose to convert a pixel-based image, ***you are permitted** to use readymade photo-to-SVG tools such as [DrawingBotV3](https://docs.drawingbotv3.com/en/latest/pfms.html), [SquiggleCam](https://msurguy.github.io/SquiggleCam/), or [StippleGen](https://www.evilmadscientist.com/2012/stipplegen-weighted-voronoi-stippling-and-tsp-paths-in-processing/), if you wish — but be prepared to explain your choices.
+* If you choose to convert a pixel-based image, **you are permitted** to use readymade photo-to-SVG tools such as [DrawingBotV3](https://docs.drawingbotv3.com/en/latest/pfms.html), [SquiggleCam](https://msurguy.github.io/SquiggleCam/), or [StippleGen](https://www.evilmadscientist.com/2012/stipplegen-weighted-voronoi-stippling-and-tsp-paths-in-processing/), if you wish — but be prepared to explain your choices.
 * You **may not** create a portrait of a celebrity, nor of the professor, please.
 
 
@@ -179,7 +182,7 @@ Some **special rules apply** if you choose to convert or transduce a pixel-based
 * **Create** a Discord post in the *#43-tonal-composition* channel.
 * **Embed** a scan or photograph of your plotter drawing in your Discord post. *If* you derived your hatched design from a source photograph, **embed** a copy of your original source photo as well.
 * **Write** a couple sentences about your process in your Discord post. Evaluate your work.
-* **Submit** high-quality documentation of your project to [**this Google Form**]() (TBA).
+* **Submit** high-quality documentation of your project to [**this Google Form**](https://forms.gle/6mCG9f24Y1LTa4en9).
 * **Bring** your work to class on Wednesday 9/17 for pinup.
 
 
