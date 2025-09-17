@@ -1,21 +1,27 @@
 # 5: Pattern/Modularity
 
+![10-print.png](img/10-print.png)
+
 This project has four components, which are due at the beginning of class on Wednesday, September 24:
 
-* 5.1. **Readings** *(30-45 minutes; 10%)*
-* 5.2. **Viewings** *(30 minutes; 10%)*
-* 5.3. **Dead-Simple Truchet Tiling** *(5-30 minutes; 10%)*
-* 5.4. **Pattern Composition** *(6 hours; 70%)* 
+* 5.1. [**Readings**](#51-readings) *(30-45 minutes; 10%)*
+* 5.2. [**Viewings**](#52-viewings) *(30 minutes; 10%)*
+* 5.3. [**Dead-Simple Truchet Tiling**](#53-dead-simple-truchet-tiling) *(5-30 minutes; 10%)*
+* 5.4. [**Pattern Composition**](#54-pattern-composition) *(6 hours; 70%)* 
+
+
 
 
 ---
 
 ## 5.1. Readings
 
-![10-print.png](img/10-print.png)
+![alexander_properties.png](img/alexander_properties.png)
 
-*(30-45 minutes; 10%)* Please **read** the following two book excerpts:
+*(30-45 minutes; 10%)* Please **read** the following excerpts:
 
+
+* Summary of [**The Fifteen Geometric Properties of Wholeness**](https://web.archive.org/web/20141117153817/https://blog.p2pfoundation.net/the-fifteen-geometric-properties-of-wholeness/2014/03/01), a chapter in *The Nature of Order, Book One* (2002), in which Christopher Alexander proposes 15 visual properties common to all the structures that we perceive as "organic".
 * Excerpt (Chapter 30, p. 64-81) from *10 PRINT*, by Nick Montfort et al. **[[6MB PDF](https://github.com/golanlevin/lectures/blob/master/lecture_pattern/img/10_print_excerpt_moln.pdf)]**
 * Excerpt (Chapter 1, p. 17-37) from *Graphic Games*, by Victor Baumgartner, paying special attention to “Game C” **[[22MB PDF](https://github.com/golanlevin/lectures/blob/master/lecture_pattern/img/graphic_games_ch1.pdf)]**
 
@@ -49,7 +55,7 @@ This project has four components, which are due at the beginning of class on Wed
 
 ![simple_truchet.png](img/simple_truchet.png)
 
-*(5-30 minutes; 10%)* The purpose of this **quick technical exercise** is to ensure that you have a foundational practical understanding of how Truchet tiles are constructed, and an appreciation of how they respond to optimization with vpype. **Plotting is *optional* and *not requested*.**
+*(5-30 minutes; 10%)* Modular patterns like Truchet tilings are a common idiom in computational arts, especially with plotters. The purpose of this **quick technical exercise** is to ensure that all students have a baseline foundational practical understanding of how Truchet tiles are constructed, and an appreciation of how they can respond to optimization with vpype. **Plotting is *optional* and *not requested*.**
 
 * **Write** a program to create a dead-simple, zero-frills SVG Truchet tiling, such as the one shown above. **Aim** to complete this in 5-10 minutes — but use ChatGPT if it takes you more than 15 minutes, and limit yourself to absolutely no more than 30 minutes for this exercise, period. 
 * **Optimize** your Truchet SVG using the following vpype command: `vpype read mySimpleTruchet.svg linesort linemerge reloop write myOptimizedTruchet.svg show`
@@ -62,23 +68,27 @@ This project has four components, which are due at the beginning of class on Wed
 
 ## 5.4. Pattern Composition
 
-*(6 hours; 70%)* 
 
-
-Develop a computationally-generated, machine-plotted artwork using tiling patterns—in which larger-scale structures appear to emerge from the arrangement of modular elements.
+*(6 hours; 70%)* Develop a computationally-generated, machine-plotted artwork using rhythmic patterns—in which larger-scale structures appear to emerge from the arrangement of modular elements.
 
 To create your project:
 
 * **Consider** algorithms like Truchet tiles, Wang tiles, Wave Function Collapse, Penrose Tiles, Meanders, Aperiodic Monotiles, etc.
-* **Sketch** some ideas in your sketchbook. You are strongly encouraged to use more than one color in your design.
-* **Write** code to generate pattern compositions. Export SVG files for plotting.
+* **Sketch** some ideas in your sketchbook. You are strongly encouraged to use more than one color in your design. 
+* In your design, **consider** problems like:
+	* *Regularity vs Surprise.* The production of rhythm against punctuation by unexpected elements.
+	* *Design at multiple scales.* Moments of interest up close and also far away. 
+* **Write** code to generate pattern compositions, and **export** SVG files for plotting.
 * **Plot** your artwork. Please do not use standard printer paper.
 * **Document** your project: 
 	* **Upload** high-quality imagery of your project to this [Google form]() (TBA). 
 * In a Discord post in the channel `#54-pattern-composition`:
 	* **Embed** some images of your hand-sketches or other process tests.
-	* **Embed** a good-quality photograph or scan of your final plotted composition. Consider having a second photograph showing a close detail.
+	* **Embed** a good-quality photograph or scan of your final plotted composition. If appropriate, **include** a second photograph showing a close detail (e.g. see below). 
 	* **Write** a paragraph (of about 100-150 words) describing the logic of your pattern, your sources of inspiration, your process, and an evaluation of your results. Be sure to acknowledge any code libraries that you used.
+
+
+![himalini_gururaj.jpg](img/himalini_gururaj.jpg)<br />*Wang tile composition by DwM 2021 student, Hima Gururaj, showing detail image.*
 
 ---
 

@@ -9,6 +9,15 @@ This is an all-new assignment. Details TBA!
 
 <!-- 
 
+* Collage from database of others' hand drawings (Google Quick!Draw, etc.)
+* Collage of one's own gestural recording SVGs
+* Conversion of hand drawings to SVG (with [RapidResizer](https://online.rapidresizer.com/tracer.php)) and further re-composition
+* Hand overdrawing of plotted work (see Jean Cho)
+* Plotted overdrawing of hand work
+* Realtime control of plotter using cursor or camera
+* Drawing resynthesis using neural techniques (CharRNN/ML5)
+
+
 Google Quick!Draw
 
 * [Google Quick!Draw](https://quickdraw.withgoogle.com/data)
