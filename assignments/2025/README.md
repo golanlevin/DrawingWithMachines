@@ -46,9 +46,9 @@
 
 ## 5. [Pattern/Modularity](05_pattern/README.md) `9/24`
 
-* 5.1. [Readings](05_pattern/README.md#51-readings) *(30-45 minutes; 10%)*
+* 5.1. [Readings](05_pattern/README.md#51-readings) *(45-90 minutes; 10%)*
 * 5.2. [Viewings](05_pattern/README.md#52-viewings) *(30 minutes; 10%)*
-* 5.3. [Dead-Simple Truchet Tiling](05_pattern/README.md#53-dead-simple-truchet-tiling) *(5-30 minutes; 10%)*
+* 5.3. [*Dead-Simple* Truchet Tiling](05_pattern/README.md#53-dead-simple-truchet-tiling) *(5-30 minutes; 10%)*
 * 5.4. [Pattern Composition](05_pattern/README.md#54-pattern-composition) *(6 hours; 70%)* 
 
 ---

@@ -4,7 +4,7 @@
 
 This project has four components, which are due at the beginning of class on Wednesday, September 24:
 
-* 5.1. [**Readings**](#51-readings) *(30-45 minutes; 10%)*
+* 5.1. [**Readings**](#51-readings) *(45-90 minutes; 10%)*
 * 5.2. [**Viewings**](#52-viewings) *(30 minutes; 10%)*
 * 5.3. [**Dead-Simple Truchet Tiling**](#53-dead-simple-truchet-tiling) *(5-30 minutes; 10%)*
 * 5.4. [**Pattern Composition**](#54-pattern-composition) *(6 hours; 70%)* 
@@ -18,12 +18,12 @@ This project has four components, which are due at the beginning of class on Wed
 
 ![alexander_properties.png](img/alexander_properties.png)
 
-*(30-45 minutes; 10%)* Please **read** the following excerpts:
+*(45-90 minutes; 10%)* Please **read** the following excerpts:
 
 
-* Summary of [**The Fifteen Geometric Properties of Wholeness**](https://web.archive.org/web/20141117153817/https://blog.p2pfoundation.net/the-fifteen-geometric-properties-of-wholeness/2014/03/01), a chapter in *The Nature of Order, Book One* (2002), in which Christopher Alexander proposes 15 visual properties common to all the structures that we perceive as "organic".
+* Summary of *The Fifteen Geometric Properties of Wholeness*, a chapter in *The Nature of Order, Book One* (2002), in which Christopher Alexander proposes 15 visual properties common to all the structures that we perceive as "organic". [[**3MB PDF**](https://github.com/golanlevin/DrawingWithMachines/blob/main/readings/alexander-15-properties-summary.pdf)]
 * Excerpt (Chapter 30, p. 64-81) from *10 PRINT*, by Nick Montfort et al. **[[6MB PDF](https://github.com/golanlevin/lectures/blob/master/lecture_pattern/img/10_print_excerpt_moln.pdf)]**
-* Excerpt (Chapter 1, p. 17-37) from *Graphic Games*, by Victor Baumgartner, paying special attention to “Game C” **[[22MB PDF](https://github.com/golanlevin/lectures/blob/master/lecture_pattern/img/graphic_games_ch1.pdf)]**
+* Excerpt (Chapter 1, p. 17-37) from *Graphic Games*, by Victor Baumgartner, paying special attention to “Game C” **[[22MB PDF](https://github.com/golanlevin/lectures/blob/master/lecture_pattern/img/graphic_games_ch1.pdf)]** (Download the whole document to see Game C).
 
 *Now:*
 
