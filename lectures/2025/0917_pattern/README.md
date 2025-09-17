@@ -1,7 +1,7 @@
 # Wednesday September 17: Pattern
 
 ![rolando_jones_truchet_towers.jpg](img/rolando_jones_truchet_towers.jpg)
-[rolando jones, truchet_towers](https://x.com/rolandojones/status/1400109808489930752)
+Rolando Jones, [*truchet_towers*](https://x.com/rolandojones/status/1400109808489930752)
 
 ---
 
@@ -12,6 +12,8 @@ Agenda:
 * Overview of [Assignment Set 5, Pattern/Modularity](../../../assignments/2025/05_pattern/README.md)
 * Guest Visit: [Bre Pettis](https://en.wikipedia.org/wiki/Bre_Pettis)!
 	* [cult of done manifesto](img/cult-of-done-manifesto.jpg)
+
+![geometricpatters.png](img/geometricpatters.png)
 
 --- 
 

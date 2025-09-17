@@ -11,7 +11,7 @@
 * `Mon 09/08` — [0908_line](0908_line/README.md); work session
 * `Wed 09/10` — [0910_tone](0910_tone/README.md); [#3 Due](../../assignments/2025/03_line/README.md) (Line)
 * `Mon 09/15` — [0915_field](0915_field/README.md); work session
-* `Wed 09/17` — [#4 Due](../../assignments/2025/04_tone/README.md) (Tone); Guest presentation
+* `Wed 09/17` — [0917_pattern](0917_pattern/README.md); [#4 Due](../../assignments/2025/04_tone/README.md) (Tone); Guest presentation
 * `Mon 09/22` — TBA / Lecture & work session
 * `Wed 09/24` — [#5 Due](../../assignments/2025/05_pattern/README.md) (Pattern)
 * `Mon 09/29` — TBA / Lecture & work session

@@ -46,12 +46,11 @@
 
 ## 5. [Pattern/Modularity](05_pattern/README.md) `9/24`
 
-*Provisionally:*
 
-* 5.1. Readings
-* 5.2. Truchet Tiling
-* 5.3. A Tiling Pattern Composition
-
+* 5.1. Readings *(30-45 minutes; 10%)*
+* 5.2. Viewings *(30 minutes; 10%)*
+* 5.3. Dead-Simple Truchet Tiling *(5-30 minutes; 10%)*
+* 5.4. Pattern Composition *(6 hours; 70%)* 
 
 ---
 

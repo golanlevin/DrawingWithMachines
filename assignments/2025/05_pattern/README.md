@@ -1,10 +1,11 @@
 # 5: Pattern/Modularity
 
+This project has four components, which are due at the beginning of class on Wednesday, September 24:
+
 * 5.1. **Readings** *(30-45 minutes; 10%)*
 * 5.2. **Viewings** *(30 minutes; 10%)*
 * 5.3. **Dead-Simple Truchet Tiling** *(5-30 minutes; 10%)*
 * 5.4. **Pattern Composition** *(6 hours; 70%)* 
-
 
 
 ---
@@ -48,7 +49,7 @@
 
 ![simple_truchet.png](img/simple_truchet.png)
 
-*(5-30 minutes; 10%)* The purpose of this quick technical exercise is to ensure that you have a foundational practical understanding of how Truchet tiles are constructed, and an appreciation of how they respond to optimization with vpype. **Plotting is *optional* and *not requested*.**
+*(5-30 minutes; 10%)* The purpose of this **quick technical exercise** is to ensure that you have a foundational practical understanding of how Truchet tiles are constructed, and an appreciation of how they respond to optimization with vpype. **Plotting is *optional* and *not requested*.**
 
 * **Write** a program to create a dead-simple, zero-frills SVG Truchet tiling, such as the one shown above. **Aim** to complete this in 5-10 minutes — but use ChatGPT if it takes you more than 15 minutes, and limit yourself to absolutely no more than 30 minutes for this exercise, period. 
 * **Optimize** your Truchet SVG using the following vpype command: `vpype read mySimpleTruchet.svg linesort linemerge reloop write myOptimizedTruchet.svg show`
