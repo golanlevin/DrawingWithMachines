@@ -82,7 +82,7 @@ To create your project:
 * **Write** code to generate pattern compositions, and **export** SVG files for plotting.
 * **Plot** your artwork. Please do not use standard printer paper.
 * **Document** your project: 
-	* **Upload** high-quality imagery of your project to this [Google form]() (TBA). 
+	* **Upload** high-quality imagery of your project to this [Google form](https://forms.gle/18Fa9sqNXeaYxxLB8). 
 * In a Discord post in the channel `#54-pattern-composition`:
 	* **Embed** some images of your hand-sketches or other process tests.
 	* **Embed** a good-quality photograph or scan of your final plotted composition. If appropriate, **include** a second photograph showing a close detail (e.g. see below). 
