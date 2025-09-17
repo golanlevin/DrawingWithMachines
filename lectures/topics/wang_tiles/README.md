@@ -1,0 +1,4 @@
+# Wang Tiles
+
+Wang Tiles & Edge-Matching Puzzles
+From [Wikipedia]: First proposed by mathematician Hao Wang in 1961, Wang Tiles are modeled visually by square tiles with a color on each side. A set of such tiles is selected, and copies of the tiles are arranged side by side with matching colors, without rotating or reflecting them. Wang tiles have become a popular tool for procedural synthesis of textures, heightfields, and other large and nonrepeating bidimensional data sets; a small set of precomputed or hand-made source tiles can be assembled very cheaply without too obvious repetitions and without periodicity.
