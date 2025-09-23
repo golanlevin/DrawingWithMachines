@@ -2,8 +2,9 @@
 
 *The main project for this assignment has been merged into Assignment 7.<br />There is no longer a critiquable project due on October 1st. Instead, there are two small exercises:*
 
-* 6.1. Looking Outwards: Something to Import *(due Wednesday 10/1; 15-20 minutes)*
-* 6.2. Try an Unfamiliar Machine *(due Wednesday 10/1; 30-120 minutes)*
+* 6.1. [Looking Outwards: Something to Import](#61-looking-outwards-something-to-import) *(due Wednesday 10/1; 15-20 minutes)*
+* 6.2. [Try an Unfamiliar Machine](#62-try-an-unfamiliar-machine) *(due Wednesday 10/1; 30-120 minutes)*
+
 
 ---
 

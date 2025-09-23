@@ -51,14 +51,15 @@
 * 5.3. [*Dead-Simple* Truchet Tiling](05_pattern/README.md#53-dead-simple-truchet-tiling) *(5-30 minutes; 10%)*
 * 5.4. [Pattern Composition](05_pattern/README.md#54-pattern-composition) *(6 hours; 70%)* 
 
+
 ---
 
 ## 6. [Take a Breath](06_take_a_breath/README.md) `10/1` 
 
 *The main project for this assignment has been merged into Assignment 7.<br />There is no longer a critiquable project due on October 1st. Instead, there are two small exercises:*
 
-* 6.1. [Looking Outwards: Something to Import](06_take_a_breath/README.md) *(due Wednesday 10/1; 15-20 minutes)*
-* 6.2. [Try an Unfamiliar Machine](06_take_a_breath/README.md) *(due Wednesday 10/1; 30-120 minutes)*
+* 6.1. [Looking Outwards: Something to Import](06_take_a_breath/README.md#61-looking-outwards-something-to-import) *(15-20 minutes)*
+* 6.2. [Try an Unfamiliar Machine](06_take_a_breath/README.md#62-try-an-unfamiliar-machine) *(30-120 minutes)*
 
 
 ---
