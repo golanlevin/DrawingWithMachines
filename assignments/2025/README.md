@@ -53,19 +53,20 @@
 
 ---
 
-## 6. [Hand](06_hand/README.md) `10/1` 
+## 6. [Take a Breath](06_take_a_breath/README.md) `10/1` 
 
-*Details TBA.*
+*The main project for this assignment has been merged into Assignment 7.<br />There is no longer a critiquable project due on October 1st. Instead, there are two small exercises:*
+
+* 6.1. [Looking Outwards: Something to Import](06_take_a_breath/README.md) *(due Wednesday 10/1; 15-20 minutes)*
+* 6.2. [Try an Unfamiliar Machine](06_take_a_breath/README.md) *(due Wednesday 10/1; 30-120 minutes)*
 
 
 ---
 
 ## 7. [Material Conditions](07_material_conditions/README.md) `10/8`
 
-*Provisionally:*
 
-* 7.1. Plottimation
-* 7.2. Material Exploration
+* 7.1. Hand / Plottimation / Material Exploration
 
 
 ---
