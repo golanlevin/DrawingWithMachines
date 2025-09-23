@@ -13,9 +13,9 @@
 * `Mon 09/15` — [0915_field](0915_field/README.md); work session
 * `Wed 09/17` — [0917_pattern](0917_pattern/README.md); [#4 Due](../../assignments/2025/04_tone/README.md) (Tone); Guest presentation
 * `Mon 09/22` — [0922_pattern](0922_pattern/README.md)
-* `Wed 09/24` — [#5 Due](../../assignments/2025/05_pattern/README.md) (Pattern)
+* `Wed 09/24` — [0924](0924/README.md); [#5 Due](../../assignments/2025/05_pattern/README.md) (Pattern)
 * `Mon 09/29` — TBA / Lecture & work session
-* `Wed 10/01` — [#6 Due](../../assignments/2025/06_hand/README.md) (Hand)
+* `Wed 10/01` — [#6 Due](../../assignments/2025/06_take_a_breath/README.md) (Take a Breath)
 * `Mon 10/06` — TBA / Lecture & work session
 * `Wed 10/08` — [#7 Due](../../assignments/2025/07_material_conditions/README.md) (Materiality)
 * `Mon 10/13` — *No session (Fall Break)*
