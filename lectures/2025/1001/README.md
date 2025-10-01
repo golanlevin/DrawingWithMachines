@@ -2,7 +2,7 @@
 
 * Guest speaker [Lea Albaugh](https://lea.zone/) + class visit to the [CMU Computational Textiles Lab](https://textiles-lab.github.io/)
 * Small-group discussions about 6.1. [Something to Import](https://github.com/golanlevin/DrawingWithMachines/tree/main/assignments/2025/06_take_a_breath#61-looking-outwards-something-to-import)
-* Introduction to [Assignment 7](https://github.com/golanlevin/DrawingWithMachines/tree/main/assignments/2025/06_take_a_breath#61-looking-outwards-something-to-import), Due Wednesday 10/8
+* Introduction to [Assignment 7](https://github.com/golanlevin/DrawingWithMachines/tree/main/assignments/2025/07_material_conditions), Due Wednesday 10/8
 
 ---
 

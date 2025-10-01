@@ -8,8 +8,7 @@ This project is due Wednesday, October 8th and asks you to make a *small experim
 2. [**Plottimation**](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/plot_animation). Write code to generate frames of an animation. Plot them in a grid (with registration marks!) and we'll turn them into a GIF that has both materiality and temporality. 
 3. [**Text/typography**](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/type): Create a composition using letterforms — possibly using these [single-line font resources](https://github.com/golanlevin/p5-single-line-font-resources), or these approaches to [extracting points from glyphs](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/type#getting-points-from-glyphs) — and perhaps informed by approaches from [concrete poetry](https://www.theguardian.com/artanddesign/gallery/2017/apr/07/masterpieces-concrete-poetry-pictures-getty-center-ian-hamilton-finlay-augusto-campos).
 4. **Hand**: Think about some of the following starting points: 
-
-	* Collage using a database of others' hand drawings (e.g. Google Quick!Draw; see list below)
+	* Collage using a database of others' hand drawings (e.g. Google Quick!Draw; see [list below](#some-databases-of-hand-drawings--sketches))
 	* Collage of one's own gestural recording SVGs — see this p5.js [drawing recorder](https://editor.p5js.org/golan/sketches/bQDM5IQdv)
 	* Conversion of hand drawings to SVG (with [RapidResizer](https://online.rapidresizer.com/tracer.php)) and further re-composition — see this p5.js [SVG Loader](https://editor.p5js.org/golan/sketches/qn6EpSXiQ)
 	* Hand overdrawing of plotted work (see [Jean Cho's 2021 DwM project](https://github.com/golanlevin/DrawingWithMachines/tree/main/documentation/2021#final-projects))
