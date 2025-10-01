@@ -102,6 +102,6 @@ Lingdong's Chinese characters
 * https://editor.p5js.org/golan/sketches/ybJ0pTrZT
 * https://editor.p5js.org/golan/sketches/ognM887aE
 
-Chinese handwriting dataset: https://nlpr.ia.ac.cn/databases/handwriting/home.html
+
 
 -->
