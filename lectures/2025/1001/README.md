@@ -6,15 +6,21 @@
 
 ---
 
-### Presentations from Last Session
+### Presentations
+
+From last session: 
 
 * [Plottimation](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/plot_animation) & [work by Kelli Anderson](https://www.instagram.com/p/C1hYrI6r3jX/?img_index=1)
 * [Material Conditions](https://github.com/golanlevin/DrawingWithMachines/blob/main/lectures/topics/material_conditions/README.md)
-* [Text and type](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/type) & [Single-line font resources](https://github.com/golanlevin/p5-single-line-font-resources) 
-* [Realtime Plotting](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/realtime_plotting)
+
+New:
+
+* [Text and type](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/type) & [Single-line font resources](https://github.com/golanlevin/p5-single-line-font-resources)
+* [Some databases of hand drawings](https://github.com/golanlevin/DrawingWithMachines/tree/main/assignments/2025/07_material_conditions#some-databases-of-hand-drawings--sketches)
 
 ---
 
-### Random
+### Time Permitting
 
+* [Realtime Plotting](https://github.com/golanlevin/DrawingWithMachines/tree/main/lectures/topics/realtime_plotting)
 * [Marbling](https://www.youtube.com/watch?v=Vyga8VMWXKg)
