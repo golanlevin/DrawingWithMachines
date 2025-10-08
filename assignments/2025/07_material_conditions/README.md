@@ -21,7 +21,7 @@ This project is due Wednesday, October 8th and asks you to make a *small experim
 * **Bring** your drawing to class on Wednesday 10/8 for pinup.
 * **Scan or photograph** your drawing. 
 * **Create** a post in the Discord channel `#7-project`. **Embed** an image of your project.
-* In the following [Google form]() (TBA), **upload** high-quality documentation of your drawing. 
+* In the following [Google form](https://forms.gle/YGegiEt13UtDzEheA), **upload** high-quality documentation of your drawing. 
 
 
 ---
