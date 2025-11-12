@@ -126,7 +126,7 @@ More generative art cards from the print exchange of our plotter workshop at And
   </tr>
 </table>
 
-For me, the highlight of our workshop at Anderson Ranch was an unplanned colab: student Lea Eaton, and ceramics student Joey Glickman, joined forces to create a set of sgraffito Truchet/Wang tiles (generated with differential growth & hobby curves)!
+For me, the highlight of our workshop at Anderson Ranch was an unplanned collaboration: my student Lea Eaton, and Ceramics student Joey Glickman, joined forces to create a set of sgraffito Truchet/Wang tiles (generated with differential growth & hobby curves)!
 
 <table>
   <tr>
