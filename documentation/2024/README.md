@@ -168,7 +168,8 @@ Inspired by the organic and crunky unpredictability of the Line-Us plotter, BFA 
     <td><img src="img/shellyz_bugs_3.jpg" /></td>
   </tr>
 </table>
-
+
+
 Shelly Zhang also used the tiny Line-Us to introduce material irregularity into machine-drawn stop-frame animations. Working in Maya, she developed a workflow for exporting frames of 3D geometries as plottable SVGs.
 
 ![shelly_zhang_combo](img/shelly_zhang_combo.gif)
@@ -195,7 +196,8 @@ BFA sophomore [Finnian Brooke](https://www.instagram.com/finnian_brooke/) explor
 
 [Elise Chapman](https://eliseraichapman.com/), a senior in the CMU School of Design, developed a Processing program to generate flourishes and asemic writing informed by traditional calligraphy techniques. Elise made heavy use of specialized AxiDraw attachments for angled fountain pens.
 
-![elise_chapman](img/elise_chapman.jpg)
+
+![elise_chapman](img/elise_chapman.jpg)
  
 
 This light painting was produced by CMU School of Architecture 5th-year student [Mira Teng](https://www.linkedin.com/in/mira-teng-050233212/), who directed a modified, autonomous Zumo robot to roam their house. Through long-exposure photography, Mira's drawing machine gave voice to the spaces between the walls.
@@ -236,7 +238,8 @@ Jude's final project was [*Asspire*](https://studioforcreativeinquiry.org/projec
   <tr>
     <td><img src="img/jude_bissonette_asspire_3.jpg" /></td>
   </tr>
-</table>
+</table>
+
 
 [Leo Lin](https://leolin.art/about) executed a series of crisp conceptual wall installations with an AxiDraw SE/A3 pen plotter, including this [24-hour plotter clock](https://www.youtube.com/watch?v=N6idEq3z7Rw). Leo's real-time system writes the current time—once per minute—all day long.
 
@@ -262,13 +265,15 @@ Another of Leo Lin's durational installation projects was his *Bounding Box*, in
 
 ![leo_lin_bounding_box](img/leo_lin_bounding_box.jpg)
 
+#### Mark Dunand's Collaborative Drawing Machine
+
 In [Marc Dunand](https://marcdunand.com/)'s [interactive project](https://www.youtube.com/watch?v=MfCeOq2Uj1s), participants draw a curve across a piece of paper. Using his custom vision software, a plotter then embellishes this hand-drawn curve with features like trees, lakes, and houses—turning it into a charming landscape. 
 
 [![Marc Dunand interactive plotter project](https://i.ytimg.com/vi/MfCeOq2Uj1s/maxresdefault.jpg)](https://www.youtube.com/watch?v=MfCeOq2Uj1s)
 
 [![Marc Dunand interactive plotter project](https://i.ytimg.com/vi/o3LQy62Ii-I/maxresdefault.jpg)](https://www.youtube.com/watch?v=o3LQy62Ii-I)
 
-Some more photos of Marc's collaborative drawing machine, and its results. Marc developed the software using OpenCV and the A]xiDraw Python API.
+Some more photos of Marc's collaborative drawing machine, and its results. Marc developed the software using OpenCV and the AxiDraw Python API.
 
 ![marc_dunand_installation](img/marc_dunand_installation.jpg)
 
