@@ -24,6 +24,7 @@ Friends, a thread: projects from my Spring 2024 #generativeArt #plotterTwitter c
   </tr>
 </table>
 
+#### Emma Deng
 
 2nd-year BHA student [Emma Deng](https://www.emmadeng.com/about) explored combinations of virtual and real-world fluid physics, using the [Bantam Tools ArtFrame 1824](https://bantamtools.com/products/bantam-tools-artframe-1824) and [AxiDraw](https://axidraw.com/) to plot designs with ink, watercolor, and Matter.js. Her large Chinese plot is the [*Buddhist Heart Sutra*](https://en.wikipedia.org/wiki/Heart_Sutra), a text intended to be copied as a meditative practice. Emma is studying Cognitive Neuroscience and Fine Art. 
 
@@ -33,6 +34,8 @@ Friends, a thread: projects from my Spring 2024 #generativeArt #plotterTwitter c
     <td><img src="img/deng_watercolor_2.jpg" /></td>
   </tr>
 </table>
+
+#### Lorie Chen
 
 [Lorie Chen](https://www.loriechen.com/) used [openFrameworks](https://openframeworks.cc/), HP 7475A plotters, and the Bantam Tools ArtFrame 1824 to produce custom-hatched treatments of [reaction diffusion](https://github.com/jasonwebb/morphogenesis-resources?tab=readme-ov-file#reaction-diffusion) (an algorithm that produces fishlike spots)—focusing on ink layering, material failures, and the unpredictable irregularity of gel-pen media.
 
@@ -59,6 +62,7 @@ Here's more of Lorie Chen's work. Lorie created several small books from cut-up 
   </tr>
 </table>
 
+#### Vincent Wolfe
 
 BFA sophomore [Vincent Wolfe](https://www.instagram.com/fangknife/) conducted multiple investigations with [PEmbroider](https://github.com/CreativeInquiry/PEmbroider) (our [Processing](https://processing.org/) library for computational embroidery), such as [this rotoscopic vector-art animation](https://www.youtube.com/watch?v=2r4ikNz2sI4) inspired by the work of BFA alum [Huw Messie](https://www.instagram.com/huwmessie/?hl=en).
 
@@ -77,6 +81,7 @@ Vincent Wolfe also used PEmbroider and Processing to create these herbarium-styl
   </tr>
 </table>
 
+#### Em Lugo
 
 BFA senior [Em Lugo](https://github.com/elugo1/) developed a TouchDesigner-based workflow for generating SVG images, which he then plotted by rubbing carbon transfer paper (!) with an [EMSL](https://www.evilmadscientist.com/) AxiDraw. Em also explored TouchDesigner pipelines for plotting designs derived from computer vision.
 
@@ -90,6 +95,8 @@ BFA senior [Em Lugo](https://github.com/elugo1/) developed a TouchDesigner-based
   </tr>
 </table>
 
+#### Emily Liu
+
 [Emily Liu](https://medium.com/studio6117/drawing-with-machines-7af3c376267c), a senior in the [CMU School of Design](https://design.cmu.edu/), used Processing [skeletonization code](https://github.com/LingDong-/skeleton-tracing) by BCSA alum [Lingdong Huang](https://lingdong.works/) to transform ultra-high-resolution scans of her fingerprints into greatly magnified, vectorized, plotted self-portraits.
 
 <table>
@@ -101,6 +108,8 @@ BFA senior [Em Lugo](https://github.com/elugo1/) developed a TouchDesigner-based
     <td><img src="img/emily_liu_3.jpg" /></td>
   </tr>
 </table>
+
+#### Santi Salazar
 
 Santiago Salazar, a BHA junior studying Art and Cognitive Neuroscience, used EMSL AxiDraws and vintage HP7475A's to develop a distinctive, glitched approach to computational image hatching. 
 
@@ -126,6 +135,8 @@ One of Santi's most impressive projects was [*cuerpo y alas*](https://www.youtub
   </tr>
 </table>
 
+#### Ana Jungle
+
 2nd-year BFA student Anastasia Jungle has a keen interest in rule-based poetry and a material obsession with sandbags. They used PEmbroider and 
 Daniel Howe's [RiTa.js](https://rednoise.org/rita/) to create a series of satirical barricades, with text generated from OSHA manuals and employment contracts.
 
@@ -140,6 +151,7 @@ Daniel Howe's [RiTa.js](https://rednoise.org/rita/) to create a series of satiri
   </tr>
 </table>
 
+#### Mimi Chuang
 
 The playful and wobbly [Line-Us plotter](https://www.line-us.com/) was a hit with many students this spring. 3rd-year BXA student [Mimi Chuang](https://mimichuang.com/) used it to develop an interactive storybook—merging Mad Libs and Mr. Potatohead—in which players can freely combine modular stickers of body parts with generated text.
 
@@ -154,7 +166,7 @@ The playful and wobbly [Line-Us plotter](https://www.line-us.com/) was a hit wit
   </tr>
 </table>
 
-
+#### Shelly Zhang
 
 Inspired by the organic and crunky unpredictability of the Line-Us plotter, BFA senior [Shelly Zhang](https://www.zshelly.com/) used it to create drawings, drypoint etchings, and paper sculptures of squashed gnats and mosquitoes. 
 
@@ -174,6 +186,8 @@ Shelly Zhang also used the tiny Line-Us to introduce material irregularity into 
 
 ![shelly_zhang_combo](img/shelly_zhang_combo.gif)
 
+#### G Meloche
+
 BFA sophomore G Meloche developed custom workflows for generative geometry in Blender, building on SVG-export tools by [Maks Surguy](https://makssurguy.com/). They then used these to produce mixed-media pieces, combining Axidraw plots with hand-painted casein and acrylic.
 
 <table>
@@ -183,22 +197,29 @@ BFA sophomore G Meloche developed custom workflows for generative geometry in Bl
   </tr>
 </table>
 
+#### Emma Im
+
 BFA 2nd-year Emma Im created a “3D-print photobooth” in a project combining computer vision and real-time additive prototyping. [Her p5.js program](https://github.com/siye0ngim/SIMS) transforms webcam snaps directly into G-code for a low-cost 3D printer, as shown in this self-portrait.
 
 ![emma_im_3dprint](img/emma_im_3dprint.jpg)
 
 ![emma_im_vision](img/emma_im_vision.gif)
 
+#### Finnian Brooke
+
 BFA sophomore [Finnian Brooke](https://www.instagram.com/finnian_brooke/) explored "automatic" drawing in expressive and psychedelic works that combined hand and machine mark-making. In this example, a computer-generated noise field of AxiDraw marks (blue) is overdrawn by Finn's own improvised sketches (black).
 
 ![finnian_brooke](img/finnian_brooke.jpg)
 
 
+#### Elise Chapman
+
 [Elise Chapman](https://eliseraichapman.com/), a senior in the CMU School of Design, developed a Processing program to generate flourishes and asemic writing informed by traditional calligraphy techniques. Elise made heavy use of specialized AxiDraw attachments for angled fountain pens.
 
 
 ![elise_chapman](img/elise_chapman.jpg)
- 
+
+#### Mira Teng
 
 This light painting was produced by CMU School of Architecture 5th-year student [Mira Teng](https://www.linkedin.com/in/mira-teng-050233212/), who directed a modified, autonomous Zumo robot to roam their house. Through long-exposure photography, Mira's drawing machine gave voice to the spaces between the walls.
 
@@ -217,6 +238,7 @@ These computer-engraved pennies were created by [Yon Maor](https://www.linkedin.
   </tr>
 </table>
 
+#### Jude Bissonette
 
 Art+MechE senior [Jude Bissonette](https://www.linkedin.com/in/jude-bissonette/) spent the first part of the semester experimenting with algorithms for image hatching, such as rejection sampling with Perlin noise fields, and a novel technique using the XOR operator.
 
@@ -240,6 +262,7 @@ Jude's final project was [*Asspire*](https://studioforcreativeinquiry.org/projec
   </tr>
 </table>
 
+#### Leo Lin
 
 [Leo Lin](https://leolin.art/about) executed a series of crisp conceptual wall installations with an AxiDraw SE/A3 pen plotter, including this [24-hour plotter clock](https://www.youtube.com/watch?v=N6idEq3z7Rw). Leo's real-time system writes the current time—once per minute—all day long.
 
@@ -257,7 +280,6 @@ More images of Leo Lin's *AxiDraw Clock*. Leo is a junior in our hybrid BCSA (Co
     <td><img src="img/leo_lin_clock_3.jpg" /></td>
   </tr>
 </table>
-
 
 Another of Leo Lin's durational installation projects was his *Bounding Box*, in which [a drawing machine ray-traces the path of a simulated photon](https://youtube.com/watch?v=uxH9vzOfRnc) as it bounces around its enclosure. 
 
@@ -290,3 +312,4 @@ Students finished the semester with a postcard exchange, annotated in [this PDF]
 Thanks for your interest! If you're interested in browsing the "Drawing with Machines" course syllabus and resources, you can find these [here](https://github.com/golanlevin/DrawingWithMachines).
 
 ---
+
