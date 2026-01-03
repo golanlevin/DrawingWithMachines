@@ -1,15 +1,15 @@
 # Exhibition Inventory
 
-**Note**: 
+**NOTE, PLEASE READ**: 
 
-* The works below are numbered. Please let me know which of your pieces are *not for sale*, if any.
-* *This is not official documentation*. Don't fret about the poor-quality images, incorrect orientation, etc. I was just making a quick inventory of all the projects in the bin I'm taking to the gallery.
-* In a few rare instances, I also have (or know the location of) some work which is not listed below. If you're concerned about the whereabouts of a piece, ask me. 
+1. The works below are numbered. Please let me know which of your pieces are *not for sale*, if any.
+2. *This is not official documentation*! Don't worry about the (obviously) poor-quality images, incorrect orientation, etc. I was just making a quick inventory of all the projects in the folders that I'm taking to the gallery.
+3. In a few rare instances, I also have (or know the location of) some work which is not listed below. If you're concerned about the whereabouts of a piece, ask me.
 
 
 Participants: 
 
-* [A.B. Fominaya](#a-b-fominaya)
+* [A.B. Fominaya](#ab-fominaya)
 * [Alice Tang](#alice-tang)
 * [Anastasia Jungle](#anastasia-jungle)
 * [Aren Davey](#aren-davey)
