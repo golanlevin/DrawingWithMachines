@@ -1,5 +1,15 @@
 # A.B. Fominaya
 
+---
+
+3. ![3](https://live.staticflickr.com/65535/54898492245_637348b2db_z.jpg)
+6. ![6](https://live.staticflickr.com/65535/55009455160_117a6f9e2b_z.jpg)
+7. ![7](https://live.staticflickr.com/65535/55009145401_9c5b20fc50_z.jpg)
+8. ![8](https://live.staticflickr.com/65535/55008261782_491320ec29_z.jpg)
+9. ![9](https://live.staticflickr.com/65535/55009145536_b14fd0182e_z.jpg)
+
+---
+
 1. ![IMG_3023_ab_fominaya](IMG_3023_ab_fominaya.JPG)
 1. ![IMG_3024_ab_fominaya](IMG_3024_ab_fominaya.JPG)
 1. ![IMG_3025_ab_fominaya](IMG_3025_ab_fominaya.JPG)
