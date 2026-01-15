@@ -67,7 +67,7 @@ Xu Bing, *A Book from the Sky* (1987-1991). Thousands of plausible but unreadabl
 
 ![xu_bing_installation](img/xu_bing_installation.jpg)
 
-Manfred Mohr, another early computer artist. Early algorithmic drawing where rule-driven marks form an abstract “script.”
+Manfred Mohr, an early computer artist. Early algorithmic drawing where rule-driven marks form an abstract “script.”
 
 ![manfred_mohr_1970](img/manfred_mohr_1970.jpg)
 
@@ -121,11 +121,11 @@ Asemic writing operates in the pre-semantic layer of writing: the cues that tell
 
 Readings
 
-* Aima, Rahel. “[Definition Not Found](https://reallifemag.com/definition-not-found/).” *Real Life*, September 2016.
+* Aima, Rahel. “[Definition Not Found](https://reallifemag.com/definition-not-found/).” *Real Life*, September 2016. [[PDF](readings/definition_not_found.pdf)]
 * Boice, Robert, and Patricia E. Meyers. “[Two Parallel Traditions: Automatic Writing and Free Writing](https://journals.sagepub.com/doi/abs/10.1177/0741088386003004004).” *Written Communication*, v.3.#4, October 1986, pp. 471–90.
-* Callich, Ty Casey. “[Mean Less: My Experience With Asemic Writing](https://medium.com/@tylercaseycallich/mean-less-my-experience-with-asemic-writing-5c5791e91162).” 12 October 2016.
-* Bury, Louis. “[Mirtha Dermisache’s Writing Is a Rorschach Test](https://hyperallergic.com/444659/selected-writings-mirtha-dermisache-ugly-duckling-presse-siglio-2017/).” *Hyperallergic*, 24 June 2018.
-* Fenstermaker, Will. "[Mirtha Dermisache and the Limits of Language](https://www.theparisreview.org/blog/2018/01/30/mirtha-dermisache-limits-language/)", *The Paris Review*, 30 January 2018.
+* Callich, Ty Casey. “[Mean Less: My Experience With Asemic Writing](https://web.archive.org/web/20170225130331/https://medium.com/@tylercaseycallich/mean-less-my-experience-with-asemic-writing-5c5791e91162).” 12 October 2016.
+* Bury, Louis. “[Mirtha Dermisache’s Writing Is a Rorschach Test](https://hyperallergic.com/444659/selected-writings-mirtha-dermisache-ugly-duckling-presse-siglio-2017/).” *Hyperallergic*, 24 June 2018. [[PDF](readings/dermisache_hyperallergic.pdf)]
+* Fenstermaker, Will. "[Mirtha Dermisache and the Limits of Language](https://www.theparisreview.org/blog/2018/01/30/mirtha-dermisache-limits-language/)", *The Paris Review*, 30 January 2018. [[PDF](readings/dermisache_paris_review.pdf)]
 * Ingold, Tim. [*Lines: A Brief History*](https://ebookcentral.proquest.com/lib/cm/reader.action?docID=4507339&ppg=137). Chapter 5 Drawing, writing and calligraphy (pp. 137-168).
 
 
