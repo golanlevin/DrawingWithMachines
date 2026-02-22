@@ -4,12 +4,13 @@
 
 ## Core Topics
 
-* [Drawing Machine](drawing_machine/list.md)
-* [Line: Walking a Dot](walking_a_dot/README.md)
-* [Pattern](https://github.com/golanlevin/lectures/tree/master/lecture_pattern)
-* [Tone](tone/README.md)
-* [Field](field/README.md)
-* [Material Conditions](material_conditions/README.md)
+* [**Drawing Machine**](drawing_machine/list.md) — and [assignment](../../assignments/2025/01_drawing_machine/README.md)
+* [**Line** (Walking a Dot)](walking_a_dot/README.md) — and [assignment](../../assignments/2025/03_line/README.md)
+* [**Tone**](tone/README.md) — and [assignment](../../assignments/2025/04_tone/README.md)
+* [**Pattern**](https://github.com/golanlevin/lectures/tree/master/lecture_pattern) — and [assignment](../../assignments/2025/05_pattern/README.md)
+* [**Field**](field/README.md) — and [assignment](../../assignments/2024/07_field/README.md)
+* [**Material Conditions**](material_conditions/README.md) — and [assignment](../../assignments/2025/07_material_conditions/README.md)
+
 
 ## Additional Topics
 
