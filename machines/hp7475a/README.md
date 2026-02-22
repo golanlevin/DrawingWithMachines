@@ -262,3 +262,4 @@ Vpype is an extremely powerful tool for SVG manipulation, but there are several 
 
 * [HP7475A pen adapter](3d_pen_adapter/README.md)
 * [HP7475A geneva wheel](3d/hp_7475a_geneva_wheel.stl)
+* [Julien Dorra's OpenSCAD models for HP pen adapters](https://github.com/juliendorra/3D-printable-plotter-adapters-for-pens-and-refills)
