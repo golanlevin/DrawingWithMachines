@@ -52,3 +52,7 @@ Index to instructions for plotting with our classroom equipment.
 * RGB Laser & EtherDream controller
 * Viking Jade 35A CNC embroidery machine
 * Small Vinyl cutter
+
+### *Other Resources*
+
+* [Pen Plotter Calibration Sheet Generator](https://laserpilot.github.io/Pen-Plotter-Calibration/) by Blair Neal

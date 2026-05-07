@@ -96,3 +96,4 @@ There are some really [wild inks out there](https://www.reddit.com/r/fountainpen
 Unincorporated notes: 
 
 * Lightpainting, https://www.instagram.com/p/DI_gGrhpO45/
+* Amy Goodchild painting: https://x.com/amygoodchild/status/2049189017527230964
