@@ -20,10 +20,13 @@ Contents:
 ![hp7475a_penholder_parts](img/hp7475a_pen_adapter_parts_rendering.png)
 
 The body of the pen adapter is intended for PLA filament printing in two pieces (pictured at left and center, above), which must be [super-glued](https://www.amazon.com/Super-Glue-11710615-Gel-Future/dp/B08WJSY5RK/?th=1) together. Printing the design in two pieces eliminates the need for messy support structures under the central flange. The design includes an optional pen-cap (pictured at right), which offers a snap-fit and a knurled barrel. The pieces should be printed with a *fine* or *ultrafine* setting, if possible. 
-* [hp7475a_pen_adapter.stl](files/hp7475a_pen_adapter.stl) – STL file* [hp7475a_pen_adapter_obj.zip](files/hp7475a_pen_adapter_obj.zip) – OBJ & MTL files
-* [hp7475a_pen_adapter.glb.zip](files/hp7475a_pen_adapter.glb.zip) - GLB/GLTF file* [hp7475a_pen_adapter_UM2E.gcode.zip](files/hp7475a_pen_adapter_UM2E.gcode.zip) – GCODE for an Ultimaker 2 Extended+ 3D printer, using a 0.4mm nozzle
+* [hp7475a_pen_adapter.stl](files/hp7475a_pen_adapter.stl) – STL file* [hp7475a_pen_adapter_obj](files/hp7475a_pen_adapter_obj) – OBJ file
 * This 3D model was created with TinkerCAD; you are welcome to remix [the design file here](https://www.tinkercad.com/things/lzj4ZikZXlT-hp7475apenadaptercap).
 * A version of this model without the pen cap is also [available at Thingiverse](https://www.thingiverse.com/thing:7032730).
+
+<!-- 
+* [hp7475a_pen_adapter_UM2E.gcode.zip](files/hp7475a_pen_adapter_UM2E.gcode.zip) – GCODE for an Ultimaker 2 Extended+ 3D printer, using a 0.4mm nozzle
+-->
 
 ---
 
@@ -49,10 +52,10 @@ Fitting the adapter with the short [Pilot G-2 Mini](https://www.amazon.com/Retra
 
 ## Fabrication Notes
 
-1. Note that this pen adapter model was created specifically for fabrication with the [Ultimaker 2 Extended+](https://ultimaker.com/learn/ultimaker-2-and-ultimaker-2-extended-source-files-available/) 3D printer located in the CMU STUDIO for Creative Inquiry (CFA-111). *Your results may vary if you create these files with other 3D printers.*
+1. Note that this pen adapter model was tested with the [Ultimaker 2 Extended+](https://ultimaker.com/learn/ultimaker-2-and-ultimaker-2-extended-source-files-available/) 3D printer located in the CMU STUDIO for Creative Inquiry (CFA-111). *Your results may vary if you create these files with other 3D printers.*
 2. The pen adapter weighs 4g (with cap) and consumes ~0.5m of 2.85mm filament. Printing it with a 0.4mm nozzle takes about 60-90 minutes.
 3. Trimming the adapter with a [deburring tool](https://www.amazon.com/Deburring-Blades-Printing-Plastic-Printed/dp/B0DDPM9S4Y/?th=1) is recommended to ensure easy insertion and removal of pen refills. It may also help to sand the central barrel of the adapter, to ensure better uptake by the plotter's pen grabbing mechanism.
-4. The body of the pen adapter is printed in two pieces, which must be [super-glued](https://www.amazon.com/Super-Glue-11710615-Gel-Future/dp/B08WJSY5RK/?th=1) together; I recommend using cyanoacrylate gel. Note that the cylindrical base piece has a small flat area (intended for e.g. [adhesive labels](https://www.amazon.com/WANSTE-Permanent-Adhesive-Color-Code-Dispenser/dp/B0DFQ3PQYH/?th=1)); when gluing the pieces of the adapter together, this flat area should be oriented *away from* the pen-point.
+4. The body of the pen adapter is printed in two pieces, which must be [super-glued](https://www.amazon.com/Super-Glue-11710615-Gel-Future/dp/B08WJSY5RK/?th=1) together; I recommend using cyanoacrylate gel. When gluing the pieces of the adapter together, the hole for the set screw should be oriented on the far side, away from the pen-point.
 5. The pen adapter requires an [M3 set screw](https://www.amazon.com/Black-Socket-Screw-Assortment-200pcs/dp/B07H5P7J5P/) (also called a "grub screw") to hold the pen refill in place. To adjust the M3 set screw, you will need a [1.5mm hex wrench](https://www.amazon.com/Piutouyar-Hexagon-Replacement-Repairing-Furniture/dp/B0BL29MTDM/).
 
 
@@ -62,7 +65,7 @@ Fitting the adapter with the short [Pilot G-2 Mini](https://www.amazon.com/Retra
 
 * *New* pens compatible with the HP7475A have occasionally been available from Amazon: Check for [KOH-I-NOOR Fiber-Tip Plotter Pens](https://www.amazon.com/dp/B000KNNIL0), with manufacturer product number 6401.01F, UPC 14173-28306. Note: Old HP numbers were 178xxP.
 * This [YouTube video](https://www.youtube.com/watch?v=h-oj4HrTH14) by CuriousMarc shows a method for refilling the ink in a vintage pen.
-* Various persons have developed 3D-printed adapters to allow modern pens in the HP7475A:
+* Various persons have developed 3D-printed adapters to allow modern pens in HP plotters:
    * [3D printable plotter adapters for pens and refills](https://github.com/juliendorra/3D-printable-plotter-adapters-for-pens-and-refills) (extensive!)
 	* [Thingiverse: 227985](https://www.thingiverse.com/thing:227985) 
 	* [Thingiverse: 229982](https://www.thingiverse.com/thing:229982)

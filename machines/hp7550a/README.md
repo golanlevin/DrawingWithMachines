@@ -18,7 +18,7 @@ The [HP Computer Museum writes](https://www.hpmuseum.net/display_item.php?hw=75)
 
 The HP7550A uses "plotter units", which are the units used in all HPGL drawing commands. There are 1016 plotter units to the inch, i.e. each plotter unit is 0.025mm. (Note that [*vpype* reports this size as 0.02488mm](https://github.com/abey79/vpype/blob/master/vpype/vpype_config.toml#L27C24-L27C33)). 
 
-The plotter-unit coordinate system is oriented on the paper so that the origin `(0,0)` always lies inside the lower-left corner of the paper, with the **Y**-axis extending upward along the short side of the paper, and the **X**-axis extending to the right along the long side of the paper. The orientation on the paper is the same, regardless of what direction the paper is loaded in the plotter.
+The plotter-unit coordinate system is oriented on the paper so that the origin `(0,0)` always lies inside the lower-left corner of the paper, with the **Y**-axis extending upward along the short side of the paper, and the **X**-axis extending to the right along the long side of the paper. The orientation of the coordinate axes relative to the paper is the same, regardless of what direction the paper is loaded in the plotter.
 
 ![hp7550a origin and axes ](img/hp7550a_origin_and_axes.jpg)
 
@@ -50,27 +50,28 @@ The information here is abbreviated. Before proceeding with the HP7550A, please 
 * [Plotting with the HP7475A](../hp7475a/README.md)
 * [Prepping SVGs for Plotting with *vpype*](../../generating_svg/vpype_svg_prep/README.md)
 
-When connecting the plotter to your computer, note that the HP7550A has two RS-232 ports. The data cable should be connected to the port labeled "COMPUTER/MODEM", and not "TERMINAL". 
+#### Technical Notes
 
-The *vpype* SVG-to-HPGL workflow includes a calibration file for the HP7550A, accessed using the flag: `--device hp7550`. 
+* Connecting to the HP7550A also requires a [25-pin null modem adapter](https://www.amazon.com/dp/B00006HSC2) and a [25-pin female-to-female](https://www.amazon.com/dp/B0B7LYGX1P) adapter.
+* When connecting the plotter to your computer, note that the HP7550A has *two* RS-232 ports. Your 25-pin data cable should be connected to the port labeled "COMPUTER/MODEM", and **not** "TERMINAL". (The plotter also has an HPIB port, which we are not using.)
 
-<!--
-`--page-size a4 --letter
---> 
-
-Valid *vpype* arguments for `pagesize` on the HP7550A are: 
+The *vpype* SVG-to-HPGL workflow includes a calibration file for the HP7550A, accessed using the flag: `--device hp7550`. Valid *vpype* arguments for `pagesize` on the HP7550A are: 
 
 * `ansi_a` or `letter` or `a` 
 * `ansi_b` or `tabloid` or `b`
 * `a3` or `A3`
 * `a4` or `A4`
 
+<!--
+`--page-size a4 --letter
+--> 
+
 In *vpype*, portrait orientation is the default, unless `--landscape` is used. Thus: 
 
 * To set the page size to letter: `vpype […] pagesize letter […]`
 * To set the page size to landscape letter: `vpype […] pagesize --landscape letter […]`
 
-Here are 4 sample SVG files, created with [this p5 test program](https://editor.p5js.org/golan/sketches/OaNCLhcUr). These files can be used to test HPGL generation and plotting with standard US paper sizes (letter and tabloid) in both portrait and landscape orientations. A minimal *vpype* command for generating HPGL is included:
+Here are 4 sample SVG files, created with [this p5 test program](https://editor.p5js.org/golan/sketches/OaNCLhcUr). These files can be used to test HPGL generation and plotting with standard US paper sizes (letter and tabloid) in both portrait and landscape orientations. Minimal *vpype* commands for generating HPGL from these SVGs are included below:
 
 * [test_letter_portrait.svg](svg/test_letter_portrait.svg)<br/>
 `vpype read test_letter_portrait.svg write --device hp7550 pagesize ansi_a --absolute test_letter_portrait.hpgl`
