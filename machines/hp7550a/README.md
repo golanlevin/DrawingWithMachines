@@ -10,7 +10,9 @@
 
 The [HP Computer Museum writes](https://www.hpmuseum.net/display_item.php?hw=75): 
 
-> The 7550 was the most advanced small plotter ever built. It had an incredible acceleration of 6g, making it one of the fastest plotters ever (and the most fun to watch). The 7550 had 8 pens and could plot on many types of media including paper, transparency film, vellum and polyester film. It was also the first plotter to include a sheet feeder, which allowed for unattended plotting. The 7550 had some minor limitations: its replot buffer was too small to be useful, it was big and it had a noisy fan. The 7550B offered the option of memory upgrades. Overall, the product never had a peer in the marketplace and it had a ten-year product life.
+> The 7550 was the most advanced small plotter ever built. It had an incredible acceleration of 6g, making it one of the fastest plotters ever (and the most fun to watch). The 7550 had 8 pens and could plot on many types of media including paper, transparency film, vellum and polyester film. It was also the first plotter to include a sheet feeder, which allowed for unattended plotting. The 7550 had some minor limitations: its replot buffer was too small to be useful, it was big and it had a noisy fan. Overall, the product never had a peer in the marketplace and it had a ten-year product life.
+
+Our lab's 7550A was manufactured in 1988.
 
 ---
 

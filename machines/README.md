@@ -4,6 +4,13 @@ Index to instructions for plotting with our classroom equipment.
 
 ---
 
+## Bantam ArtFrame 1824
+
+* [Plotting SVG's on the Bantam ArtFrame 1824](bantam_artframe_1824/README.md)
+* [Bantam ArtFrame 1824 User Guide](bantam_artframe_1824/artframe_guide_v1-1-1.pdf)
+* [Controlling the ArtFrame in Real-Time with G-Code](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime#readme)
+* [Processing (Java) code](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime/artframe_realtime_processing/artframe_realtime_processing.pde) for controlling the Bantam ArtFrame in real time
+
 ## AxiDraw
 
 * [**AxiDraw Standalone RPi Kiosk Instructions**](../rpi_standalone/README.md)
@@ -17,20 +24,15 @@ Index to instructions for plotting with our classroom equipment.
 * [Configuring HP7475A with GP-IB/HP-IB](hp7475a/manuals/GPIB/README.md)
 * [Realtime Control of the HP7475A with Processing](https://github.com/golanlevin/DrawingWithMachines/blob/main/machines/hp7475a/processing/realtime_7475a/realtime_7475a.pde)
 
+## HP7550A
+
+* [**Instructions for Plotting with the HP 7550A**](hp7550a/README.md)
+* *Students wishing to use the 7550 should learn the 7475A first.*
+
 ## HP DraftMaster II 7596A
 
 * [**Instructions for Plotting with the HP DraftMaster II**](hp_draftmaster/README.md)
-
-## Bantam ArtFrame 1824
-
-* [Plotting SVG's on the Bantam ArtFrame 1824](bantam_artframe_1824/README.md)
-* [Bantam ArtFrame 1824 User Guide](bantam_artframe_1824/artframe_guide_v1-1-1.pdf)
-* [Controlling the ArtFrame in Real-Time with G-Code](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime#readme)
-* [Processing (Java) code](https://github.com/golanlevin/DrawingWithMachines/tree/main/realtime/artframe_realtime/artframe_realtime_processing/artframe_realtime_processing.pde) for controlling the Bantam ArtFrame in real time
-
-## Line-Us
-
-* [**Instructions for Plotting with Line-Us**](line-us/README.md)
+* *Students wishing to use the DraftMaster should learn the 7475A first.*
 
 ## USCutter MH871-MK2
 
@@ -39,6 +41,10 @@ Index to instructions for plotting with our classroom equipment.
 ## Rotring NC-Scriber CS 100
 
 * [**Instructions for the Rotring NC-Scriber CS 100**](rotring-nc-scriber-cs100/README.md)
+
+## Line-Us
+
+* [**Instructions for Plotting with Line-Us**](line-us/README.md)
 
 
 ---
