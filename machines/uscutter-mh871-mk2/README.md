@@ -11,13 +11,13 @@ This document provides instructions for plotting with a **USCutter MH871-MK2**. 
 
 **Contents:**
 
-* [Introduction to the USCutter]()
-* [Configuring vpype for USCutter files]()
-  * [Plotting Non-standard Page Sizes]()
-  * [SVG to HPGL conversion commands]()
-* [Setting up the USCutter]()
-* [Transmitting to the USCutter from your laptop]()
-* [Notes from experience]()
+* [Introduction to the USCutter](#introduction-to-the-uscutter)
+* [Configuring vpype for USCutter files](#configuring-vpype-for-uscutter-files)
+  * [Plotting Non-standard Page Sizes](#plotting-non-standard-page-sizes)
+  * [SVG to HPGL conversion commands](#svg-to-hpgl-conversion-commands)
+* [Setting up the USCutter](#setting-up-the-uscutter)
+* [Transmitting to the USCutter from your laptop](#transmitting-to-the-uscutter-from-your-laptop)
+* [Notes from experience](#notes-from-experience)
 
 ---
 
