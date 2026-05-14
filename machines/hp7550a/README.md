@@ -1,6 +1,6 @@
 # HP7550A
 
-**Contents:**
+## **Overview**
 
 * [About HP7550A Coordinates]()
 * [Plotting with the HP7550A]()
@@ -54,10 +54,28 @@ The information here is abbreviated. Before proceeding with the HP7550A, please 
 
 #### Technical Notes
 
-* Connecting to the HP7550A also requires a [25-pin null modem adapter](https://www.amazon.com/dp/B00006HSC2) and a [25-pin female-to-female](https://www.amazon.com/dp/B0B7LYGX1P) adapter.
-* When connecting the plotter to your computer, note that the HP7550A has *two* RS-232 ports. Your 25-pin data cable should be connected to the port labeled "COMPUTER/MODEM", and **not** "TERMINAL". (The plotter also has an HPIB port, which we are not using.)
+* In addition to the HP 24542G cable (DB9 female to DB25 male), connecting to the HP7550A also requires a [25-pin female-to-female](https://www.amazon.com/dp/B0B7LYGX1P) "Gender Changer" adapter.
+* When connecting the plotter to your computer, note that the HP7550A has *two* RS-232 ports and an HPIB port. Your 25-pin data cable should be connected to the (middle) RS-232 port labeled "COMPUTER/MODEM", and **not** "TERMINAL". It shouldn't be necessary to adjust these, but here are the settings for the plotter's serial configuration:
 
-The *vpype* SVG-to-HPGL workflow includes a calibration file for the HP7550A, accessed using the flag: `--device hp7550`. Valid *vpype* arguments for `pagesize` on the HP7550A are: 
+| Setting                  | Value      |
+| ------------------------ | ---------- |
+| REMOTE / LOCAL / STANDBY | REMOTE     |
+| EAVESDROP / STANDALONE   | STANDALONE |
+| BYPASS                   | OFF        |
+| HANDSHAKE MODE           | HARDWIRE   |
+| MODEM / DIRECT           | DIRECT     |
+| DUPLEX                   | FULL       |
+| BAUD RATE                | 9600       |
+| PARITY                   | OFF        |
+| DATA BITS                | 8 BITS     |
+| STOP BITS                | 1          |
+
+
+On the computer side, here are the CoolTerm settings for communication with the HP7550A: 
+
+![coolterm_hp7550a.png](img/coolterm_hp7550a.png)
+
+The *vpype* SVG-to-HPGL workflow includes built-in calibration information for the HP7550A, which is accessed using the flag: `--device hp7550`. Valid *vpype* arguments for `pagesize` on the HP7550A are: 
 
 * `ansi_a` or `letter` or `a` 
 * `ansi_b` or `tabloid` or `b`
