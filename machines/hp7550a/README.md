@@ -18,9 +18,7 @@ Our lab's 7550A was manufactured in 1988.
 
 ## About HP7550A Coordinates
 
-The HP7550A uses "plotter units", which are the units used in all HPGL drawing commands. There are 1016 plotter units to the inch, i.e. each plotter unit is 0.025mm. (Note that [*vpype* reports this size as 0.02488mm](https://github.com/abey79/vpype/blob/master/vpype/vpype_config.toml#L27C24-L27C33)). 
-
-The plotter-unit coordinate system is oriented on the paper so that the origin `(0,0)` always lies inside the lower-left corner of the paper, with the **Y**-axis extending upward along the short side of the paper, and the **X**-axis extending to the right along the long side of the paper. The orientation of the coordinate axes relative to the paper is the same, regardless of what direction the paper is loaded in the plotter.
+The HP7550A uses "plotter units", which are the units used in all HPGL drawing commands. There are 1016 plotter units to the inch, i.e. each plotter unit is 0.025mm. The plotter-unit coordinate system is oriented on the paper so that the origin `(0,0)` always lies inside the lower-left corner of the paper, with the **Y**-axis extending upward along the short side of the paper, and the **X**-axis extending to the right along the long side of the paper. The orientation of the coordinate axes relative to the paper is the same, regardless of what direction the paper is loaded in the plotter.
 
 ![hp7550a origin and axes ](img/hp7550a_origin_and_axes.jpg)
 
@@ -54,8 +52,8 @@ The information here is abbreviated. Before proceeding with the HP7550A, please 
 
 #### Technical Notes
 
-* In addition to the HP 24542G cable (DB9 female to DB25 male), connecting to the HP7550A also requires a [25-pin female-to-female](https://www.amazon.com/dp/B0B7LYGX1P) "Gender Changer" adapter.
-* When connecting the plotter to your computer, note that the HP7550A has *two* RS-232 ports and an HPIB port. Your 25-pin data cable should be connected to the (middle) RS-232 port labeled "COMPUTER/MODEM", and **not** "TERMINAL". It shouldn't be necessary to adjust these, but here are the settings for the plotter's serial configuration:
+* In addition to the HP 24542G cable (DB9 female to DB25 male), connecting to the HP7550A also requires a [25-pin female-to-female](https://www.amazon.com/dp/B0B7LYGX1P) ("gender changer") adapter.
+* When connecting the plotter to your computer, note that the HP7550A has *two* RS-232 ports and an HPIB port. Your 25-pin data cable should be connected to the (middle) RS-232 port labeled "COMPUTER/MODEM", and **not** "TERMINAL". It shouldn't be necessary to adjust these for our lab machine, but here are the settings for the plotter's serial configuration:
 
 | Setting                  | Value      |
 | ------------------------ | ---------- |
@@ -71,11 +69,11 @@ The information here is abbreviated. Before proceeding with the HP7550A, please 
 | STOP BITS                | 1          |
 
 
-On the computer side, here are the CoolTerm settings for communication with the HP7550A: 
+On the computer side, here are the CoolTerm settings for serial communication with the HP7550A: 
 
 ![coolterm_hp7550a.png](img/coolterm_hp7550a.png)
 
-The *vpype* SVG-to-HPGL workflow includes built-in calibration information for the HP7550A, which is accessed using the flag: `--device hp7550`. Valid *vpype* arguments for `pagesize` on the HP7550A are: 
+The *vpype* SVG-to-HPGL workflow includes built-in calibration information for the HP7550A, which is accessed using the flag: `--device hp7550`. Valid *vpype* arguments for `--page-size` on the HP7550A are: 
 
 * `ansi_a` or `letter` or `a` 
 * `ansi_b` or `tabloid` or `b`
@@ -88,17 +86,17 @@ The *vpype* SVG-to-HPGL workflow includes built-in calibration information for t
 
 In *vpype*, portrait orientation is the default, unless `--landscape` is used. Thus: 
 
-* To set the page size to letter: `vpype […] pagesize letter […]`
-* To set the page size to landscape letter: `vpype […] pagesize --landscape letter […]`
+* To set the page size to letter: `vpype […] --page-size letter […]`
+* To set the page size to landscape letter: `vpype […] --page-size letter --landscape […]`
 
-Here are 4 sample SVG files, created with [this p5 test program](https://editor.p5js.org/golan/sketches/OaNCLhcUr). These files can be used to test HPGL generation and plotting with standard US paper sizes (letter and tabloid) in both portrait and landscape orientations. Minimal *vpype* commands for generating HPGL from these SVGs are included below:
+Here are 4 sample SVG files, created with [this p5 test program](https://editor.p5js.org/golan/sketches/OaNCLhcUr). These files can be used to test HPGL generation and plotting with standard US paper sizes (letter and tabloid) in both portrait and landscape orientations. Minimal *vpype* commands for generating HPGL from these SVGs are included below, as well as HPGL files created with these commands:
 
-* [test_letter_portrait.svg](svg/test_letter_portrait.svg)<br/>
-`vpype read test_letter_portrait.svg write --device hp7550 pagesize ansi_a --absolute test_letter_portrait.hpgl`
-* [test_letter_landscape.svg](svg/test_letter_landscape.svg)<br/>
-`vpype read test_letter_landscape.svg write --device hp7550 pagesize ansi_a --landscape --absolute test_letter_landscape.hpgl`* [test_tabloid_portrait.svg](svg/test_tabloid_portrait.svg)<br/>
-`vpype read test_tabloid_portrait.svg write --device hp7550 pagesize ansi_b --absolute test_tabloid_portrait.hpgl`* [test_tabloid_landscape.svg](svg/test_tabloid_landscape.svg)<br/>
-`vpype read test_tabloid_landscape.svg write --device hp7550 pagesize ansi_b --landscape --absolute test_tabloid_landscape.hpgl`
+* [test_letter_portrait.svg](svg/test_letter_portrait.svg)<br/>[test_letter_portrait.hpgl](hpgl/test_letter_portrait.hpgl)<br/>
+`vpype read test_letter_portrait.svg write --device hp7550 --page-size ansi_a --absolute test_letter_portrait.hpgl`
+* [test_letter_landscape.svg](svg/test_letter_landscape.svg)<br/>[test_letter_landscape.hpgl](hpgl/test_letter_landscape.hpgl)<br/>
+`vpype read test_letter_landscape.svg write --device hp7550 --page-size ansi_a --landscape --absolute test_letter_landscape.hpgl`* [test_tabloid_portrait.svg](svg/test_tabloid_portrait.svg)<br/>[test_tabloid_portrait.hpgl](hpgl/test_tabloid_portrait.hpgl)<br/>
+`vpype read test_tabloid_portrait.svg write --device hp7550 --page-size ansi_b --absolute test_tabloid_portrait.hpgl`* [test_tabloid_landscape.svg](svg/test_tabloid_landscape.svg)<br/>[test_tabloid_landscape.hpgl](hpgl/test_tabloid_landscape.hpgl)<br/>
+`vpype read test_tabloid_landscape.svg write --device hp7550 --page-size ansi_b --landscape --absolute test_tabloid_landscape.hpgl`
 
 [![test_ansi-a.png](img/test_ansi.png)](svg/)
 
