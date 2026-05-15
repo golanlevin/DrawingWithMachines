@@ -20,6 +20,8 @@ Our lab's 7550A was manufactured in 1988.
 
 The HP7550A uses "plotter units", which are the units used in all HPGL drawing commands. There are 1016 plotter units to the inch, i.e. each plotter unit is 0.025mm. The plotter-unit coordinate system is oriented on the paper so that the origin `(0,0)` always lies inside the lower-left corner of the paper, with the **Y**-axis extending upward along the short side of the paper, and the **X**-axis extending to the right along the long side of the paper. The orientation of the coordinate axes relative to the paper is the same, regardless of what direction the paper is loaded in the plotter.
 
+***Note:*** *If you wish to create imagery with very precise dimensions, then until [this issue](https://github.com/abey79/vpype/issues/848) is resolved, it may be necessary to modify the HP7550 `plotter_unit_length` to 0.025mm in line 269 of `vpype/vpype_config.toml`.*
+
 ![hp7550a origin and axes ](img/hp7550a_origin_and_axes.jpg)
 
 #### HP7550A Default Scaling Points (in Plotter Units): 
