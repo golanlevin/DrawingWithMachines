@@ -1,6 +1,10 @@
 # Drawing With Machines: One-Week Workshop Syllabus
 
-Syllabus and Resources for Golan Levin's one-week *Drawing with Machines* [Workshop at Anderson Ranch](https://www.andersonranch.org/workshops/workshop/drawing-with-machines-p0814-22/), July 2022. *Some links may be obsolete*.
+Syllabus and Resources for Golan Levin's one-week *Drawing with Machines* [Workshop at Anderson Ranch](https://www.andersonranch.org/workshops/workshop/drawing-with-machines-p0814-22/), July 25-29, 2022. *Some links may be obsolete*.
+
+![lingdong_plotter_banner.jpg](img/lingdong_plotter_banner.jpg)
+
+> *In this workshop, students challenge themselves with experimental drawing, generative art, computational design and mechatronic tinkering. Working at the boundaries of creative coding, physical materials and digital fabrication, participants explore: personal and peculiar new approaches to mark-making; the development of ultra-niche workflows as a mode of creative practice; and the use of algorithms and machine collaborators as nontraditional intermediaries between mind, hand and paper. Participants develop skills in generative art while learning how to control popular robotic pen plotters like the AxiDraw SE/A1 and the HP7475a. Interested participants should have some prior programming experience, ideally equivalent to an introductory creative coding course in Python, p5.js, or Processing.*
 
 ---
 
