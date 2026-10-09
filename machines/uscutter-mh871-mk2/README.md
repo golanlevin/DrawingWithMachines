@@ -8,6 +8,7 @@ This document provides instructions for plotting with a **USCutter MH871-MK2**. 
 
 * [mh871-manual.pdf](pdf/mh871-manual.pdf)
 * [mh-manual-09172019.pdf](pdf/mh-manual-09172019.pdf)
+* [MH Series Setup and Installation Guide Video](https://www.youtube.com/watch?v=R-fdVSq0bro) (YouTube)
 
 **Contents:**
 
