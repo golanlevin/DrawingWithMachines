@@ -32,14 +32,36 @@ Golan Levin is a professor of computational and interactive new media art at Car
 
 <img src="img/tippi_li_adjusting_plotter.jpg" width=500>
 
+<img src="img/tippi_looking_at_plot.jpg" width=500>
+
+<img src="../2022/img/lea_eaton_clay_truchet_1.jpg" width=500>
+<img src="img/axidraw_with_pastels.jpg" width=500>
+
 <img src="img/lingdong_huang_plot_landscape.jpg" width=500>
 
 <img src="img/bantam_artframe_plotting_a_blob.jpg" width=500>
 
 <img src="img/hp7475a_plotting_a_blob.jpg" width=500>
 
+<img src="../2024/img/lorie_pattern_4.jpg" width=500>
 
+<img src="../2024/img/lorie_pattern_5.jpg" width=500>
 
+<img src="../2024/img/santi_1.jpg" width=500>
+
+<img src="../2024/img/santi_5.jpg" width=500>
+
+<img src="../2024/img/finnian_brooke.jpg" width=500>
+
+<img src="../2021/img/aren_davey_mod9_2.jpg" width=500>
+
+<img src="../2021/img/jean_cho_bones_4.jpg" width=500>
+
+<img src="../2021/img/shiva_chairs_1.jpg" width=500>
+
+<img src="../2021/img/diamant_tendrils_1.jpg" width=500>
+
+<img src="img/ian_giles_plot_pattern.jpg" width=500>
 
 
 
